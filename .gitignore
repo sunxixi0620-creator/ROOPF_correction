@@ -1,6 +1,8 @@
 __pycache__/
 *.py[cod]
 .venv/
+.vscode/
+docs/paper_audit/
 results/*
 !results/.gitkeep
 
