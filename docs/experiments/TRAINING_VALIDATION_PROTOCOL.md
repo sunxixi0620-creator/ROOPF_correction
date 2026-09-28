@@ -30,7 +30,8 @@ not wholly unseen function families. Serialize parameters and populations so
 device changes cannot silently regenerate tasks. Do not use BBOB/CEC outcomes.
 Checkpoints at80,90,...160 are scored by the function-balanced mean of
 `gain/(1+gain)`, where gain=(initial_best-final_best)/initial_std. Also retain
-raw endpoints and unbounded normalized gains. Select the best validation score,
+raw endpoints and normalized gains (assert gain>=-1e-5, then clamp rounding-sized
+negative values to0). Select the best validation score,
 tie favoring the earlier epoch. Training loss never selects the new checkpoint.
 
 Confirmation: separate instances with parameter/population seeds67000000 and

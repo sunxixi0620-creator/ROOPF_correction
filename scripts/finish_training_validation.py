@@ -65,6 +65,7 @@ def summarize():
     report['counts']={'anchor_extra_training_points':sum(json.loads((OUT/a/'COMPLETE').read_text())['training_points'] for a in ['legacy','shared_scale']),
         'validation_runs':sum(len(list((OUT/a).glob('validation_*.json')))*288 for a in ['legacy','shared_scale']),
         'confirmation_runs':len(df),'auxiliary_runs':len(aux),'auxiliary_teacher_points':1094400,
+        'dataset_initial_value_points':57600,
         'preflight':'288anchor validation trajectories and two four-trajectory full runs, with15200teacher points; excluded from formal counts'}
     (OUT/'REPORT.json').write_text(json.dumps(report,indent=2))
     return report
