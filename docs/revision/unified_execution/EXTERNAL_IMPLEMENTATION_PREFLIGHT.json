@@ -1,0 +1,32 @@
+{
+  "cec_candidate_queries": 0,
+  "gp20_budget600": true,
+  "source_files": 99,
+  "synthetic_five_methods": [
+    {
+      "budget": 300,
+      "method": "no_residual",
+      "seconds": 0.7126269349828362
+    },
+    {
+      "budget": 300,
+      "method": "anchor_only",
+      "seconds": 0.09427561797201633
+    },
+    {
+      "budget": 300,
+      "method": "no_residual_score_only",
+      "seconds": 0.4030803821515292
+    },
+    {
+      "budget": 300,
+      "method": "cma_es",
+      "seconds": 0.01998024107888341
+    },
+    {
+      "budget": 300,
+      "method": "gp_ei",
+      "seconds": 2.5159242551308125
+    }
+  ]
+}
