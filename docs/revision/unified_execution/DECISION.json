@@ -1,0 +1,144 @@
+{
+  "comparisons": {
+    "full_vs_anchor_only": {
+      "by_seed": [
+        0.02709248120016936,
+        0.047083776644689754,
+        0.03785421677295946
+      ],
+      "ci95": [
+        0.02047937564439727,
+        0.0591549837877715
+      ],
+      "mean": 0.03734349153927286,
+      "practical_pass": true
+    },
+    "full_vs_late_full": {
+      "by_seed": [
+        0.006593345573896335,
+        0.010455661414501568,
+        0.007607967463425464
+      ],
+      "ci95": [
+        0.004656303987010486,
+        0.012737091274013637
+      ],
+      "mean": 0.008218991483941122,
+      "practical_pass": true
+    },
+    "full_vs_no_residual": {
+      "by_seed": [
+        -0.0010028780412135853,
+        -0.00034675321593466733,
+        -0.0008573924036075672
+      ],
+      "ci95": [
+        -0.0025409063205761077,
+        0.0006050348101847769
+      ],
+      "mean": -0.0007356745535852733,
+      "practical_pass": false
+    },
+    "full_vs_score_only": {
+      "by_seed": [
+        -0.0005628059799265531,
+        -0.0010411822392294805,
+        -0.001728639976742367
+      ],
+      "ci95": [
+        -0.004278216994134709,
+        0.0010327113979858222
+      ],
+      "mean": -0.0011108760652994668,
+      "practical_pass": false
+    },
+    "no_residual_vs_anchor_only": {
+      "by_seed": [
+        0.02809535924138294,
+        0.047430529860624425,
+        0.03871160917656703
+      ],
+      "ci95": [
+        0.020801143673209784,
+        0.05981691908048186
+      ],
+      "mean": 0.038079166092858135,
+      "practical_pass": true
+    },
+    "no_residual_vs_late_no_residual": {
+      "by_seed": [
+        0.007272646335574488,
+        0.009455275902938511,
+        0.00897611140842653
+      ],
+      "ci95": [
+        0.005055718511101549,
+        0.012611313278709223
+      ],
+      "mean": 0.00856801121564651,
+      "practical_pass": true
+    },
+    "protection_risk_reduction": {
+      "by_seed": [
+        -0.003472222222222222,
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        -0.006944444444444444,
+        0.0
+      ],
+      "mean": -0.0011574074074074073,
+      "practical_pass": false
+    }
+  },
+  "decision": "REQUIRES_FROZEN_EXTERNAL_PROTOCOL",
+  "method_means": {
+    "anchor_only": {
+      "accepted": 0.0,
+      "early_accepted": 0.0,
+      "early_utility": 0.23671759300352144,
+      "residual_changed": 0.0,
+      "utility": 0.24425131250043502
+    },
+    "full": {
+      "accepted": 84.47337962962963,
+      "early_accepted": 40.7025462962963,
+      "early_utility": 0.2637007513678529,
+      "residual_changed": 7.332175925925926,
+      "utility": 0.2815948040397079
+    },
+    "late_full": {
+      "accepted": 44.43981481481482,
+      "early_accepted": 0.0,
+      "early_utility": 0.23671759274266488,
+      "residual_changed": 3.5590277777777777,
+      "utility": 0.27337581255576676
+    },
+    "late_no_residual": {
+      "accepted": 44.30902777777778,
+      "early_accepted": 0.0,
+      "early_utility": 0.23671759274266488,
+      "residual_changed": 0.0,
+      "utility": 0.27376246737764665
+    },
+    "no_residual": {
+      "accepted": 84.04861111111111,
+      "early_accepted": 40.56018518518518,
+      "early_utility": 0.2638781912909407,
+      "residual_changed": 0.0,
+      "utility": 0.2823304785932932
+    },
+    "score_only": {
+      "accepted": 96.47916666666667,
+      "early_accepted": 51.56597222222222,
+      "early_utility": 0.2657788998568086,
+      "residual_changed": 8.167824074074074,
+      "utility": 0.28270568010500735
+    }
+  },
+  "protection_supported": false,
+  "protocol_sha256": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+  "residual_independent_gain": false,
+  "surviving_candidate": "no_residual"
+}

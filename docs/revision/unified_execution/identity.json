@@ -1,0 +1,29 @@
+{
+  "budget": 300,
+  "development_instances": 2,
+  "dimension": 10,
+  "max_epochs": 80,
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "numpy": "2.2.6",
+  "originals": {
+    "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+  },
+  "populations": 4,
+  "sources": {
+    "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+    "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+    "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+    "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+    "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+    "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+    "roopf/unified.py": "c213f467df3dd8eef02a588a182309f6f90d5434c379d71236175578ba81821a",
+    "scripts/unified_revision.py": "a2c82d4f9265f1cde7ae14ea4b3148be56c9703d5576e229f9fde0dac670435d"
+  },
+  "torch": "2.11.0+cu128",
+  "version": "unified_revision_v1"
+}

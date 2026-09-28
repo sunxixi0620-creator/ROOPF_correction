@@ -1,0 +1,5 @@
+{
+  "distinct_even_under_low32_projection": true,
+  "intentionally_shared_across_methods_and_model_seeds": true,
+  "unique_role_keys": 6372
+}

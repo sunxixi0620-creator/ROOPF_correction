@@ -1,0 +1,6 @@
+{
+  "count": 3096,
+  "includes_unused_post_early_stop_training_instances": true,
+  "meaning": "predeclared task parameters, not extra evaluated independent samples",
+  "sha256": "2d7472f4a5d7ff57f4544bf78e3215557eaa852b4489ce231628797538a97509"
+}

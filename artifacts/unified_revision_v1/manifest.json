@@ -1,0 +1,73 @@
+{
+  "archive_files": [
+    {
+      "bytes": 14572815,
+      "file": "labels_0.zip",
+      "sha256": "01829e4459990e7c1dd4d3d7d8fd987cfeb0e90d527dcd0da0e8fdcbae37a383"
+    },
+    {
+      "bytes": 16158344,
+      "file": "development_0.zip",
+      "sha256": "922a2966486b0174959786b9e780031c93f5ed99147c5f81e05377dbe1ad8f0e"
+    },
+    {
+      "bytes": 14569846,
+      "file": "labels_1.zip",
+      "sha256": "057dc89300f372fc37fd96f6ac46af53a06899cb488758bfcd8b5ae9519649da"
+    },
+    {
+      "bytes": 16195430,
+      "file": "development_1.zip",
+      "sha256": "670e018b6ca101596c22d9e0684fc519a17b3c042e2aafa36bd2d08043c4a644"
+    },
+    {
+      "bytes": 14550166,
+      "file": "labels_2.zip",
+      "sha256": "e7050d862fbc8734c76f84d03dea44ec1129a75629b93c8703a5c373a110c792"
+    },
+    {
+      "bytes": 15873463,
+      "file": "development_2.zip",
+      "sha256": "19d6526033ac4bbaa001c8d008a555fea40af64ac26d4c08b3e4a9923c4ae9ac"
+    }
+  ],
+  "checkpoint_hashes": {
+    "anchor_0.pt": "1db78467edc73593f51fda96555d568053b70a93745d355143b09927aa03f41a",
+    "anchor_1.pt": "f9bfdfaae678d354b903ed935cfbb9e502a72dcecc360b3ba6220207ea243bad",
+    "anchor_2.pt": "72e5f230299dcbdc8b5ec18f7a681fe027ffe5cb5fc74181eb3472905d95434e",
+    "residual_0.pt": "7d91d34419b43dbb5427faac833eaae82571ade953bbee8e12a125e8aecc6333",
+    "residual_1.pt": "7838c1b63768a738653da6270e912bd69623fc1dd9a50dac41f3f003254269c1",
+    "residual_2.pt": "03462b1a71ff064efc6296db12cb0f356957efc33d77425b181f934a998fd079",
+    "task_parameters.pt": "2d7472f4a5d7ff57f4544bf78e3215557eaa852b4489ce231628797538a97509"
+  },
+  "run": "unified_revision_v1_20260928_1840",
+  "source_identity": {
+    "budget": 300,
+    "development_instances": 2,
+    "dimension": 10,
+    "max_epochs": 80,
+    "model_seeds": [
+      0,
+      1,
+      2
+    ],
+    "numpy": "2.2.6",
+    "originals": {
+      "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+      "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+    },
+    "populations": 4,
+    "sources": {
+      "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+      "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+      "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+      "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+      "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+      "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+      "roopf/unified.py": "c213f467df3dd8eef02a588a182309f6f90d5434c379d71236175578ba81821a",
+      "scripts/unified_revision.py": "a2c82d4f9265f1cde7ae14ea4b3148be56c9703d5576e229f9fde0dac670435d"
+    },
+    "torch": "2.11.0+cu128",
+    "version": "unified_revision_v1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "anchor_training_points": 54720000,
+  "anchor_validation_points": 885600,
+  "development_main_points": 1555200,
+  "development_trajectories": 5184,
+  "label_behavior_points": 194400,
+  "label_teacher_points": 2462400,
+  "note": "GPU preflight and contract tests reported separately; no duplicate validation/teacher rows counted as independent tasks"
+}

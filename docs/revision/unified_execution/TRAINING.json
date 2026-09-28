@@ -1,0 +1,68 @@
+{
+  "anchor_0": {
+    "best_validation": 0.2606396168573863,
+    "epochs": 80,
+    "peak_gpu_bytes": 1072077312,
+    "seconds": 2537.685911687091,
+    "seed": 0,
+    "selected_epoch": 75,
+    "selected_sha256": "1db78467edc73593f51fda96555d568053b70a93745d355143b09927aa03f41a",
+    "training_points": 23040000,
+    "validation_points": 367200
+  },
+  "anchor_1": {
+    "best_validation": 0.2408423125743866,
+    "epochs": 30,
+    "peak_gpu_bytes": 1072077312,
+    "seconds": 1179.1845405830536,
+    "seed": 1,
+    "selected_epoch": 15,
+    "selected_sha256": "f9bfdfaae678d354b903ed935cfbb9e502a72dcecc360b3ba6220207ea243bad",
+    "training_points": 8640000,
+    "validation_points": 151200
+  },
+  "anchor_2": {
+    "best_validation": 0.24382574959761566,
+    "epochs": 80,
+    "peak_gpu_bytes": 1072077312,
+    "seconds": 2541.4155318960547,
+    "seed": 2,
+    "selected_epoch": 70,
+    "selected_sha256": "72e5f230299dcbdc8b5ec18f7a681fe027ffe5cb5fc74181eb3472905d95434e",
+    "training_points": 23040000,
+    "validation_points": 367200
+  },
+  "residual_0": {
+    "epochs": 18,
+    "seconds": 5.259678322123364,
+    "seed": 0,
+    "selected_epoch": 10,
+    "selected_sha256": "7d91d34419b43dbb5427faac833eaae82571ade953bbee8e12a125e8aecc6333",
+    "train_rows": 547200,
+    "training_positive_rate": 0.11515899002552032,
+    "validation_bce": 0.2259855714318348,
+    "validation_rows": 273600
+  },
+  "residual_1": {
+    "epochs": 14,
+    "seconds": 5.881945590022951,
+    "seed": 1,
+    "selected_epoch": 6,
+    "selected_sha256": "7838c1b63768a738653da6270e912bd69623fc1dd9a50dac41f3f003254269c1",
+    "train_rows": 547200,
+    "training_positive_rate": 0.12053179740905762,
+    "validation_bce": 0.23060516178956506,
+    "validation_rows": 273600
+  },
+  "residual_2": {
+    "epochs": 14,
+    "seconds": 4.677670930046588,
+    "seed": 2,
+    "selected_epoch": 6,
+    "selected_sha256": "03462b1a71ff064efc6296db12cb0f356957efc33d77425b181f934a998fd079",
+    "train_rows": 547200,
+    "training_positive_rate": 0.11893639713525772,
+    "validation_bce": 0.23053639015956232,
+    "validation_rows": 273600
+  }
+}

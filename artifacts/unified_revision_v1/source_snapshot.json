@@ -1,0 +1,5 @@
+{
+  "note": "Restore with unchanged original checkpoints to replay the frozen v1 engine",
+  "sha256": "0f6985f5a9b4ab2dd30c10f871eab43270c5a627089cfe7232a425e268e3da33",
+  "source_commit": "457f1b1"
+}

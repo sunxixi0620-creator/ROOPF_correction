@@ -1,0 +1,8 @@
+{
+  "all_case_content_and_identity_hashes": true,
+  "case_artifacts": 1620,
+  "original_checkpoints_unchanged": true,
+  "six_frozen_models": true,
+  "status": "passed",
+  "workers_joined": true
+}

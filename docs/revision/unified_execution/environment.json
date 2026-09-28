@@ -1,0 +1,13 @@
+{
+  "code_commit": "457f1b1",
+  "cpu_workers": 8,
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "gpu_training_workers": 3,
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "3.10.20",
+  "scope": "development protocol; helper reporting files may be added without changing frozen computation sources",
+  "shared_hardware": true,
+  "threads_per_worker": 1,
+  "torch": "2.11.0+cu128"
+}
