@@ -1,0 +1,36 @@
+{
+  "cases": 2160,
+  "files": [
+    {
+      "bytes": 13454740,
+      "file": "d20_b300_no_residual.zip",
+      "sha256": "47a4fcd845b5f69a6d7a8e0612815c83934880419350c5ddfd9920d92592249f"
+    },
+    {
+      "bytes": 11837063,
+      "file": "d20_b300_anchor_only.zip",
+      "sha256": "cde51211aafb202292f30c12de7ff1923ffbedb3704a6cdcf6b4960365fb8eed"
+    },
+    {
+      "bytes": 13465249,
+      "file": "d20_b300_no_residual_score_only.zip",
+      "sha256": "72e0c57650334275a4f953a7d65e781c8b7d1c3c30e8d86c362537316534b138"
+    },
+    {
+      "bytes": 25529436,
+      "file": "d20_b600_no_residual.zip",
+      "sha256": "e2a344fff57772642039f730030b960b36bcc9de523d5b66113784626aacc28f"
+    },
+    {
+      "bytes": 16388817,
+      "file": "d20_b600_anchor_only.zip",
+      "sha256": "52ba04112bd9d66239944bf6c0fac162487f057e13985baaaa9056912a00c339"
+    },
+    {
+      "bytes": 25535826,
+      "file": "d20_b600_no_residual_score_only.zip",
+      "sha256": "3f28f958797dd4717867938879329eab81dfa13854f0b18e6c077680b4cb1b05"
+    }
+  ],
+  "stage": "all learned20 inference workers completed; full analysis pending"
+}

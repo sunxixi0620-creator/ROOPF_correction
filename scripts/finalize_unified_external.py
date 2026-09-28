@@ -209,6 +209,7 @@ def finalize(run):
     for s in range(3):
         shutil.copyfile(exp.NATIVE20/f'anchor_{s}/history.json', OUT/f'anchor20_{s}_history.json')
     timing = json.loads((run/'TIMING_COMPLETE.json').read_text())
+    prefetch = [json.loads(p.read_text()) for p in sorted(run.glob('prefetch20_*.json'))]
     costs = dict(external_trajectories=5400, external_main_points=2160000,
         external_teacher_points=0, timing_repeat_points=9000, timing_repeats_added_to_N=False,
         declared_optimum_implementation_check_points=24,
@@ -217,6 +218,9 @@ def finalize(run):
         native20_anchor_validation_points=sum(x['validation_points'] for x in native.values()),
         native20_anchor_process_seconds=sum(x['seconds'] for x in native.values()),
         max_native20_process_seconds=max(x['seconds'] for x in native.values()),
+        native20_inference_prefetch_wall_seconds=sum(x['seconds'] for x in prefetch),
+        native20_cached_verification_wall_seconds=json.loads((run/'learned20_COMPLETE.json').read_text())['seconds'],
+        scheduling_note='learned20 mode reused verified prefetched cases; its short wall time is not the inference runtime. Shared-host and overlapping mode times are not additive device hours.',
         prior_stage_costs=json.loads((ROOT/'docs/revision/unified_execution/COSTS.json').read_text()),
         shared_host_timing=True,
         audit_preflight_note='Other procedural gradient/parity checks are documented separately; no fully instrumented aggregate for every historical audit invocation')
@@ -227,6 +231,8 @@ def finalize(run):
                  'learned10_COMPLETE.json', 'learned20_COMPLETE.json', 'TIMING_COMPLETE.json',
                  'environment.json', 'resource_schedule.json', 'baseline_overlap_COMPLETE.json'):
         shutil.copyfile(run/name, OUT/name)
+    for path in sorted(run.glob('prefetch20_*.json')):
+        shutil.copyfile(path, OUT/path.name)
     archive(run, identity, native)
     write_json(OUT/'VERIFICATION.json', dict(passed=True, case_count=5400,
         all_case_hashes_and_identities_verified=True, exact_budget=True,
