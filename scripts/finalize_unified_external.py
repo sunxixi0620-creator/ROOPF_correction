@@ -71,6 +71,9 @@ def audit(run):
     for mode, count in [('baselines', 2160), ('learned10', 1080), ('learned20', 2160)]:
         done = json.loads((run/f'{mode}_COMPLETE.json').read_text())
         assert done['all_workers_joined'] and done['cases'] == count
+    for path in run.glob('prefetch20_*.json'):
+        done = json.loads(path.read_text())
+        assert done['status'] == 'complete' and done['all_workers_joined']
     for name, digest in json.loads((ROOT/'docs/revision/unified_execution/STAGE1.json').read_text())['original_checkpoints'].items():
         assert sha256(ROOT/'checkpoints'/name) == digest
     frozen = json.loads((run/'NATIVE20_FROZEN.json').read_text())
@@ -128,6 +131,7 @@ def archive(run, identity, native):
             z.write(ROOT/path, path)
         z.write(Path(__file__), 'scripts/finalize_unified_external.py')
         z.write(ROOT/'scripts/analyze_unified_decisions.py', 'scripts/analyze_unified_decisions.py')
+        z.write(ROOT/'scripts/prefetch_external20.py', 'scripts/prefetch_external20.py')
         z.write(ROOT/'roopf/__init__.py', 'roopf/__init__.py')
         for path in sorted((run/'timing').glob('*')):
             if path.suffix in ('.pt', '.json'):
