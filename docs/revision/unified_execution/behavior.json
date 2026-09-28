@@ -1,0 +1,60 @@
+[
+  {
+    "exact_input_events": 145,
+    "logging_no_interference": true
+  },
+  {
+    "case": "bbob_f1_fixed",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "full"
+  },
+  {
+    "case": "bbob_f1_fixed",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "no_residual"
+  },
+  {
+    "case": "bbob_f1_fixed",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "score_only"
+  },
+  {
+    "case": "bbob_f9_fixed",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "full"
+  },
+  {
+    "case": "bbob_f9_fixed",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "no_residual"
+  },
+  {
+    "case": "bbob_f9_fixed",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "score_only"
+  },
+  {
+    "case": "cec_f3_shifted",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "full"
+  },
+  {
+    "case": "cec_f3_shifted",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "no_residual"
+  },
+  {
+    "case": "cec_f3_shifted",
+    "nfe": 300,
+    "trail_points_rng_exact": true,
+    "variant": "score_only"
+  }
+]

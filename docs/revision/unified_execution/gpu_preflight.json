@@ -1,0 +1,8 @@
+{
+  "finite_gradients": true,
+  "nfe": 300,
+  "objective_points": 8000,
+  "peak_gpu_bytes": 1070689280,
+  "preflight_only": true,
+  "seconds": 1.3438651799224317
+}

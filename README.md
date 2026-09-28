@@ -2,7 +2,9 @@
 
 **当前审查结论：先修实验链路，暂停新增模型变体。** 详见[实验链路总审查](docs/revision/EXPERIMENT_CHAIN_REVIEW.zh-CN.md)：后续residual训练缓存中4个实例的旧种子来源已恢复，训练/部署特征定义也需对齐。原始最终权重及历史结果保持不变，受影响报告已加注限制。
 
-**待确认的推进主线：** [修订主线与阶段验收](docs/revision/EXECUTION_DIRECTION.zh-CN.md)。限定一个新候选，依次完成链路修复、协议冻结、完整机制验收及最终验证；旧报告中的局部“下一步建议”不自动触发新实验。原最终版继续冻结保存。
+**已确认的推进主线：** [修订主线与阶段验收](docs/revision/EXECUTION_DIRECTION.zh-CN.md)。限定一个新候选，依次完成链路修复、协议冻结、完整机制验收及最终验证；旧报告中的局部“下一步建议”不自动触发新实验。原最终版继续冻结保存。新实验按[统一候选预登记协议](docs/experiments/UNIFIED_REVISION_PROTOCOL.md)执行。
+
+当前 `run_roopf.py` 默认使用显式 `final_unlocked` 配置，与补充实验共用 `roopf.factory.build_final`。复现历史锁定入口须指定 `--profile legacy_locked`；算法配置身份不等于基准实例协议，CEC移位等设置仍需按对应实验清单指定。以下旧发布说明与参考表属于原归档口径，不直接充当新候选结果。
 
 **补充实验入口（2026-09-28）。** 本分支以选定的最终 10-D ROOPF 为主方法，原 checkpoint 保持冻结；20-D 和训练顺序研究使用单独保存的受控重训模型。
 

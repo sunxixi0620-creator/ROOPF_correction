@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "9 frozen-code trajectory/points/RNG pairs",
+    "explicit final entry weights and flags match",
+    "actual residual feature capture and normalization parity",
+    "logging no-interference",
+    "stale/config/corrupt cache rejection",
+    "candidate task-name invariance",
+    "teacher truth isolation",
+    "odd budget and 6 ablation checks",
+    "36 procedural gradients finite and batch independent",
+    "GPU batch16 training backward finite"
+  ],
+  "limits": "preflight correctness, not method efficacy; proposed candidate and procedural training distribution are new",
+  "original_checkpoints": {
+    "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+  },
+  "status": "passed"
+}

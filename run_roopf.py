@@ -128,6 +128,10 @@ def parse_function_ids(text: str, valid_ids: Iterable[int]) -> List[int]:
 
 
 def build_optimizer(args: argparse.Namespace) -> ROOPFOptimizer:
+    if getattr(args, 'profile', 'legacy_locked') == 'final_unlocked':
+        from roopf.factory import build_final
+        return build_final(device=DEVICE, dim=args.dimension, budget=args.budget,
+                           population=args.population_size)
     anchor_checkpoint = ROOT / "checkpoints" / "anchor_policy_d10.pt"
     residual_checkpoint = ROOT / "checkpoints" / "residual_selector_generated36_d10.pt"
     for checkpoint in (anchor_checkpoint, residual_checkpoint):
@@ -331,6 +335,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--output-dir", type=Path, default=ROOT / "results")
     parser.add_argument("--save-trails", action="store_true")
+    parser.add_argument('--profile', choices=['final_unlocked', 'legacy_locked'],
+                        default='final_unlocked',
+                        help='Explicit algorithm identity; legacy_locked preserves the old release entry.')
     parser.add_argument(
         "--quick",
         action="store_true",

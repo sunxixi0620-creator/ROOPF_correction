@@ -16,20 +16,14 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 import run_roopf as r
 from roopf.supplement import SupplementOptimizer, VARIANTS, sync
+from roopf.factory import build_final
 
 
 def build(variant='full', warmup=.70, diagnostic_stride=0):
+    # Historical experiments explicitly reset the policy seed after building.
+    # The factory isolates module initialization from experiment random streams.
     r.set_seed(20260630)
-    opt = SupplementOptimizer(dim=10, hidden_dim=200, popSize=100, max_nfe=300,
-        k_nums=2, pool_per_op=6, surrogate_members=5, ablation='roopf',
-        baseline_ckpt=str(ROOT/'checkpoints/anchor_policy_d10.pt'),
-        router_ckpt=str(ROOT/'checkpoints/residual_selector_generated36_d10.pt'),
-        router_weight=.008).to(r.DEVICE).eval().configure(variant, warmup, diagnostic_stride)
-    original_predict = opt.surrogate.predict
-    def measured_predict(*args, **kwargs):
-        with opt.measured('proxy_seconds'):
-            return original_predict(*args, **kwargs)
-    opt.surrogate.predict = measured_predict
+    opt = build_final(variant, warmup, diagnostic_stride, device=r.DEVICE)
     return opt
 
 
