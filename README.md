@@ -3,6 +3,7 @@
 **补充实验入口（2026-09-28）。** 本分支以选定的最终 10-D ROOPF 为主方法，原 checkpoint 保持冻结；20-D 和训练顺序研究使用单独保存的受控重训模型。
 
 - [最终补充实验报告与论文结论](docs/experiments/FINAL_RESULTS_20260928.zh-CN.md)
+- [Residual排序与改善幅度实验](docs/experiments/RESIDUAL_RANKING_RESULTS.zh-CN.md)、[结论](docs/experiments/RESIDUAL_RANKING_DECISIONS.zh-CN.md)和[复现步骤](docs/experiments/RESIDUAL_RANKING_REPRODUCE.md)：两个训练种子、新确认实例与实际改选诊断。
 - [Residual决策与干预诊断](docs/experiments/RESIDUAL_DECISION_RESULTS.zh-CN.md)、[解释与后续决策](docs/experiments/RESIDUAL_DECISION_DECISIONS.zh-CN.md)和[复现步骤](docs/experiments/RESIDUAL_DECISION_REPRODUCE.md)：同状态反事实与首次改选轮次重放。
 - [Residual训练目标对照结果](docs/experiments/RESIDUAL_TARGET_RESULTS.zh-CN.md)、[解释与后续决策](docs/experiments/RESIDUAL_TARGET_DECISIONS.zh-CN.md)和[复现步骤](docs/experiments/RESIDUAL_TARGET_REPRODUCE.md)：两个训练种子、验证早停及完整优化确认。
 - [训练充分性开发实验结果](docs/experiments/TRAINING_VALIDATION_RESULTS.zh-CN.md)、[结论与后续决策](docs/experiments/TRAINING_VALIDATION_DECISIONS.zh-CN.md)和[复现说明](docs/experiments/TRAINING_VALIDATION_REPRODUCE.md)：原最终权重保持不变。

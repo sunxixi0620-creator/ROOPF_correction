@@ -1,0 +1,3 @@
+# Additional decision observation
+
+For the frozen original and all four new checkpoints, observe identical-state no-residual counterfactual choices on every confirmation case. No model is selected or changed by these observations. Reuse the tested residual_decision_audit observer, isolated teacher calls, and check factual final values against the ordinary confirmation run for every trajectory. Do not replay or change the policy. Report changed-point frequency and immediate W/T/L. Budget these repeated diagnostic trajectories separately. This adds observation only to the ranking/magnitude protocol.

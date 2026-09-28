@@ -1,0 +1,297 @@
+{
+  "selections": {
+    "ranking_20260928": {
+      "epochs_run": 17,
+      "selected_epoch": 11,
+      "validation_loss": 0.296582986580001
+    },
+    "ranking_20260929": {
+      "epochs_run": 20,
+      "selected_epoch": 14,
+      "validation_loss": 0.2943911991516749
+    },
+    "magnitude_20260928": {
+      "epochs_run": 23,
+      "selected_epoch": 17,
+      "validation_loss": 0.008546136898609499
+    },
+    "magnitude_20260929": {
+      "epochs_run": 23,
+      "selected_epoch": 17,
+      "validation_loss": 0.008760431912831134
+    }
+  },
+  "metrics": {
+    "original": {
+      "all": {
+        "portfolio_pair_concordance": 0.8382748437773851,
+        "mean_normalized_top1_regret": 0.07335035769462261,
+        "median_normalized_top1_regret": 0.006936747473090525,
+        "top1_beats_second": 0.9945138888888889
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8412800904566163,
+        "mean_normalized_top1_regret": 0.04738487491135487,
+        "median_normalized_top1_regret": 0.004758740494806657,
+        "top1_beats_second": 1.0
+      }
+    },
+    "second_20260928": {
+      "all": {
+        "portfolio_pair_concordance": 0.8240865014181012,
+        "mean_normalized_top1_regret": 0.13235546412433757,
+        "median_normalized_top1_regret": 0.038453749368442425,
+        "top1_beats_second": 0.9936805555555556
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.7966585333770658,
+        "mean_normalized_top1_regret": 0.1073560545525216,
+        "median_normalized_top1_regret": 0.03726448434794246,
+        "top1_beats_second": 1.0
+      }
+    },
+    "second_20260929": {
+      "all": {
+        "portfolio_pair_concordance": 0.8267089139207605,
+        "mean_normalized_top1_regret": 0.1393186414607941,
+        "median_normalized_top1_regret": 0.046952509410027064,
+        "top1_beats_second": 0.9936805555555556
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.803594161178268,
+        "mean_normalized_top1_regret": 0.10649837698089151,
+        "median_normalized_top1_regret": 0.03711455405553318,
+        "top1_beats_second": 1.0
+      }
+    },
+    "ranking_20260928": {
+      "all": {
+        "portfolio_pair_concordance": 0.8801352294259583,
+        "mean_normalized_top1_regret": 0.0772169746078014,
+        "median_normalized_top1_regret": 0.007138707223855714,
+        "top1_beats_second": 0.9946527777777778
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8848816590441062,
+        "mean_normalized_top1_regret": 0.048006916833904074,
+        "median_normalized_top1_regret": 0.0044125943099113905,
+        "top1_beats_second": 0.9993827160493827
+      }
+    },
+    "ranking_20260929": {
+      "all": {
+        "portfolio_pair_concordance": 0.8772065996545411,
+        "mean_normalized_top1_regret": 0.07386695978117593,
+        "median_normalized_top1_regret": 0.007372959508036545,
+        "top1_beats_second": 0.9949305555555555
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8822678772946986,
+        "mean_normalized_top1_regret": 0.04716141733869808,
+        "median_normalized_top1_regret": 0.005204251209434096,
+        "top1_beats_second": 0.999537037037037
+      }
+    },
+    "magnitude_20260928": {
+      "all": {
+        "portfolio_pair_concordance": 0.8487629505764447,
+        "mean_normalized_top1_regret": 0.12154871168903517,
+        "median_normalized_top1_regret": 0.029661290717122698,
+        "top1_beats_second": 0.9877777777777778
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8357261257412615,
+        "mean_normalized_top1_regret": 0.08774831885986334,
+        "median_normalized_top1_regret": 0.02282814663366244,
+        "top1_beats_second": 0.9962962962962963
+      }
+    },
+    "magnitude_20260929": {
+      "all": {
+        "portfolio_pair_concordance": 0.8549404816363334,
+        "mean_normalized_top1_regret": 0.10915701122579269,
+        "median_normalized_top1_regret": 0.02297576745863788,
+        "top1_beats_second": 0.9861805555555555
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8439611120814011,
+        "mean_normalized_top1_regret": 0.07461576791521447,
+        "median_normalized_top1_regret": 0.0176080206754124,
+        "top1_beats_second": 0.9984567901234568
+      }
+    }
+  },
+  "optimization": {
+    "magnitude_20260928": {
+      "bounded_gain": 0.25832681808580876,
+      "wtl_vs_original": [
+        20,
+        0,
+        16
+      ],
+      "wtl_vs_no_residual": [
+        15,
+        9,
+        12
+      ]
+    },
+    "magnitude_20260929": {
+      "bounded_gain": 0.2601643807326973,
+      "wtl_vs_original": [
+        20,
+        0,
+        16
+      ],
+      "wtl_vs_no_residual": [
+        23,
+        7,
+        6
+      ]
+    },
+    "no_residual": {
+      "bounded_gain": 0.25900856930027455,
+      "wtl_vs_original": [
+        18,
+        0,
+        18
+      ],
+      "wtl_vs_no_residual": [
+        0,
+        36,
+        0
+      ]
+    },
+    "original": {
+      "bounded_gain": 0.2582118373692437,
+      "wtl_vs_original": [
+        0,
+        36,
+        0
+      ],
+      "wtl_vs_no_residual": [
+        18,
+        0,
+        18
+      ]
+    },
+    "ranking_20260928": {
+      "bounded_gain": 0.2585306161681918,
+      "wtl_vs_original": [
+        19,
+        1,
+        16
+      ],
+      "wtl_vs_no_residual": [
+        15,
+        6,
+        15
+      ]
+    },
+    "ranking_20260929": {
+      "bounded_gain": 0.25703728060374764,
+      "wtl_vs_original": [
+        17,
+        1,
+        18
+      ],
+      "wtl_vs_no_residual": [
+        15,
+        8,
+        13
+      ]
+    },
+    "second_20260928": {
+      "bounded_gain": 0.2598194417010846,
+      "wtl_vs_original": [
+        20,
+        0,
+        16
+      ],
+      "wtl_vs_no_residual": [
+        7,
+        28,
+        1
+      ]
+    },
+    "second_20260929": {
+      "bounded_gain": 0.2595682146680802,
+      "wtl_vs_original": [
+        19,
+        0,
+        17
+      ],
+      "wtl_vs_no_residual": [
+        5,
+        28,
+        3
+      ]
+    }
+  },
+  "diagnostics": {
+    "magnitude_20260928": {
+      "decisions": 6480,
+      "changed": 59,
+      "fraction": 0.009104938271604938,
+      "immediate_wtl": [
+        35,
+        0,
+        24
+      ],
+      "incumbent_improvements": 18
+    },
+    "magnitude_20260929": {
+      "decisions": 6480,
+      "changed": 68,
+      "fraction": 0.010493827160493827,
+      "immediate_wtl": [
+        40,
+        0,
+        28
+      ],
+      "incumbent_improvements": 27
+    },
+    "original": {
+      "decisions": 6480,
+      "changed": 412,
+      "fraction": 0.06358024691358025,
+      "immediate_wtl": [
+        243,
+        0,
+        169
+      ],
+      "incumbent_improvements": 227
+    },
+    "ranking_20260928": {
+      "decisions": 6480,
+      "changed": 119,
+      "fraction": 0.0183641975308642,
+      "immediate_wtl": [
+        89,
+        0,
+        30
+      ],
+      "incumbent_improvements": 44
+    },
+    "ranking_20260929": {
+      "decisions": 6480,
+      "changed": 113,
+      "fraction": 0.01743827160493827,
+      "immediate_wtl": [
+        83,
+        0,
+        30
+      ],
+      "incumbent_improvements": 32
+    }
+  },
+  "budgets": {
+    "main_trajectories": 1296,
+    "main_points": 388800,
+    "teacher_points": 547200,
+    "initial_points": 14400,
+    "diagnostic_trajectories": 720,
+    "diagnostic_main_points": 216000,
+    "diagnostic_teacher_points": 97200
+  },
+  "scope": "Known generated families; all scores/thresholds frozen; no probability calibration interpretation for ranking/magnitude scores"
+}
