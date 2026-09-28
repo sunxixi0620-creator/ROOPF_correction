@@ -1,0 +1,5 @@
+# Preserve upstream/recovered research sources byte-for-byte for provenance.
+artifacts/recovered_sources/** -whitespace
+artifacts/external/** -whitespace
+# Python's csv writer uses CRLF; preserve the archived evidence bytes.
+*.csv whitespace=cr-at-eol

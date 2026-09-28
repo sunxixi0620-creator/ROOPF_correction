@@ -1,0 +1,366 @@
+{
+  "membership_symmetric_difference": [],
+  "paired_value_gradient_checks": [
+    {
+      "dim": 10,
+      "fid": "comp_global",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "comp_local",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "comp_rugged",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "dirridge_multi",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "dirridge_noisy",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "dirridge_single",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "fourier_low",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "fourier_mid",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "fourier_mixed",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "lowrank_soft",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "lowrank_tanh",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "lowrank_wave",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "multiscale_coupled",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "multiscale_hard",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "multiscale_smooth",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "plateau_sharp",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "plateau_soft",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "plateau_tilted",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "rbf_deceptive",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "rbf_dense",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "rbf_sparse",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "ring_double",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "ring_single",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "ring_wavy",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "saddle_soft",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "saddle_tilt",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "saddle_wave",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "spiral_decay",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "spiral_soft",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "spiral_strong",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "valley_narrow",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "valley_smooth",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "valley_wavy",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "wavepacket_drift",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "wavepacket_local",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 10,
+      "fid": "wavepacket_multi",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "comp_global",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "comp_local",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "comp_rugged",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "dirridge_multi",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "dirridge_noisy",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "dirridge_single",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "fourier_low",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "fourier_mid",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "fourier_mixed",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "lowrank_soft",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "lowrank_tanh",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "lowrank_wave",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "multiscale_coupled",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "multiscale_hard",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "multiscale_smooth",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "plateau_sharp",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "plateau_soft",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "plateau_tilted",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "rbf_deceptive",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "rbf_dense",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "rbf_sparse",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "ring_double",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "ring_single",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "ring_wavy",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "saddle_soft",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "saddle_tilt",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "saddle_wave",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "spiral_decay",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "spiral_soft",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "spiral_strong",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "valley_narrow",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "valley_smooth",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "valley_wavy",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "wavepacket_drift",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "wavepacket_local",
+      "value_and_gradient_exact": true
+    },
+    {
+      "dim": 20,
+      "fid": "wavepacket_multi",
+      "value_and_gradient_exact": true
+    }
+  ],
+  "interpretation": "36 identical function definitions and distributions; curation only changes order, not membership"
+}

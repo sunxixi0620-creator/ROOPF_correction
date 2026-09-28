@@ -1,0 +1,20 @@
+{
+  "upstream": "https://github.com/MetaEvo/Surr-RLDE",
+  "commit": "7e1af60779e478ba701d903bcf517b4ccc8088f2",
+  "files": {
+    "LICENSE": "8a9ef155763092719ec8c43cf329ca0db481651fd8d99a91d536417a0352c09e",
+    "README.md": "bdeb8ccf2210672937259b65498419578f0abfe18228bba9fcd5bcae8ce1abc3",
+    "config.py": "70b688e89b6e8d6c65955fd2bc8e73418bea5830d08e01c4d194a1e72d54f5e7",
+    "agent/Surr_RLDE_Agent.py": "9e00a17a6d92be3ed91379a0543a8143bb1e0b3fd0329dc41d2796dad3a96edd",
+    "agent/basic_agent.py": "27c3085c36679f446fab773ea63fc010ab110de1b4aa1f71012c05346b1528d4",
+    "agent/networks.py": "05fb4a6dde7bd62052a1c9cb1b6423938050e86548c6bb3039ad215ff4c8709a",
+    "agent/utils.py": "cf51898c15b5456c13c5e5f0a1cb22a0e9572f3654c3163faf232fa19e1052bd",
+    "optimizer/Surr_RLDE_Optimizer.py": "a3841d06e504845cdae9fcde54b76214f65e3609e3ad6c3b47f9a7a404f4f850",
+    "optimizer/learnable_optimizer.py": "54169b320956d7c66bc3976210250558186e5df3096623769ab96b1c320b8305",
+    "problem/basic_problem.py": "b4a5c773e9285417a17d40e5cc82984d5dc6d7e99c1ae7b88d3b3321a09212db",
+    "agent_model/test/Surr_RLDE_Agent.pkl": "55c01a979a580fd83a178a8d1fbdd5f25f33eb0a344bee939f8fb3855cdb53d3",
+    "environment/basic_environment.py": "ad0e7023cebc16e2db1b3b20ab26d5b87f3258fc5412e40caa15bbf8911016fc",
+    "environment/__init__.py": "dfb5ea3377ee238948db0527e1c76df83c4a04aa0b763c7c186aa71548079cf8"
+  },
+  "modifications": "none; minimal module imports bypass unused package-level imports"
+}

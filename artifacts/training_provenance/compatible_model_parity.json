@@ -1,0 +1,17 @@
+{
+  "strict_state_dict_load": true,
+  "forward_parity": [
+    {
+      "case": "bbob_f9_fixed",
+      "population_trace_candidates_exact": true
+    },
+    {
+      "case": "cec_f1_shifted",
+      "population_trace_candidates_exact": true
+    }
+  ],
+  "historical_training_seed_and_command_recovered": false,
+  "accepted_source": "/home/skq/repos/xixi/main-parameter22/research_v41_surrogate_portfolio/vparameter_backbone.py",
+  "rejected_source": "main-scheme-toimprove-generalizability/NeurGO_pkg/NeurGO/model.py",
+  "rejection_reason": "State keys load but v_proj is unused and decoder uses GELU rather than ReLU; forward equality failed. Never used in supplementary training, which imports final roopf.anchor_backbone."
+}
