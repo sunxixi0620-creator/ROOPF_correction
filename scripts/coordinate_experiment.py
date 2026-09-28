@@ -24,8 +24,9 @@ def sync():
 def build(mode):
     r.set_seed(20260630)
     opt=CoordinateOptimizer(dim=10,hidden_dim=200,popSize=100,max_nfe=300,k_nums=2,pool_per_op=6,surrogate_members=5,ablation='roopf',baseline_ckpt=str(ROOT/'checkpoints/anchor_policy_d10.pt'),router_ckpt=str(ROOT/'checkpoints/residual_selector_generated36_d10.pt'),router_weight=0.008).to(r.DEVICE).eval()
-    opt.mode=mode
-    if mode=='unlocked':opt.ablation.discard('structured_system_lock')
+    opt.mode='centroid_slot' if mode=='unlocked_centroid' else mode
+    if mode in {'unlocked','adaptive_unlocked','unlocked_centroid'}:opt.ablation.discard('structured_system_lock')
+    if mode=='adaptive_unlocked':opt.ablation.update({'adaptive_portfolio_lock','adaptive_proxy_disable'})
     opt.log_candidates=True
     assert not opt.log_pool_candidates
     return opt
@@ -40,7 +41,7 @@ def main():
     p.add_argument('--variants',default='legacy,unlocked,centroid_slot,relative_slot')
     args=p.parse_args()
     modes=args.variants.split(',')
-    assert set(modes)<={'legacy','unlocked','centroid_slot','relative_slot'}
+    assert set(modes)<={'legacy','unlocked','adaptive_unlocked','unlocked_centroid','centroid_slot','relative_slot'}
     assert args.seeds>0
     args.output.mkdir(parents=True,exist_ok=False)
     seeds=list(range(20261000,20261000+args.seeds))

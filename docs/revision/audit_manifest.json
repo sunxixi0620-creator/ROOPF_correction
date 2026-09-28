@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-28",
+  "selected_variant": "unlocked",
+  "source": "results/paired_full_20260925",
+  "raw_rows": 1080,
+  "unique_keys": 1080,
+  "all_summary_rows_recomputed": 72,
+  "verification": "Archived endpoint analysis; no optimizer rerun; no complete-trail comparison",
+  "artifact_hashes": [
+    {
+      "path": "scripts/paired_improvement.py",
+      "archived_sha256": "7d0eb66ccf1c5ee03627ee80ac42a2ad6acb80a8b660dec1ff105ffca96c287d",
+      "current_sha256": "38a2144b1e70149b892a7f2069d5f8685bd5e3bb7d0f8343e3ba974e406c8660",
+      "matches": false
+    },
+    {
+      "path": "scripts/coordinate_experiment.py",
+      "archived_sha256": "755c6cd5978044c868ed679fb42d18a688496fd62fb8cb3baaa1004b87ced803",
+      "current_sha256": "617f8cd83dc4871d4652f7c3d46f154442c4ffd8e386bbac11bc1da933a8a418",
+      "matches": false
+    },
+    {
+      "path": "roopf/model.py",
+      "archived_sha256": "5312962f3864557e646a5532d88c76cc822616f49cf242dd04a13b151c648908",
+      "current_sha256": "5312962f3864557e646a5532d88c76cc822616f49cf242dd04a13b151c648908",
+      "matches": true
+    },
+    {
+      "path": "roopf/coordinate_variants.py",
+      "archived_sha256": "b484cd8e92c2f7860ccc1083ea3a2d4b7daf37a96b8abc227bf5446742c372e3",
+      "current_sha256": "b484cd8e92c2f7860ccc1083ea3a2d4b7daf37a96b8abc227bf5446742c372e3",
+      "matches": true
+    },
+    {
+      "path": "checkpoints/anchor_policy_d10.pt",
+      "archived_sha256": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+      "current_sha256": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+      "matches": true
+    },
+    {
+      "path": "checkpoints/residual_selector_generated36_d10.pt",
+      "archived_sha256": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+      "current_sha256": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+      "matches": true
+    }
+  ],
+  "result_hashes": {
+    "protocol.json": "cafe35a9e74ecdd2699070653c83f57852d7814452375fb2dd109acb450c88b1",
+    "COMPLETE": "769bb4687c958d9126575ba99cb57d16d2e2aa18086495f3409997872d2da2e9",
+    "raw_results.csv": "8f1e4f1a3831ab9bc897fd69a0afe94097fc93bab2a47a7c91d7aa6e450d005d",
+    "summary.csv": "71c67df7a85f72102f1d4969d6e3073df6c0e9640388a0d0f0c942079de332ad"
+  }
+}
