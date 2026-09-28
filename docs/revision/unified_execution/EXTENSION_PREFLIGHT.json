@@ -1,0 +1,68 @@
+{
+  "all_known_optimum_errors_zero": true,
+  "cec2022_declared_optimum_checks": 24,
+  "matched_control_has_no_residual": true,
+  "native20_finite_gradients": true,
+  "old_six_variants": [
+    {
+      "exact": true,
+      "fid": 1,
+      "variant": "full"
+    },
+    {
+      "exact": true,
+      "fid": 1,
+      "variant": "no_residual"
+    },
+    {
+      "exact": true,
+      "fid": 1,
+      "variant": "score_only"
+    },
+    {
+      "exact": true,
+      "fid": 1,
+      "variant": "late_full"
+    },
+    {
+      "exact": true,
+      "fid": 1,
+      "variant": "late_no_residual"
+    },
+    {
+      "exact": true,
+      "fid": 1,
+      "variant": "anchor_only"
+    },
+    {
+      "exact": true,
+      "fid": 13,
+      "variant": "full"
+    },
+    {
+      "exact": true,
+      "fid": 13,
+      "variant": "no_residual"
+    },
+    {
+      "exact": true,
+      "fid": 13,
+      "variant": "score_only"
+    },
+    {
+      "exact": true,
+      "fid": 13,
+      "variant": "late_full"
+    },
+    {
+      "exact": true,
+      "fid": 13,
+      "variant": "late_no_residual"
+    },
+    {
+      "exact": true,
+      "fid": 13,
+      "variant": "anchor_only"
+    }
+  ]
+}

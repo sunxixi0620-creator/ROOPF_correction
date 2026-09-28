@@ -14,7 +14,7 @@ VARIANTS = ('full', 'no_residual', 'score_only', 'late_full', 'late_no_residual'
 
 class UnifiedOptimizer(ROOPFOptimizer):
     def configure_unified(self, variant='full'):
-        if variant not in VARIANTS:
+        if variant not in VARIANTS and variant != 'no_residual_score_only':
             raise ValueError(variant)
         self.variant = variant
         # These flags affect reusable candidate generation, which must be blind
@@ -102,12 +102,12 @@ class UnifiedOptimizer(ROOPFOptimizer):
                 ready = len(errors) >= 4  # eight previously paid prediction outcomes
                 raw_gap = score[:, 1:2]-score.gather(1, proposed)
                 accepted = (proposed >= 2) & eligible
-                if self.variant != 'score_only':
+                if self.variant not in ('score_only', 'no_residual_score_only'):
                     accepted &= ready & (raw_gap > margin)
                 index = torch.where(accepted, proposed, torch.ones_like(proposed))
                 nores_gap = base_score[:, 1:2]-base_score.gather(1, no_residual)
                 nores_accept = (no_residual >= 2) & eligible
-                if self.variant != 'score_only':
+                if self.variant not in ('score_only', 'no_residual_score_only'):
                     nores_accept &= ready & (nores_gap > margin)
                 nores_index = torch.where(nores_accept, no_residual, torch.ones_like(no_residual))
                 chosen_idx = torch.cat((torch.zeros_like(index), index), 1)

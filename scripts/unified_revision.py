@@ -27,21 +27,22 @@ from roopf.experiment_io import (CaseStore, canonical, fingerprint, save_torch,
 SOURCES = ['scripts/unified_revision.py', 'roopf/unified.py', 'roopf/model.py',
            'roopf/anchor_backbone.py', 'roopf/revision_tasks.py',
            'roopf/experiment_io.py', 'roopf/residual_features.py',
-           'docs/experiments/UNIFIED_REVISION_PROTOCOL.md']
+           'docs/experiments/UNIFIED_REVISION_PROTOCOL.md',
+           'docs/experiments/UNIFIED_EXTERNAL_PROTOCOL.md']
 TEMPLATE = ROOT/'checkpoints/residual_selector_generated36_d10.pt'
 
 
-def identity():
+def identity(dimension=10):
     return dict(version='unified_revision_v1', sources={p: sha256(ROOT/p) for p in SOURCES},
         originals={p.name: sha256(p) for p in (ROOT/'checkpoints').glob('*.pt')},
-        torch=torch.__version__, numpy=np.__version__, dimension=10, budget=300,
+        torch=torch.__version__, numpy=np.__version__, dimension=dimension, budget=300,
         model_seeds=[0, 1, 2], max_epochs=80, development_instances=2, populations=4)
 
 
 def verify(run):
     run = Path(run)
     expected = json.loads((run/'identity.json').read_text())
-    if expected != canonical(identity()):
+    if expected != canonical(identity(expected['dimension'])):
         raise ValueError('Frozen source/configuration changed; cannot resume this run')
     return run, expected
 
@@ -53,13 +54,14 @@ def bounded(initial, final, scale):
 
 def validate_anchor(model):
     device = next(model.parameters()).device
+    dimension = model.generator.dim
     scores = []
     points = 0
     model.eval()
     with torch.no_grad():
         for fid in range(36):
-            task = ProceduralTask(fid, 0, 'anchor_validation', device=device)
-            pop = population(fid, 0, 'anchor_validation', count=2, device=device)
+            task = ProceduralTask(fid, 0, 'anchor_validation', dim=dimension, device=device)
+            pop = population(fid, 0, 'anchor_validation', count=2, dim=dimension, device=device)
             _, trail, nfe, _ = model(pop, task)
             initial_y = task.initial_values
             assert nfe == 300 and task.points == 600
@@ -72,6 +74,7 @@ def validate_anchor(model):
 def train_anchor(job):
     run, seed = job
     run, protocol = verify(run)
+    dimension = protocol['dimension']
     out = run/f'anchor_{seed}'
     out.mkdir(exist_ok=True)
     store = CaseStore(out/'state', protocol)
@@ -84,7 +87,7 @@ def train_anchor(job):
             assert sha256(out/'selected.pt') == done['selected_sha256']
             return done
         torch.manual_seed(seed_for('anchor', seed, 'init'))
-        model = AnchorPolicyBackbone(10, 200, 100).to(device)
+        model = AnchorPolicyBackbone(dimension, 200, 100).to(device)
         optimizer = torch.optim.Adam(model.parameters(), lr=.001)
         state = store.load('training', {'seed': seed})
         history, begin, stale, train_points, val_points, elapsed = [], 1, 0, 0, 0, 0.
@@ -107,8 +110,8 @@ def train_anchor(job):
             model.train(); optimizer.zero_grad(); total = 0.
             for fid in range(36):
                 torch.manual_seed(seed_for('anchor', seed, epoch, fid, 'dropout'))
-                task = ProceduralTask(fid, epoch, 'anchor_training', device=device)
-                pop = population(fid, epoch, 'anchor_training', count=16, device=device)
+                task = ProceduralTask(fid, epoch, 'anchor_training', dim=dimension, device=device)
+                pop = population(fid, epoch, 'anchor_training', count=16, dim=dimension, device=device)
                 _, _, nfe, candidates = model(pop, task)
                 parent = task.initial_values
                 child = task.calfitness(candidates)
@@ -150,7 +153,7 @@ def train_anchor(job):
 def task_identity(task, pop, seed, variant):
     return dict(fid=task.fid, instance=task.instance, split=task.split,
         parameter_seed=task.parameter_seed, parameters=task.params,
-        population_seed=seed_for('revision_v1', task.split, 'population', task.fid, task.instance, 10),
+        population_seed=seed_for('revision_v1', task.split, 'population', task.fid, task.instance, task.dim),
         population=pop, policy_seed=seed, variant=variant)
 
 
@@ -159,8 +162,8 @@ def collect(job):
     run, protocol = verify(run); torch.set_num_threads(1)
     anchor = run/f'anchor_{model_seed}/selected.pt'
     store = CaseStore(run/f'labels_{model_seed}', {**protocol, 'anchor_sha256': sha256(anchor)})
-    task = ProceduralTask(fid, instance, split)
-    pop = population(fid, instance, split, count=2)
+    task = ProceduralTask(fid, instance, split, dim=protocol['dimension'])
+    pop = population(fid, instance, split, count=2, dim=protocol['dimension'])
     policy_seed = seed_for('revision_v1', split, 'policy', fid, instance)
     case_identity = task_identity(task, pop, policy_seed, 'no_residual')
     key = f'{split}_{fid:02d}_{instance}'
@@ -168,7 +171,7 @@ def collect(job):
         value = store.load(key, case_identity)
         if value is not None:
             return key
-        opt = build_unified(anchor, TEMPLATE, 'no_residual')
+        opt = build_unified(anchor, TEMPLATE, 'no_residual', dim=protocol['dimension'])
         records = []
         def teacher(features, truth, incumbent, nfe):
             records.append((features.reshape(-1, 27),
@@ -192,7 +195,8 @@ def labels(run, seed, split):
     cases = []
     for fid in range(36):
         for instance in range(2 if split == 'residual_training' else 1):
-            task = ProceduralTask(fid, instance, split); pop = population(fid, instance, split, count=2)
+            task = ProceduralTask(fid, instance, split, dim=protocol['dimension'])
+            pop = population(fid, instance, split, count=2, dim=protocol['dimension'])
             ps = seed_for('revision_v1', split, 'policy', fid, instance)
             key = f'{split}_{fid:02d}_{instance}'
             value = store.load(key, task_identity(task, pop, ps, 'no_residual'))
@@ -265,16 +269,16 @@ def evaluate_case(job):
     store = CaseStore(run/f'development_{seed}', {**protocol,
         'anchor_sha256': sha256(anchor), 'residual_sha256': sha256(residual)})
     ps = seed_for('revision_v1', 'development', 'policy', fid, instance)
-    pop = population(fid, instance, 'development', count=4)
+    pop = population(fid, instance, 'development', count=4, dim=protocol['dimension'])
     rows = []
     for variant in VARIANTS:
-        task = ProceduralTask(fid, instance, 'development')
+        task = ProceduralTask(fid, instance, 'development', dim=protocol['dimension'])
         case_identity = task_identity(task, pop, ps, variant)
         key = f'{fid:02d}_{instance}_{variant}'
         with store.lock(key):
             value = store.load(key, case_identity)
             if value is None:
-                model = build_unified(anchor, residual, variant)
+                model = build_unified(anchor, residual, variant, dim=protocol['dimension'])
                 torch.manual_seed(ps)
                 start = time.perf_counter()
                 _, trail, nfe, points = model(pop.clone(), task)
@@ -363,11 +367,12 @@ def main():
     parser.add_argument('--run', type=Path, required=True)
     parser.add_argument('--workers', type=int, default=8)
     parser.add_argument('--gpu-workers', type=int, default=3)
+    parser.add_argument('--dimension', type=int, choices=[10, 20], default=10)
     args = parser.parse_args()
     run = args.run.resolve()
     if args.mode == 'prepare':
         run.mkdir(parents=True, exist_ok=False)
-        write_json(run/'identity.json', identity())
+        write_json(run/'identity.json', identity(args.dimension))
         write_json(run/'status.json', {'stage': 'prepared', 'pid': os.getpid()})
         print(run, flush=True)
         return
