@@ -18,6 +18,8 @@ The residual predictor is trained to identify candidates that improve the incumb
 
 The implementation appendix reports the complete score, comparison margins, rescue conditions, active task-category branches, archive updates and counter behavior. In the selected configuration, the historical-evidence counter required by the veto condition is not updated; thus that veto must not be described as an empirically active safeguard. This disclosure is essential to matching the manuscript to the executable final method.
 
+Only the anchor and residual predictor load trained checkpoints in the released final evaluation path. The state encoder, neural portfolio module and gating network retain their fixed-seed initial parameters. The method description must distinguish these initial parameters from learned offline knowledge and must not imply that every frozen network has been trained.
+
 ## Position relative to existing work
 
 MetaBO meta-trains acquisition functions for transfer within Bayesian optimization. ROOPF instead studies an explicit competition between frozen anchor proposals and a candidate portfolio, with a retained anchor slot. This is a distinction in the implemented decision structure, not a claim to originate offline-to-online transfer. [Volpp et al., ICLR 2020](https://iclr.github.io/build/virtual/poster_ryeYpJSKwr.html).

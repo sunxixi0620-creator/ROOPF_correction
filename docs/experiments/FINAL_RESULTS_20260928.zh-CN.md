@@ -1,63 +1,10 @@
-"""Write the final report only after every declared remaining stage is complete."""
-import json
-from pathlib import Path
-import numpy as np
-import pandas as pd
-from archive_remaining import NAMES
-ROOT=Path(__file__).resolve().parents[1];DOC=ROOT/'docs/experiments';TABLE=DOC/'remaining_tables'
-
-def wtl(values):
-    v=np.asarray(values);return f'{(v<0).sum()}/{(v==0).sum()}/{(v>0).sum()}'
-
-def main():
-    for name in NAMES:assert (ROOT/'results'/name/'COMPLETE').exists(),name
-    external={}
-    for m in ['gp_ei','surr_rlde']:
-        d=pd.read_csv(TABLE/(m+'_paired.csv'))
-        external[m]={s:wtl(d[d.suite==s].difference) for s in ['coco','cec2017']}
-    native=pd.read_csv(TABLE/'native20_eval_20260928_paired.csv')
-    nt=['| 20-D完整重训方法相对 | 300 NFE，48条件 | 600 NFE，48条件 |','|---|---|---|']
-    for m in native.comparator.unique():nt.append(f"| {m} | {wtl(native[(native.budget==300)&(native.comparator==m)].difference)} | {wtl(native[(native.budget==600)&(native.comparator==m)].difference)} |")
-    order=pd.read_csv(TABLE/'training_order_paired.csv')
-    ot='；'.join(f'{m}：{wtl(order[order.method==m].difference)}' for m in ['anchor_only','full'])
-    timing=pd.read_csv(ROOT/'results/serial_external_timing_20260928/raw_results.csv')
-    tt=['| 方法 | 在线耗时中位数（秒） |','|---|---:|']
-    for m,s in timing.groupby('method').seconds.median().items():tt.append(f'| {m} | {s:.4f} |')
-    training=[]
-    for n in ['retrain_d10_original_20260928','retrain_d10_curated_20260928','retrain_d20_canonical_20260928']:
-        d=json.loads((ROOT/'results'/n/'COMPLETE').read_text());h=json.loads((ROOT/'results'/n/'history.json').read_text())
-        training.append({'name':n,**d,'best_training_epoch':min(h,key=lambda x:x['loss'])['epoch']+1})
-    resid=json.loads((ROOT/'results/retrain_residual_d20_20260928/metrics.json').read_text())
-    pipeline=json.loads((ROOT/'results/remaining_pipeline_stages_20260928.json').read_text())
-    costs=['| 离线阶段 | 实测墙钟秒数 | 生成函数目标求值/标签 |','|---|---:|---|']
-    for t in training:costs.append(f"| {t['name']} | {t['seconds']:.2f} | {t['point_evaluations']:,}次目标求值 |")
-    for t in pipeline:
-        if t['name']=='native_residual_logs_20260928':costs.append(f"| 20-D全池标注（8 CPU进程） | {t['seconds']:.2f} | 108,000主求值＋1,368,000教师求值；1,296,000候选标签 |")
-        if t['name']=='retrain_residual_d20_20260928':costs.append(f"| 20-D residual拟合（GPU） | {t['seconds']:.2f} | 使用1,200,000标签；不调用测试目标 |")
-    counts={}
-    for name in NAMES:
-        root=ROOT/'results'/name
-        if name.startswith(('remaining_operators','remaining_replay')):
-            rows=json.loads((root/'all_rows.json').read_text());counts[name]={'trajectories':len(rows),'main_points':sum(r['actual_nfe'] for r in rows),'diagnostic_points':sum(r['diagnostic_nfe'] for r in rows)}
-        elif (root/'raw_results.csv').exists():
-            rows=pd.read_csv(root/'raw_results.csv');counts[name]={'trajectories':len(rows),'main_points':int(rows.actual_nfe.sum()),'diagnostic_points':0}
-    trajectories=sum(x['trajectories'] for x in counts.values());mainpoints=sum(x['main_points'] for x in counts.values())
-    diagnostics=sum(x['diagnostic_points'] for x in counts.values())
-    summary={'remaining_online':counts,'new_trajectories':trajectories,'new_main_points':mainpoints,'new_pool_diagnostic_points':diagnostics,
-        'including_previous_trajectories':trajectories+9430,'including_previous_main_points':mainpoints+2829000,
-        'including_previous_diagnostic_points':diagnostics+7920,'UAV_posthoc_component_checks':1050,
-        'controlled_anchor_training':training,'native_residual_training':resid,
-        'pipeline_commands_and_wall_seconds':pipeline,
-        'native_label_generation':json.loads((ROOT/'results/native_residual_logs_20260928/COMPLETE').read_text()),
-        'scope_limits':['original historical training command/seed not recovered','new training is one initialization per treatment','benchmark family development history remains','no guarantee of superiority or flight safety']}
-    (DOC/'FINAL_COMPLETION_COUNTS_20260928.json').write_text(json.dumps(summary,indent=2))
-    text=f'''# ROOPF 全部本轮补充工作：结果与论文结论
+# ROOPF 全部本轮补充工作：结果与论文结论
 
 本报告将最终10-D ROOPF作为固定主方法，不以历史版本差异作为贡献。原anchor/residual checkpoint保持不变。新增维度和训练对照均独立保存，明确标记为受控重训。
 
 ## 完成范围
 
-本轮新增{trajectories:,}条正式/计时执行轨迹（跨实验有重复对照，并非全部独立样本），主目标评估{mainpoints:,}次；加上上一轮，共{trajectories+9430:,}条、{mainpoints+2829000:,}次。新增同池诊断{diagnostics:,}次，前轮诊断7,920次，均不参与在线优化。UAV的1,050次事后组成/几何复核另列。
+本轮新增13,942条正式/计时执行轨迹（跨实验有重复对照，并非全部独立样本），主目标评估5,046,600次；加上上一轮，共23,372条、7,875,600次。新增同池诊断12,960次，前轮诊断7,920次，均不参与在线优化。UAV的1,050次事后组成/几何复核另列。
 
 此外完成三个80-epoch anchor受控训练（各36函数、batch64、每轨迹300主NFE），以及20-D residual的全池标注和训练。训练目标计算包含父代/候选重新求值，不能与在线300NFE直接混算。完整计数、训练时间、checkpoint哈希在[机器可读清单](FINAL_COMPLETION_COUNTS_20260928.json)。本报告生成前逐一检查了全部15个剩余阶段的完成标记。
 
@@ -69,8 +16,8 @@ def main():
 |---|---|---|
 | 同一anchor | 46/2/0 | 20/0/0 |
 | CMA-ES | 5/0/43 | 1/0/19 |
-| GP-EI | {external['gp_ei']['coco']} | {external['gp_ei']['cec2017']} |
-| Surr-RLDE发布策略 | {external['surr_rlde']['coco']} | {external['surr_rlde']['cec2017']} |
+| GP-EI | 6/0/42 | 2/0/18 |
+| Surr-RLDE发布策略 | 24/0/24 | 7/0/13 |
 | DE | 40/0/8 | 14/0/6 |
 
 ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-EI；与学习型方法的比较也有明显任务差异。不能保留“普遍超过强基线”的摘要或结论。Surr-RLDE按上游停止逻辑将内部预算设为200，真实计数严格为300，相关预算状态适配已在协议披露。GP-EI采用20点LHS初始化、ARD Matern5/2核与固定候选搜索规则；它是明确配置的GP-EI实现，不冒称所有BO方法的代表。
@@ -111,13 +58,19 @@ ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-
 
 20-D从同一anchor结构重训，并在36生成函数上重新收集全池标签、训练native residual；原10-D residual迁移作为单独对照。全部24个COCO函数×实例101/102×10初始化，两种预算。300NFE保持绝对预算，600NFE保持原10-D的30×维数预算比例；没有10-D嵌入替代。
 
-{chr(10).join(nt)}
+| 20-D完整重训方法相对 | 300 NFE，48条件 | 600 NFE，48条件 |
+|---|---|---|
+| anchor_only | 46/2/0 | 46/2/0 |
+| cma_es | 5/0/43 | 3/0/45 |
+| de | 43/0/5 | 26/0/22 |
+| full_transferred_residual | 24/6/18 | 23/8/17 |
+| no_residual | 22/6/20 | 24/12/12 |
 
 在两种20-D预算下，完整方法相对同一anchor均为46胜、2平、0负，支持融合增益可以延伸到本次原生20-D重训。相对CMA-ES却分别为5胜43负、3胜45负；增加预算并未消除这一差距。native residual相对无residual或10-D residual迁移的结果是混合的，不能把重训residual描述为普遍必要或稳定的大幅收益来源。
 
 这是一个训练初始化下的原生20-D扩展。搜索种子的配对区间不包含训练种子的不确定性，不能据此宣称任意高维或所有重训都稳定。全流程训练成本单列，未按20-D测试成绩选checkpoint。
 
-原始36函数与审计后36函数成员集合、实现和参数分布相同，排序不同；10/20-D共72个按函数ID对齐的值/梯度检查完全一致。匹配随机实例、初始化与80epochs后，审计顺序相对原始顺序的48条件均值胜/平/负为：{ot}。两个10-D受控模型的full均固定使用原10-D residual，属于迁移对照；anchor-only是隔离训练顺序的主要比较。这是训练顺序效应，不是“筛选了更优函数成员”的证据。不能再用不存在的成员差异来论证ELA筛选效果。
+原始36函数与审计后36函数成员集合、实现和参数分布相同，排序不同；10/20-D共72个按函数ID对齐的值/梯度检查完全一致。匹配随机实例、初始化与80epochs后，审计顺序相对原始顺序的48条件均值胜/平/负为：anchor_only：11/28/9；full：29/0/19。两个10-D受控模型的full均固定使用原10-D residual，属于迁移对照；anchor-only是隔离训练顺序的主要比较。这是训练顺序效应，不是“筛选了更优函数成员”的证据。不能再用不存在的成员差异来论证ELA筛选效果。
 
 顺序对照的结果方向混合，没有形成对所有条件的一致优势；一个训练初始化也不能代表训练随机性的总体规律。[完整配对表](remaining_tables/training_order_paired.csv)保留全部48条件。
 
@@ -129,11 +82,24 @@ ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-
 
 外部基线串行复测使用四条件×三新种子，在线耗时如下（包括搜索/拟合和解析目标求值；不含离线训练与checkpoint加载）：
 
-{chr(10).join(tt)}
+| 方法 | 在线耗时中位数（秒） |
+|---|---:|
+| anchor_only | 0.0728 |
+| cma_es | 0.0207 |
+| de | 0.0081 |
+| full | 0.5663 |
+| gp_ei | 4.1395 |
+| surr_rlde | 0.0203 |
 
 这些解析目标上的延迟不是昂贵仿真的端到端耗时。串行指本项目逐方法执行，并不代表宿主机没有其他用户任务；CPU/GPU时间均是共享资源下的实际墙钟测量，不能称为独占硬件性能。原始历史训练的准确命令/种子/耗时仍未恢复；新增训练有完整配方，且不会被冒充为原始历史运行。
 
-{chr(10).join(costs)}
+| 离线阶段 | 实测墙钟秒数 | 生成函数目标求值/标签 |
+|---|---:|---|
+| retrain_d10_original_20260928 | 2122.91 | 110,592,000次目标求值 |
+| retrain_d10_curated_20260928 | 2877.43 | 110,592,000次目标求值 |
+| retrain_d20_canonical_20260928 | 2088.55 | 110,592,000次目标求值 |
+| 20-D全池标注（8 CPU进程） | 49.26 | 108,000主求值＋1,368,000教师求值；1,296,000候选标签 |
+| 20-D residual拟合（GPU） | 96.41 | 使用1,200,000标签；不调用测试目标 |
 
 上述离线目标求值都在生成训练函数上执行，不是新增测试目标观测。训练成本是否值得，需要结合实际昂贵目标单次耗时和可复用任务数讨论；当前解析函数数据不能给出通用摊销阈值。
 
@@ -159,8 +125,3 @@ ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-
 - [最终完整性检查](remaining_tables/final_integrity_checks.json)：15阶段归档与本地文件哈希、轨迹唯一性、真实预算、有限单调收敛记录和原checkpoint核验。
 - Surr-RLDE的机制背景和发布代码：[论文](https://arxiv.org/abs/2503.18060)、[作者仓库](https://github.com/MetaEvo/Surr-RLDE)。
 - GP实现依据：[scikit-learn Gaussian processes](https://scikit-learn.org/stable/modules/gaussian_process.html)。
-'''
-    (DOC/'FINAL_RESULTS_20260928.zh-CN.md').write_text(text)
-    print(json.dumps({k:v for k,v in summary.items() if k.startswith(('new_','including_'))},indent=2))
-
-if __name__=='__main__':main()

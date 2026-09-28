@@ -1,0 +1,41 @@
+{
+  "cases": [
+    [
+      "coco",
+      9,
+      101
+    ],
+    [
+      "coco",
+      11,
+      101
+    ],
+    [
+      "cec2017",
+      10,
+      1
+    ],
+    [
+      "cec2017",
+      20,
+      1
+    ]
+  ],
+  "methods": [
+    "full",
+    "anchor_only",
+    "cma_es",
+    "de",
+    "gp_ei",
+    "surr_rlde"
+  ],
+  "seeds": [
+    20275000,
+    20275001,
+    20275002
+  ],
+  "nfe": 300,
+  "execution": "single CPU process,1 BLAS/OMP/MKL thread; run after our remaining training/evaluation jobs finish",
+  "boundary": "online search/evaluation; checkpoint loading and objective construction excluded; GP fitting included",
+  "source_sha256": "ce4e313136f0ad1a648bc56b1d72c8d9cc35ca593560f59e5a3ff4d262f21ab9"
+}

@@ -1,0 +1,111 @@
+{
+  "stages": [
+    {
+      "stage": "remaining_operators_20260928",
+      "archived_files_verified": 4684,
+      "trajectories": 2340,
+      "main_points": 702000,
+      "traces_checked": 2340,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "remaining_replay_20260928",
+      "archived_files_verified": 2524,
+      "trajectories": 1260,
+      "main_points": 378000,
+      "traces_checked": 1260,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "remaining_uav_20260928",
+      "archived_files_verified": 2104,
+      "trajectories": 1050,
+      "main_points": 315000,
+      "traces_checked": 1050,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "remaining_gp_ei_20260928",
+      "archived_files_verified": 1364,
+      "trajectories": 680,
+      "main_points": 204000,
+      "traces_checked": 680,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "remaining_surr_rlde_20260928",
+      "archived_files_verified": 1364,
+      "trajectories": 680,
+      "main_points": 204000,
+      "traces_checked": 680,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "random_shortlist_20260928",
+      "archived_files_verified": 364,
+      "trajectories": 180,
+      "main_points": 54000,
+      "traces_checked": 180,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "retrain_d20_canonical_20260928",
+      "archived_files_verified": 6,
+      "training_epochs": 80,
+      "training_points": 110592000
+    },
+    {
+      "stage": "retrain_d10_original_20260928",
+      "archived_files_verified": 6,
+      "training_epochs": 80,
+      "training_points": 110592000
+    },
+    {
+      "stage": "retrain_d10_curated_20260928",
+      "archived_files_verified": 6,
+      "training_epochs": 80,
+      "training_points": 110592000
+    },
+    {
+      "stage": "native_residual_logs_20260928",
+      "archived_files_verified": 76
+    },
+    {
+      "stage": "retrain_residual_d20_20260928",
+      "archived_files_verified": 5
+    },
+    {
+      "stage": "native20_eval_20260928",
+      "archived_files_verified": 11524,
+      "trajectories": 5760,
+      "main_points": 2592000,
+      "traces_checked": 5760,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "order_original_eval_20260928",
+      "archived_files_verified": 1924,
+      "trajectories": 960,
+      "main_points": 288000,
+      "traces_checked": 960,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "order_curated_eval_20260928",
+      "archived_files_verified": 1924,
+      "trajectories": 960,
+      "main_points": 288000,
+      "traces_checked": 960,
+      "unique_ids_and_budget": true
+    },
+    {
+      "stage": "serial_external_timing_20260928",
+      "archived_files_verified": 3,
+      "trajectories": 72,
+      "main_points": 21600,
+      "traces_checked": 0,
+      "unique_ids_and_budget": true
+    }
+  ],
+  "original_checkpoints_unchanged": true
+}
