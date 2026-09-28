@@ -118,8 +118,34 @@ def random_shortlist():
         table.append(dict(case=case,**paired(a,b)))
     write_csv(OUT/'random_shortlist_paired.csv',table)
 
+def manuscript_descriptive_tables():
+    """Per-condition mean/std tables, without pooling unrelated objective scales."""
+    import pandas as pd
+    groups={
+        'core_ablation_means':(['supplement_stage1'],['case','variant','warmup']),
+        'warmup_means':(['supplement_stage2'],['case','variant','warmup']),
+        'external_seven_method_means':(['independent_stage3','remaining_gp_ei','remaining_surr_rlde'],['suite','fid','instance','method']),
+        'native20_means':(['native20_eval'],['dimension','fid','instance','budget','method']),
+    }
+    for target,(names,keys) in groups.items():
+        paths=[ROOT/'results'/(name+'_20260928')/'raw_results.csv' for name in names]
+        if not all((p.parent/'COMPLETE').exists() for p in paths):continue
+        frame=pd.concat([pd.read_csv(p) for p in paths],ignore_index=True)
+        assert not frame.duplicated(keys+['seed']).any()
+        frame.groupby(keys).final.agg(n='size',mean='mean',std='std',median='median',minimum='min',maximum='max').reset_index().to_csv(OUT/(target+'.csv'),index=False)
+    (OUT/'README.md').write_text('''# Tables for manuscript revision
+
+`*_means.csv` contains every recorded condition, with the number of search initializations, arithmetic mean, sample standard deviation, median and endpoint range. These are raw objective values; do not average them across functions with different scales. The native 20-D table uses separately reconstructed checkpoints, not the frozen 10-D model.
+
+`*_paired.csv` reports paired endpoint differences and 5,000-resample percentile bootstrap intervals over search initializations within each fixed condition. A negative difference favors the first method (usually full ROOPF; the training-order table uses curated minus original). No multiplicity-adjusted significance claim is made. Strict numerical equality defines ties.
+
+The replay table instead uses forced branch minus original full trajectory. Its changed-only counts exclude interventions that leave the chosen point unchanged. Operator-origin and incumbent-decrease concentration tables are descriptive, not additive causal attributions.
+
+The main report defines benchmark provenance, task routing, timing boundaries, training controls and all limitations. `final_integrity_checks.json` is written only after all 15 stages and their archives pass verification.
+''')
+
 def main():
-    operators();replay();uav();external('gp_ei');external('surr_rlde');random_shortlist();retraining()
+    operators();replay();uav();external('gp_ei');external('surr_rlde');random_shortlist();retraining();manuscript_descriptive_tables()
     print('Updated',str(OUT))
 
 if __name__=='__main__':main()

@@ -1,0 +1,61 @@
+{
+  "dimension": 20,
+  "checkpoint_sha256": "4e384bbf7f11985085ba658b44c2bc63c70f8f505e9533cefab00b211287627c",
+  "methods": [
+    "full",
+    "full_transferred_residual",
+    "no_residual",
+    "anchor_only",
+    "cma_es",
+    "de"
+  ],
+  "budgets": [
+    300,
+    600
+  ],
+  "seeds": [
+    20265000,
+    20265001,
+    20265002,
+    20265003,
+    20265004,
+    20265005,
+    20265006,
+    20265007,
+    20265008,
+    20265009
+  ],
+  "instances": [
+    101,
+    102
+  ],
+  "functions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "residual_sha256": "a9dbde73979e7488a8674a5087c6c893761faa9f9ba0ede8e5fd4fb2c7602778",
+  "residual": "native20-D training for full at20D; explicitly separate original10-D transfer comparator",
+  "source_sha256": "7cdeb4da22f18f31b2080b46a2641c18f68a4972a0178ab808d45dcc25c5fb94"
+}

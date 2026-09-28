@@ -42,8 +42,11 @@ After the other jobs finish, run the timing command with a single CPU numerical-
 .venv/bin/python scripts/plot_remaining.py
 .venv/bin/python scripts/write_remaining_report.py
 .venv/bin/python scripts/archive_remaining.py --require-all
+.venv/bin/python scripts/verify_remaining_completion.py
 ```
 
 `write_remaining_report.py` and `archive_remaining.py --require-all` require every remaining stage to be complete. The report separates online experiments, separately charged diagnostics and offline training/teacher evaluations. Search-seed bootstrap intervals do not describe training-seed uncertainty or correct for multiple hypotheses.
+
+The final verifier checks all archived ZIP hashes and original-file hashes, stage coverage, unique trajectory identities, actual evaluation counts, finite monotone convergence traces, all three 80-epoch histories, and unchanged original checkpoint hashes. It writes `docs/experiments/remaining_tables/final_integrity_checks.json` only after the checks pass. Serial timing means our methods run sequentially; the shared host is not guaranteed to be otherwise idle.
 
 All original algorithm checks and the previous supplementary stages remain documented in their own protocols. No claim is made that the newly reconstructed training reproduces the exact historical80-epoch command or random seed.

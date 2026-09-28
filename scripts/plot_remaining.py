@@ -59,7 +59,7 @@ def native():
         d=x[x.budget==budget];methods=list(d.comparator.unique());left=np.zeros(len(methods))
         for label,fun,color in [('Full better',lambda v:v<0,'#4c9471'),('Tie',lambda v:v==0,'#a5a5a5'),('Full worse',lambda v:v>0,'#b95858')]:
             counts=np.array([fun(d[d.comparator==m].difference).sum() for m in methods]);ax.barh([LABELS[m] for m in methods],counts,left=left,label=label,color=color);left+=counts
-        ax.set_title(f'Native20-D, {budget} NFE');ax.set_xlabel('Number of case means');ax.set_xlim(0,48)
-    axes[0].legend(fontsize=8);save(fig,'native20_comparisons')
+        ax.set_title(f'Native 20-D, {budget} NFE');ax.set_xlabel('Number of case means');ax.set_xlim(0,48)
+    axes[0].legend(fontsize=8,loc='upper center',bbox_to_anchor=(.5,-.2),ncol=3);save(fig,'native20_comparisons')
 
 if __name__=='__main__':external();mechanism();uav();native()

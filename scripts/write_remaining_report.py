@@ -28,6 +28,12 @@ def main():
         d=json.loads((ROOT/'results'/n/'COMPLETE').read_text());h=json.loads((ROOT/'results'/n/'history.json').read_text())
         training.append({'name':n,**d,'best_training_epoch':min(h,key=lambda x:x['loss'])['epoch']+1})
     resid=json.loads((ROOT/'results/retrain_residual_d20_20260928/metrics.json').read_text())
+    pipeline=json.loads((ROOT/'results/remaining_pipeline_stages_20260928.json').read_text())
+    costs=['| 离线阶段 | 实测墙钟秒数 | 生成函数目标求值/标签 |','|---|---:|---|']
+    for t in training:costs.append(f"| {t['name']} | {t['seconds']:.2f} | {t['point_evaluations']:,}次目标求值 |")
+    for t in pipeline:
+        if t['name']=='native_residual_logs_20260928':costs.append(f"| 20-D全池标注（8 CPU进程） | {t['seconds']:.2f} | 108,000主求值＋1,368,000教师求值；1,296,000候选标签 |")
+        if t['name']=='retrain_residual_d20_20260928':costs.append(f"| 20-D residual拟合（GPU） | {t['seconds']:.2f} | 使用1,200,000标签；不调用测试目标 |")
     counts={}
     for name in NAMES:
         root=ROOT/'results'/name
@@ -41,6 +47,7 @@ def main():
         'including_previous_trajectories':trajectories+9430,'including_previous_main_points':mainpoints+2829000,
         'including_previous_diagnostic_points':diagnostics+7920,'UAV_posthoc_component_checks':1050,
         'controlled_anchor_training':training,'native_residual_training':resid,
+        'pipeline_commands_and_wall_seconds':pipeline,
         'native_label_generation':json.loads((ROOT/'results/native_residual_logs_20260928/COMPLETE').read_text()),
         'scope_limits':['original historical training command/seed not recovered','new training is one initialization per treatment','benchmark family development history remains','no guarantee of superiority or flight safety']}
     (DOC/'FINAL_COMPLETION_COUNTS_20260928.json').write_text(json.dumps(summary,indent=2))
@@ -78,6 +85,8 @@ ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-
 
 [算子配对表](remaining_tables/operators_paired.csv)、[候选来源](remaining_tables/operator_origins.csv)、[随机短名单对照](remaining_tables/random_shortlist_paired.csv)、[同池诊断](remaining_tables/same_pool_proxy.csv)。
 
+70%开放时点的核心质疑也有直接对照：相对初始化后立即开放，70%在三个预定BBOB条件上均值更好，但在三个移位CEC条件上均值更差；相对50%开放分别为2胜1负、3负。相对90%开放分别为2胜1平、3胜。因此应把动机改为“先积累观测，再允许在线干预”，不能继续声称在线模型在最初的数据稀疏阶段参与真实评估决策，也不能称70%为通用最优选择。配置未按补充结果重新调整。
+
 ## 3. 保护机制：直接诊断与长期分支都需要收紧主张
 
 原生默认门控对score-only的优势没有得到一致支持。默认实现中`portfolio_seen`没有被相应开关更新，因此依赖它的residual veto不生效；residual仍会通过分数与rescue影响决策。完整公式、有效分支和状态更新见[精确算法说明](ALGORITHM_EXACT.zh-CN.md)，不能把未激活的分支写成已验证贡献。
@@ -85,6 +94,8 @@ ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-
 单次分支回放使用NFE210/240/270，干预前的所有评估点逐点一致。强制换回anchor的490次实际改变中，最终改善129次、持平171次、变差190次；强制采用门控前提案的48次实际改变中，改善14次、持平21次、变差13次。这里“改善”指强制分支优于原始完整轨迹。说明单次干预的长期效应有好有坏，不能由即时目标值直接推导最终伤害，也不能把多个单次效应相加成为完整因果分解。
 
 原核心实验中，有正向portfolio事件下降量的轨迹上，前三大事件的贡献占比中位数为BBOB77.8%、移位CEC50.9%。这是按槽位顺序避免重复计数的描述性下降量，不是相对anchor-only最终收益的因果百分比。
+
+冻结residual在七个留出函数的630,000条候选日志中，最高分1%候选的incumbent改善率49.38%，整体改善率10.74%，支持排序信息；但平均输出30.04%、Brier0.13289（经验正例常数基准0.09589）、ECE0.19296，不支持校准概率解释。训练标签是“改善incumbent”，并不直接等价于“优于竞争anchor”。七函数仅对residual留出，不能声称对整个pipeline未见。
 
 [分支回放表](remaining_tables/single_intervention_replay.csv)、[贡献集中度](remaining_tables/event_gain_concentration.csv)。
 
@@ -102,9 +113,11 @@ ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-
 
 {chr(10).join(nt)}
 
+在两种20-D预算下，完整方法相对同一anchor均为46胜、2平、0负，支持融合增益可以延伸到本次原生20-D重训。相对CMA-ES却分别为5胜43负、3胜45负；增加预算并未消除这一差距。native residual相对无residual或10-D residual迁移的结果是混合的，不能把重训residual描述为普遍必要或稳定的大幅收益来源。
+
 这是一个训练初始化下的原生20-D扩展。搜索种子的配对区间不包含训练种子的不确定性，不能据此宣称任意高维或所有重训都稳定。全流程训练成本单列，未按20-D测试成绩选checkpoint。
 
-原始36函数与审计后36函数成员集合、实现和参数分布相同，排序不同；10/20-D共72个按函数ID对齐的值/梯度检查完全一致。匹配随机实例、初始化与80epochs后，审计顺序相对原始顺序的48条件均值胜/平/负为：{ot}。这是训练顺序效应，不是“筛选了更优函数成员”的证据。不能再用不存在的成员差异来论证ELA筛选效果。
+原始36函数与审计后36函数成员集合、实现和参数分布相同，排序不同；10/20-D共72个按函数ID对齐的值/梯度检查完全一致。匹配随机实例、初始化与80epochs后，审计顺序相对原始顺序的48条件均值胜/平/负为：{ot}。两个10-D受控模型的full均固定使用原10-D residual，属于迁移对照；anchor-only是隔离训练顺序的主要比较。这是训练顺序效应，不是“筛选了更优函数成员”的证据。不能再用不存在的成员差异来论证ELA筛选效果。
 
 ## 6. 可复现性与成本
 
@@ -114,7 +127,11 @@ ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-
 
 {chr(10).join(tt)}
 
-这些解析目标上的延迟不是昂贵仿真的端到端耗时。GPU训练时间记录了当时共享资源下的实际墙钟时间，不能称为独占GPU性能。原始历史训练的准确命令/种子/耗时仍未恢复；新增训练有完整配方，且不会被冒充为原始历史运行。
+这些解析目标上的延迟不是昂贵仿真的端到端耗时。串行指本项目逐方法执行，并不代表宿主机没有其他用户任务；CPU/GPU时间均是共享资源下的实际墙钟测量，不能称为独占硬件性能。原始历史训练的准确命令/种子/耗时仍未恢复；新增训练有完整配方，且不会被冒充为原始历史运行。
+
+{chr(10).join(costs)}
+
+上述离线目标求值都在生成训练函数上执行，不是新增测试目标观测。训练成本是否值得，需要结合实际昂贵目标单次耗时和可复用任务数讨论；当前解析函数数据不能给出通用摊销阈值。
 
 ## 7. 对三项贡献与审稿意见的最终判断
 
