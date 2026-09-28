@@ -19,13 +19,14 @@ def setup():
   pop=10*torch.rand(4,100,10,generator=torch.Generator().manual_seed(seed+10000000))-5
   qs.append(dict(fid=f['fid'],seed=seed,params=f['params'],pop=pop))
  torch.save(qs,OUT/'tasks.pt');save(OUT/'protocol.json',dict(script=sha(__file__),protocol=sha(ROOT/'docs/experiments/RESIDUAL_STAGE_PROTOCOL.md'),tasks=sha(OUT/'tasks.pt'),checkpoints={n:sha(path(n)) for n in NAMES if n!='no_residual'},anchor=sha(ROOT/'checkpoints/anchor_policy_d10.pt')))
-def run(q,observe):
+def run(q,observe,behavior="no_residual"):
  torch.set_num_threads(1);r.DEVICE=torch.device('cpu');m=source();f=copy.deepcopy(next(f for f in m.TRAIN_FUNCTIONS if f['fid']==q['fid']));f['params']=q['params'];task=Task(f,m)
- opt=build('no_residual');fullflags=build('full').ablation.copy();models={}
+ opt=build('no_residual' if behavior=='no_residual' else 'full');fullflags=build('full').ablation.copy();noflags=build('no_residual').ablation.copy();models={}
  for n in NAMES:
   if n=='no_residual':continue
   p=torch.load(path(n),weights_only=False,map_location='cpu');model=net().eval();model.load_state_dict({k.removeprefix('net.'):v for k,v in p['state_dict'].items()})
   models[n]=(model,torch.tensor(p['mean']),torch.tensor(p['std']))
+ if behavior!='no_residual':opt.router_model,opt.router_mean,opt.router_std=models[behavior]
  rows=[];teacher=0
  def observer(s):
   nonlocal teacher
@@ -37,16 +38,18 @@ def run(q,observe):
    norm=values.std(1,unbiased=False).clamp_min(1e-8)
    try:
     for name in NAMES:
-     opt.ablation=saved['ablation'] if name=='no_residual' else fullflags
+     opt.ablation=noflags if name=='no_residual' else fullflags
      if name!='no_residual':opt.router_model,opt.router_mean,opt.router_std=models[name]
-     idx=ROOPFOptimizer._select_by_acquisition(opt,*args,**kwargs)
+     kw=dict(kwargs);kw['use_learned_router']=name!='no_residual'
+     idx=ROOPFOptimizer._select_by_acquisition(opt,*args,**kw)
      shortlist=pool.gather(1,idx.unsqueeze(-1).expand(-1,-1,10))
      combined=torch.cat([s['baseline_cand'][:,1:2],shortlist],1)
      ops=torch.cat([torch.full_like(idx[:,:1],-2),s['op_ids'][idx]],1)
      raw=ROOPFOptimizer._select_by_acquisition(opt,s['archive_x'],s['archive_y'],combined,torch.ones(combined.shape[:2]),s['problem'],s['remaining'],s['stagnation'],1,candidate_ops=ops,state_raw=s['state_raw'],fitness=s['fitness'],used=s['used'],use_learned_router=True,disable_online_proxy=None)
      chosen=opt.protected_index(opt.last_acquisition,opt.last_router_prob,scale,s['portfolio_seen'],s['portfolio_best_count'],name!='no_residual')
      point=combined.gather(1,chosen.unsqueeze(-1).expand(-1,-1,10))
-     if name=='no_residual':
+     if name==behavior:
+      assert torch.equal(idx,s['selected']), 'shortlist replay differs from native selection'
       actual=s['combined'].gather(1,s['extra_idx'].unsqueeze(-1).expand(-1,-1,10));assert torch.equal(point,actual)
      cf=torch.cat([values[:,:1],values[:,1:].gather(1,idx)],1)
      for b in range(4):
@@ -81,7 +84,7 @@ def finish(results):
  protocol=json.loads((OUT/'protocol.json').read_text());assert protocol['script']==sha(__file__) and protocol['tasks']==sha(OUT/'tasks.pt')
  assert protocol['anchor']==sha(ROOT/'checkpoints/anchor_policy_d10.pt')
  for n,h in protocol['checkpoints'].items():assert sha(path(n))==h
- report=dict(stats=stats,budget=dict(main_trajectories=288,main_points=86400,teacher_points=sum(z['teacher_points'] for z in results),shared_states=6480,model_state_evaluations=51840),scope='Shared no-residual behavior states; local stage regret, not final optimization outcomes')
+ report=dict(stats=stats,budget=dict(main_trajectories=288,main_points=86400,teacher_points=sum(z['teacher_points'] for z in results),shared_states=6480,model_state_evaluations=51840,native_parity_main_points=19200,native_parity_teacher_points=53280),scope='Shared no-residual behavior states; local stage regret, not final optimization outcomes')
  save(OUT/'REPORT.json',report)
  lines=['# 相同状态下的候选选择分阶段诊断','',report['scope'],'','36个新生成实例，每实例4条轨迹。所有8种评分配置在完全相同的6480个后期状态上比较；不训练或调参。','','## 即时误差分解','','以下均为真值差除以该状态37候选真值标准差后的均值。总误差=短名单损失+二次排序损失+门控影响。门控影响可为负；不等同于最终搜索贡献。','','| 模型 | 短名单损失 | 二次排序损失 | 门控影响 | 总选择误差 |','|---|---:|---:|---:|---:|']
  for n,z in stats.items():lines.append('| '+n+' | '+' | '.join(f"{z['mean_normalized_'+c]:.6f}" for c in ['shortlist_loss','rerank_loss','gate_effect','regret'])+' |')
@@ -103,6 +106,11 @@ def main():
  if not (OUT/'protocol.json').exists():setup()
  assert json.loads((OUT/'protocol.json').read_text())['script']==sha(__file__)
  results=[]
+ if not (OUT/'NATIVE_PARITY.json').exists():
+  q=torch.load(OUT/'tasks.pt',weights_only=False)[0]
+  for n in NAMES:
+   a=run(q,False,n);b=run(q,True,n);assert all(torch.equal(a[k],b[k]) for k in [0,1,2]);print('NATIVE_PARITY',n,flush=True)
+  save(OUT/'NATIVE_PARITY.json',dict(models=NAMES,exact_shortlist_choice_points_trail_rng=True,main_trajectories=64,main_points=19200,teacher_points=53280))
  with ProcessPoolExecutor(8,mp_context=multiprocessing.get_context('spawn')) as ex:
   fs=[ex.submit(worker,i) for i in range(36)]
   for j,f in enumerate(as_completed(fs)):results.append(f.result());print(j+1,'/36',flush=True)
