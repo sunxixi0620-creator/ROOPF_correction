@@ -69,6 +69,7 @@ def serial_timing(run):
 
 def audit(run):
     identity = exp.verify(str(run))
+    assert json.loads((exp.NATIVE20/'COMPLETE.json').read_text())['all_workers_joined']
     for mode, count in [('baselines', 2160), ('learned10', 1080), ('learned20', 2160)]:
         done = json.loads((run/f'{mode}_COMPLETE.json').read_text())
         assert done['all_workers_joined'] and done['cases'] == count
@@ -177,6 +178,13 @@ def finalize(run):
         comparisons['risk_rates'] = dict(selected=float(selected_risk.mean()), score_only=float(score_risk.mean()))
         result[f'd{dim}_b{budget}'] = comparisons
     write_json(OUT/'COMPARISONS.json', result)
+    write_json(OUT/'ANALYSIS_IDENTITY.json', dict(
+        scripts={name: sha256(ROOT/'scripts'/name) for name in
+                 ('finalize_unified_external.py', 'analyze_unified_decisions.py')},
+        results_csv_sha256=sha256(OUT/'results.csv'),
+        comparisons_sha256=sha256(OUT/'COMPARISONS.json'),
+        bootstrap_draws=5000, nominal_pointwise_coverage=.95,
+        multiple_comparison_adjustment=False))
     data.groupby(['dimension', 'budget', 'fid', 'method']).agg(
         error_mean=('error', 'mean'), error_median=('error', 'median'),
         error_std=('error', 'std'), log_error_mean=('log_error', 'mean'),
@@ -184,6 +192,7 @@ def finalize(run):
         early_accepted_mean=('early_accepted', 'mean')).to_csv(OUT/'function_summary.csv')
     native = {str(s): json.loads((exp.NATIVE20/f'anchor_{s}/COMPLETE.json').read_text()) for s in range(3)}
     write_json(OUT/'NATIVE20_TRAINING.json', native)
+    shutil.copyfile(exp.NATIVE20/'COMPLETE.json', OUT/'NATIVE20_COMPLETE.json')
     for s in range(3):
         shutil.copyfile(exp.NATIVE20/f'anchor_{s}/history.json', OUT/f'anchor20_{s}_history.json')
     timing = json.loads((run/'TIMING_COMPLETE.json').read_text())
@@ -216,6 +225,7 @@ def finalize(run):
     write_json(run/'COMPLETE.json', dict(status='complete', all_workers_joined=True,
         external_selection_performed=False, primary_method='no_residual',
         cases=5400, objective_evaluations=2160000))
+    shutil.copyfile(run/'COMPLETE.json', OUT/'COMPLETE.json')
     print(json.dumps(result, indent=2), flush=True)
 
 
@@ -253,10 +263,11 @@ def report(result, native):
         '采用版本与源数据哈希固定的 opfunu CEC2022 全12函数，含混合与组合函数；',
         '10维/300NFE、20维/300NFE、20维/600NFE，每方法每函数每条件30次，共5400条轨迹。',
         '20维anchor独立训练并由生成验证集选模，未使用测试目标或ELA筛选训练函数。',
+        '每个模型先完成验证选模与哈希冻结，再评估该模型；不同维度/种子的训练和评测有时间重叠，训练与选择规则始终固定。',
         '作者此前对其他BBOB/CEC来源的开发接触仍须披露。本次不证明整个研究历史与所有数学原语隔离。', '',
         '## 主要比较', '',
         '优势=对照log10误差−候选log10误差，正值表示候选较好。区间为函数、训练/运行组、组内运行的5000次配对重采样。',
-        '三种条件分别报告；不把同一函数在不同条件下视为独立的新函数族。', '',
+        '三种条件分别报告；不把同一函数在不同条件下视为独立的新函数族。逐对照名义95%区间未做多重比较校正。', '',
         '| 条件 | 对照 | 候选优势 | 95%区间 | 函数胜/平/负 |', '|---|---|---:|---|---|']
     for key, comp in result.items():
         for method in exp.METHODS[1:]:
@@ -278,6 +289,9 @@ def report(result, native):
     lines += ['', '![20维验证曲线](native20_training.png)', '',
         '线上计时见serial_timing.csv，固定F1/F8、10维300与20维600，每方法各4次按序计时。',
         '这些重复额外消耗9000次目标评估，不加入主性能样本数；宿主机器并非独占。',
+        '串行计时包含模型构造/载入和在线搜索，不含Python启动、opfunu实例载入、缓存核验及结果写盘。',
+        'objective_seconds只包目标evaluate计算；边界映射、张量转换等计入overhead_seconds。',
+        '并行原始seconds包含资源竞争，少数任务还保留了暂停等待时间，不能用其做串行速度排名。',
         '主评测216万次目标调用、所有离线训练/标签及验证费用分列在COSTS.json。',
         '初始化计入预算；原生GP使用20点LHS、CMA使用10点种群，学习方法保留100点初始化。',
         '所有方法使用固定边界仿射接口；优化器不访问已知最优值。神经状态为float32，',
