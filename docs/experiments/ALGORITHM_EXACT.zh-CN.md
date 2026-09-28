@@ -67,7 +67,7 @@ selected = j if safe else 0
 
 **状态更新的实情：**默认最终配置没有开启更新`portfolio_seen/portfolio_best_count`所需的三个附加开关，因此两个计数保持0，veto的`portfolio_seen>=8`条件不会成立。residual仍能通过分数和rescue改变决策，但不能宣称默认版本已经执行基于失败历史的veto。本轮记录并说明此事实，没有改变最终方法来使论文叙述成立。
 
-实际生效的成功记忆另有更新：每轮先乘.86；每个portfolio候选相对旧incumbent改善加1、否则进入旧种群加.25、否则减.05，裁剪到[-2,3]。operator权重为gate logits加`.35*成功记忆`后softmax，再与均匀分布以.92/.08混合。它不等价于上述未更新的保护计数。
+实际生效的成功记忆另有更新：每轮先乘.86；每个portfolio候选相对旧incumbent改善加1、否则进入旧种群加.25、否则减.05，裁剪到[-2,3]。operator权重为gate logits加`.35*成功记忆`后softmax；仅在`self.training=True`时再与均匀分布以.92/.08混合，最终评测的`eval()`路径不执行此混合。它不等价于上述未更新的保护计数。
 
 ## 成本与边界
 
