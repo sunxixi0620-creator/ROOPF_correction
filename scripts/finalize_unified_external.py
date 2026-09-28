@@ -44,6 +44,7 @@ def serial_timing(run):
     identity = exp.verify(str(run))
     for mode in ('baselines', 'learned10', 'learned20'):
         assert json.loads((run/f'{mode}_COMPLETE.json').read_text())['all_workers_joined']
+    assert json.loads((run/'baseline_overlap_COMPLETE.json').read_text())['all_workers_joined']
     store = CaseStore(run/'timing', identity)
     rows = []
     for dim, budget, fid, run_index in exp.TIMING_PANEL:
@@ -74,6 +75,7 @@ def audit(run):
     for path in run.glob('prefetch20_*.json'):
         done = json.loads(path.read_text())
         assert done['status'] == 'complete' and done['all_workers_joined']
+    assert json.loads((run/'baseline_overlap_COMPLETE.json').read_text())['all_workers_joined']
     for name, digest in json.loads((ROOT/'docs/revision/unified_execution/STAGE1.json').read_text())['original_checkpoints'].items():
         assert sha256(ROOT/'checkpoints'/name) == digest
     frozen = json.loads((run/'NATIVE20_FROZEN.json').read_text())
@@ -127,11 +129,12 @@ def archive(run, identity, native):
             assert target.stat().st_size < 95_000_000
             archives.append(dict(file=target.name, bytes=target.stat().st_size, sha256=sha256(target)))
     with zipfile.ZipFile(ARCHIVE/'sources_and_timing.zip', 'w', zipfile.ZIP_DEFLATED) as z:
-        for path in exp.SOURCES:
+        for path in sorted(set(exp.SOURCES) | set(identity['native20_training']['sources'])):
             z.write(ROOT/path, path)
         z.write(Path(__file__), 'scripts/finalize_unified_external.py')
         z.write(ROOT/'scripts/analyze_unified_decisions.py', 'scripts/analyze_unified_decisions.py')
         z.write(ROOT/'scripts/prefetch_external20.py', 'scripts/prefetch_external20.py')
+        z.write(ROOT/'scripts/overlap_external_baselines.py', 'scripts/overlap_external_baselines.py')
         z.write(ROOT/'roopf/__init__.py', 'roopf/__init__.py')
         for path in sorted((run/'timing').glob('*')):
             if path.suffix in ('.pt', '.json'):
@@ -199,7 +202,8 @@ def finalize(run):
     from analyze_unified_decisions import external
     external(run, OUT)
     for name in ('identity.json', 'NATIVE20_FROZEN.json', 'baselines_COMPLETE.json',
-                 'learned10_COMPLETE.json', 'learned20_COMPLETE.json', 'TIMING_COMPLETE.json'):
+                 'learned10_COMPLETE.json', 'learned20_COMPLETE.json', 'TIMING_COMPLETE.json',
+                 'environment.json', 'resource_schedule.json', 'baseline_overlap_COMPLETE.json'):
         shutil.copyfile(run/name, OUT/name)
     archive(run, identity, native)
     write_json(OUT/'VERIFICATION.json', dict(passed=True, case_count=5400,

@@ -1,0 +1,41 @@
+{
+  "cases": 2520,
+  "files": [
+    {
+      "bytes": 8065685,
+      "file": "d10_b300_no_residual.zip",
+      "sha256": "b04abd5e13c537288c8b9f9aec6e97b261aefa8925355c8587f064427ecf8558"
+    },
+    {
+      "bytes": 6700735,
+      "file": "d10_b300_anchor_only.zip",
+      "sha256": "043ff8a60df858a46f9d2c25e478ec0d1b85f724a2774502a46cd6c9696310a5"
+    },
+    {
+      "bytes": 8085440,
+      "file": "d10_b300_no_residual_score_only.zip",
+      "sha256": "c72bf702c44db70c77220f34eb0519a740b7541fbf85f6ba8396ca137a8e1ccd"
+    },
+    {
+      "bytes": 11680428,
+      "file": "d10_b300_cma_es.zip",
+      "sha256": "635bc0e66b0932145aa730348449f42d96944d88beb0f1b49d1ecefff09e2728"
+    },
+    {
+      "bytes": 9892868,
+      "file": "d10_b300_gp_ei.zip",
+      "sha256": "983bfdcb121029a9b9ae5226d6691be3bb9af5edd31d6ee788b7c985750b95df"
+    },
+    {
+      "bytes": 21610427,
+      "file": "d20_b300_cma_es.zip",
+      "sha256": "26d794de4cc3a81fc3afbfcfe0931440ad11976932af3dcae5cb54ef916d3302"
+    },
+    {
+      "bytes": 18000637,
+      "file": "d20_b300_gp_ei.zip",
+      "sha256": "7257317a9712d49a5052fc53318206a9a2477ca6055d5a4830a0c325af35471a"
+    }
+  ],
+  "stage": "historical snapshot before all native20 models completed"
+}
