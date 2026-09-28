@@ -1,0 +1,1314 @@
+{
+  "script": "46cfaf4384b74f7091379a35777d611849956d22e8412ad86a1d2cc7ac511c49",
+  "tasks_sha256": "00a3cd08de64eefb0bba1f313a9003b19320590063f5a97626dd552d2858d07b",
+  "cases": [
+    {
+      "index": 0,
+      "fid": "comp_global",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 1,
+      "fid": "comp_global",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 2,
+      "fid": "comp_local",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 3,
+      "fid": "comp_local",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 4,
+      "fid": "comp_rugged",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 5,
+      "fid": "comp_rugged",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 6,
+      "fid": "dirridge_multi",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 7,
+      "fid": "dirridge_multi",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 8,
+      "fid": "dirridge_noisy",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 9,
+      "fid": "dirridge_noisy",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 10,
+      "fid": "dirridge_single",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 11,
+      "fid": "dirridge_single",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 12,
+      "fid": "fourier_low",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 13,
+      "fid": "fourier_low",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 14,
+      "fid": "fourier_mid",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 15,
+      "fid": "fourier_mid",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 16,
+      "fid": "fourier_mixed",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 17,
+      "fid": "fourier_mixed",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 18,
+      "fid": "lowrank_soft",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 19,
+      "fid": "lowrank_soft",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 20,
+      "fid": "lowrank_tanh",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 21,
+      "fid": "lowrank_tanh",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 22,
+      "fid": "lowrank_wave",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 23,
+      "fid": "lowrank_wave",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 24,
+      "fid": "multiscale_coupled",
+      "split": "train",
+      "exact": false,
+      "max_abs_difference": 0.9159629344940186,
+      "initial_55_rounds_exact": false,
+      "endpoint_exact": false,
+      "current_teacher_plain_exact": true,
+      "stored_teacher_replay_exact": false,
+      "old_policy_seed_exact": false
+    },
+    {
+      "index": 25,
+      "fid": "multiscale_coupled",
+      "split": "train",
+      "exact": false,
+      "max_abs_difference": 1.0185825824737549,
+      "initial_55_rounds_exact": false,
+      "endpoint_exact": false,
+      "current_teacher_plain_exact": true,
+      "stored_teacher_replay_exact": false,
+      "old_policy_seed_exact": false
+    },
+    {
+      "index": 26,
+      "fid": "multiscale_hard",
+      "split": "train",
+      "exact": false,
+      "max_abs_difference": 1.6336610317230225,
+      "initial_55_rounds_exact": false,
+      "endpoint_exact": false,
+      "current_teacher_plain_exact": true,
+      "stored_teacher_replay_exact": false,
+      "old_policy_seed_exact": false
+    },
+    {
+      "index": 27,
+      "fid": "multiscale_hard",
+      "split": "train",
+      "exact": false,
+      "max_abs_difference": 0.6808542013168335,
+      "initial_55_rounds_exact": false,
+      "endpoint_exact": false,
+      "current_teacher_plain_exact": true,
+      "stored_teacher_replay_exact": false,
+      "old_policy_seed_exact": false
+    },
+    {
+      "index": 28,
+      "fid": "multiscale_smooth",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 29,
+      "fid": "multiscale_smooth",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 30,
+      "fid": "plateau_sharp",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 31,
+      "fid": "plateau_sharp",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 32,
+      "fid": "plateau_soft",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 33,
+      "fid": "plateau_soft",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 34,
+      "fid": "plateau_tilted",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 35,
+      "fid": "plateau_tilted",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 36,
+      "fid": "rbf_deceptive",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 37,
+      "fid": "rbf_deceptive",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 38,
+      "fid": "rbf_dense",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 39,
+      "fid": "rbf_dense",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 40,
+      "fid": "rbf_sparse",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 41,
+      "fid": "rbf_sparse",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 42,
+      "fid": "ring_double",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 43,
+      "fid": "ring_double",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 44,
+      "fid": "ring_single",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 45,
+      "fid": "ring_single",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 46,
+      "fid": "ring_wavy",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 47,
+      "fid": "ring_wavy",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 48,
+      "fid": "saddle_soft",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 49,
+      "fid": "saddle_soft",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 50,
+      "fid": "saddle_tilt",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 51,
+      "fid": "saddle_tilt",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 52,
+      "fid": "saddle_wave",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 53,
+      "fid": "saddle_wave",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 54,
+      "fid": "spiral_decay",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 55,
+      "fid": "spiral_decay",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 56,
+      "fid": "spiral_soft",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 57,
+      "fid": "spiral_soft",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 58,
+      "fid": "spiral_strong",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 59,
+      "fid": "spiral_strong",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 60,
+      "fid": "valley_narrow",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 61,
+      "fid": "valley_narrow",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 62,
+      "fid": "valley_smooth",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 63,
+      "fid": "valley_smooth",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 64,
+      "fid": "valley_wavy",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 65,
+      "fid": "valley_wavy",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 66,
+      "fid": "wavepacket_drift",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 67,
+      "fid": "wavepacket_drift",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 68,
+      "fid": "wavepacket_local",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 69,
+      "fid": "wavepacket_local",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 70,
+      "fid": "wavepacket_multi",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 71,
+      "fid": "wavepacket_multi",
+      "split": "train",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 72,
+      "fid": "comp_global",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 73,
+      "fid": "comp_local",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 74,
+      "fid": "comp_rugged",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 75,
+      "fid": "dirridge_multi",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 76,
+      "fid": "dirridge_noisy",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 77,
+      "fid": "dirridge_single",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 78,
+      "fid": "fourier_low",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 79,
+      "fid": "fourier_mid",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 80,
+      "fid": "fourier_mixed",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 81,
+      "fid": "lowrank_soft",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 82,
+      "fid": "lowrank_tanh",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 83,
+      "fid": "lowrank_wave",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 84,
+      "fid": "multiscale_coupled",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 85,
+      "fid": "multiscale_hard",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 86,
+      "fid": "multiscale_smooth",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 87,
+      "fid": "plateau_sharp",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 88,
+      "fid": "plateau_soft",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 89,
+      "fid": "plateau_tilted",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 90,
+      "fid": "rbf_deceptive",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 91,
+      "fid": "rbf_dense",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 92,
+      "fid": "rbf_sparse",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 93,
+      "fid": "ring_double",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 94,
+      "fid": "ring_single",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 95,
+      "fid": "ring_wavy",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 96,
+      "fid": "saddle_soft",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 97,
+      "fid": "saddle_tilt",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 98,
+      "fid": "saddle_wave",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 99,
+      "fid": "spiral_decay",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 100,
+      "fid": "spiral_soft",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 101,
+      "fid": "spiral_strong",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 102,
+      "fid": "valley_narrow",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 103,
+      "fid": "valley_smooth",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 104,
+      "fid": "valley_wavy",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 105,
+      "fid": "wavepacket_drift",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 106,
+      "fid": "wavepacket_local",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 107,
+      "fid": "wavepacket_multi",
+      "split": "validation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 108,
+      "fid": "comp_global",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 109,
+      "fid": "comp_local",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 110,
+      "fid": "comp_rugged",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 111,
+      "fid": "dirridge_multi",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 112,
+      "fid": "dirridge_noisy",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 113,
+      "fid": "dirridge_single",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 114,
+      "fid": "fourier_low",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 115,
+      "fid": "fourier_mid",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 116,
+      "fid": "fourier_mixed",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 117,
+      "fid": "lowrank_soft",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 118,
+      "fid": "lowrank_tanh",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 119,
+      "fid": "lowrank_wave",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 120,
+      "fid": "multiscale_coupled",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 121,
+      "fid": "multiscale_hard",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 122,
+      "fid": "multiscale_smooth",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 123,
+      "fid": "plateau_sharp",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 124,
+      "fid": "plateau_soft",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 125,
+      "fid": "plateau_tilted",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 126,
+      "fid": "rbf_deceptive",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 127,
+      "fid": "rbf_dense",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 128,
+      "fid": "rbf_sparse",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 129,
+      "fid": "ring_double",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 130,
+      "fid": "ring_single",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 131,
+      "fid": "ring_wavy",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 132,
+      "fid": "saddle_soft",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 133,
+      "fid": "saddle_tilt",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 134,
+      "fid": "saddle_wave",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 135,
+      "fid": "spiral_decay",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 136,
+      "fid": "spiral_soft",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 137,
+      "fid": "spiral_strong",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 138,
+      "fid": "valley_narrow",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 139,
+      "fid": "valley_smooth",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 140,
+      "fid": "valley_wavy",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 141,
+      "fid": "wavepacket_drift",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 142,
+      "fid": "wavepacket_local",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    },
+    {
+      "index": 143,
+      "fid": "wavepacket_multi",
+      "split": "confirmation",
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "initial_55_rounds_exact": true,
+      "endpoint_exact": true
+    }
+  ]
+}

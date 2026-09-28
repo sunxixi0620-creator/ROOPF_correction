@@ -1,0 +1,43 @@
+{
+  "script": "f658d259a98a9cca3233e0c170e9701753dfcb1169e45622ff2a72ac0cf9f80a",
+  "legacy_tasks_sha256": "7598b3ce1bafc89206e5b17a93084a6c3d480ad929b1af120ac30426efe82a22",
+  "population_seed_offset": 1000000,
+  "policy_seed_offset": 2000000,
+  "cases": [
+    {
+      "index": 24,
+      "fid": "multiscale_coupled",
+      "legacy_trace_exact": true,
+      "legacy_all_features_exact": true,
+      "legacy_teacher_values_exact": true,
+      "legacy_labels_exact": true
+    },
+    {
+      "index": 25,
+      "fid": "multiscale_coupled",
+      "legacy_trace_exact": true,
+      "legacy_all_features_exact": true,
+      "legacy_teacher_values_exact": true,
+      "legacy_labels_exact": true
+    },
+    {
+      "index": 26,
+      "fid": "multiscale_hard",
+      "legacy_trace_exact": true,
+      "legacy_all_features_exact": true,
+      "legacy_teacher_values_exact": true,
+      "legacy_labels_exact": true
+    },
+    {
+      "index": 27,
+      "fid": "multiscale_hard",
+      "legacy_trace_exact": true,
+      "legacy_all_features_exact": true,
+      "legacy_teacher_values_exact": true,
+      "legacy_labels_exact": true
+    }
+  ],
+  "scope": "Exact recovery identifies old preflight seed configuration; original cached files preserved",
+  "main_points": 4800,
+  "teacher_points": 60800
+}

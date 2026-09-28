@@ -1,0 +1,36 @@
+{
+  "audit_baseline": "8678dc69915540511c3d6a66e81707ce82915f4b",
+  "paper_sha256": "1099037c4fa70065964fac171174b6771ff2db2281dcf3c3b66ccdfc7ac7711b",
+  "supplement_sha256": "a06f6290111e0aebe10b51f4d636948d918763babc533cb7fe08d76142e694ae",
+  "original_checkpoints": {
+    "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+  },
+  "replay": {
+    "cases": 144,
+    "declared_configuration_exact": 140,
+    "recovered_legacy_cases": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "all_legacy_components_exact": true
+  },
+  "affected_new_models": 14,
+  "files": {
+    "docs/revision/feature_contract_probe/dataset_replay.json": "fd94b26b75dd9ffbc524bbaec568cf2262a84e976887073ada2a8927a291ad24",
+    "docs/revision/feature_contract_probe/differences.csv.gz": "5b0282e767eb97946c8fab1c95653a97eab3a645db32c42d47fa7fa4f8b348bd",
+    "docs/revision/feature_contract_probe/effective_dataset_manifest.json": "09f3734ed755cf00898b3a11f0a034d038bb928d471eca864173d85ebd7880a2",
+    "docs/revision/feature_contract_probe/legacy_case_recovery.json": "6ec80115783523c11fa240f56d4ffaee110727f1a036d901fe36886566b06c03",
+    "docs/revision/feature_contract_probe/manifest.json": "4b217eecda0c25358aef107d6e67524e1d8974a3f1a31f60b3ca2941cc8cfe7e",
+    "docs/revision/feature_contract_probe/recovered_legacy_tasks.pt": "7598b3ce1bafc89206e5b17a93084a6c3d480ad929b1af120ac30426efe82a22",
+    "docs/revision/feature_contract_probe/summary.csv": "634916e7420874c1f0a15e2b40a1e0ba4c376c3eb0171332546da7a9726d1b94",
+    "scripts/audit_training_feature_parity.py": "490db3518a70e65f71c210c31c68682a38bd7cf8de91736acf73849def706d04",
+    "scripts/audit_residual_dataset_replay.py": "46cfaf4384b74f7091379a35777d611849956d22e8412ad86a1d2cc7ac511c49",
+    "scripts/audit_legacy_case_recovery.py": "f658d259a98a9cca3233e0c170e9701753dfcb1169e45622ff2a72ac0cf9f80a",
+    "docs/revision/feature_contract_probe/README.md": "50d8f2a056c39163e7a953beea251121ce3389205838764bf44788aec0b3fd52"
+  },
+  "new_training_performed": false,
+  "original_results_overwritten": false
+}

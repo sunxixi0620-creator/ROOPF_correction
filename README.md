@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**当前审查结论：先修实验链路，暂停新增模型变体。** 详见[实验链路总审查](docs/revision/EXPERIMENT_CHAIN_REVIEW.zh-CN.md)：后续residual训练缓存中4个实例的旧种子来源已恢复，训练/部署特征定义也需对齐。原始最终权重及历史结果保持不变，受影响报告已加注限制。
+
 **补充实验入口（2026-09-28）。** 本分支以选定的最终 10-D ROOPF 为主方法，原 checkpoint 保持冻结；20-D 和训练顺序研究使用单独保存的受控重训模型。
 
 - [最终补充实验报告与论文结论](docs/experiments/FINAL_RESULTS_20260928.zh-CN.md)

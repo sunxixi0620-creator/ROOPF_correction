@@ -1,3 +1,5 @@
+> 后续链路审查提示：本轮依赖的训练数据中4个实例使用旧预检种子配置，实际来源已精确恢复；训练日志score与线上特征也存在定义差异。原始数值保留，但统一配置训练与目标效果归因须按[总审查](../revision/EXPERIMENT_CHAIN_REVIEW.zh-CN.md)收紧，暂不作为干净协议下的论文主结论。
+
 # 最优候选优先训练实验
 
 Known generated families; all scores/thresholds frozen; no probability calibration interpretation for top-focused scores
