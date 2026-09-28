@@ -1,0 +1,329 @@
+{
+  "selections": {
+    "fullpair_20260928": {
+      "epochs_run": 9,
+      "selected_epoch": 1,
+      "validation_regret": 0.10820853747530944
+    },
+    "fullpair_20260929": {
+      "epochs_run": 11,
+      "selected_epoch": 3,
+      "validation_regret": 0.10747415489206712
+    },
+    "top5pair_20260928": {
+      "epochs_run": 12,
+      "selected_epoch": 4,
+      "validation_regret": 0.10575878469066488
+    },
+    "top5pair_20260929": {
+      "epochs_run": 11,
+      "selected_epoch": 3,
+      "validation_regret": 0.108902468589238
+    },
+    "softtop_20260928": {
+      "epochs_run": 9,
+      "selected_epoch": 1,
+      "validation_regret": 0.12024572803173214
+    },
+    "softtop_20260929": {
+      "epochs_run": 9,
+      "selected_epoch": 1,
+      "validation_regret": 0.12035503197668328
+    }
+  },
+  "metrics": {
+    "original": {
+      "all": {
+        "portfolio_pair_concordance": 0.8152549831112083,
+        "mean_normalized_top1_regret": 0.10824265102016682,
+        "median_normalized_top1_regret": 0.014737091541072202,
+        "top1_beats_second": 0.9929166666666667
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8216402030473763,
+        "mean_normalized_top1_regret": 0.07706921698470275,
+        "median_normalized_top1_regret": 0.007461776070950387,
+        "top1_beats_second": 0.9993827160493827
+      }
+    },
+    "fullpair_20260928": {
+      "all": {
+        "portfolio_pair_concordance": 0.8379390283921074,
+        "mean_normalized_top1_regret": 0.10872974256857036,
+        "median_normalized_top1_regret": 0.015032737638798995,
+        "top1_beats_second": 0.990625
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8460626195835437,
+        "mean_normalized_top1_regret": 0.07824367832178629,
+        "median_normalized_top1_regret": 0.00743462425620056,
+        "top1_beats_second": 0.9986111111111111
+      }
+    },
+    "fullpair_20260929": {
+      "all": {
+        "portfolio_pair_concordance": 0.8462463540260668,
+        "mean_normalized_top1_regret": 0.10421416782345293,
+        "median_normalized_top1_regret": 0.012228999467869628,
+        "top1_beats_second": 0.9921527777777778
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8542929558296266,
+        "mean_normalized_top1_regret": 0.07846746257341655,
+        "median_normalized_top1_regret": 0.006768489336748978,
+        "top1_beats_second": 0.9984567901234568
+      }
+    },
+    "top5pair_20260928": {
+      "all": {
+        "portfolio_pair_concordance": 0.7966504162866969,
+        "mean_normalized_top1_regret": 0.10417887054845962,
+        "median_normalized_top1_regret": 0.01228268764024857,
+        "top1_beats_second": 0.98875
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8132820007461303,
+        "mean_normalized_top1_regret": 0.07633468545884572,
+        "median_normalized_top1_regret": 0.00710767800933625,
+        "top1_beats_second": 0.9987654320987654
+      }
+    },
+    "top5pair_20260929": {
+      "all": {
+        "portfolio_pair_concordance": 0.8008265107788333,
+        "mean_normalized_top1_regret": 0.10548322591313625,
+        "median_normalized_top1_regret": 0.012669316800508954,
+        "top1_beats_second": 0.9895833333333334
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8159489388219715,
+        "mean_normalized_top1_regret": 0.07700504994209338,
+        "median_normalized_top1_regret": 0.007074957893684557,
+        "top1_beats_second": 0.9983024691358025
+      }
+    },
+    "softtop_20260928": {
+      "all": {
+        "portfolio_pair_concordance": 0.8155124789007222,
+        "mean_normalized_top1_regret": 0.11769750503511198,
+        "median_normalized_top1_regret": 0.014518929906132405,
+        "top1_beats_second": 0.9861805555555555
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8220110635981753,
+        "mean_normalized_top1_regret": 0.08645843631038996,
+        "median_normalized_top1_regret": 0.00846392577221599,
+        "top1_beats_second": 0.9959876543209877
+      }
+    },
+    "softtop_20260929": {
+      "all": {
+        "portfolio_pair_concordance": 0.8190185993309298,
+        "mean_normalized_top1_regret": 0.1223082398453392,
+        "median_normalized_top1_regret": 0.015063555373580163,
+        "top1_beats_second": 0.9829166666666667
+      },
+      "late": {
+        "portfolio_pair_concordance": 0.8257437970878383,
+        "mean_normalized_top1_regret": 0.08900456764895655,
+        "median_normalized_top1_regret": 0.00846392577221599,
+        "top1_beats_second": 0.9950617283950617
+      }
+    }
+  },
+  "optimization": {
+    "fullpair_20260928": {
+      "bounded_gain": 0.2591478428585232,
+      "wtl_vs_original": [
+        22,
+        1,
+        13
+      ],
+      "wtl_vs_no_residual": [
+        10,
+        11,
+        15
+      ]
+    },
+    "fullpair_20260929": {
+      "bounded_gain": 0.2601990872220515,
+      "wtl_vs_original": [
+        22,
+        3,
+        11
+      ],
+      "wtl_vs_no_residual": [
+        14,
+        7,
+        15
+      ]
+    },
+    "no_residual": {
+      "bounded_gain": 0.2595668263434921,
+      "wtl_vs_original": [
+        20,
+        3,
+        13
+      ],
+      "wtl_vs_no_residual": [
+        0,
+        36,
+        0
+      ]
+    },
+    "original": {
+      "bounded_gain": 0.25659431186154,
+      "wtl_vs_original": [
+        0,
+        36,
+        0
+      ],
+      "wtl_vs_no_residual": [
+        13,
+        3,
+        20
+      ]
+    },
+    "softtop_20260928": {
+      "bounded_gain": 0.25934734822648253,
+      "wtl_vs_original": [
+        21,
+        3,
+        12
+      ],
+      "wtl_vs_no_residual": [
+        11,
+        8,
+        17
+      ]
+    },
+    "softtop_20260929": {
+      "bounded_gain": 0.2581473795250228,
+      "wtl_vs_original": [
+        20,
+        5,
+        11
+      ],
+      "wtl_vs_no_residual": [
+        10,
+        12,
+        14
+      ]
+    },
+    "top5pair_20260928": {
+      "bounded_gain": 0.258375063677704,
+      "wtl_vs_original": [
+        21,
+        3,
+        12
+      ],
+      "wtl_vs_no_residual": [
+        13,
+        7,
+        16
+      ]
+    },
+    "top5pair_20260929": {
+      "bounded_gain": 0.2576035512474846,
+      "wtl_vs_original": [
+        19,
+        4,
+        13
+      ],
+      "wtl_vs_no_residual": [
+        11,
+        8,
+        17
+      ]
+    }
+  },
+  "diagnostics": {
+    "fullpair_20260928": {
+      "decisions": 6480,
+      "changed": 81,
+      "fraction": 0.0125,
+      "immediate_wtl": [
+        49,
+        0,
+        32
+      ],
+      "incumbent_improvements": 38
+    },
+    "fullpair_20260929": {
+      "decisions": 6480,
+      "changed": 125,
+      "fraction": 0.019290123456790122,
+      "immediate_wtl": [
+        88,
+        0,
+        37
+      ],
+      "incumbent_improvements": 43
+    },
+    "original": {
+      "decisions": 6480,
+      "changed": 409,
+      "fraction": 0.06311728395061729,
+      "immediate_wtl": [
+        234,
+        0,
+        175
+      ],
+      "incumbent_improvements": 224
+    },
+    "softtop_20260928": {
+      "decisions": 6480,
+      "changed": 108,
+      "fraction": 0.016666666666666666,
+      "immediate_wtl": [
+        66,
+        0,
+        42
+      ],
+      "incumbent_improvements": 53
+    },
+    "softtop_20260929": {
+      "decisions": 6480,
+      "changed": 127,
+      "fraction": 0.019598765432098767,
+      "immediate_wtl": [
+        72,
+        0,
+        55
+      ],
+      "incumbent_improvements": 74
+    },
+    "top5pair_20260928": {
+      "decisions": 6480,
+      "changed": 205,
+      "fraction": 0.031635802469135804,
+      "immediate_wtl": [
+        121,
+        0,
+        84
+      ],
+      "incumbent_improvements": 120
+    },
+    "top5pair_20260929": {
+      "decisions": 6480,
+      "changed": 258,
+      "fraction": 0.03981481481481482,
+      "immediate_wtl": [
+        152,
+        0,
+        106
+      ],
+      "incumbent_improvements": 161
+    }
+  },
+  "budgets": {
+    "main_trajectories": 1296,
+    "main_points": 388800,
+    "teacher_points": 547200,
+    "initial_points": 14400,
+    "diagnostic_trajectories": 1008,
+    "diagnostic_main_points": 302400,
+    "diagnostic_teacher_points": 136080
+  },
+  "scope": "Known generated families; all scores/thresholds frozen; no probability calibration interpretation for top-focused scores"
+}
