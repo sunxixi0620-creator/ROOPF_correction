@@ -1,0 +1,1 @@
+Extract all ZIP files into results/residual_decision_audit. Verify manifest hashes. Run scripts/finish_residual_decision_audit.py to regenerate summaries. Protocol and interpretation are under docs/experiments/RESIDUAL_DECISION_*.

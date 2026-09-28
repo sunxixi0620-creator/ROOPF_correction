@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "archived_files": 552,
+  "checkpoints_unchanged": true,
+  "parity": {
+    "models": [
+      "original",
+      "incumbent_20260928",
+      "incumbent_20260929",
+      "second_20260928",
+      "second_20260929"
+    ],
+    "exact_points_trail_rng": true
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "results": {
+    "incumbent_20260928": {
+      "decisions": 6480,
+      "changed": 440,
+      "changed_fraction": 0.06790123456790123,
+      "immediate_wtl": [
+        279,
+        0,
+        161
+      ],
+      "changed_choice_beats_anchor": 438,
+      "changed_choice_improves_incumbent": 251,
+      "median_normalized_immediate_gain": 0.0029046426191035894,
+      "mean_bounded_immediate_gain": 0.03983587480562379,
+      "replay_trajectories": 144,
+      "replay_final_wtl": [
+        21,
+        108,
+        15
+      ],
+      "replay_changed_trajectories": 37,
+      "replay_changed_final_wtl": [
+        21,
+        1,
+        15
+      ],
+      "unchanged_at_round_final_wtl": [
+        0,
+        107,
+        0
+      ]
+    },
+    "incumbent_20260929": {
+      "decisions": 6480,
+      "changed": 405,
+      "changed_fraction": 0.0625,
+      "immediate_wtl": [
+        252,
+        0,
+        153
+      ],
+      "changed_choice_beats_anchor": 403,
+      "changed_choice_improves_incumbent": 218,
+      "median_normalized_immediate_gain": 0.0023056448858647686,
+      "mean_bounded_immediate_gain": 0.03360723884019146,
+      "replay_trajectories": 144,
+      "replay_final_wtl": [
+        18,
+        109,
+        17
+      ],
+      "replay_changed_trajectories": 37,
+      "replay_changed_final_wtl": [
+        18,
+        2,
+        17
+      ],
+      "unchanged_at_round_final_wtl": [
+        0,
+        107,
+        0
+      ]
+    },
+    "original": {
+      "decisions": 6480,
+      "changed": 455,
+      "changed_fraction": 0.07021604938271606,
+      "immediate_wtl": [
+        283,
+        0,
+        172
+      ],
+      "changed_choice_beats_anchor": 449,
+      "changed_choice_improves_incumbent": 241,
+      "median_normalized_immediate_gain": 0.0029363824609276307,
+      "mean_bounded_immediate_gain": 0.03565342596456011,
+      "replay_trajectories": 140,
+      "replay_final_wtl": [
+        19,
+        103,
+        18
+      ],
+      "replay_changed_trajectories": 37,
+      "replay_changed_final_wtl": [
+        19,
+        0,
+        18
+      ],
+      "unchanged_at_round_final_wtl": [
+        0,
+        103,
+        0
+      ]
+    },
+    "second_20260928": {
+      "decisions": 6480,
+      "changed": 36,
+      "changed_fraction": 0.005555555555555556,
+      "immediate_wtl": [
+        29,
+        0,
+        7
+      ],
+      "changed_choice_beats_anchor": 25,
+      "changed_choice_improves_incumbent": 3,
+      "median_normalized_immediate_gain": 0.08566363169468155,
+      "mean_bounded_immediate_gain": 0.14463379731933237,
+      "replay_trajectories": 48,
+      "replay_final_wtl": [
+        6,
+        39,
+        3
+      ],
+      "replay_changed_trajectories": 12,
+      "replay_changed_final_wtl": [
+        6,
+        3,
+        3
+      ],
+      "unchanged_at_round_final_wtl": [
+        0,
+        36,
+        0
+      ]
+    },
+    "second_20260929": {
+      "decisions": 6480,
+      "changed": 31,
+      "changed_fraction": 0.004783950617283951,
+      "immediate_wtl": [
+        23,
+        0,
+        8
+      ],
+      "changed_choice_beats_anchor": 23,
+      "changed_choice_improves_incumbent": 3,
+      "median_normalized_immediate_gain": 0.048083791194495705,
+      "mean_bounded_immediate_gain": 0.13994154845454854,
+      "replay_trajectories": 44,
+      "replay_final_wtl": [
+        6,
+        33,
+        5
+      ],
+      "replay_changed_trajectories": 13,
+      "replay_changed_final_wtl": [
+        6,
+        2,
+        5
+      ],
+      "unchanged_at_round_final_wtl": [
+        0,
+        31,
+        0
+      ]
+    }
+  },
+  "budgets": {
+    "cases": 180,
+    "teacher_points": 97200,
+    "factual_trajectories": 720,
+    "replay_trajectories": 520,
+    "main_points": 372000,
+    "preflight_trajectories": 40,
+    "preflight_main_points": 12000,
+    "preflight_teacher_points": 2700
+  },
+  "scope": "Identical-state local comparisons plus first-changed-round ablation, not an additive decomposition of total residual gains."
+}
