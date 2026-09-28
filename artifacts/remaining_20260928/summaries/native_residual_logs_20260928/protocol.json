@@ -1,0 +1,10 @@
+{
+  "dim": 20,
+  "functions": 36,
+  "trajectories_per_function": 10,
+  "seed_offset": 20272000,
+  "seed_population": 20273000,
+  "behavior": "final policy without residual; online proxies active",
+  "checkpoint_sha256": "4e384bbf7f11985085ba658b44c2bc63c70f8f505e9533cefab00b211287627c",
+  "source_sha256": "5ab4ba4444703026b6fef10d81e4f341abfa2fdf5916ed92ba2f28c84ba8edc3"
+}

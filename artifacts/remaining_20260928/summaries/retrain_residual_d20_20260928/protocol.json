@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/home/skq/repos/ROOPF_improve/ROOPF/.venv/bin/python",
+    "artifacts/recovered_sources/train_router_earlystop.py",
+    "--csv",
+    "results/native_residual_logs_20260928/*_pool.csv",
+    "--out",
+    "/home/skq/repos/ROOPF_improve/ROOPF/results/retrain_residual_d20_20260928/residual.pt",
+    "--metrics-out",
+    "/home/skq/repos/ROOPF_improve/ROOPF/results/retrain_residual_d20_20260928/metrics.json",
+    "--epochs",
+    "400",
+    "--patience",
+    "50",
+    "--seed",
+    "20260711",
+    "--holdout-fids",
+    "generated36:comp_global,generated36:comp_rugged,generated36:dirridge_noisy,generated36:lowrank_tanh,generated36:plateau_sharp,generated36:ring_single,generated36:wavepacket_local",
+    "--max-rows",
+    "1200000"
+  ],
+  "holdouts": "residual only; seen by anchor",
+  "label": "incumbent improvement; no test labels"
+}

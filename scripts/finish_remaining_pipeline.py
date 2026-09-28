@@ -28,6 +28,8 @@ def main():
     curated=launch('retrain_d10_curated_20260928',['scripts/reconstruct_anchor_training.py','--dim','10','--order','curated','--output','results/retrain_d10_curated_20260928'],True,2)
     labels=launch('native_residual_logs_20260928',['scripts/generate_native_residual_logs.py','--checkpoint','results/retrain_d20_canonical_20260928/anchor.pt','--output','results/native_residual_logs_20260928','--workers','8'])
     finish(labels)
+    # Keep residual validation tensors from competing with two full unrolls.
+    wait_complete('retrain_d10_original_20260928')
     holdouts=','.join(json.loads((ROOT/'artifacts/training_provenance/residual_training_metrics.json').read_text())['holdout_fids'])
     resdir=ROOT/'results/retrain_residual_d20_20260928';resdir.mkdir(exist_ok=True)
     args=['artifacts/recovered_sources/train_router_earlystop.py','--csv','results/native_residual_logs_20260928/*_pool.csv',

@@ -50,7 +50,7 @@ def main():
 
 ## 完成范围
 
-本轮新增{trajectories:,}条正式/计时轨迹，主目标评估{mainpoints:,}次；加上上一轮，共{trajectories+9430:,}条、{mainpoints+2829000:,}次。新增同池诊断{diagnostics:,}次，前轮诊断7,920次，均不参与在线优化。UAV的1,050次事后组成/几何复核另列。
+本轮新增{trajectories:,}条正式/计时执行轨迹（跨实验有重复对照，并非全部独立样本），主目标评估{mainpoints:,}次；加上上一轮，共{trajectories+9430:,}条、{mainpoints+2829000:,}次。新增同池诊断{diagnostics:,}次，前轮诊断7,920次，均不参与在线优化。UAV的1,050次事后组成/几何复核另列。
 
 此外完成三个80-epoch anchor受控训练（各36函数、batch64、每轨迹300主NFE），以及20-D residual的全池标注和训练。训练目标计算包含父代/候选重新求值，不能与在线300NFE直接混算。完整计数、训练时间、checkpoint哈希在[机器可读清单](FINAL_COMPLETION_COUNTS_20260928.json)。本报告生成前逐一检查了全部15个剩余阶段的完成标记。
 
@@ -131,6 +131,7 @@ ROOPF对自身anchor有稳定增益，但在多数条件上落后于CMA-ES和GP-
 ## 可复现资料
 
 - [剩余实验协议](REMAINING_PROTOCOL_20260928.md)，[前轮完整结果](RESULTS_20260928.zh-CN.md)。
+- [逐条审稿对应](REVIEW_RESPONSE_COMPLETION.zh-CN.md)，[英文修订材料](MANUSCRIPT_POSITIONING.en.md)，[复现步骤](REPRODUCE_REMAINING.md)。
 - [数据归档](../../artifacts/remaining_20260928/README.md)：全部阶段、原轨迹、checkpoint、训练日志、ZIP与逐文件SHA256。
 - Surr-RLDE的机制背景和发布代码：[论文](https://arxiv.org/abs/2503.18060)、[作者仓库](https://github.com/MetaEvo/Surr-RLDE)。
 - GP实现依据：[scikit-learn Gaussian processes](https://scikit-learn.org/stable/modules/gaussian_process.html)。

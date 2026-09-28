@@ -7,6 +7,7 @@ from remaining_surr_rlde import run as learned
 from supplementary_experiments import ROOT,write_csv
 
 def main():
+    assert (ROOT/'results/remaining_training_pipeline_COMPLETE').exists(), 'Finish our training/evaluation jobs before serial timing'
     out=ROOT/'results/serial_external_timing_20260928';out.mkdir(exist_ok=True)
     cases=[('coco',9,101),('coco',11,101),('cec2017',10,1),('cec2017',20,1)]
     methods=['full','anchor_only','cma_es','de','gp_ei','surr_rlde']
