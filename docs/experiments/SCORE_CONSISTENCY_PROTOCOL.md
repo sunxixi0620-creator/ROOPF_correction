@@ -1,0 +1,7 @@
+# Two-stage score consistency diagnosis
+
+No training, threshold change or final-weight replacement.36 new generated-family instances: parameter seed78000000+100*sorted family index,population+10000000,policy+20000000;4 trajectories,300NFE. Examine original full and no_residual on their own factual states, not as shared-state causal model comparisons.
+
+Intercept native36-pool and3-combined acquisition calls. Store actual mu, sigma, prior and score. Recompute without learned router only to isolate residual correction, restoring output fields and RNG. Exact additive terms: mu; -kappa*sigma (including uncertainty flags); -log_prior_bonus; all remaining structural/guard/operator corrections; residual correction. Preserve values for both shortlisted candidates across both stages and truth of second anchor+shortlist. Candidate-pair ordering reversal is based on native acquisition values; quantify whether preferring the second rather than first original shortlist candidate improves or worsens true immediate fitness.
+
+Check reconstruction of actual scores and exact diagnostic-on/off points/trail/RNG on all72 case/method runs. Teacher truth never enters policy. Counterfactual second-stage prior-preserving score is observed only at the same state: retain anchor prior1 and first-stage priors for the two shortlisted candidates, recompute acquisition and exact gate. Compare selected point truth with native decision; no full-policy causal claim. Any follow-on complete-policy experiment must be separately frozen and use a fresh instance set.
