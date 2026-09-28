@@ -1,0 +1,7 @@
+{
+  "convention": "First anchor is evaluated before competing slot; only the latter receives portfolio attribution",
+  "extra_objective_queries": 0,
+  "final_metric_source": "Same archived performance trajectories",
+  "interpretation": "Observed sequential incumbent decreases; not causal share of final benefit versus anchor-only",
+  "zero_improvement_shares": "Missing, not zero; included in counts and raw gains"
+}

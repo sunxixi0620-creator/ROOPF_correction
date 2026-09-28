@@ -1,0 +1,21 @@
+{
+  "paused_workers": [
+    3860160,
+    3860163,
+    3860164,
+    3860165,
+    3860166,
+    3860167,
+    3860168,
+    3860169,
+    3860170,
+    3860171,
+    3860172,
+    3860173
+  ],
+  "reason": "24 CPU jobs tripled GPU training epoch time; preserve all partial computation while prioritizing12 baseline jobs and3 GPU feeds",
+  "paused_at": 1790595703.130783,
+  "all_affinities_restored": true,
+  "resumed_at": 1790597504.6755738,
+  "pause_seconds": 1801.5447928905487
+}

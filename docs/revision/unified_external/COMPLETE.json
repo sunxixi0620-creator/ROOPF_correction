@@ -1,0 +1,8 @@
+{
+  "all_workers_joined": true,
+  "cases": 5400,
+  "external_selection_performed": false,
+  "objective_evaluations": 2160000,
+  "primary_method": "no_residual",
+  "status": "complete"
+}

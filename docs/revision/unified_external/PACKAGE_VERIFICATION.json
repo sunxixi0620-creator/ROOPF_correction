@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "objective_evaluations": 0,
+  "case_zip_count": 15,
+  "archived_trajectories": 5400,
+  "archive_hashes_and_crc_valid": true,
+  "model_and_source_hashes_valid": true,
+  "analysis_and_tables_hashes_valid": true,
+  "original_checkpoints_unchanged": true,
+  "checked_document_links": 60,
+  "note": "Packaging verification after numerical finalization; no new performance samples or changes to frozen scientific sources"
+}

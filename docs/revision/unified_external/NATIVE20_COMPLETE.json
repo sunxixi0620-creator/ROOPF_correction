@@ -1,0 +1,42 @@
+{
+  "all_workers_joined": true,
+  "dimension": 20,
+  "models": {
+    "0": {
+      "best_validation": 0.4136950733760993,
+      "epochs": 80,
+      "peak_gpu_bytes": 1167610368,
+      "seconds": 5052.518121863017,
+      "seed": 0,
+      "selected_epoch": 80,
+      "selected_sha256": "64c1e64c4cbd011cfa56d9f755f55d8fa577993f746c54a995d2f9eef5bc944b",
+      "training_points": 23040000,
+      "validation_points": 367200
+    },
+    "1": {
+      "best_validation": 0.39310110494908357,
+      "epochs": 80,
+      "peak_gpu_bytes": 1167610368,
+      "seconds": 5039.975199870998,
+      "seed": 1,
+      "selected_epoch": 80,
+      "selected_sha256": "d1013c0e52b47fee726ee932d54bcb569070045f745795d57daab8e1b06a50cf",
+      "training_points": 23040000,
+      "validation_points": 367200
+    },
+    "2": {
+      "best_validation": 0.39138475867609185,
+      "epochs": 80,
+      "peak_gpu_bytes": 1167610368,
+      "seconds": 5055.335921943886,
+      "seed": 2,
+      "selected_epoch": 75,
+      "selected_sha256": "c62e38695c7bb8ae8a7377027c012a6954fcbcaaa826fb531c5d8a85d7b102ab",
+      "training_points": 23040000,
+      "validation_points": 367200
+    }
+  },
+  "stage": "native20_anchor_only",
+  "training_command_exit_code": 0,
+  "verified_source": true
+}

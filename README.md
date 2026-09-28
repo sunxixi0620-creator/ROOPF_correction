@@ -1,12 +1,21 @@
 # ROOPF Reproducibility Package
 
+**当前结果：已完成用户确认的四阶段修订实验。** 共完成 10,584 条主评测轨迹（开发消融 5,184 条，冻结后的外部评测 5,400 条），实际预算及数据身份核验通过。本轮统一候选的在线补充改善了同一 anchor；residual 和门槛式保护的独立收益未获支持。外部三个条件均支持相对同一 anchor 的收益，20D/600 NFE 支持相对 GP-EI 的收益，未证明稳定优于 CMA-ES。测试来源存在已披露的历史景观数据重用，不称为完全未见函数族验证。
+
+- [最终结论与论文取舍](docs/revision/UNIFIED_CONCLUSIONS.zh-CN.md)
+- [审稿问题逐条对应](docs/revision/UNIFIED_REVIEW_CLOSURE.zh-CN.md)、[英文方法、结果与限制材料](docs/revision/UNIFIED_METHOD.en.md)
+- [机制消融](docs/revision/unified_execution/RESULTS.zh-CN.md)、[完整外部评测](docs/revision/unified_external/RESULTS.zh-CN.md)、[复现说明](docs/experiments/REPRODUCE_UNIFIED.md)
+- [本轮外部模型、完整轨迹与源代码归档](artifacts/unified_external_v1/README.md)
+
+原解锁最终版及其权重保持不变。本轮独立训练的研究候选按预定规则保留 `no_residual`，没有静默替换原模型，也没有将外部成绩追溯归给原权重。以下早期补充报告保留历史身份，其中尚未执行的局部建议不再作为当前计划。
+
 **链路审查与受控修订：** [实验链路总审查](docs/revision/EXPERIMENT_CHAIN_REVIEW.zh-CN.md)发现的旧缓存和特征定义问题已纳入新入口的验收；详见[阶段一检查](docs/revision/unified_execution/STAGE1.json)和[实际算法](docs/revision/unified_execution/ALGORITHM.zh-CN.md)。原始最终权重及历史结果保持不变，受影响旧报告保留限制说明。按用户确认的主线只推进一个统一候选，暂停旧计划中的连续局部变体搜索。
 
 **已确认的推进主线：** [修订主线与阶段验收](docs/revision/EXECUTION_DIRECTION.zh-CN.md)。限定一个新候选，依次完成链路修复、协议冻结、完整机制验收及最终验证；旧报告中的局部“下一步建议”不自动触发新实验。原最终版继续冻结保存。新实验按[统一候选预登记协议](docs/experiments/UNIFIED_REVISION_PROTOCOL.md)执行。
 
 当前 `run_roopf.py` 默认使用显式 `final_unlocked` 配置，与补充实验共用 `roopf.factory.build_final`。复现历史锁定入口须指定 `--profile legacy_locked`；算法配置身份不等于基准实例协议，CEC移位等设置仍需按对应实验清单指定。以下旧发布说明与参考表属于原归档口径，不直接充当新候选结果。
 
-**补充实验入口（2026-09-28）。** 本分支以选定的最终 10-D ROOPF 为主方法，原 checkpoint 保持冻结；20-D 和训练顺序研究使用单独保存的受控重训模型。
+**历史补充实验入口（2026-09-28，四阶段修订之前）。** 这些报告以选定的最终 10-D ROOPF 为主方法，原 checkpoint 保持冻结；20-D 和训练顺序研究使用单独保存的受控重训模型。当前修订结论以上方报告为准。
 
 - [最终补充实验报告与论文结论](docs/experiments/FINAL_RESULTS_20260928.zh-CN.md)
 - [两轮评分一致性诊断](docs/experiments/SCORE_CONSISTENCY_RESULTS.zh-CN.md)、[结论](docs/experiments/SCORE_CONSISTENCY_DECISIONS.zh-CN.md)和[复现说明](docs/experiments/SCORE_CONSISTENCY_REPRODUCE.md)：组件记录与保留prior的同状态对照。
@@ -20,7 +29,7 @@
 - [精确在线算法](docs/experiments/ALGORITHM_EXACT.zh-CN.md)、[复现步骤](docs/experiments/REPRODUCE_REMAINING.md)和[逐条件统计表](docs/experiments/remaining_tables/README.md)
 - [前轮数据归档](artifacts/supplement_20260928/README.md)与[本轮完整归档](artifacts/remaining_20260928/README.md)
 
-新实验支持相对同一 anchor 的增益，同时记录相对强基线、保护门控、概率校准和 UAV 可行性的负面或混合证据。以下为原始推理复现包说明；最终解释及补充协议以上述报告为准。
+历史补充实验记录了相对同一 anchor 的增益，以及相对强基线、保护门控、概率校准和 UAV 可行性的负面或混合证据。以下为原始推理复现包说明；本轮统一候选的最终解释及补充协议以页首链接为准。
 
 This anonymous artifact contains the implementation and frozen artifacts used
 to reproduce the 10-dimensional BBOB and CEC-style results reported for

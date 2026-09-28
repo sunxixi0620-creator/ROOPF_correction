@@ -1,0 +1,11 @@
+{
+  "bootstrap_draws": 5000,
+  "comparisons_sha256": "c88ecef1c9feb873b076f79162b69869f498549200ec027b0f8def25c50a42eb",
+  "multiple_comparison_adjustment": false,
+  "nominal_pointwise_coverage": 0.95,
+  "results_csv_sha256": "1cd0bc977ad3820097fcd0872f8ca29d3f7f3a9853e92caee3c663f122d04715",
+  "scripts": {
+    "analyze_unified_decisions.py": "9007af45abed98736c86504d9394d784fb054f0d9e5652b8e5b844b78e090971",
+    "finalize_unified_external.py": "eea7b32abd4504e01605e99480779badb68f73638fb633f5d64ed9d7ce0af3ce"
+  }
+}

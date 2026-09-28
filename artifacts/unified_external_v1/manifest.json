@@ -1,0 +1,317 @@
+{
+  "archives": [
+    {
+      "bytes": 8065685,
+      "file": "d10_b300_no_residual.zip",
+      "sha256": "b04abd5e13c537288c8b9f9aec6e97b261aefa8925355c8587f064427ecf8558"
+    },
+    {
+      "bytes": 6700735,
+      "file": "d10_b300_anchor_only.zip",
+      "sha256": "043ff8a60df858a46f9d2c25e478ec0d1b85f724a2774502a46cd6c9696310a5"
+    },
+    {
+      "bytes": 8085440,
+      "file": "d10_b300_no_residual_score_only.zip",
+      "sha256": "c72bf702c44db70c77220f34eb0519a740b7541fbf85f6ba8396ca137a8e1ccd"
+    },
+    {
+      "bytes": 11680428,
+      "file": "d10_b300_cma_es.zip",
+      "sha256": "635bc0e66b0932145aa730348449f42d96944d88beb0f1b49d1ecefff09e2728"
+    },
+    {
+      "bytes": 9892868,
+      "file": "d10_b300_gp_ei.zip",
+      "sha256": "983bfdcb121029a9b9ae5226d6691be3bb9af5edd31d6ee788b7c985750b95df"
+    },
+    {
+      "bytes": 13454740,
+      "file": "d20_b300_no_residual.zip",
+      "sha256": "47a4fcd845b5f69a6d7a8e0612815c83934880419350c5ddfd9920d92592249f"
+    },
+    {
+      "bytes": 11837063,
+      "file": "d20_b300_anchor_only.zip",
+      "sha256": "cde51211aafb202292f30c12de7ff1923ffbedb3704a6cdcf6b4960365fb8eed"
+    },
+    {
+      "bytes": 13465249,
+      "file": "d20_b300_no_residual_score_only.zip",
+      "sha256": "72e0c57650334275a4f953a7d65e781c8b7d1c3c30e8d86c362537316534b138"
+    },
+    {
+      "bytes": 21610427,
+      "file": "d20_b300_cma_es.zip",
+      "sha256": "26d794de4cc3a81fc3afbfcfe0931440ad11976932af3dcae5cb54ef916d3302"
+    },
+    {
+      "bytes": 18000637,
+      "file": "d20_b300_gp_ei.zip",
+      "sha256": "7257317a9712d49a5052fc53318206a9a2477ca6055d5a4830a0c325af35471a"
+    },
+    {
+      "bytes": 25529436,
+      "file": "d20_b600_no_residual.zip",
+      "sha256": "e2a344fff57772642039f730030b960b36bcc9de523d5b66113784626aacc28f"
+    },
+    {
+      "bytes": 16388817,
+      "file": "d20_b600_anchor_only.zip",
+      "sha256": "52ba04112bd9d66239944bf6c0fac162487f057e13985baaaa9056912a00c339"
+    },
+    {
+      "bytes": 25535826,
+      "file": "d20_b600_no_residual_score_only.zip",
+      "sha256": "3f28f958797dd4717867938879329eab81dfa13854f0b18e6c077680b4cb1b05"
+    },
+    {
+      "bytes": 42389790,
+      "file": "d20_b600_cma_es.zip",
+      "sha256": "a39d7d7108649efd29f88ace30b2541d476fee78ec733d708984648f20e89a5b"
+    },
+    {
+      "bytes": 34499168,
+      "file": "d20_b600_gp_ei.zip",
+      "sha256": "b4d2903af18a4a501003030332e6fadf6af084176832ca179ab3860478881975"
+    }
+  ],
+  "extra_files": {
+    "BASELINE_ARCHIVE_PROVENANCE.json": "81dc39d71f04b1a2e0e30b7e463c5354bf735abaaafe46ca8a77f01fa6917f53",
+    "EARLY_ARCHIVE_PROVENANCE.json": "a3e7e9394b6057d3ed85c6e6977c9d5eb6bc0517a865fe9610061c872f681cc7",
+    "LEARNED_ARCHIVE_PROVENANCE.json": "30465bb2c4bf8399669a48e1b706e80f20a2d3f0fea1c504695bbaa710d350f5",
+    "anchor20_0.pt": "64c1e64c4cbd011cfa56d9f755f55d8fa577993f746c54a995d2f9eef5bc944b",
+    "anchor20_1.pt": "d1013c0e52b47fee726ee932d54bcb569070045f745795d57daab8e1b06a50cf",
+    "anchor20_2.pt": "c62e38695c7bb8ae8a7377027c012a6954fcbcaaa826fb531c5d8a85d7b102ab",
+    "native20_task_parameters.pt": "df2ac6a38606c075eab4dacbf08734b46fd65b4a56c3c430b39fb7ba36f06b3b",
+    "sources_and_timing.zip": "b42bc6774d70daada215fcfa372200d84998265193310dc890edd34c0485d135"
+  },
+  "note": "No objective evaluation for exporting task parameters",
+  "source_identity": {
+    "anchor10": {
+      "0": "1db78467edc73593f51fda96555d568053b70a93745d355143b09927aa03f41a",
+      "1": "f9bfdfaae678d354b903ed935cfbb9e502a72dcecc360b3ba6220207ea243bad",
+      "2": "72e5f230299dcbdc8b5ec18f7a681fe027ffe5cb5fc74181eb3472905d95434e"
+    },
+    "conditions": [
+      [
+        10,
+        300
+      ],
+      [
+        20,
+        300
+      ],
+      [
+        20,
+        600
+      ]
+    ],
+    "functions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "methods": [
+      "no_residual",
+      "anchor_only",
+      "no_residual_score_only",
+      "cma_es",
+      "gp_ei"
+    ],
+    "native20_training": {
+      "budget": 300,
+      "development_instances": 2,
+      "dimension": 20,
+      "max_epochs": 80,
+      "model_seeds": [
+        0,
+        1,
+        2
+      ],
+      "numpy": "2.2.6",
+      "originals": {
+        "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+        "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+      },
+      "populations": 4,
+      "sources": {
+        "docs/experiments/UNIFIED_EXTERNAL_PROTOCOL.md": "d283e8523ad1fbf2d5907d92aca50ca5333c1443f5ca6b362e91b6bfc5de4da8",
+        "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+        "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+        "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+        "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+        "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+        "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+        "roopf/unified.py": "c9ceeca227cb822a7da4e09f8695f95dde14c98229a8982e194d6f8e52a2b751",
+        "scripts/unified_revision.py": "7e05eda4c1ccdc672ffb376464eb9c840a42669f10d025e05e95c284b8aede48"
+      },
+      "torch": "2.11.0+cu128",
+      "version": "unified_revision_v1"
+    },
+    "opfunu_files": {
+      "__init__.py": "a81c0d8183982bdb96f7a5219cd8f78d62f482a9943fcadac7723acab7f59108",
+      "benchmark.py": "d9e2189d4178f01fe3ba149c852cfe636ed8c2a1058158e514f47da9ecf555e3",
+      "cec_based/__init__.py": "8b87630dae6ee7cdaff95796e8fadfa33c5ead158b518cdc5e149bd0fa63dc01",
+      "cec_based/cec.py": "a2b642cc0346b54f4da4ed586192b0d00e058fd1dc201ea8b71c116cda57f6b3",
+      "cec_based/cec2005.py": "78981cbe0bf147a5447d4433a1bf46a8d2bebf91f117a9f0d00d62f71b9ccfbc",
+      "cec_based/cec2008.py": "c11feaa305651146c192aae7ab9a14da86267dff4dd9ebb553392936d3363402",
+      "cec_based/cec2010.py": "09d0a826d75129678f87a465d893a018fc904a47896f6e99cafaa5c9cb05ce67",
+      "cec_based/cec2013.py": "7c00091da02354ccf4c681b60f898e08c67689ffd3a6635959c9a028f3dfbae5",
+      "cec_based/cec2014.py": "bbbced068152e395ae8b0a08c8d3f440e0a01744d2e2b04636c56c69b26d69fd",
+      "cec_based/cec2015.py": "994aae596c04fae992c6735c5a5c0df34595f4d49bf0a92fcb5995c8baa01a93",
+      "cec_based/cec2017.py": "aff994c09cd95170db8c0cfbc2866dc4df891e1dc3957bb2157bd6e00a6d9469",
+      "cec_based/cec2019.py": "36603e76f9a01c009e8bd2a7cca47f353c659c2805cb10b7f8c2a33e7f9c5bba",
+      "cec_based/cec2020.py": "b7f6f463b2a11ea87ee02b4cc805f26a8519ab8bab7679a47ce9cc9a2770de55",
+      "cec_based/cec2021.py": "684d0b15b01b71d3a1127644ad5ca17d6c4e91e7b31e0eb3115ce9adc026d495",
+      "cec_based/cec2022.py": "b6220178e4e6492fb13c94897159163907a2c0e64ab8043cf424bd13ad456139",
+      "cec_based/data_2022/M_10_D10.txt": "9777049e8780aa4f9985a8f145f6e3eb71d9c8d79351214ba68de259ce4a5ad4",
+      "cec_based/data_2022/M_10_D2.txt": "e4bf2bbeffe8e3f8a53b682bbdf31a3ac93a508fe66b373c0b2a2221e04b4233",
+      "cec_based/data_2022/M_10_D20.txt": "992ca08ee1d00370720fd5d4405ef2939774d622661bd38178986009cf9ac3a8",
+      "cec_based/data_2022/M_11_D10.txt": "145c99d9c295c39c44c336d217ed52885f642eb1e60bfedb28f09ea133898800",
+      "cec_based/data_2022/M_11_D2.txt": "2b8cfd07bafe882b0efd9885acce57e4cd7d891676bfa65c524e57b8a8cbfcd8",
+      "cec_based/data_2022/M_11_D20.txt": "433568d6fc531b8efca54ac9e91332b19286dae0dddfaad91ca8e504e67edb2e",
+      "cec_based/data_2022/M_12_D10.txt": "bfcbc78c9bdabfff6ee4e3ae7a19db3f345fd266b8429604d8996a0abe1c750d",
+      "cec_based/data_2022/M_12_D2.txt": "a18ce088beef401a64728fa6e65df2a1ab4e588d8715996428f9f4276d7b2948",
+      "cec_based/data_2022/M_12_D20.txt": "ff874dfbc253df21028a7ca0393cf6a6ef83aba449b60541ce1da5329acf4a63",
+      "cec_based/data_2022/M_1_D10.txt": "165302d05684df7f48331e735c5f1364521f1ca3bbd0b6fbe755e246951c9665",
+      "cec_based/data_2022/M_1_D2.txt": "7d9fa477f7718d15b92cf4a06f322b4a21f0e5e045115df02bf9293e1d17d8c6",
+      "cec_based/data_2022/M_1_D20.txt": "90baa58e08d255c6ba9a363fc15dd81a0a6743f43325db52fa29bd925079c46c",
+      "cec_based/data_2022/M_2_D10.txt": "333b30b06e7a0832fb925406395d3a72495c80427677f93c93a6022002ef0699",
+      "cec_based/data_2022/M_2_D2.txt": "013ef909bb0276c7e6805a6b868eadc1fcf52023015be912e96a129f31dd56e5",
+      "cec_based/data_2022/M_2_D20.txt": "213a962448c68166a17731184ed3d73faf06d64713f584ac3de5815f294d45eb",
+      "cec_based/data_2022/M_3_D10.txt": "e397b4af9f945ec7e73079ef1cb3b48baeb63ec43440cfee841cc71fc2e07c34",
+      "cec_based/data_2022/M_3_D2.txt": "a27783a5812a7002ea2a2c4d18c396750adc305648e25efc73991bc4aa6c5fa3",
+      "cec_based/data_2022/M_3_D20.txt": "b35aa72d68b467c1093a0790b5b0495f47dc3692a92348e0de845ba5e47441e5",
+      "cec_based/data_2022/M_4_D10.txt": "4a30a71d1a3128d527b0279ebd8194fb93b1ea25cf568c150821fc8864097544",
+      "cec_based/data_2022/M_4_D2.txt": "45341805148f7c1f666ed5ac72f03d9e632c3094f0d2665d1d28a78908fc23c7",
+      "cec_based/data_2022/M_4_D20.txt": "afa374e26876c4e1ad9446adbb92e2f8d1a2f5dabc605bc0a863ca5c7b61cb27",
+      "cec_based/data_2022/M_5_D10.txt": "111c0a5f3bb5411164b31b3d878f16cbc2953c3a291a1600d4e2a3588f5e7cf0",
+      "cec_based/data_2022/M_5_D2.txt": "cef9e8a623fd62ef348e4b00867067300ad2153a82d05d99de848dc69ae75987",
+      "cec_based/data_2022/M_5_D20.txt": "4169beab9293453e108b1b31adc8f90279f902d17d0256a7dd99a503d073d919",
+      "cec_based/data_2022/M_6_D10.txt": "5f166dc38d462caa9213749b85b1127877b2805dfb1a08590b39061ac4936f1f",
+      "cec_based/data_2022/M_6_D2.txt": "fb2a6f7e86be6d8d22d325fcb0893ffcdefbdd2591d9bcfa988142b112e99057",
+      "cec_based/data_2022/M_6_D20.txt": "9e740c644cf3690a6b4e3ff975e237cbcdece794c914c9a8ab7c20b7003254a2",
+      "cec_based/data_2022/M_7_D10.txt": "e4848ae610bd32ab5542be2f6551961ad8a7c68256cd6407e3deb7fca9124da5",
+      "cec_based/data_2022/M_7_D20.txt": "8429b5e04891c57e3cef3d004bc9340a37c49625b3775ff6b29ab2763497cf6a",
+      "cec_based/data_2022/M_8_D10.txt": "4aea25f01994f37463e97158a804fa7158dc568f6fdb72f3f14668c441d04b76",
+      "cec_based/data_2022/M_8_D2.txt": "beaf86870e737234f4b4eda67e4e6e9854294cc2dc780ede7e7139312533a25f",
+      "cec_based/data_2022/M_8_D20.txt": "b8c3d0fb1e62d05a0de2b6d4ca0176eaf7b8fdc636cbdf95f5981205ea8d088a",
+      "cec_based/data_2022/M_9_D10.txt": "d2f044e5a61eac1adc5682c3b933f1a04079634f7bd33fb15980bbdc1a06daaa",
+      "cec_based/data_2022/M_9_D2.txt": "66c8e81539276eddb57ea452dba90b45a778738f5e9f13f3f10722f0b86d15a0",
+      "cec_based/data_2022/M_9_D20.txt": "3096750d5f1a6eb2e87d9f171a97c616b90f1f7d3fef2889d4929cd49e065428",
+      "cec_based/data_2022/Rand_Seeds.txt": "985661dfc1ee4832d57b47842b0e49e46d73bba3a12771c206c5c228a6b23d9f",
+      "cec_based/data_2022/shift_data_1.txt": "ad2d0237d226daaadefef885e996a0a9c5faa80c3559ac3b31f0a911caeecbba",
+      "cec_based/data_2022/shift_data_10.txt": "401d366604f760319e418addb8a46e016c38245458315786d2fe0b0c0a20af41",
+      "cec_based/data_2022/shift_data_11.txt": "0e73b8d1dc96890b9a7c018bddb6f19d05b7b498a31dbc572898bd02dbddce1a",
+      "cec_based/data_2022/shift_data_12.txt": "55acb70d52ccfae0a355af12d566fb78ce51419bcd86a3758337e97629b566e4",
+      "cec_based/data_2022/shift_data_2.txt": "918a5332ca6eb104d752c3889ff6d2e5a22943ef05eb30590938a96330a14fbb",
+      "cec_based/data_2022/shift_data_3.txt": "4b7b7e7ef6142aad5bfdcd594775665e6705544d8ea8c33e61b08770aa6bc69a",
+      "cec_based/data_2022/shift_data_4.txt": "8ed3b046ec47f6bae3178c31ce79006245c752760cf9d1fb40f31db734a158da",
+      "cec_based/data_2022/shift_data_5.txt": "4fff3304cd72ba17c808a6742bbafb4b57a5903dc03421471758336046c90429",
+      "cec_based/data_2022/shift_data_6.txt": "52844423cd44c7d61e2d8c894ed1c4d69524454c9a2f5af1c0f3bc60e1e6660c",
+      "cec_based/data_2022/shift_data_7.txt": "904a1a72570561b87e8af4e1104369a019f7506e04ef69bc569c2c4a488c222a",
+      "cec_based/data_2022/shift_data_8.txt": "fcb12ef2da290824f763c5a4f1f71ddeb4b4a81799c66e5e73359c9a64370b5e",
+      "cec_based/data_2022/shift_data_9.txt": "74f10364f06b8da368530d1238b36fcdb1986b62d672ee39849bf60b70b14f1a",
+      "cec_based/data_2022/shuffle_data_6_D10.txt": "888fa8cf118c2696bf4d9bfbcdcf68f3d854d131d91265a4b0a77cae4cdd0ac5",
+      "cec_based/data_2022/shuffle_data_6_D20.txt": "d7fa228ffd04d77bbd5dc967f4752548151c4575e3244ca2f4cf3d2c4ea7bc78",
+      "cec_based/data_2022/shuffle_data_7_D10.txt": "a20ef62e91439eed87d9686a8b07d72ddd82c0fb74cf9f62aa224ea37e75aaf0",
+      "cec_based/data_2022/shuffle_data_7_D20.txt": "2d18d70d10cefe1f8165809947b887b6e8c27c54d2306427a81e933e649de6d2",
+      "cec_based/data_2022/shuffle_data_8_D10.txt": "206fe2b8225fc45ce0a2bd75ae641635d26404a78ac4b9ec33e4a142408bae4d",
+      "cec_based/data_2022/shuffle_data_8_D20.txt": "8bfa0f356ff61c4009894cc6dc44cf58b53733acb7cb7abf7b81bc677034a3ed",
+      "name_based/__init__.py": "bf2a11562f98680fbfae8ba74e5e8bf0456402aeb3288795c3457c1b2064e94a",
+      "name_based/a_func.py": "04a25168f05dcd9d97e70da7c5a8d05845780df1b81df65be2791e3a7e276846",
+      "name_based/b_func.py": "f49c979add0952f28f3c5783dfd0871ee28cb991c4e81604681437db632d8050",
+      "name_based/c_func.py": "4fdab95355baa351bc74a096eeae278e15065757058fb767de3b8cd6ca02a8d8",
+      "name_based/d_func.py": "61cd5629abde35094b0a13a5bf31001109f444840c89dc49045bc59671e3379b",
+      "name_based/e_func.py": "3f5df39b737a6de841d8667b731e7b62b86ae330bf079c0581e76dc1248fe9b7",
+      "name_based/f_func.py": "affd7df3c0c597c72407c7152554922376579ff216cb637f15f37e8dd33d90d6",
+      "name_based/g_func.py": "0d3e4b92a8eb63ab4cffc7944b3ada0e29bcb70956f2fcb3b80f1e11a43c987f",
+      "name_based/h_func.py": "c68592c630b114d500e8d63804b436380347b5b301c3ddd2bf238ad02c33e413",
+      "name_based/i_func.py": "f81deb1a7cb73a87dc30081af00d8566e218659dbe545c7eed3a1eeb2328bb96",
+      "name_based/j_func.py": "83086eb68ed7b0b2a4acebb91da8613b759dffe959604914007904d8f4747e5c",
+      "name_based/k_func.py": "6f4aad3db80623bfa68774778cbc914ffb668a0c8d5ac3a5de98ca58ef93b498",
+      "name_based/l_func.py": "ce517bd594a0dc8c5a6e965c5146fccfe7775a4ea26483c75842654e99ca97ab",
+      "name_based/m_func.py": "17c8732d06ccef01c6419362b0556ae3ae69347145872aca9f8cbcfc37dea8ff",
+      "name_based/n_func.py": "4572a004c0492cee6bf3bff51cbb17c251558127749f035a3bafcee526b9bc35",
+      "name_based/o_func.py": "740b1ce75757efbb0a177b7cd3718121b66f0b4deeec9ff1be5ce6984fee5c08",
+      "name_based/p_func.py": "03c77e07b80d9f51fe93652b94726b65da4cbaf3fa9aaeea22362c0de76347ef",
+      "name_based/q_func.py": "e335a702bb8fc77c249a11d8298c12b131fe9861911a270096bd80845756ed09",
+      "name_based/r_func.py": "e9506d6ab7a00fe2711d53a339361555605fb9dbfe056a23cfa9eb82ed56cae9",
+      "name_based/s_func.py": "531d8f783dfe73d76c44ccd1dff496fd7e80dc613d2aa2167a5f261f92192bce",
+      "name_based/t_func.py": "7fc8da39694770612750f9b0bc9d3c79b7ed7b7be0f3ecb7d34a7e8db27362da",
+      "name_based/u_func.py": "e90315f259b98513c5fe87111f9fd4b88a357cfcdf7daf0eff71105b855abcfd",
+      "name_based/v_func.py": "5570a2cb39d7217c953c7ee871f333d18b93b99df028d7c33990b2e891ef961f",
+      "name_based/w_func.py": "fa0de28a369f49b6e5c6fe100a9fd04d2c5f46127655fe6db1f1f4f84d4bd2d9",
+      "name_based/x_func.py": "5e8b7580323d20deaf29b4660f9166e7b916f44b810fbe637cfa4e6c4605d78a",
+      "name_based/y_func.py": "16cf50bed8a96dc052d169973f6f4f790926b6c9d0d043c10e33a35398bfc4d1",
+      "name_based/z_func.py": "dbc3df66975d4ae610fd07d4dd1569d00e99df8a9e055e627577ba431ff6d795",
+      "utils/__init__.py": "e1cddc282155337c77ff6256611fc0313013d8e42b2fe502073f22b295d719b3",
+      "utils/operator.py": "71a0dcad634e293414caf154c89fd022dfdff49c284b49d76fdf3fae7845d9b0",
+      "utils/visualize.py": "30c5dcdbad8269b5030a105c931a4634d06e2bc9b05180b9e8871bfb282183dd"
+    },
+    "runs": 30,
+    "sources": {
+      "docs/experiments/UNIFIED_EXTERNAL_PROTOCOL.md": "d283e8523ad1fbf2d5907d92aca50ca5333c1443f5ca6b362e91b6bfc5de4da8",
+      "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+      "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+      "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+      "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+      "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+      "roopf/unified.py": "c9ceeca227cb822a7da4e09f8695f95dde14c98229a8982e194d6f8e52a2b751",
+      "scripts/unified_external.py": "3bb72f3c84ecba5f9159593d9b1a0b5a30e4376616fc838ec11cf1b29d3cce76",
+      "scripts/unified_revision.py": "7e05eda4c1ccdc672ffb376464eb9c840a42669f10d025e05e95c284b8aede48"
+    },
+    "timing_panel": [
+      [
+        10,
+        300,
+        1,
+        0
+      ],
+      [
+        10,
+        300,
+        8,
+        0
+      ],
+      [
+        20,
+        600,
+        1,
+        0
+      ],
+      [
+        20,
+        600,
+        8,
+        0
+      ]
+    ],
+    "unused_residual": {
+      "0": "7d91d34419b43dbb5427faac833eaae82571ade953bbee8e12a125e8aecc6333",
+      "1": "7838c1b63768a738653da6270e912bd69623fc1dd9a50dac41f3f003254269c1",
+      "2": "03462b1a71ff064efc6296db12cb0f356957efc33d77425b181f934a998fd079"
+    },
+    "version": "unified_external_v1",
+    "versions": {
+      "cma": "4.5.0",
+      "numpy": "2.2.6",
+      "opfunu": "1.0.4",
+      "python": "3.10.20",
+      "scipy": "1.15.3",
+      "sklearn": "1.7.2",
+      "torch": "2.11.0+cu128"
+    }
+  },
+  "task_parameter_sets": 2916
+}

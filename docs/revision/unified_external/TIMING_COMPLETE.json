@@ -1,0 +1,7 @@
+{
+  "cases": 20,
+  "exclusive_host": false,
+  "objective_evaluations": 9000,
+  "same_trajectories": true,
+  "sequential_in_this_process": true
+}

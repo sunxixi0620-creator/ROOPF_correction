@@ -1,0 +1,27 @@
+{
+  "audit_preflight_note": "Other procedural gradient/parity checks are documented separately; no fully instrumented aggregate for every historical audit invocation",
+  "declared_optimum_implementation_check_points": 24,
+  "external_main_points": 2160000,
+  "external_teacher_points": 0,
+  "external_trajectories": 5400,
+  "max_native20_process_seconds": 5055.335921943886,
+  "native20_anchor_process_seconds": 15147.829243677901,
+  "native20_anchor_training_points": 69120000,
+  "native20_anchor_validation_points": 1101600,
+  "native20_cached_verification_wall_seconds": 3.807469341903925,
+  "native20_inference_prefetch_wall_seconds": 168.77395176002756,
+  "prior_stage_costs": {
+    "anchor_training_points": 54720000,
+    "anchor_validation_points": 885600,
+    "development_main_points": 1555200,
+    "development_trajectories": 5184,
+    "label_behavior_points": 194400,
+    "label_teacher_points": 2462400,
+    "note": "GPU preflight and contract tests reported separately; no duplicate validation/teacher rows counted as independent tasks"
+  },
+  "scheduling_note": "learned20 mode reused verified prefetched cases; its short wall time is not the inference runtime. Shared-host and overlapping mode times are not additive device hours.",
+  "shared_host_timing": true,
+  "synthetic_interface_preflight_points": 2100,
+  "timing_repeat_points": 9000,
+  "timing_repeats_added_to_N": false
+}
