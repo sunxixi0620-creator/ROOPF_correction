@@ -1,0 +1,9 @@
+# Same-state selection stage audit
+
+No training or tuning. Use36 fresh generated-family instances, seed77000000+100*family index; populations+10000000, policy+20000000; four trajectories,300NFE. Frozen no-residual policy generates shared states. At each eligible late decision evaluate original residual and all six top-study checkpoints, plus no-residual control, on exactly the same pool/archive/history. These are conditional state comparisons, not their deployed trajectory distributions.
+
+Query truth for36 pool candidates plus the second anchor as isolated diagnostic calls. For each model recompute pool shortlist of2, second-stage choice over anchor+shortlist, and exact protected gate. Save indices and truth values. Restore acquisition outputs, model buffers, flags and RNG before continuing the unchanged behavior policy. Verify no-residual recomputation against actual choice and full diagnostic-on/off point/trail/RNG parity on every case.
+
+Oracle is min(second anchor,pool minimum). Decompose final candidate regret into shortlist loss (best anchor+shortlist minus oracle), combined-ranking loss (pre-gate choice minus best anchor+shortlist), and signed gate effect (post-gate choice minus pre-gate choice). Sum must equal final candidate regret. Normalize descriptive means by std of the37 truth values, floor1e-8. Gate effect may be negative; these are immediate fitness differences, not final-search causal contributions. Also count good proposals blocked and bad proposals prevented relative to second anchor.
+
+No model selected from outcomes. Check original/frozen checkpoint hashes. No-residual baseline state counters are shared for all counterfactual models, so conclusions are conditional on this behavior distribution. Known families only; no generalization or statistical-significance claim.
