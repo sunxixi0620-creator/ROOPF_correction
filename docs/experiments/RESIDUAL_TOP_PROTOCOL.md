@@ -1,0 +1,9 @@
+# Top-candidate residual development protocol
+
+Frozen before outcomes. Reuse only the72 training and36 validation instances from residual_target_study. No confirmation data for training/selection. Original final checkpoints unchanged. Three objectives, same MLP/features/data/seeds20260928/20260929, Adam .001, batches128 complete38-candidate pools, max40epochs. Training-only normalization.
+
+Objectives: (1) fullpair control: all non-tied unordered candidate pairs, logistic pairwise loss; (2) top5pair: same loss restricted to pairs with at least one endpoint at or below the fifth-smallest true fitness (ties included); (3) softtop: listwise cross entropy to softmax(-(fitness-min_fitness)/(0.1*pool_std)), std floor1e-8, all38 candidates. Temperature fixed, not tuned. Anchors and portfolio candidates retain identical inputs across arms.
+
+All three arms use the same selection metric: mean validation portfolio top1 regret divided by38-pool fitness std. Predict via deployed float32 sigmoid; argmax first-index tie convention. Earliest improvement>1e-5 saved; patience8. This retrains the fullpair control with the new selection criterion, preventing attribution of selection-rule differences to the new losses. No confirmation-based choice of objective/seed.
+
+After six selections freeze, generate36 fresh confirmation instances with parameter seed76000000+100*family index, population+10000000, policy+20000000; four trajectories/case,300NFE. Compare full original,no_residual,all six candidates. Collect no_residual teacher pools with exact on/off point/trajectory/RNG parity. Evaluate held-out portfolio ranking andtop1 regret, and complete-policy results. Deployed sigmoid and all gate thresholds unchanged; outputs are scores, not calibrated probabilities. Known families, no external-generalization claim.
