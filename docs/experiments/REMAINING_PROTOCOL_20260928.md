@@ -88,3 +88,22 @@ and assert actual counted objective calls300. This also changes the internal
 remaining-budget feature; report this adaptation, not an unmodified benchmark
 claim. No policy retraining or test tuning. Source:
 https://github.com/MetaEvo/Surr-RLDE (formerly GMC-DRL/Surr-RLDE).
+
+### Narrow ranking control
+
+For the same six diagnostic cases and30seeds20269000–20269029, replace only the
+first pool shortlist with uniform2-of36 selection using an isolated random
+stream. Retain candidate generation, second-stage proxy/residual scoring and
+protected gate. Compare against the recorded full trajectories with identical
+initialization/search seeds. This isolates pool shortlisting, not the entire
+online proxy. Added before running this control; earlier diagnostic results are
+already known, so classify it as a follow-up mechanism test, not preregistration
+of all hypotheses before any supplementary result.
+
+### External runtime follow-up
+
+After the other new jobs finish, run four fixed conditions (COCO9/11 instance101,
+CEC2017 F10/F20) with three new seeds20275000–20275002,300NFE, full/anchor/CMA/DE/
+GP-EI/Surr-RLDE in one CPU process with one numerical-library thread. Exclude
+checkpoint loading/objective construction; include online fitting/search and
+objective calls. Report medians without substituting parallel-job times.

@@ -103,8 +103,23 @@ def retraining():
         table=[dict(fid=f,instance=i,method=m,**paired(d[f,i,m,'curated'],d[f,i,m,'original'])) for f,i,m in sorted({k[:3] for k in d})]
         write_csv(OUT/'training_order_paired.csv',table)
 
+def random_shortlist():
+    root=ROOT/'results/random_shortlist_20260928';base=ROOT/'results/remaining_operators_20260928'
+    if not (root/'COMPLETE').exists():return
+    rows=read_csv(root/'raw_results.csv');table=[]
+    for case in sorted({r['case'] for r in rows}):
+        a={};b={}
+        for r in rows:
+            if r['case']!=case:continue
+            seed=int(r['seed']);stem=f'{case}_s{seed}_full_-1_anchor'
+            full=json.loads((base/(stem+'.json')).read_text());a[seed]=full['final'];b[seed]=r['final']
+            p=np.load(base/(stem+'.npz'))['points'];q=np.load(root/f'{case}_{seed}.npz')['points']
+            assert np.array_equal(p[:,:110],q[:,:110]),'Warm-up prefix differs'
+        table.append(dict(case=case,**paired(a,b)))
+    write_csv(OUT/'random_shortlist_paired.csv',table)
+
 def main():
-    operators();replay();uav();external('gp_ei');external('surr_rlde');retraining()
+    operators();replay();uav();external('gp_ei');external('surr_rlde');random_shortlist();retraining()
     print('Updated',str(OUT))
 
 if __name__=='__main__':main()

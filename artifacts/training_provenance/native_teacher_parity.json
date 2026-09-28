@@ -1,0 +1,8 @@
+{
+  "dim": 20,
+  "trajectories": 2,
+  "main_point_evaluations": 600,
+  "teacher_point_evaluations": 7600,
+  "population_trajectory_points_rng_exact": true,
+  "checkpoint": "intermediate native20 training checkpoint used only for instrumentation check"
+}

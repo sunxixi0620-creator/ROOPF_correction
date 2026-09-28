@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "remaining_operators_20260928",
+    "trajectories": 2340,
+    "unique_ids_and_budget_passed": true
+  },
+  {
+    "stage": "remaining_replay_20260928",
+    "trajectories": 1260,
+    "unique_ids_and_budget_passed": true
+  },
+  {
+    "stage": "remaining_uav_20260928",
+    "trajectories": 1050,
+    "unique_ids_and_budget_passed": true
+  },
+  {
+    "stage": "remaining_gp_ei_20260928",
+    "trajectories": 680,
+    "unique_ids_and_budget_passed": true
+  },
+  {
+    "stage": "remaining_surr_rlde_20260928",
+    "trajectories": 680,
+    "unique_ids_and_budget_passed": true
+  },
+  {
+    "stage": "random_shortlist_20260928",
+    "trajectories": 180,
+    "unique_ids_and_budget_passed": true
+  }
+]
