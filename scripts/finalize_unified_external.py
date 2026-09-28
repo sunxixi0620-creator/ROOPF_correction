@@ -82,9 +82,10 @@ def audit(run):
     frozen = json.loads((run/'NATIVE20_FROZEN.json').read_text())
     assert all(sha256(exp.checkpoint(20, int(s))) == h for s, h in frozen.items())
     store = CaseStore(run/'cases', identity)
-    rows, seeds = [], []
+    rows, seeds, curves = [], [], {}
     for dim, budget in exp.CONDITIONS:
         for fid in range(1, 13):
+            known_optimum = getattr(exp.cec2022, f'F{fid}2022')(ndim=dim).f_global
             for index in range(30):
                 initial_points, initial_values = None, None
                 for method in exp.METHODS:
@@ -92,12 +93,17 @@ def audit(run):
                     key = f'd{dim}_b{budget}_f{fid:02d}_r{index:02d}_{method}'
                     value = store.load(key, spec)
                     assert value is not None, key
+                    assert all(value['row'][k] == v for k, v in spec.items()), key
                     assert value['points'].shape == (budget, dim)
                     assert value['values'].shape == value['trace'].shape == (budget,)
                     assert np.isfinite(value['values']).all()
                     assert np.array_equal(np.minimum.accumulate(value['values']), value['trace'])
                     assert value['row']['final'] == min(value['values'])
                     assert value['row']['actual_nfe'] == budget
+                    curve_key = (dim, budget, method)
+                    if curve_key not in curves:
+                        curves[curve_key] = np.zeros(budget, dtype=np.float64)
+                    curves[curve_key] += np.log10(np.maximum(value['trace']-known_optimum, 1e-8))/360
                     if method in exp.METHODS[:3]:
                         if initial_points is None:
                             initial_points, initial_values = value['points'][:100], value['values'][:100]
@@ -111,6 +117,13 @@ def audit(run):
     assert len(rows) == 5400 and len(seeds) == len(set(seeds)) == 1080
     data = pd.DataFrame(rows)
     assert data.actual_nfe.sum() == 2160000
+    for (d, b, m), curve in curves.items():
+        group = data[(data.dimension == d) & (data.budget == b) & (data.method == m)]
+        assert len(group) == 360 and abs(curve[-1]-group.log_error.mean()) < 1e-10
+    curve_rows = [dict(dimension=d, budget=b, method=m, nfe=i+1,
+                      mean_log_error=float(v), trajectories=360)
+                  for (d, b, m), curve in curves.items() for i, v in enumerate(curve)]
+    pd.DataFrame(curve_rows).to_csv(OUT/'convergence.csv', index=False)
     return data, identity
 
 
@@ -233,6 +246,21 @@ def plots(data, result, native):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
+    curves = pd.read_csv(OUT/'convergence.csv')
+    fig, axes = plt.subplots(1, 3, figsize=(12, 3.5), constrained_layout=True)
+    for ax, (dim, budget) in zip(axes, exp.CONDITIONS):
+        block = curves[(curves.dimension == dim) & (curves.budget == budget)]
+        for method in exp.METHODS:
+            curve = block[block.method == method].sort_values('nfe')
+            ax.plot(curve.nfe, curve.mean_log_error, label=method,
+                    lw=1.7 if method == 'no_residual' else 1.1)
+        ax.axvline(100, color='gray', lw=.7, ls=':')
+        ax.set(title=f'{dim}D, {budget} evaluations', xlabel='Consumed NFE', ylabel='Mean log10 error')
+        ax.grid(alpha=.2)
+    axes[0].legend(frameon=False, fontsize=7)
+    for ext in ('png', 'pdf'):
+        fig.savefig(OUT/f'convergence.{ext}', dpi=180)
+    plt.close(fig)
     fig, axes = plt.subplots(1, 3, figsize=(13, 3.5), constrained_layout=True)
     labels = ['Same anchor', 'No protection', 'CMA-ES', 'GP-EI']
     for ax, (key, comparisons) in zip(axes, result.items()):
@@ -265,6 +293,9 @@ def report(result, native):
         '20维anchor独立训练并由生成验证集选模，未使用测试目标或ELA筛选训练函数。',
         '每个模型先完成验证选模与哈希冻结，再评估该模型；不同维度/种子的训练和评测有时间重叠，训练与选择规则始终固定。',
         '作者此前对其他BBOB/CEC来源的开发接触仍须披露。本次不证明整个研究历史与所有数学原语隔离。', '',
+        '来源核对发现6个10维函数与既有opfunu CEC2017对象共享最优点/部分移位数据；其中F11/F12还共享旋转数组，',
+        '但组成公式/参数不同。明细见SOURCE_OVERLAP.json；这限制了完全未见函数族的解释，不能仅凭年份不同宣称完全独立。',
+        '该核对在10维结果产生后进行，不改变方法或预登记函数列表；所有结果均保留。', '',
         '## 主要比较', '',
         '优势=对照log10误差−候选log10误差，正值表示候选较好。区间为函数、训练/运行组、组内运行的5000次配对重采样。',
         '三种条件分别报告；不把同一函数在不同条件下视为独立的新函数族。逐对照名义95%区间未做多重比较校正。', '',
@@ -276,7 +307,10 @@ def report(result, native):
     lines += ['', '函数胜/平/负按30运行的平均log误差差计算，绝对差≤0.01为平；不代替统计检验。',
         '训练种子只有3个，外部每组分配不同运行；训练随机性与运行组变异未完全分离。',
         '置信区间限于本套件的重采样，不是普遍可靠性或非退化保证。', '',
-        '![外部配对效应](external_effects.png)', '', '## 保护风险', '',
+        '![外部配对效应](external_effects.png)', '',
+        '![完整预算收敛轨迹](convergence.png)', '',
+        '收敛曲线是每方法360条真实轨迹的平均log误差，含初始化，属于描述性辅助图；没有额外目标查询或逐点显著性宣称。', '',
+        '## 保护风险', '',
         '风险为初始标准差归一化的有界改善相对同一anchor降低超过0.02的运行比例。',
         '两种融合配置共享相同初始100点；无保护对照也去掉residual，能够单独比较保护规则。', '',
         '| 条件 | 候选退化比例 | 无保护退化比例 | 风险降低及95%区间 |', '|---|---:|---:|---|']

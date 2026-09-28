@@ -1,0 +1,16 @@
+{
+  "cases": 720,
+  "files": [
+    {
+      "bytes": 42389790,
+      "file": "d20_b600_cma_es.zip",
+      "sha256": "a39d7d7108649efd29f88ace30b2541d476fee78ec733d708984648f20e89a5b"
+    },
+    {
+      "bytes": 34499168,
+      "file": "d20_b600_gp_ei.zip",
+      "sha256": "b4d2903af18a4a501003030332e6fadf6af084176832ca179ab3860478881975"
+    }
+  ],
+  "stage": "all baseline workers completed; native20 training still active"
+}

@@ -1,0 +1,269 @@
+{
+  "checked_prior_source": "opfunu CEC2017 F10..F29 at10D, exactly as instantiated by scripts/independent_benchmarks.py",
+  "comparison_dimensions": [
+    10
+  ],
+  "exact_array_matches": [
+    {
+      "cec2017": 18,
+      "cec2022": 6,
+      "dimension": 10,
+      "equal_arrays": [
+        "x_global",
+        "f_shift"
+      ]
+    },
+    {
+      "cec2017": 21,
+      "cec2022": 8,
+      "dimension": 10,
+      "equal_arrays": [
+        "x_global"
+      ]
+    },
+    {
+      "cec2017": 22,
+      "cec2022": 9,
+      "dimension": 10,
+      "equal_arrays": [
+        "x_global",
+        "f_shift"
+      ]
+    },
+    {
+      "cec2017": 23,
+      "cec2022": 10,
+      "dimension": 10,
+      "equal_arrays": [
+        "x_global",
+        "f_shift"
+      ]
+    },
+    {
+      "cec2017": 25,
+      "cec2022": 11,
+      "dimension": 10,
+      "equal_arrays": [
+        "x_global",
+        "f_shift",
+        "f_matrix"
+      ]
+    },
+    {
+      "cec2017": 26,
+      "cec2022": 12,
+      "dimension": 10,
+      "equal_arrays": [
+        "x_global",
+        "f_shift",
+        "f_matrix"
+      ]
+    }
+  ],
+  "new_source": [
+    {
+      "dimension": 10,
+      "fid": 1,
+      "matrix": "d04595527445161f0c3af72919436a459a57e23022b59ec9be0f298014ae8e64",
+      "name": "F1: Shifted and full Rotated Zakharov Function",
+      "shift": "83a8b8f4d9bb14fd0ec98fc574a3babdbc06defcbdf4fb14473d30b74e24a181",
+      "x_global": "83a8b8f4d9bb14fd0ec98fc574a3babdbc06defcbdf4fb14473d30b74e24a181"
+    },
+    {
+      "dimension": 10,
+      "fid": 2,
+      "matrix": "d210d77b080defd913c0038b550e1472618632c8d7fe8b38ec34e79421c61140",
+      "name": "F2: Shifted and Rotated Rosenbrock\u2019s Function",
+      "shift": "515732925175b747edc6e8db9755f8431567e8cb570cab94b3978f06a99f1626",
+      "x_global": "515732925175b747edc6e8db9755f8431567e8cb570cab94b3978f06a99f1626"
+    },
+    {
+      "dimension": 10,
+      "fid": 3,
+      "matrix": "e47e7b256a0f58153bd5047ed4abc9ba95cb4c850936aeea7cb266a5b4285b0f",
+      "name": "F3: Shifted and full Rotated Expanded Schaffer\u2019s F7",
+      "shift": "08e4d5585a1f74d0cadef7ce6974ca0b9a14887a8f2962f2435af89972fa94d6",
+      "x_global": "08e4d5585a1f74d0cadef7ce6974ca0b9a14887a8f2962f2435af89972fa94d6"
+    },
+    {
+      "dimension": 10,
+      "fid": 4,
+      "matrix": "acc42d76ca876543832ecacc3669c55b5ab3a872e88fffd257fa8d7fd3b5a072",
+      "name": "F4: Shifted and Rotated Non-Continuous Rastrigin\u2019s Function",
+      "shift": "61957a3c8ae96fb1cad98170206bea97cbc5b8c3848d00b2e343d27dc11368d9",
+      "x_global": "61957a3c8ae96fb1cad98170206bea97cbc5b8c3848d00b2e343d27dc11368d9"
+    },
+    {
+      "dimension": 10,
+      "fid": 5,
+      "matrix": "ece4a057ab014906115132c658c918cc7040f8eeffba00798cca26f087c5741d",
+      "name": "F5: Shifted and Rotated Levy Function",
+      "shift": "1bf05738b63f258fe99573fa94c777b1cec491eb02e095b6185c2e74cd866a83",
+      "x_global": "1bf05738b63f258fe99573fa94c777b1cec491eb02e095b6185c2e74cd866a83"
+    },
+    {
+      "dimension": 10,
+      "fid": 6,
+      "matrix": "2c0343095cbfcb9e8c50520c43d282967b4bb7a17d214aab627db345c85ce536",
+      "name": "F6: Hybrid Function 1",
+      "shift": "46d587da903a538dd2950887d48ac0b95fa59e69728229297100fe21dd4efa6c",
+      "x_global": "46d587da903a538dd2950887d48ac0b95fa59e69728229297100fe21dd4efa6c"
+    },
+    {
+      "dimension": 10,
+      "fid": 7,
+      "matrix": "17dd36af44bbe2e442a9cc7e2832ccae5c584bc15f6861df6931dfad22e5dd33",
+      "name": "F7: Hybrid Function 2",
+      "shift": "7b3905c342482be9e2498a5bc975d8114d1e53725588acb82bd2bd421ccc6a45",
+      "x_global": "7b3905c342482be9e2498a5bc975d8114d1e53725588acb82bd2bd421ccc6a45"
+    },
+    {
+      "dimension": 10,
+      "fid": 8,
+      "matrix": "2a48f4b9959fd54e0cc1561081e3c4857b8c5ef1883acf498aeb80bbc14bfbab",
+      "name": "F8: Hybrid Function 3",
+      "shift": "19623edf1ce0387fcf4c3c13ae016a7fdecf86ce90bd9057d585752017c41564",
+      "x_global": "19623edf1ce0387fcf4c3c13ae016a7fdecf86ce90bd9057d585752017c41564"
+    },
+    {
+      "dimension": 10,
+      "fid": 9,
+      "matrix": "75285b7f31315cb666dcd4e942bd230d6e03d9e68a7b00e94256315c4d308e0a",
+      "name": "F9: Composition Function 1",
+      "shift": "9c21840aa6f117651762704b95b6a2215d0ac9fb15a3964e0a8061fd7faf6b62",
+      "x_global": "d8cc52c0b179ca1c975742c2b1ec280bb98a565c5444ccbc20613f2d1bee959f"
+    },
+    {
+      "dimension": 10,
+      "fid": 10,
+      "matrix": "462a8ff8702ce5085aecc60f575d06c826de78dc4b3431f66899d968d31692ff",
+      "name": "F10: Composition Function 2",
+      "shift": "0f8c7ab5e143f12f62e81b4d2e83d3c13234460ccc7a098bf2352ac7f3122056",
+      "x_global": "8fb1c927cb298456da8c96d28b61ac074b5e2e34eef01551e2abcf0842c0b273"
+    },
+    {
+      "dimension": 10,
+      "fid": 11,
+      "matrix": "8d7e8c7ef46d4c9b87671df0212e24c8de8c685c18b2a8b2de22817a8d7e8d5c",
+      "name": "F11: Composition Function 3",
+      "shift": "8ffa46e4ec2d98d25480cef6e75435f81e1e3e15cc69ad7d057361b9e104966d",
+      "x_global": "1154133cfcdf5cbe4d66ab267366d6525a5f5342ce45e247a7e9c42cc972e92f"
+    },
+    {
+      "dimension": 10,
+      "fid": 12,
+      "matrix": "550f44e29c98483070831ab6e14fe50ea0e3b3b7464e34d774781d1f108dda9d",
+      "name": "F12: Composition Function 4",
+      "shift": "d0d10580085ca2d60090b7835a63b9dea3d8b5405b7491c6171d4c6ece4c0598",
+      "x_global": "f7530e2d68cfee895c773db2f70b06db7a2d0a52e0a140612c0e3ad686d7cda4"
+    },
+    {
+      "dimension": 20,
+      "fid": 1,
+      "matrix": "2468a43724ec221433ac3c89f3de69480b97889240a166c032092797e8e6b879",
+      "name": "F1: Shifted and full Rotated Zakharov Function",
+      "shift": "329e4c7b71fc035116dcc13845cdc786e043d291f20ad7bf5625e9b600a70397",
+      "x_global": "329e4c7b71fc035116dcc13845cdc786e043d291f20ad7bf5625e9b600a70397"
+    },
+    {
+      "dimension": 20,
+      "fid": 2,
+      "matrix": "c8ee23af61bcb948efec011e7fba5534efbe48a8ede7206e1db9e6a8da45971a",
+      "name": "F2: Shifted and Rotated Rosenbrock\u2019s Function",
+      "shift": "46019cd3105666601e24db93c3429744c2d82aa3ff87154315dc5ce02a8cc0d9",
+      "x_global": "46019cd3105666601e24db93c3429744c2d82aa3ff87154315dc5ce02a8cc0d9"
+    },
+    {
+      "dimension": 20,
+      "fid": 3,
+      "matrix": "8b5857abedfc55c403db7158dc1ddaf556fb145854dbe122b1ab0b1e324d4bb8",
+      "name": "F3: Shifted and full Rotated Expanded Schaffer\u2019s F7",
+      "shift": "b12a7487e084ff926fa317282b751739c18a2ed4277cbd6047d252100eb0106b",
+      "x_global": "b12a7487e084ff926fa317282b751739c18a2ed4277cbd6047d252100eb0106b"
+    },
+    {
+      "dimension": 20,
+      "fid": 4,
+      "matrix": "c9346ea5cc28e38a4ade4dfc29ac35ad35e8a03b333ad47a40c41f8c48122709",
+      "name": "F4: Shifted and Rotated Non-Continuous Rastrigin\u2019s Function",
+      "shift": "67676c44cc1496660f555a2465f770d923a4a754ca5dce629ef9a1aec05c058f",
+      "x_global": "67676c44cc1496660f555a2465f770d923a4a754ca5dce629ef9a1aec05c058f"
+    },
+    {
+      "dimension": 20,
+      "fid": 5,
+      "matrix": "dbbf861d1d7297f38f116a37a61e7b0daa76df75e587d29ff5392bd41fa27fb9",
+      "name": "F5: Shifted and Rotated Levy Function",
+      "shift": "9956b35db8ba095ba8ce8b81c3c7b9295781e15ee6adc627726402ad0042b6ac",
+      "x_global": "9956b35db8ba095ba8ce8b81c3c7b9295781e15ee6adc627726402ad0042b6ac"
+    },
+    {
+      "dimension": 20,
+      "fid": 6,
+      "matrix": "0852316c8649c052852df4b22d52b23d1f7bd7a3118e5fc93ee49062688ab489",
+      "name": "F6: Hybrid Function 1",
+      "shift": "cbf9a91fc34f5aa7f6ce8dc2f991e5e1ed9869013b7b58771cf91ee6aec9cb64",
+      "x_global": "cbf9a91fc34f5aa7f6ce8dc2f991e5e1ed9869013b7b58771cf91ee6aec9cb64"
+    },
+    {
+      "dimension": 20,
+      "fid": 7,
+      "matrix": "4569b769fa2d319533e084d05c25d50c440ef10f508b6eb191096a21df90ab16",
+      "name": "F7: Hybrid Function 2",
+      "shift": "c51850cef3eb60f7acd396f12965fc2c347eb6ac0fa0c3b940dd9bd8b2e54fdb",
+      "x_global": "c51850cef3eb60f7acd396f12965fc2c347eb6ac0fa0c3b940dd9bd8b2e54fdb"
+    },
+    {
+      "dimension": 20,
+      "fid": 8,
+      "matrix": "88a7e457f8966e3525b562de2dd6eec891d3552f4ee0aebfdfc86e33673261cd",
+      "name": "F8: Hybrid Function 3",
+      "shift": "cc3016f61ec136a909ca7937e806c0f4bc38b46ff2a294debacfbebc5e9424a4",
+      "x_global": "cc3016f61ec136a909ca7937e806c0f4bc38b46ff2a294debacfbebc5e9424a4"
+    },
+    {
+      "dimension": 20,
+      "fid": 9,
+      "matrix": "5c6c24323708bae422ff30c77fc3c70abbf251c56cd98ed31badbb3d383829b4",
+      "name": "F9: Composition Function 1",
+      "shift": "acc05ea3bd118c74f7fc487bff4e8855c49fd4dd5f130248cd74c310c7c262b8",
+      "x_global": "4eb56216a95757b0f3f12416650534d636236088d71d6d99bfb0bb6de97c142b"
+    },
+    {
+      "dimension": 20,
+      "fid": 10,
+      "matrix": "b5ec8a733fc722bf2752be505b16fcdb953742e98330ae6ea5122a69f3377a64",
+      "name": "F10: Composition Function 2",
+      "shift": "017c7cc1c7fd32a6290844d0db9d3599ea74c8df51733fe78e04096b953f8d03",
+      "x_global": "edff4a3a3c407d0118a19fa517eb96b4687b20f9f4d944eb679aba70b826b892"
+    },
+    {
+      "dimension": 20,
+      "fid": 11,
+      "matrix": "083c54e8883e307df33e23e62e22833ea12532f23a47afe1b218f8338d325b4f",
+      "name": "F11: Composition Function 3",
+      "shift": "fa566169f6d87d74c0a0c784d5dad605f685c75692e191cb2d0410803f4127d7",
+      "x_global": "e15c326f03d4967baf7e8c5ec7dd5b6fec74975aa52439002db7a838cb6b1d76"
+    },
+    {
+      "dimension": 20,
+      "fid": 12,
+      "matrix": "ff5462cce932772236219b9ec48b6ac7f27261f2284ab53d26eea4c0b6066d7f",
+      "name": "F12: Composition Function 4",
+      "shift": "183f7beb18e0e81fb7d9986244562ce5cb9fcb2cdf7b78db62db63334f03ff10",
+      "x_global": "71db6e9092266e593532bb13f3c4e2f69912e1ca71889e6ea45510136aa8d26d"
+    }
+  ],
+  "note": "Array checks do not establish mathematical-family independence or exclude all historical author exposure; prior driver used10D only",
+  "objective_queries": 0,
+  "source_files": {
+    "cec2017.py": "aff994c09cd95170db8c0cfbc2866dc4df891e1dc3957bb2157bd6e00a6d9469",
+    "cec2022.py": "b6220178e4e6492fb13c94897159163907a2c0e64ab8043cf424bd13ad456139"
+  },
+  "formula_inspection": {
+    "F112022_vs_F252017": "Identical shift and rotation arrays at10D; different composition widths, relative component biases, first component operator/scaling, and Rosenbrock offset. Not an identical objective.",
+    "F122022_vs_F262017": "Identical shift and rotation arrays at10D; different relative component biases and sixth component operator/offset. Not an identical objective."
+  },
+  "interpretation": "Frozen external-suite evaluation with disclosed source reuse; do not claim a wholly unseen independent landscape-family test. No functions excluded and no additional candidates selected.",
+  "audit_timing": "After the completed10D comparisons; read-only source/array audit, zero objective queries; all predeclared results retained."
+}
