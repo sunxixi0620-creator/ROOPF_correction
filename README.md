@@ -3,6 +3,7 @@
 **补充实验入口（2026-09-28）。** 本分支以选定的最终 10-D ROOPF 为主方法，原 checkpoint 保持冻结；20-D 和训练顺序研究使用单独保存的受控重训模型。
 
 - [最终补充实验报告与论文结论](docs/experiments/FINAL_RESULTS_20260928.zh-CN.md)
+- [训练充分性开发实验结果](docs/experiments/TRAINING_VALIDATION_RESULTS.zh-CN.md)、[结论与后续决策](docs/experiments/TRAINING_VALIDATION_DECISIONS.zh-CN.md)和[复现说明](docs/experiments/TRAINING_VALIDATION_REPRODUCE.md)：原最终权重保持不变。
 - [审稿意见逐条对应](docs/experiments/REVIEW_RESPONSE_COMPLETION.zh-CN.md)与[英文修订材料](docs/experiments/MANUSCRIPT_POSITIONING.en.md)
 - [精确在线算法](docs/experiments/ALGORITHM_EXACT.zh-CN.md)、[复现步骤](docs/experiments/REPRODUCE_REMAINING.md)和[逐条件统计表](docs/experiments/remaining_tables/README.md)
 - [前轮数据归档](artifacts/supplement_20260928/README.md)与[本轮完整归档](artifacts/remaining_20260928/README.md)

@@ -1,0 +1,10 @@
+{
+  "all_checks_passed": true,
+  "formal_trajectory_executions": 7200,
+  "formal_main_nfe": 2160000,
+  "teacher_points": 1094400,
+  "offline_extra_training_points": 221184000,
+  "original_checkpoints_unchanged": true,
+  "archived_files": 427,
+  "scope": "Single continuation random stream; repeated controls are not additional independent samples."
+}

@@ -1,0 +1,1 @@
+Extract all ZIP parts at repository root; independent ZIPs, no concatenation. Manifest contains SHA256 hashes. This is one paired continuation development study, not a replacement of the frozen final model.
