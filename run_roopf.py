@@ -189,12 +189,15 @@ def result_path(args: argparse.Namespace, benchmark: str, function_ids: List[int
     all_ids = list(range(1, 25 if benchmark == "bbob" else 7))
     if function_ids != all_ids:
         suffix = "_f" + "-".join(str(fid) for fid in function_ids)
-    return args.output_dir / f"roopf_{benchmark}_d{args.dimension}_nfe{args.budget}{suffix}.csv"
+    profile = getattr(args, 'profile', 'legacy_locked')
+    identity_suffix = '_final_unlocked' if profile == 'final_unlocked' else ''
+    return args.output_dir / f"roopf_{benchmark}_d{args.dimension}_nfe{args.budget}{suffix}{identity_suffix}.csv"
 
 
 def make_row(args: argparse.Namespace, benchmark: str, fid: str, result: Dict) -> Dict:
     return {
         "target": benchmark,
+        "method_profile": getattr(args, 'profile', 'legacy_locked'),
         "fid": fid,
         "dim": args.dimension,
         "population_size": args.population_size,
@@ -271,7 +274,7 @@ def run_cec_style(args: argparse.Namespace, optimizer: ROOPFOptimizer) -> Path:
 
 def write_results(path: Path, rows: List[Dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", newline="", encoding="utf-8") as stream:
+    with path.open("x", newline="", encoding="utf-8") as stream:
         writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
         writer.writeheader()
         writer.writerows(rows)
@@ -305,8 +308,11 @@ def write_run_metadata(args: argparse.Namespace, outputs: List[Path]) -> None:
         "sha256": {name: sha256(path) for name, path in checkpoint_paths.items()},
         "outputs": [str(path) for path in outputs],
     }
-    path = args.output_dir / "run_metadata.json"
-    with path.open("w", encoding="utf-8") as stream:
+    metadata['source_sha256'] = {name: sha256(ROOT/name) for name in
+        ['run_roopf.py', 'roopf/model.py', 'roopf/supplement.py',
+         'roopf/factory.py', 'roopf/residual_features.py']}
+    path = args.output_dir / f"run_metadata_{args.profile}_{args.benchmark}.json"
+    with path.open("x", encoding="utf-8") as stream:
         json.dump(metadata, stream, indent=2, sort_keys=True)
         stream.write("\n")
     print(f"Saved metadata: {path}")
@@ -365,6 +371,9 @@ def main() -> None:
     args = parse_args()
     args.output_dir = args.output_dir.resolve()
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    metadata_path = args.output_dir / f"run_metadata_{args.profile}_{args.benchmark}.json"
+    if metadata_path.exists():
+        raise FileExistsError(f'Run already exists: {metadata_path}; choose a new output directory')
 
     outputs = []
     if args.benchmark in {"bbob", "all"}:
