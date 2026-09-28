@@ -1664,7 +1664,7 @@ class ROOPFOptimizer(nn.Module):
                     cand_mu = None
                     cand_sigma = None
                     cand_router_prob = None
-                elif "baseline_backbone" in self.ablation and remaining > 0.30:
+                elif "baseline_backbone" in self.ablation and remaining > getattr(self, "intervention_remaining", 0.30):
                     cand = baseline_cand[:, :rest]
                     selected_ops = torch.full((x.size(0), rest), -2, device=x.device, dtype=torch.long)
                     cand_score = None
@@ -1712,6 +1712,7 @@ class ROOPFOptimizer(nn.Module):
                         combined_mu = self.last_surrogate_mu
                         combined_sigma = self.last_surrogate_sigma
                         combined_router_prob = self.last_router_prob
+                        proposed_extra_idx = extra_idx
                         if "baseline_safe_selector" in self.ablation:
                             base_count = max(rest - 1, 0)
                             if base_count > 0 and self.last_acquisition is not None:
@@ -1790,6 +1791,9 @@ class ROOPFOptimizer(nn.Module):
                                         chosen_port_op = torch.gather(selected_ops, 1, chosen_port_idx)
                                         op_is_penalized = torch.gather(op_penalty > 0.0, 1, chosen_port_op.clamp_min(0))
                                         extra_idx = torch.where(chosen_portfolio & op_is_penalized, base_idx, extra_idx)
+                        observer = getattr(self, "supplement_gate_observer", None)
+                        if observer is not None:
+                            observer(locals())
                         extra = torch.gather(combined, 1, extra_idx.unsqueeze(-1).expand(-1, -1, x.size(-1)))
                         cand_parts.append(extra)
                         score_parts.append(torch.gather(combined_score, 1, extra_idx) if combined_score is not None else nan_score)
