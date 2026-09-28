@@ -1,0 +1,310 @@
+{
+  "scope": "Two training seeds; known36 families, fresh instance splits; no external test selection",
+  "selections": {
+    "incumbent_20260928": {
+      "selected_epoch": 2,
+      "epochs_run": 10,
+      "validation_bce": 0.22185190680431344
+    },
+    "incumbent_20260929": {
+      "selected_epoch": 4,
+      "epochs_run": 12,
+      "validation_bce": 0.2205479239302072
+    },
+    "second_20260928": {
+      "selected_epoch": 14,
+      "epochs_run": 22,
+      "validation_bce": 0.2712622648094133
+    },
+    "second_20260929": {
+      "selected_epoch": 18,
+      "epochs_run": 26,
+      "validation_bce": 0.2750849352384868
+    }
+  },
+  "metrics": {
+    "original": {
+      "incumbent_all": {
+        "n": 547200,
+        "prevalence": 0.11069262027740479,
+        "bce": 0.3726191017514005,
+        "brier": 0.11591507494449615,
+        "constant_train_prior_brier": 0.09849430620670319,
+        "portfolio_top5_precision": 0.4872916638851166,
+        "portfolio_prevalence": 0.11665316671133041
+      },
+      "incumbent_late": {
+        "n": 246240,
+        "prevalence": 0.10165692120790482,
+        "bce": 0.367700364185897,
+        "brier": 0.112172432243824,
+        "constant_train_prior_brier": 0.0913255363702774,
+        "portfolio_top5_precision": 0.4780246913433075,
+        "portfolio_prevalence": 0.10730452835559845
+      },
+      "second_all": {
+        "n": 547200,
+        "prevalence": 0.7288231253623962,
+        "bce": 1.2084971533427094,
+        "brier": 0.3943464756011963,
+        "constant_train_prior_brier": 0.19764700531959534,
+        "portfolio_top5_precision": 0.9900277853012085,
+        "portfolio_prevalence": 0.7546547055244446
+      },
+      "second_late": {
+        "n": 246240,
+        "prevalence": 0.8139335513114929,
+        "bce": 1.3503834676175404,
+        "brier": 0.44940635561943054,
+        "constant_train_prior_brier": 0.1591474413871765,
+        "portfolio_top5_precision": 0.9991666674613953,
+        "portfolio_prevalence": 0.845678985118866
+      }
+    },
+    "incumbent_20260928": {
+      "incumbent_all": {
+        "n": 547200,
+        "prevalence": 0.11069262027740479,
+        "bce": 0.2324933459390808,
+        "brier": 0.07176421582698822,
+        "constant_train_prior_brier": 0.09849430620670319,
+        "portfolio_top5_precision": 0.4741527736186981,
+        "portfolio_prevalence": 0.11665316671133041
+      },
+      "incumbent_late": {
+        "n": 246240,
+        "prevalence": 0.10165692120790482,
+        "bce": 0.2189684690625978,
+        "brier": 0.0664963647723198,
+        "constant_train_prior_brier": 0.0913255363702774,
+        "portfolio_top5_precision": 0.4754320979118347,
+        "portfolio_prevalence": 0.10730452835559845
+      },
+      "second_all": {
+        "n": 547200,
+        "prevalence": 0.7288231253623962,
+        "bce": 2.978628484766867,
+        "brier": 0.5724093914031982,
+        "constant_train_prior_brier": 0.19764700531959534,
+        "portfolio_top5_precision": 0.9858472347259521,
+        "portfolio_prevalence": 0.7546547055244446
+      },
+      "second_late": {
+        "n": 246240,
+        "prevalence": 0.8139335513114929,
+        "bce": 3.3117746109605517,
+        "brier": 0.662784218788147,
+        "constant_train_prior_brier": 0.1591474413871765,
+        "portfolio_top5_precision": 0.9985185265541077,
+        "portfolio_prevalence": 0.845678985118866
+      }
+    },
+    "incumbent_20260929": {
+      "incumbent_all": {
+        "n": 547200,
+        "prevalence": 0.11069262027740479,
+        "bce": 0.231303255067556,
+        "brier": 0.07143160700798035,
+        "constant_train_prior_brier": 0.09849430620670319,
+        "portfolio_top5_precision": 0.48955556750297546,
+        "portfolio_prevalence": 0.11665316671133041
+      },
+      "incumbent_late": {
+        "n": 246240,
+        "prevalence": 0.10165692120790482,
+        "bce": 0.2181662195842078,
+        "brier": 0.06626175343990326,
+        "constant_train_prior_brier": 0.0913255363702774,
+        "portfolio_top5_precision": 0.4804629683494568,
+        "portfolio_prevalence": 0.10730452835559845
+      },
+      "second_all": {
+        "n": 547200,
+        "prevalence": 0.7288231253623962,
+        "bce": 3.3229658114341314,
+        "brier": 0.5748952031135559,
+        "constant_train_prior_brier": 0.19764700531959534,
+        "portfolio_top5_precision": 0.9863471984863281,
+        "portfolio_prevalence": 0.7546547055244446
+      },
+      "second_late": {
+        "n": 246240,
+        "prevalence": 0.8139335513114929,
+        "bce": 3.7380242369069197,
+        "brier": 0.66464763879776,
+        "constant_train_prior_brier": 0.1591474413871765,
+        "portfolio_top5_precision": 0.9989814758300781,
+        "portfolio_prevalence": 0.845678985118866
+      }
+    },
+    "second_20260928": {
+      "incumbent_all": {
+        "n": 547200,
+        "prevalence": 0.11069262027740479,
+        "bce": 4.2291543841507675,
+        "brier": 0.54880291223526,
+        "constant_train_prior_brier": 0.09849430620670319,
+        "portfolio_top5_precision": 0.37784722447395325,
+        "portfolio_prevalence": 0.11665316671133041
+      },
+      "incumbent_late": {
+        "n": 246240,
+        "prevalence": 0.10165692120790482,
+        "bce": 6.006664664275412,
+        "brier": 0.647209644317627,
+        "constant_train_prior_brier": 0.0913255363702774,
+        "portfolio_top5_precision": 0.3180246949195862,
+        "portfolio_prevalence": 0.10730452835559845
+      },
+      "second_all": {
+        "n": 547200,
+        "prevalence": 0.7288231253623962,
+        "bce": 0.2632314087696798,
+        "brier": 0.08576878905296326,
+        "constant_train_prior_brier": 0.19764700531959534,
+        "portfolio_top5_precision": 0.9888055324554443,
+        "portfolio_prevalence": 0.7546547055244446
+      },
+      "second_late": {
+        "n": 246240,
+        "prevalence": 0.8139335513114929,
+        "bce": 0.18940033088349,
+        "brier": 0.06060221046209335,
+        "constant_train_prior_brier": 0.1591474413871765,
+        "portfolio_top5_precision": 0.9989506006240845,
+        "portfolio_prevalence": 0.845678985118866
+      }
+    },
+    "second_20260929": {
+      "incumbent_all": {
+        "n": 547200,
+        "prevalence": 0.11069262027740479,
+        "bce": 4.262404846114452,
+        "brier": 0.5485237240791321,
+        "constant_train_prior_brier": 0.09849430620670319,
+        "portfolio_top5_precision": 0.35943055152893066,
+        "portfolio_prevalence": 0.11665316671133041
+      },
+      "incumbent_late": {
+        "n": 246240,
+        "prevalence": 0.10165692120790482,
+        "bce": 6.044038370641049,
+        "brier": 0.6484004855155945,
+        "constant_train_prior_brier": 0.0913255363702774,
+        "portfolio_top5_precision": 0.3129321038722992,
+        "portfolio_prevalence": 0.10730452835559845
+      },
+      "second_all": {
+        "n": 547200,
+        "prevalence": 0.7288231253623962,
+        "bce": 0.2663906684016238,
+        "brier": 0.08581530302762985,
+        "constant_train_prior_brier": 0.19764700531959534,
+        "portfolio_top5_precision": 0.9882916808128357,
+        "portfolio_prevalence": 0.7546547055244446
+      },
+      "second_late": {
+        "n": 246240,
+        "prevalence": 0.8139335513114929,
+        "bce": 0.19119488705352258,
+        "brier": 0.06048857420682907,
+        "constant_train_prior_brier": 0.1591474413871765,
+        "portfolio_top5_precision": 0.9990432262420654,
+        "portfolio_prevalence": 0.845678985118866
+      }
+    }
+  },
+  "optimization": {
+    "incumbent_20260928": {
+      "bounded_gain": 0.2429494456043623,
+      "wtl_vs_original": [
+        14,
+        9,
+        13
+      ],
+      "wtl_vs_no_residual": [
+        14,
+        2,
+        20
+      ]
+    },
+    "incumbent_20260929": {
+      "bounded_gain": 0.24221763562138043,
+      "wtl_vs_original": [
+        15,
+        5,
+        16
+      ],
+      "wtl_vs_no_residual": [
+        12,
+        3,
+        21
+      ]
+    },
+    "no_residual": {
+      "bounded_gain": 0.24306814416368797,
+      "wtl_vs_original": [
+        20,
+        2,
+        14
+      ],
+      "wtl_vs_no_residual": [
+        0,
+        36,
+        0
+      ]
+    },
+    "original": {
+      "bounded_gain": 0.2433547754605835,
+      "wtl_vs_original": [
+        0,
+        36,
+        0
+      ],
+      "wtl_vs_no_residual": [
+        14,
+        2,
+        20
+      ]
+    },
+    "second_20260928": {
+      "bounded_gain": 0.24382964646460753,
+      "wtl_vs_original": [
+        18,
+        4,
+        14
+      ],
+      "wtl_vs_no_residual": [
+        8,
+        23,
+        5
+      ]
+    },
+    "second_20260929": {
+      "bounded_gain": 0.24366172897627317,
+      "wtl_vs_original": [
+        18,
+        3,
+        15
+      ],
+      "wtl_vs_no_residual": [
+        8,
+        24,
+        4
+      ]
+    }
+  },
+  "budgets": {
+    "training_candidate_rows": 1094400,
+    "validation_candidate_rows": 547200,
+    "confirmation_candidate_rows": 547200,
+    "collection_main_points": 172800,
+    "collection_teacher_points": 2188800,
+    "confirmation_optimization_points": 259200,
+    "confirmation_initial_points": 14400,
+    "formal_trajectory_executions": 1440,
+    "preflight_parity_main_points": 2400,
+    "preflight_parity_teacher_points": 15200
+  },
+  "checks": "passed: labels, seed splits, finite features, training-only normalization, early-stop selection, frozen hashes, paired final rows"
+}
