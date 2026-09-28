@@ -1,6 +1,6 @@
 # ROOPF Reproducibility Package
 
-**当前审查结论：先修实验链路，暂停新增模型变体。** 详见[实验链路总审查](docs/revision/EXPERIMENT_CHAIN_REVIEW.zh-CN.md)：后续residual训练缓存中4个实例的旧种子来源已恢复，训练/部署特征定义也需对齐。原始最终权重及历史结果保持不变，受影响报告已加注限制。
+**链路审查与受控修订：** [实验链路总审查](docs/revision/EXPERIMENT_CHAIN_REVIEW.zh-CN.md)发现的旧缓存和特征定义问题已纳入新入口的验收；详见[阶段一检查](docs/revision/unified_execution/STAGE1.json)和[实际算法](docs/revision/unified_execution/ALGORITHM.zh-CN.md)。原始最终权重及历史结果保持不变，受影响旧报告保留限制说明。按用户确认的主线只推进一个统一候选，暂停旧计划中的连续局部变体搜索。
 
 **已确认的推进主线：** [修订主线与阶段验收](docs/revision/EXECUTION_DIRECTION.zh-CN.md)。限定一个新候选，依次完成链路修复、协议冻结、完整机制验收及最终验证；旧报告中的局部“下一步建议”不自动触发新实验。原最终版继续冻结保存。新实验按[统一候选预登记协议](docs/experiments/UNIFIED_REVISION_PROTOCOL.md)执行。
 

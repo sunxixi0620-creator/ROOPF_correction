@@ -59,11 +59,14 @@ def finalize(run):
     frozen = json.loads((run/'SELECTION_FROZEN.json').read_text())
     assert len(frozen) == 6 and all(sha256(run/p) == h for p, h in frozen.items())
     assert all(sha256(ROOT/'checkpoints'/name) == h for name, h in identity['originals'].items())
+    for p in run.glob('prefetch_*.json'):
+        done = json.loads(p.read_text())
+        assert done['status'] == 'complete' and done['all_workers_joined']
     provenance(run)
     decision = json.loads((run/'DECISION.json').read_text())
     out = ROOT/'docs/revision/unified_execution'
     out.mkdir(exist_ok=True)
-    for name in ['DECISION.json', 'development.csv', 'identity.json', 'SELECTION_FROZEN.json', 'COMPLETE.json', 'task_parameters.json']:
+    for name in ['DECISION.json', 'development.csv', 'identity.json', 'SELECTION_FROZEN.json', 'COMPLETE.json', 'task_parameters.json', 'environment.json', 'seed_roles.json']:
         shutil.copyfile(run/name, out/name)
     summaries = {}
     for stage in ['anchor', 'residual']:
@@ -72,6 +75,37 @@ def finalize(run):
             summaries[key] = json.loads((run/key/'COMPLETE.json').read_text())
             shutil.copyfile(run/key/'history.json', out/(key+'_history.json'))
     write_json(out/'TRAINING.json', summaries)
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    fig, axes = plt.subplots(1, 2, figsize=(10, 3.6), constrained_layout=True)
+    for seed in range(3):
+        h = json.loads((run/f'anchor_{seed}/history.json').read_text())
+        h = [r for r in h if r['validation'] is not None]
+        axes[0].plot([r['epoch'] for r in h], [r['validation'] for r in h], marker='.', label=f'Seed {seed}')
+        h = json.loads((run/f'residual_{seed}/history.json').read_text())
+        axes[1].plot([r['epoch'] for r in h], [r['validation_bce'] for r in h], label=f'Seed {seed}')
+    axes[0].set(xlabel='Epoch', ylabel='Validation bounded improvement', title='Anchor validation (higher is better)')
+    axes[1].set(xlabel='Epoch', ylabel='Validation BCE', title='Residual validation (lower is better)')
+    for ax in axes:
+        ax.legend(frameon=False); ax.grid(alpha=.2)
+    for extension in ['png', 'pdf']:
+        fig.savefig(out/f'training_curves.{extension}', dpi=180)
+    plt.close(fig)
+    pairs = [k for k in decision['comparisons'] if k != 'protection_risk_reduction']
+    fig, ax = plt.subplots(figsize=(8, 4.5), constrained_layout=True)
+    for i, pair in enumerate(pairs):
+        row = decision['comparisons'][pair]
+        ax.plot(row['ci95'], [i, i], color='#245a81')
+        ax.plot(row['mean'], i, 'o', color='#245a81')
+    ax.axvline(0, color='black', lw=.8)
+    ax.axvline(.005, color='#a65f00', lw=.8, linestyle='--', label='Predeclared practical threshold')
+    ax.set(yticks=range(len(pairs)), yticklabels=pairs,
+        xlabel='Paired bounded-improvement difference (95% clustered bootstrap interval)')
+    ax.invert_yaxis(); ax.grid(axis='x', alpha=.2); ax.legend(frameon=False)
+    for extension in ['png', 'pdf']:
+        fig.savefig(out/f'mechanism_effects.{extension}', dpi=180)
+    plt.close(fig)
     costs = dict(anchor_training_points=sum(summaries[f'anchor_{s}']['training_points'] for s in range(3)),
         anchor_validation_points=sum(summaries[f'anchor_{s}']['validation_points'] for s in range(3)),
         label_behavior_points=324*600, label_teacher_points=324*7600,
@@ -112,12 +146,14 @@ def finalize(run):
         lines.append(f"| {key} | {row['mean']:.6f} | [{row['ci95'][0]:.6f}, {row['ci95'][1]:.6f}] | {row['practical_pass']} |")
     lines += ['', '效应使用预定有界归一化改善，正值表示前者较好；不是胜率或目标值百分比。',
         '区间按12配方族、实例和3个训练种子配对重采样；只有3个训练种子，训练方差估计仍有限。', '',
+        '![配对效应与区间](mechanism_effects.png)', '',
         f"Residual独立收益验收：{decision['residual_independent_gain']}。保护机制收益/风险验收：{decision['protection_supported']}。", '',
         '## 训练记录', '', '| 模型 | 训练结束轮次 | 验证选中轮次 |', '|---|---:|---:|']
     for key, row in summaries.items():
         lines.append(f"| {key} | {row['epochs']} | {row['selected_epoch']} |")
     lines += ['', '完整数值、成本、实际参数与原始轨迹已归档。候选构造、训练源及部分训练口径发生变化，',
         '只能由共享同anchor的消融解释新候选内部机制；不能将新旧权重差异全归因于residual。', '',
+        '![验证曲线](training_curves.png)', '',
         '## 按预登记规则行动', '']
     if decision['surviving_candidate'] is None:
         lines += ['完整方法及预定简化配置均未通过总体验收，本轮按计划停止，未打开最终测试。',
