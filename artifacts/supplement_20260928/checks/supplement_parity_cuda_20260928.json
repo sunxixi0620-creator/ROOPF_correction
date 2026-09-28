@@ -1,0 +1,25 @@
+[
+  {
+    "case": "bbob_f1_fixed",
+    "full_trace_points_population_rng_exact": true,
+    "observer_queries_separate": true,
+    "anchor_fast_path_exact": true
+  },
+  {
+    "case": "bbob_f9_fixed",
+    "full_trace_points_population_rng_exact": true,
+    "observer_queries_separate": true,
+    "anchor_fast_path_exact": true
+  },
+  {
+    "case": "bbob_f20_fixed",
+    "observer_parity": true,
+    "excluded_from_primary": "stochastic, batch-coupled objective"
+  },
+  {
+    "case": "cec_f1_shifted",
+    "full_trace_points_population_rng_exact": true,
+    "observer_queries_separate": true,
+    "anchor_fast_path_exact": true
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "fid": 10,
+    "name": "F10: Hybrid Function 1",
+    "repeat_exact": true,
+    "known_optimum_check": 1000.0
+  },
+  {
+    "fid": 11,
+    "name": "F11: Hybrid Function 2",
+    "repeat_exact": true,
+    "known_optimum_check": 1100.0
+  },
+  {
+    "fid": 12,
+    "name": "F12: Hybrid Function 3",
+    "repeat_exact": true,
+    "known_optimum_check": 1200.0
+  },
+  {
+    "fid": 13,
+    "name": "F13: Hybrid Function 4",
+    "repeat_exact": true,
+    "known_optimum_check": 1300.0
+  },
+  {
+    "fid": 14,
+    "name": "F14: Hybrid Function 5",
+    "repeat_exact": true,
+    "known_optimum_check": 1400.0
+  },
+  {
+    "fid": 15,
+    "name": "F15: Hybrid Function 6",
+    "repeat_exact": true,
+    "known_optimum_check": 1500.0
+  },
+  {
+    "fid": 16,
+    "name": "F16: Hybrid Function 7",
+    "repeat_exact": true,
+    "known_optimum_check": 1600.0
+  },
+  {
+    "fid": 17,
+    "name": "F17: Hybrid Function 8",
+    "repeat_exact": true,
+    "known_optimum_check": 1700.0
+  },
+  {
+    "fid": 18,
+    "name": "F18: Hybrid Function 9",
+    "repeat_exact": true,
+    "known_optimum_check": 1800.0
+  },
+  {
+    "fid": 19,
+    "name": "F19: Hybrid Function 10",
+    "repeat_exact": true,
+    "known_optimum_check": 1900.0
+  },
+  {
+    "fid": 20,
+    "name": "F20: Composition Function 1",
+    "repeat_exact": true,
+    "known_optimum_check": 2000.0
+  },
+  {
+    "fid": 21,
+    "name": "F21: Composition Function 2",
+    "repeat_exact": true,
+    "known_optimum_check": 2100.0
+  },
+  {
+    "fid": 22,
+    "name": "F22: Composition Function 3",
+    "repeat_exact": true,
+    "known_optimum_check": 2200.0
+  },
+  {
+    "fid": 23,
+    "name": "F23: Composition Function 4",
+    "repeat_exact": true,
+    "known_optimum_check": 2300.0
+  },
+  {
+    "fid": 24,
+    "name": "F24: Composition Function 5",
+    "repeat_exact": true,
+    "known_optimum_check": 2400.0
+  },
+  {
+    "fid": 25,
+    "name": "F25: Composition Function 6",
+    "repeat_exact": true,
+    "known_optimum_check": 2500.0
+  },
+  {
+    "fid": 26,
+    "name": "F26: Composition Function 7",
+    "repeat_exact": true,
+    "known_optimum_check": 2600.0
+  },
+  {
+    "fid": 27,
+    "name": "F27: Composition Function 8",
+    "repeat_exact": true,
+    "known_optimum_check": 2700.0
+  },
+  {
+    "fid": 28,
+    "name": "F28: Composition Function 9",
+    "repeat_exact": true,
+    "known_optimum_check": 2800.0
+  },
+  {
+    "fid": 29,
+    "name": "F29: Composition Function 10",
+    "repeat_exact": true,
+    "known_optimum_check": 2900.0
+  }
+]

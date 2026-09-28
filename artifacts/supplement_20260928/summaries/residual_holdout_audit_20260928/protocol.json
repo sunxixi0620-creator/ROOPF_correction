@@ -1,0 +1,48 @@
+{
+  "checkpoint_sha256": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+  "source_hashes": {
+    "/home/skq/repos/xixi/main-parameter22/saferank_neurgo_v58_retrained_offline/research_v41_surrogate_portfolio/results_v58_generated36_logs/generated36_part1_pool_candidates.csv": "07346e5090d45573245db327d931b5036ebd94d3e48cccb9c43d8a3339412c4a",
+    "/home/skq/repos/xixi/main-parameter22/saferank_neurgo_v58_retrained_offline/research_v41_surrogate_portfolio/results_v58_generated36_logs/generated36_part2_pool_candidates.csv": "8e7d4574b6e1f1f04a3b090e1499720256d36d1f9033babc8c7c3653df32ab27"
+  },
+  "holdout_fids": [
+    "generated36:comp_global",
+    "generated36:comp_rugged",
+    "generated36:dirridge_noisy",
+    "generated36:lowrank_tanh",
+    "generated36:plateau_sharp",
+    "generated36:ring_single",
+    "generated36:wavepacket_local"
+  ],
+  "device": "cuda",
+  "feature_names": [
+    "used",
+    "remaining",
+    "stagnation",
+    "is_baseline",
+    "surrogate_score",
+    "surrogate_mu",
+    "surrogate_sigma",
+    "fitness_best_before",
+    "fitness_worst_before",
+    "state_best_z",
+    "state_spread_z",
+    "state_top_gap",
+    "state_diversity",
+    "state_elite_diversity",
+    "state_centroid_shift",
+    "state_remaining",
+    "state_used",
+    "state_stagnation",
+    "state_archive_pressure",
+    "state_dim_scaled",
+    "op_baseline",
+    "op_amortized_elite",
+    "op_current_to_pbest_archive",
+    "op_covariance_elite",
+    "op_trust_region",
+    "op_coordinate_pattern",
+    "op_opposition_restart"
+  ],
+  "selection": "All portfolio rows on seven residual-held-out functions; not exact original sampled validation subset.",
+  "scope": "Anchor may have seen these functions. Incumbent-improvement labels, not candidate-vs-anchor treatment effects."
+}

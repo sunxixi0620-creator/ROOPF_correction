@@ -1,0 +1,45 @@
+{
+  "cases": "bbob_f9_fixed,bbob_f11_fixed,bbob_f15_fixed,cec_f1_shifted,cec_f3_shifted,cec_f6_shifted",
+  "variants": "full",
+  "seeds": 30,
+  "batch_size": 10,
+  "seed_start": 20263000,
+  "shift_seed": 20260925,
+  "warmups": "0.3333333333333333,0.50,0.70,0.90",
+  "diagnostic_stride": 10,
+  "cases_expanded": [
+    "bbob_f9_fixed",
+    "bbob_f11_fixed",
+    "bbob_f15_fixed",
+    "cec_f1_shifted",
+    "cec_f3_shifted",
+    "cec_f6_shifted"
+  ],
+  "dimension": 10,
+  "NFE": 300,
+  "population": 100,
+  "purpose": "Development/diagnostic evidence; not independent confirmation",
+  "excluded": {
+    "bbob_f20_fixed": "Per-call random signs and cross-point reduction in released objective; unsuitable for fixed noiseless paired aggregate."
+  },
+  "runtime_note": "Synchronized, instrumented batch wall time; observer excluded separately. Component timers are nested, not additive. No inference from these times about simulator cost.",
+  "no_proxy_note": "Structural ranking plus isolated jitter; residual/gate kept with mu=sigma=0. This is an operational ablation, not a calibrated replacement surrogate.",
+  "git_commit": "af1695fff8cf16f8a2c9a5bab0f6dd948d16b92b",
+  "python": "3.10.20",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.2.6",
+  "device": "cpu",
+  "torch_threads": 1,
+  "cpu": "",
+  "gpu": "",
+  "hashes": {
+    "scripts/supplementary_experiments.py": "292a4899c750b803b62f2875c611dcfbd02d69b06caddc0850eb319ae3576813",
+    "roopf/model.py": "bb4621533eb74567c5b93259980bf036b5683d144de22db83b02a261a3344e36",
+    "roopf/supplement.py": "283002e4f3ea8c6d1f24edbfe01dd461f0ac089d5a30c3a283124c7ddb747baa",
+    "run_roopf.py": "3d03585eb27ddf80c9afaa060ebe2b64931b1f8d192b1b06e3d700fe40933d93",
+    "roopf/benchmarks/cecfunctions.py": "be4e94fd74e7f3a1589fc27d7218f339624cdf3008cd06022ed3258ed6758dbd",
+    "data/bbob_offsets_d10.pkl": "4b74f33887e141073a679c3ed71c8a9b92a4411f674fc31c664b176cd1ea5136",
+    "checkpoints/anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "checkpoints/residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+  }
+}

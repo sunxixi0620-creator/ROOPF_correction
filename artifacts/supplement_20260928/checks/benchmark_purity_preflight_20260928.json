@@ -1,0 +1,26 @@
+[
+  {
+    "fid": 11,
+    "repeat_equal": true,
+    "batch_max_diff": 4.0,
+    "batch_allclose": false
+  },
+  {
+    "fid": 16,
+    "repeat_equal": true,
+    "batch_max_diff": 0.00272369384765625,
+    "batch_allclose": false
+  },
+  {
+    "fid": 19,
+    "repeat_equal": true,
+    "batch_max_diff": 0.0009012222290039062,
+    "batch_allclose": false
+  },
+  {
+    "fid": 20,
+    "repeat_equal": false,
+    "batch_max_diff": 16269.568359375,
+    "batch_allclose": false
+  }
+]

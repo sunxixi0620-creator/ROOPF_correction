@@ -1,0 +1,13 @@
+group,comparator,warmup,functions,mean_wins,mean_ties,mean_losses,pair_wins,pair_ties,pair_losses
+bbob,anchor_only,0.7,23,7,15,1,158,531,1
+zero,anchor_only,0.7,6,0,6,0,0,180,0
+shifted,anchor_only,0.7,6,6,0,0,180,0,0
+bbob,no_proxy,0.7,23,7,15,1,150,531,9
+zero,no_proxy,0.7,6,0,6,0,0,180,0
+shifted,no_proxy,0.7,6,6,0,0,177,0,3
+bbob,no_residual,0.7,23,6,15,2,75,549,66
+zero,no_residual,0.7,6,0,6,0,0,180,0
+shifted,no_residual,0.7,6,0,6,0,0,180,0
+bbob,score_only,0.7,23,0,20,3,19,655,16
+zero,score_only,0.7,6,2,4,0,3,174,3
+shifted,score_only,0.7,6,0,3,3,7,162,11

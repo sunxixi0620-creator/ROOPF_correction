@@ -1,0 +1,20 @@
+{
+  "original_count": 36,
+  "curated_count": 36,
+  "same_function_membership": true,
+  "same_order": false,
+  "below_threshold_in_selected": [
+    "plateau_soft",
+    "comp_local",
+    "fourier_low",
+    "fourier_mid",
+    "fourier_mixed",
+    "lowrank_tanh",
+    "lowrank_wave",
+    "spiral_soft",
+    "spiral_strong",
+    "multiscale_hard"
+  ],
+  "residual_holdout_count": 7,
+  "identical_code_before_curation_suffix": true
+}

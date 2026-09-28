@@ -1,0 +1,22 @@
+{
+  "checkpoint_provenance.md": {
+    "source": "/home/skq/repos/xixi/main-parameter22/prospect/CHECKPOINT_PROVENANCE.md",
+    "sha256": "fa361daf19ccfd860c9e738ff62eec3a7cb0270960c5bcbc05e9253d3673a3f0"
+  },
+  "generated36_original.py": {
+    "source": "/home/skq/repos/xixi/claude_create_trainsets/neurgo-trainset-gen/outputs/trainset_generated_36.py",
+    "sha256": "231b22357b327ccd43721abd7d9cbd68efd4339e7c65c9907d8c8d715d2e7aa5"
+  },
+  "generated36_curated.py": {
+    "source": "/home/skq/repos/xixi/claude_create_trainsets/neurgo-trainset-gen/outputs/trainset_generated_final.py",
+    "sha256": "4f5ed4674925cccf6789e6edf0f0f3e95cf76529c89d21c7b787f4436ddcba68"
+  },
+  "generator_audit_final.json": {
+    "source": "/home/skq/repos/xixi/claude_create_trainsets/neurgo-trainset-gen/outputs/audit_final_report.json",
+    "sha256": "d35de6a436e60638cf277e7281048cac3703a2ef06b17d41888491561695a0f7"
+  },
+  "residual_training_metrics.json": {
+    "source": "/home/skq/repos/xixi/main-parameter22/saferank_neurgo_v58_retrained_offline/research_v41_surrogate_portfolio/results_v58_router/router_generated36_improved_best_earlystop.metrics.json",
+    "sha256": "be9af3c8063bf1ed811f555b08343d404fdfcd0a0f50f866fd1ad346bd12c7cb"
+  }
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "fid": "rbf_deceptive",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.13441286981105804
+  },
+  {
+    "fid": "wavepacket_multi",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.23228567838668823
+  },
+  {
+    "fid": "valley_wavy",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 1.5974044799804688
+  },
+  {
+    "fid": "rbf_dense",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.1339227557182312
+  },
+  {
+    "fid": "ring_wavy",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 3.3543293476104736
+  },
+  {
+    "fid": "wavepacket_drift",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.21296128630638123
+  },
+  {
+    "fid": "valley_narrow",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 4.6042046546936035
+  },
+  {
+    "fid": "rbf_sparse",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.06363837420940399
+  },
+  {
+    "fid": "comp_rugged",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 3.419933557510376
+  },
+  {
+    "fid": "wavepacket_local",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.16079649329185486
+  },
+  {
+    "fid": "plateau_tilted",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.1977091133594513
+  },
+  {
+    "fid": "valley_smooth",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 1.1332494020462036
+  },
+  {
+    "fid": "ring_double",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 2.1100265979766846
+  },
+  {
+    "fid": "plateau_sharp",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.22846221923828125
+  },
+  {
+    "fid": "ring_single",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 2.1863787174224854
+  },
+  {
+    "fid": "saddle_tilt",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.2289903610944748
+  },
+  {
+    "fid": "dirridge_single",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 12.288297653198242
+  },
+  {
+    "fid": "spiral_decay",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.4727221429347992
+  },
+  {
+    "fid": "comp_global",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 2.8565642833709717
+  },
+  {
+    "fid": "saddle_soft",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.6211836934089661
+  },
+  {
+    "fid": "saddle_wave",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.40161657333374023
+  },
+  {
+    "fid": "dirridge_multi",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 2.238471508026123
+  },
+  {
+    "fid": "lowrank_soft",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 5.286782264709473
+  },
+  {
+    "fid": "multiscale_coupled",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 8.87203311920166
+  },
+  {
+    "fid": "dirridge_noisy",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 2.094365358352661
+  },
+  {
+    "fid": "multiscale_smooth",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 7.254865646362305
+  },
+  {
+    "fid": "plateau_soft",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.14426583051681519
+  },
+  {
+    "fid": "fourier_mixed",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.3771740794181824
+  },
+  {
+    "fid": "lowrank_tanh",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.1719500869512558
+  },
+  {
+    "fid": "fourier_mid",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.44255170226097107
+  },
+  {
+    "fid": "multiscale_hard",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 6.312382698059082
+  },
+  {
+    "fid": "lowrank_wave",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 1.0656906366348267
+  },
+  {
+    "fid": "comp_local",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 7.379311561584473
+  },
+  {
+    "fid": "spiral_strong",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 1.400068998336792
+  },
+  {
+    "fid": "spiral_soft",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.34040191769599915
+  },
+  {
+    "fid": "fourier_low",
+    "shape": [
+      2,
+      20
+    ],
+    "finite_raw": true,
+    "finite_grad": true,
+    "grad_abs_max": 0.37340766191482544
+  }
+]

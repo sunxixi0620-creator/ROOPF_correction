@@ -1,0 +1,7 @@
+group,comparator,warmup,functions,mean_wins,mean_ties,mean_losses,pair_wins,pair_ties,pair_losses
+bbob,full,0.3333333333333333,3,3,0,0,65,1,24
+shifted,full,0.3333333333333333,3,0,0,3,4,0,86
+bbob,full,0.5,3,2,0,1,35,31,24
+shifted,full,0.5,3,0,0,3,2,0,88
+bbob,full,0.9,3,2,1,0,24,60,6
+shifted,full,0.9,3,3,0,0,85,0,5

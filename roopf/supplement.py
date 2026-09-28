@@ -35,7 +35,7 @@ class SupplementOptimizer(ROOPFOptimizer):
         if variant == 'no_proxy':
             self.ablation.add('no_surrogate')
         # Use the original literal at the default boundary to preserve exactness.
-        self.intervention_remaining = 0.30 if warmup == 0.70 else 1.0 - warmup
+        self.intervention_remaining = 0.30 if warmup == 0.70 else round(1.0 - warmup, 12)
         self.diagnostic_stride = diagnostic_stride
         self.supplement_gate_observer = self.observe_gate
         self.log_candidates = True
