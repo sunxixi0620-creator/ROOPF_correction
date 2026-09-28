@@ -1,0 +1,64 @@
+{
+  "stats": {
+    "full": {
+      "states": 6480,
+      "order_reversed": 234,
+      "reversal_true_wtl": [
+        137,
+        0,
+        97
+      ],
+      "prior_preserving_changed": 213,
+      "prior_preserving_true_wtl": [
+        82,
+        0,
+        131
+      ],
+      "mu_mean_abs_change": 7.649913048811447e-08,
+      "mu_reversals_removed_if_rolled_back": 0,
+      "uncertainty_mean_abs_change": 5.135487244656014e-08,
+      "uncertainty_reversals_removed_if_rolled_back": 0,
+      "prior_mean_abs_change": 0.043759962747356364,
+      "prior_reversals_removed_if_rolled_back": 159,
+      "other_mean_abs_change": 0.0013999909496606277,
+      "other_reversals_removed_if_rolled_back": 9,
+      "residual_mean_abs_change": 0.012241711552520913,
+      "residual_reversals_removed_if_rolled_back": 51,
+      "score_mean_abs_change": 0.0417864379196095,
+      "score_reversals_removed_if_rolled_back": 234
+    },
+    "no_residual": {
+      "states": 6480,
+      "order_reversed": 292,
+      "reversal_true_wtl": [
+        178,
+        0,
+        114
+      ],
+      "prior_preserving_changed": 331,
+      "prior_preserving_true_wtl": [
+        126,
+        0,
+        205
+      ],
+      "mu_mean_abs_change": 7.782480884350635e-08,
+      "mu_reversals_removed_if_rolled_back": 0,
+      "uncertainty_mean_abs_change": 4.809985140183721e-08,
+      "uncertainty_reversals_removed_if_rolled_back": 0,
+      "prior_mean_abs_change": 0.04552864468179317,
+      "prior_reversals_removed_if_rolled_back": 287,
+      "other_mean_abs_change": 0.0013273167621480444,
+      "other_reversals_removed_if_rolled_back": 8,
+      "residual_mean_abs_change": 0.0,
+      "residual_reversals_removed_if_rolled_back": 0,
+      "score_mean_abs_change": 0.04671535283274776,
+      "score_reversals_removed_if_rolled_back": 292
+    }
+  },
+  "budget": {
+    "main_trajectories": 576,
+    "main_points": 172800,
+    "teacher_points": 38880
+  },
+  "scope": "Own-policy states; score decomposition and conditional prior-preserving choices, not full-policy results"
+}

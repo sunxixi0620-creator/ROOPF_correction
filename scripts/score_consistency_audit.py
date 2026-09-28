@@ -74,7 +74,7 @@ def finish(results):
  d=pd.concat([pd.read_csv(p) for p in sorted(OUT.glob('[0-9][0-9]_*.csv'))],ignore_index=True);assert len(d)==12960;stats={}
  for v,g in d.groupby('variant'):
   gap=g.combined_score_1-g.combined_score_0;flip=gap<0;change=g.prior_choice!=g.native_choice;diff=g.prior_truth-g.native_truth
-  z=dict(states=len(g),order_reversed=int(flip.sum()),reversal_true_wtl=[int((g[flip].second<g[flip].first).sum()),int((g[flip].second==g[flip].first).sum()),int((g[flip].second>g[flip].first).sum())],prior_preserving_changed=int(change.sum()),prior_preserving_true_wtl=[int((diff[change]<0).sum()),int((diff[change]==0).sum()),int((diff[change]>0).sum())])
+  z=dict(states=len(g),order_reversed=int(flip.sum()),reversal_true_wtl=[int((g[flip]['second']<g[flip]['first']).sum()),int((g[flip]['second']==g[flip]['first']).sum()),int((g[flip]['second']>g[flip]['first']).sum())],prior_preserving_changed=int(change.sum()),prior_preserving_true_wtl=[int((diff[change]<0).sum()),int((diff[change]==0).sum()),int((diff[change]>0).sum())])
   for key in ['mu','uncertainty','prior','other','residual','score']:
    delta0=g[f'combined_{key}_0']-g[f'pool_{key}_0'];delta1=g[f'combined_{key}_1']-g[f'pool_{key}_1']
    z[key+'_mean_abs_change']=float(pd.concat([delta0.abs(),delta1.abs()]).mean())

@@ -3,6 +3,7 @@
 **补充实验入口（2026-09-28）。** 本分支以选定的最终 10-D ROOPF 为主方法，原 checkpoint 保持冻结；20-D 和训练顺序研究使用单独保存的受控重训模型。
 
 - [最终补充实验报告与论文结论](docs/experiments/FINAL_RESULTS_20260928.zh-CN.md)
+- [两轮评分一致性诊断](docs/experiments/SCORE_CONSISTENCY_RESULTS.zh-CN.md)、[结论](docs/experiments/SCORE_CONSISTENCY_DECISIONS.zh-CN.md)和[复现说明](docs/experiments/SCORE_CONSISTENCY_REPRODUCE.md)：组件记录与保留prior的同状态对照。
 - [共享状态分阶段诊断](docs/experiments/RESIDUAL_STAGE_RESULTS.zh-CN.md)、[机制结论](docs/experiments/RESIDUAL_STAGE_DECISIONS.zh-CN.md)和[复现说明](docs/experiments/RESIDUAL_STAGE_REPRODUCE.md)：短名单、二次排序和门控的局部误差分解。
 - [最优候选优先训练实验](docs/experiments/RESIDUAL_TOP_RESULTS.zh-CN.md)、[结论与取舍](docs/experiments/RESIDUAL_TOP_DECISIONS.zh-CN.md)和[复现步骤](docs/experiments/RESIDUAL_TOP_REPRODUCE.md)：统一选模标准、三种目标各两个种子。
 - [Residual排序与改善幅度实验](docs/experiments/RESIDUAL_RANKING_RESULTS.zh-CN.md)、[结论](docs/experiments/RESIDUAL_RANKING_DECISIONS.zh-CN.md)和[复现步骤](docs/experiments/RESIDUAL_RANKING_REPRODUCE.md)：两个训练种子、新确认实例与实际改选诊断。
