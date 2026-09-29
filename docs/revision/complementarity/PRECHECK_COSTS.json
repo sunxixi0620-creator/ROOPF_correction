@@ -1,0 +1,9 @@
+{
+  "successful_contract_calls": 5512,
+  "integration_fixture_calls": 3584,
+  "prior_failed_exact_parity_check_calls": 1852,
+  "parity_diagnostic_calls": 448,
+  "total_precheck_calls": 11396,
+  "main_performance_samples": 0,
+  "note": "Includes pre-fix parity failure and diagnosis; counts reconstructed from the executed fixed batch/budget checks. Ongoing training is accounted separately."
+}
