@@ -1,0 +1,11 @@
+{
+  "files": {
+    "PREFIX_CHECK.json": "bc5b54617f0556da8fd62eee9e33ecef6bb63f14e84f59482d1c15900c76cee0",
+    "four_group_identity.json": "2cd1c874ffd4c34cdf343393a0e939e187f6ae3583efa2f85c88e72365b37771",
+    "frozen_sources.zip": "4f77c476c463afcc2bf1bf08e2205b8b16bcfeed9b0ba35ced1c8ba8626bd4e2",
+    "identity.json": "e9129c7d80890e0a949d68017b70fbc31ca641aa1a0bd8377ecf84f442511eb7",
+    "prefix_states.zip": "33d1d30fcd8ff7583386bb4a1730ef835c7d01c43529572fe53cef621f7cd34c"
+  },
+  "original_weights_unchanged": true,
+  "status": "training_started_not_complete"
+}

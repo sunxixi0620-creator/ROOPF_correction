@@ -1,0 +1,287 @@
+{
+  "accumulation": 4,
+  "batch": 16,
+  "dimensions": [
+    10,
+    20
+  ],
+  "early_stop": false,
+  "lr": 0.001,
+  "max_epochs": 1000,
+  "milestones": [
+    80,
+    160,
+    320,
+    640,
+    1000
+  ],
+  "numpy": "2.2.6",
+  "prefixes": {
+    "d10_s0": {
+      "epoch": 80,
+      "sha256": "213ac3742dbbae53c6183658b50b666e8505ce6ca6224230bb027d9b0a4e52d2",
+      "source": "/home/skq/repos/ROOPF_improve/ROOPF/results/unified_revision_v1_20260928_1840/anchor_0/state/training.pt",
+      "source_identity": {
+        "budget": 300,
+        "development_instances": 2,
+        "dimension": 10,
+        "max_epochs": 80,
+        "model_seeds": [
+          0,
+          1,
+          2
+        ],
+        "numpy": "2.2.6",
+        "originals": {
+          "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+          "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+        },
+        "populations": 4,
+        "sources": {
+          "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+          "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+          "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+          "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+          "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+          "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+          "roopf/unified.py": "c213f467df3dd8eef02a588a182309f6f90d5434c379d71236175578ba81821a",
+          "scripts/unified_revision.py": "a2c82d4f9265f1cde7ae14ea4b3148be56c9703d5576e229f9fde0dac670435d"
+        },
+        "torch": "2.11.0+cu128",
+        "version": "unified_revision_v1"
+      },
+      "source_manifest": {
+        "case": {
+          "seed": 0
+        },
+        "data_sha256": "213ac3742dbbae53c6183658b50b666e8505ce6ca6224230bb027d9b0a4e52d2",
+        "identity_sha256": "80ea59410e5e2960e6a951982c67e938a5bfcee894792f980de9e943583d609b"
+      }
+    },
+    "d10_s1": {
+      "epoch": 30,
+      "sha256": "8ae655d6cdf1d9f683abf1e062a44d0509ba550a92358135c44fb21411959fc1",
+      "source": "/home/skq/repos/ROOPF_improve/ROOPF/results/unified_revision_v1_20260928_1840/anchor_1/state/training.pt",
+      "source_identity": {
+        "budget": 300,
+        "development_instances": 2,
+        "dimension": 10,
+        "max_epochs": 80,
+        "model_seeds": [
+          0,
+          1,
+          2
+        ],
+        "numpy": "2.2.6",
+        "originals": {
+          "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+          "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+        },
+        "populations": 4,
+        "sources": {
+          "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+          "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+          "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+          "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+          "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+          "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+          "roopf/unified.py": "c213f467df3dd8eef02a588a182309f6f90d5434c379d71236175578ba81821a",
+          "scripts/unified_revision.py": "a2c82d4f9265f1cde7ae14ea4b3148be56c9703d5576e229f9fde0dac670435d"
+        },
+        "torch": "2.11.0+cu128",
+        "version": "unified_revision_v1"
+      },
+      "source_manifest": {
+        "case": {
+          "seed": 1
+        },
+        "data_sha256": "8ae655d6cdf1d9f683abf1e062a44d0509ba550a92358135c44fb21411959fc1",
+        "identity_sha256": "b74b8146d4736972e392c2d2d3be9c9cfe578189c99d4bdb4489c0fdba3a0632"
+      }
+    },
+    "d10_s2": {
+      "epoch": 80,
+      "sha256": "3adaafeabad92a34c1171cd9f75b880a0edadd131c21f7d820c99bef18987977",
+      "source": "/home/skq/repos/ROOPF_improve/ROOPF/results/unified_revision_v1_20260928_1840/anchor_2/state/training.pt",
+      "source_identity": {
+        "budget": 300,
+        "development_instances": 2,
+        "dimension": 10,
+        "max_epochs": 80,
+        "model_seeds": [
+          0,
+          1,
+          2
+        ],
+        "numpy": "2.2.6",
+        "originals": {
+          "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+          "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+        },
+        "populations": 4,
+        "sources": {
+          "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+          "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+          "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+          "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+          "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+          "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+          "roopf/unified.py": "c213f467df3dd8eef02a588a182309f6f90d5434c379d71236175578ba81821a",
+          "scripts/unified_revision.py": "a2c82d4f9265f1cde7ae14ea4b3148be56c9703d5576e229f9fde0dac670435d"
+        },
+        "torch": "2.11.0+cu128",
+        "version": "unified_revision_v1"
+      },
+      "source_manifest": {
+        "case": {
+          "seed": 2
+        },
+        "data_sha256": "3adaafeabad92a34c1171cd9f75b880a0edadd131c21f7d820c99bef18987977",
+        "identity_sha256": "05b49c93d88f28b3526e484d1746e66f22d7e5d755cf79746d2c0d956e186b46"
+      }
+    },
+    "d20_s0": {
+      "epoch": 80,
+      "sha256": "083b3c49fd1661b3fa9dea7806ad24696f2a29a4b3069249e556530904c2c353",
+      "source": "/home/skq/repos/ROOPF_improve/ROOPF/results/unified_native20_20260928/anchor_0/state/training.pt",
+      "source_identity": {
+        "budget": 300,
+        "development_instances": 2,
+        "dimension": 20,
+        "max_epochs": 80,
+        "model_seeds": [
+          0,
+          1,
+          2
+        ],
+        "numpy": "2.2.6",
+        "originals": {
+          "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+          "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+        },
+        "populations": 4,
+        "sources": {
+          "docs/experiments/UNIFIED_EXTERNAL_PROTOCOL.md": "d283e8523ad1fbf2d5907d92aca50ca5333c1443f5ca6b362e91b6bfc5de4da8",
+          "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+          "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+          "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+          "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+          "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+          "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+          "roopf/unified.py": "c9ceeca227cb822a7da4e09f8695f95dde14c98229a8982e194d6f8e52a2b751",
+          "scripts/unified_revision.py": "7e05eda4c1ccdc672ffb376464eb9c840a42669f10d025e05e95c284b8aede48"
+        },
+        "torch": "2.11.0+cu128",
+        "version": "unified_revision_v1"
+      },
+      "source_manifest": {
+        "case": {
+          "seed": 0
+        },
+        "data_sha256": "083b3c49fd1661b3fa9dea7806ad24696f2a29a4b3069249e556530904c2c353",
+        "identity_sha256": "274573db1e6021c4ef7c937c5b8733cfd20f5fbe0a751002fa9ba1903306bd9b"
+      }
+    },
+    "d20_s1": {
+      "epoch": 80,
+      "sha256": "bf95a3520433e95f7fbd262009256c265694c98327233302d7b17ff0408be7a4",
+      "source": "/home/skq/repos/ROOPF_improve/ROOPF/results/unified_native20_20260928/anchor_1/state/training.pt",
+      "source_identity": {
+        "budget": 300,
+        "development_instances": 2,
+        "dimension": 20,
+        "max_epochs": 80,
+        "model_seeds": [
+          0,
+          1,
+          2
+        ],
+        "numpy": "2.2.6",
+        "originals": {
+          "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+          "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+        },
+        "populations": 4,
+        "sources": {
+          "docs/experiments/UNIFIED_EXTERNAL_PROTOCOL.md": "d283e8523ad1fbf2d5907d92aca50ca5333c1443f5ca6b362e91b6bfc5de4da8",
+          "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+          "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+          "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+          "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+          "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+          "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+          "roopf/unified.py": "c9ceeca227cb822a7da4e09f8695f95dde14c98229a8982e194d6f8e52a2b751",
+          "scripts/unified_revision.py": "7e05eda4c1ccdc672ffb376464eb9c840a42669f10d025e05e95c284b8aede48"
+        },
+        "torch": "2.11.0+cu128",
+        "version": "unified_revision_v1"
+      },
+      "source_manifest": {
+        "case": {
+          "seed": 1
+        },
+        "data_sha256": "bf95a3520433e95f7fbd262009256c265694c98327233302d7b17ff0408be7a4",
+        "identity_sha256": "dba1b6446e779572c23e505b3bcb4ad12ca271595c826e65727d61e9dc9d8c92"
+      }
+    },
+    "d20_s2": {
+      "epoch": 80,
+      "sha256": "b20c6ddfd8f5d3477bbaf71010770ca988609a2123b5abfc55cec3010806ae80",
+      "source": "/home/skq/repos/ROOPF_improve/ROOPF/results/unified_native20_20260928/anchor_2/state/training.pt",
+      "source_identity": {
+        "budget": 300,
+        "development_instances": 2,
+        "dimension": 20,
+        "max_epochs": 80,
+        "model_seeds": [
+          0,
+          1,
+          2
+        ],
+        "numpy": "2.2.6",
+        "originals": {
+          "anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+          "residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+        },
+        "populations": 4,
+        "sources": {
+          "docs/experiments/UNIFIED_EXTERNAL_PROTOCOL.md": "d283e8523ad1fbf2d5907d92aca50ca5333c1443f5ca6b362e91b6bfc5de4da8",
+          "docs/experiments/UNIFIED_REVISION_PROTOCOL.md": "3800fcaf3b55a16a09aad2340fee75ac0f847245e396ca040a2593a0f6d90c2e",
+          "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+          "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+          "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+          "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+          "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+          "roopf/unified.py": "c9ceeca227cb822a7da4e09f8695f95dde14c98229a8982e194d6f8e52a2b751",
+          "scripts/unified_revision.py": "7e05eda4c1ccdc672ffb376464eb9c840a42669f10d025e05e95c284b8aede48"
+        },
+        "torch": "2.11.0+cu128",
+        "version": "unified_revision_v1"
+      },
+      "source_manifest": {
+        "case": {
+          "seed": 2
+        },
+        "data_sha256": "b20c6ddfd8f5d3477bbaf71010770ca988609a2123b5abfc55cec3010806ae80",
+        "identity_sha256": "71e1f14c79bb8dbf8fb8ca03e05465e06e1751cbfb5c47efe6b35721178d6f7c"
+      }
+    }
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "sources": {
+    "docs/experiments/COMPLEMENTARITY_TRAINING_PROTOCOL.md": "4c55fe496571bbac6861ecd115f5c63805ac33b86b90ba440417f77e4e7de9e0",
+    "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+    "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+    "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+    "scripts/complementarity_training.py": "9695c7d528a817d8b9ae69cc87bef9e5ed5ed0dda5bd4bda47b4625cbce99532",
+    "scripts/unified_revision.py": "7e05eda4c1ccdc672ffb376464eb9c840a42669f10d025e05e95c284b8aede48"
+  },
+  "torch": "2.11.0+cu128",
+  "validation_every": 5,
+  "version": "complementarity_training_v1",
+  "width": 200
+}

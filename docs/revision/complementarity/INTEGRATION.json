@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "all_four_budgets_valid": true,
+      "dimension": 10,
+      "initial_anchor_slots_match": true,
+      "online_checkpoint_access_forbidden": true,
+      "residual_active_only_in_FR": true
+    },
+    {
+      "all_four_budgets_valid": true,
+      "dimension": 20,
+      "initial_anchor_slots_match": true,
+      "online_checkpoint_access_forbidden": true,
+      "residual_active_only_in_FR": true
+    }
+  ],
+  "fixture_checkpoints_only": true,
+  "note": "Old model fixtures exercise execution only; not evidence about the new matched models",
+  "objective_calls": 3584,
+  "passed": true,
+  "performance_statistics_not_computed": true
+}

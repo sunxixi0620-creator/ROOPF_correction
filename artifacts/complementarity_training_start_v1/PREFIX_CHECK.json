@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "key": "d10_s0",
+      "epoch": 80,
+      "updates": 720,
+      "selected": 75
+    },
+    {
+      "key": "d10_s1",
+      "epoch": 30,
+      "updates": 270,
+      "selected": 15
+    },
+    {
+      "key": "d10_s2",
+      "epoch": 80,
+      "updates": 720,
+      "selected": 70
+    },
+    {
+      "key": "d20_s0",
+      "epoch": 80,
+      "updates": 720,
+      "selected": 80
+    },
+    {
+      "key": "d20_s1",
+      "epoch": 80,
+      "updates": 720,
+      "selected": 80
+    },
+    {
+      "key": "d20_s2",
+      "epoch": 80,
+      "updates": 720,
+      "selected": 75
+    }
+  ],
+  "objective_calls": 0
+}

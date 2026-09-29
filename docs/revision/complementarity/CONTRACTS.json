@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "anchor_path_parity": true,
+      "dimension": 10,
+      "matching_fixed_modules": true,
+      "matching_pool_and_score": true,
+      "online_budget_and_name_invariance": true,
+      "online_no_checkpoint_access": true,
+      "teacher_path_and_rng_parity": true
+    },
+    {
+      "anchor_path_parity": true,
+      "dimension": 20,
+      "matching_fixed_modules": true,
+      "matching_pool_and_score": true,
+      "online_budget_and_name_invariance": true,
+      "online_no_checkpoint_access": true,
+      "teacher_path_and_rng_parity": true
+    }
+  ],
+  "comparative_performance_evaluated": false,
+  "objective_calls_including_teacher": 5512,
+  "passed": true
+}

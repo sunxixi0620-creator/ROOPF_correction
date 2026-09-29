@@ -1,0 +1,52 @@
+{
+  "conditions": [
+    [
+      10,
+      300
+    ],
+    [
+      20,
+      300
+    ],
+    [
+      20,
+      600
+    ]
+  ],
+  "instances": 2,
+  "main_trajectories": 8640,
+  "methods": [
+    "A",
+    "O",
+    "F",
+    "FR"
+  ],
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "numpy": "2.2.6",
+  "populations": 4,
+  "sources": {
+    "docs/experiments/COMPLEMENTARITY_FOUR_GROUP_PROTOCOL.md": "08c3d2592f01f0aeca21e377cc19461397662261ce5d8525b8e393b3b9f76e80",
+    "docs/experiments/COMPLEMENTARITY_TRAINING_PROTOCOL.md": "4c55fe496571bbac6861ecd115f5c63805ac33b86b90ba440417f77e4e7de9e0",
+    "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+    "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+    "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+    "roopf/online_portfolio.py": "fea1db031b4430c8c45ee82576d544eefbf6d7bb86e829436c30fbb9f6d1c9f5",
+    "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+    "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+    "roopf/unified.py": "c9ceeca227cb822a7da4e09f8695f95dde14c98229a8982e194d6f8e52a2b751",
+    "scripts/check_complementarity_contracts.py": "d55855b28f831e6ae6fa0a15ea1b034eeea113ebee7db56e047c26d7f8b23b2e",
+    "scripts/complementarity_four_group.py": "b486a82404a0a89328bb4c0a89b9e3ecb0769d9f2d6c8895a3e5d305a4590211",
+    "scripts/complementarity_training.py": "9695c7d528a817d8b9ae69cc87bef9e5ed5ed0dda5bd4bda47b4625cbce99532",
+    "scripts/unified_revision.py": "7e05eda4c1ccdc672ffb376464eb9c840a42669f10d025e05e95c284b8aede48"
+  },
+  "split": "complementarity_v1_confirmation",
+  "template_sha256": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+  "torch": "2.11.0+cu128",
+  "training_identity_sha256": "e9129c7d80890e0a949d68017b70fbc31ca641aa1a0bd8377ecf84f442511eb7",
+  "training_run": "/home/skq/repos/ROOPF_improve/ROOPF/results/complementarity_20260929",
+  "version": "complementarity_four_group_v1"
+}

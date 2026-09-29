@@ -1,0 +1,16 @@
+{
+  "four_group_run": "results/complementarity_four_group_20260929",
+  "four_group_supervisor_pid": 4111796,
+  "four_group_tool_session": 42044,
+  "observed_at": "2026-09-29T02:09:31.529170+00:00",
+  "scientific_sources_verified": true,
+  "stages": {
+    "anchor_duration": "running",
+    "four_groups": "waiting",
+    "residual_recollection": "waiting",
+    "residual_training": "waiting"
+  },
+  "training_run": "results/complementarity_20260929",
+  "training_supervisor_pid": 4107635,
+  "training_tool_session": 77432
+}
