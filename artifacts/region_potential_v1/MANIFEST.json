@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "audit_0.zip",
+    "bytes": 88861,
+    "members": 18,
+    "sha256": "81eb6cb32d37c82c48ee82ad1ac763645742c8d41c5e103401dfccc8f5398c4b"
+  },
+  {
+    "archive": "audit_1.zip",
+    "bytes": 2365287,
+    "members": 48,
+    "sha256": "147bd8f405e753b749f7049fe44851f7250dd01ecf424611baa756bb3c676e36"
+  },
+  {
+    "archive": "audit_2.zip",
+    "bytes": 2367985,
+    "members": 48,
+    "sha256": "6a874d2dead232a4cb41fcf70d4d907a227e85c69b170eae0787c5605bca4e36"
+  },
+  {
+    "archive": "audit_3.zip",
+    "bytes": 2383698,
+    "members": 48,
+    "sha256": "542578e5496f957e5d5f8792298d4daadca9ecd3dd244604b0e48916411a18d6"
+  }
+]

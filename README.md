@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**区域方向的长期潜力诊断已完成。** 离线方向候选存在达到预设门槛的事后长期潜力，但没有通过相对所有非学习探索的增量验收。当前证据不足以支撑对该生成器继续重训。 [完整结果](docs/revision/region_potential/CONCLUSIONS.zh-CN.md) · [归档](artifacts/region_potential_v1/README.md)。
+
 **低维 ES 匹配诊断已完成。** 200 参数低维更新没有同时通过两组方向的局部可靠性门槛。按冻结协议停止该方案，不追加完整重训或秩/步长搜索。 [详细结果](docs/revision/lowdim_es/CONCLUSIONS.zh-CN.md) · [归档](artifacts/lowdim_es_v1/README.md)。
 
 **ES 更新可靠性审计已完成。** 两组更新没有同时通过局部可靠性门槛。当前全参数、少方向 ES 的稳定一步改进能力未获支持；不能据此认定网络结构或离线融合没有潜力。下一步优先限定一个低维更新方案，先检查更新可靠性，再决定是否完整重训。 [结果与资源实测](docs/revision/es_reliability/CONCLUSIONS.zh-CN.md) · [归档](artifacts/es_reliability_v1/README.md)。
