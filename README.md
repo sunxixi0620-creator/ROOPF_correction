@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**七组冷启动组件实验已完成。** 3240条新轨迹再次支持相对纯在线的加速和在线适应的终局贡献，但学习先验未超过解析径向先验，退出的效率必要性未成立，覆盖率联合保护仍未通过。不能声称离线学习不可替代。[结果](docs/revision/cold_start_components/CONCLUSIONS.zh-CN.md) · [结论与研究决策](docs/revision/cold_start_components/NEXT_DECISION.zh-CN.md) · [精确方法](docs/revision/cold_start_components/METHOD.zh-CN.md)。
+
 **冷启动方向扩大复核与单一覆盖保护实验已完成。** 新增3168条轨迹：原固定窗口的早期加速重复出现，但达标率保护条件仍未通过；固定10个Sobol槽位的候选未修复不足，不采用、不扫描比例。[两轮汇总与曲线](docs/revision/cold_start_direction/CONCLUSIONS.zh-CN.md) · [论文证据与缺口](docs/revision/cold_start_direction/PAPER_EVIDENCE.zh-CN.md)。原模型及原失败结论保持不变。
 
 **冷启动失败轨迹审查已完成（新增评估0次）。** 相对空间填充的达标率差来自7个模型种子配对、4个任务实例，全部于324～358次追上目标。采样展开度存在探索性关联，尚不足以设计可靠门控；不更改300次主验收。[审查结果](docs/revision/cold_start_failure_audit/CONCLUSIONS.zh-CN.md) · [研究决策](docs/revision/cold_start_failure_audit/NEXT_DECISION.zh-CN.md)。

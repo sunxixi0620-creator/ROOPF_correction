@@ -1,0 +1,10 @@
+{
+  "W_F_prefix_pairs": 648,
+  "budget_unique": true,
+  "cases": 3240,
+  "common_initialization": true,
+  "decisions": 16200,
+  "extra_calls": 0,
+  "max_error": 5.613287612504791e-13,
+  "source_and_weights_frozen": true
+}
