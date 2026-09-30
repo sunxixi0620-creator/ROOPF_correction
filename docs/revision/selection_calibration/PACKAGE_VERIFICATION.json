@@ -1,0 +1,21 @@
+{
+  "archives": 7,
+  "case_hashes_passed": true,
+  "cases": {
+    "data": 324,
+    "search": 504
+  },
+  "costs": {
+    "data": {
+      "main": 777600,
+      "teacher": 393984
+    },
+    "search": {
+      "main": 1209600,
+      "teacher": 0
+    }
+  },
+  "proposal_hashes_passed": true,
+  "source_hashes_passed": true,
+  "zip_crc_passed": true
+}

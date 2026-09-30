@@ -1,0 +1,81 @@
+{
+  "all_workers_joined": true,
+  "behavior_calls": 777600,
+  "contract": {
+    "exact_parity": true,
+    "main_calls": 4278,
+    "odd_budget": true,
+    "passed": true,
+    "teacher_calls": 0
+  },
+  "effects": {
+    "Base": {
+      "confidence": 0.975,
+      "lower": -0.0017919358381294403,
+      "mean": -0.0004560799613870956,
+      "passed": false,
+      "seed_means": [
+        -0.0006704426681001981,
+        -0.0006388912184370889,
+        -5.8905997623999916e-05
+      ],
+      "upper": 0.0001648010860662907
+    },
+    "O": {
+      "confidence": 0.975,
+      "lower": -0.0021324341985207327,
+      "mean": -0.00013650710591011576,
+      "passed": false,
+      "seed_means": [
+        1.0597364356120428e-05,
+        -0.000393777878748046,
+        -2.6340803338421716e-05
+      ],
+      "upper": 0.0007341471638668465
+    }
+  },
+  "inference_teacher_calls": 0,
+  "label_calls": 393984,
+  "proposal_weights_unchanged": true,
+  "search_calls": 1209600,
+  "search_trajectories": 2016,
+  "success": false,
+  "training": [
+    {
+      "device": "cuda",
+      "epoch": 24,
+      "initial_validation": 0.04952296242117882,
+      "parameters": 769,
+      "seconds": 1.563500177115202,
+      "seed": 0,
+      "selected_epoch": 8,
+      "selected_validation": 0.0520244799554348,
+      "sha256": "e58825c4b2d095d1695c56d8efbd04e77abd576c23b3f6a9f0b04705e528a64c",
+      "updates": 432
+    },
+    {
+      "device": "cuda",
+      "epoch": 28,
+      "initial_validation": 0.043247323483228683,
+      "parameters": 769,
+      "seconds": 1.7055458999238908,
+      "seed": 1,
+      "selected_epoch": 12,
+      "selected_validation": 0.04976123198866844,
+      "sha256": "fb5e26e3eada742e9ab6925e407ef609243a6dcc64f8a95c552e16871f58e283",
+      "updates": 504
+    },
+    {
+      "device": "cuda",
+      "epoch": 28,
+      "initial_validation": 0.043303366750478745,
+      "parameters": 769,
+      "seconds": 1.786578520666808,
+      "seed": 2,
+      "selected_epoch": 12,
+      "selected_validation": 0.05045268312096596,
+      "sha256": "04a7cebaff8c2ce90bea5fec7770635f9e2ff6a95e80b844515269f6d4223b67",
+      "updates": 504
+    }
+  ]
+}
