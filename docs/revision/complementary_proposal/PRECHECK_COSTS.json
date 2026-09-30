@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "main_calls": 1130,
+      "outcome": "fixture compared grad-enabled with no-grad numerics; corrected fixture only",
+      "teacher_calls": 0
+    },
+    {
+      "main_calls": 1130,
+      "outcome": "passed short contracts",
+      "teacher_calls": 4
+    },
+    {
+      "main_calls": 5930,
+      "outcome": "passed full and odd budget contracts",
+      "teacher_calls": 4
+    }
+  ],
+  "main_calls": 8190,
+  "note": "prepare runs final contracts once more and records those costs separately",
+  "teacher_calls": 8
+}
