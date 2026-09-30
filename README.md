@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**跨数据集回归任务资格审查已完成。** 六项检查中源相关性、任务差异、稳定性等五项通过，但开发任务难度未通过；仅船体阻力达到难度要求，汽车油耗和红酒质量仍较容易。不启动该集合上的融合排名实验，确认候选保持封存。[结果与决策](docs/revision/regression_qualification/NEXT_DECISION.zh-CN.md) · [审查表](docs/revision/regression_qualification/CONCLUSIONS.zh-CN.md)。
+
 **真实数据 HPO 小规模验证已完成，联合门槛未通过。** 融合相对纯在线略有改善，但没有超过固定离线排序；85.9%的轨迹在共同初始化内已达到目标，任务区分力不足。停止本原型在该数据集上的调参，不回填原ROOPF组件必要性。[结果与下一步边界](docs/revision/real_hpo_prior/NEXT_DECISION.zh-CN.md) · [完整结果](docs/revision/real_hpo_prior/CONCLUSIONS.zh-CN.md)。
 
 **结构迁移与失配选择研究已完成。** 已有先验不只是中心偏好；共享方向正对照通过，但失配会退化。留一选择缓解了受控失配，仍未通过300NFE相对纯在线的终局门槛。保持原模型及主终点。[本轮证据与研究决策](docs/revision/STRUCTURE_ALIGNMENT_CONCLUSIONS.zh-CN.md)。

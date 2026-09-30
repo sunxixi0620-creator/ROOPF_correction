@@ -1,0 +1,10 @@
+{
+  "source_and_data_hashes": true,
+  "group_separation": true,
+  "training_only_scaling": true,
+  "repeat_fits": 54,
+  "repeat_max_error": 0.0,
+  "warnings": 0,
+  "original_checkpoints_unchanged": true,
+  "confirmation_not_downloaded": true
+}
