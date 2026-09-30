@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**标签审查与预测先验研究已完成。** 旧终局标签路线未通过跨随机流审查；新先验通过少样本预测与单次选点门槛，但闭环融合未通过相对纯在线与解析先验的联合验收。按协议停止局部搜索，原解锁权重保持不变。[三阶段结论与下一步边界](docs/revision/PREDICTIVE_PRIOR_CONCLUSIONS.zh-CN.md)。
+
 **长期价值提前识别实验已完成。** 当前长期价值模型未通过预设的提前识别门槛。按协议停止此模型的特征/损失/干预率搜索，不启动大规模重训或完整搜索扩展。 [详细结果](docs/revision/long_value/CONCLUSIONS.zh-CN.md) · [归档](artifacts/long_value_v1/README.md)。
 
 **区域方向的长期潜力诊断已完成。** 离线方向候选存在达到预设门槛的事后长期潜力，但没有通过相对所有非学习探索的增量验收。当前证据不足以支撑对该生成器继续重训。 [完整结果](docs/revision/region_potential/CONCLUSIONS.zh-CN.md) · [归档](artifacts/region_potential_v1/README.md)。
