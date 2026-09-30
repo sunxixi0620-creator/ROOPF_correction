@@ -1,0 +1,14 @@
+{
+  "all_predictions_recomputed": true,
+  "matched_mismatch_coordinates_paired": true,
+  "metrics_and_intervals_recomputed": true,
+  "models": 36,
+  "objective_calls": 0,
+  "original_weights": {
+    "checkpoints/anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "checkpoints/residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+  },
+  "shell_radii_verified": true,
+  "source_only_representation_fit": true,
+  "source_refits_exact": true
+}

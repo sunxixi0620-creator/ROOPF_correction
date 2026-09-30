@@ -1,0 +1,8 @@
+{
+  "archived_predictions_and_metrics_recomputed": true,
+  "context_permutations_preserve_labels": true,
+  "objective_calls": 0,
+  "permuted_context_predictions_exactly_reproduced": true,
+  "posthoc_only": true,
+  "source_hashes_checked": true
+}

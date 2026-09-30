@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**结构迁移与失配选择研究已完成。** 已有先验不只是中心偏好；共享方向正对照通过，但失配会退化。留一选择缓解了受控失配，仍未通过300NFE相对纯在线的终局门槛。保持原模型及主终点。[本轮证据与研究决策](docs/revision/STRUCTURE_ALIGNMENT_CONCLUSIONS.zh-CN.md)。
+
 **标签审查与预测先验研究已完成。** 旧终局标签路线未通过跨随机流审查；新先验通过少样本预测与单次选点门槛，但闭环融合未通过相对纯在线与解析先验的联合验收。按协议停止局部搜索，原解锁权重保持不变。[三阶段结论与下一步边界](docs/revision/PREDICTIVE_PRIOR_CONCLUSIONS.zh-CN.md)。
 
 **长期价值提前识别实验已完成。** 当前长期价值模型未通过预设的提前识别门槛。按协议停止此模型的特征/损失/干预率搜索，不启动大规模重训或完整搜索扩展。 [详细结果](docs/revision/long_value/CONCLUSIONS.zh-CN.md) · [归档](artifacts/long_value_v1/README.md)。
