@@ -1,0 +1,12 @@
+{
+  "New": {
+    "fraction": 0.08362731481481482,
+    "post_initial_paid_points": 432000,
+    "selected_extra_points": 36127
+  },
+  "Old": {
+    "fraction": 0.06666203703703703,
+    "post_initial_paid_points": 432000,
+    "selected_extra_points": 28798
+  }
+}

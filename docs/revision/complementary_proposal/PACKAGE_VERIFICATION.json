@@ -1,0 +1,9 @@
+{
+  "cases_verified": 864,
+  "payloads": 8,
+  "report_source_sha256": "719764a0ba97b6786cf33781a600655aa0699d671ba4b4cfe76d35b4797488eb",
+  "result_sha256": "8dcbfd38ee1473aea467f58239a157a40e5967950cf3449902d1c08522664b46",
+  "sha256_passed": true,
+  "total_bytes": 148507723,
+  "zip_crc_passed": true
+}

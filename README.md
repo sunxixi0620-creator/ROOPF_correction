@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**互补提案机制试验已完成（2026-09-30）。** [结果与限制](docs/revision/complementary_proposal/CONCLUSIONS.zh-CN.md)：三个上下文提案模型、2,880条正式搜索轨迹。预留实例上的提案潜力通过门槛；20D/600完整搜索相对O和旧自由选择版本分别提升0.000666、0.000480，调整后区间在零以上，但均未达到预设0.005实质增益要求，按[冻结协议](docs/experiments/COMPLEMENTARY_PROPOSAL_PROTOCOL.md)停止。原最终权重保持不变；这些是同族新实例上的机制证据。[归档](artifacts/complementary_proposal_v1/README.md)。
+
 **2026-09-30进度：1000轮训练、四组实验与自由分配对照均已完成。** [四组结论](docs/revision/complementarity/CONCLUSIONS.zh-CN.md)：F/F+R均改善同一anchor，但未证明优于纯在线O，residual独立增益未通过。[新增2592条分配实验](docs/revision/free_allocation/CONCLUSIONS.zh-CN.md)显示20维600预算下解除固定分配改善F，但仍未证明优于O；按[固定协议](docs/experiments/FREE_ALLOCATION_PROTOCOL.md)停止，未触发新实例确认。20维300预算的正向结果保留为开发证据。下面是此前已完成的修订证据。
 
 **当前结果：已完成用户确认的四阶段修订实验。** 共完成 10,584 条主评测轨迹（开发消融 5,184 条，冻结后的外部评测 5,400 条），实际预算及数据身份核验通过。本轮统一候选的在线补充改善了同一 anchor；residual 和门槛式保护的独立收益未获支持。外部三个条件均支持相对同一 anchor 的收益，20D/600 NFE 支持相对 GP-EI 的收益，未证明稳定优于 CMA-ES。测试来源存在已披露的历史景观数据重用，不称为完全未见函数族验证。

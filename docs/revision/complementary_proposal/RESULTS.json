@@ -1,0 +1,102 @@
+{
+  "all_workers_joined": true,
+  "behavior_calls": 345600,
+  "elapsed_seconds": 289.6154334251769,
+  "label_calls": 9216,
+  "next_external_confirmation_authorized": false,
+  "proposal": {
+    "confidence": 0.95,
+    "lower": 0.004884616960771382,
+    "mean": 0.006625704001635313,
+    "new_utility": 0.028584428131580353,
+    "old_utility": 0.021958723664283752,
+    "passed": true,
+    "seed_means": [
+      0.004692581947892904,
+      0.006657279096543789,
+      0.008527250960469246
+    ],
+    "teacher_calls": 13824,
+    "upper": 0.008248339639976619
+  },
+  "search": {
+    "A": {
+      "confidence": 0.95,
+      "lower": 0.024455273166919752,
+      "mean": 0.03694679727777839,
+      "passed": true,
+      "seed_means": [
+        0.029242803963522117,
+        0.04081742465496063,
+        0.040780163214852415
+      ],
+      "upper": 0.051884725071593286
+    },
+    "O": {
+      "confidence": 0.975,
+      "lower": 0.00025981563570288355,
+      "mean": 0.0006656444941957792,
+      "passed": false,
+      "seed_means": [
+        0.0007153461790747113,
+        0.000551595249109798,
+        0.0007299920544028282
+      ],
+      "upper": 0.0012388834231791802
+    },
+    "Old": {
+      "confidence": 0.975,
+      "lower": 3.9754882109937855e-05,
+      "mean": 0.00047952771462776044,
+      "passed": false,
+      "seed_means": [
+        1.5558054049809773e-05,
+        0.00042536937528186373,
+        0.0009976557145516078
+      ],
+      "upper": 0.0011884483743752178
+    }
+  },
+  "search_calls": 1728000,
+  "search_trajectories": 2880,
+  "status": "complete",
+  "success": false,
+  "training": [
+    {
+      "device": "cuda",
+      "epoch": 32,
+      "parameters": 58504,
+      "seconds": 39.615153320133686,
+      "seed": 0,
+      "selected_epoch": 16,
+      "selected_sha256": "c732f3de3e6f552e8d8afdce4b7b8225153a5c04e48a00ca8b389d6984d2d77f",
+      "train_teacher_calls": 147456,
+      "validation": 0.03786035254597664,
+      "validation_teacher_calls": 39168
+    },
+    {
+      "device": "cuda",
+      "epoch": 32,
+      "parameters": 58504,
+      "seconds": 39.46820184169337,
+      "seed": 1,
+      "selected_epoch": 16,
+      "selected_sha256": "1b565c9c631cf5839af833885b2a6de4f9a671b2377585671597ecd7a7a77700",
+      "train_teacher_calls": 147456,
+      "validation": 0.03205179423093796,
+      "validation_teacher_calls": 39168
+    },
+    {
+      "device": "cuda",
+      "epoch": 60,
+      "parameters": 58504,
+      "seconds": 59.562820557970554,
+      "seed": 2,
+      "selected_epoch": 58,
+      "selected_sha256": "8e58725e54522bd658b921b218b5929a7a94719cf877b3918e9b0e7019b96c8e",
+      "train_teacher_calls": 276480,
+      "validation": 0.026359140872955322,
+      "validation_teacher_calls": 71424
+    }
+  ]
+}
