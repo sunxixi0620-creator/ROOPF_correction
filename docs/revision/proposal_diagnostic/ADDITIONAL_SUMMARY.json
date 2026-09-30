@@ -1,0 +1,14 @@
+{
+  "New": {
+    "harmful_fraction": 0.031828703703703706,
+    "later_opportunities": 490,
+    "later_realized": 139,
+    "later_recall": 0.2836734693877551
+  },
+  "O": {
+    "harmful_fraction": 0.05251736111111111,
+    "later_opportunities": 945,
+    "later_realized": 443,
+    "later_recall": 0.4687830687830688
+  }
+}
