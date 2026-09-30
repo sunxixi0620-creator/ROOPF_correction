@@ -1,0 +1,7 @@
+{
+  "calls": 360,
+  "monotone_acquisition": true,
+  "pool_equivalence": true,
+  "switch": true,
+  "zero_prior_equivalence": true
+}

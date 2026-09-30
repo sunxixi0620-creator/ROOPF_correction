@@ -1,0 +1,7 @@
+{
+  "contract_calls_completed": 360,
+  "contract_rollout_logic_unchanged": true,
+  "main_calls_before_change": 0,
+  "reason": "PyTorch disallows fork after parent autograd; use spawn before main experiments.",
+  "scientific_configuration_changed": false
+}

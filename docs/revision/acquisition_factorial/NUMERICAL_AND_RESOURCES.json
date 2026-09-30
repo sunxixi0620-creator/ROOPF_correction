@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "gradient_error": 6.6960292866014015e-09,
+      "kind": "zero",
+      "mean_error": 2.1094237467877974e-15,
+      "sd_error": 3.885780586188048e-16
+    },
+    {
+      "gradient_error": 2.2787527004242136e-09,
+      "kind": "analytic",
+      "mean_error": 3.8864931850568496e-07,
+      "sd_error": 3.885780586188048e-16
+    },
+    {
+      "gradient_error": 3.945106519243069e-09,
+      "kind": "correct",
+      "mean_error": 1.9732527456461924e-07,
+      "sd_error": 3.885780586188048e-16
+    }
+  ],
+  "cpu_resources": {
+    "16": {
+      "decisions_per_second": 477.8631395388377,
+      "mean_evaluations": 25.354166666666668,
+      "seconds": 0.200894339941442
+    },
+    "24": {
+      "decisions_per_second": 328.91732437044453,
+      "mean_evaluations": 25.354166666666668,
+      "seconds": 0.2918666573241353
+    },
+    "8": {
+      "decisions_per_second": 432.3033564698332,
+      "mean_evaluations": 25.354166666666668,
+      "seconds": 0.22206628415733576
+    }
+  },
+  "gpu_checks": [
+    {
+      "device": "cpu",
+      "kind": "zero",
+      "posterior_and_derivative_max_error": 1.9817480989559044e-14
+    },
+    {
+      "device": "cuda",
+      "kind": "zero",
+      "posterior_and_derivative_max_error": 9.769962616701378e-15
+    },
+    {
+      "device": "cpu",
+      "kind": "analytic",
+      "posterior_and_derivative_max_error": 1.9539925233402755e-14
+    },
+    {
+      "device": "cuda",
+      "kind": "analytic",
+      "posterior_and_derivative_max_error": 2.220446049250313e-14
+    },
+    {
+      "device": "cpu",
+      "kind": "correct",
+      "posterior_and_derivative_max_error": 1.1102230246251565e-14
+    },
+    {
+      "device": "cuda",
+      "kind": "correct",
+      "posterior_and_derivative_max_error": 1.4988010832439613e-14
+    }
+  ],
+  "gpu_name": "NVIDIA GeForce RTX 5060 Ti",
+  "logei_max_error": 8.01492205937393e-12,
+  "main_backend": "CPU analytic GP plus neural autograd; GPU independently checks posterior/derivatives",
+  "neural_gradient_seconds": {
+    "cpu_512": 0.005458398605696857,
+    "cpu_8": 0.0005051236599683762,
+    "cuda_512": 0.001573761599138379,
+    "cuda_8": 0.0014715282013639808
+  },
+  "objective_calls": 0,
+  "sources": {
+    "docs/experiments/ACQUISITION_FACTORIAL_PROTOCOL.md": "2ba35c10d419694d822266dcefcb1244d79407a14ddac9f614b35365ac8e746d",
+    "roopf/acquisition_search.py": "54c18e3e6c4d341f29c17f1ef09c4ee193cf0af43dcfc9ad26985ea942543b02",
+    "scripts/acquisition_factorial.py": "ca498df3eb0a3b166c8f6e33c535c4255ef36e17c07f16a863003c5e9361c3bc"
+  },
+  "training_epochs": 0,
+  "workers": 16
+}
