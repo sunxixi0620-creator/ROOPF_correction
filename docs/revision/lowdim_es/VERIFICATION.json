@@ -1,0 +1,21 @@
+{
+  "calls": {
+    "contract": 2400,
+    "estimation": 1382400,
+    "transfer": 2592000
+  },
+  "case_hashes_verified": true,
+  "counts": {
+    "contract": 2,
+    "estimation": 1152,
+    "transfer": 1080
+  },
+  "gradients_and_steps_recomputed": true,
+  "initial_populations_and_values_matched": true,
+  "original_weights": {
+    "checkpoints/anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "checkpoints/residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01"
+  },
+  "statistics_recomputed": true,
+  "total_calls": 3976800
+}

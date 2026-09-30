@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**低维 ES 匹配诊断已完成。** 200 参数低维更新没有同时通过两组方向的局部可靠性门槛。按冻结协议停止该方案，不追加完整重训或秩/步长搜索。 [详细结果](docs/revision/lowdim_es/CONCLUSIONS.zh-CN.md) · [归档](artifacts/lowdim_es_v1/README.md)。
+
 **ES 更新可靠性审计已完成。** 两组更新没有同时通过局部可靠性门槛。当前全参数、少方向 ES 的稳定一步改进能力未获支持；不能据此认定网络结构或离线融合没有潜力。下一步优先限定一个低维更新方案，先检查更新可靠性，再决定是否完整重训。 [结果与资源实测](docs/revision/es_reliability/CONCLUSIONS.zh-CN.md) · [归档](artifacts/es_reliability_v1/README.md)。
 
 **终局收益闭环重训已完成，未通过可行性门槛。** [结果](docs/revision/terminal_training/CONCLUSIONS.zh-CN.md)：三个种子均完成30次ES更新（约37分22秒），选中更新0/20/10。选模验证集相对O平均增益0.001323、相对重训前0.000529，低于预设0.005/0.001门槛；种子0无提升。确认集未打开，不追加训练变体，不替换原模型。选模集区间不是独立显著性证据。[后续研究决策](docs/revision/terminal_training/NEXT_DECISION.zh-CN.md) · [完整归档](artifacts/terminal_training_v1/README.md)。
