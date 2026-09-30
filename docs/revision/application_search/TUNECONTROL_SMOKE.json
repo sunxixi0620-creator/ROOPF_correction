@@ -1,0 +1,117 @@
+{
+  "package": "tunecontrol",
+  "version": "0.1.0",
+  "wheel_sha256": "ac2a5965004bf1c7e7b8e890b414fe0f188d8c3800b3981c37aa9cbc2d79b142",
+  "python": "3.10.20 (main, Jun  2 2026, 22:25:53) [Clang 22.1.3 ]",
+  "torch": "2.11.0+cu128",
+  "official_python_requirement": ">=3.12,<3.13",
+  "supported_environment": false,
+  "note": "Unmodified pure-Python wheel loaded by path in existing Python 3.10 for exploratory compatibility only. No install or environment downgrade; formal Python 3.12 reproducibility pending.",
+  "objective_calls": 7,
+  "optimizer_runs": 0,
+  "records": [
+    {
+      "family": "cartpole",
+      "mode": "deterministic",
+      "index": 0,
+      "cost": 8.273368345835587,
+      "seconds": 0.17051964532583952,
+      "theta": [
+        -40.0,
+        -6.25
+      ],
+      "trajectory_fields": [
+        "time",
+        "states",
+        "inputs",
+        "state_names",
+        "state_units",
+        "input_names",
+        "input_units",
+        "reference"
+      ]
+    },
+    {
+      "family": "cartpole",
+      "mode": "deterministic",
+      "index": 1,
+      "cost": 8.273368345835587,
+      "seconds": 0.17049096385017037,
+      "theta": [
+        -40.0,
+        -6.25
+      ],
+      "trajectory_fields": [
+        "time",
+        "states",
+        "inputs",
+        "state_names",
+        "state_units",
+        "input_names",
+        "input_units",
+        "reference"
+      ]
+    },
+    {
+      "family": "cascaded_tank",
+      "mode": "deterministic",
+      "index": 0,
+      "cost": 16.360994390361633,
+      "seconds": 0.012510730884969234,
+      "theta": [
+        2.7,
+        0.085
+      ],
+      "trajectory_fields": [
+        "time",
+        "states",
+        "inputs",
+        "state_names",
+        "state_units",
+        "input_names",
+        "input_units"
+      ]
+    },
+    {
+      "family": "cascaded_tank",
+      "mode": "deterministic",
+      "index": 1,
+      "cost": 16.360994390361633,
+      "seconds": 0.010770998895168304,
+      "theta": [
+        2.7,
+        0.085
+      ],
+      "trajectory_fields": [
+        "time",
+        "states",
+        "inputs",
+        "state_names",
+        "state_units",
+        "input_names",
+        "input_units"
+      ]
+    },
+    {
+      "family": "cartpole",
+      "mode": "noisy",
+      "index": 0,
+      "cost": 8.38396176389601,
+      "seconds": 0.19159858394414186
+    },
+    {
+      "family": "cartpole",
+      "mode": "noisy",
+      "index": 1,
+      "cost": 8.362799999035445,
+      "seconds": 0.1754032322205603
+    },
+    {
+      "family": "cartpole",
+      "mode": "noisy_replay",
+      "index": 0,
+      "cost": 8.38396176389601,
+      "seconds": 0.17511003138497472
+    }
+  ]
+}

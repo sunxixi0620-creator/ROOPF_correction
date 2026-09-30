@@ -1,0 +1,11 @@
+{
+  "files": {
+    "smoke_tunecontrol.py": "907b9d6af36b3c91f95c1ce3eda480942857f368d10ac63dad8af3fb719ae33e",
+    "tunecontrol-0.1.0-py3-none-any.whl": "ac2a5965004bf1c7e7b8e890b414fe0f188d8c3800b3981c37aa9cbc2d79b142"
+  },
+  "wheel_url": "https://pypi.org/project/tunecontrol/0.1.0/",
+  "official_python": ">=3.12,<3.13",
+  "smoke_environment": "Python3.10 exploratory compatibility, not supported environment",
+  "objective_calls": 7,
+  "optimizer_runs": 0
+}
