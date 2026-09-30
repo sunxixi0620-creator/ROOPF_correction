@@ -1,0 +1,11 @@
+# Cold-start failure audit v1
+
+Read-only audit of cold_start_v1. No new objective calls, training, policy changes, candidate labels or threshold search. Prior results already known: this is exploratory mechanism analysis, not preregistered confirmation.
+
+Compare W/S outcomes at the existing .5 initial-standard-deviation target and300 cutoff, also record600 hitting times and final deficits. Count both216 model-seed pairs and72 unique task instances; shared S observations are not independent repeats. Compare O/F successes descriptively, never treat divergent trajectories as counterfactual effect of one decision.
+
+At paid counts20 and40 extract only W history available at that moment: cumulative normalized gain, elapsed evaluations since last incumbent improvement, spatial spread relative to initial spread, and prequential squared-error advantage (fusion error minus online error) on W's actually chosen paid points. Online predictor is reconstructed on each preceding W history, so no label lookahead. Predictions share normalization on initial10. This diagnostic online predictor does not run its own policy. Positive error difference means offline fusion predicted worse. Spatial spread is mean squared distance to sample centroid; low normalized spread treated as risk. Low gain and long stagnation treated as risk.
+
+Predictive association is evaluated only among W trajectories that have not already attained target at checkpoint. Two outcomes: W fails300; W fails300 while S succeeds300. Compute fixed-direction rank AUC, count positive/negative cases and positive task/recipe diversity, leave-one-recipe-out AUC range without fitting, and95% recipe bootstrap1000 resamples. No chosen cutoffs, no selecting AUC direction, no significance/causal claim or automatic promotion. Need both data diversity and stable out-of-recipe evidence before proposing a gating model; this same-data exploratory audit cannot establish it. Report all four signals, both checkpoints, both outcomes; no best-signal-only conclusion.
+
+Verify saved decisions/normalization while reconstructing; hash parent identity and every loaded case. Archive audit outputs and script. If existing data cannot identify a deployable risk signal, stop rather than silently launch adaptive controls. Original search costs remain481428; this audit adds0.

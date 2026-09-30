@@ -1,0 +1,498 @@
+{
+  "S_only_F_success": 3,
+  "S_only_O_success": 1,
+  "S_only_catchup600": 7,
+  "S_only_failures": [
+    {
+      "deficit300": {
+        "F": 0.03218699542823616,
+        "O": 0.03218699542823616,
+        "S": -0.002052149939357063,
+        "W": 0.014658696282045379
+      },
+      "fid": 20,
+      "hits300": {
+        "F": 301,
+        "O": 301,
+        "S": 268,
+        "W": 301
+      },
+      "hits600": {
+        "F": 357,
+        "O": 389,
+        "S": 268,
+        "W": 324
+      },
+      "instance": 0,
+      "seed": 0
+    },
+    {
+      "deficit300": {
+        "F": 0.035253191662541004,
+        "O": 0.03218699542823616,
+        "S": -0.002052149939357063,
+        "W": 0.01575829325699135
+      },
+      "fid": 20,
+      "hits300": {
+        "F": 301,
+        "O": 301,
+        "S": 268,
+        "W": 301
+      },
+      "hits600": {
+        "F": 316,
+        "O": 389,
+        "S": 268,
+        "W": 343
+      },
+      "instance": 0,
+      "seed": 1
+    },
+    {
+      "deficit300": {
+        "F": 0.035253191662541004,
+        "O": 0.03218699542823616,
+        "S": -0.002052149939357063,
+        "W": 0.03784941018740718
+      },
+      "fid": 20,
+      "hits300": {
+        "F": 301,
+        "O": 301,
+        "S": 268,
+        "W": 301
+      },
+      "hits600": {
+        "F": 316,
+        "O": 389,
+        "S": 268,
+        "W": 350
+      },
+      "instance": 0,
+      "seed": 2
+    },
+    {
+      "deficit300": {
+        "F": -0.00923749742894195,
+        "O": 0.0030375664572399406,
+        "S": -0.0007665006197146514,
+        "W": 0.018646371273782412
+      },
+      "fid": 30,
+      "hits300": {
+        "F": 218,
+        "O": 301,
+        "S": 218,
+        "W": 301
+      },
+      "hits600": {
+        "F": 218,
+        "O": 388,
+        "S": 218,
+        "W": 358
+      },
+      "instance": 0,
+      "seed": 1
+    },
+    {
+      "deficit300": {
+        "F": -0.02358711232106738,
+        "O": 0.019508492298029756,
+        "S": -0.00950264234062338,
+        "W": 0.006784941937290563
+      },
+      "fid": 31,
+      "hits300": {
+        "F": 289,
+        "O": 301,
+        "S": 253,
+        "W": 301
+      },
+      "hits600": {
+        "F": 289,
+        "O": 304,
+        "S": 253,
+        "W": 356
+      },
+      "instance": 0,
+      "seed": 1
+    },
+    {
+      "deficit300": {
+        "F": 0.019508492298029756,
+        "O": 0.019508492298029756,
+        "S": -0.00950264234062338,
+        "W": 0.03145407747134059
+      },
+      "fid": 31,
+      "hits300": {
+        "F": 301,
+        "O": 301,
+        "S": 253,
+        "W": 301
+      },
+      "hits600": {
+        "F": 304,
+        "O": 304,
+        "S": 253,
+        "W": 329
+      },
+      "instance": 0,
+      "seed": 2
+    },
+    {
+      "deficit300": {
+        "F": -0.003077134257288659,
+        "O": -0.039156518328310234,
+        "S": -0.039156518328310234,
+        "W": 0.03731410075568214
+      },
+      "fid": 33,
+      "hits300": {
+        "F": 262,
+        "O": 221,
+        "S": 221,
+        "W": 301
+      },
+      "hits600": {
+        "F": 262,
+        "O": 221,
+        "S": 221,
+        "W": 344
+      },
+      "instance": 1,
+      "seed": 0
+    }
+  ],
+  "counts": {
+    "W0_S0": {
+      "pairs": 18,
+      "recipes": 3,
+      "tasks": 6
+    },
+    "W0_S1": {
+      "pairs": 7,
+      "recipes": 3,
+      "tasks": 4
+    },
+    "W1_S0": {
+      "pairs": 0,
+      "recipes": 0,
+      "tasks": 0
+    },
+    "W1_S1": {
+      "pairs": 191,
+      "recipes": 12,
+      "tasks": 65
+    }
+  },
+  "extra_calls": 0,
+  "neural_epochs": 0,
+  "signals": [
+    {
+      "at_risk": 103,
+      "auc": 0.8094871794871795,
+      "ci95": [
+        0.6567545254403131,
+        0.9129344047112246
+      ],
+      "loo_range": [
+        0.7846376811594203,
+        0.8452631578947368
+      ],
+      "nfe": 20,
+      "outcome": "W_failure",
+      "positive_recipes": 6,
+      "positive_tasks": 10,
+      "positives": 25,
+      "signal": "low_gain",
+      "valid_bootstraps": 1000
+    },
+    {
+      "at_risk": 103,
+      "auc": 0.522051282051282,
+      "ci95": [
+        0.4006405279503105,
+        0.6869755036630036
+      ],
+      "loo_range": [
+        0.4898897058823529,
+        0.5810526315789474
+      ],
+      "nfe": 20,
+      "outcome": "W_failure",
+      "positive_recipes": 6,
+      "positive_tasks": 10,
+      "positives": 25,
+      "signal": "stagnation",
+      "valid_bootstraps": 1000
+    },
+    {
+      "at_risk": 103,
+      "auc": 0.6051282051282051,
+      "ci95": [
+        0.43348991568109857,
+        0.7794638278388278
+      ],
+      "loo_range": [
+        0.5721739130434783,
+        0.666875
+      ],
+      "nfe": 20,
+      "outcome": "W_failure",
+      "positive_recipes": 6,
+      "positive_tasks": 10,
+      "positives": 25,
+      "signal": "low_spread",
+      "valid_bootstraps": 1000
+    },
+    {
+      "at_risk": 103,
+      "auc": 0.5441025641025641,
+      "ci95": [
+        0.38810885167464115,
+        0.7461116838487972
+      ],
+      "loo_range": [
+        0.49359795134443024,
+        0.5976928622927181
+      ],
+      "nfe": 20,
+      "outcome": "W_failure",
+      "positive_recipes": 6,
+      "positive_tasks": 10,
+      "positives": 25,
+      "signal": "fusion_error_excess",
+      "valid_bootstraps": 1000
+    },
+    {
+      "at_risk": 103,
+      "auc": 0.78125,
+      "ci95": [
+        0.5596469622331691,
+        0.8980748480243161
+      ],
+      "loo_range": [
+        0.7387640449438202,
+        0.8336134453781513
+      ],
+      "nfe": 20,
+      "outcome": "S_only",
+      "positive_recipes": 3,
+      "positive_tasks": 4,
+      "positives": 7,
+      "signal": "low_gain",
+      "valid_bootstraps": 967
+    },
+    {
+      "at_risk": 103,
+      "auc": 0.6875,
+      "ci95": [
+        0.5070855795148248,
+        0.8247489177489178
+      ],
+      "loo_range": [
+        0.6109550561797753,
+        0.7682584269662921
+      ],
+      "nfe": 20,
+      "outcome": "S_only",
+      "positive_recipes": 3,
+      "positive_tasks": 4,
+      "positives": 7,
+      "signal": "stagnation",
+      "valid_bootstraps": 967
+    },
+    {
+      "at_risk": 103,
+      "auc": 0.7961309523809523,
+      "ci95": [
+        0.6043573276246543,
+        0.9852255639097746
+      ],
+      "loo_range": [
+        0.6882022471910112,
+        0.8876404494382022
+      ],
+      "nfe": 20,
+      "outcome": "S_only",
+      "positive_recipes": 3,
+      "positive_tasks": 4,
+      "positives": 7,
+      "signal": "low_spread",
+      "valid_bootstraps": 967
+    },
+    {
+      "at_risk": 103,
+      "auc": 0.7425595238095238,
+      "ci95": [
+        0.5224603174603175,
+        0.9647298940420358
+      ],
+      "loo_range": [
+        0.5758426966292135,
+        0.8820224719101124
+      ],
+      "nfe": 20,
+      "outcome": "S_only",
+      "positive_recipes": 3,
+      "positive_tasks": 4,
+      "positives": 7,
+      "signal": "fusion_error_excess",
+      "valid_bootstraps": 967
+    },
+    {
+      "at_risk": 62,
+      "auc": 0.7286486486486486,
+      "ci95": [
+        0.474915293040293,
+        0.9013531914893617
+      ],
+      "loo_range": [
+        0.6571428571428571,
+        0.7972136222910217
+      ],
+      "nfe": 40,
+      "outcome": "W_failure",
+      "positive_recipes": 6,
+      "positive_tasks": 10,
+      "positives": 25,
+      "signal": "low_gain",
+      "valid_bootstraps": 1000
+    },
+    {
+      "at_risk": 62,
+      "auc": 0.5383783783783784,
+      "ci95": [
+        0.27668038682864454,
+        0.7859544695071009
+      ],
+      "loo_range": [
+        0.4664285714285714,
+        0.6184573002754821
+      ],
+      "nfe": 40,
+      "outcome": "W_failure",
+      "positive_recipes": 6,
+      "positive_tasks": 10,
+      "positives": 25,
+      "signal": "stagnation",
+      "valid_bootstraps": 1000
+    },
+    {
+      "at_risk": 62,
+      "auc": 0.6486486486486487,
+      "ci95": [
+        0.45493358633776093,
+        0.8278994107744108
+      ],
+      "loo_range": [
+        0.6052631578947368,
+        0.7197724039829303
+      ],
+      "nfe": 40,
+      "outcome": "W_failure",
+      "positive_recipes": 6,
+      "positive_tasks": 10,
+      "positives": 25,
+      "signal": "low_spread",
+      "valid_bootstraps": 1000
+    },
+    {
+      "at_risk": 62,
+      "auc": 0.6205405405405405,
+      "ci95": [
+        0.41185669681309217,
+        0.8360024420024419
+      ],
+      "loo_range": [
+        0.5773993808049536,
+        0.7167182662538699
+      ],
+      "nfe": 40,
+      "outcome": "W_failure",
+      "positive_recipes": 6,
+      "positive_tasks": 10,
+      "positives": 25,
+      "signal": "fusion_error_excess",
+      "valid_bootstraps": 1000
+    },
+    {
+      "at_risk": 62,
+      "auc": 0.5012987012987012,
+      "ci95": [
+        0.22015350877192982,
+        0.7638510101010101
+      ],
+      "loo_range": [
+        0.4148936170212766,
+        0.5683229813664596
+      ],
+      "nfe": 40,
+      "outcome": "S_only",
+      "positive_recipes": 3,
+      "positive_tasks": 4,
+      "positives": 7,
+      "signal": "low_gain",
+      "valid_bootstraps": 967
+    },
+    {
+      "at_risk": 62,
+      "auc": 0.1987012987012987,
+      "ci95": [
+        0.0,
+        0.46040866410584746
+      ],
+      "loo_range": [
+        0.11519607843137254,
+        0.3317307692307692
+      ],
+      "nfe": 40,
+      "outcome": "S_only",
+      "positive_recipes": 3,
+      "positive_tasks": 4,
+      "positives": 7,
+      "signal": "stagnation",
+      "valid_bootstraps": 967
+    },
+    {
+      "at_risk": 62,
+      "auc": 0.7896103896103897,
+      "ci95": [
+        0.632127659574468,
+        0.9530699088145898
+      ],
+      "loo_range": [
+        0.6826923076923077,
+        0.8970588235294118
+      ],
+      "nfe": 40,
+      "outcome": "S_only",
+      "positive_recipes": 3,
+      "positive_tasks": 4,
+      "positives": 7,
+      "signal": "low_spread",
+      "valid_bootstraps": 967
+    },
+    {
+      "at_risk": 62,
+      "auc": 0.7584415584415585,
+      "ci95": [
+        0.49278424168197593,
+        1.0
+      ],
+      "loo_range": [
+        0.5865384615384616,
+        0.8774509803921569
+      ],
+      "nfe": 40,
+      "outcome": "S_only",
+      "positive_recipes": 3,
+      "positive_tasks": 4,
+      "positives": 7,
+      "signal": "fusion_error_excess",
+      "valid_bootstraps": 967
+    }
+  ]
+}

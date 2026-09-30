@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**冷启动失败轨迹审查已完成（新增评估0次）。** 相对空间填充的达标率差来自7个模型种子配对、4个任务实例，全部于324～358次追上目标。采样展开度存在探索性关联，尚不足以设计可靠门控；不更改300次主验收。[审查结果](docs/revision/cold_start_failure_audit/CONCLUSIONS.zh-CN.md) · [研究决策](docs/revision/cold_start_failure_audit/NEXT_DECISION.zh-CN.md)。
+
 **10点冷启动实验已完成。** 固定辅助至40次再退出，相对纯在线平均节省15.37次评估，终局满足预设非劣条件；但相对Sobol初始化的目标达到率低3.24个百分点，联合验收未通过。保留早期效率正向证据，不启动自适应退出或追加调参。[结果](docs/revision/cold_start/CONCLUSIONS.zh-CN.md) · [结论与边界](docs/revision/cold_start/NEXT_DECISION.zh-CN.md) · [归档](artifacts/cold_start_v1/README.md)。
 
 **固定先验＋在线GP修正实验已完成，联合门槛未通过。** 648条20D/600NFE轨迹：融合改善纯先验与固定混合，但低于使用全部观测的纯在线GP。初始预测MSE降低约28.8%，未转化为终局收益。按冻结协议停止该候选，原解锁权重保持不变。[结果](docs/revision/frozen_prior_correction/CONCLUSIONS.zh-CN.md) · [研究决策](docs/revision/frozen_prior_correction/NEXT_DECISION.zh-CN.md) · [复现归档](artifacts/frozen_prior_correction_v1/README.md)。
