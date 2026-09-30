@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**真实数据 HPO 小规模验证已完成，联合门槛未通过。** 融合相对纯在线略有改善，但没有超过固定离线排序；85.9%的轨迹在共同初始化内已达到目标，任务区分力不足。停止本原型在该数据集上的调参，不回填原ROOPF组件必要性。[结果与下一步边界](docs/revision/real_hpo_prior/NEXT_DECISION.zh-CN.md) · [完整结果](docs/revision/real_hpo_prior/CONCLUSIONS.zh-CN.md)。
+
 **结构迁移与失配选择研究已完成。** 已有先验不只是中心偏好；共享方向正对照通过，但失配会退化。留一选择缓解了受控失配，仍未通过300NFE相对纯在线的终局门槛。保持原模型及主终点。[本轮证据与研究决策](docs/revision/STRUCTURE_ALIGNMENT_CONCLUSIONS.zh-CN.md)。
 
 **标签审查与预测先验研究已完成。** 旧终局标签路线未通过跨随机流审查；新先验通过少样本预测与单次选点门槛，但闭环融合未通过相对纯在线与解析先验的联合验收。按协议停止局部搜索，原解锁权重保持不变。[三阶段结论与下一步边界](docs/revision/PREDICTIVE_PRIOR_CONCLUSIONS.zh-CN.md)。

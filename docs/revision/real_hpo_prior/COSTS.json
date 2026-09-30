@@ -1,0 +1,45 @@
+{
+  "methods": {
+    "A": {
+      "measured_objective_seconds": 0.18555371060070616,
+      "policy_seconds": 0.00040969637533028923,
+      "simulated_total_seconds": 0.18596340697603644
+    },
+    "O": {
+      "measured_objective_seconds": 0.19096137426655602,
+      "policy_seconds": 0.00597407648132907,
+      "simulated_total_seconds": 0.1969354507478851
+    },
+    "F": {
+      "measured_objective_seconds": 0.19162105971050483,
+      "policy_seconds": 0.0059099256336964945,
+      "simulated_total_seconds": 0.19753098534420133
+    },
+    "Fixed": {
+      "measured_objective_seconds": 0.19195144056101088,
+      "policy_seconds": 0.005939961759442533,
+      "simulated_total_seconds": 0.1978914023204534
+    },
+    "Bad": {
+      "measured_objective_seconds": 0.19068907514145528,
+      "policy_seconds": 0.005990297716386892,
+      "simulated_total_seconds": 0.19667937285784218
+    },
+    "Random": {
+      "measured_objective_seconds": 0.19436996327023262,
+      "policy_seconds": 0.00019509961690615724,
+      "simulated_total_seconds": 0.1945650628871388
+    },
+    "GP": {
+      "measured_objective_seconds": 0.19079677923754962,
+      "policy_seconds": 0.2515859638685706,
+      "simulated_total_seconds": 0.44238274310612014
+    }
+  },
+  "source_fits": 15360,
+  "target_table_fits": 11520,
+  "table_lookups": 30240,
+  "source_cumulative_fit_seconds": 91.38558276556432,
+  "target_cumulative_fit_seconds": 70.20757701480761,
+  "timing_caveat": "Objective times measured under parallel table collection; sums are reconstructed per-trajectory costs, not serial end-to-end benchmarks."
+}

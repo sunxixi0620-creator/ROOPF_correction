@@ -1,0 +1,368 @@
+{
+  "posthoc_diagnostic": true,
+  "mean_qualifying_config_fraction": 0.47760416666666666,
+  "mean_optimum_tie_fraction": 0.37161458333333336,
+  "mean_source_error_spearman": 0.7677944824589024,
+  "tasks": [
+    {
+      "task": "target_02_0",
+      "qualifying_config_fraction": 0.7890625,
+      "optimum_tie_fraction": 0.78515625,
+      "spearman_source_error": 0.4929647712935239,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_02_1",
+      "qualifying_config_fraction": 0.82421875,
+      "optimum_tie_fraction": 0.7890625,
+      "spearman_source_error": 0.5033401129971258,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_02_2",
+      "qualifying_config_fraction": 0.84765625,
+      "optimum_tie_fraction": 0.7890625,
+      "spearman_source_error": 0.5016825078826993,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_04_0",
+      "qualifying_config_fraction": 0.421875,
+      "optimum_tie_fraction": 0.37890625,
+      "spearman_source_error": 0.8723974477516442,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_04_1",
+      "qualifying_config_fraction": 0.3828125,
+      "optimum_tie_fraction": 0.3359375,
+      "spearman_source_error": 0.8888747089348613,
+      "range": 0.48611111111111116,
+      "minimum": 0.01388888888888884
+    },
+    {
+      "task": "target_04_2",
+      "qualifying_config_fraction": 0.37890625,
+      "optimum_tie_fraction": 0.3359375,
+      "spearman_source_error": 0.8899715046565517,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_05_0",
+      "qualifying_config_fraction": 0.38671875,
+      "optimum_tie_fraction": 0.08203125,
+      "spearman_source_error": 0.8735034248602025,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_05_1",
+      "qualifying_config_fraction": 0.37890625,
+      "optimum_tie_fraction": 0.14453125,
+      "spearman_source_error": 0.8796885041774717,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_05_2",
+      "qualifying_config_fraction": 0.421875,
+      "optimum_tie_fraction": 0.37890625,
+      "spearman_source_error": 0.9026895470519373,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_08_0",
+      "qualifying_config_fraction": 0.38671875,
+      "optimum_tie_fraction": 0.37890625,
+      "spearman_source_error": 0.8968550661368706,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_08_1",
+      "qualifying_config_fraction": 0.37890625,
+      "optimum_tie_fraction": 0.375,
+      "spearman_source_error": 0.8991106892430042,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_08_2",
+      "qualifying_config_fraction": 0.3828125,
+      "optimum_tie_fraction": 0.3828125,
+      "spearman_source_error": 0.8893311740132953,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_17_0",
+      "qualifying_config_fraction": 0.84375,
+      "optimum_tie_fraction": 0.84375,
+      "spearman_source_error": 0.5212273661434342,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_17_1",
+      "qualifying_config_fraction": 0.84375,
+      "optimum_tie_fraction": 0.7890625,
+      "spearman_source_error": 0.5014546972444738,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_17_2",
+      "qualifying_config_fraction": 0.84375,
+      "optimum_tie_fraction": 0.7890625,
+      "spearman_source_error": 0.5014546972444738,
+      "range": 0.43243243243243246,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_18_0",
+      "qualifying_config_fraction": 0.1015625,
+      "optimum_tie_fraction": 0.03515625,
+      "spearman_source_error": 0.848011449747038,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_18_1",
+      "qualifying_config_fraction": 0.12890625,
+      "optimum_tie_fraction": 0.0703125,
+      "spearman_source_error": 0.8780163452227299,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_18_2",
+      "qualifying_config_fraction": 0.0546875,
+      "optimum_tie_fraction": 0.04296875,
+      "spearman_source_error": 0.8816396709697832,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_19_0",
+      "qualifying_config_fraction": 0.26953125,
+      "optimum_tie_fraction": 0.00390625,
+      "spearman_source_error": 0.6791867044723846,
+      "range": 0.472972972972973,
+      "minimum": 0.013513513513513487
+    },
+    {
+      "task": "target_19_1",
+      "qualifying_config_fraction": 0.28125,
+      "optimum_tie_fraction": 0.27734375,
+      "spearman_source_error": 0.7903808714926149,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_19_2",
+      "qualifying_config_fraction": 0.22265625,
+      "optimum_tie_fraction": 0.09375,
+      "spearman_source_error": 0.82063616980946,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_24_0",
+      "qualifying_config_fraction": 0.421875,
+      "optimum_tie_fraction": 0.21484375,
+      "spearman_source_error": 0.9177618258201341,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_24_1",
+      "qualifying_config_fraction": 0.421875,
+      "optimum_tie_fraction": 0.25,
+      "spearman_source_error": 0.9266514878345535,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_24_2",
+      "qualifying_config_fraction": 0.41015625,
+      "optimum_tie_fraction": 0.20703125,
+      "spearman_source_error": 0.919361155648181,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_27_0",
+      "qualifying_config_fraction": 0.41796875,
+      "optimum_tie_fraction": 0.25,
+      "spearman_source_error": 0.880994699647212,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_27_1",
+      "qualifying_config_fraction": 0.390625,
+      "optimum_tie_fraction": 0.3828125,
+      "spearman_source_error": 0.9046562256411276,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_27_2",
+      "qualifying_config_fraction": 0.3828125,
+      "optimum_tie_fraction": 0.37890625,
+      "spearman_source_error": 0.9110574016132819,
+      "range": 0.48611111111111116,
+      "minimum": 0.01388888888888884
+    },
+    {
+      "task": "target_38_0",
+      "qualifying_config_fraction": 0.25,
+      "optimum_tie_fraction": 0.109375,
+      "spearman_source_error": 0.8952511638553353,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_38_1",
+      "qualifying_config_fraction": 0.2734375,
+      "optimum_tie_fraction": 0.18359375,
+      "spearman_source_error": 0.8813740645021227,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_38_2",
+      "qualifying_config_fraction": 0.17578125,
+      "optimum_tie_fraction": 0.171875,
+      "spearman_source_error": 0.8995611542451579,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_45_0",
+      "qualifying_config_fraction": 0.8125,
+      "optimum_tie_fraction": 0.8125,
+      "spearman_source_error": 0.46679922109817845,
+      "range": 0.44594594594594594,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_45_1",
+      "qualifying_config_fraction": 0.87109375,
+      "optimum_tie_fraction": 0.08984375,
+      "spearman_source_error": 0.4217521103340885,
+      "range": 0.4054054054054054,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_45_2",
+      "qualifying_config_fraction": 0.84765625,
+      "optimum_tie_fraction": 0.84375,
+      "spearman_source_error": 0.5139842938336234,
+      "range": 0.41891891891891897,
+      "minimum": 0.013513513513513487
+    },
+    {
+      "task": "target_49_0",
+      "qualifying_config_fraction": 0.75390625,
+      "optimum_tie_fraction": 0.15234375,
+      "spearman_source_error": 0.8112530234152228,
+      "range": 0.4864864864864865,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_49_1",
+      "qualifying_config_fraction": 0.44140625,
+      "optimum_tie_fraction": 0.0234375,
+      "spearman_source_error": 0.7563115282737375,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_49_2",
+      "qualifying_config_fraction": 0.390625,
+      "optimum_tie_fraction": 0.35546875,
+      "spearman_source_error": 0.8637696275463878,
+      "range": 0.4725975975975977,
+      "minimum": 0.013513513513513487
+    },
+    {
+      "task": "target_67_0",
+      "qualifying_config_fraction": 0.8125,
+      "optimum_tie_fraction": 0.75,
+      "spearman_source_error": 0.39061498013341095,
+      "range": 0.45945945945945943,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_67_1",
+      "qualifying_config_fraction": 0.84375,
+      "optimum_tie_fraction": 0.84375,
+      "spearman_source_error": 0.5143213401453016,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_67_2",
+      "qualifying_config_fraction": 0.7890625,
+      "optimum_tie_fraction": 0.75,
+      "spearman_source_error": 0.3979069782207797,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_68_0",
+      "qualifying_config_fraction": 0.3671875,
+      "optimum_tie_fraction": 0.3359375,
+      "spearman_source_error": 0.8744238652149845,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_68_1",
+      "qualifying_config_fraction": 0.390625,
+      "optimum_tie_fraction": 0.22265625,
+      "spearman_source_error": 0.9023987728202422,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_68_2",
+      "qualifying_config_fraction": 0.37890625,
+      "optimum_tie_fraction": 0.375,
+      "spearman_source_error": 0.8893237501383094,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_78_0",
+      "qualifying_config_fraction": 0.3671875,
+      "optimum_tie_fraction": 0.328125,
+      "spearman_source_error": 0.8995987770038338,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_78_1",
+      "qualifying_config_fraction": 0.33984375,
+      "optimum_tie_fraction": 0.328125,
+      "spearman_source_error": 0.8975314987540317,
+      "range": 0.5,
+      "minimum": 0.0
+    },
+    {
+      "task": "target_78_2",
+      "qualifying_config_fraction": 0.37109375,
+      "optimum_tie_fraction": 0.26171875,
+      "spearman_source_error": 0.9016753335657917,
+      "range": 0.5,
+      "minimum": 0.0
+    }
+  ]
+}
