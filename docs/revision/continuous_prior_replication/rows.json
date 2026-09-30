@@ -1,0 +1,7202 @@
+[
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.465426885988563,
+    "seed": 0,
+    "terminal": 0.7030295400657939,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.297941370867193,
+    "seed": 0,
+    "terminal": 0.7034081921589399,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.685336763970554,
+    "seed": 0,
+    "terminal": 0.7035442344507682,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.83223972003907,
+    "seed": 1,
+    "terminal": 0.7034908849641442,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.714667368214577,
+    "seed": 2,
+    "terminal": 0.7033229034291958,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.563111480791122,
+    "seed": 0,
+    "terminal": 0.5640702093857639,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.557391230948269,
+    "seed": 0,
+    "terminal": 0.5649334925383946,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.801161549054086,
+    "seed": 0,
+    "terminal": 0.5652000563679733,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.7895720191299915,
+    "seed": 1,
+    "terminal": 0.5651863400481016,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.555219895206392,
+    "seed": 2,
+    "terminal": 0.5652719534945708,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.409747382160276,
+    "seed": 0,
+    "terminal": 0.7178104158456623,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.412573562934995,
+    "seed": 0,
+    "terminal": 0.7179268987094469,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.7280671377666295,
+    "seed": 0,
+    "terminal": 0.7181667347187833,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.756648021284491,
+    "seed": 1,
+    "terminal": 0.7180388137072433,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.594475218094885,
+    "seed": 2,
+    "terminal": 0.7180331690393464,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.492497866973281,
+    "seed": 0,
+    "terminal": 0.6669952769240917,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.4516420480795205,
+    "seed": 0,
+    "terminal": 0.6671835682341813,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.018125080037862,
+    "seed": 0,
+    "terminal": 0.6674947969969439,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.841055629774928,
+    "seed": 1,
+    "terminal": 0.6672163605955141,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 0,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.075124139897525,
+    "seed": 2,
+    "terminal": 0.667532565149176,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.550249855965376,
+    "seed": 0,
+    "terminal": 0.5585732702433813,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.6039365362375975,
+    "seed": 0,
+    "terminal": 0.5588212394059816,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.976050080731511,
+    "seed": 0,
+    "terminal": 0.5582269190434179,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.756512833293527,
+    "seed": 1,
+    "terminal": 0.5586915052425828,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.692606776021421,
+    "seed": 2,
+    "terminal": 0.5591074150729373,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.377573273610324,
+    "seed": 0,
+    "terminal": 0.6910340697724606,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.525182381272316,
+    "seed": 0,
+    "terminal": 0.6917355877011011,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.003539590165019,
+    "seed": 0,
+    "terminal": 0.6913339481794937,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.559815202839673,
+    "seed": 1,
+    "terminal": 0.691239503202636,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.922817936167121,
+    "seed": 2,
+    "terminal": 0.6910329839960608,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.793464655987918,
+    "seed": 0,
+    "terminal": 0.7420280444795578,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.616754774004221,
+    "seed": 0,
+    "terminal": 0.7425269800129719,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.732812026981264,
+    "seed": 0,
+    "terminal": 0.7426117033084803,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.0325147160328925,
+    "seed": 1,
+    "terminal": 0.7425657499526432,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.945764595177025,
+    "seed": 2,
+    "terminal": 0.7424875296258959,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.223344983998686,
+    "seed": 0,
+    "terminal": 0.6805669780533485,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.144137697760016,
+    "seed": 0,
+    "terminal": 0.6813783429465996,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.550299117807299,
+    "seed": 0,
+    "terminal": 0.6808963957373124,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.736276892013848,
+    "seed": 1,
+    "terminal": 0.6810753702975157,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 1,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.877177476882935,
+    "seed": 2,
+    "terminal": 0.6804302907567548,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.425005140248686,
+    "seed": 0,
+    "terminal": 0.5974379090161405,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.55244450783357,
+    "seed": 0,
+    "terminal": 0.599185172420846,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.650538945104927,
+    "seed": 0,
+    "terminal": 0.5987274823527801,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.631865954957902,
+    "seed": 1,
+    "terminal": 0.5988148163670689,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.681052749045193,
+    "seed": 2,
+    "terminal": 0.5985040456906804,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.593422691337764,
+    "seed": 0,
+    "terminal": 0.5317014191807002,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.569277212023735,
+    "seed": 0,
+    "terminal": 0.5348438753522112,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.705237476155162,
+    "seed": 0,
+    "terminal": 0.5342244643343383,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.856503400020301,
+    "seed": 1,
+    "terminal": 0.5339087315338856,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.734061810653657,
+    "seed": 2,
+    "terminal": 0.5341302725163044,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.480869745835662,
+    "seed": 0,
+    "terminal": 0.46825733865935215,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.502230286132544,
+    "seed": 0,
+    "terminal": 0.4744149728981039,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.959585323929787,
+    "seed": 0,
+    "terminal": 0.4725562681935805,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.821427744813263,
+    "seed": 1,
+    "terminal": 0.4741635022421967,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.93382306676358,
+    "seed": 2,
+    "terminal": 0.4735982305777194,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.265029281843454,
+    "seed": 0,
+    "terminal": 0.6359736975903424,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.389389154035598,
+    "seed": 0,
+    "terminal": 0.6364818346544102,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.673951520118862,
+    "seed": 0,
+    "terminal": 0.6352809875717254,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.701471171807498,
+    "seed": 1,
+    "terminal": 0.636059700537885,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 2,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.661818093154579,
+    "seed": 2,
+    "terminal": 0.6351020329246835,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.240527393296361,
+    "seed": 0,
+    "terminal": 0.41787476592693873,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.315155768301338,
+    "seed": 0,
+    "terminal": 0.42989176208260343,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.803448451217264,
+    "seed": 0,
+    "terminal": 0.42713442204615343,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.871943943668157,
+    "seed": 1,
+    "terminal": 0.42758153946950506,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.978069272823632,
+    "seed": 2,
+    "terminal": 0.4232214667388931,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.324093935079873,
+    "seed": 0,
+    "terminal": 0.5014951528773093,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.292597412131727,
+    "seed": 0,
+    "terminal": 0.5096780190215214,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.816030171234161,
+    "seed": 0,
+    "terminal": 0.5103273156329575,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.813176917843521,
+    "seed": 1,
+    "terminal": 0.510633522798031,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.802298224065453,
+    "seed": 2,
+    "terminal": 0.5091520608937772,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.306321249343455,
+    "seed": 0,
+    "terminal": 0.6034998927733831,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.568127603735775,
+    "seed": 0,
+    "terminal": 0.6054896786822731,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.757354629226029,
+    "seed": 0,
+    "terminal": 0.6068249722663651,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.0170608796179295,
+    "seed": 1,
+    "terminal": 0.6066114737181774,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.822140716016293,
+    "seed": 2,
+    "terminal": 0.6066967132402208,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.238397390116006,
+    "seed": 0,
+    "terminal": 0.5616330042072241,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.459443871863186,
+    "seed": 0,
+    "terminal": 0.5678694270765761,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.15618923259899,
+    "seed": 0,
+    "terminal": 0.5684871990276967,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.097333892248571,
+    "seed": 1,
+    "terminal": 0.5684013514439853,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 3,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.524211423005909,
+    "seed": 2,
+    "terminal": 0.568578050505297,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.868057899177074,
+    "seed": 0,
+    "terminal": 0.4666369669068172,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.87168328370899,
+    "seed": 0,
+    "terminal": 0.4721567237080678,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.208991845138371,
+    "seed": 0,
+    "terminal": 0.4726452267943957,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.992940734140575,
+    "seed": 1,
+    "terminal": 0.4722933137809217,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.235129796899855,
+    "seed": 2,
+    "terminal": 0.47236618659763313,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.800863048993051,
+    "seed": 0,
+    "terminal": 0.3991196339757488,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.700161494314671,
+    "seed": 0,
+    "terminal": 0.40484951710347106,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.119427523110062,
+    "seed": 0,
+    "terminal": 0.4051172535026773,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.38834644574672,
+    "seed": 1,
+    "terminal": 0.40519449715457845,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.337086081970483,
+    "seed": 2,
+    "terminal": 0.4047843768382969,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.771976284682751,
+    "seed": 0,
+    "terminal": 0.5507373975875344,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 6.0466548800468445,
+    "seed": 0,
+    "terminal": 0.5586287468957472,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.284859644249082,
+    "seed": 0,
+    "terminal": 0.55889364954001,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.3516283188946545,
+    "seed": 1,
+    "terminal": 0.5594140581122732,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.216944772284478,
+    "seed": 2,
+    "terminal": 0.5576913766256154,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.481961937155575,
+    "seed": 0,
+    "terminal": 0.49204164683541485,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.662356580141932,
+    "seed": 0,
+    "terminal": 0.4978065764750935,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.792433235794306,
+    "seed": 0,
+    "terminal": 0.49617708551067236,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.888173602987081,
+    "seed": 1,
+    "terminal": 0.49770530708347166,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 4,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.885998914018273,
+    "seed": 2,
+    "terminal": 0.49553147749880555,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.34104356681928,
+    "seed": 0,
+    "terminal": 0.3552444955722971,
+    "time": 50
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.634320544078946,
+    "seed": 0,
+    "terminal": 0.35971122809234796,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.159984380938113,
+    "seed": 0,
+    "terminal": 0.3576078479990212,
+    "time": 27
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.008525454904884,
+    "seed": 1,
+    "terminal": 0.35568107737270854,
+    "time": 34
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.108868146315217,
+    "seed": 2,
+    "terminal": 0.35647957951541587,
+    "time": 39
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.273923036642373,
+    "seed": 0,
+    "terminal": 0.3603078640001457,
+    "time": 36
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.599574761930853,
+    "seed": 0,
+    "terminal": 0.36522138054391073,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.105703118722886,
+    "seed": 0,
+    "terminal": 0.3640660782703323,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.881302738096565,
+    "seed": 1,
+    "terminal": 0.36314504781367996,
+    "time": 41
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.7653324929997325,
+    "seed": 2,
+    "terminal": 0.3634640522700173,
+    "time": 42
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.6588053102605045,
+    "seed": 0,
+    "terminal": 0.37034161639590857,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.499292355030775,
+    "seed": 0,
+    "terminal": 0.37372736154512465,
+    "time": 34
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.028333384077996,
+    "seed": 0,
+    "terminal": 0.3811052963532304,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.051846595946699,
+    "seed": 1,
+    "terminal": 0.3807978457293694,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.017889393027872,
+    "seed": 2,
+    "terminal": 0.38086109775275057,
+    "time": 16
+  },
+  {
+    "attainment": false,
+    "fid": 5,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.442670096643269,
+    "seed": 0,
+    "terminal": 0.3280527281712114,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.564362728968263,
+    "seed": 0,
+    "terminal": 0.33561901861723786,
+    "time": 65
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.821662140078843,
+    "seed": 0,
+    "terminal": 0.33362883234506663,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.082087051123381,
+    "seed": 1,
+    "terminal": 0.33998140359006684,
+    "time": 62
+  },
+  {
+    "attainment": true,
+    "fid": 5,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.162228059023619,
+    "seed": 2,
+    "terminal": 0.33591264797111237,
+    "time": 71
+  },
+  {
+    "attainment": false,
+    "fid": 6,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.617087692022324,
+    "seed": 0,
+    "terminal": 0.2899531352925837,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 6,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.784369537141174,
+    "seed": 0,
+    "terminal": 0.2984392943595391,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 6,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.0865857088938355,
+    "seed": 0,
+    "terminal": 0.29823215969552264,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 6,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.990406442899257,
+    "seed": 1,
+    "terminal": 0.3000288551251219,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 6,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.236997347790748,
+    "seed": 2,
+    "terminal": 0.2949801364620648,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.557929638307542,
+    "seed": 0,
+    "terminal": 0.6256435560082841,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.470079329796135,
+    "seed": 0,
+    "terminal": 0.6294135940229173,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.622496814932674,
+    "seed": 0,
+    "terminal": 0.6267856595887046,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.922459580004215,
+    "seed": 1,
+    "terminal": 0.6285455414596353,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.751485344953835,
+    "seed": 2,
+    "terminal": 0.6272986687174047,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.507116043008864,
+    "seed": 0,
+    "terminal": 0.4899464202407162,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.50453068735078,
+    "seed": 0,
+    "terminal": 0.49153899945243046,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.161430357955396,
+    "seed": 0,
+    "terminal": 0.49015577977011054,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.622151670046151,
+    "seed": 1,
+    "terminal": 0.49225995456588617,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.798643874004483,
+    "seed": 2,
+    "terminal": 0.48909908490409554,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.436439900193363,
+    "seed": 0,
+    "terminal": 0.48591276702000774,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.66020464990288,
+    "seed": 0,
+    "terminal": 0.49261497231991713,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.117403270211071,
+    "seed": 0,
+    "terminal": 0.4916429800439039,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.057305152993649,
+    "seed": 1,
+    "terminal": 0.49020921220689334,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 6,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.706803996115923,
+    "seed": 2,
+    "terminal": 0.4900980579673719,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.605640321969986,
+    "seed": 0,
+    "terminal": 0.428473623748161,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.648374420125037,
+    "seed": 0,
+    "terminal": 0.43322726833461633,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.292036347091198,
+    "seed": 0,
+    "terminal": 0.4340177944648737,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.9402278913185,
+    "seed": 1,
+    "terminal": 0.43151639094993655,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.7301284009590745,
+    "seed": 2,
+    "terminal": 0.4340260165173082,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.391417634673417,
+    "seed": 0,
+    "terminal": 0.4418878410004918,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.468501263763756,
+    "seed": 0,
+    "terminal": 0.44528865697730174,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.030935526359826,
+    "seed": 0,
+    "terminal": 0.4425246280589818,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.135564500000328,
+    "seed": 1,
+    "terminal": 0.4451713836913978,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.24127275403589,
+    "seed": 2,
+    "terminal": 0.44349096831734813,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.38585573900491,
+    "seed": 0,
+    "terminal": 0.3468801583794908,
+    "time": 57
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.277040851768106,
+    "seed": 0,
+    "terminal": 0.3506123297994732,
+    "time": 41
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.919378743041307,
+    "seed": 0,
+    "terminal": 0.35467478862806884,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.199898591730744,
+    "seed": 1,
+    "terminal": 0.3522310692481665,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.311271349899471,
+    "seed": 2,
+    "terminal": 0.35330917727275096,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.281108166091144,
+    "seed": 0,
+    "terminal": 0.603854330159834,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.5723152798600495,
+    "seed": 0,
+    "terminal": 0.6084590434294235,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.942746905609965,
+    "seed": 0,
+    "terminal": 0.6065177623413295,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.77994827600196,
+    "seed": 1,
+    "terminal": 0.6070602602330653,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 7,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.846430956851691,
+    "seed": 2,
+    "terminal": 0.6071248944619778,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.32833525724709,
+    "seed": 0,
+    "terminal": 0.42787651610534133,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.772365806624293,
+    "seed": 0,
+    "terminal": 0.4362640421381271,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.805720336269587,
+    "seed": 0,
+    "terminal": 0.4355166623571747,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.89713345374912,
+    "seed": 1,
+    "terminal": 0.4352159586637052,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.010942784603685,
+    "seed": 2,
+    "terminal": 0.4352133863260028,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.413398375734687,
+    "seed": 0,
+    "terminal": 0.5261658173732896,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.5157220950350165,
+    "seed": 0,
+    "terminal": 0.5291785495245228,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.033297787886113,
+    "seed": 0,
+    "terminal": 0.5283490572639689,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.951272402890027,
+    "seed": 1,
+    "terminal": 0.526686577925259,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.997901177033782,
+    "seed": 2,
+    "terminal": 0.5276890809078337,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.475649592000991,
+    "seed": 0,
+    "terminal": 0.34461448781033965,
+    "time": 47
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.5572876166552305,
+    "seed": 0,
+    "terminal": 0.3488573136572785,
+    "time": 54
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.005440427921712,
+    "seed": 0,
+    "terminal": 0.3474738814681178,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.197374322917312,
+    "seed": 1,
+    "terminal": 0.34932389909257394,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.634091882035136,
+    "seed": 2,
+    "terminal": 0.34619204134213344,
+    "time": 34
+  },
+  {
+    "attainment": false,
+    "fid": 8,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.831849444191903,
+    "seed": 0,
+    "terminal": 0.33212149688363013,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.470117966178805,
+    "seed": 0,
+    "terminal": 0.33610367332087626,
+    "time": 164
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.028775034006685,
+    "seed": 0,
+    "terminal": 0.33483652911711975,
+    "time": 62
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.8448733990080655,
+    "seed": 1,
+    "terminal": 0.33390819586006115,
+    "time": 74
+  },
+  {
+    "attainment": true,
+    "fid": 8,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.746441829018295,
+    "seed": 2,
+    "terminal": 0.33376281703419636,
+    "time": 73
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.511155815795064,
+    "seed": 0,
+    "terminal": 0.4247990386755428,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.635531566105783,
+    "seed": 0,
+    "terminal": 0.43420155847629976,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.093706591054797,
+    "seed": 0,
+    "terminal": 0.43116613073550913,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.926734391134232,
+    "seed": 1,
+    "terminal": 0.4297983971644436,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.089573939796537,
+    "seed": 2,
+    "terminal": 0.42998786815732276,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.232523913029581,
+    "seed": 0,
+    "terminal": 0.589341629256157,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.510010845027864,
+    "seed": 0,
+    "terminal": 0.6001942236905924,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.014590362086892,
+    "seed": 0,
+    "terminal": 0.595637594569839,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.671998762991279,
+    "seed": 1,
+    "terminal": 0.5929066774864737,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.674209519755095,
+    "seed": 2,
+    "terminal": 0.594124323644822,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.434305198024958,
+    "seed": 0,
+    "terminal": 0.23108691238120233,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.605834373272955,
+    "seed": 0,
+    "terminal": 0.23789605299793185,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.033577025867999,
+    "seed": 0,
+    "terminal": 0.23420193268447817,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.970789935905486,
+    "seed": 1,
+    "terminal": 0.2356164536462112,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.695313256233931,
+    "seed": 2,
+    "terminal": 0.23284219236331496,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.649915325921029,
+    "seed": 0,
+    "terminal": 0.32801383390635613,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.3899258160963655,
+    "seed": 0,
+    "terminal": 0.3305495883600633,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.04765688534826,
+    "seed": 0,
+    "terminal": 0.33258491063940054,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 9,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.681036034133285,
+    "seed": 1,
+    "terminal": 0.33504087466215154,
+    "time": 98
+  },
+  {
+    "attainment": false,
+    "fid": 9,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.718923290260136,
+    "seed": 2,
+    "terminal": 0.33021709031588986,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.240479397121817,
+    "seed": 0,
+    "terminal": 0.2868498561571752,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.454962057992816,
+    "seed": 0,
+    "terminal": 0.2872811619873828,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.029030109755695,
+    "seed": 0,
+    "terminal": 0.29214831673393754,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.702189190778881,
+    "seed": 1,
+    "terminal": 0.2859664149449711,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.7868240349926054,
+    "seed": 2,
+    "terminal": 0.2960506378739151,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.504144036211073,
+    "seed": 0,
+    "terminal": 0.6885671942311896,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.442420297767967,
+    "seed": 0,
+    "terminal": 0.6869224434139244,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.486962316092104,
+    "seed": 0,
+    "terminal": 0.6864621655321207,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.515482310205698,
+    "seed": 1,
+    "terminal": 0.6865066176577294,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.822938241995871,
+    "seed": 2,
+    "terminal": 0.6853881225523414,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.497429754585028,
+    "seed": 0,
+    "terminal": 0.5201616171978705,
+    "time": 25
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.348001490347087,
+    "seed": 0,
+    "terminal": 0.5267684110148795,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.880719067063183,
+    "seed": 0,
+    "terminal": 0.5260694756508488,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.629759112838656,
+    "seed": 1,
+    "terminal": 0.524170246738175,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 10,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.769414675887674,
+    "seed": 2,
+    "terminal": 0.5253028882612257,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.40453697508201,
+    "seed": 0,
+    "terminal": 0.25732072618567864,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.385749944951385,
+    "seed": 0,
+    "terminal": 0.2630737250903307,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.791389491874725,
+    "seed": 0,
+    "terminal": 0.2589316822788529,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.838077371008694,
+    "seed": 1,
+    "terminal": 0.2604936064736437,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 10,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.005256127100438,
+    "seed": 2,
+    "terminal": 0.25843860082226155,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.121363897807896,
+    "seed": 0,
+    "terminal": 0.49994939810429984,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.387687802314758,
+    "seed": 0,
+    "terminal": 0.5082122061690094,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.770662616938353,
+    "seed": 0,
+    "terminal": 0.506947398462699,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.513583987019956,
+    "seed": 1,
+    "terminal": 0.5038748100473164,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.649698018562049,
+    "seed": 2,
+    "terminal": 0.5074075837471933,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.261554955039173,
+    "seed": 0,
+    "terminal": 0.5901611158969174,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.393422010820359,
+    "seed": 0,
+    "terminal": 0.5995411825376809,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.866571920923889,
+    "seed": 0,
+    "terminal": 0.5978901117181066,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.7468705722130835,
+    "seed": 1,
+    "terminal": 0.5980596910536943,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.388653606176376,
+    "seed": 2,
+    "terminal": 0.5919606266826234,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.317381453700364,
+    "seed": 0,
+    "terminal": 0.3846004297830196,
+    "time": 27
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.504774808883667,
+    "seed": 0,
+    "terminal": 0.391902444720807,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.634677427820861,
+    "seed": 0,
+    "terminal": 0.3911193956068876,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.646055385004729,
+    "seed": 1,
+    "terminal": 0.39030315321165976,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.632152728736401,
+    "seed": 2,
+    "terminal": 0.3898340039052928,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.399477001745254,
+    "seed": 0,
+    "terminal": 0.3463068969237535,
+    "time": 42
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.4639312899671495,
+    "seed": 0,
+    "terminal": 0.3503397492395917,
+    "time": 37
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.650283057708293,
+    "seed": 0,
+    "terminal": 0.351853937971838,
+    "time": 29
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.490668348968029,
+    "seed": 1,
+    "terminal": 0.3546822546144091,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "fid": 11,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.796917910221964,
+    "seed": 2,
+    "terminal": 0.35086483663490414,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.474976690951735,
+    "seed": 0,
+    "terminal": 0.7212392461557982,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.967133076861501,
+    "seed": 0,
+    "terminal": 0.7306630557103272,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.1453876700252295,
+    "seed": 0,
+    "terminal": 0.7419018969368343,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 0,
+    "method": "W",
+    "seconds": 8.336740092840046,
+    "seed": 1,
+    "terminal": 0.747245485199652,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.768137025646865,
+    "seed": 2,
+    "terminal": 0.747407296552099,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.792797811329365,
+    "seed": 0,
+    "terminal": 0.8499092036815163,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.718271733727306,
+    "seed": 0,
+    "terminal": 0.8524928576666426,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.673871682025492,
+    "seed": 0,
+    "terminal": 0.8664499149661583,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.840427214279771,
+    "seed": 1,
+    "terminal": 0.8636203449031365,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.806674566119909,
+    "seed": 2,
+    "terminal": 0.8704891882690725,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.893471877090633,
+    "seed": 0,
+    "terminal": 0.8455874411391322,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 6.429435999132693,
+    "seed": 0,
+    "terminal": 0.8466509002108663,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.626380750909448,
+    "seed": 0,
+    "terminal": 0.842325536148695,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.845922921784222,
+    "seed": 1,
+    "terminal": 0.8434002605570067,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.611994042061269,
+    "seed": 2,
+    "terminal": 0.8400727628575133,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 3,
+    "method": "O",
+    "seconds": 6.118473453912884,
+    "seed": 0,
+    "terminal": 0.7852899521837038,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 6.74520972603932,
+    "seed": 0,
+    "terminal": 0.7745833885437247,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.751766626723111,
+    "seed": 0,
+    "terminal": 0.7753239381588094,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.789476001635194,
+    "seed": 1,
+    "terminal": 0.7764354007925192,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 12,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.934399149380624,
+    "seed": 2,
+    "terminal": 0.7723051953488642,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.836255412083119,
+    "seed": 0,
+    "terminal": 0.5677960059821276,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.6176704107783735,
+    "seed": 0,
+    "terminal": 0.5859441952517928,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.74536497797817,
+    "seed": 0,
+    "terminal": 0.5423952153803011,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.170522749889642,
+    "seed": 1,
+    "terminal": 0.5933366738252304,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.963937363121659,
+    "seed": 2,
+    "terminal": 0.6093430276145041,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.8822152451612055,
+    "seed": 0,
+    "terminal": 0.6620310851995642,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.983926774933934,
+    "seed": 0,
+    "terminal": 0.7326658322622307,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.144108274020255,
+    "seed": 0,
+    "terminal": 0.6908826863424098,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.078025517053902,
+    "seed": 1,
+    "terminal": 0.716853330851758,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.7740925583057106,
+    "seed": 2,
+    "terminal": 0.677062392603112,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.854157258756459,
+    "seed": 0,
+    "terminal": 0.7360097748001355,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.963089560624212,
+    "seed": 0,
+    "terminal": 0.7637103346551106,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.007693459279835,
+    "seed": 0,
+    "terminal": 0.7523284640213452,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.8416250217705965,
+    "seed": 1,
+    "terminal": 0.748617985051647,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.744253860320896,
+    "seed": 2,
+    "terminal": 0.7541807641875732,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.9486683290451765,
+    "seed": 0,
+    "terminal": 0.7383158038133762,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 6.40973100066185,
+    "seed": 0,
+    "terminal": 0.77227382185654,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.820625821128488,
+    "seed": 0,
+    "terminal": 0.7392235832329411,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.222067021299154,
+    "seed": 1,
+    "terminal": 0.7464912710217236,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 13,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.939062704332173,
+    "seed": 2,
+    "terminal": 0.7511976039911126,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.7990913251414895,
+    "seed": 0,
+    "terminal": 0.5093947837908842,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.713857556227595,
+    "seed": 0,
+    "terminal": 0.6030382256920589,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.580677804071456,
+    "seed": 0,
+    "terminal": 0.5080450837740483,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.103384047280997,
+    "seed": 1,
+    "terminal": 0.5591468162491452,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.83813391905278,
+    "seed": 2,
+    "terminal": 0.5246139791366021,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.2842613672837615,
+    "seed": 0,
+    "terminal": 0.5576345999747201,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.421411952935159,
+    "seed": 0,
+    "terminal": 0.5531254719200245,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.689608035143465,
+    "seed": 0,
+    "terminal": 0.5966400771731668,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.24555814312771,
+    "seed": 1,
+    "terminal": 0.5865019980763235,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.73237958131358,
+    "seed": 2,
+    "terminal": 0.5765343545613545,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.999662584159523,
+    "seed": 0,
+    "terminal": 0.7898182194584968,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.700853117741644,
+    "seed": 0,
+    "terminal": 0.784644269465259,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.80646842205897,
+    "seed": 0,
+    "terminal": 0.8004941209874405,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.884661932941526,
+    "seed": 1,
+    "terminal": 0.7715562499465614,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.985628272406757,
+    "seed": 2,
+    "terminal": 0.7829731474524002,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.470451841596514,
+    "seed": 0,
+    "terminal": 0.632985572591671,
+    "time": 31
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.61065000994131,
+    "seed": 0,
+    "terminal": 0.6490250507358872,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.474346454720944,
+    "seed": 0,
+    "terminal": 0.6101068661545502,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.851017233915627,
+    "seed": 1,
+    "terminal": 0.6055127361285182,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 14,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.589055739808828,
+    "seed": 2,
+    "terminal": 0.675326286438013,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.014048223849386,
+    "seed": 0,
+    "terminal": 0.8409933742856587,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.86233166558668,
+    "seed": 0,
+    "terminal": 0.8515539563430922,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 0,
+    "method": "W",
+    "seconds": 8.094087800011039,
+    "seed": 0,
+    "terminal": 0.8515279889007107,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.861440624110401,
+    "seed": 1,
+    "terminal": 0.8515607043178797,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.636152421589941,
+    "seed": 2,
+    "terminal": 0.8515699749250297,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.169903924688697,
+    "seed": 0,
+    "terminal": 0.8987404124572499,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.657176675740629,
+    "seed": 0,
+    "terminal": 0.8987528101185339,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 1,
+    "method": "W",
+    "seconds": 8.30923404917121,
+    "seed": 0,
+    "terminal": 0.8987557122603833,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.26556012313813,
+    "seed": 1,
+    "terminal": 0.8987543493318949,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.203831739258021,
+    "seed": 2,
+    "terminal": 0.8987412351449316,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 2,
+    "method": "O",
+    "seconds": 6.600650572218001,
+    "seed": 0,
+    "terminal": 0.8496708028009946,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 6.716958642937243,
+    "seed": 0,
+    "terminal": 0.8496765363737433,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.748007032088935,
+    "seed": 0,
+    "terminal": 0.8496721117444661,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.895867808256298,
+    "seed": 1,
+    "terminal": 0.8496737431493467,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.42789216991514,
+    "seed": 2,
+    "terminal": 0.8496582433731942,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.986152617726475,
+    "seed": 0,
+    "terminal": 0.9320402254060008,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 6.074382391758263,
+    "seed": 0,
+    "terminal": 0.9320354477904216,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.213817873969674,
+    "seed": 0,
+    "terminal": 0.9320448112850722,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.0390605153515935,
+    "seed": 1,
+    "terminal": 0.9320441886696996,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 15,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.275897403713316,
+    "seed": 2,
+    "terminal": 0.9320397806218733,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.260764665901661,
+    "seed": 0,
+    "terminal": 0.8503739745242795,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.565404521301389,
+    "seed": 0,
+    "terminal": 0.850976154447429,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.333857932128012,
+    "seed": 0,
+    "terminal": 0.8509477624901459,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.491644117049873,
+    "seed": 1,
+    "terminal": 0.8494117487655753,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.492763908114284,
+    "seed": 2,
+    "terminal": 0.849420541466784,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.55190212931484,
+    "seed": 0,
+    "terminal": 0.8221067905760546,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 7.077089123893529,
+    "seed": 0,
+    "terminal": 0.8220952781709472,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.458409524988383,
+    "seed": 0,
+    "terminal": 0.8220999220094447,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.921379066072404,
+    "seed": 1,
+    "terminal": 0.8220834186975717,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.6973129929974675,
+    "seed": 2,
+    "terminal": 0.8221000325740732,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 2,
+    "method": "O",
+    "seconds": 6.042186244390905,
+    "seed": 0,
+    "terminal": 0.8939595186480138,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 6.8899575639516115,
+    "seed": 0,
+    "terminal": 0.894028503407082,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.545769408810884,
+    "seed": 0,
+    "terminal": 0.8940076300591333,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.527407402172685,
+    "seed": 1,
+    "terminal": 0.8940132969969331,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.0657575549557805,
+    "seed": 2,
+    "terminal": 0.8896022211018685,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 3,
+    "method": "O",
+    "seconds": 6.054167600814253,
+    "seed": 0,
+    "terminal": 0.90625585634628,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 6.437354683876038,
+    "seed": 0,
+    "terminal": 0.906454581452417,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.605026433710009,
+    "seed": 0,
+    "terminal": 0.9064445184417984,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.319412906188518,
+    "seed": 1,
+    "terminal": 0.906424495363357,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 16,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.330100079067051,
+    "seed": 2,
+    "terminal": 0.9064141522208629,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.700580643024296,
+    "seed": 0,
+    "terminal": 0.8070047994299034,
+    "time": 31
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.836795319803059,
+    "seed": 0,
+    "terminal": 0.8068541565734559,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 0,
+    "method": "W",
+    "seconds": 8.31720582023263,
+    "seed": 0,
+    "terminal": 0.8069672366609889,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.358526228927076,
+    "seed": 1,
+    "terminal": 0.8069190153268159,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.451290416996926,
+    "seed": 2,
+    "terminal": 0.8069343791466065,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.409413319081068,
+    "seed": 0,
+    "terminal": 0.8506032700944268,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.632527609355748,
+    "seed": 0,
+    "terminal": 0.8514391785429918,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.872484271880239,
+    "seed": 0,
+    "terminal": 0.8514367172751284,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.825572072062641,
+    "seed": 1,
+    "terminal": 0.8514429001435493,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.78571547800675,
+    "seed": 2,
+    "terminal": 0.8514435900454471,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 2,
+    "method": "O",
+    "seconds": 6.673229701817036,
+    "seed": 0,
+    "terminal": 0.8160011761733608,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 7.114403176121414,
+    "seed": 0,
+    "terminal": 0.8160084763640216,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 2,
+    "method": "W",
+    "seconds": 8.17511578509584,
+    "seed": 0,
+    "terminal": 0.815997872017336,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 2,
+    "method": "W",
+    "seconds": 8.194012369960546,
+    "seed": 1,
+    "terminal": 0.8159329396364223,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.862971222959459,
+    "seed": 2,
+    "terminal": 0.815971969616837,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 3,
+    "method": "O",
+    "seconds": 6.17061248794198,
+    "seed": 0,
+    "terminal": 0.7356369547683723,
+    "time": 38
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 6.817498371936381,
+    "seed": 0,
+    "terminal": 0.7361557885837268,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.605689660646021,
+    "seed": 0,
+    "terminal": 0.7358788064314196,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.561650493182242,
+    "seed": 1,
+    "terminal": 0.7358604385675678,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "fid": 17,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.385210522916168,
+    "seed": 2,
+    "terminal": 0.7359015627508785,
+    "time": 36
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.508062375243753,
+    "seed": 0,
+    "terminal": 0.7009118133532691,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.270682935137302,
+    "seed": 0,
+    "terminal": 0.700827234612575,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.166632846929133,
+    "seed": 0,
+    "terminal": 0.7009312692890535,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.000107132829726,
+    "seed": 1,
+    "terminal": 0.7009112491936565,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.82485377881676,
+    "seed": 2,
+    "terminal": 0.7009389406503501,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.592302555218339,
+    "seed": 0,
+    "terminal": 0.8040171132229144,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.622482448816299,
+    "seed": 0,
+    "terminal": 0.804017184502366,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.601668159943074,
+    "seed": 0,
+    "terminal": 0.8040186683991759,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.3697304129600525,
+    "seed": 1,
+    "terminal": 0.8040213769389045,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.037835426162928,
+    "seed": 2,
+    "terminal": 0.8029951657191473,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 2,
+    "method": "O",
+    "seconds": 6.0576422163285315,
+    "seed": 0,
+    "terminal": 0.6636971202398775,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.5759234190918505,
+    "seed": 0,
+    "terminal": 0.6637141655385952,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.057025625836104,
+    "seed": 0,
+    "terminal": 0.6637087572237148,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.298833342269063,
+    "seed": 1,
+    "terminal": 0.663721660238574,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.904995379038155,
+    "seed": 2,
+    "terminal": 0.6637045624660125,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.469187136273831,
+    "seed": 0,
+    "terminal": 0.6602303578245174,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.635353334248066,
+    "seed": 0,
+    "terminal": 0.660143071488749,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.853769488167018,
+    "seed": 0,
+    "terminal": 0.6601671348863629,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.004825772251934,
+    "seed": 1,
+    "terminal": 0.6602024056025347,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 18,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.066334002651274,
+    "seed": 2,
+    "terminal": 0.6601937972364202,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.339691290166229,
+    "seed": 0,
+    "terminal": 0.7556663718655311,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.110898394137621,
+    "seed": 0,
+    "terminal": 0.7556778412575972,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.719050528947264,
+    "seed": 0,
+    "terminal": 0.7556653995419735,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.664541386067867,
+    "seed": 1,
+    "terminal": 0.7556739694902004,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.675383626949042,
+    "seed": 2,
+    "terminal": 0.7556740985510907,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.855669911019504,
+    "seed": 0,
+    "terminal": 0.6349783900372629,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.109347972087562,
+    "seed": 0,
+    "terminal": 0.6349689266567461,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.013665286358446,
+    "seed": 0,
+    "terminal": 0.6349605451148023,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.192522367928177,
+    "seed": 1,
+    "terminal": 0.6349801517826498,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.91460807621479,
+    "seed": 2,
+    "terminal": 0.6349815611667151,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.955376397818327,
+    "seed": 0,
+    "terminal": 0.6398693722230954,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.721998326014727,
+    "seed": 0,
+    "terminal": 0.6399323898642657,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.1226196102797985,
+    "seed": 0,
+    "terminal": 0.6399249377307256,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.9899509572423995,
+    "seed": 1,
+    "terminal": 0.639982947924925,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.365015442017466,
+    "seed": 2,
+    "terminal": 0.639969168973814,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.760510177351534,
+    "seed": 0,
+    "terminal": 0.33545576979615055,
+    "time": 266
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.662777957972139,
+    "seed": 0,
+    "terminal": 0.3385114028094182,
+    "time": 64
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.39498136471957,
+    "seed": 0,
+    "terminal": 0.3374307294519743,
+    "time": 55
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.96998363500461,
+    "seed": 1,
+    "terminal": 0.3371411257976639,
+    "time": 65
+  },
+  {
+    "attainment": true,
+    "fid": 19,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.095767822116613,
+    "seed": 2,
+    "terminal": 0.33763623391827896,
+    "time": 56
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.620143242180347,
+    "seed": 0,
+    "terminal": 0.5956666661073765,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.619023905135691,
+    "seed": 0,
+    "terminal": 0.5954209807275256,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.856804006267339,
+    "seed": 0,
+    "terminal": 0.5955191488960004,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.842100452166051,
+    "seed": 1,
+    "terminal": 0.5955656932485804,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.897609116975218,
+    "seed": 2,
+    "terminal": 0.5954271193392079,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.503608126658946,
+    "seed": 0,
+    "terminal": 0.5532443386460095,
+    "time": 29
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.784506735857576,
+    "seed": 0,
+    "terminal": 0.556621091297095,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.572870321106166,
+    "seed": 0,
+    "terminal": 0.556838532664099,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.910839313175529,
+    "seed": 1,
+    "terminal": 0.5565488324073036,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.009117532055825,
+    "seed": 2,
+    "terminal": 0.5568201662426323,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.651360672898591,
+    "seed": 0,
+    "terminal": 0.6115601085066676,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.466675873380154,
+    "seed": 0,
+    "terminal": 0.6114940857824867,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.45507148001343,
+    "seed": 0,
+    "terminal": 0.6115443457234011,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.2939553409814835,
+    "seed": 1,
+    "terminal": 0.6114615922109415,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.302962105255574,
+    "seed": 2,
+    "terminal": 0.6115160208906923,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.408316562417895,
+    "seed": 0,
+    "terminal": 0.645090914435471,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.484605445060879,
+    "seed": 0,
+    "terminal": 0.6452196385108543,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.788609712384641,
+    "seed": 0,
+    "terminal": 0.6449468999582159,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.2464630557224154,
+    "seed": 1,
+    "terminal": 0.6450039867684035,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 20,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.247137169819325,
+    "seed": 2,
+    "terminal": 0.6451990137188806,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.212349432054907,
+    "seed": 0,
+    "terminal": 0.7632787486342073,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.083108173217624,
+    "seed": 0,
+    "terminal": 0.7633878534484444,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.787017130758613,
+    "seed": 0,
+    "terminal": 0.7634595954782711,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.8659378872253,
+    "seed": 1,
+    "terminal": 0.7633630963407891,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.689607513137162,
+    "seed": 2,
+    "terminal": 0.7633986374735062,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.934536268003285,
+    "seed": 0,
+    "terminal": 0.6530978406728583,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.8969513908959925,
+    "seed": 0,
+    "terminal": 0.652708817732495,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.8331347848288715,
+    "seed": 0,
+    "terminal": 0.6532038879203639,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.038129682186991,
+    "seed": 1,
+    "terminal": 0.6524497820722026,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.171653938945383,
+    "seed": 2,
+    "terminal": 0.6522101960616934,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 2,
+    "method": "O",
+    "seconds": 6.530081516131759,
+    "seed": 0,
+    "terminal": 0.7760824730891879,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 6.368559985887259,
+    "seed": 0,
+    "terminal": 0.7760227917794531,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.737206435762346,
+    "seed": 0,
+    "terminal": 0.7759573312497614,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.7303949343040586,
+    "seed": 1,
+    "terminal": 0.7760950756621545,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.4850884499028325,
+    "seed": 2,
+    "terminal": 0.776069074312474,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 3,
+    "method": "O",
+    "seconds": 6.155415043234825,
+    "seed": 0,
+    "terminal": 0.6681344817763564,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.916036495007575,
+    "seed": 0,
+    "terminal": 0.6681639616902053,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.47267783805728,
+    "seed": 0,
+    "terminal": 0.6683726723776159,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.325437442865223,
+    "seed": 1,
+    "terminal": 0.6683024727884779,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 21,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.20275152893737,
+    "seed": 2,
+    "terminal": 0.6682638423337082,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.782596752978861,
+    "seed": 0,
+    "terminal": 0.818059902982363,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.431183088105172,
+    "seed": 0,
+    "terminal": 0.8243179271793105,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.577358044218272,
+    "seed": 0,
+    "terminal": 0.8243437617224494,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.4493147120811045,
+    "seed": 1,
+    "terminal": 0.8243861699988344,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.507059386000037,
+    "seed": 2,
+    "terminal": 0.8243774722003184,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.074907736852765,
+    "seed": 0,
+    "terminal": 0.6957781779282227,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.838028230704367,
+    "seed": 0,
+    "terminal": 0.6956242485130159,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.149634739849716,
+    "seed": 0,
+    "terminal": 0.6959298127881255,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.534074069000781,
+    "seed": 1,
+    "terminal": 0.6958640214472253,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.9221386183053255,
+    "seed": 2,
+    "terminal": 0.6957427378973031,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 2,
+    "method": "O",
+    "seconds": 6.252252626232803,
+    "seed": 0,
+    "terminal": 0.8210139573437556,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 6.456278531812131,
+    "seed": 0,
+    "terminal": 0.820898338783637,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.541125843767077,
+    "seed": 0,
+    "terminal": 0.8210255019836662,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.571404711343348,
+    "seed": 1,
+    "terminal": 0.821052461628986,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.072399845346808,
+    "seed": 2,
+    "terminal": 0.8163894925456411,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.8632932039909065,
+    "seed": 0,
+    "terminal": 0.6975849107168286,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.977508000098169,
+    "seed": 0,
+    "terminal": 0.6972861066861036,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.168352757114917,
+    "seed": 0,
+    "terminal": 0.6974123281308154,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.050002813804895,
+    "seed": 1,
+    "terminal": 0.6974413148899492,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 22,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.792376590427011,
+    "seed": 2,
+    "terminal": 0.6975794065955084,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.623967393767089,
+    "seed": 0,
+    "terminal": 0.6005230838697223,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.722669298294932,
+    "seed": 0,
+    "terminal": 0.6161455967354329,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.38636236730963,
+    "seed": 0,
+    "terminal": 0.6135398005407515,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.02059207810089,
+    "seed": 1,
+    "terminal": 0.6121988063343909,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.473933587782085,
+    "seed": 2,
+    "terminal": 0.6160181791892867,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.4502884787507355,
+    "seed": 0,
+    "terminal": 0.5812978057881637,
+    "time": 27
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.979578038677573,
+    "seed": 0,
+    "terminal": 0.579163370152572,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.033248119987547,
+    "seed": 0,
+    "terminal": 0.5813783611665365,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.907538897357881,
+    "seed": 1,
+    "terminal": 0.5805165055601929,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.1466623530723155,
+    "seed": 2,
+    "terminal": 0.5807225116823121,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.633802360389382,
+    "seed": 0,
+    "terminal": 0.8239535713217515,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 6.603807109873742,
+    "seed": 0,
+    "terminal": 0.8325119698901191,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.705963888205588,
+    "seed": 0,
+    "terminal": 0.8211358934614083,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.2198139051906765,
+    "seed": 1,
+    "terminal": 0.830398820303643,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.560596570838243,
+    "seed": 2,
+    "terminal": 0.8323983684748416,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 3,
+    "method": "O",
+    "seconds": 6.526114034000784,
+    "seed": 0,
+    "terminal": 0.7215947511310639,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 6.361042120028287,
+    "seed": 0,
+    "terminal": 0.7315193855547982,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.683866415172815,
+    "seed": 0,
+    "terminal": 0.7319712373602788,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.873094710055739,
+    "seed": 1,
+    "terminal": 0.731885542061062,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 23,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.67524681892246,
+    "seed": 2,
+    "terminal": 0.7318438838532141,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.310314035974443,
+    "seed": 0,
+    "terminal": 0.5660952326195932,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.739740508142859,
+    "seed": 0,
+    "terminal": 0.5697503015564594,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.575011875014752,
+    "seed": 0,
+    "terminal": 0.5709020311165222,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.748916215728968,
+    "seed": 1,
+    "terminal": 0.5681567761756494,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.798555849120021,
+    "seed": 2,
+    "terminal": 0.5672458244765507,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.431031833868474,
+    "seed": 0,
+    "terminal": 0.5326338541704112,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.754547324962914,
+    "seed": 0,
+    "terminal": 0.5403259852168381,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.634090391919017,
+    "seed": 0,
+    "terminal": 0.5365340411391155,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.931519567966461,
+    "seed": 1,
+    "terminal": 0.5364504642587127,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.5663394602015615,
+    "seed": 2,
+    "terminal": 0.5357394287155964,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "fid": 24,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.6450641648843884,
+    "seed": 0,
+    "terminal": 0.2583079145447712,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 24,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.457546652760357,
+    "seed": 0,
+    "terminal": 0.27276378276718,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 24,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.1735152839683,
+    "seed": 0,
+    "terminal": 0.27558579038148306,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 24,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.156294676940888,
+    "seed": 1,
+    "terminal": 0.27026904789793177,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 24,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.170224286150187,
+    "seed": 2,
+    "terminal": 0.2714930614579874,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.449728391133249,
+    "seed": 0,
+    "terminal": 0.46361220460201175,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.401970596984029,
+    "seed": 0,
+    "terminal": 0.4658890059404896,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.741902313195169,
+    "seed": 0,
+    "terminal": 0.46434434501917954,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 3,
+    "method": "W",
+    "seconds": 7.038638988044113,
+    "seed": 1,
+    "terminal": 0.46669553666413155,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 24,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.8698259009979665,
+    "seed": 2,
+    "terminal": 0.4682977982238038,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.329323364887387,
+    "seed": 0,
+    "terminal": 0.5866547770789083,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.519070997834206,
+    "seed": 0,
+    "terminal": 0.5893370842146728,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.548239103052765,
+    "seed": 0,
+    "terminal": 0.5880136444320216,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.723227554932237,
+    "seed": 1,
+    "terminal": 0.58342495312107,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.720747300889343,
+    "seed": 2,
+    "terminal": 0.5906927822049944,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.581129465252161,
+    "seed": 0,
+    "terminal": 0.3691974454516515,
+    "time": 40
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.629951536655426,
+    "seed": 0,
+    "terminal": 0.38320597582822324,
+    "time": 29
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.647645292803645,
+    "seed": 0,
+    "terminal": 0.38381676129819264,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.918229932896793,
+    "seed": 1,
+    "terminal": 0.3861396400416832,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.07228247821331,
+    "seed": 2,
+    "terminal": 0.3872537964537736,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.159048778936267,
+    "seed": 0,
+    "terminal": 0.38841172834659704,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.460670213680714,
+    "seed": 0,
+    "terminal": 0.39517091018631695,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.089518168009818,
+    "seed": 0,
+    "terminal": 0.4015870849102158,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.689180818852037,
+    "seed": 1,
+    "terminal": 0.39870029376788063,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 25,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.120382014662027,
+    "seed": 2,
+    "terminal": 0.40095522580576926,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "fid": 25,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.096005532890558,
+    "seed": 0,
+    "terminal": 0.27814229406859253,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 25,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.274938764050603,
+    "seed": 0,
+    "terminal": 0.28889123318455145,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 25,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.93175462866202,
+    "seed": 0,
+    "terminal": 0.289829240612313,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 25,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.994268094189465,
+    "seed": 1,
+    "terminal": 0.28721099454894833,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 25,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.899400794878602,
+    "seed": 2,
+    "terminal": 0.2851831191828071,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.458926355000585,
+    "seed": 0,
+    "terminal": 0.6195327740333163,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.492899690754712,
+    "seed": 0,
+    "terminal": 0.6229999403924754,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.763117382768542,
+    "seed": 0,
+    "terminal": 0.6217810191109557,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.45826648408547,
+    "seed": 1,
+    "terminal": 0.6222101439332682,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.769777920097113,
+    "seed": 2,
+    "terminal": 0.6207254435712198,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.400064690969884,
+    "seed": 0,
+    "terminal": 0.5780462796418253,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.495842429343611,
+    "seed": 0,
+    "terminal": 0.5792526913927671,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.738723246846348,
+    "seed": 0,
+    "terminal": 0.5805264057774687,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.951217994093895,
+    "seed": 1,
+    "terminal": 0.5801737016289059,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.788918897975236,
+    "seed": 2,
+    "terminal": 0.57783533881253,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.2636129329912364,
+    "seed": 0,
+    "terminal": 0.35214641520017353,
+    "time": 71
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.598851654212922,
+    "seed": 0,
+    "terminal": 0.35597627002929544,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.958136351779103,
+    "seed": 0,
+    "terminal": 0.35586160262836947,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.008337000850588,
+    "seed": 1,
+    "terminal": 0.35968207442696787,
+    "time": 38
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.04252697294578,
+    "seed": 2,
+    "terminal": 0.3513431919697596,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.293676930014044,
+    "seed": 0,
+    "terminal": 0.5356140026522274,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.2004342819564044,
+    "seed": 0,
+    "terminal": 0.5378423130340803,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.779286531265825,
+    "seed": 0,
+    "terminal": 0.5387566086725524,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.672804961912334,
+    "seed": 1,
+    "terminal": 0.5377555923827596,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 26,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.218295134138316,
+    "seed": 2,
+    "terminal": 0.5345814087903594,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.252285225782543,
+    "seed": 0,
+    "terminal": 0.3622945383604825,
+    "time": 44
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.403187032788992,
+    "seed": 0,
+    "terminal": 0.3705616220881375,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.332575108855963,
+    "seed": 0,
+    "terminal": 0.37154295850070534,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.954847814980894,
+    "seed": 1,
+    "terminal": 0.3697059367861354,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.640454986132681,
+    "seed": 2,
+    "terminal": 0.36820162502311954,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.38445431413129,
+    "seed": 0,
+    "terminal": 0.48929285393935473,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.494438013061881,
+    "seed": 0,
+    "terminal": 0.4966889142390381,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.650688556022942,
+    "seed": 0,
+    "terminal": 0.49544815183541885,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.879942728672177,
+    "seed": 1,
+    "terminal": 0.4940939933111681,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.5292206490412354,
+    "seed": 2,
+    "terminal": 0.49595021512534854,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "fid": 27,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.508230086881667,
+    "seed": 0,
+    "terminal": 0.16888899132383237,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 27,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.449450327083468,
+    "seed": 0,
+    "terminal": 0.1789619741679857,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 27,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.5344037362374365,
+    "seed": 0,
+    "terminal": 0.16867681334513304,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 27,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.828088638372719,
+    "seed": 1,
+    "terminal": 0.17425481098310666,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 27,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.924513827078044,
+    "seed": 2,
+    "terminal": 0.16763247954913457,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.387295073829591,
+    "seed": 0,
+    "terminal": 0.4415578048325899,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.425253530032933,
+    "seed": 0,
+    "terminal": 0.4486817462080842,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.808206958230585,
+    "seed": 0,
+    "terminal": 0.4473775341809108,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.845542541705072,
+    "seed": 1,
+    "terminal": 0.44652101535917543,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 27,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.938051107805222,
+    "seed": 2,
+    "terminal": 0.44602596934594335,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.479259281884879,
+    "seed": 0,
+    "terminal": 0.3952221884603464,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.235890220850706,
+    "seed": 0,
+    "terminal": 0.39975896673161027,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.663835264276713,
+    "seed": 0,
+    "terminal": 0.3999328305185179,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.979304363951087,
+    "seed": 1,
+    "terminal": 0.40001594435496546,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.777444006875157,
+    "seed": 2,
+    "terminal": 0.4017488722955256,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.297472171019763,
+    "seed": 0,
+    "terminal": 0.5683806850310364,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.5470342501066625,
+    "seed": 0,
+    "terminal": 0.5708128540743899,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.670975411776453,
+    "seed": 0,
+    "terminal": 0.5695740626531974,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.459278649184853,
+    "seed": 1,
+    "terminal": 0.5683800862199099,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.53894707094878,
+    "seed": 2,
+    "terminal": 0.5705707922004927,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.48547734413296,
+    "seed": 0,
+    "terminal": 0.5036438441807248,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.43679521093145,
+    "seed": 0,
+    "terminal": 0.5060928101761376,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.90213379310444,
+    "seed": 0,
+    "terminal": 0.5052490917810245,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.648534683976322,
+    "seed": 1,
+    "terminal": 0.5034364400730929,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.824772126041353,
+    "seed": 2,
+    "terminal": 0.5075303054178468,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.254787750076503,
+    "seed": 0,
+    "terminal": 0.38722355779544054,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.226015497930348,
+    "seed": 0,
+    "terminal": 0.3879941590826576,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.984865030739456,
+    "seed": 0,
+    "terminal": 0.38657539854380985,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.80414425721392,
+    "seed": 1,
+    "terminal": 0.3871728615979464,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "fid": 28,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.697439684998244,
+    "seed": 2,
+    "terminal": 0.38222827735387,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.236642714124173,
+    "seed": 0,
+    "terminal": 0.6503942016642388,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.471852345392108,
+    "seed": 0,
+    "terminal": 0.6511155332678917,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.813606346026063,
+    "seed": 0,
+    "terminal": 0.6502989466148379,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.691583420615643,
+    "seed": 1,
+    "terminal": 0.6500998891196157,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.828003227710724,
+    "seed": 2,
+    "terminal": 0.651000437482142,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.345478547271341,
+    "seed": 0,
+    "terminal": 0.6654236301070283,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.129852015059441,
+    "seed": 0,
+    "terminal": 0.6675551120688261,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.582413577940315,
+    "seed": 0,
+    "terminal": 0.6659532095164611,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.789924773853272,
+    "seed": 1,
+    "terminal": 0.666398428738879,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.4743443029001355,
+    "seed": 2,
+    "terminal": 0.6665119205869169,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.126300861127675,
+    "seed": 0,
+    "terminal": 0.5032555270419914,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.415041014086455,
+    "seed": 0,
+    "terminal": 0.5070902219324135,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.810225612018257,
+    "seed": 0,
+    "terminal": 0.5081882205088675,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.546364177018404,
+    "seed": 1,
+    "terminal": 0.5076483577026374,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 29,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.750174107961357,
+    "seed": 2,
+    "terminal": 0.5043847762203415,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "fid": 29,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.349172964692116,
+    "seed": 0,
+    "terminal": 0.20776841063441895,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 29,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.2914993041194975,
+    "seed": 0,
+    "terminal": 0.21048812589580065,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 29,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.938848610967398,
+    "seed": 0,
+    "terminal": 0.2082358800955277,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 29,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.752263389993459,
+    "seed": 1,
+    "terminal": 0.20775751156108851,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 29,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.5624595219269395,
+    "seed": 2,
+    "terminal": 0.21106917837732153,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.396824883297086,
+    "seed": 0,
+    "terminal": 0.4349614906142662,
+    "time": 29
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.432603599037975,
+    "seed": 0,
+    "terminal": 0.44593344853322836,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.968010712880641,
+    "seed": 0,
+    "terminal": 0.44700080577042156,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.271069854963571,
+    "seed": 1,
+    "terminal": 0.44291714125956644,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.819862011820078,
+    "seed": 2,
+    "terminal": 0.44330894723560077,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.35054462403059,
+    "seed": 0,
+    "terminal": 0.5541806650689971,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.326121007092297,
+    "seed": 0,
+    "terminal": 0.5551943004221932,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.100393665023148,
+    "seed": 0,
+    "terminal": 0.5563130020821528,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.877295908052474,
+    "seed": 1,
+    "terminal": 0.5579128529025688,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.006177632603794,
+    "seed": 2,
+    "terminal": 0.5554944797742155,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.246586173307151,
+    "seed": 0,
+    "terminal": 0.5391752292058324,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.612075195182115,
+    "seed": 0,
+    "terminal": 0.540775252837547,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.87814259622246,
+    "seed": 0,
+    "terminal": 0.5427203963644064,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.0262384046800435,
+    "seed": 1,
+    "terminal": 0.5421820785016056,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.9668882470577955,
+    "seed": 2,
+    "terminal": 0.5423362673628023,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.38454880611971,
+    "seed": 0,
+    "terminal": 0.439928483572849,
+    "time": 25
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.542365809902549,
+    "seed": 0,
+    "terminal": 0.44371547670407696,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.957027977798134,
+    "seed": 0,
+    "terminal": 0.4448866890882425,
+    "time": 24
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.5832512229681015,
+    "seed": 1,
+    "terminal": 0.4416979335224266,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 30,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.477699953131378,
+    "seed": 2,
+    "terminal": 0.4417397049250373,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.373542360961437,
+    "seed": 0,
+    "terminal": 0.4905035922871953,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.344435399863869,
+    "seed": 0,
+    "terminal": 0.49151257373373175,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.584857012145221,
+    "seed": 0,
+    "terminal": 0.4953274440106649,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.797730369959027,
+    "seed": 1,
+    "terminal": 0.4940827370432488,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.9626774452626705,
+    "seed": 2,
+    "terminal": 0.49459963071259166,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.315848412923515,
+    "seed": 0,
+    "terminal": 0.5447379500558737,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.39712380990386,
+    "seed": 0,
+    "terminal": 0.5488982264894764,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.505946546792984,
+    "seed": 0,
+    "terminal": 0.5494048624315504,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.841224645730108,
+    "seed": 1,
+    "terminal": 0.5476179104160517,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.795383353251964,
+    "seed": 2,
+    "terminal": 0.5487391102201944,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.403591119684279,
+    "seed": 0,
+    "terminal": 0.5795484404820235,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.2532902816310525,
+    "seed": 0,
+    "terminal": 0.5816422423841229,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.647055679000914,
+    "seed": 0,
+    "terminal": 0.5827095330784764,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.748067684005946,
+    "seed": 1,
+    "terminal": 0.5817167921163465,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.615087649784982,
+    "seed": 2,
+    "terminal": 0.5814453949026807,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.311413643881679,
+    "seed": 0,
+    "terminal": 0.5722657694737665,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.293611012864858,
+    "seed": 0,
+    "terminal": 0.5757983276661564,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.196292271837592,
+    "seed": 0,
+    "terminal": 0.5747748542563065,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.397817325312644,
+    "seed": 1,
+    "terminal": 0.5748725304747059,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 31,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.6342017985880375,
+    "seed": 2,
+    "terminal": 0.5753362489882207,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.283961326815188,
+    "seed": 0,
+    "terminal": 0.6452307651553152,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.320423422846943,
+    "seed": 0,
+    "terminal": 0.6455308913322293,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.857893202919513,
+    "seed": 0,
+    "terminal": 0.6445609078911888,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.011810019146651,
+    "seed": 1,
+    "terminal": 0.6450642086068854,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.732599035836756,
+    "seed": 2,
+    "terminal": 0.645629303762791,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.380450326949358,
+    "seed": 0,
+    "terminal": 0.3718616583091466,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.662043204065412,
+    "seed": 0,
+    "terminal": 0.38640733484346795,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.53096535988152,
+    "seed": 0,
+    "terminal": 0.3863068681897929,
+    "time": 31
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.825156357139349,
+    "seed": 1,
+    "terminal": 0.37985811406241354,
+    "time": 29
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.671418339945376,
+    "seed": 2,
+    "terminal": 0.3814013837431877,
+    "time": 25
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.39321029977873,
+    "seed": 0,
+    "terminal": 0.49701827188878905,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.54002051288262,
+    "seed": 0,
+    "terminal": 0.5001660911212722,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.416929956059903,
+    "seed": 0,
+    "terminal": 0.499376602917324,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.6695697801187634,
+    "seed": 1,
+    "terminal": 0.5016890796828893,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.641715466044843,
+    "seed": 2,
+    "terminal": 0.5004273564758902,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.298416188918054,
+    "seed": 0,
+    "terminal": 0.5908002620111872,
+    "time": 27
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.3065712340176105,
+    "seed": 0,
+    "terminal": 0.5924013606603061,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.624372500926256,
+    "seed": 0,
+    "terminal": 0.5916480272817002,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.85902704577893,
+    "seed": 1,
+    "terminal": 0.5910596338998865,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 32,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.901426872238517,
+    "seed": 2,
+    "terminal": 0.5913194655871674,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.499043066054583,
+    "seed": 0,
+    "terminal": 0.5193882969733368,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.3266420271247625,
+    "seed": 0,
+    "terminal": 0.5255371069310488,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.8809231533668935,
+    "seed": 0,
+    "terminal": 0.5208044201674967,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.634972928091884,
+    "seed": 1,
+    "terminal": 0.5212973829978641,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.848403255920857,
+    "seed": 2,
+    "terminal": 0.5234148576753693,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.362785481847823,
+    "seed": 0,
+    "terminal": 0.5822178149197261,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.269968509208411,
+    "seed": 0,
+    "terminal": 0.584610466505581,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.621817481238395,
+    "seed": 0,
+    "terminal": 0.5843288886375099,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.385477780830115,
+    "seed": 1,
+    "terminal": 0.5858131788249621,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.232947765849531,
+    "seed": 2,
+    "terminal": 0.5855173677781674,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.168763077817857,
+    "seed": 0,
+    "terminal": 0.5832225871350175,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.52474468620494,
+    "seed": 0,
+    "terminal": 0.584229116646596,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.530282285064459,
+    "seed": 0,
+    "terminal": 0.583941934737917,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.729277862701565,
+    "seed": 1,
+    "terminal": 0.5842079399498221,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.446263135876507,
+    "seed": 2,
+    "terminal": 0.5835779723082659,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.2504721730947495,
+    "seed": 0,
+    "terminal": 0.5464281714519362,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.732169414870441,
+    "seed": 0,
+    "terminal": 0.547555657065889,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.9411419769749045,
+    "seed": 0,
+    "terminal": 0.5444139118674242,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.737115282099694,
+    "seed": 1,
+    "terminal": 0.5444819692804311,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 33,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.64279393106699,
+    "seed": 2,
+    "terminal": 0.5456410110536696,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.22663385188207,
+    "seed": 0,
+    "terminal": 0.48240712155453214,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.543767761904746,
+    "seed": 0,
+    "terminal": 0.4872305037617257,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.6312169739976525,
+    "seed": 0,
+    "terminal": 0.48543442712150087,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.529342780355364,
+    "seed": 1,
+    "terminal": 0.48280315534416607,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.469503232743591,
+    "seed": 2,
+    "terminal": 0.48337215342497225,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.339129314292222,
+    "seed": 0,
+    "terminal": 0.7113288613491984,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.328536671586335,
+    "seed": 0,
+    "terminal": 0.7125330101425691,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.626181642990559,
+    "seed": 0,
+    "terminal": 0.7124796278706591,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.526783033274114,
+    "seed": 1,
+    "terminal": 0.7128064748382881,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.6627330160699785,
+    "seed": 2,
+    "terminal": 0.7127567678576727,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.2727473941631615,
+    "seed": 0,
+    "terminal": 0.3362547447308545,
+    "time": 70
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.319281922187656,
+    "seed": 0,
+    "terminal": 0.34941732859085817,
+    "time": 41
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.013705768622458,
+    "seed": 0,
+    "terminal": 0.34774429581377914,
+    "time": 47
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 2,
+    "method": "W",
+    "seconds": 7.066838416270912,
+    "seed": 1,
+    "terminal": 0.3461059422260177,
+    "time": 40
+  },
+  {
+    "attainment": true,
+    "fid": 34,
+    "instance": 2,
+    "method": "W",
+    "seconds": 6.898781206924468,
+    "seed": 2,
+    "terminal": 0.348776855471755,
+    "time": 40
+  },
+  {
+    "attainment": false,
+    "fid": 34,
+    "instance": 3,
+    "method": "O",
+    "seconds": 5.504827972967178,
+    "seed": 0,
+    "terminal": 0.3061825317242875,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 34,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 5.4886635690927505,
+    "seed": 0,
+    "terminal": 0.3057540098682173,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 34,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.641805910039693,
+    "seed": 0,
+    "terminal": 0.3096382215745274,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 34,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.8085456867702305,
+    "seed": 1,
+    "terminal": 0.3056478147343899,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 34,
+    "instance": 3,
+    "method": "W",
+    "seconds": 6.575543885119259,
+    "seed": 2,
+    "terminal": 0.30673650665008845,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.174209772143513,
+    "seed": 0,
+    "terminal": 0.4784554568745626,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.469068686012179,
+    "seed": 0,
+    "terminal": 0.48142028450705054,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.551616319920868,
+    "seed": 0,
+    "terminal": 0.4795848655665916,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.619724730961025,
+    "seed": 1,
+    "terminal": 0.4772408686828088,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.7092789728194475,
+    "seed": 2,
+    "terminal": 0.47813736479099883,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.240779643878341,
+    "seed": 0,
+    "terminal": 0.5602305245682464,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.314943270757794,
+    "seed": 0,
+    "terminal": 0.5662166369685852,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.5469079739414155,
+    "seed": 0,
+    "terminal": 0.5650969036208229,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.5020226133055985,
+    "seed": 1,
+    "terminal": 0.5666241024229659,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.282021606806666,
+    "seed": 2,
+    "terminal": 0.5650465435317876,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "fid": 35,
+    "instance": 2,
+    "method": "O",
+    "seconds": 5.183994084130973,
+    "seed": 0,
+    "terminal": 0.2862234322418825,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 35,
+    "instance": 2,
+    "method": "WA",
+    "seconds": 5.023313982412219,
+    "seed": 0,
+    "terminal": 0.296891364916887,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 35,
+    "instance": 2,
+    "method": "W",
+    "seconds": 5.8970941551961005,
+    "seed": 0,
+    "terminal": 0.29005615254995637,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 35,
+    "instance": 2,
+    "method": "W",
+    "seconds": 5.757522748783231,
+    "seed": 1,
+    "terminal": 0.2872024164324569,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "fid": 35,
+    "instance": 2,
+    "method": "W",
+    "seconds": 5.77261653682217,
+    "seed": 2,
+    "terminal": 0.28581272700454013,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 3,
+    "method": "O",
+    "seconds": 4.990190926939249,
+    "seed": 0,
+    "terminal": 0.4025232912444261,
+    "time": 24
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 3,
+    "method": "WA",
+    "seconds": 4.702249622903764,
+    "seed": 0,
+    "terminal": 0.41100880714901744,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 3,
+    "method": "W",
+    "seconds": 5.512511392123997,
+    "seed": 0,
+    "terminal": 0.41210868384077215,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 3,
+    "method": "W",
+    "seconds": 5.432815872132778,
+    "seed": 1,
+    "terminal": 0.409709697600903,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "fid": 35,
+    "instance": 3,
+    "method": "W",
+    "seconds": 5.10719144763425,
+    "seed": 2,
+    "terminal": 0.411561415893917,
+    "time": 12
+  }
+]

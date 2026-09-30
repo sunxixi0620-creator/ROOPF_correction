@@ -1,0 +1,8 @@
+{
+  "candidate_predictions": 1775520,
+  "max_absolute_error": 2.86102294921875e-06,
+  "objective_calls": 0,
+  "states": 12960,
+  "training_epochs": 0,
+  "trajectories": 432
+}

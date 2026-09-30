@@ -1,0 +1,14 @@
+{
+  "cases": 720,
+  "common_initialization": true,
+  "decisions": 3600,
+  "distinct_point_near_ties": 0,
+  "extra_calls": 0,
+  "initial_tasks": 144,
+  "max_near_tie_logei_gap": 4.191260671859709e-10,
+  "max_near_tie_point_distance": 0.0,
+  "max_replay_error": 9.343636975245317e-13,
+  "monotone_acquisition_decisions": 208800,
+  "numerical_near_ties": 532,
+  "unique_paid_points": true
+}

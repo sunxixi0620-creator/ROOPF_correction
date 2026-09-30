@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/machinelearningnuremberg/HPO-B",
+  "commit": "f16c0c52c27ba4e928dd3ad648231726cb06a9ab",
+  "files": {
+    "README.md": {
+      "sha256": "d424fee9f7278ee3a281125dfbbf4c8325a1582291e04c6117526ed1d7ed16a0",
+      "bytes": 13523,
+      "url": "https://raw.githubusercontent.com/machinelearningnuremberg/HPO-B/f16c0c52c27ba4e928dd3ad648231726cb06a9ab/README.md"
+    },
+    "LICENSE": {
+      "sha256": "78ac191662f9ad531684d723b96298ac161bc19a3d19ded460492514e803c9de",
+      "bytes": 1073,
+      "url": "https://raw.githubusercontent.com/machinelearningnuremberg/HPO-B/f16c0c52c27ba4e928dd3ad648231726cb06a9ab/LICENSE"
+    },
+    "hpob_handler.py": {
+      "sha256": "385149029eaa6daf487179274b46e3d53e9172bdb68b22ed2753792bbda598e0",
+      "bytes": 10942,
+      "url": "https://raw.githubusercontent.com/machinelearningnuremberg/HPO-B/f16c0c52c27ba4e928dd3ad648231726cb06a9ab/hpob_handler.py"
+    },
+    "example_botorch.py": {
+      "sha256": "c030df80b73068a04adcbf788fb2b74963a22395da2f2458e7e431d3608bfd1d",
+      "bytes": 1167,
+      "url": "https://raw.githubusercontent.com/machinelearningnuremberg/HPO-B/f16c0c52c27ba4e928dd3ad648231726cb06a9ab/example_botorch.py"
+    }
+  },
+  "downloaded_labels": false,
+  "objective_calls": 0
+}
