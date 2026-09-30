@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**10点冷启动实验已完成。** 固定辅助至40次再退出，相对纯在线平均节省15.37次评估，终局满足预设非劣条件；但相对Sobol初始化的目标达到率低3.24个百分点，联合验收未通过。保留早期效率正向证据，不启动自适应退出或追加调参。[结果](docs/revision/cold_start/CONCLUSIONS.zh-CN.md) · [结论与边界](docs/revision/cold_start/NEXT_DECISION.zh-CN.md) · [归档](artifacts/cold_start_v1/README.md)。
+
 **固定先验＋在线GP修正实验已完成，联合门槛未通过。** 648条20D/600NFE轨迹：融合改善纯先验与固定混合，但低于使用全部观测的纯在线GP。初始预测MSE降低约28.8%，未转化为终局收益。按冻结协议停止该候选，原解锁权重保持不变。[结果](docs/revision/frozen_prior_correction/CONCLUSIONS.zh-CN.md) · [研究决策](docs/revision/frozen_prior_correction/NEXT_DECISION.zh-CN.md) · [复现归档](artifacts/frozen_prior_correction_v1/README.md)。
 
 **跨数据集回归任务资格审查已完成。** 六项检查中源相关性、任务差异、稳定性等五项通过，但开发任务难度未通过；仅船体阻力达到难度要求，汽车油耗和红酒质量仍较容易。不启动该集合上的融合排名实验，确认候选保持封存。[结果与决策](docs/revision/regression_qualification/NEXT_DECISION.zh-CN.md) · [审查表](docs/revision/regression_qualification/CONCLUSIONS.zh-CN.md)。

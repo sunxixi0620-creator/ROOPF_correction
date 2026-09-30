@@ -1,0 +1,11 @@
+{
+  "budget_and_unique": true,
+  "cases": 792,
+  "common_initialization": true,
+  "decisions": 3960,
+  "diagnostic_predictions": 1728,
+  "extra_calls": 0,
+  "max_score_error": 5.115907697472721e-13,
+  "original_unchanged": true,
+  "switch_rebuild": true
+}
