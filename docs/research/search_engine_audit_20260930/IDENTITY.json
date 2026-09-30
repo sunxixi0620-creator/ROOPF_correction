@@ -1,0 +1,65 @@
+{
+  "configs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "counts": [
+    20,
+    39,
+    100,
+    300
+  ],
+  "instances": [
+    0
+  ],
+  "methods": [
+    "O",
+    "W",
+    "WA"
+  ],
+  "parent": "568d000f05df98d846404a2592959d721b5d46a3663d6ccb5d41654e399da67b",
+  "seeds": [
+    0
+  ],
+  "sources": {
+    "docs/experiments/SEARCH_ENGINE_AUDIT_PROTOCOL.md": "8d6571f6c9f0f725cf78f9ac583a6d7aa3620dd2c04a5412eef087f5ad6a08c6",
+    "scripts/audit_search_engine.py": "967eaca869d802a5ed1040216fd4d7d7c7370b585b609f62a7156ef22b358e2c",
+    "scripts/cold_start.py": "98fc2d8211e12921abfdd73d9b824abc432a867bc85aaa9705ad74ffc3d9febb",
+    "scripts/cold_start_components.py": "c4816ff46facbf96e0323a1280c39f13ead57efb974a832739c60217ce82e4da",
+    "scripts/frozen_prior_correction.py": "50900e9a950f4a53329f06b13514cb5884bd311a4c06a29cc4b3a610bb1dbfa6"
+  }
+}
