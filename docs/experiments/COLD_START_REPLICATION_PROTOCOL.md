@@ -1,0 +1,9 @@
+# Cold-start replication v1
+
+New user-authorized study, not a change to failed cold_start_v1. Freeze W/O/S exactly, no neural training, no outcome-dependent parameter updates. Reuse cold_start.rollout unchanged. New role cold_start_replication_v1,36configurations x8 instances,3modelseeds forW and single shared O/S:1440 trajectories x600=864000 new objective calls. Initial10, cutoff40, target0.5std, prefix300, final600 unchanged. Existing function families: same-distribution replication, not unseen-family confirmation. Parent checkpoints/frozen identities verified before every case.
+
+Report 300 restricted time (censored301), success fraction, 600 bounded utility; aggregate seeds/instances/scales within12recipes, bootstrap10000 seed202609303,97.5% intervals. Same joint gate W versus both O/S: mean time saved>=5, lower>0, eachseed positive, mean success fraction not lower, final utility lower>-.005. Keep original results separate. Per-task/seed records and .25/1.0 targets descriptive only, no main target changes.
+
+Decision branches: if joint gate passes, separately freeze independent-instance confirmation includingP/F/shuffled prior, without adjustingW. If coverage shortfall replicates, consider exactly one separately preregistered spatial-coverage candidate, not exit/weight sweeps. If efficiency itself does not replicate, halt expansion and report instability. No automatically claiming all components necessary. Any subsequent method is named distinctly and must be validated on data not used to select it. No original residual claim.
+
+Replay checks shared paid initializations, budgets/uniqueness, switch targets and sampled decisions for allcases using saved observations only. New calls864000, no diagnostic queries/contracts (parent contracts already verified); zero-cost numerical replay.24CPU workers, one thread each; no GPU retraining. Source and protocol hashes frozen before first objective evaluation; verified atomic case resumption.
