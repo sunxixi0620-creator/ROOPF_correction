@@ -1,0 +1,16 @@
+{
+  "all_budgets_and_trails": true,
+  "common_initialization": true,
+  "diagnostics": {
+    "extra_objective_calls": 0,
+    "max_error": 0.0,
+    "recomputed_prediction_sets": 540
+  },
+  "extra_objective_calls": 0,
+  "immutable_context": true,
+  "max_incremental_vs_dense_score_error": 4.689582056016661e-13,
+  "original_checkpoints_unchanged": true,
+  "sampled_decisions_recomputed": 1944,
+  "seconds": 6.3517374992370605,
+  "trajectories": 648
+}

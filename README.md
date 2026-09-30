@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**固定先验＋在线GP修正实验已完成，联合门槛未通过。** 648条20D/600NFE轨迹：融合改善纯先验与固定混合，但低于使用全部观测的纯在线GP。初始预测MSE降低约28.8%，未转化为终局收益。按冻结协议停止该候选，原解锁权重保持不变。[结果](docs/revision/frozen_prior_correction/CONCLUSIONS.zh-CN.md) · [研究决策](docs/revision/frozen_prior_correction/NEXT_DECISION.zh-CN.md) · [复现归档](artifacts/frozen_prior_correction_v1/README.md)。
+
 **跨数据集回归任务资格审查已完成。** 六项检查中源相关性、任务差异、稳定性等五项通过，但开发任务难度未通过；仅船体阻力达到难度要求，汽车油耗和红酒质量仍较容易。不启动该集合上的融合排名实验，确认候选保持封存。[结果与决策](docs/revision/regression_qualification/NEXT_DECISION.zh-CN.md) · [审查表](docs/revision/regression_qualification/CONCLUSIONS.zh-CN.md)。
 
 **真实数据 HPO 小规模验证已完成，联合门槛未通过。** 融合相对纯在线略有改善，但没有超过固定离线排序；85.9%的轨迹在共同初始化内已达到目标，任务区分力不足。停止本原型在该数据集上的调参，不回填原ROOPF组件必要性。[结果与下一步边界](docs/revision/real_hpo_prior/NEXT_DECISION.zh-CN.md) · [完整结果](docs/revision/real_hpo_prior/CONCLUSIONS.zh-CN.md)。
