@@ -1,0 +1,15 @@
+{
+  "conditional_confirmation_minutes": [
+    5,
+    10
+  ],
+  "max_updates": 30,
+  "measured_first_update_seconds": 66.90865138964728,
+  "note": "estimate from actual CPU rollouts; early stop can shorten; not a promise of convergence",
+  "seeds": 3,
+  "training_validation_estimate_minutes": [
+    40,
+    60
+  ],
+  "workers": 16
+}
