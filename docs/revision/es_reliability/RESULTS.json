@@ -1,0 +1,93 @@
+{
+  "all_workers_joined": true,
+  "directions": [
+    {
+      "cosine": 0.0014816165203228593,
+      "norm_A": 2.3059115409851074,
+      "norm_B": 1.3616740703582764,
+      "seed": 0
+    },
+    {
+      "cosine": 0.004237454384565353,
+      "norm_A": 2.1763417720794678,
+      "norm_B": 2.9601876735687256,
+      "seed": 1
+    },
+    {
+      "cosine": 0.0003778490936383605,
+      "norm_A": 2.671391487121582,
+      "norm_B": 2.1349377632141113,
+      "seed": 2
+    }
+  ],
+  "effects": {
+    "A": {
+      "lower": -3.629153717257495e-05,
+      "mean": 0.0003167075639659608,
+      "passed": false,
+      "seed_means": [
+        -0.00010009314347472455,
+        0.00044407152260343236,
+        0.0006061443127691746
+      ],
+      "upper": 0.0008774981482592576
+    },
+    "B": {
+      "lower": -0.00014546336045626689,
+      "mean": 0.00019538169726729393,
+      "passed": false,
+      "seed_means": [
+        -2.0527436087528866e-05,
+        -4.451199331217342e-05,
+        0.000651184521201584
+      ],
+      "upper": 0.0007043438196113264
+    }
+  },
+  "estimation_calls": 691200,
+  "interpretation": "cosine alone is not a high-dimensional reliability test",
+  "locally_reliable": false,
+  "resources": {
+    "calls": 232800,
+    "chosen_workers": 32,
+    "cpu_available": 32,
+    "cpu_fingerprints_identical": true,
+    "device_trials": {
+      "cpu": {
+        "calls": 1200,
+        "including_setup_seconds": 1.833102093078196,
+        "inference_seconds": 1.8216507639735937
+      },
+      "cuda": {
+        "calls": 1200,
+        "including_setup_seconds": 7.247913950122893,
+        "inference_seconds": 7.1348354602232575
+      }
+    },
+    "memory_available_gib": 27.872344970703125,
+    "note": "CUDA timing only; do not mix numerical/RNG paths",
+    "scientific_device": "cpu",
+    "worker_trials": {
+      "16": {
+        "calls": 76800,
+        "seconds": 13.681509805377573,
+        "trajectories_per_second": 9.355692596857189,
+        "worker_peak_rss_mb": 560.7578125
+      },
+      "24": {
+        "calls": 76800,
+        "seconds": 12.9160400130786,
+        "trajectories_per_second": 9.910158211834974,
+        "worker_peak_rss_mb": 560.6328125
+      },
+      "32": {
+        "calls": 76800,
+        "seconds": 11.73760249093175,
+        "trajectories_per_second": 10.905123094677162,
+        "worker_peak_rss_mb": 560.1171875
+      }
+    }
+  },
+  "teacher_calls": 0,
+  "transfer_calls": 1555200
+}

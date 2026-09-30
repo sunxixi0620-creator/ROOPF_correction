@@ -1,0 +1,41 @@
+{
+  "calls": 232800,
+  "chosen_workers": 32,
+  "cpu_available": 32,
+  "cpu_fingerprints_identical": true,
+  "device_trials": {
+    "cpu": {
+      "calls": 1200,
+      "including_setup_seconds": 1.833102093078196,
+      "inference_seconds": 1.8216507639735937
+    },
+    "cuda": {
+      "calls": 1200,
+      "including_setup_seconds": 7.247913950122893,
+      "inference_seconds": 7.1348354602232575
+    }
+  },
+  "memory_available_gib": 27.872344970703125,
+  "note": "CUDA timing only; do not mix numerical/RNG paths",
+  "scientific_device": "cpu",
+  "worker_trials": {
+    "16": {
+      "calls": 76800,
+      "seconds": 13.681509805377573,
+      "trajectories_per_second": 9.355692596857189,
+      "worker_peak_rss_mb": 560.7578125
+    },
+    "24": {
+      "calls": 76800,
+      "seconds": 12.9160400130786,
+      "trajectories_per_second": 9.910158211834974,
+      "worker_peak_rss_mb": 560.6328125
+    },
+    "32": {
+      "calls": 76800,
+      "seconds": 11.73760249093175,
+      "trajectories_per_second": 10.905123094677162,
+      "worker_peak_rss_mb": 560.1171875
+    }
+  }
+}
