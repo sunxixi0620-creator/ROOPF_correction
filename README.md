@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**单次有益提案的分支续跑已完成。** [结果](docs/revision/branch_continuation/CONCLUSIONS.zh-CN.md)：432条原轨迹、1,296条分支，固定170/310/520 NFE位置。61次即时有益干预最终30胜31负，全部状态平均终局增益约−0.0000065，95%区间跨零且上界远低于预设0.001阈值。不支持继续优先优化即时提案排序；这是单次事后真值辅助诊断，不能推断全部融合方法不可能。[归档](artifacts/branch_continuation_v1/README.md)。
+
 **固定提案的选择校准实验已完成。** [结果](docs/revision/selection_calibration/CONCLUSIONS.zh-CN.md)：三个769参数校准器、2,016条完整搜索轨迹。验证单步收益改善，但最终相对当前排序和纯在线O的平均差分别为−0.000456、−0.000137，调整后区间均跨零，未通过预定验收。按协议停止，校准版不替换当前版本；原解锁权重保持不变。[归档](artifacts/selection_calibration_v1/README.md)。
 
 **冻结提案的同状态诊断已完成。** [诊断结论](docs/revision/proposal_diagnostic/CONCLUSIONS.zh-CN.md)：288批次逐项复现原轨迹，13,824条状态记录；新提案在自身状态仍有增量价值，但首次决策之后490次改进机会仅兑现139次。改进机会也随搜索推进减少，不能仅归因于训练不足或状态分布变化。原模型与成绩保持不变；下一步优先研究固定提案下的排序识别，不自动追加训练。[完整诊断归档](artifacts/proposal_diagnostic_v1/README.md)。

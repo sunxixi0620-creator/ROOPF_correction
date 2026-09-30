@@ -1,0 +1,8 @@
+{
+  "cases": 432,
+  "hashes_passed": true,
+  "main_calls": 1036800,
+  "original_weights_preserved": true,
+  "teacher_calls": 5184,
+  "zip_crc_passed": true
+}

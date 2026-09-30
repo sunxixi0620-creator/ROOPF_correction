@@ -1,0 +1,157 @@
+{
+  "aggregate": {
+    "after20": {
+      "lower": 3.383601785717924e-05,
+      "mean": 0.00016992943890300802,
+      "upper": 0.00031786058241800374
+    },
+    "after60": {
+      "lower": -3.7311829833520776e-05,
+      "mean": 5.514613916108638e-05,
+      "upper": 0.00014740698827131663
+    },
+    "conditional_final_mean": -0.00013868242013649861,
+    "conditional_immediate_mean": 0.006974690517441171,
+    "final": {
+      "lower": -2.7806375658622493e-05,
+      "mean": -6.527490453955566e-06,
+      "upper": 1.1255387159317355e-05
+    },
+    "immediate": {
+      "lower": 0.00015575397575711024,
+      "mean": 0.00032828404441659836,
+      "upper": 0.0005216559760249507
+    },
+    "opportunities": 61,
+    "opportunity_final_losses": 31,
+    "opportunity_final_ties": 0,
+    "opportunity_final_wins": 30,
+    "seed_final_means": {
+      "0": 7.967982027265761e-08,
+      "1": -2.2400894926653968e-05,
+      "2": 2.738743744514607e-06
+    },
+    "states": 1296
+  },
+  "all_workers_joined": true,
+  "base_trajectories": 432,
+  "branch_trajectories": 1296,
+  "contract": {
+    "base_exact": true,
+    "main_calls": 456,
+    "no_op_exact": true,
+    "passed": true,
+    "prefix_exact": true,
+    "slot_replacement": true,
+    "teacher_calls": 0
+  },
+  "direction": "below_practical_threshold_for_single_intervention",
+  "oracle_assisted": true,
+  "redundant_prefix_calls": 432000,
+  "replay_calls": 1036800,
+  "stages": {
+    "170": {
+      "after20": {
+        "lower": 9.651240220086442e-05,
+        "mean": 0.0005082080347670449,
+        "upper": 0.0009562791480372345
+      },
+      "after60": {
+        "lower": -0.00010858867231204556,
+        "mean": 0.00016912707576045285,
+        "upper": 0.00044383423540879147
+      },
+      "conditional_final_mean": -0.00022247044936470363,
+      "conditional_immediate_mean": 0.009091213021589361,
+      "final": {
+        "lower": -8.438259828835727e-05,
+        "mean": -2.3688983034204556e-05,
+        "upper": 2.9337732121348325e-05
+      },
+      "immediate": {
+        "lower": 0.0004498975377322899,
+        "mean": 0.0009680458310025712,
+        "upper": 0.001552328512210537
+      },
+      "opportunities": 46,
+      "opportunity_final_losses": 26,
+      "opportunity_final_ties": 0,
+      "opportunity_final_wins": 20,
+      "seed_final_means": {
+        "0": -2.2695296340518526e-06,
+        "1": -7.007985065380733e-05,
+        "2": 1.282431185245514e-06
+      },
+      "states": 432
+    },
+    "310": {
+      "after20": {
+        "lower": -9.993367173053601e-06,
+        "mean": 1.8605755435095879e-06,
+        "upper": 1.7357124360623148e-05
+      },
+      "after60": {
+        "lower": -1.9858191134753053e-05,
+        "mean": -6.590521445980778e-06,
+        "upper": 8.94035868070743e-06
+      },
+      "conditional_final_mean": 0.00011217925283643935,
+      "conditional_immediate_mean": 0.000685433546702067,
+      "final": {
+        "lower": -5.110270447201198e-06,
+        "mean": 2.3370677674258197e-06,
+        "upper": 1.010360817114512e-05
+      },
+      "immediate": {
+        "lower": 3.9766784067507145e-06,
+        "mean": 1.4279865556293064e-05,
+        "upper": 2.697399920887417e-05
+      },
+      "opportunities": 9,
+      "opportunity_final_losses": 3,
+      "opportunity_final_ties": 0,
+      "opportunity_final_wins": 6,
+      "seed_final_means": {
+        "0": 1.6184316741095648e-07,
+        "1": 6.617564294073317e-06,
+        "2": 2.3179584079318576e-07
+      },
+      "states": 432
+    },
+    "520": {
+      "after20": {
+        "lower": -2.4054992806028435e-06,
+        "mean": -2.802936015305697e-07,
+        "upper": 2.353969547483656e-06
+      },
+      "after60": {
+        "lower": -1.6073937769289372e-07,
+        "mean": 2.901863168787073e-06,
+        "upper": 6.70455672122814e-06
+      },
+      "conditional_final_mean": 0.00012739996115366617,
+      "conditional_immediate_mean": 0.00018190344174702963,
+      "final": {
+        "lower": -1.9280446900261773e-06,
+        "mean": 1.7694439049120302e-06,
+        "upper": 6.472691893577576e-06
+      },
+      "immediate": {
+        "lower": 8.223233399567781e-08,
+        "mean": 2.526436690930967e-06,
+        "upper": 6.354103485743205e-06
+      },
+      "opportunities": 6,
+      "opportunity_final_losses": 2,
+      "opportunity_final_ties": 0,
+      "opportunity_final_wins": 4,
+      "seed_final_means": {
+        "0": 2.346725927458869e-06,
+        "1": -3.7403984202278984e-06,
+        "2": 6.7020042075051205e-06
+      },
+      "states": 432
+    }
+  },
+  "teacher_calls": 5184
+}

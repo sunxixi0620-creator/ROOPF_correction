@@ -1,0 +1,18 @@
+{
+  "cases_s0.zip": {
+    "bytes": 28811769,
+    "sha256": "1745dd3b2b06da78b411fdedad040145b3285caf6475808b66d6b5ed883a5c6a"
+  },
+  "cases_s1.zip": {
+    "bytes": 28795624,
+    "sha256": "d59d77230c989c1930b4f9e889472794cefb05b3b27942d7ac4ac980361ef88c"
+  },
+  "cases_s2.zip": {
+    "bytes": 28766437,
+    "sha256": "485588d290daa9d7b205f1345671767b2608d6c2a29d9ffebc51d7e8ac0e69ed"
+  },
+  "metadata_sources.zip": {
+    "bytes": 12593,
+    "sha256": "a3fa692f4f4b3ae276d2faf597c2dc57fc81be262523d9a50e49c28be51f7658"
+  }
+}
