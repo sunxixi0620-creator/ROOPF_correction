@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**结构审查与真实二次度量诊断已完成。** 原任务的方向逐实例重采样，既有共享rank3试验不等于原分布。本轮720条特权诊断轨迹未支持真实二次度量相对在线/解析基线的足够增益，不启动该路线重训；这不是全部结构信息的性能上界。[结果](docs/revision/oracle_metric/CONCLUSIONS.zh-CN.md) · [源码与历史证据审查](docs/revision/oracle_metric/SOURCE_AUDIT.zh-CN.md) · [研究决策](docs/revision/oracle_metric/NEXT_DECISION.zh-CN.md)。
+
 **七组冷启动组件实验已完成。** 3240条新轨迹再次支持相对纯在线的加速和在线适应的终局贡献，但学习先验未超过解析径向先验，退出的效率必要性未成立，覆盖率联合保护仍未通过。不能声称离线学习不可替代。[结果](docs/revision/cold_start_components/CONCLUSIONS.zh-CN.md) · [结论与研究决策](docs/revision/cold_start_components/NEXT_DECISION.zh-CN.md) · [精确方法](docs/revision/cold_start_components/METHOD.zh-CN.md)。
 
 **冷启动方向扩大复核与单一覆盖保护实验已完成。** 新增3168条轨迹：原固定窗口的早期加速重复出现，但达标率保护条件仍未通过；固定10个Sobol槽位的候选未修复不足，不采用、不扫描比例。[两轮汇总与曲线](docs/revision/cold_start_direction/CONCLUSIONS.zh-CN.md) · [论文证据与缺口](docs/revision/cold_start_direction/PAPER_EVIDENCE.zh-CN.md)。原模型及原失败结论保持不变。

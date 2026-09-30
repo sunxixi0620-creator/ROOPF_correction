@@ -1,0 +1,10 @@
+{
+  "T40_T600_common_prefix": 144,
+  "budgets_and_unique": true,
+  "cases": 720,
+  "decisions": 3600,
+  "extra_calls": 0,
+  "max_error": 1.0720313525780512e-12,
+  "metric_parameters_exact": true,
+  "shared_initializations": true
+}
