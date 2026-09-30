@@ -1,0 +1,14 @@
+[
+  {
+    "archive": "audit_0.zip",
+    "bytes": 34845590,
+    "members": 23,
+    "sha256": "1e67b7e801d6708099662ad01fd32052cdae4f55a0fe51de38d21c78e87b12b2"
+  },
+  {
+    "archive": "audit_1.zip",
+    "bytes": 20436146,
+    "members": 51,
+    "sha256": "d821c4276e25a3f5f50a96cc3a381878704ccc1039155bbea3bae295cbb93fc0"
+  }
+]
