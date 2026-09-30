@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**长期价值提前识别实验已完成。** 当前长期价值模型未通过预设的提前识别门槛。按协议停止此模型的特征/损失/干预率搜索，不启动大规模重训或完整搜索扩展。 [详细结果](docs/revision/long_value/CONCLUSIONS.zh-CN.md) · [归档](artifacts/long_value_v1/README.md)。
+
 **区域方向的长期潜力诊断已完成。** 离线方向候选存在达到预设门槛的事后长期潜力，但没有通过相对所有非学习探索的增量验收。当前证据不足以支撑对该生成器继续重训。 [完整结果](docs/revision/region_potential/CONCLUSIONS.zh-CN.md) · [归档](artifacts/region_potential_v1/README.md)。
 
 **低维 ES 匹配诊断已完成。** 200 参数低维更新没有同时通过两组方向的局部可靠性门槛。按冻结协议停止该方案，不追加完整重训或秩/步长搜索。 [详细结果](docs/revision/lowdim_es/CONCLUSIONS.zh-CN.md) · [归档](artifacts/lowdim_es_v1/README.md)。
