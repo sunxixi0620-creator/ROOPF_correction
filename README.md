@@ -1,6 +1,6 @@
 # ROOPF Reproducibility Package
 
-**2026-09-29新一轮实验正在运行：** [充分训练与四组互补性实验](docs/revision/complementarity/EXECUTION.zh-CN.md)。六个anchor从完整训练状态续训至1000轮；随后比较仅离线A、仅在线O、无residual融合F和匹配重训residual的F+R。下面的已完成结论属于上一轮，不能当作这轮尚未完成的结果。
+**2026-09-30进度：1000轮训练、四组实验与自由分配对照均已完成。** [四组结论](docs/revision/complementarity/CONCLUSIONS.zh-CN.md)：F/F+R均改善同一anchor，但未证明优于纯在线O，residual独立增益未通过。[新增2592条分配实验](docs/revision/free_allocation/CONCLUSIONS.zh-CN.md)显示20维600预算下解除固定分配改善F，但仍未证明优于O；按[固定协议](docs/experiments/FREE_ALLOCATION_PROTOCOL.md)停止，未触发新实例确认。20维300预算的正向结果保留为开发证据。下面是此前已完成的修订证据。
 
 **当前结果：已完成用户确认的四阶段修订实验。** 共完成 10,584 条主评测轨迹（开发消融 5,184 条，冻结后的外部评测 5,400 条），实际预算及数据身份核验通过。本轮统一候选的在线补充改善了同一 anchor；residual 和门槛式保护的独立收益未获支持。外部三个条件均支持相对同一 anchor 的收益，20D/600 NFE 支持相对 GP-EI 的收益，未证明稳定优于 CMA-ES。测试来源存在已披露的历史景观数据重用，不称为完全未见函数族验证。
 

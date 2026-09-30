@@ -1,0 +1,7 @@
+{
+  "all_three_target_contrasts_pass": false,
+  "automatic_parameter_search": false,
+  "next_step": "stop_and_report",
+  "stage": "development",
+  "target": "d20_b600"
+}

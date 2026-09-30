@@ -1,0 +1,13 @@
+{
+  "anchor_training_points_including_prefix": 1728000000,
+  "anchor_validation_points_including_prefix": 26049600,
+  "label_behavior_points": 388800,
+  "label_teacher_points": 4924800,
+  "label_train_rows_per_model": 547200,
+  "label_validation_rows_per_model": 273600,
+  "main_points": 3456000,
+  "main_trajectories": 8640,
+  "new_anchor_training_points": 1604160000,
+  "new_anchor_validation_points": 24062400,
+  "timing_extra_points": 28800
+}

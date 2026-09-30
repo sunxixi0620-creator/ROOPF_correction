@@ -1,0 +1,300 @@
+{
+  "files": [
+    {
+      "file": "d10_b300_A_s0.zip",
+      "sha256": "e70635763f78d6545afb972eb9b8ed260fe2f2f2934fdf97fd844a362b101115"
+    },
+    {
+      "file": "d10_b300_A_s1.zip",
+      "sha256": "fec32fd418bb82b5cdab33486955bf3771060fbe4af407f7d24562676a975953"
+    },
+    {
+      "file": "d10_b300_A_s2.zip",
+      "sha256": "e7dda5282680dc868044dfe7d2f1c6c4401dbcc683d37b9917d4115dfbaba3d1"
+    },
+    {
+      "file": "d10_b300_O_s-1.zip",
+      "sha256": "e08c406611f2908b6bbdb26d1a6c29f81f3ed7fd34d3eeaa6096ece7574090d1"
+    },
+    {
+      "file": "d10_b300_F_s0.zip",
+      "sha256": "1b04c6721ad34b3459ad1f4099bfb10aa08015fa21fefa1a13911ff23ee97fc4"
+    },
+    {
+      "file": "d10_b300_F_s1.zip",
+      "sha256": "931b6d290c6cffa9d446517989737b23f6b745e7bc60450cc66285443e8727ad"
+    },
+    {
+      "file": "d10_b300_F_s2.zip",
+      "sha256": "7e2fe3fd24bd7e2171258c77a53d8a4be2f136691381385f8133724e98450911"
+    },
+    {
+      "file": "d10_b300_FR_s0.zip",
+      "sha256": "630deb78eb218a847a716706b795e1a1a00417dcfbaa5168313ea578afe0d067"
+    },
+    {
+      "file": "d10_b300_FR_s1.zip",
+      "sha256": "527558fc489f64c8cef0280f43142c13b1ff8441f245ad237443b06383787fb8"
+    },
+    {
+      "file": "d10_b300_FR_s2.zip",
+      "sha256": "a21fee6856947c7073b8e34c9ea91924a3c02c5a96e72dc202ce0ff8875ce5e7"
+    },
+    {
+      "file": "d20_b300_A_s0.zip",
+      "sha256": "b59a679a8ce18c64601986209c6e463ee3648db9fde9184323a682528116bb9f"
+    },
+    {
+      "file": "d20_b300_A_s1.zip",
+      "sha256": "c471679e7400434dc3463e85eb106452cf4d79f6f02b1ba298043d1084c4ecd3"
+    },
+    {
+      "file": "d20_b300_A_s2.zip",
+      "sha256": "d3ee090396df73eb5a06e7ab3657d36c225e10553ee219d11d35ef08d61c7acf"
+    },
+    {
+      "file": "d20_b300_O_s-1.zip",
+      "sha256": "90505c931aee2584e3ec679cea5a60715bf54ec21f8aab39f57cca369c120f6c"
+    },
+    {
+      "file": "d20_b300_F_s0.zip",
+      "sha256": "2132cb5c1af2f0a7ef9186061d26cad05795f3883e8a141fc2ad7e91743db0b1"
+    },
+    {
+      "file": "d20_b300_F_s1.zip",
+      "sha256": "38c1de97928d319614f778ab70080bc6106a643c9d0b2906aef13ef08f88909e"
+    },
+    {
+      "file": "d20_b300_F_s2.zip",
+      "sha256": "6cc0a0ecc82ed54dbfdb56362e08d018a9fde833dfccd9fe7f265e7597742e32"
+    },
+    {
+      "file": "d20_b300_FR_s0.zip",
+      "sha256": "be68d735fd1f66831d21e5ce7aa8d31f4936d3a0507e9c6bda688d22cfd09afd"
+    },
+    {
+      "file": "d20_b300_FR_s1.zip",
+      "sha256": "424a12f06d4772e3f02e8d82914dce9a5315c6859f5ef675d92647f8664181eb"
+    },
+    {
+      "file": "d20_b300_FR_s2.zip",
+      "sha256": "9726191254a59025ff2be59aabf3149e7adb0be934a8f0c0c1c3379f749fc689"
+    },
+    {
+      "file": "d20_b600_A_s0.zip",
+      "sha256": "b4ce269e57006bb29742e11bdbf7709592217479462e2f6dc3f6d36b97171d0e"
+    },
+    {
+      "file": "d20_b600_A_s1.zip",
+      "sha256": "469246c48a2e607261eab34ed5aa70e064d5d2fc51ed7345edb6afc2d92cd97f"
+    },
+    {
+      "file": "d20_b600_A_s2.zip",
+      "sha256": "12a798cc12a55bf96ad58d5be3e3b978e18c6657cbe77c5828a7b19b1a97a337"
+    },
+    {
+      "file": "d20_b600_O_s-1.zip",
+      "sha256": "c04d5117d7eb531c4e0f184ccce7e5460c577ec9c27a0f0b426967a9818886ac"
+    },
+    {
+      "file": "d20_b600_F_s0.zip",
+      "sha256": "323c083dfb4d66db29f0d263cf15a4d5df87db1dad493b84d85d475a0e29e4f0"
+    },
+    {
+      "file": "d20_b600_F_s1.zip",
+      "sha256": "65c16dcbde5fbb56af1732ea23325cef6ebac03dd4e94cfabe7f11ab34e49ba2"
+    },
+    {
+      "file": "d20_b600_F_s2.zip",
+      "sha256": "be6a863218e2bb385dcca1cf9eab9c1861a3a4ebe637d4e7a1dce2cdaa3e0af6"
+    },
+    {
+      "file": "d20_b600_FR_s0.zip",
+      "sha256": "31c061751201601c0dd08ffd6cd37303e25e2dfca04edcdfb19df48843be7fcd"
+    },
+    {
+      "file": "d20_b600_FR_s1.zip",
+      "sha256": "b41f9d9811c017159e050cb49412b444b98a077b1d9305c43d7ebff6297c0869"
+    },
+    {
+      "file": "d20_b600_FR_s2.zip",
+      "sha256": "402e6d939f60b28503b84fcda38f2c073881bb0856e63f14ad81cec93583885d"
+    },
+    {
+      "file": "anchor_d10_s0.pt",
+      "sha256": "68a8c5c871c7f614b310ad1bfb1f5341f9454521afefff84b977aaee7627606a"
+    },
+    {
+      "file": "residual_d10_s0.pt",
+      "sha256": "6fbc74f404666d2f74f10a7f9fccec92c2d4e2afc367fad64a984da4e5297a21"
+    },
+    {
+      "file": "labels_d10_s0_residual_training.zip",
+      "sha256": "fe92fd30f64f1f5903bb862b14e256deb8341ad188862beabb0bf0feffa2a97e"
+    },
+    {
+      "file": "labels_d10_s0_residual_validation.zip",
+      "sha256": "eb6e36dea2923ce1864b4bce902ab8ff3a26a92a270784851304171274117ad8"
+    },
+    {
+      "file": "training_d10_s0.zip",
+      "sha256": "b4de64484d4a46406f033091984affdb4fe2204cf3bb3b20bdae2f106c23fec3"
+    },
+    {
+      "file": "anchor_d10_s1.pt",
+      "sha256": "0b5d64db557f0be4ba39b7137a732ca2327a6a263d174aceae70b88fbcec94f6"
+    },
+    {
+      "file": "residual_d10_s1.pt",
+      "sha256": "a18b613b72b0532b8b9db852822400ee2e209d8b14e5d395ec7c3a8c26d3dc95"
+    },
+    {
+      "file": "labels_d10_s1_residual_training.zip",
+      "sha256": "364a1f84edff7753cf828957d4f99e51e5b21e9b8f9283a613e3c1ecd36fb43c"
+    },
+    {
+      "file": "labels_d10_s1_residual_validation.zip",
+      "sha256": "18ae8c8d4d77fee1e604820a2181114d4b491371b2561d23afeb967b25e63098"
+    },
+    {
+      "file": "training_d10_s1.zip",
+      "sha256": "acf4f643b66782be6a7b34f128d2a62ddf021c512acd2b3516d045c14c17f46b"
+    },
+    {
+      "file": "anchor_d10_s2.pt",
+      "sha256": "c419bf00f9d777d2e3a3a4fa8c52accfa856a4cda461e31714feb0122ea03465"
+    },
+    {
+      "file": "residual_d10_s2.pt",
+      "sha256": "2759c0ecf83840cb31f5139fedb755c8e66d9387c499e573067d2ece657ebdeb"
+    },
+    {
+      "file": "labels_d10_s2_residual_training.zip",
+      "sha256": "a80d1211f116d42e49a55a818c180772c18821879e57e9d4105406dd43607196"
+    },
+    {
+      "file": "labels_d10_s2_residual_validation.zip",
+      "sha256": "ae52c0644ecac4a8c1bc24780a322c145ca7f15132ba8660cefc9b89fe35fdba"
+    },
+    {
+      "file": "training_d10_s2.zip",
+      "sha256": "067d5fa7c824b3de932c3d30375e73af7ab46ccfed74b39a30df241045a5aab4"
+    },
+    {
+      "file": "anchor_d20_s0.pt",
+      "sha256": "dacfcf481c289c08b78d56d005c6b29c1c6498f993fe4ba1a38f5071f9e6891c"
+    },
+    {
+      "file": "residual_d20_s0.pt",
+      "sha256": "6191df1123c72d31e76433e6d8f39e89dfa0038ba583760c6e2884afac67b0f0"
+    },
+    {
+      "file": "labels_d20_s0_residual_training.zip",
+      "sha256": "d0a012a9e56932aa6e4529a2567140cc46e31a35226ffb3cffc1f92ce158d532"
+    },
+    {
+      "file": "labels_d20_s0_residual_validation.zip",
+      "sha256": "a7306ceeedb51e5617c21dd20dbbfcd9428300954472557da2b90e1e2aa95ad4"
+    },
+    {
+      "file": "training_d20_s0.zip",
+      "sha256": "8e287cd4cdb2398f4c59f941cf363bcab92cb30cfd067b3f1ce2181e2a942c48"
+    },
+    {
+      "file": "anchor_d20_s1.pt",
+      "sha256": "cf4a205db9b977269be730114e6ef9b0f6d3aa2c6c791058cdfcabf8d7dc5148"
+    },
+    {
+      "file": "residual_d20_s1.pt",
+      "sha256": "4b94b975b9ecdfa97e3dcb272796fbd61e1ac4391a85223885ce3875a7e28c87"
+    },
+    {
+      "file": "labels_d20_s1_residual_training.zip",
+      "sha256": "e25c0dac12db5b57f65282c68755f79cf4ee41b5df5df06fde87018b171158f5"
+    },
+    {
+      "file": "labels_d20_s1_residual_validation.zip",
+      "sha256": "49915762afcc0852b9b3ad8f011b565c91cd5dd23c5a5727f3f9e8340e1e4a4d"
+    },
+    {
+      "file": "training_d20_s1.zip",
+      "sha256": "e6d20d87e7e9fcfe05364d32bc4b554763b64e4f1c5b4eafae6234f12b71e721"
+    },
+    {
+      "file": "anchor_d20_s2.pt",
+      "sha256": "c9b4ece9eaa9906971e1c8c6af87ae699e3b120376a76fada34243a7607c7992"
+    },
+    {
+      "file": "residual_d20_s2.pt",
+      "sha256": "6007028f39f753655113e1e3bed85d19e71017ba7695684d758bc519fc1b3024"
+    },
+    {
+      "file": "labels_d20_s2_residual_training.zip",
+      "sha256": "1d9e029cc0095dfb61c301ac6af27501fcf8d7b5e4a056a3e440133add474f19"
+    },
+    {
+      "file": "labels_d20_s2_residual_validation.zip",
+      "sha256": "39c62386e3862c215da98e3417a52d0e5c0aa9d5a24eafefdf764ab8b0c0964f"
+    },
+    {
+      "file": "training_d20_s2.zip",
+      "sha256": "0cbe7dc18314be37571da6388a83036100e37f8c66b4612921cd192ed2ffc044"
+    },
+    {
+      "file": "sources.zip",
+      "sha256": "779aeaa1a3c531a47ad3ce3a56ed0913f308d43e84302899f27966e4a63b8f65"
+    }
+  ],
+  "source_identity": {
+    "conditions": [
+      [
+        10,
+        300
+      ],
+      [
+        20,
+        300
+      ],
+      [
+        20,
+        600
+      ]
+    ],
+    "instances": 2,
+    "main_trajectories": 8640,
+    "methods": [
+      "A",
+      "O",
+      "F",
+      "FR"
+    ],
+    "model_seeds": [
+      0,
+      1,
+      2
+    ],
+    "numpy": "2.2.6",
+    "populations": 4,
+    "sources": {
+      "docs/experiments/COMPLEMENTARITY_FOUR_GROUP_PROTOCOL.md": "08c3d2592f01f0aeca21e377cc19461397662261ce5d8525b8e393b3b9f76e80",
+      "docs/experiments/COMPLEMENTARITY_TRAINING_PROTOCOL.md": "4c55fe496571bbac6861ecd115f5c63805ac33b86b90ba440417f77e4e7de9e0",
+      "roopf/anchor_backbone.py": "27542fc68fad3c24cc8634d3837cc557c8bdd1fc8991b4298ddbd3abc40ad978",
+      "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+      "roopf/model.py": "fdb7c010b5bfd884223e9b49a58320975ecb894ef4584948a8bb6bc4030288cc",
+      "roopf/online_portfolio.py": "fea1db031b4430c8c45ee82576d544eefbf6d7bb86e829436c30fbb9f6d1c9f5",
+      "roopf/residual_features.py": "2c88734fbeb12e783506c68e34e629de616d5f0517df231854bf969ac1f6405c",
+      "roopf/revision_tasks.py": "5eb159444a8c68c562dedd79292ba4ae180c09804b22133229a60ea55127456c",
+      "roopf/unified.py": "c9ceeca227cb822a7da4e09f8695f95dde14c98229a8982e194d6f8e52a2b751",
+      "scripts/check_complementarity_contracts.py": "d55855b28f831e6ae6fa0a15ea1b034eeea113ebee7db56e047c26d7f8b23b2e",
+      "scripts/complementarity_four_group.py": "b486a82404a0a89328bb4c0a89b9e3ecb0769d9f2d6c8895a3e5d305a4590211",
+      "scripts/complementarity_training.py": "9695c7d528a817d8b9ae69cc87bef9e5ed5ed0dda5bd4bda47b4625cbce99532",
+      "scripts/unified_revision.py": "7e05eda4c1ccdc672ffb376464eb9c840a42669f10d025e05e95c284b8aede48"
+    },
+    "split": "complementarity_v1_confirmation",
+    "template_sha256": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+    "torch": "2.11.0+cu128",
+    "training_identity_sha256": "e9129c7d80890e0a949d68017b70fbc31ca641aa1a0bd8377ecf84f442511eb7",
+    "training_run": "/home/skq/repos/ROOPF_improve/ROOPF/results/complementarity_20260929",
+    "version": "complementarity_four_group_v1"
+  }
+}

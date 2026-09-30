@@ -1,0 +1,13 @@
+{
+  "anchor_free_exact_O_parity": true,
+  "dimensions": [
+    10,
+    20
+  ],
+  "extra_proposals_exact_anchor": true,
+  "objective_calls": 2860,
+  "odd_budgets_exact": true,
+  "passed": true,
+  "residual_calls": 0,
+  "teacher_calls": 0
+}

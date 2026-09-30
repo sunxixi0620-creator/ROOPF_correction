@@ -1,0 +1,8 @@
+{
+  "added_to_main_N": false,
+  "batches": 16,
+  "exact_trajectory_repeats": true,
+  "extra_points": 28800,
+  "shared_host": true,
+  "trajectories": 64
+}

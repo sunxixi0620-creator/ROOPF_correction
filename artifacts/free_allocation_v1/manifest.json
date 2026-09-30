@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "file": "development_d10_b300_Free_s0.zip",
+      "sha256": "6560b52567da220e7b7228ba662a8db37ffcd271ec575278fb8090310003b3ae"
+    },
+    {
+      "file": "development_d10_b300_Free_s1.zip",
+      "sha256": "b31fae6dc2a9f2d64d63490e7c2ccc5c50b477ed842b0bce562c515b2f2f0bd2"
+    },
+    {
+      "file": "development_d10_b300_Free_s2.zip",
+      "sha256": "9c7d66fce8b9e0bcf2a650948bd263cfff1c15ea07bbd7b5f9c9cb7efcb16c0d"
+    },
+    {
+      "file": "development_d20_b300_Free_s0.zip",
+      "sha256": "99c4910ab707082e9706a0e0a754c748a315d2bc48bfefbed35ce64aab8dfcaa"
+    },
+    {
+      "file": "development_d20_b300_Free_s1.zip",
+      "sha256": "42836645d09dfebb120065b71838ece7fd3c633abf7a4d626f94da7bc9d83078"
+    },
+    {
+      "file": "development_d20_b300_Free_s2.zip",
+      "sha256": "d7f69fd3c7851484c059b8b8693498558448a68670ef49ed681864a37b2138fb"
+    },
+    {
+      "file": "development_d20_b600_Free_s0.zip",
+      "sha256": "8c7e954f095e44cd22e6cef9e485bd5b8ed1f94b8e9c1e7e6fecf38e1365c121"
+    },
+    {
+      "file": "development_d20_b600_Free_s1.zip",
+      "sha256": "90ba11716fd7d4d937705a5c61d6def182c983970b20dfac755aa7b726a98570"
+    },
+    {
+      "file": "development_d20_b600_Free_s2.zip",
+      "sha256": "757996b26f46bf24d5b14f9eae905c40715081e4ef66914e0f2a88a8e973e524"
+    },
+    {
+      "file": "sources.zip",
+      "sha256": "582905f2be4a3ed034762a13c025f536f2684c52f95be0f8f219e3ea635ec306"
+    }
+  ],
+  "identity": {
+    "conditions": [
+      [
+        10,
+        300
+      ],
+      [
+        20,
+        300
+      ],
+      [
+        20,
+        600
+      ]
+    ],
+    "confirmation_split": "allocation_v1_confirmation",
+    "development_new_trajectories": 2592,
+    "models_manifest_sha256": "bbb6be4eb072729546c7b20aa1371480d8efb4bbc49f4c43cb7462f0399f253d",
+    "numpy": "2.2.6",
+    "old_run": "/home/skq/repos/ROOPF_improve/ROOPF/results/complementarity_four_group_20260929",
+    "previous_identity_sha256": "2cd1c874ffd4c34cdf343393a0e939e187f6ae3583efa2f85c88e72365b37771",
+    "sources": {
+      "docs/experiments/FREE_ALLOCATION_PROTOCOL.md": "7297fa57dc174fa3eacde821689b825bad259ed814edb79eb9988c9763a22aec",
+      "roopf/free_allocation.py": "791bee6c41c59b18c6578105e06f4dd1dc5c0f0116827e44f2e577ee6f720846",
+      "roopf/online_portfolio.py": "fea1db031b4430c8c45ee82576d544eefbf6d7bb86e829436c30fbb9f6d1c9f5",
+      "scripts/free_allocation_study.py": "f9cf27e0c87b0512cc9ec65e673a0a3c3982af03e8d2485b22149934de6d05ae"
+    },
+    "torch": "2.11.0+cu128",
+    "version": "free_allocation_v1"
+  },
+  "reused_models_and_cases": "artifacts/complementarity_v1"
+}

@@ -1,0 +1,11 @@
+{
+  "all_hashes_verified": true,
+  "all_workers_joined": true,
+  "cases": 2160,
+  "main_points": 3456000,
+  "online_independent_trajectories": 864,
+  "online_results_shared_not_replicated": true,
+  "passed": true,
+  "teacher_points": 0,
+  "trajectories": 8640
+}

@@ -1,0 +1,10 @@
+{
+  "all_case_hashes_verified": true,
+  "all_workers_joined": true,
+  "new_main_points": 1036800,
+  "new_trajectories": 2592,
+  "passed": true,
+  "reused_trajectories": 6048,
+  "teacher_points": 0,
+  "total_rows": 8640
+}

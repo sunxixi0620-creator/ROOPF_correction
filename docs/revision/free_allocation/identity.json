@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    [
+      10,
+      300
+    ],
+    [
+      20,
+      300
+    ],
+    [
+      20,
+      600
+    ]
+  ],
+  "confirmation_split": "allocation_v1_confirmation",
+  "development_new_trajectories": 2592,
+  "models_manifest_sha256": "bbb6be4eb072729546c7b20aa1371480d8efb4bbc49f4c43cb7462f0399f253d",
+  "numpy": "2.2.6",
+  "old_run": "/home/skq/repos/ROOPF_improve/ROOPF/results/complementarity_four_group_20260929",
+  "previous_identity_sha256": "2cd1c874ffd4c34cdf343393a0e939e187f6ae3583efa2f85c88e72365b37771",
+  "sources": {
+    "docs/experiments/FREE_ALLOCATION_PROTOCOL.md": "7297fa57dc174fa3eacde821689b825bad259ed814edb79eb9988c9763a22aec",
+    "roopf/free_allocation.py": "791bee6c41c59b18c6578105e06f4dd1dc5c0f0116827e44f2e577ee6f720846",
+    "roopf/online_portfolio.py": "fea1db031b4430c8c45ee82576d544eefbf6d7bb86e829436c30fbb9f6d1c9f5",
+    "scripts/free_allocation_study.py": "f9cf27e0c87b0512cc9ec65e673a0a3c3982af03e8d2485b22149934de6d05ae"
+  },
+  "torch": "2.11.0+cu128",
+  "version": "free_allocation_v1"
+}
