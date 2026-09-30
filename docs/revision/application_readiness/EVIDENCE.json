@@ -1,0 +1,54 @@
+{
+  "status": "application_definition_missing",
+  "new_objective_evaluations": 0,
+  "uav_existing_results": {
+    "anchor_only": {
+      "runs": 150,
+      "geometrically_feasible": 35,
+      "scenario_count": 5
+    },
+    "cma_es": {
+      "runs": 150,
+      "geometrically_feasible": 70,
+      "scenario_count": 5
+    },
+    "de": {
+      "runs": 150,
+      "geometrically_feasible": 36,
+      "scenario_count": 5
+    },
+    "full": {
+      "runs": 150,
+      "geometrically_feasible": 31,
+      "scenario_count": 5
+    },
+    "no_proxy": {
+      "runs": 150,
+      "geometrically_feasible": 36,
+      "scenario_count": 5
+    },
+    "no_residual": {
+      "runs": 150,
+      "geometrically_feasible": 34,
+      "scenario_count": 5
+    },
+    "score_only": {
+      "runs": 150,
+      "geometrically_feasible": 29,
+      "scenario_count": 5
+    }
+  },
+  "source_hashes": {
+    "artifacts/recovered_sources/uav_benchmark.py": "065ebce09790822791a8f30ba55c3d79bae70a5a5496d0f46d803f15d4f3e863",
+    "scripts/remaining_uav.py": "991fcc1bcc49b479b462091afb0f14996c4eb1b6143c097cd82f1dde24bbf180",
+    "docs/experiments/remaining_tables/uav_methods.csv": "5d1a8807dfe7c98e7191cb005765192e9b36caf31fd7dad4cd821b47c305a522",
+    "docs/revision/complementarity/CONCLUSIONS.zh-CN.md": "574d991dd01a5743b44f95ec47cd1992156457b28a104cbb5cc91d8b397b87e6",
+    "docs/revision/real_hpo_prior/RESULTS.json": "7bf0bed803455199ae07294262d398fb89bde6d12508837e7dda4a14f8dbe282",
+    "docs/revision/regression_qualification/RESULTS.json": "2d0fee121e98f4250539eeddb763fbd51b187d2e34aa014e53e45e48bc9c81de"
+  },
+  "inspected_roots": [
+    "/home/skq/repos/ROOPF",
+    "/home/skq/repos/ROOPF_improve/ROOPF"
+  ],
+  "scope_note": "No flight simulator integration identified in inspected Python sources and requirement files; this is not a claim about all user files or installed applications."
+}
