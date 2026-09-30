@@ -1,0 +1,9 @@
+{
+  "budget_and_unique": true,
+  "cases": 1440,
+  "decisions": 7200,
+  "extra_calls": 0,
+  "max_error": 9.559020242022598e-13,
+  "shared_initializations": true,
+  "task_instances": 288
+}
