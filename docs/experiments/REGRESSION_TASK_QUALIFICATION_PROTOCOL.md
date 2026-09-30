@@ -1,0 +1,28 @@
+# Cross-dataset regression task qualification v1 (before objective evaluation)
+
+This stage screens a task collection, not optimizer performance. No A/O/F/FR trajectories or model selection by wins. Do not modify the failed Digits pilot or original checkpoints. These are inexpensive development tasks for deciding whether a subsequent experiment has discriminatory power, not confirmation of expensive optimization or original ROOPF.
+
+Fixed source datasets: UCI Concrete Compressive Strength (165), Energy Efficiency heating load Y1 (242; exclude Y2 from features), Airfoil Self-Noise (291). Fixed development datasets: Yacht Hydrodynamics (243), Auto MPG (9), Wine Quality red only (186). A common standardized RBF-SVR search space is the proposed source/target relation; physical domains differ, and useful transfer is a hypothesis. No replacement of individual datasets after inspecting outcomes. Prospective confirmation candidates Real Estate Valuation (477) and Computer Hardware (29) are recorded by name only; do not download, evaluate, or claim they are a sufficient final test collection.
+
+Download the six development/source datasets from official UCI endpoints; retain raw bytes, URLs, SHA256 and CC BY 4.0 attributions. Schema inspection is allowed before protocol freeze; no model objective evaluated yet. Drop exact duplicate rows and rows missing selected numeric features or target; record all counts. Auto MPG excludes car_name and encodes origin using fixed indicators for 1/2/3; other predictors numeric. Energy uses X1..X8 only. Red wine excludes color and uses quality as continuous target. Group identical feature vectors into the same side of each split, including conflicting-target duplicates. Three fixed role-seeded 60/40 train/validation group splits per dataset. Fit input and output standardization on training rows only. No classifier/predictor test accuracy claim.
+
+One fixed 128-point scrambled Sobol grid in 3D, seed 270930; log10(C)=[-2,3], log10(gamma)=[-4,1], log10(epsilon)=[-3,0]. SVR(kernel=rbf,tol=.001,max_iter=-1). Objective = validation RMSE in training-target standard-deviation units. This is a finite-grid diagnostic; no universal optimum known. All 6*3*128=2304 SVR fits counted. For reproducibility, independently repeat indices 0,63,127 on each of 18 tasks:54 additional fits. Total2358 fits; no neural epochs. Record per-fit durations and warnings; no GPU benefit, at most24 single-thread CPU workers.
+
+Near-optimal set = configs with objective <= grid minimum +.05 standardized RMSE. The .05 tolerance is a predeclared screening tolerance, not externally supplied engineering accuracy. Report fraction q and exact random-four success probability 1-choose(128-good,4)/choose(128,4), without replacement. Dataset summaries average three splits. The following joint screening conditions are fixed now:
+
+1. Difficulty: at least2/3 source datasets AND at least2/3 development datasets have mean q<=.10 and mean random-four success<=.35.
+2. Heterogeneity: using each development dataset's mean objective across splits, no single config is near-optimal on all three (maximum fraction covered <=2/3). Report best source-mean configuration performance separately but do not select a target-aware source prior.
+3. Transfer relation: source prior = equal-dataset mean objective after first averaging splits; Spearman correlation with each development dataset's split-mean objective >=.20 on at least2/3 datasets. This examines source information, not fusion performance.
+4. Split stability: mean pairwise Spearman correlation of three full objective tables >=.50 on at least2/3 development datasets. Report near-optimal-set Jaccard and validation loss spread as diagnostics; do not claim independent stochastic objective noise from data-split variability.
+5. Integrity: finite losses, exact group separation, training-only scaling, original checkpoints unchanged, all54 repeat fits agree within1e-10 absolute objective error, no convergence warnings. All counts complete. Actual fixed-split SVR is deterministic; target-table evaluation does not represent a noisy online task.
+
+No hypothesis-test claims from three development datasets. If any condition fails, stop this collection's admission; retain all datasets and negative findings, don't tune tolerance, ranges, splits or grid and don't open confirmation tasks. If all pass, qualify only for a separately preregistered A/O/F-style development comparison, not automatic confirmation or proof of necessity. A larger, independently split collection would still be needed for paper-level validation. Stage decisions must distinguish insufficient difficulty, insufficient task variation, absent source correlation, and unstable evaluation.
+
+Data attribution (all official pages state CC BY 4.0):
+
+- Yeh, I. (1998), Concrete Compressive Strength, https://doi.org/10.24432/C5PK67 ; https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
+- Tsanas, A. & Xifara, A. (2012), Energy Efficiency, https://doi.org/10.24432/C51307 ; https://archive.ics.uci.edu/dataset/242/energy+efficiency
+- Brooks, T., Pope, D. & Marcolini, M. (1989), Airfoil Self-Noise, https://doi.org/10.24432/C5VW2C ; https://archive.ics.uci.edu/dataset/291/airfoil+self+noise
+- Gerritsma, J., Onnink, R. & Versluis, A. (1981), Yacht Hydrodynamics, https://doi.org/10.24432/C5XG7R ; https://archive.ics.uci.edu/dataset/243/yacht+hydrodynamics
+- Quinlan, R. (1993), Auto MPG, https://doi.org/10.24432/C5859H ; https://archive.ics.uci.edu/dataset/9/auto+mpg
+- Cortez, P., Cerdeira, A., Almeida, F., Matos, T. & Reis, J. (2009), Wine Quality, https://doi.org/10.24432/C56S3T ; https://archive.ics.uci.edu/dataset/186/wine+quality
