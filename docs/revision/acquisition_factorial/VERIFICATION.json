@@ -1,0 +1,14 @@
+{
+  "cases": 432,
+  "common_initialization": true,
+  "decisions": 2160,
+  "distinct_point_near_ties": 1,
+  "extra_calls": 0,
+  "max_near_tie_logei_gap": 2.0727419780541823e-10,
+  "max_near_tie_point_distance": 2.618590261159833e-06,
+  "max_replay_error": 1.3642420526593924e-12,
+  "monotone_acquisition_decisions": 62640,
+  "near_tie_rule": "same saved point; log-acquisition gap below 1e-6; predictive values agree",
+  "numerical_near_ties": 157,
+  "unique_paid_points": true
+}

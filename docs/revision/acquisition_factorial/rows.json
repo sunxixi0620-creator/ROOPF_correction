@@ -1,0 +1,4322 @@
+[
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 0,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.23941437574103475,
+    "terminal": 0.671443877977679,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 0,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.24078317591920495,
+    "terminal": 0.671443877977679,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 0,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.2542338748462498,
+    "terminal": 0.671443877977679,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 0,
+    "instance": 0,
+    "method": "O",
+    "seconds": 3.58526943391189,
+    "terminal": 0.7155762717474802,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 0,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 3.5404769289307296,
+    "terminal": 0.7158425152086441,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 0,
+    "instance": 0,
+    "method": "W",
+    "seconds": 4.284953722264618,
+    "terminal": 0.7158266209505117,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 0,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4105543256737292,
+    "terminal": 0.45973076268685426,
+    "time": 85
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 0,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.38004992296919227,
+    "terminal": 0.48398317649270856,
+    "time": 64
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 0,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.41152162104845047,
+    "terminal": 0.48398317649270856,
+    "time": 65
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 0,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.822405777871609,
+    "terminal": 0.543810988819309,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 0,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.725835837889463,
+    "terminal": 0.5446669359923854,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 0,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.510720659047365,
+    "terminal": 0.5450014543034014,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 1,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.46253988705575466,
+    "terminal": 0.6287898076503409,
+    "time": 24
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 1,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.3677708557806909,
+    "terminal": 0.628222207631097,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 1,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4525437601841986,
+    "terminal": 0.6235149425513233,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 1,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.914166444912553,
+    "terminal": 0.6695753472556335,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 1,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.938819249626249,
+    "terminal": 0.6704586617854812,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 1,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.24782727798447,
+    "terminal": 0.6705322039742884,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 1,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4256902881897986,
+    "terminal": 0.4076213309051134,
+    "time": 123
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 1,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.4306922219693661,
+    "terminal": 0.4058356001622351,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 1,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.42529295990243554,
+    "terminal": 0.4058356001622351,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 1,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.908322331961244,
+    "terminal": 0.46382121448679864,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 1,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.984991374891251,
+    "terminal": 0.4686811570410883,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 1,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.1446071970276535,
+    "terminal": 0.4672273970825214,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 2,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.3682265770621598,
+    "terminal": 0.4882051182220212,
+    "time": 72
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 2,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.3556361082009971,
+    "terminal": 0.5148434560816766,
+    "time": 64
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 2,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.380206435918808,
+    "terminal": 0.49194207263593465,
+    "time": 134
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 2,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.6977715799584985,
+    "terminal": 0.5671836926086313,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 2,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.85166413616389,
+    "terminal": 0.5686330059425333,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 2,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.220168218947947,
+    "terminal": 0.5687775967840965,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 2,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.37494287034496665,
+    "terminal": 0.30685307478303575,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 2,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.3345666229724884,
+    "terminal": 0.32587847951968674,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 2,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.38121684873476624,
+    "terminal": 0.3298066594633142,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 2,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.031600740738213,
+    "terminal": 0.35044307802490365,
+    "time": 51
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 2,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.880037196911871,
+    "terminal": 0.36004225538886486,
+    "time": 43
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 2,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.290071825962514,
+    "terminal": 0.35347828651804913,
+    "time": 41
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 3,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.3751379610039294,
+    "terminal": 0.29455051152585726,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 3,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.3869472141377628,
+    "terminal": 0.303974935714832,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 3,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4091687332838774,
+    "terminal": 0.28410655345773417,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 3,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.794308892916888,
+    "terminal": 0.3532951053757532,
+    "time": 62
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 3,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.612907135859132,
+    "terminal": 0.36031221582140954,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 3,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.480168796144426,
+    "terminal": 0.35942204617320067,
+    "time": 37
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 3,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4777373159304261,
+    "terminal": 0.4464191292723878,
+    "time": 145
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 3,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.47428455483168364,
+    "terminal": 0.42208255218195906,
+    "time": 45
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 3,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.48398240795359015,
+    "terminal": 0.44939134964350147,
+    "time": 106
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 3,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.628426326904446,
+    "terminal": 0.487870302322125,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 3,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.042858443688601,
+    "terminal": 0.49274246906016966,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 3,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.446542114019394,
+    "terminal": 0.4887815972150207,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 4,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.46023082360625267,
+    "terminal": 0.48793086691031495,
+    "time": 48
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 4,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4740830739028752,
+    "terminal": 0.4853834370804283,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 4,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.47989137191325426,
+    "terminal": 0.48864347027644456,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 4,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.741408926900476,
+    "terminal": 0.5090606690205514,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 4,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.902680303901434,
+    "terminal": 0.5118637129513645,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 4,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.2439718707464635,
+    "terminal": 0.5125549183451016,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 4,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.40339179802685976,
+    "terminal": 0.3486873461256589,
+    "time": 204
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 4,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.4002901278436184,
+    "terminal": 0.3166269872379873,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 4,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.47265846095979214,
+    "terminal": 0.36904413508182154,
+    "time": 259
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 4,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.871092818677425,
+    "terminal": 0.3999146598987677,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 4,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.884568755980581,
+    "terminal": 0.4074772812313097,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 4,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.201366338413209,
+    "terminal": 0.40439590476235143,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 5,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.42595612397417426,
+    "terminal": 0.41590552177864776,
+    "time": 58
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 5,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.3920833608135581,
+    "terminal": 0.41551123489423625,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 5,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4317979379557073,
+    "terminal": 0.42446700484555533,
+    "time": 27
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 5,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.869102485012263,
+    "terminal": 0.4457856852669108,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 5,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.856835833285004,
+    "terminal": 0.44712840324390374,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 5,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.289585339836776,
+    "terminal": 0.45064990399676624,
+    "time": 16
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 5,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.35271013993769884,
+    "terminal": 0.2532399722696112,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 5,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.355408547911793,
+    "terminal": 0.2434331292324942,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 5,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.42106898268684745,
+    "terminal": 0.2512007833339104,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 5,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.807090034708381,
+    "terminal": 0.27451585604023254,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 5,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.866154421120882,
+    "terminal": 0.28325479465048004,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 5,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.59275220381096,
+    "terminal": 0.2832956769036027,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 6,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.48378791799768806,
+    "terminal": 0.3056011841191611,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 6,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.5180197833105922,
+    "terminal": 0.3271635833549472,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 6,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.5400157631374896,
+    "terminal": 0.32811354596962006,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 6,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.876537850126624,
+    "terminal": 0.3516376892897321,
+    "time": 47
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 6,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.980811569839716,
+    "terminal": 0.35984223962346984,
+    "time": 25
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 6,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.7425641361624,
+    "terminal": 0.36140970075718487,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 6,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4618269423954189,
+    "terminal": 0.3450816660601553,
+    "time": 281
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 6,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.46462137904018164,
+    "terminal": 0.3483689487850536,
+    "time": 78
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 6,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.45857218466699123,
+    "terminal": 0.34502220706157394,
+    "time": 78
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 6,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.759384385310113,
+    "terminal": 0.3555647837805648,
+    "time": 27
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 6,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.981706790160388,
+    "terminal": 0.3657348008303244,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 6,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.385098926257342,
+    "terminal": 0.36583565454901307,
+    "time": 18
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 7,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4254105272702873,
+    "terminal": 0.2806386357988508,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 7,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.40978143690153956,
+    "terminal": 0.2806386357988508,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 7,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4154083179309964,
+    "terminal": 0.2806386357988508,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 7,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.658330887090415,
+    "terminal": 0.2987363659895985,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 7,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.0113645051606,
+    "terminal": 0.3014295037902513,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 7,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.303001408930868,
+    "terminal": 0.3067658586885112,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 7,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4302679500542581,
+    "terminal": 0.27249943486062983,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 7,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.41585693461820483,
+    "terminal": 0.2765782617910901,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 7,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.44063562992960215,
+    "terminal": 0.2710025875147836,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 7,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.687930543906987,
+    "terminal": 0.28783785766360814,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 7,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.697523430921137,
+    "terminal": 0.29102200100171155,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 7,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.382582653313875,
+    "terminal": 0.28944215064808315,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 8,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4214726439677179,
+    "terminal": 0.34441712671339747,
+    "time": 213
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 8,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.39071681164205074,
+    "terminal": 0.35498073454308493,
+    "time": 168
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 8,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.39497780008241534,
+    "terminal": 0.35498073454308493,
+    "time": 168
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 8,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.569618931040168,
+    "terminal": 0.38768990600175957,
+    "time": 29
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 8,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.804038355126977,
+    "terminal": 0.39296830891684714,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 8,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.450456997845322,
+    "terminal": 0.3934017157350802,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 8,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.5169259100221097,
+    "terminal": 0.5940757018900191,
+    "time": 45
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 8,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.4872524989768863,
+    "terminal": 0.5822276968871153,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 8,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.519775893073529,
+    "terminal": 0.5799056932528119,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 8,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.568723320029676,
+    "terminal": 0.6095169827579713,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 8,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.767621552105993,
+    "terminal": 0.6110383888408131,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 8,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.287735004909337,
+    "terminal": 0.6093557686186515,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 9,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4613910587504506,
+    "terminal": 0.3637495875971723,
+    "time": 143
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 9,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.48419529711827636,
+    "terminal": 0.3579184922654805,
+    "time": 175
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 9,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.5264368923380971,
+    "terminal": 0.3623174841829279,
+    "time": 216
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 9,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.909993245266378,
+    "terminal": 0.38982325386016387,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 9,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.574919459875673,
+    "terminal": 0.39525095223742795,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 9,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.143225994426757,
+    "terminal": 0.39451841087128303,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 9,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4379150550812483,
+    "terminal": 0.5523370051048833,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 9,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.4204555922187865,
+    "terminal": 0.5335980050397683,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 9,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4584828168153763,
+    "terminal": 0.5379333068245098,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 9,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.816406285390258,
+    "terminal": 0.5735789289718984,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 9,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.825489334296435,
+    "terminal": 0.5768883406721401,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 9,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.105768874753267,
+    "terminal": 0.5747351434065199,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 10,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.40270000556483865,
+    "terminal": 0.37887260918198395,
+    "time": 50
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 10,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.41113831801339984,
+    "terminal": 0.38358867146340875,
+    "time": 48
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 10,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4393688249401748,
+    "terminal": 0.37918005099664576,
+    "time": 48
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 10,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.70383785199374,
+    "terminal": 0.3947876209665017,
+    "time": 25
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 10,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.822849414777011,
+    "terminal": 0.39645387754357436,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 10,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.126693455968052,
+    "terminal": 0.3930234357273795,
+    "time": 20
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 10,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4164915052242577,
+    "terminal": 0.14050515928501847,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 10,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.41423524962738156,
+    "terminal": 0.14001553373884562,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 10,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4872506968677044,
+    "terminal": 0.15432479076949485,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 10,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.0207551890052855,
+    "terminal": 0.160737735309304,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 10,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.835105074103922,
+    "terminal": 0.16949811753088564,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 10,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.424169213976711,
+    "terminal": 0.16695537214718154,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 11,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.43963495222851634,
+    "terminal": 0.33361493705266054,
+    "time": 253
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 11,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4598528970964253,
+    "terminal": 0.33384762860218026,
+    "time": 278
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 11,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.5156229580752552,
+    "terminal": 0.35297229015972487,
+    "time": 235
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 11,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.641526090912521,
+    "terminal": 0.36522616090052706,
+    "time": 31
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 11,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.663482715841383,
+    "terminal": 0.3741557669784548,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 11,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.61336857220158,
+    "terminal": 0.3719499736047767,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 11,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4359697690233588,
+    "terminal": 0.5998751236620755,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 11,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.47625909093767405,
+    "terminal": 0.5974396611019032,
+    "time": 29
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 11,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4955815407447517,
+    "terminal": 0.5997333784911095,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 11,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.917438669130206,
+    "terminal": 0.6246239544100678,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 11,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.736954208929092,
+    "terminal": 0.6328623705138167,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 11,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.1233869339339435,
+    "terminal": 0.6267714997379796,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 12,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.46674353210255504,
+    "terminal": 0.7067525728670127,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 12,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.48678878927603364,
+    "terminal": 0.6775605517244817,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 12,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.40740098198875785,
+    "terminal": 0.6775605517244817,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 12,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.837942559737712,
+    "terminal": 0.8104905773542128,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 12,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 7.412268983665854,
+    "terminal": 0.8231962676310856,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 12,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.734566121827811,
+    "terminal": 0.8115883352616725,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 12,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.39426726195961237,
+    "terminal": 0.7228315078390138,
+    "time": 27
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 12,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.37982894014567137,
+    "terminal": 0.7143782928274184,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 12,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.48340243101119995,
+    "terminal": 0.7082025546737144,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 12,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.701691581401974,
+    "terminal": 0.7850130313649945,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 12,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 7.0894627729430795,
+    "terminal": 0.7966771194452428,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 12,
+    "instance": 1,
+    "method": "W",
+    "seconds": 8.694739889819175,
+    "terminal": 0.7963054836547063,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 13,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.40369137236848474,
+    "terminal": 0.5612353106686613,
+    "time": 46
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 13,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4457119149155915,
+    "terminal": 0.5773345098773809,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 13,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4508026740513742,
+    "terminal": 0.6212482248301964,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 13,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.328084296081215,
+    "terminal": 0.6990660779254527,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 13,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.480417230166495,
+    "terminal": 0.7355434998197324,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 13,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.596241452731192,
+    "terminal": 0.7288952788333704,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 13,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.44498260598629713,
+    "terminal": 0.574382943476177,
+    "time": 61
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 13,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.4128992282785475,
+    "terminal": 0.5493803837132812,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 13,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.42446727585047483,
+    "terminal": 0.5736153909302405,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 13,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.3198212389834225,
+    "terminal": 0.6823798839487277,
+    "time": 24
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 13,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.136500697117299,
+    "terminal": 0.6954286475263203,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 13,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.475462744943798,
+    "terminal": 0.676662782443905,
+    "time": 12
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 14,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4676691363565624,
+    "terminal": 0.3289852958470854,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 14,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4387194439768791,
+    "terminal": 0.3473147145190081,
+    "time": 284
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 14,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.5189186772331595,
+    "terminal": 0.39767356196239634,
+    "time": 269
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 14,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.3215517261996865,
+    "terminal": 0.46799294505971967,
+    "time": 121
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 14,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.383530176244676,
+    "terminal": 0.5641268003038931,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 14,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.451020512729883,
+    "terminal": 0.4997031142985709,
+    "time": 20
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 14,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.44055981608107686,
+    "terminal": 0.27312090138280365,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 14,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.45901467790827155,
+    "terminal": 0.22880566986072448,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 14,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.49545942014083266,
+    "terminal": 0.17602250221729349,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 14,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.08175725210458,
+    "terminal": 0.4747657618463704,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 14,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.182937603909522,
+    "terminal": 0.4850478009563931,
+    "time": 92
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 14,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.923316319938749,
+    "terminal": 0.5452615003735959,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 15,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.42795862909406424,
+    "terminal": 0.7315468091933567,
+    "time": 34
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 15,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4192317221313715,
+    "terminal": 0.748878701923076,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 15,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4051938750781119,
+    "terminal": 0.748878701923076,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 15,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.820129496045411,
+    "terminal": 0.8527822386368935,
+    "time": 24
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 15,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.971439148765057,
+    "terminal": 0.8527958243338062,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 15,
+    "instance": 0,
+    "method": "W",
+    "seconds": 8.097918423824012,
+    "terminal": 0.8527105778848875,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 15,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.39534806786105037,
+    "terminal": 0.8792202778789265,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 15,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.38924209913238883,
+    "terminal": 0.8801541576592636,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 15,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.46427971916273236,
+    "terminal": 0.8801541576592636,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 15,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.505354041233659,
+    "terminal": 0.9343163107656199,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 15,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.69283602014184,
+    "terminal": 0.9342889214664435,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 15,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.915573562961072,
+    "terminal": 0.9343181819706525,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 16,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4084499189630151,
+    "terminal": 0.7071828181861999,
+    "time": 96
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 16,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.43051858013495803,
+    "terminal": 0.6616742316283483,
+    "time": 57
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 16,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.45428271777927876,
+    "terminal": 0.6798193252816085,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 16,
+    "instance": 0,
+    "method": "O",
+    "seconds": 7.016483647748828,
+    "terminal": 0.8290887235995561,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 16,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 7.131346914917231,
+    "terminal": 0.8291813683902584,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 16,
+    "instance": 0,
+    "method": "W",
+    "seconds": 8.244813074357808,
+    "terminal": 0.8291201154752428,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 16,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4319625720381737,
+    "terminal": 0.8029492073693567,
+    "time": 41
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 16,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.4336956790648401,
+    "terminal": 0.8123605414417948,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 16,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4721646090038121,
+    "terminal": 0.8127917786534908,
+    "time": 35
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 16,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.874047024175525,
+    "terminal": 0.9043732905485625,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 16,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 7.175861484836787,
+    "terminal": 0.9050951329214288,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 16,
+    "instance": 1,
+    "method": "W",
+    "seconds": 8.458162561058998,
+    "terminal": 0.9051157226685044,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 17,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.3983696489594877,
+    "terminal": 0.8030233078384055,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 17,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.448936325032264,
+    "terminal": 0.8023428540099072,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 17,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4839405259117484,
+    "terminal": 0.8023428540099072,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 17,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.604724915698171,
+    "terminal": 0.8922516708675556,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 17,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 7.533595364075154,
+    "terminal": 0.8922257499522003,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 17,
+    "instance": 0,
+    "method": "W",
+    "seconds": 8.186147589236498,
+    "terminal": 0.8922966844770328,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 17,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.44799415208399296,
+    "terminal": 0.7515634726256937,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 17,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.44485084619373083,
+    "terminal": 0.777577947854654,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 17,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.43632367020472884,
+    "terminal": 0.777577947854654,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 17,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.8388382298871875,
+    "terminal": 0.8443017037226388,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 17,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 7.138326537329704,
+    "terminal": 0.8455836702834522,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 17,
+    "instance": 1,
+    "method": "W",
+    "seconds": 8.63825216004625,
+    "terminal": 0.8452295177746468,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 18,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4169131680391729,
+    "terminal": 0.5870757573902924,
+    "time": 43
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 18,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.39633109886199236,
+    "terminal": 0.5870757573902924,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 18,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4613635502755642,
+    "terminal": 0.5870757573902924,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 18,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.9880503341555595,
+    "terminal": 0.6665142290776809,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 18,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.941828738898039,
+    "terminal": 0.6665483413857755,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 18,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.417778613977134,
+    "terminal": 0.6665481343125677,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 18,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.43056373996660113,
+    "terminal": 0.3894180993169818,
+    "time": 208
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 18,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.43995406618341804,
+    "terminal": 0.3894180993169818,
+    "time": 208
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 18,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4722086521796882,
+    "terminal": 0.3894180993169818,
+    "time": 208
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 18,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.721094535198063,
+    "terminal": 0.48549408648661646,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 18,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.904704062733799,
+    "terminal": 0.483982520414291,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 18,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.40851044934243,
+    "terminal": 0.48505058407352003,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 19,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4664528598077595,
+    "terminal": 0.5328204618405156,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 19,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4377992320805788,
+    "terminal": 0.5265945860849233,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 19,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4470318737439811,
+    "terminal": 0.5214951196272907,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 19,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.037242364604026,
+    "terminal": 0.6471931833186034,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 19,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.254466671962291,
+    "terminal": 0.647166896518012,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 19,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.5782768270000815,
+    "terminal": 0.6472135965768324,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 19,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4585202229209244,
+    "terminal": 0.35569466326506965,
+    "time": 213
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 19,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.3990770620293915,
+    "terminal": 0.3733194049584936,
+    "time": 215
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 19,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.5073572951368988,
+    "terminal": 0.3851707202296154,
+    "time": 200
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 19,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.5870870389044285,
+    "terminal": 0.4384542875365407,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 19,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.642341513186693,
+    "terminal": 0.43548368127696013,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 19,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.224764492362738,
+    "terminal": 0.4350829568665936,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 20,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.44163962500169873,
+    "terminal": 0.5482666575091243,
+    "time": 55
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 20,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.43596755899488926,
+    "terminal": 0.5777375699622636,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 20,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.47749992879107594,
+    "terminal": 0.5247539285500993,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 20,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.986896818969399,
+    "terminal": 0.6434509187062362,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 20,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.700165350921452,
+    "terminal": 0.6434532953228999,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 20,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.278023709077388,
+    "terminal": 0.6435318654546103,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 20,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.430356380995363,
+    "terminal": 0.6851835225105476,
+    "time": 31
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 20,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.47633905708789825,
+    "terminal": 0.6851835225105476,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 20,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.46020465483888984,
+    "terminal": 0.7296964899708324,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 20,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.02953115478158,
+    "terminal": 0.7903556216731569,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 20,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.7829806776717305,
+    "terminal": 0.7912737939814527,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 20,
+    "instance": 1,
+    "method": "W",
+    "seconds": 8.445762695278972,
+    "terminal": 0.7912695788168835,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 21,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4596119038760662,
+    "terminal": 0.7824233879438658,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 21,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.36577468179166317,
+    "terminal": 0.7696155199834729,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 21,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.45768175600096583,
+    "terminal": 0.7696155199834729,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 21,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.486798089928925,
+    "terminal": 0.8230046181718047,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 21,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.674945919774473,
+    "terminal": 0.8230494252860842,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 21,
+    "instance": 0,
+    "method": "W",
+    "seconds": 8.23505260515958,
+    "terminal": 0.8229870846177207,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 21,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4340066099539399,
+    "terminal": 0.761706831455436,
+    "time": 31
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 21,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.4202192951925099,
+    "terminal": 0.761706831455436,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 21,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4089577398262918,
+    "terminal": 0.7697584401994035,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 21,
+    "instance": 1,
+    "method": "O",
+    "seconds": 7.004619249142706,
+    "terminal": 0.8260399531270234,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 21,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 7.148997094016522,
+    "terminal": 0.826037281423987,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 21,
+    "instance": 1,
+    "method": "W",
+    "seconds": 8.471638241782784,
+    "terminal": 0.8261000755155394,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 22,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.41980686178430915,
+    "terminal": 0.5827654380700922,
+    "time": 25
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 22,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4038878479041159,
+    "terminal": 0.6052639309000429,
+    "time": 31
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 22,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4736275472678244,
+    "terminal": 0.5924289721311649,
+    "time": 38
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 22,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.530778916087002,
+    "terminal": 0.6918867429645895,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 22,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.361902102828026,
+    "terminal": 0.6912669715534935,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 22,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.758811970241368,
+    "terminal": 0.691808984877734,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 22,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4003183599561453,
+    "terminal": 0.5312005669365706,
+    "time": 62
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 22,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.3990886486135423,
+    "terminal": 0.5052045026564609,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 22,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4268764480948448,
+    "terminal": 0.5052045026564609,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 22,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.942100918851793,
+    "terminal": 0.6266259603208845,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 22,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.144514903891832,
+    "terminal": 0.6242901233039093,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 22,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.51838613813743,
+    "terminal": 0.6254612911124444,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 23,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4114171410910785,
+    "terminal": 0.43913986807754696,
+    "time": 175
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 23,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.46521674981340766,
+    "terminal": 0.4778578924242599,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 23,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.47157323732972145,
+    "terminal": 0.4885116330604426,
+    "time": 141
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 23,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.8664084216579795,
+    "terminal": 0.510613235846948,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 23,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.860915001947433,
+    "terminal": 0.587422893607795,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 23,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.404015838634223,
+    "terminal": 0.5869934906527491,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 23,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.46799105731770396,
+    "terminal": 0.3655205866207956,
+    "time": 189
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 23,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.46003569941967726,
+    "terminal": 0.43938975192080126,
+    "time": 97
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 23,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.5103510902263224,
+    "terminal": 0.4430489100365766,
+    "time": 200
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 23,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.998826840892434,
+    "terminal": 0.5565866230421759,
+    "time": 36
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 23,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.75349082890898,
+    "terminal": 0.573905849319508,
+    "time": 36
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 23,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.647119062952697,
+    "terminal": 0.574034336922626,
+    "time": 22
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 24,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.45154167432338,
+    "terminal": 0.30103741596015515,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 24,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4089269880205393,
+    "terminal": 0.31432290622258213,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 24,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.5085543491877615,
+    "terminal": 0.2830714160634773,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 24,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.880048077087849,
+    "terminal": 0.3538935570821487,
+    "time": 98
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 24,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.969404119066894,
+    "terminal": 0.36326685910552575,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 24,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.488130358047783,
+    "terminal": 0.36645051813430873,
+    "time": 25
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 24,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4019516250118613,
+    "terminal": 0.2228531128481959,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 24,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.425429240334779,
+    "terminal": 0.2106112144838477,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 24,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4744105217978358,
+    "terminal": 0.22026765965117112,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 24,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.818698897026479,
+    "terminal": 0.25196682810824883,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 24,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.044093274977058,
+    "terminal": 0.2657076368755782,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 24,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.523327263072133,
+    "terminal": 0.2629962032788702,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 25,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.44353212090209126,
+    "terminal": 0.30849834009967014,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 25,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.3832370229065418,
+    "terminal": 0.320190845985994,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 25,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4400144419632852,
+    "terminal": 0.320190845985994,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 25,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.881606461014599,
+    "terminal": 0.3447148252054018,
+    "time": 81
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 25,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.931722546927631,
+    "terminal": 0.35597185110450497,
+    "time": 52
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 25,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.150626161135733,
+    "terminal": 0.3545415967776229,
+    "time": 37
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 25,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.44627592293545604,
+    "terminal": 0.4944857536560902,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 25,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.43134788190945983,
+    "terminal": 0.4944857536560902,
+    "time": 34
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 25,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.5243680882267654,
+    "terminal": 0.4944857536560902,
+    "time": 34
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 25,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.7780816070735455,
+    "terminal": 0.5187566367406999,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 25,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.654700323008001,
+    "terminal": 0.521800559697787,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 25,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.644311173353344,
+    "terminal": 0.5210392688458243,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 26,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4157330961897969,
+    "terminal": 0.3313337516534438,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 26,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4151521329768002,
+    "terminal": 0.3254524973305563,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 26,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.48989358404651284,
+    "terminal": 0.3160831890970531,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 26,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.699981176760048,
+    "terminal": 0.34714317458471866,
+    "time": 62
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 26,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.874101235996932,
+    "terminal": 0.36684367828244807,
+    "time": 37
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 26,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.516186814755201,
+    "terminal": 0.36318806636445733,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 26,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4229472279548645,
+    "terminal": 0.3386057723857887,
+    "time": 300
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 26,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.4860019311308861,
+    "terminal": 0.34112923476453755,
+    "time": 265
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 26,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.477523447945714,
+    "terminal": 0.31325409994675674,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 26,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.033474543597549,
+    "terminal": 0.3773442545827028,
+    "time": 45
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 26,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.064903586171567,
+    "terminal": 0.3795180428104648,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 26,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.411215970758349,
+    "terminal": 0.3868569078573571,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 27,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4374856688082218,
+    "terminal": 0.7387772307936812,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 27,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4442765121348202,
+    "terminal": 0.7387772307936812,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 27,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4580483790487051,
+    "terminal": 0.7387772307936812,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 27,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.8738859789446,
+    "terminal": 0.7516666110004507,
+    "time": 13
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 27,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.771327611990273,
+    "terminal": 0.752018848495516,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 27,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.672802164684981,
+    "terminal": 0.7511722331891748,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 27,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.41124809673056006,
+    "terminal": 0.38790112191050957,
+    "time": 66
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 27,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.450925444252789,
+    "terminal": 0.38265937735744177,
+    "time": 99
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 27,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4669776917435229,
+    "terminal": 0.3914481078919434,
+    "time": 63
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 27,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.924343591090292,
+    "terminal": 0.41045918940119147,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 27,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.770689694210887,
+    "terminal": 0.41859420289493976,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 27,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.594712865073234,
+    "terminal": 0.41560170193938323,
+    "time": 23
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 28,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.43486928194761276,
+    "terminal": 0.2119156779228146,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 28,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4571150690317154,
+    "terminal": 0.21457564623797504,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 28,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4499371349811554,
+    "terminal": 0.20905741647558454,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 28,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.948967394884676,
+    "terminal": 0.22614283940225074,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 28,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.949309751857072,
+    "terminal": 0.24108901673179406,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 28,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.392318965867162,
+    "terminal": 0.2396838473818967,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 28,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.41081582615152,
+    "terminal": 0.5055422278630056,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 28,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.43742857268080115,
+    "terminal": 0.5023004522247928,
+    "time": 32
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 28,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.42487748013809323,
+    "terminal": 0.5080118506670361,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 28,
+    "instance": 1,
+    "method": "O",
+    "seconds": 6.012097917031497,
+    "terminal": 0.5399399940461946,
+    "time": 23
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 28,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.7761020311154425,
+    "terminal": 0.5400189367804439,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 28,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.687917642761022,
+    "terminal": 0.5386968946445272,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 29,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4450686741620302,
+    "terminal": 0.6101062886771604,
+    "time": 16
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 29,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4467189507558942,
+    "terminal": 0.6060747257230766,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 29,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4752405206672847,
+    "terminal": 0.6060747257230766,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 29,
+    "instance": 0,
+    "method": "O",
+    "seconds": 6.097318815998733,
+    "terminal": 0.6349853606995703,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 29,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.838594275992364,
+    "terminal": 0.635795546443708,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 29,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.404389788862318,
+    "terminal": 0.6343030598104222,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 29,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4212384927086532,
+    "terminal": 0.587574673585777,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 29,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.44791044807061553,
+    "terminal": 0.587574673585777,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 29,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.49877796322107315,
+    "terminal": 0.587574673585777,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 29,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.760163861326873,
+    "terminal": 0.6010679779208536,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 29,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.9959399327635765,
+    "terminal": 0.6056623719534152,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 29,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.43125942396,
+    "terminal": 0.6050369535947067,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 30,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.45439330395311117,
+    "terminal": 0.499434720236196,
+    "time": 43
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 30,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4477471234276891,
+    "terminal": 0.48605734003075857,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 30,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4780284110456705,
+    "terminal": 0.48605734003075857,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 30,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.976850911974907,
+    "terminal": 0.5740788523138146,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 30,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.808132168836892,
+    "terminal": 0.5741172129100618,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 30,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.251031154766679,
+    "terminal": 0.573765217317748,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 30,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.3781300908885896,
+    "terminal": 0.3980471265029579,
+    "time": 75
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 30,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.46404275903478265,
+    "terminal": 0.399438557649101,
+    "time": 84
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 30,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4346120832487941,
+    "terminal": 0.3920191834714946,
+    "time": 84
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 30,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.81890594214201,
+    "terminal": 0.4390417445740702,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 30,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 6.043153056874871,
+    "terminal": 0.44269694770416523,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 30,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.505494979675859,
+    "terminal": 0.4425822598668044,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 31,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.40987649420276284,
+    "terminal": 0.5534381502163135,
+    "time": 27
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 31,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4355918811634183,
+    "terminal": 0.5417147731655804,
+    "time": 30
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 31,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4459597850218415,
+    "terminal": 0.524293048305764,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 31,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.9003241579048336,
+    "terminal": 0.5994446248175843,
+    "time": 20
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 31,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.031202778220177,
+    "terminal": 0.5994161376837561,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 31,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.199769081082195,
+    "terminal": 0.5992004240537137,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 31,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4739745780825615,
+    "terminal": 0.4252688870447953,
+    "time": 36
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 31,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.44462332874536514,
+    "terminal": 0.4178418110636988,
+    "time": 36
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 31,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.48180625727400184,
+    "terminal": 0.4178418110636988,
+    "time": 36
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 31,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.728178050834686,
+    "terminal": 0.5027083498492589,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 31,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.944092820864171,
+    "terminal": 0.502347493796447,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 31,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.705680415965617,
+    "terminal": 0.5031191035194786,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 32,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.46147308591753244,
+    "terminal": 0.5062134069070469,
+    "time": 71
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 32,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.48018736904487014,
+    "terminal": 0.4947510078248263,
+    "time": 48
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 32,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.5535486261360347,
+    "terminal": 0.4947510078248263,
+    "time": 37
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 32,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.800083125010133,
+    "terminal": 0.5746557030194505,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 32,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.987192453350872,
+    "terminal": 0.57654848284223,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 32,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.470532495062798,
+    "terminal": 0.5770799313830209,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 32,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.41080899024382234,
+    "terminal": 0.48026493318925834,
+    "time": 49
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 32,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.43058056896552444,
+    "terminal": 0.4908542713516754,
+    "time": 25
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 32,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.471352381631732,
+    "terminal": 0.4908542713516754,
+    "time": 33
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 32,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.734783429186791,
+    "terminal": 0.5370087820768936,
+    "time": 25
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 32,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.875304867979139,
+    "terminal": 0.5381388800370892,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 32,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.174234561622143,
+    "terminal": 0.5385391002581896,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 33,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4049834539182484,
+    "terminal": 0.4879942131293944,
+    "time": 28
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 33,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.42857745569199324,
+    "terminal": 0.49185360399645706,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 33,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4462621109560132,
+    "terminal": 0.49360069245936994,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 33,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.827530647628009,
+    "terminal": 0.5175155362104413,
+    "time": 14
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 33,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 6.166294550057501,
+    "terminal": 0.5221679739843096,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 33,
+    "instance": 0,
+    "method": "W",
+    "seconds": 7.235856966115534,
+    "terminal": 0.5204193130260212,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 33,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4004603838548064,
+    "terminal": 0.2833567700277499,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 33,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.42961006285622716,
+    "terminal": 0.2863951847157192,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 33,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.45731445495039225,
+    "terminal": 0.27749787924646746,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 33,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.930191359948367,
+    "terminal": 0.3175936134863186,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 33,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.929214971140027,
+    "terminal": 0.32977227966988876,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 33,
+    "instance": 1,
+    "method": "W",
+    "seconds": 7.368294890969992,
+    "terminal": 0.3374987680858499,
+    "time": 47
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 34,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.4560779961757362,
+    "terminal": 0.45558984668708213,
+    "time": 22
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 34,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.45753777911886573,
+    "terminal": 0.4586574508089014,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 34,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.5222265059128404,
+    "terminal": 0.47599907666693836,
+    "time": 21
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 34,
+    "instance": 0,
+    "method": "O",
+    "seconds": 5.593466034159064,
+    "terminal": 0.48588530057763674,
+    "time": 19
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 34,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 5.639029359910637,
+    "terminal": 0.4939548592305371,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 34,
+    "instance": 0,
+    "method": "W",
+    "seconds": 6.827017893083394,
+    "terminal": 0.49368120614986594,
+    "time": 12
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 34,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.4825213341973722,
+    "terminal": 0.5773366303368197,
+    "time": 69
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 34,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.47202902007848024,
+    "terminal": 0.5852746293257628,
+    "time": 18
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 34,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.5381668428890407,
+    "terminal": 0.5946969363237196,
+    "time": 15
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 34,
+    "instance": 1,
+    "method": "O",
+    "seconds": 5.345964606851339,
+    "terminal": 0.641804860766215,
+    "time": 17
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 34,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 5.323417905718088,
+    "terminal": 0.6418256934201713,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 34,
+    "instance": 1,
+    "method": "W",
+    "seconds": 6.301093176007271,
+    "terminal": 0.6420740191369888,
+    "time": 11
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 35,
+    "instance": 0,
+    "method": "O",
+    "seconds": 0.42079596500843763,
+    "terminal": 0.30136954920457243,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 35,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 0.4317992553114891,
+    "terminal": 0.30136954920457243,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "pool",
+    "fid": 35,
+    "instance": 0,
+    "method": "W",
+    "seconds": 0.4591261260211468,
+    "terminal": 0.30136954920457243,
+    "time": 301
+  },
+  {
+    "attainment": false,
+    "engine": "continuous",
+    "fid": 35,
+    "instance": 0,
+    "method": "O",
+    "seconds": 4.882387346588075,
+    "terminal": 0.3253846862003099,
+    "time": 301
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 35,
+    "instance": 0,
+    "method": "WA",
+    "seconds": 4.9285804531537,
+    "terminal": 0.3345409392495189,
+    "time": 106
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 35,
+    "instance": 0,
+    "method": "W",
+    "seconds": 5.8631331361830235,
+    "terminal": 0.335976473969966,
+    "time": 63
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 35,
+    "instance": 1,
+    "method": "O",
+    "seconds": 0.445316675119102,
+    "terminal": 0.43846635570257175,
+    "time": 56
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 35,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 0.43499210197478533,
+    "terminal": 0.43837158098802304,
+    "time": 133
+  },
+  {
+    "attainment": true,
+    "engine": "pool",
+    "fid": 35,
+    "instance": 1,
+    "method": "W",
+    "seconds": 0.4264285652898252,
+    "terminal": 0.43837158098802304,
+    "time": 131
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 35,
+    "instance": 1,
+    "method": "O",
+    "seconds": 4.5712044993415475,
+    "terminal": 0.47949914068057997,
+    "time": 26
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 35,
+    "instance": 1,
+    "method": "WA",
+    "seconds": 4.621235810685903,
+    "terminal": 0.48315244703087323,
+    "time": 11
+  },
+  {
+    "attainment": true,
+    "engine": "continuous",
+    "fid": 35,
+    "instance": 1,
+    "method": "W",
+    "seconds": 5.379693339113146,
+    "terminal": 0.4778888624752751,
+    "time": 11
+  }
+]

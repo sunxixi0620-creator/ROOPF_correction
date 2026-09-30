@@ -1,0 +1,11 @@
+{
+  "scope": "fid0 instance0; part of main study, not extra calls",
+  "seconds": {
+    "0_0_O_continuous": 3.58526943391189,
+    "0_0_O_pool": 0.23941437574103475,
+    "0_0_WA_continuous": 3.5404769289307296,
+    "0_0_WA_pool": 0.24078317591920495,
+    "0_0_W_continuous": 4.284953722264618,
+    "0_0_W_pool": 0.2542338748462498
+  }
+}

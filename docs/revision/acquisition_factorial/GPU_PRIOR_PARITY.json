@@ -1,0 +1,8 @@
+{
+  "candidate_predictions": 295920,
+  "max_absolute_error": 2.1457672119140625e-06,
+  "objective_calls": 0,
+  "purpose": "Independent GPU verification that all continuous W candidates use the same frozen prior",
+  "states": 2160,
+  "training_epochs": 0
+}
