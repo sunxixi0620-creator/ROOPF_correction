@@ -1,0 +1,1 @@
+{"cause": "Tensor.argsort requires keyword dim when stable is specified", "started_cases": 204, "replay_calls_lower_bound": 460800, "replay_calls_upper_bound": 489600, "teacher_calls": 0, "complete_cases": 0}
