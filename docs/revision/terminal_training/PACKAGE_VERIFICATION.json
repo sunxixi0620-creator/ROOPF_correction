@@ -1,0 +1,17 @@
+{
+  "all_hashes_passed": true,
+  "case_counts": {
+    "timing": 24,
+    "train": 8820,
+    "validation": 792
+  },
+  "costs": {
+    "timing": 28800,
+    "train": 10584000,
+    "validation": 1900800
+  },
+  "selected_weights_passed": true,
+  "statistics_reproduced": true,
+  "zero_update_fallback_exact": true,
+  "zip_crc_passed": true
+}

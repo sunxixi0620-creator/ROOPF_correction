@@ -1,0 +1,18 @@
+{
+  "cases_timing.zip": {
+    "bytes": 78003,
+    "sha256": "1fe7092e130324dabf52bc0421f2c0076df9b7c3710d883b08f04a1b9d37a98a"
+  },
+  "cases_train.zip": {
+    "bytes": 28539284,
+    "sha256": "fb6312967ccdde45bad6a7807aae17e07c19e768a9f89aa7f24aa469b52bfe80"
+  },
+  "cases_validation.zip": {
+    "bytes": 3888599,
+    "sha256": "4e66e9090b2a835e997af8de5ce98f56f33dea221995d506dbc51d4cea077291"
+  },
+  "models_sources_state.zip": {
+    "bytes": 22454636,
+    "sha256": "7e4bd0ba251673b7b9ea697833aa4cc0891a7a06acb198eb59ecb266ea748d1a"
+  }
+}

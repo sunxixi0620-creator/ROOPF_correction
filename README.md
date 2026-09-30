@@ -1,5 +1,7 @@
 # ROOPF Reproducibility Package
 
+**终局收益闭环重训已完成，未通过可行性门槛。** [结果](docs/revision/terminal_training/CONCLUSIONS.zh-CN.md)：三个种子均完成30次ES更新（约37分22秒），选中更新0/20/10。选模验证集相对O平均增益0.001323、相对重训前0.000529，低于预设0.005/0.001门槛；种子0无提升。确认集未打开，不追加训练变体，不替换原模型。选模集区间不是独立显著性证据。[后续研究决策](docs/revision/terminal_training/NEXT_DECISION.zh-CN.md) · [完整归档](artifacts/terminal_training_v1/README.md)。
+
 **单次有益提案的分支续跑已完成。** [结果](docs/revision/branch_continuation/CONCLUSIONS.zh-CN.md)：432条原轨迹、1,296条分支，固定170/310/520 NFE位置。61次即时有益干预最终30胜31负，全部状态平均终局增益约−0.0000065，95%区间跨零且上界远低于预设0.001阈值。不支持继续优先优化即时提案排序；这是单次事后真值辅助诊断，不能推断全部融合方法不可能。[归档](artifacts/branch_continuation_v1/README.md)。
 
 **固定提案的选择校准实验已完成。** [结果](docs/revision/selection_calibration/CONCLUSIONS.zh-CN.md)：三个769参数校准器、2,016条完整搜索轨迹。验证单步收益改善，但最终相对当前排序和纯在线O的平均差分别为−0.000456、−0.000137，调整后区间均跨零，未通过预定验收。按协议停止，校准版不替换当前版本；原解锁权重保持不变。[归档](artifacts/selection_calibration_v1/README.md)。
