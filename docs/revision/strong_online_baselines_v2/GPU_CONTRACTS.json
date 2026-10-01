@@ -1,0 +1,30 @@
+{
+  "objective_calls": 0,
+  "rows": [
+    {
+      "error": 1.5543122344752192e-15,
+      "method": "GP_LogEI",
+      "paid": 10
+    },
+    {
+      "error": 3.1086244689504383e-15,
+      "method": "GP_LogEI",
+      "paid": 11
+    },
+    {
+      "error": 2.220446049250313e-16,
+      "method": "TuRBO_LogEI",
+      "paid": 10
+    },
+    {
+      "error": 6.661338147750939e-16,
+      "method": "TuRBO_LogEI",
+      "paid": 11
+    },
+    {
+      "error": 1.1909560537759489e-07,
+      "method": "TuRBO_recovered",
+      "paid": 165
+    }
+  ]
+}
