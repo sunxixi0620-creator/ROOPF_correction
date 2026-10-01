@@ -1,0 +1,1480 @@
+{
+  "errors": {},
+  "exact_aliases": [
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "3",
+          "name": "Task 3: kr-vs-kp (Supervised Classification)",
+          "raw_dataset_id": "3",
+          "sha256": "4e398f531499308bff9c97da46bc69997550ddb3a474f97dd8734a9df59ef34b",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145953",
+          "name": "Task 145953: kr-vs-kp (Supervised Classification)",
+          "raw_dataset_id": "3",
+          "sha256": "17033eaf116d93d05aee5d78830e79936cdae086d5e9b8ed98a97a60a734a693",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "3"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "31",
+          "name": "Task 31: credit-g (Supervised Classification)",
+          "raw_dataset_id": "31",
+          "sha256": "db4f2d92784ec3c97266ecc6a44018e72719b39ab1e854a4287658bc7e42111b",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "145972",
+          "name": "Task 145972: credit-g (Supervised Classification)",
+          "raw_dataset_id": "31",
+          "sha256": "cffc6b9b529f5ee7548d5b88f2b0c4994374dd220b4705652320299a0e9a669a",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "146803",
+          "name": "Task 146803: credit-g (Supervised Classification)",
+          "raw_dataset_id": "31",
+          "sha256": "27d3c913312581f43163edf2e1fa2c56e3ee3fa47fefdc01b543eab2cc606de1",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "31"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "37",
+          "name": "Task 37: diabetes (Supervised Classification)",
+          "raw_dataset_id": "37",
+          "sha256": "86a5ae458c483cc55545b85d4b32e66a504570d6eaa6dde01f91e3b24dca3dd6",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145976",
+          "name": "Task 145976: diabetes (Supervised Classification)",
+          "raw_dataset_id": "37",
+          "sha256": "25183346e779578fc374c89bdbf9b9876ad9706b5f50218e41501fee39e508cf",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "37"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "43",
+          "name": "Task 43: spambase (Supervised Classification)",
+          "raw_dataset_id": "44",
+          "sha256": "93bc71f7134cf385e877d2c432941848ec6b2eccba9165fe4dcb70f869c6a5e3",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "145979",
+          "name": "Task 145979: spambase (Supervised Classification)",
+          "raw_dataset_id": "44",
+          "sha256": "820fc3dd33f15f9d666c341bca09b033ebf93f8cd19b6b9148af1a4bd56b3ccc",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "44"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "49",
+          "name": "Task 49: tic-tac-toe (Supervised Classification)",
+          "raw_dataset_id": "50",
+          "sha256": "bda80ecc8e6e8ce0946e251c545698574a16168e45c2a72b68afb183e3fa6248",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145804",
+          "name": "Task 145804: tic-tac-toe (Supervised Classification)",
+          "raw_dataset_id": "50",
+          "sha256": "40d984c2dc7078c343ec532d534ee851a1800131ee004a755d86248ea6531db8",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "50"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "219",
+          "name": "Task 219: electricity (Supervised Classification)",
+          "raw_dataset_id": "151",
+          "sha256": "55b76152b997d9eca01cb6cc8deaa86b34a5f6116d955e36117cd89d74c362d7",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "146012",
+          "name": "Task 146012: electricity (Supervised Classification)",
+          "raw_dataset_id": "151",
+          "sha256": "2ed08ca6a96edbf3e968d08ffe06a9af872e9fd1683740e671262df807a2692a",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "151"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "3493",
+          "name": "Task 3493: monks-problems-2 (Supervised Classification)",
+          "raw_dataset_id": "334",
+          "sha256": "c8e844e4e8f379e1bebb2d30ea82f284d04ae215995b8e61fb965a3081506052",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "146065",
+          "name": "Task 146065: monks-problems-2 (Supervised Classification)",
+          "raw_dataset_id": "334",
+          "sha256": "593464bbd53fac82c50d5153b7dda6582a170b5bb0aa4bc9e0bc6a8c05ad92a7",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "334"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "3492",
+          "name": "Task 3492: monks-problems-1 (Supervised Classification)",
+          "raw_dataset_id": "333",
+          "sha256": "1775fb74f690558f18c4b87651373092185ab0f4181994586c55539fca7386f0",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "146064",
+          "name": "Task 146064: monks-problems-1 (Supervised Classification)",
+          "raw_dataset_id": "333",
+          "sha256": "8d6298672f4e8e12abb8939a85142055af8ebfe736694cbd8b74ff2bc72ce633",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "333"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "3494",
+          "name": "Task 3494: monks-problems-3 (Supervised Classification)",
+          "raw_dataset_id": "335",
+          "sha256": "b98eab11d5f3669f0a38e7ce1ed8a72d50e5178d320fd35abeed05a3ab653148",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "146066",
+          "name": "Task 146066: monks-problems-3 (Supervised Classification)",
+          "raw_dataset_id": "335",
+          "sha256": "c5d6a78d9d105e4bea1905c0d96f5a6e5f72963b8efd48446bc614689df4d071",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "335"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "3950",
+          "name": "Task 3950: musk (Supervised Classification)",
+          "raw_dataset_id": "1116",
+          "sha256": "65fa21edd8f6bc4343ee4a45e3f5685e0390de2961356a84c2cb8da7631a3709",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "146082",
+          "name": "Task 146082: musk (Supervised Classification)",
+          "raw_dataset_id": "1116",
+          "sha256": "34478574c1f5d8ae2b10501c369dfb9e8cdb947b6e73c91031804aafaadd3a3e",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1116"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "6566",
+          "name": "Task 6566: Internet-Advertisements (Supervised Classification)",
+          "raw_dataset_id": "1176",
+          "sha256": "7586fc388ef8b7708c220e4d2da0a9f120b3d0269f7babba7a7d9b49b39c2a31",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "34536",
+          "name": "Task 34536: Internet-Advertisements (Supervised Classification)",
+          "raw_dataset_id": "1176",
+          "sha256": "af47cb4122b67f867cfb44dafca82a8b84f51f8e4d09970d8fec0dd46ed12e09",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "146085",
+          "name": "Task 146085: Internet-Advertisements (Supervised Classification)",
+          "raw_dataset_id": "1176",
+          "sha256": "d5218b92b36feecc7f2aef17bc239ada4b4df37131edebb32a8064a6b1bbb01b",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1176"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "7295",
+          "name": "Task 7295: Click_prediction_small (Supervised Classification)",
+          "raw_dataset_id": "1220",
+          "sha256": "73d78817844f8a00deb9363fbe1eb85551215c901e28add94d0cdd9f2ab6aff2",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "14971",
+          "name": "Task 14971: Click_prediction_small (Supervised Classification)",
+          "raw_dataset_id": "1220",
+          "sha256": "9666766c599b6761ec2d09491a027c941d79915a6a6b86f8f1b78b92562fae61",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1220"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9889",
+          "name": "Task 9889: wilt (Supervised Classification)",
+          "raw_dataset_id": "1570",
+          "sha256": "8771175423b7486224bc03822ac3216a506eace765a44eb395d9aa2e94ff3c28",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "9914",
+          "name": "Task 9914: wilt (Supervised Classification)",
+          "raw_dataset_id": "1570",
+          "sha256": "1f4633ab790f31d162465b5b744c10fd54696f661431fd2ee1838942fe5dbb2d",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1570"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9910",
+          "name": "Task 9910: Bioresponse (Supervised Classification)",
+          "raw_dataset_id": "4134",
+          "sha256": "778179c11613e7b93d2a7c9930079355a750a807cdcf62e7ac8e4c024ddca949",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "14966",
+          "name": "Task 14966: Bioresponse (Supervised Classification)",
+          "raw_dataset_id": "4134",
+          "sha256": "0b754ab1d3c0b8a961c544e65006a3a11078b43656fbe7c8577015ea4aa00305",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "145677",
+          "name": "Task 145677: Bioresponse (Supervised Classification)",
+          "raw_dataset_id": "4134",
+          "sha256": "eaab0f20f62fec04a3112f2fa17d41a35b4b4b731be94cce1d54771f8041b6b7",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "4134"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9946",
+          "name": "Task 9946: wdbc (Supervised Classification)",
+          "raw_dataset_id": "1510",
+          "sha256": "e560e53b8b4dcb61d3efca67a0a6bc378efdb38e74ffed14ec01a3cc57ff8b98",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145878",
+          "name": "Task 145878: wdbc (Supervised Classification)",
+          "raw_dataset_id": "1510",
+          "sha256": "1fdce880f4cdd8f8ac47a7aee53b680e9b85a14add4937057f89287e6ec46b60",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1510"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9957",
+          "name": "Task 9957: qsar-biodeg (Supervised Classification)",
+          "raw_dataset_id": "1494",
+          "sha256": "f214d0e5c326f67427e16e93a8045716a4b1c0e841233b845d08c0097d3fa9bd",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145862",
+          "name": "Task 145862: qsar-biodeg (Supervised Classification)",
+          "raw_dataset_id": "1494",
+          "sha256": "00829bbb4a660a55a14a24ac24c283e06d96107cab530e966ac05247aa474cba",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1494"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9952",
+          "name": "Task 9952: phoneme (Supervised Classification)",
+          "raw_dataset_id": "1489",
+          "sha256": "d7a854e1faaae80b5167254682ed2a33d8d3d66681db5d6154a7ea2c56eeaa0c",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145857",
+          "name": "Task 145857: phoneme (Supervised Classification)",
+          "raw_dataset_id": "1489",
+          "sha256": "a4ff9efb346a059ee0fcbca40c3abf3426c9083596a383efc56c6c806ccda1fa",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1489"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9967",
+          "name": "Task 9967: steel-plates-fault (Supervised Classification)",
+          "raw_dataset_id": "1504",
+          "sha256": "adac10e61fb118ef2b65e8cf86968eb708b6be0f3d32dc79a71170e4f8a6be04",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145872",
+          "name": "Task 145872: steel-plates-fault (Supervised Classification)",
+          "raw_dataset_id": "1504",
+          "sha256": "18b2b651bb005c443087fc1e45592189ef2720b721bbc31eeecc300b1c811df8",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1504"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9970",
+          "name": "Task 9970: hill-valley (Supervised Classification)",
+          "raw_dataset_id": "1479",
+          "sha256": "5dee3dd388676aec4f80bb5199942833cfa8f1ad70456c4a0a23eb062d3b57b1",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145847",
+          "name": "Task 145847: hill-valley (Supervised Classification)",
+          "raw_dataset_id": "1479",
+          "sha256": "2b39d49c20a1d62614e105d55462fe53351582ee709a2eb7adb693d918327f0b",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1479"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9971",
+          "name": "Task 9971: ilpd (Supervised Classification)",
+          "raw_dataset_id": "1480",
+          "sha256": "1c309a648a0d1c7dbdf768854013e7af5c3ba918f9a17f8fe83f043f2de60e62",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "145848",
+          "name": "Task 145848: ilpd (Supervised Classification)",
+          "raw_dataset_id": "1480",
+          "sha256": "79a334790a582b2a7884395c67f27132f67e5f3210efcd0481663f80cf52d4b4",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1480"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9976",
+          "name": "Task 9976: madelon (Supervised Classification)",
+          "raw_dataset_id": "1485",
+          "sha256": "86a6dc5cfc02a8946d726d4e6cfa0bcf643cec6522bc72a5ece93a8a3498c537",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145853",
+          "name": "Task 145853: madelon (Supervised Classification)",
+          "raw_dataset_id": "1485",
+          "sha256": "05351618d7636776de5fda3799782df337bad643a64edfdca5500fbe5e61d675",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1485"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9977",
+          "name": "Task 9977: nomao (Supervised Classification)",
+          "raw_dataset_id": "1486",
+          "sha256": "3fdacf5cfa30693bd8757418a053fa8581e214bb927aa96b7bd83b38f0bd1a14",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145854",
+          "name": "Task 145854: nomao (Supervised Classification)",
+          "raw_dataset_id": "1486",
+          "sha256": "c0b1f22065142c9a5625980562dff8523ee3f8e2cbfa7f691766ba05a6c8deab",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1486"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9978",
+          "name": "Task 9978: ozone-level-8hr (Supervised Classification)",
+          "raw_dataset_id": "1487",
+          "sha256": "e7f85e1eca7ee53f171660eaba0da84ae00e9cbdb9a122894363509cc20b928a",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145855",
+          "name": "Task 145855: ozone-level-8hr (Supervised Classification)",
+          "raw_dataset_id": "1487",
+          "sha256": "ec3a97c421ec0c06fa3772d7cfe1945a8ec481e17dd1e649a99b29affd79566d",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1487"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9980",
+          "name": "Task 9980: climate-model-simulation-crashes (Supervised Classification)",
+          "raw_dataset_id": "1467",
+          "sha256": "9fc262ca3bacf5966c0938ffc1b739cbbbd9da78b965da3580b123a62848bcce",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145839",
+          "name": "Task 145839: climate-model-simulation-crashes (Supervised Classification)",
+          "raw_dataset_id": "1467",
+          "sha256": "78e6e37ca37859aae24b3d9e2d33104eb193be10846ba1593ff430aa57e4c283",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1467"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "9983",
+          "name": "Task 9983: eeg-eye-state (Supervised Classification)",
+          "raw_dataset_id": "1471",
+          "sha256": "dcd90fa450fa2695d23642149178b374c15936940cd836df9ed522827376796b",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "14951",
+          "name": "Task 14951: eeg-eye-state (Supervised Classification)",
+          "raw_dataset_id": "1471",
+          "sha256": "c3a0fbbb7ae1e672094f934ecd1da1da377f4663ecb75c730b20f650e017d9aa",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1471"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "10093",
+          "name": "Task 10093: banknote-authentication (Supervised Classification)",
+          "raw_dataset_id": "1462",
+          "sha256": "30691a160e854fb64ae073fcb3083fb198649a413e0d5e45af1b6a9519d1c8d3",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145834",
+          "name": "Task 145834: banknote-authentication (Supervised Classification)",
+          "raw_dataset_id": "1462",
+          "sha256": "57696de271ff1d0a3103f72c68d8c01992019994bf70c5577aa78736b8ed520e",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1462"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "10101",
+          "name": "Task 10101: blood-transfusion-service-center (Supervised Classification)",
+          "raw_dataset_id": "1464",
+          "sha256": "7381f723cfe3dc39f10f8759b3875eab47942e744fe9ecba23b45c4a855f1114",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "145836",
+          "name": "Task 145836: blood-transfusion-service-center (Supervised Classification)",
+          "raw_dataset_id": "1464",
+          "sha256": "c618f5b298ddc8150d92c3af84ce3f16919e08901a197b388c69cc66070debf2",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1464"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": false,
+          "id": "14952",
+          "name": "Task 14952: PhishingWebsites (Supervised Classification)",
+          "raw_dataset_id": "4534",
+          "sha256": "fff307cf2d52fcf81be1744abd909153d0ae5614f721e910e54f7f183c61ce48",
+          "source": true
+        },
+        {
+          "heldout": true,
+          "id": "34537",
+          "name": "Task 34537: PhishingWebsites (Supervised Classification)",
+          "raw_dataset_id": "4534",
+          "sha256": "f0ebf146ff2609684abddb0f3955431eca1c5250d4c8d83ce98804a51d8c7eba",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "4534"
+    },
+    {
+      "datasets": [
+        {
+          "heldout": true,
+          "id": "14965",
+          "name": "Task 14965: bank-marketing (Supervised Classification)",
+          "raw_dataset_id": "1461",
+          "sha256": "c1f2c9d673e746e8b170f32668a0bdb29871c4cade7d0007cb42d343c57e8480",
+          "source": true
+        },
+        {
+          "heldout": false,
+          "id": "145833",
+          "name": "Task 145833: bank-marketing (Supervised Classification)",
+          "raw_dataset_id": "1461",
+          "sha256": "f9706e52638fd15ec341e5fd7ef89a1a79c43266691720ad89acfa388487cc60",
+          "source": true
+        }
+      ],
+      "key": "raw_dataset_id",
+      "value": "1461"
+    }
+  ],
+  "limitation": "HPO-B keys resolve as OpenML task IDs. Raw dataset-ID grouping does not rule out derived datasets with different IDs.",
+  "metadata": [
+    {
+      "heldout": false,
+      "id": "2",
+      "name": "Task 2: anneal (Supervised Classification)",
+      "raw_dataset_id": "2",
+      "sha256": "202bbc1f015c89e8156f0a156d8c0ed27552c2e7292f80fdee12e13424bb5ea2",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3",
+      "name": "Task 3: kr-vs-kp (Supervised Classification)",
+      "raw_dataset_id": "3",
+      "sha256": "4e398f531499308bff9c97da46bc69997550ddb3a474f97dd8734a9df59ef34b",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "11",
+      "name": "Task 11: balance-scale (Supervised Classification)",
+      "raw_dataset_id": "11",
+      "sha256": "800561a4637b1246ef2889b7d66c54ed6844d6f92b52478e31bc55ae1c04f19f",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "15",
+      "name": "Task 15: breast-w (Supervised Classification)",
+      "raw_dataset_id": "15",
+      "sha256": "78868c56ff40fe7a37789e95d7c390164c15ed18fe976dfe4e89c1006e268360",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "18",
+      "name": "Task 18: mfeat-morphological (Supervised Classification)",
+      "raw_dataset_id": "18",
+      "sha256": "b692c0d49c5f2dd8453944343d152f1ae63db46b471a92a9e9bc2e0f9dd631eb",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "21",
+      "name": "Task 21: car (Supervised Classification)",
+      "raw_dataset_id": "21",
+      "sha256": "deb9094bd4122109b6ab5e83fecc5d74bdcf45a0bcb4daeb39280fad6aa03b3f",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "23",
+      "name": "Task 23: cmc (Supervised Classification)",
+      "raw_dataset_id": "23",
+      "sha256": "f03bf5b3e2a7ff525cc5758b1e229b802c6bda18b4d17d3a9b6e3712e7b51182",
+      "source": false
+    },
+    {
+      "heldout": false,
+      "id": "29",
+      "name": "Task 29: credit-approval (Supervised Classification)",
+      "raw_dataset_id": "29",
+      "sha256": "08c1fc3d8482d85bd15a97b3d3d2276c0a1790b07c2da1050e0d02df3aaf26af",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "31",
+      "name": "Task 31: credit-g (Supervised Classification)",
+      "raw_dataset_id": "31",
+      "sha256": "db4f2d92784ec3c97266ecc6a44018e72719b39ab1e854a4287658bc7e42111b",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "36",
+      "name": "Task 36: segment (Supervised Classification)",
+      "raw_dataset_id": "36",
+      "sha256": "6797a4042a44bc7cf5a12ffb17d79b353fac6413f9f4b02d1e3b86cb837c9ad3",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "37",
+      "name": "Task 37: diabetes (Supervised Classification)",
+      "raw_dataset_id": "37",
+      "sha256": "86a5ae458c483cc55545b85d4b32e66a504570d6eaa6dde01f91e3b24dca3dd6",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "41",
+      "name": "Task 41: soybean (Supervised Classification)",
+      "raw_dataset_id": "42",
+      "sha256": "13cfaac5d8c9e984029852b597780187208330f16082d7cbfe97cfbd8ecd7324",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "43",
+      "name": "Task 43: spambase (Supervised Classification)",
+      "raw_dataset_id": "44",
+      "sha256": "93bc71f7134cf385e877d2c432941848ec6b2eccba9165fe4dcb70f869c6a5e3",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "49",
+      "name": "Task 49: tic-tac-toe (Supervised Classification)",
+      "raw_dataset_id": "50",
+      "sha256": "bda80ecc8e6e8ce0946e251c545698574a16168e45c2a72b68afb183e3fa6248",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "53",
+      "name": "Task 53: vehicle (Supervised Classification)",
+      "raw_dataset_id": "54",
+      "sha256": "e1c5a1528ccd4ab5ccd2d8416b532b0d5c47508eafaed029662cdf3c2a80e522",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "219",
+      "name": "Task 219: electricity (Supervised Classification)",
+      "raw_dataset_id": "151",
+      "sha256": "55b76152b997d9eca01cb6cc8deaa86b34a5f6116d955e36117cd89d74c362d7",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "272",
+      "name": "Task 272: haberman (Supervised Classification)",
+      "raw_dataset_id": "43",
+      "sha256": "2706e584c2d57dce5c12f89ddb05710a07172e6124def104485527d599e8cb1b",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "282",
+      "name": "Task 282: heart-statlog (Supervised Classification)",
+      "raw_dataset_id": "53",
+      "sha256": "f7e763076f8df2fe36200bd58925f28b573f72626ad8f8ba1eaf97043a22ab37",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "2079",
+      "name": "Task 2079: eucalyptus (Supervised Classification)",
+      "raw_dataset_id": "188",
+      "sha256": "7cfde58bd499e6fe67eaf3a4d0cf589b4fba7b3f0cc4ff05421af3b310b5b701",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "3022",
+      "name": "Task 3022: vowel (Supervised Classification)",
+      "raw_dataset_id": "307",
+      "sha256": "c58effb2f4d9ef9a5e4a2ac76c5c767c387e7e23b183396278c0aec119aec07a",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3485",
+      "name": "Task 3485: scene (Supervised Classification)",
+      "raw_dataset_id": "312",
+      "sha256": "94d98897b72fdd21bee22772f7d73d27cacf30196f89136f94d4e02705849bc2",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3492",
+      "name": "Task 3492: monks-problems-1 (Supervised Classification)",
+      "raw_dataset_id": "333",
+      "sha256": "1775fb74f690558f18c4b87651373092185ab0f4181994586c55539fca7386f0",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3493",
+      "name": "Task 3493: monks-problems-2 (Supervised Classification)",
+      "raw_dataset_id": "334",
+      "sha256": "c8e844e4e8f379e1bebb2d30ea82f284d04ae215995b8e61fb965a3081506052",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3494",
+      "name": "Task 3494: monks-problems-3 (Supervised Classification)",
+      "raw_dataset_id": "335",
+      "sha256": "b98eab11d5f3669f0a38e7ce1ed8a72d50e5178d320fd35abeed05a3ab653148",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "3512",
+      "name": "Task 3512: synthetic_control (Supervised Classification)",
+      "raw_dataset_id": "377",
+      "sha256": "3b40b38dcfe0dd524e124240fc2a48b00dc38135b0c56ec56474d360e422df98",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "3543",
+      "name": "Task 3543: irish (Supervised Classification)",
+      "raw_dataset_id": "451",
+      "sha256": "61a05fb9b07cf95685ae2bc9231a66552844cb62fe679d3fb1aa74c5a2ba9646",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3549",
+      "name": "Task 3549: analcatdata_authorship (Supervised Classification)",
+      "raw_dataset_id": "458",
+      "sha256": "419ba0069a782b7bd09f3ac6dc52d1d0402a3823bfab8371db91373acb6ec674",
+      "source": false
+    },
+    {
+      "heldout": false,
+      "id": "3560",
+      "name": "Task 3560: analcatdata_dmft (Supervised Classification)",
+      "raw_dataset_id": "469",
+      "sha256": "559dc7203118ad5b2a8deb1104bb7b3ee52dfd0c0d33bfd6d219afcb9ba1f17d",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "3561",
+      "name": "Task 3561: profb (Supervised Classification)",
+      "raw_dataset_id": "470",
+      "sha256": "6daff8acd870ade9f52e3882e79ff0b4d571dcbbe2da400cc601b9b525ca65fe",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "3567",
+      "name": "Task 3567: collins (Supervised Classification)",
+      "raw_dataset_id": "478",
+      "sha256": "948c7b44c1e4beede09675e447741afd39e8f17bf1390fc2134b06b1a5619b07",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3889",
+      "name": "Task 3889: sylva_agnostic (Supervised Classification)",
+      "raw_dataset_id": "1036",
+      "sha256": "aa9889d82a318fdd37157ed3c7f24b94b1d018765672d05d93fe028f53452f34",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3891",
+      "name": "Task 3891: gina_agnostic (Supervised Classification)",
+      "raw_dataset_id": "1038",
+      "sha256": "c9015f9176762e4bdd6b271fe954f29b8acecb9c89575c87ad711382371faf2c",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3896",
+      "name": "Task 3896: ada_agnostic (Supervised Classification)",
+      "raw_dataset_id": "1043",
+      "sha256": "164e6d19d0f5ee9b36a8c7cd3a5ef6e8a472a3a1dcd9c27919f99c0b5983cb97",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3899",
+      "name": "Task 3899: mozilla4 (Supervised Classification)",
+      "raw_dataset_id": "1046",
+      "sha256": "c6edeb359c21bf7f7177b5f68e317b3c1af7fdc1a042d68840b26cb27f8d7c78",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3902",
+      "name": "Task 3902: pc4 (Supervised Classification)",
+      "raw_dataset_id": "1049",
+      "sha256": "2e2c256ea7d13e8f37ce1b414a403cd07546ab9cb332e0df2dd47d6e3bb2121f",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3903",
+      "name": "Task 3903: pc3 (Supervised Classification)",
+      "raw_dataset_id": "1050",
+      "sha256": "a5774f7dd6ff5384734e289ddc3e7d6d154979880d953ccd8cc18467a0a94011",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3913",
+      "name": "Task 3913: kc2 (Supervised Classification)",
+      "raw_dataset_id": "1063",
+      "sha256": "b50d46d22d3c5e5b346f9a589a5b3a35a300abc66a0072f64a887af7d9a361a5",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3917",
+      "name": "Task 3917: kc1 (Supervised Classification)",
+      "raw_dataset_id": "1067",
+      "sha256": "9c79db0994e0b11788036b65527afbd1f2385a8e5861b295e4394198398bb35e",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3918",
+      "name": "Task 3918: pc1 (Supervised Classification)",
+      "raw_dataset_id": "1068",
+      "sha256": "3d7db0ef76d1da02ff004ee835f0fb69287bd4b89c6fdab8a8930d007a5d0d51",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3950",
+      "name": "Task 3950: musk (Supervised Classification)",
+      "raw_dataset_id": "1116",
+      "sha256": "65fa21edd8f6bc4343ee4a45e3f5685e0390de2961356a84c2cb8da7631a3709",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "3954",
+      "name": "Task 3954: MagicTelescope (Supervised Classification)",
+      "raw_dataset_id": "1120",
+      "sha256": "cd5218469b90cdc26fcf6b94aacbb5c2d776d63d9a990b51111163798c991836",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "6566",
+      "name": "Task 6566: Internet-Advertisements (Supervised Classification)",
+      "raw_dataset_id": "1176",
+      "sha256": "7586fc388ef8b7708c220e4d2da0a9f120b3d0269f7babba7a7d9b49b39c2a31",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "7295",
+      "name": "Task 7295: Click_prediction_small (Supervised Classification)",
+      "raw_dataset_id": "1220",
+      "sha256": "73d78817844f8a00deb9363fbe1eb85551215c901e28add94d0cdd9f2ab6aff2",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9889",
+      "name": "Task 9889: wilt (Supervised Classification)",
+      "raw_dataset_id": "1570",
+      "sha256": "8771175423b7486224bc03822ac3216a506eace765a44eb395d9aa2e94ff3c28",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9903",
+      "name": "Task 9903: autoUniv-au7-500 (Supervised Classification)",
+      "raw_dataset_id": "1554",
+      "sha256": "3040fbf8cbb148bb4dbff6cbbea70726aca3bade95cd2ebdd7e83c2192c1f694",
+      "source": false
+    },
+    {
+      "heldout": false,
+      "id": "9905",
+      "name": "Task 9905: autoUniv-au7-700 (Supervised Classification)",
+      "raw_dataset_id": "1553",
+      "sha256": "59cdcbaea78be252adf3fd434f450960bcf9f3ecca35443fc945f5098e902f45",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9906",
+      "name": "Task 9906: autoUniv-au7-1100 (Supervised Classification)",
+      "raw_dataset_id": "1552",
+      "sha256": "dffec75d55e6e47253180e73b16eae66b611c4050044b9ab2f72533523e68235",
+      "source": false
+    },
+    {
+      "heldout": true,
+      "id": "9910",
+      "name": "Task 9910: Bioresponse (Supervised Classification)",
+      "raw_dataset_id": "4134",
+      "sha256": "778179c11613e7b93d2a7c9930079355a750a807cdcf62e7ac8e4c024ddca949",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "9911",
+      "name": "Task 9911: Amazon_employee_access (Supervised Classification)",
+      "raw_dataset_id": "4135",
+      "sha256": "bd8476518ec22f192849b39ac8edb3e3558f98706a47cd21df38411fe4d349b9",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9914",
+      "name": "Task 9914: wilt (Supervised Classification)",
+      "raw_dataset_id": "1570",
+      "sha256": "1f4633ab790f31d162465b5b744c10fd54696f661431fd2ee1838942fe5dbb2d",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9946",
+      "name": "Task 9946: wdbc (Supervised Classification)",
+      "raw_dataset_id": "1510",
+      "sha256": "e560e53b8b4dcb61d3efca67a0a6bc378efdb38e74ffed14ec01a3cc57ff8b98",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9952",
+      "name": "Task 9952: phoneme (Supervised Classification)",
+      "raw_dataset_id": "1489",
+      "sha256": "d7a854e1faaae80b5167254682ed2a33d8d3d66681db5d6154a7ea2c56eeaa0c",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9957",
+      "name": "Task 9957: qsar-biodeg (Supervised Classification)",
+      "raw_dataset_id": "1494",
+      "sha256": "f214d0e5c326f67427e16e93a8045716a4b1c0e841233b845d08c0097d3fa9bd",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9967",
+      "name": "Task 9967: steel-plates-fault (Supervised Classification)",
+      "raw_dataset_id": "1504",
+      "sha256": "adac10e61fb118ef2b65e8cf86968eb708b6be0f3d32dc79a71170e4f8a6be04",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9970",
+      "name": "Task 9970: hill-valley (Supervised Classification)",
+      "raw_dataset_id": "1479",
+      "sha256": "5dee3dd388676aec4f80bb5199942833cfa8f1ad70456c4a0a23eb062d3b57b1",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9971",
+      "name": "Task 9971: ilpd (Supervised Classification)",
+      "raw_dataset_id": "1480",
+      "sha256": "1c309a648a0d1c7dbdf768854013e7af5c3ba918f9a17f8fe83f043f2de60e62",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9976",
+      "name": "Task 9976: madelon (Supervised Classification)",
+      "raw_dataset_id": "1485",
+      "sha256": "86a6dc5cfc02a8946d726d4e6cfa0bcf643cec6522bc72a5ece93a8a3498c537",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9977",
+      "name": "Task 9977: nomao (Supervised Classification)",
+      "raw_dataset_id": "1486",
+      "sha256": "3fdacf5cfa30693bd8757418a053fa8581e214bb927aa96b7bd83b38f0bd1a14",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9978",
+      "name": "Task 9978: ozone-level-8hr (Supervised Classification)",
+      "raw_dataset_id": "1487",
+      "sha256": "e7f85e1eca7ee53f171660eaba0da84ae00e9cbdb9a122894363509cc20b928a",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "9979",
+      "name": "Task 9979: cardiotocography (Supervised Classification)",
+      "raw_dataset_id": "1466",
+      "sha256": "929a7b4032fe2ef4e12c812d1bf924a888cf02fe9f1a01ceaf2127e2ed8ec1b4",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9980",
+      "name": "Task 9980: climate-model-simulation-crashes (Supervised Classification)",
+      "raw_dataset_id": "1467",
+      "sha256": "9fc262ca3bacf5966c0938ffc1b739cbbbd9da78b965da3580b123a62848bcce",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "9983",
+      "name": "Task 9983: eeg-eye-state (Supervised Classification)",
+      "raw_dataset_id": "1471",
+      "sha256": "dcd90fa450fa2695d23642149178b374c15936940cd836df9ed522827376796b",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "10093",
+      "name": "Task 10093: banknote-authentication (Supervised Classification)",
+      "raw_dataset_id": "1462",
+      "sha256": "30691a160e854fb64ae073fcb3083fb198649a413e0d5e45af1b6a9519d1c8d3",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "10101",
+      "name": "Task 10101: blood-transfusion-service-center (Supervised Classification)",
+      "raw_dataset_id": "1464",
+      "sha256": "7381f723cfe3dc39f10f8759b3875eab47942e744fe9ecba23b45c4a855f1114",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "14951",
+      "name": "Task 14951: eeg-eye-state (Supervised Classification)",
+      "raw_dataset_id": "1471",
+      "sha256": "c3a0fbbb7ae1e672094f934ecd1da1da377f4663ecb75c730b20f650e017d9aa",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "14952",
+      "name": "Task 14952: PhishingWebsites (Supervised Classification)",
+      "raw_dataset_id": "4534",
+      "sha256": "fff307cf2d52fcf81be1744abd909153d0ae5614f721e910e54f7f183c61ce48",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "14964",
+      "name": "Task 14964: artificial-characters (Supervised Classification)",
+      "raw_dataset_id": "1459",
+      "sha256": "126a727bc8e39a9da7bd2e8e9f47c7fb605629674748b66c4c65ce94cda6343c",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "14965",
+      "name": "Task 14965: bank-marketing (Supervised Classification)",
+      "raw_dataset_id": "1461",
+      "sha256": "c1f2c9d673e746e8b170f32668a0bdb29871c4cade7d0007cb42d343c57e8480",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "14966",
+      "name": "Task 14966: Bioresponse (Supervised Classification)",
+      "raw_dataset_id": "4134",
+      "sha256": "0b754ab1d3c0b8a961c544e65006a3a11078b43656fbe7c8577015ea4aa00305",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "14968",
+      "name": "Task 14968: cylinder-bands (Supervised Classification)",
+      "raw_dataset_id": "6332",
+      "sha256": "4578da3636a8a10da29eaa7cc329e4a99f92fde970a4ef969ad1a513965cc693",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "14971",
+      "name": "Task 14971: Click_prediction_small (Supervised Classification)",
+      "raw_dataset_id": "1220",
+      "sha256": "9666766c599b6761ec2d09491a027c941d79915a6a6b86f8f1b78b92562fae61",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "34536",
+      "name": "Task 34536: Internet-Advertisements (Supervised Classification)",
+      "raw_dataset_id": "1176",
+      "sha256": "af47cb4122b67f867cfb44dafca82a8b84f51f8e4d09970d8fec0dd46ed12e09",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "34537",
+      "name": "Task 34537: PhishingWebsites (Supervised Classification)",
+      "raw_dataset_id": "4534",
+      "sha256": "f0ebf146ff2609684abddb0f3955431eca1c5250d4c8d83ce98804a51d8c7eba",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "34539",
+      "name": "Task 34539: Amazon_employee_access (Supervised Classification)",
+      "raw_dataset_id": "4135",
+      "sha256": "bffa8e6659d0fdae30b31e95f9d3367157a98ea20a2d77be0ab268f80260ddcc",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "125923",
+      "name": "Task 125923: Australian (Supervised Classification)",
+      "raw_dataset_id": "40509",
+      "sha256": "65a44a920c25a9d8a59648f26403e9f24116fb620f35f7fa9fd4b40cc8e5fb3a",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "145677",
+      "name": "Task 145677: Bioresponse (Supervised Classification)",
+      "raw_dataset_id": "4134",
+      "sha256": "eaab0f20f62fec04a3112f2fa17d41a35b4b4b731be94cce1d54771f8041b6b7",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145804",
+      "name": "Task 145804: tic-tac-toe (Supervised Classification)",
+      "raw_dataset_id": "50",
+      "sha256": "40d984c2dc7078c343ec532d534ee851a1800131ee004a755d86248ea6531db8",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "145833",
+      "name": "Task 145833: bank-marketing (Supervised Classification)",
+      "raw_dataset_id": "1461",
+      "sha256": "f9706e52638fd15ec341e5fd7ef89a1a79c43266691720ad89acfa388487cc60",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145834",
+      "name": "Task 145834: banknote-authentication (Supervised Classification)",
+      "raw_dataset_id": "1462",
+      "sha256": "57696de271ff1d0a3103f72c68d8c01992019994bf70c5577aa78736b8ed520e",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145836",
+      "name": "Task 145836: blood-transfusion-service-center (Supervised Classification)",
+      "raw_dataset_id": "1464",
+      "sha256": "c618f5b298ddc8150d92c3af84ce3f16919e08901a197b388c69cc66070debf2",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145839",
+      "name": "Task 145839: climate-model-simulation-crashes (Supervised Classification)",
+      "raw_dataset_id": "1467",
+      "sha256": "78e6e37ca37859aae24b3d9e2d33104eb193be10846ba1593ff430aa57e4c283",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145847",
+      "name": "Task 145847: hill-valley (Supervised Classification)",
+      "raw_dataset_id": "1479",
+      "sha256": "2b39d49c20a1d62614e105d55462fe53351582ee709a2eb7adb693d918327f0b",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "145848",
+      "name": "Task 145848: ilpd (Supervised Classification)",
+      "raw_dataset_id": "1480",
+      "sha256": "79a334790a582b2a7884395c67f27132f67e5f3210efcd0481663f80cf52d4b4",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145853",
+      "name": "Task 145853: madelon (Supervised Classification)",
+      "raw_dataset_id": "1485",
+      "sha256": "05351618d7636776de5fda3799782df337bad643a64edfdca5500fbe5e61d675",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145854",
+      "name": "Task 145854: nomao (Supervised Classification)",
+      "raw_dataset_id": "1486",
+      "sha256": "c0b1f22065142c9a5625980562dff8523ee3f8e2cbfa7f691766ba05a6c8deab",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145855",
+      "name": "Task 145855: ozone-level-8hr (Supervised Classification)",
+      "raw_dataset_id": "1487",
+      "sha256": "ec3a97c421ec0c06fa3772d7cfe1945a8ec481e17dd1e649a99b29affd79566d",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145857",
+      "name": "Task 145857: phoneme (Supervised Classification)",
+      "raw_dataset_id": "1489",
+      "sha256": "a4ff9efb346a059ee0fcbca40c3abf3426c9083596a383efc56c6c806ccda1fa",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145862",
+      "name": "Task 145862: qsar-biodeg (Supervised Classification)",
+      "raw_dataset_id": "1494",
+      "sha256": "00829bbb4a660a55a14a24ac24c283e06d96107cab530e966ac05247aa474cba",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145872",
+      "name": "Task 145872: steel-plates-fault (Supervised Classification)",
+      "raw_dataset_id": "1504",
+      "sha256": "18b2b651bb005c443087fc1e45592189ef2720b721bbc31eeecc300b1c811df8",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145878",
+      "name": "Task 145878: wdbc (Supervised Classification)",
+      "raw_dataset_id": "1510",
+      "sha256": "1fdce880f4cdd8f8ac47a7aee53b680e9b85a14add4937057f89287e6ec46b60",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145953",
+      "name": "Task 145953: kr-vs-kp (Supervised Classification)",
+      "raw_dataset_id": "3",
+      "sha256": "17033eaf116d93d05aee5d78830e79936cdae086d5e9b8ed98a97a60a734a693",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "145972",
+      "name": "Task 145972: credit-g (Supervised Classification)",
+      "raw_dataset_id": "31",
+      "sha256": "cffc6b9b529f5ee7548d5b88f2b0c4994374dd220b4705652320299a0e9a669a",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "145976",
+      "name": "Task 145976: diabetes (Supervised Classification)",
+      "raw_dataset_id": "37",
+      "sha256": "25183346e779578fc374c89bdbf9b9876ad9706b5f50218e41501fee39e508cf",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "145979",
+      "name": "Task 145979: spambase (Supervised Classification)",
+      "raw_dataset_id": "44",
+      "sha256": "820fc3dd33f15f9d666c341bca09b033ebf93f8cd19b6b9148af1a4bd56b3ccc",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "146012",
+      "name": "Task 146012: electricity (Supervised Classification)",
+      "raw_dataset_id": "151",
+      "sha256": "2ed08ca6a96edbf3e968d08ffe06a9af872e9fd1683740e671262df807a2692a",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "146064",
+      "name": "Task 146064: monks-problems-1 (Supervised Classification)",
+      "raw_dataset_id": "333",
+      "sha256": "8d6298672f4e8e12abb8939a85142055af8ebfe736694cbd8b74ff2bc72ce633",
+      "source": true
+    },
+    {
+      "heldout": true,
+      "id": "146065",
+      "name": "Task 146065: monks-problems-2 (Supervised Classification)",
+      "raw_dataset_id": "334",
+      "sha256": "593464bbd53fac82c50d5153b7dda6582a170b5bb0aa4bc9e0bc6a8c05ad92a7",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "146066",
+      "name": "Task 146066: monks-problems-3 (Supervised Classification)",
+      "raw_dataset_id": "335",
+      "sha256": "c5d6a78d9d105e4bea1905c0d96f5a6e5f72963b8efd48446bc614689df4d071",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "146082",
+      "name": "Task 146082: musk (Supervised Classification)",
+      "raw_dataset_id": "1116",
+      "sha256": "34478574c1f5d8ae2b10501c369dfb9e8cdb947b6e73c91031804aafaadd3a3e",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "146085",
+      "name": "Task 146085: Internet-Advertisements (Supervised Classification)",
+      "raw_dataset_id": "1176",
+      "sha256": "d5218b92b36feecc7f2aef17bc239ada4b4df37131edebb32a8064a6b1bbb01b",
+      "source": true
+    },
+    {
+      "heldout": false,
+      "id": "146803",
+      "name": "Task 146803: credit-g (Supervised Classification)",
+      "raw_dataset_id": "31",
+      "sha256": "27d3c913312581f43163edf2e1fa2c56e3ee3fa47fefdc01b543eab2cc606de1",
+      "source": true
+    }
+  ],
+  "raw_datasets_downloaded": false,
+  "target_response_queries": 0
+}

@@ -1,0 +1,32 @@
+{
+  "archive_sha256": "5bebc9bf606910187e7e9528a6eb2a8ec0d6b5f66a65289abf3eedea5c22f1f8",
+  "files": {
+    "results/strong_online_baselines_v1/ABORTED_ENGINEERING.json": "55a38ba1b07da7a7489095e37f0d4a5797afcac73792080270fcc1702dc86c8a",
+    "results/strong_online_baselines_v1/cases/0_0_GP_LogEI.json": "25fce40bb1a296a12ba2c587b3d16689f81916686bbfc8bcfa15d77db7748be0",
+    "results/strong_online_baselines_v1/cases/0_0_GP_LogEI.pt": "0d1f4b1e5ebd39f44ff6d4081c7ed999b4f3c6240e42fbea673ff12de7b8a0ed",
+    "results/strong_online_baselines_v1/cases/0_1_GP_LogEI.json": "94add38b37dd3b854c6942ce83c4590acaa9ab16140778a34195e52dff226300",
+    "results/strong_online_baselines_v1/cases/0_1_GP_LogEI.pt": "3e369a36067cba409354cf21b3f6eaeb469d8e51e0f2a13ca28d8cd42f7809b8",
+    "results/strong_online_baselines_v1/cases/1_0_GP_LogEI.json": "31f4ca83b642ef00da2882c770e36aa99ab9b6bba3a28e40b9d6bb6760ffdecd",
+    "results/strong_online_baselines_v1/cases/1_0_GP_LogEI.pt": "f11c5fca06767ebb99275a9786013363d5b00a4c6e3c9856785f56273b6fe6b9",
+    "results/strong_online_baselines_v1/cases/1_1_GP_LogEI.json": "3c362be7cc9498b2a5086c370493ff5e5d670ba22a7e974f9c96236e3e27cbe3",
+    "results/strong_online_baselines_v1/cases/1_1_GP_LogEI.pt": "00c1e6253e6a8314c8276407225b1decb2f9061b22265a69d51c37db9fc1b52e",
+    "results/strong_online_baselines_v1/cases/2_0_GP_LogEI.json": "d9553f3180c2116fc5b1ce6a9e50f63f6023d8b2a5aa8c13cce4a9243dcf5059",
+    "results/strong_online_baselines_v1/cases/2_0_GP_LogEI.pt": "4de874e3bc9ac5b0f41937d206408999c5f7ed137b6d8d8335aacf135899b726",
+    "results/strong_online_baselines_v1/cases/2_1_GP_LogEI.json": "bf7c79bb5ca918203acd03e1d3a9e8bcf8aa2b1988cfbe246f316105dae8def5",
+    "results/strong_online_baselines_v1/cases/2_1_GP_LogEI.pt": "2185703d1db612bd0963d8686038b7976e979fd1271ed3b7d2d79726c11dddd0",
+    "results/strong_online_baselines_v1/cases/identity.json": "bd83d193d15ff5d41291b033ff01d9ee7f9f33c8e4b6da3bf6efe280e5a52930",
+    "results/strong_online_baselines_v1/contracts.pt": "07b1dd34331adb6c6a608428494a3c9e4f40b605e84be33ef55c13b112341db7",
+    "results/strong_online_baselines_v1/diagnostic.log": "66fb105f15d86e6e265821d6aef3c529cac155949ee70de6125107d4fa380ef6",
+    "results/strong_online_baselines_v1/diagnostic/FAILURE.json": "ae4dec5ba60ea84ddafbb711ca2694b3fb5a0ac16bebe2a6e2df7bfd555ac807",
+    "results/strong_online_baselines_v1/diagnostic/failed_model.pt": "d0d43fcbde5dc8cf7a9fc091b51b0ac998d403e666e10ad93b423deb5ff92599",
+    "results/strong_online_baselines_v1/diagnostic/paid.pt": "9e7e93a20d26fe08f86e4ca9368ffa627bafa1080c5c6648ee6ccc1cf9d4c7f2",
+    "results/strong_online_baselines_v1/diagnostic/refit_cold.pt": "dda298647d60c09ab9b3aa2ee657525d7090f7559adaee183fa386a685bf88a1",
+    "results/strong_online_baselines_v1/diagnostic/refit_warm.pt": "73ce26c51ee19ccae7fe282034f17bdc3a6d1cdea76dfcf84a9cecea81c5023f",
+    "results/strong_online_baselines_v1/errors/0_0_TuRBO_LogEI.json": "c6e3e817c57dc110630fbaac958163e5a4675a2b48aa7033d94bfba0c51d8c33",
+    "results/strong_online_baselines_v1/errors/2_1_TuRBO_LogEI.json": "cf435dfe3a2ea75cb28483dcc7d2e1e18d34f6e08a8da6dd63e9a140684d7c2b",
+    "results/strong_online_baselines_v1/identity.json": "bd83d193d15ff5d41291b033ff01d9ee7f9f33c8e4b6da3bf6efe280e5a52930",
+    "results/strong_online_baselines_v1/run.log": "38926876df1b1d882c445946fc6b83b43f5a0ef3289fee749b1e6bce22d2f3ce",
+    "results/strong_online_baselines_v1/source/LICENSE.botorch": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "results/strong_online_baselines_v1/source/turbo_tutorial.html": "c96a55aaeddbeb1efcb51c9e93b23c015e40a6ab2bfec4b89d4fe2700ae13cab"
+  }
+}

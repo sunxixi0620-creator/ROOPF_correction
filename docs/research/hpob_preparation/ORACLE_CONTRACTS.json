@@ -1,0 +1,9 @@
+{
+  "benchmark_objective_calls": 0,
+  "duplicate_invalid_and_overbudget_rejected": true,
+  "fabricated_queries": 2,
+  "raw_paid_responses": true,
+  "separate_response_process": true,
+  "source_sha256": "b1754c1f4c9aa41e241d426fd80eadeaba68fdf4aab9663cef4a11d5d5f1c23b",
+  "test_responses_downloaded": false
+}

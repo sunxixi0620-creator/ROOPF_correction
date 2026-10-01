@@ -1,0 +1,410 @@
+[
+  {
+    "id": "2",
+    "name": "anneal",
+    "version": "1",
+    "md5": "4eaed8b6ec9d8211024b6c089b064761"
+  },
+  {
+    "id": "3",
+    "name": "kr-vs-kp",
+    "version": "1",
+    "md5": "ad6eb32b7492524d4382a40e23cdbb8e"
+  },
+  {
+    "id": "11",
+    "name": "balance-scale",
+    "version": "1",
+    "md5": "76938608d472f620c170cef9c8c1fa65"
+  },
+  {
+    "id": "15",
+    "name": "breast-w",
+    "version": "1",
+    "md5": "88633c065209e7a57323d3d7f2d00546"
+  },
+  {
+    "id": "18",
+    "name": "mfeat-morphological",
+    "version": "1",
+    "md5": "5600bd857927b893e2e4430240b2e74a"
+  },
+  {
+    "id": "21",
+    "name": "car",
+    "version": "1",
+    "md5": "ce8a51e4d55a480d91327d64bf09cffc"
+  },
+  {
+    "id": "23",
+    "name": "cmc",
+    "version": "1",
+    "md5": "3149646ecff276abac3e892d1556655f"
+  },
+  {
+    "id": "29",
+    "name": "credit-approval",
+    "version": "1",
+    "md5": "a948be968270a823fce432227c1aa36e"
+  },
+  {
+    "id": "31",
+    "name": "credit-g",
+    "version": "1",
+    "md5": "9a475053fed0c26ee95cd4525e50074c"
+  },
+  {
+    "id": "36",
+    "name": "segment",
+    "version": "1",
+    "md5": "037621812203bfd85c8dab1d7f16ebc6"
+  },
+  {
+    "id": "37",
+    "name": "diabetes",
+    "version": "1",
+    "md5": "3cbaa3e54586aa88cf6aacb4033e4470"
+  },
+  {
+    "id": "42",
+    "name": "soybean",
+    "version": "1",
+    "md5": "39fa77494bb23a6bc09ca36ede1184a2"
+  },
+  {
+    "id": "43",
+    "name": "haberman",
+    "version": "1",
+    "md5": "fe063732e696d8e7aa79746032f0191b"
+  },
+  {
+    "id": "44",
+    "name": "spambase",
+    "version": "1",
+    "md5": "d9ace01aeac3461e326a8e1b2d53fd84"
+  },
+  {
+    "id": "50",
+    "name": "tic-tac-toe",
+    "version": "1",
+    "md5": "34b2992c41e5e23c42769817e96305ac"
+  },
+  {
+    "id": "53",
+    "name": "heart-statlog",
+    "version": "1",
+    "md5": "65dd57335c2c0e458cf83b22af8db16b"
+  },
+  {
+    "id": "54",
+    "name": "vehicle",
+    "version": "1",
+    "md5": "fbba18157b188f309d772f9ca4e578f5"
+  },
+  {
+    "id": "151",
+    "name": "electricity",
+    "version": "1",
+    "md5": "8ca97867d960ae029ae3a9ac2c923d34"
+  },
+  {
+    "id": "188",
+    "name": "eucalyptus",
+    "version": "1",
+    "md5": "adaf2938bd76922c010d3d32592bdb80"
+  },
+  {
+    "id": "307",
+    "name": "vowel",
+    "version": "2",
+    "md5": "9c82432df30166fc62353fe4f8bb237a"
+  },
+  {
+    "id": "312",
+    "name": "scene",
+    "version": "1",
+    "md5": "8ceccf81e895a6520a78bf6f756dde17"
+  },
+  {
+    "id": "333",
+    "name": "monks-problems-1",
+    "version": "1",
+    "md5": "6cd008dccee6a34420c091dfe7cdb457"
+  },
+  {
+    "id": "334",
+    "name": "monks-problems-2",
+    "version": "1",
+    "md5": "6fdd89666158107428442fb0f8847117"
+  },
+  {
+    "id": "335",
+    "name": "monks-problems-3",
+    "version": "1",
+    "md5": "16e0d4dc4b7b0ad65c2ac1b0c0bebf57"
+  },
+  {
+    "id": "377",
+    "name": "synthetic_control",
+    "version": "1",
+    "md5": "8762c53ac2c0a8f584915b06ed044611"
+  },
+  {
+    "id": "451",
+    "name": "irish",
+    "version": "1",
+    "md5": "b7f36a00bc8f9e2ab73d530b6f3ccb3d"
+  },
+  {
+    "id": "458",
+    "name": "analcatdata_authorship",
+    "version": "1",
+    "md5": "bc8ba9aaf1615e1f0659bd4399a0f151"
+  },
+  {
+    "id": "469",
+    "name": "analcatdata_dmft",
+    "version": "1",
+    "md5": "ad86226880052117a3e95479cf61faf6"
+  },
+  {
+    "id": "470",
+    "name": "profb",
+    "version": "1",
+    "md5": "87e2345053544e0dc4352ee91add043c"
+  },
+  {
+    "id": "478",
+    "name": "collins",
+    "version": "1",
+    "md5": "1956225e2fa96728d4d351f6147655e6"
+  },
+  {
+    "id": "1036",
+    "name": "sylva_agnostic",
+    "version": "1",
+    "md5": "f33e876c937d70387e5e0d2a4308bbf6"
+  },
+  {
+    "id": "1038",
+    "name": "gina_agnostic",
+    "version": "1",
+    "md5": "e8b42f51e0a453e4b77c24f8e2569948"
+  },
+  {
+    "id": "1043",
+    "name": "ada_agnostic",
+    "version": "1",
+    "md5": "bdff0c6d2cfd9ce53a823464e136b3bd"
+  },
+  {
+    "id": "1046",
+    "name": "mozilla4",
+    "version": "1",
+    "md5": "55aa6b33c54391f35bdd0f1c5a247c22"
+  },
+  {
+    "id": "1049",
+    "name": "pc4",
+    "version": "1",
+    "md5": "907e332da09127c2b25620051ff7dbd3"
+  },
+  {
+    "id": "1050",
+    "name": "pc3",
+    "version": "1",
+    "md5": "a93c30f6c357d3ee74bccb247b10ef68"
+  },
+  {
+    "id": "1063",
+    "name": "kc2",
+    "version": "1",
+    "md5": "99e1aabb687c9bc20225f2899746832f"
+  },
+  {
+    "id": "1067",
+    "name": "kc1",
+    "version": "1",
+    "md5": "bcc004464934075ecaf54d84e45c427a"
+  },
+  {
+    "id": "1068",
+    "name": "pc1",
+    "version": "1",
+    "md5": "32f17b71c893473d8e0645d268796794"
+  },
+  {
+    "id": "1116",
+    "name": "musk",
+    "version": "1",
+    "md5": "08a7f184b6cb2375d5b2b75bbeaaf611"
+  },
+  {
+    "id": "1120",
+    "name": "MagicTelescope",
+    "version": "1",
+    "md5": "f6dee76810bd7211716fee7b2b0317cb"
+  },
+  {
+    "id": "1176",
+    "name": "Internet-Advertisements",
+    "version": "1",
+    "md5": "8407920c6389c88ab74dcaf5c7aa62a1"
+  },
+  {
+    "id": "1220",
+    "name": "Click_prediction_small",
+    "version": "5",
+    "md5": "2d0de4e34d32f9baf601ca3c917a9187"
+  },
+  {
+    "id": "1459",
+    "name": "artificial-characters",
+    "version": "1",
+    "md5": "9f872114cc6f0cf59ea4e3315b581a83"
+  },
+  {
+    "id": "1461",
+    "name": "bank-marketing",
+    "version": "1",
+    "md5": "b29d2eb78e508569fd41172c97bda00e"
+  },
+  {
+    "id": "1462",
+    "name": "banknote-authentication",
+    "version": "1",
+    "md5": "baa2dc5b745775a943ebeb9c276401f8"
+  },
+  {
+    "id": "1464",
+    "name": "blood-transfusion-service-center",
+    "version": "1",
+    "md5": "c3242468edab8c2e7a907674122dc851"
+  },
+  {
+    "id": "1466",
+    "name": "cardiotocography",
+    "version": "1",
+    "md5": "b0cca84576bffc429099af497278763c"
+  },
+  {
+    "id": "1467",
+    "name": "climate-model-simulation-crashes",
+    "version": "1",
+    "md5": "c3d91dc521c59323cdfba6336a5d59a0"
+  },
+  {
+    "id": "1471",
+    "name": "eeg-eye-state",
+    "version": "1",
+    "md5": "32086b7bec4daaa9cbe5f19efa63368c"
+  },
+  {
+    "id": "1479",
+    "name": "hill-valley",
+    "version": "1",
+    "md5": "347b591c7006712869fcae81a88dc0db"
+  },
+  {
+    "id": "1480",
+    "name": "ilpd",
+    "version": "1",
+    "md5": "155295549a459387fb71312caf1b8360"
+  },
+  {
+    "id": "1485",
+    "name": "madelon",
+    "version": "1",
+    "md5": "9a4a0c7fa94e6f824962b4c6fbd1812c"
+  },
+  {
+    "id": "1486",
+    "name": "nomao",
+    "version": "1",
+    "md5": "8fc1ac73fbe5236892e166f9f24d7221"
+  },
+  {
+    "id": "1487",
+    "name": "ozone-level-8hr",
+    "version": "1",
+    "md5": "6e6b7aeb382e30ae79149e4e5845cf2d"
+  },
+  {
+    "id": "1489",
+    "name": "phoneme",
+    "version": "1",
+    "md5": "902ff27649dbfb512f3fb01fc05c6b24"
+  },
+  {
+    "id": "1494",
+    "name": "qsar-biodeg",
+    "version": "1",
+    "md5": "a2c189cd65511103fa540d7186155c24"
+  },
+  {
+    "id": "1504",
+    "name": "steel-plates-fault",
+    "version": "1",
+    "md5": "7917ace4246897272fc35e17131f1b38"
+  },
+  {
+    "id": "1510",
+    "name": "wdbc",
+    "version": "1",
+    "md5": "7aa183d3657e364911ced0cbd6b272bd"
+  },
+  {
+    "id": "1552",
+    "name": "autoUniv-au7-1100",
+    "version": "1",
+    "md5": "2d14d83c68325513f0700a43dc195ddd"
+  },
+  {
+    "id": "1553",
+    "name": "autoUniv-au7-700",
+    "version": "1",
+    "md5": "8e9823f7d718186e2caf5fc360cc036c"
+  },
+  {
+    "id": "1554",
+    "name": "autoUniv-au7-500",
+    "version": "1",
+    "md5": "f04925b12e6e65d33f59b6a0db2e4d41"
+  },
+  {
+    "id": "1570",
+    "name": "wilt",
+    "version": "1",
+    "md5": "f56f95bac28580e0750b515885efbf49"
+  },
+  {
+    "id": "4134",
+    "name": "Bioresponse",
+    "version": "1",
+    "md5": "f34816f743ec2f535dd92b8e5e01bb59"
+  },
+  {
+    "id": "4135",
+    "name": "Amazon_employee_access",
+    "version": "1",
+    "md5": "5502ee73e563ddf5b699ffe0c633905b"
+  },
+  {
+    "id": "4534",
+    "name": "PhishingWebsites",
+    "version": "1",
+    "md5": "fa52215c3e8caba4b765afa33bc92657"
+  },
+  {
+    "id": "6332",
+    "name": "cylinder-bands",
+    "version": "2",
+    "md5": "59ec3d17d1fb9fa79c3108a7a5a9bc5e"
+  },
+  {
+    "id": "40509",
+    "name": "Australian",
+    "version": "3",
+    "md5": "a910a2411e614ac874aacf83badc616f"
+  }
+]
