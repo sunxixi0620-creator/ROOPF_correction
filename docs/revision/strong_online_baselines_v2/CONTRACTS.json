@@ -1,0 +1,8 @@
+{
+  "calls": 36,
+  "cold_recovery_passed": true,
+  "exact_resume": true,
+  "no_failure_path_matches_v1": true,
+  "recovery_replay_extra_calls": 0,
+  "replay_error": 2.2635075147547923e-08
+}
