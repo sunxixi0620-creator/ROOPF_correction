@@ -10,11 +10,13 @@ import zipfile
 from pathlib import Path
 import numpy as np
 import torch
+from gpytorch.constraints import Interval
 from scipy.spatial.distance import pdist
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from scripts import strong_online_baselines_v2 as s
-from roopf.fitted_online_v2 import replay_score, TrustRegion
+from roopf.fitted_online_v2 import model_for, TrustRegion
+from botorch.acquisition import LogExpectedImprovement
 from roopf.experiment_io import CaseStore, write_json, sha256, fingerprint
 
 
@@ -22,10 +24,30 @@ def load(j):
     return CaseStore(s.RUN/'cases', s.verify()).load('_'.join(map(str, j)), dict(job=j))
 
 
+def replay_score(x, y, method, info, device='cpu'):
+    model = model_for(x[info['offset']:], y[info['offset']:], method, device)
+    with torch.no_grad():
+        for name, p in model.named_parameters():
+            p.copy_(info['parameters'][name].to(p))
+    model.eval()
+    acq = LogExpectedImprovement(model, best_f=(-y[info['offset']:]).max().to(device=device, dtype=torch.double))
+    unit = (info['point'].to(device=device, dtype=torch.double)+5)/10
+    # The recorded score was evaluated as 10 optimized starts + 512 Sobol
+    # candidates. Reconstruct its batch arithmetic; single-query GPyTorch
+    # kernels can take a different numerical path on ill-conditioned GP fits.
+    # Repeating the same point changes no statistical calculation or paid data.
+    with torch.no_grad():
+        return float(acq(unit.reshape(1,1,20).repeat(522,1,1))[0].cpu())
+
+
 def verify():
     s.verify()
     assert (s.RUN/'COMPLETE.json').exists()
     torch.set_num_threads(1)
+    # Match the model constructor: bounds are created in float32, then the model
+    # (including constraint buffers) is converted to float64. A Python .005
+    # literal in float64 is a different number. Do not relax audit tolerances.
+    length_constraint = Interval(.005, 4.).double()
     parent = CaseStore(s.parent.RUN/'cases', s.parent.verify())
     cpu_errors, gpu_errors, warnings, restarts = [], [], [], 0
     recoveries=0
@@ -60,7 +82,7 @@ def verify():
             assert (point >= bounds[0]-1e-7).all() and (point <= bounds[1]+1e-7).all()
             if state:
                 ls_raw = info['parameters']['covar_module.base_kernel.raw_lengthscale'].flatten()
-                ls = .005 + (4-.005)*ls_raw.sigmoid()
+                ls = length_constraint.transform(ls_raw)
                 w = ls/ls.log().mean().exp()
                 local = y[state.start:paid]
                 center = (x[state.start+int(local.argmin())].double()+5)/10
