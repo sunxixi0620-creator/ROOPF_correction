@@ -1,0 +1,4 @@
+# Existing Python 3.10 / torch 2.11.0+cu128 environment; no torch replacement.
+botorch==0.16.1
+gpytorch==1.15.2
+linear-operator==0.6.1

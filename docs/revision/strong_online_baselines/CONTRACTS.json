@@ -1,0 +1,8 @@
+{
+  "calls": 48,
+  "deterministic": true,
+  "epochs": 0,
+  "paid_only": true,
+  "posterior_replay": true,
+  "trust_region_transitions": true
+}
