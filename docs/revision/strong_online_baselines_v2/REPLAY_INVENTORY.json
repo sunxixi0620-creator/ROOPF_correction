@@ -1,0 +1,7278 @@
+{
+  "rows": [
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        0,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.419486915845482e-14,
+      "job": [
+        0,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-14,
+      "job": [
+        0,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4148504590139055e-10,
+      "job": [
+        0,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.256151400904855e-11,
+      "job": [
+        0,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.7755575615628914e-15,
+      "job": [
+        0,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3173463975799677e-13,
+      "job": [
+        0,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.2721381987576024e-13,
+      "job": [
+        0,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.350029458142444e-06,
+      "job": [
+        0,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.715338981966852e-11,
+      "job": [
+        0,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9984014443252818e-15,
+      "job": [
+        0,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.133015986061082e-14,
+      "job": [
+        0,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9206858326015208e-14,
+      "job": [
+        0,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.999911430379143e-11,
+      "job": [
+        0,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.5412738580143923e-10,
+      "job": [
+        0,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.6629367034256575e-15,
+      "job": [
+        0,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3357760997887453e-12,
+      "job": [
+        0,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.7688963061555114e-11,
+      "job": [
+        0,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0844460884840146e-08,
+      "job": [
+        0,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.8946750306200215e-06,
+      "job": [
+        0,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        1,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.4480417692984702e-14,
+      "job": [
+        1,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.884981308350689e-15,
+      "job": [
+        1,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.37303551545665e-11,
+      "job": [
+        1,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.8754776337791554e-10,
+      "job": [
+        1,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3306690738754696e-16,
+      "job": [
+        1,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1746159600534156e-13,
+      "job": [
+        1,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3850700020821023e-13,
+      "job": [
+        1,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.575841762109121e-10,
+      "job": [
+        1,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3269769283397181e-08,
+      "job": [
+        1,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        1,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.865174681370263e-14,
+      "job": [
+        1,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.604228440844963e-15,
+      "job": [
+        1,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220357231408343e-11,
+      "job": [
+        1,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.2650414877034564e-10,
+      "job": [
+        1,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.1086244689504383e-15,
+      "job": [
+        1,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.488897893864305e-11,
+      "job": [
+        1,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1216583217787957e-11,
+      "job": [
+        1,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.320366700649174e-11,
+      "job": [
+        1,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.0959314873134645e-07,
+      "job": [
+        1,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        2,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.398081733190338e-14,
+      "job": [
+        2,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.886579864025407e-14,
+      "job": [
+        2,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.199218750500222e-11,
+      "job": [
+        2,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3135448284629092e-10,
+      "job": [
+        2,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.552713678800501e-15,
+      "job": [
+        2,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.695222319943241e-11,
+      "job": [
+        2,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.0489166746860974e-11,
+      "job": [
+        2,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3612502680615535e-08,
+      "job": [
+        2,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6567302935376347e-07,
+      "job": [
+        2,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        2,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.103828801926284e-15,
+      "job": [
+        2,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.703349235223868e-14,
+      "job": [
+        2,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.574474381044638e-11,
+      "job": [
+        2,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.602363100682851e-11,
+      "job": [
+        2,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.219646771412954e-15,
+      "job": [
+        2,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.3265613314247275e-11,
+      "job": [
+        2,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.892264702353714e-11,
+      "job": [
+        2,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.4459522164384e-09,
+      "job": [
+        2,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0028090233760167e-06,
+      "job": [
+        2,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        3,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.552713678800501e-15,
+      "job": [
+        3,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1546319456101628e-14,
+      "job": [
+        3,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.8692159759202696e-11,
+      "job": [
+        3,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.738077011434143e-11,
+      "job": [
+        3,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.1086244689504383e-15,
+      "job": [
+        3,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.127853366256204e-11,
+      "job": [
+        3,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.295319738252147e-12,
+      "job": [
+        3,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.947984079071375e-10,
+      "job": [
+        3,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.22110915718099e-08,
+      "job": [
+        3,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        3,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4210854715202004e-14,
+      "job": [
+        3,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.8207657603852567e-14,
+      "job": [
+        3,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.091793653377863e-11,
+      "job": [
+        3,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2794210135780304e-10,
+      "job": [
+        3,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.884981308350689e-15,
+      "job": [
+        3,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.2240876635114546e-12,
+      "job": [
+        3,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.071320975323033e-12,
+      "job": [
+        3,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.578226438425645e-11,
+      "job": [
+        3,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3444678138039308e-09,
+      "job": [
+        3,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        4,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.865174681370263e-14,
+      "job": [
+        4,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.985700658404312e-14,
+      "job": [
+        4,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.822906270376734e-10,
+      "job": [
+        4,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.6642689710552077e-11,
+      "job": [
+        4,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        4,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.863487638815059e-11,
+      "job": [
+        4,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1114109632615055e-10,
+      "job": [
+        4,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.462811980549986e-09,
+      "job": [
+        4,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.8889688741837745e-08,
+      "job": [
+        4,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        4,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.215650382226158e-15,
+      "job": [
+        4,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.884981308350689e-15,
+      "job": [
+        4,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.568878774260156e-11,
+      "job": [
+        4,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.465494888947433e-11,
+      "job": [
+        4,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.4424906541753444e-15,
+      "job": [
+        4,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.9030556564512153e-11,
+      "job": [
+        4,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.6536327862581857e-11,
+      "job": [
+        4,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.721032536598614e-10,
+      "job": [
+        4,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.8835428790901e-08,
+      "job": [
+        4,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        5,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6645352591003757e-15,
+      "job": [
+        5,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.8310687127941492e-14,
+      "job": [
+        5,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1216361173183031e-10,
+      "job": [
+        5,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.284439221649336e-10,
+      "job": [
+        5,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        5,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.823164007599189e-12,
+      "job": [
+        5,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.533240532429318e-12,
+      "job": [
+        5,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.6492942001586925e-10,
+      "job": [
+        5,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.083893732191427e-08,
+      "job": [
+        5,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        5,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4432899320127035e-15,
+      "job": [
+        5,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.9531932455029164e-14,
+      "job": [
+        5,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.865263664692975e-11,
+      "job": [
+        5,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.5628033856482944e-10,
+      "job": [
+        5,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        5,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.8051338201985345e-11,
+      "job": [
+        5,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.384625995612623e-11,
+      "job": [
+        5,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.473448609436218e-10,
+      "job": [
+        5,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.668882099181701e-08,
+      "job": [
+        5,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-15,
+      "job": [
+        6,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5543122344752192e-15,
+      "job": [
+        6,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.9968028886505635e-14,
+      "job": [
+        6,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.055067475723263e-12,
+      "job": [
+        6,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0942358130705543e-10,
+      "job": [
+        6,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        6,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.467271163046462e-12,
+      "job": [
+        6,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.717026686445024e-12,
+      "job": [
+        6,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9948154239557425e-10,
+      "job": [
+        6,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.834380286032001e-08,
+      "job": [
+        6,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        6,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3988810110276972e-14,
+      "job": [
+        6,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.219646771412954e-14,
+      "job": [
+        6,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0969003483296547e-13,
+      "job": [
+        6,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.970690939553606e-12,
+      "job": [
+        6,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        6,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0985834464349864e-10,
+      "job": [
+        6,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.51754214434186e-11,
+      "job": [
+        6,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.164983996053252e-10,
+      "job": [
+        6,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.147919424075553e-08,
+      "job": [
+        6,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        7,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.530509218307998e-14,
+      "job": [
+        7,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1538326677728037e-14,
+      "job": [
+        7,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.497824417943775e-13,
+      "job": [
+        7,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.8758328224066645e-12,
+      "job": [
+        7,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        7,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.595257342363766e-12,
+      "job": [
+        7,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.769962616701378e-14,
+      "job": [
+        7,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.8753002463163284e-12,
+      "job": [
+        7,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.264372297617228e-09,
+      "job": [
+        7,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        7,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-15,
+      "job": [
+        7,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.884981308350689e-15,
+      "job": [
+        7,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.363798377151397e-13,
+      "job": [
+        7,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.044809097716097e-10,
+      "job": [
+        7,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3306690738754696e-15,
+      "job": [
+        7,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.264144841201414e-11,
+      "job": [
+        7,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.0033753262159735e-12,
+      "job": [
+        7,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.489590673031671e-10,
+      "job": [
+        7,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.7365679500235274e-08,
+      "job": [
+        7,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        8,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.040412531798211e-14,
+      "job": [
+        8,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.061817714453355e-14,
+      "job": [
+        8,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.706901783421927e-11,
+      "job": [
+        8,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.851905295779943e-10,
+      "job": [
+        8,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        8,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2434497875801753e-13,
+      "job": [
+        8,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.2218672174622043e-13,
+      "job": [
+        8,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.186040485938292e-10,
+      "job": [
+        8,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.183517440774608e-07,
+      "job": [
+        8,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        8,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.325873406851315e-15,
+      "job": [
+        8,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.354472090042691e-14,
+      "job": [
+        8,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.354295116281719e-12,
+      "job": [
+        8,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0813572259849025e-11,
+      "job": [
+        8,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        8,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.82716081048784e-12,
+      "job": [
+        8,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.255218234381573e-11,
+      "job": [
+        8,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.200440078567681e-11,
+      "job": [
+        8,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6235923655804072e-08,
+      "job": [
+        8,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        9,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.551914400963142e-15,
+      "job": [
+        9,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.93729534823251e-15,
+      "job": [
+        9,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.312728283499382e-11,
+      "job": [
+        9,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.843166282053062e-10,
+      "job": [
+        9,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-15,
+      "job": [
+        9,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.906763801353463e-12,
+      "job": [
+        9,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.204769700142606e-11,
+      "job": [
+        9,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.3524036052435804e-09,
+      "job": [
+        9,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.18702487839073e-08,
+      "job": [
+        9,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        9,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.19824158875781e-14,
+      "job": [
+        9,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.9753977059954195e-14,
+      "job": [
+        9,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.76534350973634e-12,
+      "job": [
+        9,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.061639830548302e-11,
+      "job": [
+        9,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.551115123125783e-16,
+      "job": [
+        9,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.5516921908774748e-11,
+      "job": [
+        9,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.854694755200399e-12,
+      "job": [
+        9,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.77020645206494e-11,
+      "job": [
+        9,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.781366343323043e-08,
+      "job": [
+        9,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        10,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.886579864025407e-15,
+      "job": [
+        10,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.161737786669619e-15,
+      "job": [
+        10,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0238476733093194e-12,
+      "job": [
+        10,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1871393585115584e-12,
+      "job": [
+        10,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.9968028886505635e-15,
+      "job": [
+        10,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.069189429856124e-12,
+      "job": [
+        10,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.7487790649493036e-12,
+      "job": [
+        10,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.146758492140634e-10,
+      "job": [
+        10,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.0415152235386813e-08,
+      "job": [
+        10,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        10,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3322676295501878e-14,
+      "job": [
+        10,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.6986412276764895e-14,
+      "job": [
+        10,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.391864649733179e-11,
+      "job": [
+        10,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.4641625385775114e-12,
+      "job": [
+        10,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6645352591003757e-15,
+      "job": [
+        10,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.1894487051431497e-12,
+      "job": [
+        10,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6722957180425055e-11,
+      "job": [
+        10,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9386448002478573e-10,
+      "job": [
+        10,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.484583033345871e-07,
+      "job": [
+        10,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        11,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2878587085651816e-14,
+      "job": [
+        11,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.659739592076221e-15,
+      "job": [
+        11,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.717026686445024e-12,
+      "job": [
+        11,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.156053279302796e-11,
+      "job": [
+        11,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5543122344752192e-15,
+      "job": [
+        11,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.738742731547063e-11,
+      "job": [
+        11,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.8677506470085063e-11,
+      "job": [
+        11,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.157119093406436e-12,
+      "job": [
+        11,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7504642180199426e-09,
+      "job": [
+        11,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        11,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0880185641326534e-14,
+      "job": [
+        11,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.551115123125783e-14,
+      "job": [
+        11,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.119282940948324e-11,
+      "job": [
+        11,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.476668338948002e-10,
+      "job": [
+        11,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-16,
+      "job": [
+        11,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.893241615875013e-12,
+      "job": [
+        11,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.970423824104728e-12,
+      "job": [
+        11,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.5996982344622666e-12,
+      "job": [
+        11,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1316837827735071e-05,
+      "job": [
+        11,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        12,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.197442310920451e-14,
+      "job": [
+        12,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.43769498715119e-15,
+      "job": [
+        12,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.01136934569513e-13,
+      "job": [
+        12,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.110667527536862e-13,
+      "job": [
+        12,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.884981308350689e-15,
+      "job": [
+        12,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.533773770442622e-11,
+      "job": [
+        12,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4514411894595014e-10,
+      "job": [
+        12,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.6722926921584076e-09,
+      "job": [
+        12,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.999289870966095e-11,
+      "job": [
+        12,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        12,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.8207657603852567e-14,
+      "job": [
+        12,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-15,
+      "job": [
+        12,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1715073355844652e-12,
+      "job": [
+        12,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.8697043913107336e-11,
+      "job": [
+        12,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        12,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2582601627286749e-11,
+      "job": [
+        12,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7963408538435033e-13,
+      "job": [
+        12,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.749711817770731e-11,
+      "job": [
+        12,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.248868089642201e-11,
+      "job": [
+        12,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        13,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2434497875801753e-14,
+      "job": [
+        13,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1546319456101628e-14,
+      "job": [
+        13,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.652011860642233e-13,
+      "job": [
+        13,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.105427357601002e-13,
+      "job": [
+        13,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        13,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5258905250448151e-12,
+      "job": [
+        13,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7123191753398714e-11,
+      "job": [
+        13,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.026175114470789e-09,
+      "job": [
+        13,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.052411822248359e-10,
+      "job": [
+        13,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        13,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.952393967665557e-14,
+      "job": [
+        13,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.398081733190338e-14,
+      "job": [
+        13,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-14,
+      "job": [
+        13,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5987211554602254e-14,
+      "job": [
+        13,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.884981308350689e-15,
+      "job": [
+        13,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.565903128333048e-11,
+      "job": [
+        13,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1931877708093452e-10,
+      "job": [
+        13,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0821388229942386e-10,
+      "job": [
+        13,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.1162984132370184e-10,
+      "job": [
+        13,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5543122344752192e-15,
+      "job": [
+        14,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-15,
+      "job": [
+        14,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.993605777301127e-15,
+      "job": [
+        14,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2789769243681803e-13,
+      "job": [
+        14,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4566126083082054e-13,
+      "job": [
+        14,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-15,
+      "job": [
+        14,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.664885310314617e-11,
+      "job": [
+        14,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.372701952107036e-11,
+      "job": [
+        14,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.462554852897483e-10,
+      "job": [
+        14,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1174157716075115e-07,
+      "job": [
+        14,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        14,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0658141036401503e-14,
+      "job": [
+        14,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.773159728050814e-15,
+      "job": [
+        14,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.394884621840902e-14,
+      "job": [
+        14,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3500311979441904e-13,
+      "job": [
+        14,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5543122344752192e-15,
+      "job": [
+        14,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.7173929773027794e-11,
+      "job": [
+        14,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.854228130568572e-12,
+      "job": [
+        14,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.241460350660418e-10,
+      "job": [
+        14,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.065809022790745e-09,
+      "job": [
+        14,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        15,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.865174681370263e-14,
+      "job": [
+        15,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.687538997430238e-14,
+      "job": [
+        15,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.172573646130331e-11,
+      "job": [
+        15,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.998046503918886e-11,
+      "job": [
+        15,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6645352591003757e-15,
+      "job": [
+        15,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.54063453503295e-11,
+      "job": [
+        15,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.8209434788095678e-11,
+      "job": [
+        15,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.3450043563098006e-10,
+      "job": [
+        15,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.16928730323707e-12,
+      "job": [
+        15,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        15,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-15,
+      "job": [
+        15,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.863576125695545e-14,
+      "job": [
+        15,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.865174681370263e-13,
+      "job": [
+        15,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.702105454474804e-13,
+      "job": [
+        15,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        15,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.798184403246978e-11,
+      "job": [
+        15,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9608759060929515e-11,
+      "job": [
+        15,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.354809597842177e-10,
+      "job": [
+        15,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.9073148793301584e-05,
+      "job": [
+        15,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        16,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.325873406851315e-15,
+      "job": [
+        16,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6201263381153694e-14,
+      "job": [
+        16,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2292389328649733e-11,
+      "job": [
+        16,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4530598946294049e-12,
+      "job": [
+        16,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3322676295501878e-15,
+      "job": [
+        16,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.346745351493155e-11,
+      "job": [
+        16,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0857581500545166e-10,
+      "job": [
+        16,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.793143577013325e-10,
+      "job": [
+        16,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.722400000403468e-11,
+      "job": [
+        16,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-15,
+      "job": [
+        16,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-15,
+      "job": [
+        16,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        16,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1297629498585593e-12,
+      "job": [
+        16,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.57980353430321e-13,
+      "job": [
+        16,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.552713678800501e-15,
+      "job": [
+        16,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.224399022400576e-11,
+      "job": [
+        16,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0447154252801738e-10,
+      "job": [
+        16,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.643954453267042e-08,
+      "job": [
+        16,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.650591106132197e-12,
+      "job": [
+        16,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        17,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-14,
+      "job": [
+        17,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        17,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.394884621840902e-13,
+      "job": [
+        17,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3573144264664734e-13,
+      "job": [
+        17,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3322676295501878e-15,
+      "job": [
+        17,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.040812294827447e-11,
+      "job": [
+        17,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.2286839040930317e-11,
+      "job": [
+        17,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.500883861638158e-10,
+      "job": [
+        17,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1545432105085638e-10,
+      "job": [
+        17,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        17,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.773159728050814e-15,
+      "job": [
+        17,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.263256414560601e-14,
+      "job": [
+        17,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.00612917575927e-13,
+      "job": [
+        17,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0516032489249483e-12,
+      "job": [
+        17,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        17,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.2035484548155182e-11,
+      "job": [
+        17,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.0515312499090896e-11,
+      "job": [
+        17,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.979141626255569e-10,
+      "job": [
+        17,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.178092538609235e-09,
+      "job": [
+        17,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3306690738754696e-16,
+      "job": [
+        18,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.27675647831893e-14,
+      "job": [
+        18,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.063416270128073e-14,
+      "job": [
+        18,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.185274514791672e-12,
+      "job": [
+        18,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.461444547132487e-10,
+      "job": [
+        18,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        18,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.090061539978706e-11,
+      "job": [
+        18,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3455903058456897e-13,
+      "job": [
+        18,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.638512127845388e-10,
+      "job": [
+        18,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.00018737810409241717,
+      "job": [
+        18,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3322676295501878e-15,
+      "job": [
+        18,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        18,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3100631690576847e-14,
+      "job": [
+        18,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.382450289445842e-11,
+      "job": [
+        18,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.637277063399779e-10,
+      "job": [
+        18,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.552713678800501e-15,
+      "job": [
+        18,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.981171279425325e-11,
+      "job": [
+        18,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.8415491354062397e-11,
+      "job": [
+        18,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.983240486922114e-09,
+      "job": [
+        18,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.8397730267879524e-11,
+      "job": [
+        18,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        19,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.176836406102666e-14,
+      "job": [
+        19,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.796163466380676e-14,
+      "job": [
+        19,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.448974439379526e-11,
+      "job": [
+        19,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.15006720497513e-10,
+      "job": [
+        19,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5543122344752192e-15,
+      "job": [
+        19,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.802824804528427e-13,
+      "job": [
+        19,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.979661210631093e-13,
+      "job": [
+        19,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.487556827190929e-10,
+      "job": [
+        19,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.2673962674655286e-07,
+      "job": [
+        19,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        19,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.9531932455029164e-14,
+      "job": [
+        19,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-15,
+      "job": [
+        19,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4527223868299188e-10,
+      "job": [
+        19,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.759482111348916e-11,
+      "job": [
+        19,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6645352591003757e-15,
+      "job": [
+        19,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.4692470290688107e-12,
+      "job": [
+        19,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3781975560789306e-11,
+      "job": [
+        19,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1110704295779215e-09,
+      "job": [
+        19,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.00028851774536420294,
+      "job": [
+        19,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        20,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.6629367034256575e-15,
+      "job": [
+        20,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-15,
+      "job": [
+        20,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4561774008825523e-10,
+      "job": [
+        20,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.753459765221123e-10,
+      "job": [
+        20,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9984014443252818e-15,
+      "job": [
+        20,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.317746243349575e-12,
+      "job": [
+        20,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3111733920823099e-12,
+      "job": [
+        20,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.316813986970374e-11,
+      "job": [
+        20,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        20,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        20,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.554312234475219e-14,
+      "job": [
+        20,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.6431300764452317e-14,
+      "job": [
+        20,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.166623016199082e-11,
+      "job": [
+        20,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6640467609695406e-10,
+      "job": [
+        20,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        20,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.178968282531059e-11,
+      "job": [
+        20,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3822498701188124e-10,
+      "job": [
+        20,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.020730167056172e-09,
+      "job": [
+        20,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.47404938594309e-07,
+      "job": [
+        20,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.6645352591003757e-15,
+      "job": [
+        21,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.398081733190338e-14,
+      "job": [
+        21,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0658141036401503e-14,
+      "job": [
+        21,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1254108756020287e-11,
+      "job": [
+        21,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.027445457832073e-12,
+      "job": [
+        21,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-15,
+      "job": [
+        21,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.6358473443651746e-11,
+      "job": [
+        21,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.191047343558239e-11,
+      "job": [
+        21,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.3995385112793883e-10,
+      "job": [
+        21,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.968360028418829e-09,
+      "job": [
+        21,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.551115123125783e-17,
+      "job": [
+        21,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1324274851176597e-14,
+      "job": [
+        21,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9095836023552692e-14,
+      "job": [
+        21,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.833733661755105e-12,
+      "job": [
+        21,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.01499261720528e-10,
+      "job": [
+        21,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7208456881689926e-15,
+      "job": [
+        21,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1333156635373598e-12,
+      "job": [
+        21,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.55218068900831e-12,
+      "job": [
+        21,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.187255958105652e-08,
+      "job": [
+        21,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.398993003780106e-07,
+      "job": [
+        21,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        22,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.439293542825908e-15,
+      "job": [
+        22,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4654943925052066e-14,
+      "job": [
+        22,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.652456115332825e-11,
+      "job": [
+        22,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2186340825337538e-10,
+      "job": [
+        22,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        22,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.592064258204573e-10,
+      "job": [
+        22,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.3719692876511544e-11,
+      "job": [
+        22,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0063097022339207e-09,
+      "job": [
+        22,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.629629847206161e-10,
+      "job": [
+        22,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3322676295501878e-15,
+      "job": [
+        22,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.930988785010413e-14,
+      "job": [
+        22,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9095836023552692e-14,
+      "job": [
+        22,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4001244608152774e-11,
+      "job": [
+        22,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3926637620897964e-11,
+      "job": [
+        22,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3322676295501878e-15,
+      "job": [
+        22,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.2877078009742036e-10,
+      "job": [
+        22,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.951106108956992e-11,
+      "job": [
+        22,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.940101661077279e-10,
+      "job": [
+        22,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.622346866904991e-10,
+      "job": [
+        22,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        23,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.769962616701378e-15,
+      "job": [
+        23,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.4853010194856324e-14,
+      "job": [
+        23,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.20001794559721e-12,
+      "job": [
+        23,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0218403900807971e-10,
+      "job": [
+        23,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        23,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.136513602290506e-13,
+      "job": [
+        23,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.20525811553307e-12,
+      "job": [
+        23,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.883294183055114e-11,
+      "job": [
+        23,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.71283456704441e-10,
+      "job": [
+        23,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        23,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        23,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.973799150320701e-14,
+      "job": [
+        23,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.284750497798086e-12,
+      "job": [
+        23,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.353672812205332e-12,
+      "job": [
+        23,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.552713678800501e-15,
+      "job": [
+        23,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.2471692829337826e-11,
+      "job": [
+        23,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.077538058780192e-11,
+      "job": [
+        23,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.2358648266163073e-10,
+      "job": [
+        23,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.67107419410695e-09,
+      "job": [
+        23,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.6653345369377348e-15,
+      "job": [
+        24,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.992806499463768e-15,
+      "job": [
+        24,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2212453270876722e-14,
+      "job": [
+        24,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.548006581397203e-11,
+      "job": [
+        24,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.2596148002994596e-12,
+      "job": [
+        24,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.0539125955565396e-15,
+      "job": [
+        24,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5113466034222256e-11,
+      "job": [
+        24,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.8103296639537803e-12,
+      "job": [
+        24,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.33320079607347e-11,
+      "job": [
+        24,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7388875228618872e-08,
+      "job": [
+        24,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-16,
+      "job": [
+        24,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7985612998927536e-14,
+      "job": [
+        24,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1760371282653068e-14,
+      "job": [
+        24,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4413537030577572e-10,
+      "job": [
+        24,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.617310729784549e-10,
+      "job": [
+        24,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        24,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.481881284348674e-11,
+      "job": [
+        24,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.046596805006857e-12,
+      "job": [
+        24,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.9106495819396514e-10,
+      "job": [
+        24,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.1611994678069095e-09,
+      "job": [
+        24,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        25,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.197442310920451e-14,
+      "job": [
+        25,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3306690738754696e-16,
+      "job": [
+        25,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1731948745818954e-11,
+      "job": [
+        25,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1297984769953473e-10,
+      "job": [
+        25,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5543122344752192e-15,
+      "job": [
+        25,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.859757123971576e-11,
+      "job": [
+        25,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.8992107886361964e-10,
+      "job": [
+        25,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.812190563223794e-10,
+      "job": [
+        25,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.035868705898338e-08,
+      "job": [
+        25,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        25,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-14,
+      "job": [
+        25,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.3092638912203256e-14,
+      "job": [
+        25,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2506440327797463e-11,
+      "job": [
+        25,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4850876084437914e-10,
+      "job": [
+        25,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.771561172376096e-16,
+      "job": [
+        25,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.217215548469767e-11,
+      "job": [
+        25,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.144362465372751e-11,
+      "job": [
+        25,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.275211378830136e-10,
+      "job": [
+        25,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1131142230169644e-08,
+      "job": [
+        25,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3322676295501878e-15,
+      "job": [
+        26,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.176836406102666e-14,
+      "job": [
+        26,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.439293542825908e-15,
+      "job": [
+        26,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.7116975331864523e-11,
+      "job": [
+        26,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3652636233227895e-10,
+      "job": [
+        26,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.4416913763379853e-15,
+      "job": [
+        26,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2571765850566408e-10,
+      "job": [
+        26,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.150946501610633e-13,
+      "job": [
+        26,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.140554731359771e-11,
+      "job": [
+        26,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.998899752616808e-08,
+      "job": [
+        26,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        26,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.5091040356528538e-14,
+      "job": [
+        26,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.030109579389318e-14,
+      "job": [
+        26,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.105959768210596e-11,
+      "job": [
+        26,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.842739377229009e-10,
+      "job": [
+        26,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.3306690738754696e-16,
+      "job": [
+        26,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.8127725683098106e-12,
+      "job": [
+        26,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9062529332813938e-12,
+      "job": [
+        26,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.6090817567260274e-10,
+      "job": [
+        26,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.499205526504625e-07,
+      "job": [
+        26,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        27,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.63202784619898e-14,
+      "job": [
+        27,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.186340080674199e-14,
+      "job": [
+        27,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.225064825253867e-11,
+      "job": [
+        27,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0953016271741944e-11,
+      "job": [
+        27,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        27,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.578715598479448e-11,
+      "job": [
+        27,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.82849307811739e-11,
+      "job": [
+        27,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.67006106113854e-09,
+      "job": [
+        27,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.212792408253563e-07,
+      "job": [
+        27,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        27,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.329070518200751e-15,
+      "job": [
+        27,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.218847493575595e-15,
+      "job": [
+        27,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.305800326344979e-11,
+      "job": [
+        27,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.1807090294933005e-10,
+      "job": [
+        27,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.4424906541753444e-15,
+      "job": [
+        27,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1177725411926076e-12,
+      "job": [
+        27,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.597300235469447e-11,
+      "job": [
+        27,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4590029184802233e-09,
+      "job": [
+        27,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.945904770650486e-09,
+      "job": [
+        27,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        28,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.197442310920451e-14,
+      "job": [
+        28,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1657341758564144e-15,
+      "job": [
+        28,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.314238186812872e-12,
+      "job": [
+        28,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.796172182684131e-10,
+      "job": [
+        28,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        28,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.703071348506228e-11,
+      "job": [
+        28,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2519013603551343e-11,
+      "job": [
+        28,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.1805136302409664e-10,
+      "job": [
+        28,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1483091810760016e-08,
+      "job": [
+        28,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        28,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.147482274812319e-14,
+      "job": [
+        28,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.1502578323738817e-14,
+      "job": [
+        28,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1719780701469062e-10,
+      "job": [
+        28,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.9961811637567735e-11,
+      "job": [
+        28,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1094237467877974e-15,
+      "job": [
+        28,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.975842208907125e-12,
+      "job": [
+        28,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9320545163736824e-11,
+      "job": [
+        28,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3697887268904196e-10,
+      "job": [
+        28,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.890075348626624e-08,
+      "job": [
+        28,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        29,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.0872192862952943e-14,
+      "job": [
+        29,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9984014443252818e-15,
+      "job": [
+        29,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.4515059133564137e-11,
+      "job": [
+        29,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.986855538571035e-11,
+      "job": [
+        29,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        29,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5760726057578722e-12,
+      "job": [
+        29,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2079226507921703e-12,
+      "job": [
+        29,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.72629976558892e-10,
+      "job": [
+        29,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1804574739926466e-07,
+      "job": [
+        29,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9984014443252818e-15,
+      "job": [
+        29,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.708944180085382e-14,
+      "job": [
+        29,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.454392162258955e-14,
+      "job": [
+        29,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.9890759846202855e-12,
+      "job": [
+        29,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1664892102535305e-10,
+      "job": [
+        29,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        29,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4000356429733074e-11,
+      "job": [
+        29,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.446087859515501e-11,
+      "job": [
+        29,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.019054753560795e-09,
+      "job": [
+        29,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.2582708991691902e-05,
+      "job": [
+        29,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        30,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.197442310920451e-14,
+      "job": [
+        30,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2878587085651816e-14,
+      "job": [
+        30,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.427125498476016e-11,
+      "job": [
+        30,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.770033257273099e-10,
+      "job": [
+        30,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3322676295501878e-15,
+      "job": [
+        30,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.050404539019837e-12,
+      "job": [
+        30,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7220669334960803e-11,
+      "job": [
+        30,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.369882316585972e-11,
+      "job": [
+        30,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.48215607207203e-06,
+      "job": [
+        30,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-16,
+      "job": [
+        30,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.980948821118545e-14,
+      "job": [
+        30,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.873079800267078e-14,
+      "job": [
+        30,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.9034552539997094e-11,
+      "job": [
+        30,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.063640731047144e-09,
+      "job": [
+        30,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7763568394002505e-15,
+      "job": [
+        30,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5306866885111958e-11,
+      "job": [
+        30,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.991740106177531e-12,
+      "job": [
+        30,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.621459184927517e-11,
+      "job": [
+        30,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5449448689253131e-06,
+      "job": [
+        30,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.6653345369377348e-16,
+      "job": [
+        31,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.554312234475219e-14,
+      "job": [
+        31,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1879386363489175e-14,
+      "job": [
+        31,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.982503547054876e-11,
+      "job": [
+        31,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.109850403390737e-10,
+      "job": [
+        31,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.942890293094024e-16,
+      "job": [
+        31,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.36302122103416e-12,
+      "job": [
+        31,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.915518075383375e-12,
+      "job": [
+        31,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.311928426479426e-10,
+      "job": [
+        31,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.3238886548426763e-07,
+      "job": [
+        31,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.551115123125783e-16,
+      "job": [
+        31,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2989609388114332e-14,
+      "job": [
+        31,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9539925233402755e-14,
+      "job": [
+        31,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7579360189756699e-10,
+      "job": [
+        31,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7141843500212417e-12,
+      "job": [
+        31,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2212453270876722e-15,
+      "job": [
+        31,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.025779626852909e-11,
+      "job": [
+        31,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.95454780033333e-11,
+      "job": [
+        31,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.272058593661313e-10,
+      "job": [
+        31,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.0547118733938987e-15,
+      "job": [
+        32,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.26405569239796e-14,
+      "job": [
+        32,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.773159728050814e-15,
+      "job": [
+        32,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.7426949600339867e-11,
+      "job": [
+        32,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.5289105798929086e-10,
+      "job": [
+        32,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.274358644806853e-15,
+      "job": [
+        32,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.844258162326696e-11,
+      "job": [
+        32,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5472734204990957e-11,
+      "job": [
+        32,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1870061317486034e-11,
+      "job": [
+        32,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.56846157862401e-10,
+      "job": [
+        32,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        32,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.353672812205332e-14,
+      "job": [
+        32,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5654144647214707e-14,
+      "job": [
+        32,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2225775947172224e-11,
+      "job": [
+        32,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-10,
+      "job": [
+        32,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.552713678800501e-15,
+      "job": [
+        32,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.092903959142859e-13,
+      "job": [
+        32,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9917401061775308e-13,
+      "job": [
+        32,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.666045741596463e-12,
+      "job": [
+        32,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.36757822843947e-08,
+      "job": [
+        32,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        33,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.503552920529728e-14,
+      "job": [
+        33,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.773159728050814e-14,
+      "job": [
+        33,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5199486114170213e-10,
+      "job": [
+        33,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.659384320708341e-11,
+      "job": [
+        33,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.220446049250313e-16,
+      "job": [
+        33,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.946243414849505e-11,
+      "job": [
+        33,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.253708413808454e-11,
+      "job": [
+        33,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.622093344319183e-09,
+      "job": [
+        33,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5716414836219883e-08,
+      "job": [
+        33,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-15,
+      "job": [
+        33,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.440892098500626e-15,
+      "job": [
+        33,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.103828801926284e-15,
+      "job": [
+        33,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.51398943066306e-12,
+      "job": [
+        33,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.126921440838487e-11,
+      "job": [
+        33,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-15,
+      "job": [
+        33,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.1460168631601846e-12,
+      "job": [
+        33,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.057110534309686e-12,
+      "job": [
+        33,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.459157322221017e-10,
+      "job": [
+        33,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1361178664515137e-08,
+      "job": [
+        33,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        34,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 4.030109579389318e-14,
+      "job": [
+        34,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.375077994860476e-14,
+      "job": [
+        34,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.266454105092635e-11,
+      "job": [
+        34,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.104468207648097e-10,
+      "job": [
+        34,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1102230246251565e-15,
+      "job": [
+        34,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9246826354901714e-12,
+      "job": [
+        34,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.695444116327053e-13,
+      "job": [
+        34,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.1685452605547653e-10,
+      "job": [
+        34,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.17082376916278e-09,
+      "job": [
+        34,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        34,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2212453270876722e-14,
+      "job": [
+        34,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.769962616701378e-15,
+      "job": [
+        34,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.7559287357471476e-12,
+      "job": [
+        34,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.169473407003352e-10,
+      "job": [
+        34,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4432899320127035e-15,
+      "job": [
+        34,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.2560397166794246e-11,
+      "job": [
+        34,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.751666058515184e-12,
+      "job": [
+        34,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.816214176945778e-10,
+      "job": [
+        34,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.4917351559849976e-07,
+      "job": [
+        34,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 0.0,
+      "job": [
+        35,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.439293542825908e-15,
+      "job": [
+        35,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.4377388168895777e-14,
+      "job": [
+        35,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.876810480591303e-11,
+      "job": [
+        35,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.226627771051426e-10,
+      "job": [
+        35,
+        0,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 7.771561172376096e-16,
+      "job": [
+        35,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.098632875430667e-12,
+      "job": [
+        35,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.5686563159533762e-11,
+      "job": [
+        35,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.050200092502564e-10,
+      "job": [
+        35,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.459726551748645e-06,
+      "job": [
+        35,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        35,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 8.881784197001252e-16,
+      "job": [
+        35,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.3100631690576847e-14,
+      "job": [
+        35,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 5.303313344029448e-12,
+      "job": [
+        35,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 9.049205829114726e-11,
+      "job": [
+        35,
+        1,
+        "GP_LogEI"
+      ],
+      "paid": 299
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 6.661338147750939e-16,
+      "job": [
+        35,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 10
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.1606716416044947e-11,
+      "job": [
+        35,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 39
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 2.0631718555819134e-11,
+      "job": [
+        35,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 40
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 3.5441871659713797e-10,
+      "job": [
+        35,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 149
+    },
+    {
+      "cpu_error": 0.0,
+      "gpu_error": 1.9549505534399714e-06,
+      "job": [
+        35,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "paid": 299
+    }
+  ],
+  "summary": {
+    "calls": 43200,
+    "cases": 144,
+    "cold_fit_recoveries": 17,
+    "cpu_replayed": 719,
+    "cpu_tolerance": 1e-06,
+    "diagnostic_calls": 0,
+    "exact_initialization": true,
+    "failures": [
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 1.1316837827735071e-05,
+        "job": [
+          11,
+          1,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      },
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 2.9073148793301584e-05,
+        "job": [
+          15,
+          1,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      },
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 0.00018737810409241717,
+        "job": [
+          18,
+          0,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      },
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 0.00028851774536420294,
+        "job": [
+          19,
+          1,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      },
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 2.2582708991691902e-05,
+        "job": [
+          29,
+          1,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      }
+    ],
+    "gpu_replayed": 719,
+    "gpu_tolerance": 1e-05,
+    "max_cpu_error": 0.0,
+    "max_gpu_error": 0.00028851774536420294,
+    "numerical_checks_passed": false,
+    "restarts": 6,
+    "structural_checks_passed": true,
+    "tasks": 72,
+    "trust_region_reconstructed": true,
+    "unique_paid_points": true,
+    "verification_objective_calls": 0,
+    "warning_examples": [
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed on the second try, after generating a new set of initial conditions.",
+      "`scipy_minimize` terminated with status 3, displaying original message from `scipy.optimize.minimize`: ABNORMAL: "
+    ],
+    "warnings_count": 881
+  }
+}

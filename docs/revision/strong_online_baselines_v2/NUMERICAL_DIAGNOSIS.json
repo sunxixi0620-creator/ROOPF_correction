@@ -1,0 +1,176 @@
+{
+  "additional_objective_calls": 0,
+  "gate_relaxed": false,
+  "rows": [
+    {
+      "condition_number": 324486358671.381,
+      "cpu_gpu_kernel_max_difference": 1.4477308241112041e-13,
+      "independent": {
+        "logei": -8.86697547189628,
+        "mean": -3.152280777701181,
+        "variance": 2.312015631487767e-06
+      },
+      "interpretation": "Finite precision sensitivity in tightly clustered, low-noise Mat\u00e9rn posterior; original GPU gate remains failed",
+      "job": [
+        11,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "noise": 1.0000969691747542e-08,
+      "outputscale": 11.85113372665685,
+      "paid": 299,
+      "recorded_logei": -8.866963204032215,
+      "stable_kernel_cpu_max_difference": 4.085620730620576e-14,
+      "states": {
+        "cpu": {
+          "backward_error": 2.278361025414753e-17,
+          "logei": -8.866963204032215,
+          "mean": -3.152280772705957,
+          "variance": 2.312025936212634e-06
+        },
+        "cuda": {
+          "backward_error": 3.019864681854157e-17,
+          "logei": -8.866974520870043,
+          "mean": -3.1522807788539247,
+          "variance": 2.312019594843485e-06
+        }
+      }
+    },
+    {
+      "condition_number": 220936712315.9611,
+      "cpu_gpu_kernel_max_difference": 1.6431300764452317e-13,
+      "independent": {
+        "logei": -12.471603865852646,
+        "mean": 1.6065667292700252,
+        "variance": 1.3045888938899752e-09
+      },
+      "interpretation": "Finite precision sensitivity in tightly clustered, low-noise Mat\u00e9rn posterior; original GPU gate remains failed",
+      "job": [
+        15,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "noise": 1.0000030964055323e-08,
+      "outputscale": 8.51409003896942,
+      "paid": 299,
+      "recorded_logei": -12.471659121260185,
+      "stable_kernel_cpu_max_difference": 2.078337502098293e-13,
+      "states": {
+        "cpu": {
+          "backward_error": 4.415363107975331e-17,
+          "logei": -12.471659121260185,
+          "mean": 1.6065667283989713,
+          "variance": 1.3045771648183254e-09
+        },
+        "cuda": {
+          "backward_error": 3.896447369870129e-17,
+          "logei": -12.471630048111392,
+          "mean": 1.6065667284071308,
+          "variance": 1.304606208233839e-09
+        }
+      }
+    },
+    {
+      "condition_number": 105293838984.59874,
+      "cpu_gpu_kernel_max_difference": 1.7763568394002505e-15,
+      "independent": {
+        "logei": -9.169231012844657,
+        "mean": 3.815781037169339,
+        "variance": 5.078085028264023e-07
+      },
+      "interpretation": "Finite precision sensitivity in tightly clustered, low-noise Mat\u00e9rn posterior; original GPU gate remains failed",
+      "job": [
+        18,
+        0,
+        "TuRBO_LogEI"
+      ],
+      "noise": 1.0000003612845191e-08,
+      "outputscale": 3.849501862920562,
+      "paid": 299,
+      "recorded_logei": -9.169107448728282,
+      "stable_kernel_cpu_max_difference": 2.220446049250313e-15,
+      "states": {
+        "cpu": {
+          "backward_error": 2.4081306655866468e-17,
+          "logei": -9.169107448728282,
+          "mean": 3.815781036997861,
+          "variance": 5.078669085106266e-07
+        },
+        "cuda": {
+          "backward_error": 2.7683657369697578e-17,
+          "logei": -9.169294826832374,
+          "mean": 3.8157810367521607,
+          "variance": 5.077789061116604e-07
+        }
+      }
+    },
+    {
+      "condition_number": 109673033236.89261,
+      "cpu_gpu_kernel_max_difference": 1.7763568394002505e-15,
+      "independent": {
+        "logei": -11.520226634827285,
+        "mean": 2.5754415277064933,
+        "variance": 2.602912160921943e-08
+      },
+      "interpretation": "Finite precision sensitivity in tightly clustered, low-noise Mat\u00e9rn posterior; original GPU gate remains failed",
+      "job": [
+        19,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "noise": 1.0000000915541642e-08,
+      "outputscale": 3.9262728602828365,
+      "paid": 299,
+      "recorded_logei": -11.519835516138166,
+      "stable_kernel_cpu_max_difference": 1.7763568394002505e-15,
+      "states": {
+        "cpu": {
+          "backward_error": 1.769154710331345e-17,
+          "logei": -11.519835516138166,
+          "mean": 2.5754415276371123,
+          "variance": 2.6035252163473506e-08
+        },
+        "cuda": {
+          "backward_error": 2.4625233770054805e-17,
+          "logei": -11.52012403388353,
+          "mean": 2.57544152760011,
+          "variance": 2.6030746852173906e-08
+        }
+      }
+    },
+    {
+      "condition_number": 110091390663.71297,
+      "cpu_gpu_kernel_max_difference": 3.6415315207705135e-14,
+      "independent": {
+        "logei": -9.336480111504585,
+        "mean": 0.6154135445845221,
+        "variance": 4.7399282399777786e-07
+      },
+      "interpretation": "Finite precision sensitivity in tightly clustered, low-noise Mat\u00e9rn posterior; original GPU gate remains failed",
+      "job": [
+        29,
+        1,
+        "TuRBO_LogEI"
+      ],
+      "noise": 9.99999993922529e-09,
+      "outputscale": 4.234218042802253,
+      "paid": 299,
+      "recorded_logei": -9.33646291047577,
+      "stable_kernel_cpu_max_difference": 3.907985046680551e-14,
+      "states": {
+        "cpu": {
+          "backward_error": 3.55527331739995e-17,
+          "logei": -9.33646291047577,
+          "mean": 0.6154135452976917,
+          "variance": 4.7399909757153e-07
+        },
+        "cuda": {
+          "backward_error": 4.125468349257851e-17,
+          "logei": -9.336485493184762,
+          "mean": 0.6154135447790225,
+          "variance": 4.7399043191569974e-07
+        }
+      }
+    }
+  ]
+}

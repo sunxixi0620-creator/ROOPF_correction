@@ -1,0 +1,34 @@
+{
+  "budget": 105,
+  "exports": "7996abdcdfa72039be5fa9aa69314dd214b010ac51058d50aa7df03fcc1fad1f",
+  "methods": [
+    "O",
+    "P",
+    "A",
+    "R"
+  ],
+  "packages": {
+    "botorch": "0.16.1",
+    "gpytorch": "1.15.2",
+    "scipy": "1.15.3",
+    "torch": "2.11.0+cu128"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_cap": 256,
+  "sources": {
+    "docs/experiments/HPOB_TRANSFER_DEVELOPMENT_V1.md": "0c5369d4552f4b233e87c2dd0ebae7b70d78d0d7f32c5b2bedbc4ad5ca7dc1d4",
+    "roopf/experiment_io.py": "df2a7220cd5c6539d4d4c7fa257429e1190ffc8a9eff2caee7445c0fcefaaa87",
+    "roopf/hpob_grouped_oracle.py": "0c7937b633df44fb19632ee530a97a46476bb9034fa352b1169520aefce9c801",
+    "roopf/hpob_transfer_v1.py": "c0b306ad7a1a8a0e0a72e865798de690247a37595eabc5c76242769f5738afe8",
+    "scripts/check_hpob_transfer_v1.py": "4eabe158e25e29fabcc4960f28a1b7702737ea7f443a2b5f0d504f3f275a0f9a",
+    "scripts/hpob_transfer_development_v1.py": "e2e725078e2cd760fa29c2eb1e79ffb998c50ddc32d9e6727b663b307de72303"
+  },
+  "split": "faed1a6bebd723a4e2797e98aa545a0d8bec13615ea6c76fe6189e7b72eba78b",
+  "time": 1790824902.89267
+}

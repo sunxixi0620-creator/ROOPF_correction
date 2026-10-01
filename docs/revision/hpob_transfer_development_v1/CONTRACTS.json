@@ -1,0 +1,62 @@
+{
+  "bootstrap_matches_explicit_pairs": true,
+  "contract_sha256": "4eabe158e25e29fabcc4960f28a1b7702737ea7f443a2b5f0d504f3f275a0f9a",
+  "decisions": {
+    "A": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      42,
+      6,
+      21
+    ],
+    "O": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      86,
+      67,
+      14
+    ],
+    "P": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      98,
+      61,
+      67
+    ],
+    "R": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      92,
+      98
+    ]
+  },
+  "fake_only": true,
+  "gpu": {
+    "cache_benchmark_seconds": {
+      "cpu": 0.02483909111469984,
+      "cuda": 0.007102831732481718
+    },
+    "mean_error": 2.220446049250313e-14,
+    "variance_error": 1.5543122344752192e-15
+  },
+  "hpob_target_calls": 0,
+  "loo_error": 1.1629586182948515e-14,
+  "mean_error": 0.0,
+  "oracle_budget_duplicate_and_resume": true,
+  "target_only_taf_matches_logei": true,
+  "variance_error": 2.3314683517128287e-15,
+  "zero_taf_canonical_tie": true
+}

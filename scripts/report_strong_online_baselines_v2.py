@@ -51,6 +51,7 @@ def verify():
     parent = CaseStore(s.parent.RUN/'cases', s.parent.verify())
     cpu_errors, gpu_errors, warnings, restarts = [], [], [], 0
     recoveries=0
+    replay_rows=[]
     tasks = {}
     for j in s.jobs():
         f, i, m = j
@@ -95,27 +96,42 @@ def verify():
             recoveries+=int(info.get('cold_fit_recovery',False))
             if paid in (10, 39, 40, 149, 299):
                 error = abs(replay_score(x[:paid], y[:paid], m, info)-info['logei'])
-                assert error < 1e-6, (j, paid, error)
                 cpu_errors.append(error)
+                row=dict(job=j,paid=paid,cpu_error=error,gpu_error=None)
                 if torch.cuda.is_available():
                     error = abs(replay_score(x[:paid], y[:paid], m, info, 'cuda')-info['logei'])
-                    assert error < 1e-5, (j, paid, error)
                     gpu_errors.append(error)
+                    row['gpu_error']=error
+                replay_rows.append(row)
             if state:
                 state.update(float(y[paid]))
             paid += 1
         assert paid == 300
     assert len(tasks) == 72 and all(len(v) == 1 for v in tasks.values())
-    write_json(s.OUT/'VERIFICATION.json', dict(cases=144, tasks=72, calls=43200,
+    passed=all(e<1e-6 for e in cpu_errors) and bool(gpu_errors) and all(e<1e-5 for e in gpu_errors)
+    result=dict(cases=144, tasks=72, calls=43200,
         cpu_replayed=len(cpu_errors), gpu_replayed=len(gpu_errors),
         max_cpu_error=max(cpu_errors), max_gpu_error=max(gpu_errors) if gpu_errors else None,
         cold_fit_recoveries=recoveries,warnings_count=len(warnings), warning_examples=sorted(set(warnings))[:20], restarts=restarts,
         exact_initialization=True, unique_paid_points=True, trust_region_reconstructed=True,
-        diagnostic_calls=0, verification_objective_calls=0))
+        diagnostic_calls=0, verification_objective_calls=0,
+        structural_checks_passed=True,numerical_checks_passed=passed,
+        cpu_tolerance=1e-6,gpu_tolerance=1e-5,
+        failures=[r for r in replay_rows if r['cpu_error']>=1e-6 or r['gpu_error'] is None or r['gpu_error']>=1e-5])
+    write_json(s.OUT/'REPLAY_INVENTORY.json',dict(summary=result,rows=replay_rows))
+    print(json.dumps(result,indent=2),flush=True)
+    assert passed, 'Full numerical inventory retained; original replay gate has NOT passed'
+    write_json(s.OUT/'VERIFICATION.json',result)
 
 
-def report():
-    assert (s.OUT/'VERIFICATION.json').exists()
+def report(descriptive=False):
+    if descriptive:
+        audit=json.loads((s.OUT/'REPLAY_INVENTORY.json').read_text())['summary']
+        assert audit['structural_checks_passed'] and audit['max_cpu_error']<1e-6
+        prefix='DESCRIPTIVE_'
+    else:
+        assert (s.OUT/'VERIFICATION.json').exists()
+        audit=json.loads((s.OUT/'VERIFICATION.json').read_text());prefix=''
     prior = np.load(s.parent.OUT/'arrays.npz')
     data = {m: {k:prior[f'{m}_{k}'][:, :, :2].mean(0) for k in ('time','attainment','curve')}
             for m in ('O','WA','W')}
@@ -155,11 +171,13 @@ def report():
     result = dict(means=means, contrasts=contrasts, final_table_calls=43200, new_v2_calls=41400, v2_contracts=36, diagnostic_reproduction_calls=165, v1_contracts=48, interrupted_v1_calls=[140,4200], offline_epochs=0,
         tasks=72, new_trajectories=144, reused_trajectories=360,
         scope='Existing development instances; TuRBO-1 sequential LogEI variant, not original TS',
-        run=json.loads((s.RUN/'COMPLETE.json').read_text()))
-    write_json(s.OUT/'RESULTS.json',result)
+        run=json.loads((s.RUN/'COMPLETE.json').read_text()),audit=audit,
+        descriptive_only=descriptive)
+    write_json(s.OUT/(prefix+'RESULTS.json'),result)
     write_json(s.OUT/'rows.json',rows)
     np.savez_compressed(s.OUT/'arrays.npz',**{m+'_'+k:v for m,a in data.items() for k,v in a.items()})
     lines=['# 标准拟合 GP 与 TuRBO-1／LogEI 开发参照','',
+        '数值审核状态：CPU抽查重放全部一致；GPU有5处超出原定容忍，完整数值门槛仍未通过。下表是已执行CPU轨迹的描述性开发结果，不是GPU可复现性已通过的最终结论。' if descriptive else '预定数值与结构审核通过。','',
         '固定既有36配置×前两个实例，共72任务。两组新增144条轨迹，每条预算300（含共同初始10点）。最终表43,200次目标调用，其中1,800次复用V1、41,400次来自V2；另有V1/V2契约48/36次、失败复现165次，以及V1未完成轨迹140～4,200次的调用范围。离线训练0轮。既有O/WA/W复用360条，W平均三个模型种子。', '',
         '|方法|受限平均达到时间↓|300次达到率↑|终局有界改善↑|', '|---|---:|---:|---:|']
     for m,a in means.items():
@@ -170,8 +188,8 @@ def report():
     lines += ['', '区间按12配方聚类、10,000 bootstrap、每端点四比较校正。目标为初始最好值改善0.5个初始样本标准差，未达记301。没有将原来144任务的总体均值拿来和本次72任务直接比较。', '',
         'TuRBO_LogEI 为官方教程设置的单信赖域、q=1、解析LogEI变体；成功容忍10、初始10、超参数每步重新拟合。不是原作者Thompson sampling实现，不能将本次排名概括为超过所有TuRBO实现。', '',
         '这两组同时改变核、超参数学习和采集求解，属于外部在线参照，不替代O/WA/W的结构消融。既有函数族经过多轮开发，本次也不是独立外部测试。学习先验相对WA的必要性仍由之前冻结复验回答。', '',
-        '运行成本见rows.json和COMPLETE记录：每轨迹elapsed受12进程竞争影响，不能直接与之前16进程的旧方法计时作单任务加速比。标准GP拟合与采集均有有限迭代上限，不声称全局最优或每次严格收敛。']
-    (s.OUT/'CONCLUSIONS.zh-CN.md').write_text('\n'.join(lines)+'\n')
+        '运行成本见rows.json和COMPLETE记录：V2为16进程，6条V1复用轨迹原为12进程；各轨迹elapsed含资源竞争，不能直接与旧方法作单任务加速比。标准GP拟合与采集均有有限迭代上限，不声称全局最优或每次严格收敛。']
+    (s.OUT/(prefix+'CONCLUSIONS.zh-CN.md')).write_text('\n'.join(lines)+'\n')
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -184,13 +202,14 @@ def report():
     axes[0].set(xlabel='Paid evaluations',ylabel='Bounded improvement')
     axes[1].set(xlabel='Paid evaluations',ylabel='Target attainment')
     for ax in axes:ax.legend()
+    if descriptive:fig.suptitle('CPU development runs; GPU numerical audit not passed')
     fig.tight_layout()
-    for ext in ('png','pdf'):fig.savefig(s.OUT/f'curves.{ext}',dpi=160)
+    for ext in ('png','pdf'):fig.savefig(s.OUT/f'{prefix}curves.{ext}',dpi=160)
     print(json.dumps(result,indent=2))
 
 
 def archive():
-    assert (s.OUT/'RESULTS.json').exists()
+    assert (s.OUT/'RESULTS.json').exists() or (s.OUT/'DESCRIPTIVE_RESULTS.json').exists()
     s.verify()
     dest=ROOT/'artifacts/strong_online_baselines_v2'
     dest.mkdir(exist_ok=True)
@@ -211,6 +230,6 @@ def archive():
 
 if __name__=='__main__':
     p=argparse.ArgumentParser()
-    p.add_argument('phase',choices=['verify','report','archive'])
+    p.add_argument('phase',choices=['verify','report','descriptive','archive'])
     a=p.parse_args()
-    globals()[a.phase]()
+    report(descriptive=True) if a.phase=='descriptive' else globals()[a.phase]()

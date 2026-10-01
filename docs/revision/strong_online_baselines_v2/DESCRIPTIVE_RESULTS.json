@@ -1,0 +1,383 @@
+{
+  "audit": {
+    "calls": 43200,
+    "cases": 144,
+    "cold_fit_recoveries": 17,
+    "cpu_replayed": 719,
+    "cpu_tolerance": 1e-06,
+    "diagnostic_calls": 0,
+    "exact_initialization": true,
+    "failures": [
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 1.1316837827735071e-05,
+        "job": [
+          11,
+          1,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      },
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 2.9073148793301584e-05,
+        "job": [
+          15,
+          1,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      },
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 0.00018737810409241717,
+        "job": [
+          18,
+          0,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      },
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 0.00028851774536420294,
+        "job": [
+          19,
+          1,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      },
+      {
+        "cpu_error": 0.0,
+        "gpu_error": 2.2582708991691902e-05,
+        "job": [
+          29,
+          1,
+          "TuRBO_LogEI"
+        ],
+        "paid": 299
+      }
+    ],
+    "gpu_replayed": 719,
+    "gpu_tolerance": 1e-05,
+    "max_cpu_error": 0.0,
+    "max_gpu_error": 0.00028851774536420294,
+    "numerical_checks_passed": false,
+    "restarts": 6,
+    "structural_checks_passed": true,
+    "tasks": 72,
+    "trust_region_reconstructed": true,
+    "unique_paid_points": true,
+    "verification_objective_calls": 0,
+    "warning_examples": [
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .'), OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed in `gen_candidates_scipy` with the following warning(s):\n[OptimizationWarning('Optimization failed within `scipy.optimize.minimize` with status 2 and message ABNORMAL: .')]\nTrying again with a new set of initial conditions.",
+      "Optimization failed on the second try, after generating a new set of initial conditions.",
+      "`scipy_minimize` terminated with status 3, displaying original message from `scipy.optimize.minimize`: ABNORMAL: "
+    ],
+    "warnings_count": 881
+  },
+  "contrasts": {
+    "WA_vs_GP_LogEI": {
+      "attainment_delta": {
+        "lower": 0.0,
+        "mean": 0.0,
+        "recipe_means": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": 0.0
+      },
+      "practical_efficiency": true,
+      "terminal_delta": {
+        "lower": -0.0017743471189645347,
+        "mean": 0.0014310425058317172,
+        "recipe_means": [
+          0.0008943546182960486,
+          -0.0025792095970333107,
+          -0.0006328248413893326,
+          -0.001088876318963557,
+          0.021387744158305227,
+          0.0052672495601432945,
+          0.00021964160631104956,
+          0.0014057937694569682,
+          0.0009472059009076975,
+          -0.0019512186213251903,
+          -0.00454127416540151,
+          -0.0021560759993267766
+        ],
+        "upper": 0.007087381897909117
+      },
+      "time_saved": {
+        "lower": 6.604079861111111,
+        "mean": 9.88888888888889,
+        "recipe_means": [
+          6.5,
+          15.666666666666666,
+          8.5,
+          9.5,
+          21.166666666666668,
+          11.666666666666666,
+          7.5,
+          1.0,
+          7.833333333333333,
+          8.0,
+          13.5,
+          7.833333333333333
+        ],
+        "upper": 13.583333333333334
+      }
+    },
+    "WA_vs_TuRBO_LogEI": {
+      "attainment_delta": {
+        "lower": 0.0,
+        "mean": 0.0,
+        "recipe_means": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": 0.0
+      },
+      "practical_efficiency": true,
+      "terminal_delta": {
+        "lower": 0.0051756621131067064,
+        "mean": 0.01520843202317136,
+        "recipe_means": [
+          0.0014172878061814813,
+          0.0018665210926800586,
+          0.00211727466456658,
+          0.0004250624104076191,
+          0.02186570303102005,
+          0.04605951205434936,
+          0.04576807466781904,
+          0.01951839695905022,
+          0.005203592844195378,
+          0.014212903637018928,
+          0.022238858325665228,
+          0.0018079967851023597
+        ],
+        "upper": 0.02733831378669484
+      },
+      "time_saved": {
+        "lower": 21.235937500000002,
+        "mean": 25.02777777777778,
+        "recipe_means": [
+          20.666666666666668,
+          33.166666666666664,
+          14.833333333333334,
+          21.333333333333332,
+          23.166666666666668,
+          28.333333333333332,
+          23.0,
+          25.166666666666668,
+          24.333333333333332,
+          23.166666666666668,
+          36.5,
+          26.666666666666668
+        ],
+        "upper": 29.125000000000004
+      }
+    },
+    "W_vs_GP_LogEI": {
+      "attainment_delta": {
+        "lower": 0.0,
+        "mean": 0.0,
+        "recipe_means": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": 0.0
+      },
+      "practical_efficiency": true,
+      "terminal_delta": {
+        "lower": -0.0027703301503259246,
+        "mean": -7.289122372939543e-06,
+        "recipe_means": [
+          0.0006263424824358895,
+          -0.00389204438407618,
+          -0.0017520075957687213,
+          -0.0031319229889419467,
+          0.012758902319731794,
+          0.0051062843875661805,
+          0.00021253668819039748,
+          0.001353565691164793,
+          3.109260014538817e-06,
+          -0.002731813428343166,
+          -0.004812975051395589,
+          -0.0038274468490532656
+        ],
+        "upper": 0.0039049848933645276
+      },
+      "time_saved": {
+        "lower": 6.5995081018518515,
+        "mean": 9.86111111111111,
+        "recipe_means": [
+          5.166666666666667,
+          14.055555555555552,
+          7.388888888888889,
+          9.11111111111111,
+          19.666666666666668,
+          9.88888888888889,
+          6.888888888888889,
+          1.666666666666667,
+          9.444444444444445,
+          12.277777777777779,
+          15.5,
+          7.277777777777778
+        ],
+        "upper": 13.328703703703704
+      }
+    },
+    "W_vs_TuRBO_LogEI": {
+      "attainment_delta": {
+        "lower": 0.0,
+        "mean": 0.0,
+        "recipe_means": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "upper": 0.0
+      },
+      "practical_efficiency": true,
+      "terminal_delta": {
+        "lower": 0.0035117404073592502,
+        "mean": 0.013770100394966702,
+        "recipe_means": [
+          0.001149275670321322,
+          0.0005536863056371891,
+          0.0009980919101871915,
+          -0.0016179842595707705,
+          0.013236861192446622,
+          0.04589854688177225,
+          0.04576096974969839,
+          0.019466168880758045,
+          0.0042594962033022194,
+          0.013432308830000952,
+          0.021967157439671148,
+          0.00013662593537587067
+        ],
+        "upper": 0.02635070615646851
+      },
+      "time_saved": {
+        "lower": 20.784693287037037,
+        "mean": 25.0,
+        "recipe_means": [
+          19.333333333333332,
+          31.555555555555554,
+          13.722222222222223,
+          20.944444444444443,
+          21.666666666666668,
+          26.555555555555557,
+          22.38888888888889,
+          25.833333333333332,
+          25.944444444444443,
+          27.444444444444443,
+          38.5,
+          26.11111111111111
+        ],
+        "upper": 29.462962962962962
+      }
+    }
+  },
+  "descriptive_only": true,
+  "diagnostic_reproduction_calls": 165,
+  "final_table_calls": 43200,
+  "interrupted_v1_calls": [
+    140,
+    4200
+  ],
+  "means": {
+    "GP_LogEI": {
+      "attainment": 0.9722222222222222,
+      "auc": 0.5509692240847195,
+      "terminal": 0.585700518362477,
+      "time": 31.291666666666668
+    },
+    "O": {
+      "attainment": 0.9722222222222222,
+      "auc": 0.5541441528059855,
+      "terminal": 0.5808224232822445,
+      "time": 26.65277777777778
+    },
+    "TuRBO_LogEI": {
+      "attainment": 0.9722222222222222,
+      "auc": 0.506987397883172,
+      "terminal": 0.5719231288451374,
+      "time": 46.43055555555556
+    },
+    "W": {
+      "attainment": 0.9722222222222222,
+      "auc": 0.5733154059085662,
+      "terminal": 0.585693229240104,
+      "time": 21.430555555555557
+    },
+    "WA": {
+      "attainment": 0.9722222222222222,
+      "auc": 0.576753039249419,
+      "terminal": 0.5871315608683089,
+      "time": 21.40277777777778
+    }
+  },
+  "new_trajectories": 144,
+  "new_v2_calls": 41400,
+  "offline_epochs": 0,
+  "reused_trajectories": 360,
+  "run": {
+    "calls": 43200,
+    "cases": 144,
+    "imported_v1_cases": 6,
+    "new_calls": 41400,
+    "seconds": 4800.629426002502,
+    "workers": 16
+  },
+  "scope": "Existing development instances; TuRBO-1 sequential LogEI variant, not original TS",
+  "tasks": 72,
+  "v1_contracts": 48,
+  "v2_contracts": 36
+}

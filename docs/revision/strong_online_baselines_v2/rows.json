@@ -1,0 +1,1442 @@
+[
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 261.36375175835565,
+    "fid": 0,
+    "fitting_seconds": 33.811908463481814,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.7037324982558508,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 518.8386678695679,
+    "fid": 0,
+    "fitting_seconds": 16.47739112144336,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.7039026612385824,
+    "time": 16
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 261.159036136698,
+    "fid": 0,
+    "fitting_seconds": 30.59986788360402,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5654979064768847,
+    "time": 43
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 748.7338058948517,
+    "fid": 0,
+    "fitting_seconds": 18.461987745948136,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5657849504905681,
+    "time": 43
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 281.9500951068476,
+    "fid": 1,
+    "fitting_seconds": 31.07993278792128,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.5597637859449506,
+    "time": 14
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 791.9099228382111,
+    "fid": 1,
+    "fitting_seconds": 16.17493364494294,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5595676594732789,
+    "time": 29
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 254.05440665921196,
+    "fid": 1,
+    "fitting_seconds": 34.794306044932455,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.6910214364049984,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 818.8009586334229,
+    "fid": 1,
+    "fitting_seconds": 11.987761771772057,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6892522051413414,
+    "time": 30
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 274.8417830602266,
+    "fid": 2,
+    "fitting_seconds": 32.92237264243886,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.6000081785426905,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 777.4490690231323,
+    "fid": 2,
+    "fitting_seconds": 13.454882553778589,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5880884561652286,
+    "time": 35
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 254.9452444780618,
+    "fid": 2,
+    "fitting_seconds": 29.475208181422204,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5275376262423233,
+    "time": 15
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 658.093652009964,
+    "fid": 2,
+    "fitting_seconds": 22.458945627789944,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5378279002313862,
+    "time": 37
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 351.41060757637024,
+    "fid": 3,
+    "fitting_seconds": 57.55518386280164,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.4315329193100807,
+    "time": 15
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 795.4638345241547,
+    "fid": 3,
+    "fitting_seconds": 11.70362689672038,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.43032874626981915,
+    "time": 39
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 425.4789044857025,
+    "fid": 3,
+    "fitting_seconds": 53.397721911314875,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5119989657219898,
+    "time": 15
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 793.4748148918152,
+    "fid": 3,
+    "fitting_seconds": 11.686578596010804,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5106996953617858,
+    "time": 24
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 354.2141582965851,
+    "fid": 4,
+    "fitting_seconds": 45.25877922354266,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.47427010327331276,
+    "time": 15
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 792.8153517246246,
+    "fid": 4,
+    "fitting_seconds": 11.736713405698538,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.4699632616847416,
+    "time": 38
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 352.5227265357971,
+    "fid": 4,
+    "fitting_seconds": 39.69659996544942,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.409118944605077,
+    "time": 46
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 819.5899901390076,
+    "fid": 4,
+    "fitting_seconds": 11.349304269067943,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.40500290667826844,
+    "time": 63
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 418.9784183502197,
+    "fid": 5,
+    "fitting_seconds": 44.73128910781816,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.36035937490934067,
+    "time": 64
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 787.985570192337,
+    "fid": 5,
+    "fitting_seconds": 13.882333690766245,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.3629634478022187,
+    "time": 37
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 356.8179829120636,
+    "fid": 5,
+    "fitting_seconds": 39.25895640999079,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.3697035803143215,
+    "time": 56
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 790.3785932064056,
+    "fid": 5,
+    "fitting_seconds": 11.744831828400493,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.35135144619900843,
+    "time": 115
+  },
+  {
+    "attained": false,
+    "concurrent_elapsed_seconds": 388.1291365623474,
+    "fid": 6,
+    "fitting_seconds": 68.89476770954207,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.3034325572868733,
+    "time": 301
+  },
+  {
+    "attained": false,
+    "concurrent_elapsed_seconds": 812.9274497032166,
+    "fid": 6,
+    "fitting_seconds": 10.702450449578464,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.29714063182832934,
+    "time": 301
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 376.7989835739136,
+    "fid": 6,
+    "fitting_seconds": 90.5022547612898,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.6270452584690211,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 764.550076007843,
+    "fid": 6,
+    "fitting_seconds": 11.316535130143166,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6282173818269654,
+    "time": 17
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 375.3416554927826,
+    "fid": 7,
+    "fitting_seconds": 82.07181962579489,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.43561957790880623,
+    "time": 23
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 836.0162136554718,
+    "fid": 7,
+    "fitting_seconds": 10.893954789731652,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.43382706471347093,
+    "time": 31
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 440.67974281311035,
+    "fid": 7,
+    "fitting_seconds": 61.529471228830516,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.4432757081023424,
+    "time": 40
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 782.4667062759399,
+    "fid": 7,
+    "fitting_seconds": 11.81934735737741,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.4432277496205319,
+    "time": 35
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 423.2657105922699,
+    "fid": 8,
+    "fitting_seconds": 46.244994286913425,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.4368215858254557,
+    "time": 21
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 386.5578441619873,
+    "fid": 8,
+    "fitting_seconds": 17.419718915596604,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.4390537400056233,
+    "time": 25
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 447.0828227996826,
+    "fid": 8,
+    "fitting_seconds": 60.32272982690483,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5294136668128615,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 753.370215177536,
+    "fid": 8,
+    "fitting_seconds": 11.943327652756125,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5176411893747039,
+    "time": 36
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 342.7312295436859,
+    "fid": 9,
+    "fitting_seconds": 37.3635693420656,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.44290281077463745,
+    "time": 32
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 793.6278648376465,
+    "fid": 9,
+    "fitting_seconds": 10.461025880649686,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.4320718313278723,
+    "time": 44
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 330.32895016670227,
+    "fid": 9,
+    "fitting_seconds": 67.50271248118952,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5908787865052311,
+    "time": 15
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 740.5224275588989,
+    "fid": 9,
+    "fitting_seconds": 12.292900575790554,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5959598886853755,
+    "time": 47
+  },
+  {
+    "attained": false,
+    "concurrent_elapsed_seconds": 454.4061276912689,
+    "fid": 10,
+    "fitting_seconds": 141.1873590927571,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.2934150725282748,
+    "time": 301
+  },
+  {
+    "attained": false,
+    "concurrent_elapsed_seconds": 804.8986854553223,
+    "fid": 10,
+    "fitting_seconds": 11.342232380528003,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.30504842711836494,
+    "time": 301
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 361.76021337509155,
+    "fid": 10,
+    "fitting_seconds": 70.51084192609414,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.6862157441690113,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 784.7981705665588,
+    "fid": 10,
+    "fitting_seconds": 18.772650471888483,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6861358396860175,
+    "time": 31
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 359.35407996177673,
+    "fid": 11,
+    "fitting_seconds": 65.31687224656343,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.5124712100414238,
+    "time": 27
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 766.8232877254486,
+    "fid": 11,
+    "fitting_seconds": 11.167208378203213,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5042765587693854,
+    "time": 41
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 343.05848121643066,
+    "fid": 11,
+    "fitting_seconds": 43.575669411569834,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5970024101700925,
+    "time": 27
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 804.6187169551849,
+    "fid": 11,
+    "fitting_seconds": 11.474949784111232,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5903098562254282,
+    "time": 20
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 315.96174812316895,
+    "fid": 12,
+    "fitting_seconds": 90.32719376590103,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.7346356844381774,
+    "time": 25
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 685.9341335296631,
+    "fid": 12,
+    "fitting_seconds": 11.225116348825395,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.7038354664280135,
+    "time": 16
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 300.02797293663025,
+    "fid": 12,
+    "fitting_seconds": 81.07220591977239,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.8753463621086067,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 794.4992823600769,
+    "fid": 12,
+    "fitting_seconds": 12.525088207330555,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.8676432351314468,
+    "time": 24
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 349.42052602767944,
+    "fid": 13,
+    "fitting_seconds": 112.06305765919387,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.483942256801807,
+    "time": 91
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 615.5384662151337,
+    "fid": 13,
+    "fitting_seconds": 9.964658441953361,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5298818996523452,
+    "time": 68
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 303.1102387905121,
+    "fid": 13,
+    "fitting_seconds": 99.05387289868668,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.6830353521782146,
+    "time": 26
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 750.4460370540619,
+    "fid": 13,
+    "fitting_seconds": 14.557718270458281,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6774716658200713,
+    "time": 26
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 327.53105568885803,
+    "fid": 14,
+    "fitting_seconds": 95.23788877250627,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.5612576966716815,
+    "time": 35
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 703.9432902336121,
+    "fid": 14,
+    "fitting_seconds": 9.85553833656013,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5799038645425036,
+    "time": 45
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 305.42033648490906,
+    "fid": 14,
+    "fitting_seconds": 87.98068162146956,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5913858213547581,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 706.5086505413055,
+    "fid": 14,
+    "fitting_seconds": 19.662223109044135,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5679992887425759,
+    "time": 32
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 327.82264590263367,
+    "fid": 15,
+    "fitting_seconds": 44.873899252619594,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.8514296278372224,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 641.7925269603729,
+    "fid": 15,
+    "fitting_seconds": 10.810318771284074,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.8431557099699408,
+    "time": 15
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 293.81826281547546,
+    "fid": 15,
+    "fitting_seconds": 66.27769173588604,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.8942560077134865,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 709.3815281391144,
+    "fid": 15,
+    "fitting_seconds": 12.411549108102918,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.8025241666670226,
+    "time": 47
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 277.7336120605469,
+    "fid": 16,
+    "fitting_seconds": 50.80159521428868,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.8473480264924335,
+    "time": 19
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 664.2311601638794,
+    "fid": 16,
+    "fitting_seconds": 18.27795366756618,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.8280775990014961,
+    "time": 37
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 283.8509430885315,
+    "fid": 16,
+    "fitting_seconds": 67.44531182991341,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.8045519888134055,
+    "time": 36
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 564.6312942504883,
+    "fid": 16,
+    "fitting_seconds": 24.907126031816006,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.7495563048742895,
+    "time": 40
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 290.73349499702454,
+    "fid": 17,
+    "fitting_seconds": 79.79129016259685,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.8020720712459801,
+    "time": 48
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 732.4751214981079,
+    "fid": 17,
+    "fitting_seconds": 14.003384539391845,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.7594726325090325,
+    "time": 73
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 292.24347376823425,
+    "fid": 17,
+    "fitting_seconds": 65.96512405900285,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.8504103147330621,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 622.234944820404,
+    "fid": 17,
+    "fitting_seconds": 11.993212068919092,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.822528048848572,
+    "time": 24
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 293.6159698963165,
+    "fid": 18,
+    "fitting_seconds": 31.139584463089705,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.7008530039343033,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 680.554347038269,
+    "fid": 18,
+    "fitting_seconds": 16.389870801009238,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.700987667166913,
+    "time": 14
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 311.7976179122925,
+    "fid": 18,
+    "fitting_seconds": 34.629903947003186,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.8038405830102342,
+    "time": 26
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 760.3358249664307,
+    "fid": 18,
+    "fitting_seconds": 9.520500658545643,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.7162929745769067,
+    "time": 39
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 328.98404359817505,
+    "fid": 19,
+    "fitting_seconds": 38.38014483684674,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.7552619758710478,
+    "time": 13
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 828.1567158699036,
+    "fid": 19,
+    "fitting_seconds": 14.902651805896312,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.7556287553728807,
+    "time": 23
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 313.1335520744324,
+    "fid": 19,
+    "fitting_seconds": 36.01411605998874,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.6344663362498049,
+    "time": 32
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 655.6201548576355,
+    "fid": 19,
+    "fitting_seconds": 17.876657287124544,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6350224788944525,
+    "time": 41
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 316.92415595054626,
+    "fid": 20,
+    "fitting_seconds": 37.541431528981775,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.595172729326974,
+    "time": 18
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 775.8292820453644,
+    "fid": 20,
+    "fitting_seconds": 10.574938798323274,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5640197528773347,
+    "time": 35
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 325.2737214565277,
+    "fid": 20,
+    "fitting_seconds": 40.48395753232762,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5566207810236744,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 710.833655834198,
+    "fid": 20,
+    "fitting_seconds": 11.075105994474143,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.400973182158503,
+    "time": 52
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 286.53832364082336,
+    "fid": 21,
+    "fitting_seconds": 46.91143745696172,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.757549771568146,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 675.832202911377,
+    "fid": 21,
+    "fitting_seconds": 22.337703401688486,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.7502900081307676,
+    "time": 25
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 293.54315161705017,
+    "fid": 21,
+    "fitting_seconds": 50.74917932692915,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.6519847397307833,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 424.19248628616333,
+    "fid": 21,
+    "fitting_seconds": 33.24357477435842,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6534933416574452,
+    "time": 28
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 284.34875750541687,
+    "fid": 22,
+    "fitting_seconds": 46.450104385148734,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.8223952745350926,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 722.4200677871704,
+    "fid": 22,
+    "fitting_seconds": 10.661993914749473,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.8172549157338461,
+    "time": 32
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 275.9290888309479,
+    "fid": 22,
+    "fitting_seconds": 52.176794844679534,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.6952545446786343,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 719.2133822441101,
+    "fid": 22,
+    "fitting_seconds": 10.290314807090908,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6757757029134555,
+    "time": 34
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 268.5826482772827,
+    "fid": 23,
+    "fitting_seconds": 59.10644314996898,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.6154563647448408,
+    "time": 19
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 242.6990818977356,
+    "fid": 23,
+    "fitting_seconds": 16.229497702326626,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6122081719019076,
+    "time": 25
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 276.8537607192993,
+    "fid": 23,
+    "fitting_seconds": 62.744549164082855,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.580272355887032,
+    "time": 26
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 714.4733643531799,
+    "fid": 23,
+    "fitting_seconds": 12.941968836821616,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5052152916695475,
+    "time": 90
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 306.46703600883484,
+    "fid": 24,
+    "fitting_seconds": 38.84709283011034,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.5682117806046172,
+    "time": 28
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 722.6738836765289,
+    "fid": 24,
+    "fitting_seconds": 11.089984125457704,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5687184836901946,
+    "time": 34
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 328.2618088722229,
+    "fid": 24,
+    "fitting_seconds": 36.81642093881965,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5303696607795868,
+    "time": 20
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 730.1652917861938,
+    "fid": 24,
+    "fitting_seconds": 10.815415228251368,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5394414581202787,
+    "time": 25
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 339.4073443412781,
+    "fid": 25,
+    "fitting_seconds": 43.35882078576833,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.5880603908554345,
+    "time": 13
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 703.671600818634,
+    "fid": 25,
+    "fitting_seconds": 11.618132933042943,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5842394698074411,
+    "time": 37
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 359.5638403892517,
+    "fid": 25,
+    "fitting_seconds": 47.63371324259788,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.38961369318832106,
+    "time": 45
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 694.9960305690765,
+    "fid": 25,
+    "fitting_seconds": 11.875815789680928,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.37988407777638916,
+    "time": 76
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 308.1703083515167,
+    "fid": 26,
+    "fitting_seconds": 39.96865478344262,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.6241161772940446,
+    "time": 14
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 691.0062944889069,
+    "fid": 26,
+    "fitting_seconds": 11.178048372734338,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5987189139662442,
+    "time": 24
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 331.94712257385254,
+    "fid": 26,
+    "fitting_seconds": 40.337064899969846,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5788170404739857,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 708.5338938236237,
+    "fid": 26,
+    "fitting_seconds": 11.034752049483359,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.582648018175716,
+    "time": 34
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 314.1836531162262,
+    "fid": 27,
+    "fitting_seconds": 50.5956756756641,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.37645418095064076,
+    "time": 45
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 697.0474739074707,
+    "fid": 27,
+    "fitting_seconds": 10.497979457024485,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.36107778186196293,
+    "time": 56
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 333.8553102016449,
+    "fid": 27,
+    "fitting_seconds": 47.6963843498379,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.4979672909323479,
+    "time": 24
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 707.2934415340424,
+    "fid": 27,
+    "fitting_seconds": 10.88834856217727,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.4788847011905746,
+    "time": 46
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 403.56540060043335,
+    "fid": 28,
+    "fitting_seconds": 50.07292844867334,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.40528141210744206,
+    "time": 45
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 724.1977813243866,
+    "fid": 28,
+    "fitting_seconds": 11.833013328257948,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.388888223730566,
+    "time": 46
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 348.0981695652008,
+    "fid": 28,
+    "fitting_seconds": 41.73276310833171,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5674515962541143,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 724.8147826194763,
+    "fid": 28,
+    "fitting_seconds": 10.09300317754969,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5431880627302778,
+    "time": 38
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 303.7963960170746,
+    "fid": 29,
+    "fitting_seconds": 33.50390463788062,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.654116548103263,
+    "time": 14
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 672.6336789131165,
+    "fid": 29,
+    "fitting_seconds": 11.556523718871176,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6477711919438524,
+    "time": 22
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 320.8294804096222,
+    "fid": 29,
+    "fitting_seconds": 43.60621087439358,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.6669292858500366,
+    "time": 16
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 711.6353876590729,
+    "fid": 29,
+    "fitting_seconds": 12.541233946569264,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6514056191905464,
+    "time": 38
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 333.259441614151,
+    "fid": 30,
+    "fitting_seconds": 35.0358263682574,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.45358417086848063,
+    "time": 46
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 713.2900626659393,
+    "fid": 30,
+    "fitting_seconds": 12.069226637016982,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.42395559175061875,
+    "time": 85
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 354.28297781944275,
+    "fid": 30,
+    "fitting_seconds": 41.48463674960658,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.558076602289668,
+    "time": 17
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 709.426620721817,
+    "fid": 30,
+    "fitting_seconds": 11.099727230612189,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5256114290581908,
+    "time": 24
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 296.48742604255676,
+    "fid": 31,
+    "fitting_seconds": 35.01914327964187,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.4986780946890449,
+    "time": 25
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 699.3481557369232,
+    "fid": 31,
+    "fitting_seconds": 10.781824584119022,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.4392902787670869,
+    "time": 69
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 308.85589265823364,
+    "fid": 31,
+    "fitting_seconds": 40.3983633518219,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5506760013238674,
+    "time": 20
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 719.3329265117645,
+    "fid": 31,
+    "fitting_seconds": 10.16900335624814,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5351804433556788,
+    "time": 28
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 299.1272382736206,
+    "fid": 32,
+    "fitting_seconds": 35.45370546262711,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.6461241128004448,
+    "time": 14
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 656.0179517269135,
+    "fid": 32,
+    "fitting_seconds": 10.588320769369602,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.6302676100103263,
+    "time": 32
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 320.30172061920166,
+    "fid": 32,
+    "fitting_seconds": 46.47762683406472,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.3935854383752302,
+    "time": 61
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 639.307053565979,
+    "fid": 32,
+    "fitting_seconds": 9.72178196720779,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.385738272458434,
+    "time": 83
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 367.03526520729065,
+    "fid": 33,
+    "fitting_seconds": 38.7627498540096,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.5271924209340484,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 602.3542768955231,
+    "fid": 33,
+    "fitting_seconds": 11.117858842480928,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5205375146313236,
+    "time": 50
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 335.0366654396057,
+    "fid": 33,
+    "fitting_seconds": 36.30024422565475,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5857687089258218,
+    "time": 13
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 578.0674574375153,
+    "fid": 33,
+    "fitting_seconds": 9.172940795309842,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5752293779229811,
+    "time": 40
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 347.6817193031311,
+    "fid": 34,
+    "fitting_seconds": 45.47180890664458,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.4940677955856103,
+    "time": 12
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 565.8967216014862,
+    "fid": 34,
+    "fitting_seconds": 8.702154245227575,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.48956889410665844,
+    "time": 44
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 302.72875714302063,
+    "fid": 34,
+    "fitting_seconds": 32.040868137031794,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.713286628907161,
+    "time": 11
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 541.6716032028198,
+    "fid": 34,
+    "fitting_seconds": 8.480262386612594,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.713147744880994,
+    "time": 25
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 285.1950387954712,
+    "fid": 35,
+    "fitting_seconds": 45.5925436723046,
+    "instance": 0,
+    "method": "GP_LogEI",
+    "terminal": 0.4823613755074692,
+    "time": 36
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 484.43539810180664,
+    "fid": 35,
+    "fitting_seconds": 7.283780934754759,
+    "instance": 0,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.48043942873134915,
+    "time": 35
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 245.09762620925903,
+    "fid": 35,
+    "fitting_seconds": 41.58148888545111,
+    "instance": 1,
+    "method": "GP_LogEI",
+    "terminal": 0.5678075349524103,
+    "time": 30
+  },
+  {
+    "attained": true,
+    "concurrent_elapsed_seconds": 494.3019859790802,
+    "fid": 35,
+    "fitting_seconds": 6.622558219823986,
+    "instance": 1,
+    "method": "TuRBO_LogEI",
+    "terminal": 0.5677770678326399,
+    "time": 32
+  }
+]
