@@ -1,0 +1,39 @@
+{
+  "parent": "NEURAL_PRIOR_SOURCE_STAGE_V1.json",
+  "stage": "source-only paired conditional representation learning",
+  "representations": {
+    "N": "learned neural mean and eight learned neural features",
+    "M": "same neural architecture and initial weights; feature covariance explicitly zero, learned mean only",
+    "PCA": "frozen training-source GP mean and eight task-PCA features; base covariance calibrated on the same episodes"
+  },
+  "jobs": {"spaces": 15, "seeds": [0,1,2], "representations": ["N","M","PCA"], "total": 135},
+  "optimizer": {"name":"AdamW","learning_rate":0.0003,"weight_decay":0.0001,"clip_norm":1.0,"dtype":"float64"},
+  "limits": {"max_updates":20000,"episodes_per_update":16,"validate_every":100,"patience":15,"minimum_delta":0.0},
+  "selection": "minimum fixed source-validation conditional NLL; include untrained step 0 as a valid checkpoint; no development/confirmation metrics used",
+  "pairing": "N/M share initial neural weights; all methods/seeds use deterministic paired episodes at the same step; seeds change initialization and training episodes, never the validation panel",
+  "source_prefixes": {
+    "trajectories_per_task":2,
+    "length":40,
+    "initial_points":5,
+    "optimizer":"exact same paid-only O GP/LogEI implementation as HPO transfer parent",
+    "pool":"the same at-most-256 previously acquired source records only",
+    "teacher_models":"fit only currently observed prefix labels; never use a full-task GP to choose search points",
+    "training_scope":"262 source-training tasks only feed gradients",
+    "validation_scope":"82 source-validation tasks have their own prefixes, used only for fixed evaluation/early stopping; none feed training gradients",
+    "accounting":"688*40 = 27520 historical source-table accesses; zero new unique source labels and zero development/confirmation queries"
+  },
+  "episodes": {
+    "contexts":[5,10,20,40],
+    "query_points":32,
+    "training":"uniform tasks within search space; exactly 8 uniform and 8 search-prefix contexts per update; disjoint context/query indices",
+    "validation":"8 fixed episodes per task and context size, 4 uniform and 4 search-prefix; identical for all three training seeds",
+    "normalization":"context labels only, from frozen parent definition; no clipping of difficult query labels",
+    "metrics":["conditional joint NLL per query","marginal 90% coverage","normalized regret of selected point within the fixed 32-query panel"],
+    "metric_limits":"query-panel regret is a source validation diagnostic, not target BO regret or a real evaluation-efficiency claim"
+  },
+  "numerical_policy":"positive parameter constraints from frozen source module; fail and preserve checkpoint on nonfinite loss/gradient, no silent episode dropping or variance edits",
+  "recovery":"atomic checkpoints every validation boundary; model and optimizer saved; episode RNG derived from step, no ambiguous shared RNG state; repeated compute after a crash is separately reported",
+  "resource_plan":{"source_context_cpu_workers":16,"gpu_training_workers":3,"threads_per_worker":1},
+  "scope_limits":["no automatic target BO launch","no official HPO-B test claim","not a full Bayesian posterior over neural weights","selected validation scores are development evidence, not unbiased confirmation"],
+  "after_training":"report every space/seed and learning curve; N-M tests covariance increment, N-PCA tests nonlinear representation increment; freeze target integration and additional replacement controls only after source diagnostics"
+}

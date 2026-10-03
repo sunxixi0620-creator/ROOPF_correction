@@ -1,0 +1,76 @@
+{
+  "status": "source-stage protocol; target BO integration is a later separately frozen stage",
+  "scope": "small neural representation versus task-PCA on HPO-B-derived source tasks",
+  "parent": "HPOB_TRANSFER_DEVELOPMENT_V1.md",
+  "entry_gate": {
+    "required": "parent RESULTS.neural_entry_gate == true and parent VERIFICATION.passed == true",
+    "before_gate_allowed": ["input/identity-only source split", "source GP prediction cache", "PCA construction", "synthetic math contracts"],
+    "before_gate_forbidden": ["neural fitting on real source labels", "new target optimization", "confirmation response extraction"]
+  },
+  "source_scope": {
+    "eligible_tasks": 344,
+    "search_spaces": 15,
+    "raw_groups": 36,
+    "unique_source_records": 86573,
+    "per_task_cap": 256,
+    "reuse": "exact same source rows as parent; no additional source/target labels",
+    "normalization": "context sample mean and SD only, SD<1e-8 replaced with 1"
+  },
+  "source_holdout": {
+    "unit": "raw dataset group globally across all spaces",
+    "validation_groups": 8,
+    "rule": "greedy cover all 15 spaces, ties by SHA256(hpob_neural_source_valid_v1|group), then fill by hash; preserve >=3 train groups and >=1 validation group per space",
+    "failure": "stop if coverage cannot be satisfied; never rearrange using y or outcomes"
+  },
+  "neural": {
+    "separate_per_search_space": true,
+    "hidden_widths": [32, 32],
+    "activation": "GELU",
+    "mean_outputs": 1,
+    "features": 8,
+    "feature_scale": "1/sqrt(8)",
+    "dtype": "float64",
+    "seeds": [0, 1, 2],
+    "parameters": "32*d+1385; 1449..1961 network parameters, excluding base covariance"
+  },
+  "probability_model": {
+    "mean": "m_theta(x)",
+    "covariance": "Matern_5_2(x,x') + phi_theta(x)^T phi_theta(x')",
+    "conditioning": "one joint Gaussian conditioning operation; no double use of context likelihood",
+    "base": "unit-amplitude ARD Matern 5/2; positive lengthscales>=0.025 and noise>=0.0001",
+    "uncertainty_limit": "conditional Gaussian uncertainty given fitted parameters, not a full Bayesian posterior over network weights",
+    "old_residual_selector": false
+  },
+  "pca": {
+    "reference": "up to 2048 unique pooled training-source X, input-only deterministic permutation",
+    "source_models": "parent source GPs from source-training groups only; no held-out-group GP",
+    "features": 8,
+    "scaling": "U_r/sqrt(number_of_training_source_tasks-1)",
+    "low_rank": "pad zero when source task rank<8; disclose effective rank",
+    "mean": "equal training-source GP mean",
+    "covariance_calibration": "fit base hyperparameters using the same source episodes and validation rule"
+  },
+  "planned_training": {
+    "max_updates": 20000,
+    "episodes_per_update": 16,
+    "contexts": [5, 10, 20, 40],
+    "queries": 32,
+    "context_distribution": "half uniform, half paid-only online-search prefixes generated exclusively inside source-training tasks",
+    "task_sampling": "uniform tasks within each space, with replacement; episodes are not independent tasks",
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "validation_every": 100,
+    "validation_patience": 15,
+    "loss": "joint conditional predictive NLL per query, averaged equally over task episodes",
+    "checkpoint": "minimum source-validation NLL; full trajectory and calibration/ranking metrics retained",
+    "training_protocol_note": "episode manifest/search-state generator and training source hashes must be frozen before fitting"
+  },
+  "later_controls": ["same neural mean with PCA covariance", "neural mean only", "random features", "within-task shuffled source X-y correspondence", "frozen target posterior"],
+  "target_stage": {
+    "current_new_calls": 0,
+    "confirmation_calls": 0,
+    "requirements": "retain O/P/A/R references; freeze rollout and statistical contrasts separately; do not infer closed-loop value from NLL alone"
+  }
+}

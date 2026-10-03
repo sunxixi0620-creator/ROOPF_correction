@@ -1,0 +1,104 @@
+{
+  "confirmation_calls": 0,
+  "max_error": 2.7643998201654085e-12,
+  "neural_updates": 0,
+  "passed": true,
+  "rows": [
+    {
+      "active_rank": 8,
+      "feature_error": 2.924882558374975e-13,
+      "mean_error": 9.170442183403793e-14,
+      "space": "4796"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 3.4430791551187667e-13,
+      "mean_error": 1.8318679906315083e-13,
+      "space": "5527"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 1.8361701048519308e-13,
+      "mean_error": 1.7008616737257398e-13,
+      "space": "5636"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 5.613287612504791e-13,
+      "mean_error": 3.1907809727727e-13,
+      "space": "5859"
+    },
+    {
+      "active_rank": 6,
+      "feature_error": 1.6397994073713562e-13,
+      "mean_error": 9.126033262418787e-14,
+      "space": "5860"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 5.062616992290714e-14,
+      "mean_error": 1.479372180313021e-14,
+      "space": "5891"
+    },
+    {
+      "active_rank": 3,
+      "feature_error": 1.8965384818159237e-13,
+      "mean_error": 1.571520691356909e-13,
+      "space": "5906"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 8.741896095898483e-13,
+      "mean_error": 2.862710068995966e-13,
+      "space": "5965"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 1.3889930872146294e-14,
+      "mean_error": 1.1546319456101628e-14,
+      "space": "5970"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 2.7643998201654085e-12,
+      "mean_error": 1.9906437609407135e-12,
+      "space": "5971"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 2.0230345176841524e-14,
+      "mean_error": 1.9567680809018384e-14,
+      "space": "6766"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 1.13972720150457e-12,
+      "mean_error": 9.302558723334187e-13,
+      "space": "6767"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 1.4566819972472445e-13,
+      "mean_error": 9.303668946358812e-14,
+      "space": "6794"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 7.260858581048524e-14,
+      "mean_error": 5.240252676230739e-14,
+      "space": "7607"
+    },
+    {
+      "active_rank": 8,
+      "feature_error": 4.651834473179406e-14,
+      "mean_error": 4.0190073491430667e-14,
+      "space": "7609"
+    }
+  ],
+  "source_point_replays": 32410,
+  "source_y_read": false,
+  "spaces": 15,
+  "target_calls": 0,
+  "tolerance": 1e-07,
+  "validation_gp_excluded": true
+}

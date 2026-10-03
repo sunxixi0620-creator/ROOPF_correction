@@ -1,0 +1,27 @@
+{
+  "cpu_cuda_nll_error": 2.886579864025407e-15,
+  "eight_update_benchmark_seconds": {
+    "cpu_M": 0.05110942999999679,
+    "cpu_N": 0.05609556599983989,
+    "cpu_PCA": 0.035257987000022695,
+    "cuda_M": 0.06950306599992473,
+    "cuda_N": 0.5302555950001988,
+    "cuda_PCA": 0.054120324999985314
+  },
+  "exact_resume_errors": {
+    "cpu_M": 0.0,
+    "cpu_N": 0.0,
+    "cpu_PCA": 0.0,
+    "cuda_M": 0.0,
+    "cuda_N": 0.0,
+    "cuda_PCA": 0.0
+  },
+  "fabricated_only": true,
+  "paired_initialization": true,
+  "real_source_updates": 0,
+  "runner_sha256": "b189ccbf05f10e1aa570427147e0c006657ba8e11aa7e71481be4f1a4e568946",
+  "source_sha256": "9b8eb6ab0060fc406f32b10e5c9dc05c8ee0452c84e27e996d8fd0a5e7caf954",
+  "target_calls": 0,
+  "test_sha256": "0a84927acc61a4d5bb873f76cf3a146e932571796236fef2eb68c0c70b2d0fb0",
+  "validation_gradient_access_rejected": true
+}

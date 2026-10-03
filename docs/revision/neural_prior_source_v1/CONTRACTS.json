@@ -1,0 +1,13 @@
+{
+  "context_only_normalization": true,
+  "cpu_cuda_error": 4.440892098500626e-16,
+  "fabricated_only": true,
+  "gaussian_block_error": 4.440892098500626e-16,
+  "gradients_finite": true,
+  "pca_covariance_error": 7.216449660063518e-16,
+  "real_training_updates": 0,
+  "source_sha256": "85fed60b590156ab62e30e02662e17c2ff6b9f1e027da89708d0fbc0669a2983",
+  "target_calls": 0,
+  "test_sha256": "8a74d03c82e47ae1ceb78426ceb51332076768368e4ea6723729de29e384b75e",
+  "zero_source_reduces_to_gp": true
+}

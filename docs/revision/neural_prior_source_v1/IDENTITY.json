@@ -1,0 +1,11 @@
+{
+  "parent": "6eb8091caae6fe233b1482bfe59e94ea97701fe91a806f02892879e7c1fb83d3",
+  "sources": {
+    "docs/experiments/NEURAL_PRIOR_SOURCE_STAGE_V1.json": "a309cfc4d1631e1fd8d71e4e0068d7cf119d5951dd76e3c09eede99bf6726acf",
+    "roopf/probabilistic_prior_v1.py": "85fed60b590156ab62e30e02662e17c2ff6b9f1e027da89708d0fbc0669a2983",
+    "scripts/check_probabilistic_prior_v1.py": "8a74d03c82e47ae1ceb78426ceb51332076768368e4ea6723729de29e384b75e",
+    "scripts/prepare_neural_prior_source_v1.py": "ac9265ef212eac608c3cfc4608cf6894f8a21982fa621fdd2e44e9883b0b7560"
+  },
+  "split": "8ead3494c9b591206ed345765474cfc75f53d8e26257968f0aa91d9d32bffb4a",
+  "time": 1790826533.8125174
+}
