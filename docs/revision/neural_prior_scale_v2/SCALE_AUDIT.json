@@ -1,0 +1,9 @@
+{
+  "confirmation_calls": 0,
+  "episodes": 2624,
+  "identity_sha256": "a520286449e2f8123f40a104f8c1abdb15538e5ab2be6bdf86be380af3828362",
+  "max_standardized_query_after": 61.43166617292509,
+  "max_standardized_query_before": 1338046.920973226,
+  "purpose": "Normalization scale audit after policy freeze; not a model performance result",
+  "target_calls": 0
+}

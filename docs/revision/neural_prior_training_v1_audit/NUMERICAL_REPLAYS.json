@@ -1,0 +1,2945 @@
+[
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.7337242752546445e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.2615193116052972e-13,
+    "name": "4796_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.4158453015843406e-12,
+        "query_choice_regret": 3.3306690738754696e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.258077408432304e-14,
+    "name": "4796_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.0676793610618915e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.584863037328542e-14,
+    "name": "4796_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.8260948309034575e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.8707257964933888e-13,
+    "name": "4796_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.3590018827235326e-12,
+        "query_choice_regret": 3.3306690738754696e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.325144748541325e-14,
+    "name": "4796_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.0676793610618915e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.584863037328542e-14,
+    "name": "4796_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.8545165403338615e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.163346873559174e-13,
+    "name": "4796_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.3803181647963356e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.306972760110547e-14,
+    "name": "4796_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.0676793610618915e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.584863037328542e-14,
+    "name": "4796_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.671731635928154e-08,
+        "query_choice_regret": 3.3306690738754696e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.98441304791686e-13,
+    "name": "5527_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 27,
+        "error": 2.7567148208618164e-07,
+        "metric": "nll",
+        "recorded": 455661.4481470007,
+        "repeat": 3,
+        "replayed": 455661.44814727636,
+        "task": "5527_14951"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.7567148208618164e-07,
+        "query_choice_regret": 1.231653667943533e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.049918930101092e-13,
+    "name": "5527_0_M",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 27,
+        "error": 1.6635749489068985e-07,
+        "metric": "nll",
+        "recorded": 274246.37594493624,
+        "repeat": 3,
+        "replayed": 274246.3759451026,
+        "task": "5527_14951"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.6635749489068985e-07,
+        "query_choice_regret": 3.3306690738754696e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.065986991350122e-13,
+    "name": "5527_0_PCA",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.3076503314077854e-08,
+        "query_choice_regret": 3.3306690738754696e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.087113174989305e-13,
+    "name": "5527_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 27,
+        "error": 2.755550667643547e-07,
+        "metric": "nll",
+        "recorded": 454998.84375785285,
+        "repeat": 3,
+        "replayed": 454998.8437581284,
+        "task": "5527_14951"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.755550667643547e-07,
+        "query_choice_regret": 1.231653667943533e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.05617070339201e-13,
+    "name": "5527_1_M",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 27,
+        "error": 1.6612466424703598e-07,
+        "metric": "nll",
+        "recorded": 274033.89949001546,
+        "repeat": 3,
+        "replayed": 274033.8994901816,
+        "task": "5527_14951"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.6612466424703598e-07,
+        "query_choice_regret": 3.3306690738754696e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.062193931342017e-13,
+    "name": "5527_1_PCA",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.3141986932605505e-08,
+        "query_choice_regret": 3.3306690738754696e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.45261621912141e-13,
+    "name": "5527_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 27,
+        "error": 2.7526402845978737e-07,
+        "metric": "nll",
+        "recorded": 454584.1585349569,
+        "repeat": 3,
+        "replayed": 454584.1585352322,
+        "task": "5527_14951"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.7526402845978737e-07,
+        "query_choice_regret": 1.231653667943533e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.055293025320413e-13,
+    "name": "5527_2_M",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 27,
+        "error": 1.6565900295972824e-07,
+        "metric": "nll",
+        "recorded": 273623.3710291904,
+        "repeat": 3,
+        "replayed": 273623.3710293561,
+        "task": "5527_14951"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.6565900295972824e-07,
+        "query_choice_regret": 3.3306690738754696e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.054270961454369e-13,
+    "name": "5527_2_PCA",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.142996891052462e-11,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.016609515630989e-14,
+    "name": "5636_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.5802470443304628e-11,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 5.24228776057528e-14,
+    "name": "5636_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.6493474908638746e-11,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.934119024803346e-14,
+    "name": "5636_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 5.7553961596568115e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.7420777650648e-14,
+    "name": "5636_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.517719283583574e-11,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 5.1759504037549e-14,
+    "name": "5636_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.6493474908638746e-11,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.934119024803346e-14,
+    "name": "5636_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 9.9333874459262e-12,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.056495210414175e-13,
+    "name": "5636_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.5290879673557356e-11,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 5.236439185686954e-14,
+    "name": "5636_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.6493474908638746e-11,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.934119024803346e-14,
+    "name": "5636_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.0030517578125,
+        "metric": "nll",
+        "recorded": 388962148878.7283,
+        "repeat": 2,
+        "replayed": 388962148878.7252,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 0.0001220703125,
+        "metric": "nll",
+        "recorded": 187978934239.04413,
+        "repeat": 5,
+        "replayed": 187978934239.04425,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 0.000152587890625,
+        "metric": "nll",
+        "recorded": 168938799281.99774,
+        "repeat": 7,
+        "replayed": 168938799281.9979,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.0030517578125,
+        "query_choice_regret": 1.5265566588595902e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.3367692741520728e-13,
+    "name": "5859_0_N",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.0035400390625,
+        "metric": "nll",
+        "recorded": 575481666670.6,
+        "repeat": 2,
+        "replayed": 575481666670.5964,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 0.00042724609375,
+        "metric": "nll",
+        "recorded": 234379080126.14874,
+        "repeat": 5,
+        "replayed": 234379080126.14832,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 0.000396728515625,
+        "metric": "nll",
+        "recorded": 208108965073.33676,
+        "repeat": 7,
+        "replayed": 208108965073.33636,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.0035400390625,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 8.64708445685046e-14,
+    "name": "5859_0_M",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.0001373291015625,
+        "metric": "nll",
+        "recorded": 111761287956.57437,
+        "repeat": 2,
+        "replayed": 111761287956.57451,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 1.52587890625e-05,
+        "metric": "nll",
+        "recorded": 88328061924.95378,
+        "repeat": 5,
+        "replayed": 88328061924.95377,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 0.000244140625,
+        "metric": "nll",
+        "recorded": 120612246969.70087,
+        "repeat": 7,
+        "replayed": 120612246969.70062,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.000244140625,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.0670489719727123e-13,
+    "name": "5859_0_PCA",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.0125732421875,
+        "metric": "nll",
+        "recorded": 349691102098.6789,
+        "repeat": 2,
+        "replayed": 349691102098.6663,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 0.00225830078125,
+        "metric": "nll",
+        "recorded": 197589534128.12302,
+        "repeat": 5,
+        "replayed": 197589534128.12076,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 0.00244140625,
+        "metric": "nll",
+        "recorded": 168884858241.8528,
+        "repeat": 7,
+        "replayed": 168884858241.85037,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.0125732421875,
+        "query_choice_regret": 1.5265566588595902e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.720309286431693e-13,
+    "name": "5859_1_N",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.0052490234375,
+        "metric": "nll",
+        "recorded": 580921077805.139,
+        "repeat": 2,
+        "replayed": 580921077805.1338,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 0.000701904296875,
+        "metric": "nll",
+        "recorded": 231231561715.22876,
+        "repeat": 5,
+        "replayed": 231231561715.22806,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 3.0517578125e-05,
+        "metric": "nll",
+        "recorded": 207394662166.18707,
+        "repeat": 7,
+        "replayed": 207394662166.18704,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.0052490234375,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 8.86072997288795e-14,
+    "name": "5859_1_M",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.0001373291015625,
+        "metric": "nll",
+        "recorded": 111761287956.57437,
+        "repeat": 2,
+        "replayed": 111761287956.57451,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 1.52587890625e-05,
+        "metric": "nll",
+        "recorded": 88328061924.95378,
+        "repeat": 5,
+        "replayed": 88328061924.95377,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 0.000244140625,
+        "metric": "nll",
+        "recorded": 120612246969.70087,
+        "repeat": 7,
+        "replayed": 120612246969.70062,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.000244140625,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.0670489719727123e-13,
+    "name": "5859_1_PCA",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.002197265625,
+        "metric": "nll",
+        "recorded": 360658202337.1132,
+        "repeat": 2,
+        "replayed": 360658202337.111,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 0.000732421875,
+        "metric": "nll",
+        "recorded": 207055942014.41885,
+        "repeat": 5,
+        "replayed": 207055942014.41812,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 0.0006103515625,
+        "metric": "nll",
+        "recorded": 175908134250.53992,
+        "repeat": 7,
+        "replayed": 175908134250.5393,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.002197265625,
+        "query_choice_regret": 1.5265566588595902e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.159445224707459e-13,
+    "name": "5859_2_N",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.0013427734375,
+        "metric": "nll",
+        "recorded": 575407302759.4766,
+        "repeat": 2,
+        "replayed": 575407302759.4752,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 0.000885009765625,
+        "metric": "nll",
+        "recorded": 240327592887.25278,
+        "repeat": 5,
+        "replayed": 240327592887.25366,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 0.0006103515625,
+        "metric": "nll",
+        "recorded": 211808729454.62872,
+        "repeat": 7,
+        "replayed": 211808729454.6281,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.0013427734375,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 8.571694690668149e-14,
+    "name": "5859_2_M",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 34,
+        "error": 0.0001373291015625,
+        "metric": "nll",
+        "recorded": 111761287956.57437,
+        "repeat": 2,
+        "replayed": 111761287956.57451,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 37,
+        "error": 1.52587890625e-05,
+        "metric": "nll",
+        "recorded": 88328061924.95378,
+        "repeat": 5,
+        "replayed": 88328061924.95377,
+        "task": "5859_9946"
+      },
+      {
+        "context": 5,
+        "device": "cpu",
+        "episode": 39,
+        "error": 0.000244140625,
+        "metric": "nll",
+        "recorded": 120612246969.70087,
+        "repeat": 7,
+        "replayed": 120612246969.70062,
+        "task": "5859_9946"
+      }
+    ],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 0.000244140625,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.0670489719727123e-13,
+    "name": "5859_2_PCA",
+    "original_cpu_check_passed": false,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.531752999057062e-13,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.7714189897280743e-13,
+    "name": "5860_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.3092638912203256e-13,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.083035165636933e-14,
+    "name": "5860_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.72715225139109e-14,
+        "query_choice_regret": 0.0
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.502961680107899e-14,
+    "name": "5860_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.602362769721367e-13,
+        "query_choice_regret": 0.0
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.1279481070286821e-13,
+    "name": "5860_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.0250467969162855e-13,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.820258523069044e-14,
+    "name": "5860_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.194245199571014e-14,
+        "query_choice_regret": 0.0
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.3466097827380526e-14,
+    "name": "5860_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.730349362740526e-13,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.4144241333724494e-13,
+    "name": "5860_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.078337502098293e-13,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.7807320774838456e-14,
+    "name": "5860_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.860379014346108e-14,
+        "query_choice_regret": 0.0
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.637056629142138e-14,
+    "name": "5860_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.1641532182693481e-09,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.1787786150026314e-14,
+    "name": "5891_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.7462298274040222e-10,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.3041594158453923e-14,
+    "name": "5891_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.3283064365386963e-10,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.2318314668885442e-14,
+    "name": "5891_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.7462298274040222e-09,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.7951366559883574e-14,
+    "name": "5891_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.1641532182693481e-10,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.2459252009140984e-14,
+    "name": "5891_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.3283064365386963e-10,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.3148290613966507e-14,
+    "name": "5891_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.402842700481415e-10,
+        "query_choice_regret": 1.7867651802561113e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.5639070865062274e-14,
+    "name": "5891_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.3283064365386963e-10,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.2893520445450626e-14,
+    "name": "5891_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.1641532182693481e-10,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.2459163691952128e-14,
+    "name": "5891_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.0103029524088925e-14,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.0103029524088925e-14,
+    "name": "5906_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.771561172376096e-15,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 5.9649607974617135e-15,
+    "name": "5906_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 8.881784197001252e-15,
+        "query_choice_regret": 8.326672684688674e-17
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 8.168505403483792e-15,
+    "name": "5906_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.509903313490213e-14,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.509903313490213e-14,
+    "name": "5906_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.3306690738754696e-15,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.559381699582663e-15,
+    "name": "5906_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 8.881784197001252e-15,
+        "query_choice_regret": 8.326672684688674e-17
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 8.168505403483792e-15,
+    "name": "5906_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.4210854715202004e-14,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.334253033606508e-14,
+    "name": "5906_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.6645352591003757e-15,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.6645352591003757e-15,
+    "name": "5906_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.8207657603852567e-14,
+        "query_choice_regret": 8.326672684688674e-17
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.8207657603852567e-14,
+    "name": "5906_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.707523425575346e-12,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.264699472207434e-13,
+    "name": "5965_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.0118128557223827e-11,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.9915265371379466e-14,
+    "name": "5965_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.30961949354969e-12,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.0731503191891426e-14,
+    "name": "5965_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 8.469669410260394e-12,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.129109483141188e-13,
+    "name": "5965_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.0231815394945443e-11,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.841067029950539e-14,
+    "name": "5965_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.30961949354969e-12,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.166323272670576e-14,
+    "name": "5965_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 8.284928298962768e-12,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.0132556137110973e-13,
+    "name": "5965_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.057287590811029e-11,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.0521662417474346e-14,
+    "name": "5965_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.480149750132114e-12,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.1190953703659375e-14,
+    "name": "5965_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.5810655895620584e-08,
+        "query_choice_regret": 1.682681771697503e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.903214193800751e-13,
+    "name": "5970_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.5756889954209328e-08,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.859786205945466e-13,
+    "name": "5970_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.0161678548902273e-08,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.843507445872843e-13,
+    "name": "5970_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.5512341633439064e-08,
+        "query_choice_regret": 1.682681771697503e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.910344763843277e-13,
+    "name": "5970_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.563319867476821e-08,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.863513867584674e-13,
+    "name": "5970_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.000888343900442e-08,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.840969521176749e-13,
+    "name": "5970_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.7105776350945234e-08,
+        "query_choice_regret": 1.682681771697503e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.955775637724459e-13,
+    "name": "5970_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.5902409106492996e-08,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.858195136651864e-13,
+    "name": "5970_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.0059815142303705e-08,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.839831278102344e-13,
+    "name": "5970_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 8.458300726488233e-11,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.41706207858824e-14,
+    "name": "5971_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.764863893389702e-10,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.998910550672904e-14,
+    "name": "5971_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.4915713109076023e-10,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.8092683375348565e-14,
+    "name": "5971_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.776179700158536e-11,
+        "query_choice_regret": 1.249000902703301e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.5736533611725258e-14,
+    "name": "5971_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.874003257602453e-10,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.038630488838549e-14,
+    "name": "5971_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.418811734765768e-10,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.776458466206571e-14,
+    "name": "5971_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 8.412825991399586e-12,
+        "query_choice_regret": 1.6653345369377348e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.98713706781315e-14,
+    "name": "5971_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.801243681460619e-10,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.0472703808078983e-14,
+    "name": "5971_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.418811734765768e-10,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.8715533482536936e-14,
+    "name": "5971_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.261657858885883e-14,
+        "query_choice_regret": 1.5785983631388945e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.3749042237786622e-14,
+    "name": "6766_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.483702463810914e-14,
+        "query_choice_regret": 1.5092094240998222e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.4548586797393983e-14,
+    "name": "6766_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 5.639932965095795e-14,
+        "query_choice_regret": 1.5092094240998222e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.5558489969515208e-14,
+    "name": "6766_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 9.592326932761353e-14,
+        "query_choice_regret": 1.5785983631388945e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.1999941917986114e-14,
+    "name": "6766_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.572520305780927e-14,
+        "query_choice_regret": 1.5092094240998222e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.4186876751627393e-14,
+    "name": "6766_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 5.684341886080802e-14,
+        "query_choice_regret": 1.5092094240998222e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.5586622947229556e-14,
+    "name": "6766_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.4521717162097048e-13,
+        "query_choice_regret": 1.5785983631388945e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.653236826798973e-14,
+    "name": "6766_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.661338147750939e-14,
+        "query_choice_regret": 1.5092094240998222e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.4607047285308543e-14,
+    "name": "6766_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 5.595524044110789e-14,
+        "query_choice_regret": 1.5092094240998222e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 1.5354763312360298e-14,
+    "name": "6766_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.091837814077735e-11,
+        "query_choice_regret": 1.249000902703301e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.5769165629883087e-14,
+    "name": "6767_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.139089236967266e-11,
+        "query_choice_regret": 1.249000902703301e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.696810658328342e-14,
+    "name": "6767_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.637978807091713e-11,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.8049132494072464e-14,
+    "name": "6767_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.1377567211166024e-11,
+        "query_choice_regret": 1.249000902703301e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.0367097666579625e-14,
+    "name": "6767_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.093614501878619e-11,
+        "query_choice_regret": 1.249000902703301e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.630153909217858e-14,
+    "name": "6767_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.6834535421803594e-11,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.8335356211222624e-14,
+    "name": "6767_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.887201506178826e-11,
+        "query_choice_regret": 1.3877787807814457e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.4610955231699836e-14,
+    "name": "6767_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.002665031701326e-11,
+        "query_choice_regret": 1.249000902703301e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.6818419353484536e-14,
+    "name": "6767_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.774403012357652e-11,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.726490842309004e-14,
+    "name": "6767_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 5.719869022868806e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 5.798878639488547e-14,
+    "name": "6794_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.460698725481052e-13,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.905549992798826e-14,
+    "name": "6794_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.306066779870889e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.868991539590141e-14,
+    "name": "6794_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 5.488942633746774e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.571480984390158e-14,
+    "name": "6794_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.602807272633072e-13,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.918262773690357e-14,
+    "name": "6794_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.235012506294879e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.798700288376177e-14,
+    "name": "6794_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.052136652418994e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 8.225369854762208e-14,
+    "name": "6794_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 7.673861546209082e-13,
+        "query_choice_regret": 2.220446049250313e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.944817086547101e-14,
+    "name": "6794_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 6.323830348264892e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 6.889647660146571e-14,
+    "name": "6794_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.7053025658242404e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.61604780958459e-14,
+    "name": "7607_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.2666313270747196e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.672755411247751e-14,
+    "name": "7607_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.936228954946273e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.759890332965255e-14,
+    "name": "7607_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.4530598946294049e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.641806818461084e-14,
+    "name": "7607_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.2453150450019166e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.710100507523095e-14,
+    "name": "7607_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.19912976717751e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.770647184246148e-14,
+    "name": "7607_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.9042545318370685e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.602694979969781e-14,
+    "name": "7607_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.291500322826323e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.740636492685707e-14,
+    "name": "7607_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 2.007283228522283e-12,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 7.774654872851649e-14,
+    "name": "7607_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 4.440892098500626e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 5.712103102476023e-14,
+    "name": "7609_0_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.2152058793144533e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.257638602045766e-14,
+    "name": "7609_0_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.1441516057384433e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.001349291338331e-14,
+    "name": "7609_0_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 1.9184653865522705e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 5.535901773681228e-14,
+    "name": "7609_1_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.2862601528904634e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.144588882154764e-14,
+    "name": "7609_1_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.126388037344441e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.967101153052285e-14,
+    "name": "7609_1_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 4.263256414560601e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 4.8400232553757273e-14,
+    "name": "7609_2_N",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.232969447708456e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 3.2017397509881654e-14,
+    "name": "7609_2_M",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  },
+  {
+    "failures": [],
+    "max_absolute_errors": {
+      "cpu": {
+        "coverage90": 0.0,
+        "nll": 3.090860900556436e-13,
+        "query_choice_regret": 1.1102230246251565e-16
+      },
+      "cuda": {
+        "coverage90": 0.0,
+        "nll": 0.0,
+        "query_choice_regret": 0.0
+      }
+    },
+    "max_cpu_nll_scaled_error": 2.922935388561743e-14,
+    "name": "7609_2_PCA",
+    "original_cpu_check_passed": true,
+    "same_cuda_check_passed": true
+  }
+]

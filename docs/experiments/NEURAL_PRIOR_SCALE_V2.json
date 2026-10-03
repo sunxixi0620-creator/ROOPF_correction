@@ -1,0 +1,45 @@
+{
+  "stage": "bounded source-only scale diagnostic after v1; no target rollout",
+  "parent": "NEURAL_PRIOR_TRAINING_V1.json",
+  "motivation": "v1 near-constant contexts above the 1e-8 fallback threshold create standardized query values above one million and dominate the NLL used for training and early stopping",
+  "change": {
+    "reference_variance": "median of within-task unbiased response variances, using only the 262 source-training tasks, separately per space; fail if this median is nonpositive or nonfinite",
+    "normalization_mean": "mean of current context responses only",
+    "normalization_scale": "sqrt((4 * source_reference_variance + (n-1) * context_sample_variance) / (n+3))",
+    "pseudo_degrees_of_freedom": 4,
+    "query_labels_in_scale": false,
+    "validation_labels_in_reference": false,
+    "clipping_or_discarding_query_labels": false,
+    "same_for_all_methods": true,
+    "limit": "this supplies a non-neural offline scale prior; a later pure-online comparison must retain an explicit online-GP-plus-this-scale control"
+  },
+  "fixed_design": {
+    "methods": ["N","M","PCA"],
+    "spaces": "all 15 from v1, no result-dependent selection",
+    "training_seeds": [0],
+    "fits": 45,
+    "network_and_base": "same v1 initialization, architecture, optimizer, base constraints and PCA cache",
+    "episodes": "same step-indexed v1 episodes and fixed validation panels; reuse source-only v1 O prefixes",
+    "maximum_updates": 20000,
+    "episodes_per_update": 16,
+    "validate_every": 100,
+    "patience": 15,
+    "selection": "minimum fixed source-validation conditional NLL including step zero",
+    "comparison": "all matching v1 seed-0 fits; disclose single seed as a diagnostic, not replication"
+  },
+  "report": {
+    "aggregation": "average episodes/tasks within each raw validation dataset group, then equally average the eight groups",
+    "within_v2": ["N-M", "N-PCA"],
+    "across_versions": "compare choice regret and coverage directly; compare density scores in raw response units: NLL_raw = NLL_standardized + log(scale). Standardized NLLs from different scale policies are not directly comparable",
+    "diagnostics": ["largest standardized query magnitude", "coverage versus nominal 90%", "choice regret on fixed 32-query panels", "raw-unit NLL", "best step zero", "update cap reached", "per-space and per-group results"],
+    "interpretation": "source validation was used for selection; no statistical-confirmation or real target-evaluation-efficiency claim"
+  },
+  "resources": {
+    "cpu_workers": 12,
+    "gpu_workers": 3,
+    "threads_per_worker": 1,
+    "placement": "numeric-space-order indices divisible by 8 use CUDA, all other spaces CPU; keep all three paired methods of a space on one device; identities record placement before fitting"
+  },
+  "numerical_audit": "replay on the training device at the original absolute metric tolerance 1e-7; preserve and separately describe any CPU/GPU differences; do not change the failed v1 CPU check",
+  "stop": "stop after these 45 fits and their report; no automatic architecture/epoch/scale search, seed expansion, target queries, confirmation access or final claim"
+}
