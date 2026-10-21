@@ -1,0 +1,29 @@
+{
+  "method": "ROOPF",
+  "scope": {
+    "bbob_function_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+    "cec_style_function_ids": [1, 2, 3, 4, 5, 6]
+  },
+  "protocol": {
+    "dimension": 10,
+    "population_size": 100,
+    "evaluation_budget": 300,
+    "anchor_candidates": 2,
+    "runtime_operators": 6,
+    "candidates_per_operator": 6,
+    "portfolio_candidates": 36,
+    "surrogate_members": 5,
+    "hidden_dimension": 200,
+    "residual_weight": 0.008,
+    "batch_size": 10,
+    "repeat_batches": 10,
+    "total_trajectories_per_function": 100,
+    "seed": 20260630
+  },
+  "artifacts": {
+    "checkpoints/anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "checkpoints/residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+    "data/bbob_offsets_d10.pkl": "4b74f33887e141073a679c3ed71c8a9b92a4411f674fc31c664b176cd1ea5136"
+  }
+}
+
