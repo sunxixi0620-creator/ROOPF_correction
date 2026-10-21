@@ -6,6 +6,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+from roopf.agentic_controller import BudgetAwareAgenticController
+
 
 EPS = 1e-8
 
@@ -296,6 +298,7 @@ class ROOPFOptimizer(nn.Module):
         router_weight: float = 0.10,
         policy_gate_better_ckpt: str = "",
         policy_gate_worse_ckpt: str = "",
+        agentic_mode: str = "off",
     ):
         super().__init__()
         self.popsize = popSize
@@ -355,6 +358,15 @@ class ROOPFOptimizer(nn.Module):
         self.restart_logit = nn.Parameter(torch.tensor(-2.0))
 
         self.generator = SimpleNamespace(op_names=self.op_names, num_ops=self.num_ops)
+        self.agentic_mode = str(agentic_mode).strip().lower()
+        if self.agentic_mode not in {"off", "p4b"}:
+            raise ValueError("agentic_mode must be one of: off, p4b")
+        self.agentic_controller = (
+            BudgetAwareAgenticController(self.op_names)
+            if self.agentic_mode == "p4b"
+            else None
+        )
+        self.agentic_history = []
         self.baseline_model = None
         if "baseline_guard" in self.ablation:
             state = torch.load(baseline_ckpt, map_location="cpu") if baseline_ckpt else None
@@ -1448,6 +1460,7 @@ class ROOPFOptimizer(nn.Module):
         self.fused_history = []
         self.candidate_samples = []
         self.pool_candidate_samples = []
+        self.agentic_history = []
         self._reset_origin_stats()
 
         fitness = _ensure_fitness_2d(problem.calfitness(x))
@@ -1480,6 +1493,17 @@ class ROOPFOptimizer(nn.Module):
 
             state, state_raw = self.state_encoder(x, fitness, problem, remaining, used, stagnation)
             pool, op_ids, op_prior = self._candidate_pool(x, fitness, problem, state, state_raw, success_logits)
+            if self.agentic_controller is not None:
+                op_prior, agentic_diagnostics = self.agentic_controller(
+                    candidate_prior=op_prior,
+                    candidate_ops=op_ids,
+                    op_seen=op_seen,
+                    op_admitted=op_admit,
+                    op_best=op_best,
+                    remaining=remaining,
+                    stagnation=stagnation,
+                )
+                self.agentic_history.append(agentic_diagnostics["operator_weights"])
             if "dynamic_highdim_op_adapter" in self.ablation and _is_embedded_high_dim_problem(problem):
                 op_prior = self._dynamic_highdim_prior(
                     op_prior=op_prior,
@@ -1860,7 +1884,8 @@ class ROOPFOptimizer(nn.Module):
                 portfolio_admit_count = portfolio_admit_count + (portfolio_mask & admitted).sum(dim=1).to(portfolio_admit_count.dtype)
                 portfolio_best_count = portfolio_best_count + (portfolio_mask & improved_best).sum(dim=1).to(portfolio_best_count.dtype)
             if (
-                ("highdim_adaptive_op_router" in self.ablation and _is_embedded_high_dim_problem(problem))
+                self.agentic_controller is not None
+                or ("highdim_adaptive_op_router" in self.ablation and _is_embedded_high_dim_problem(problem))
                 or (
                     "adaptive_proxy_disable" in self.ablation
                     and not _is_local_proxy_friendly_problem(problem)
@@ -1884,6 +1909,7 @@ class ROOPFOptimizer(nn.Module):
                     or "gated_rescue_highdim_adapter" in self.ablation
                 )
                 and _is_embedded_high_dim_problem(problem)
+                and self.agentic_controller is None
             ):
                 batch = torch.arange(x.size(0), device=x.device)
                 for ci in range(rest):
@@ -1952,4 +1978,10 @@ class ROOPFOptimizer(nn.Module):
             self.gate_history = empty
             self.teacher_history = empty
             self.fused_history = empty
+        if self.agentic_history:
+            self.agentic_history = torch.stack(self.agentic_history, dim=1)
+        else:
+            self.agentic_history = torch.empty(
+                (x.size(0), 0, self.num_ops), device=x.device, dtype=x.dtype
+            )
         return x, self.trail, self.evalnum, self.all_k_candidates

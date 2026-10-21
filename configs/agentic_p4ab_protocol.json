@@ -1,0 +1,36 @@
+{
+  "method": "ROOPF-Agentic-P4b",
+  "baseline": "ROOPF",
+  "invariants": {
+    "true_evaluation_budget": 300,
+    "population_size": 100,
+    "anchor_candidates_per_decision": 2,
+    "candidate_pool_is_free": true,
+    "protected_selector_retained": true,
+    "cross_task_writeback": false
+  },
+  "operator_agents": [
+    "amortized_elite",
+    "current_to_pbest_archive",
+    "covariance_elite",
+    "trust_region",
+    "coordinate_pattern",
+    "opposition_restart"
+  ],
+  "decision_agents": [
+    "exploration",
+    "exploitation",
+    "recovery",
+    "safety"
+  ],
+  "evaluation": {
+    "paired_seeds": true,
+    "primary_metric": "final_best_at_equal_nfe",
+    "secondary_metrics": [
+      "normalized_regret_auc",
+      "win_tie_loss",
+      "wall_clock_seconds",
+      "operator_utilization"
+    ]
+  }
+}

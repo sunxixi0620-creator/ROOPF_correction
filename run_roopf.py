@@ -37,6 +37,14 @@ PAPER_CONFIG = {
     "repeat_batches": 10,
     "batch_size": 10,
     "residual_weight": 0.008,
+    "operator_names": [
+        "amortized_elite",
+        "current_to_pbest_archive",
+        "covariance_elite",
+        "trust_region",
+        "coordinate_pattern",
+        "opposition_restart",
+    ],
 }
 
 
@@ -146,6 +154,7 @@ def build_optimizer(args: argparse.Namespace) -> ROOPFOptimizer:
         baseline_ckpt=str(anchor_checkpoint),
         router_ckpt=str(residual_checkpoint),
         router_weight=PAPER_CONFIG["residual_weight"],
+        agentic_mode=args.agentic_mode,
     ).to(DEVICE)
     optimizer.eval()
     return optimizer
@@ -162,6 +171,13 @@ def evaluate_problem(
     final_values = []
     trails = []
     evaluation_counts = []
+    origin_totals = {
+        "baseline_evals": 0,
+        "portfolio_evals": 0,
+        "op_evals": {name: 0 for name in optimizer.op_names},
+    }
+    agentic_weight_sums = torch.zeros(len(optimizer.op_names), dtype=torch.float64)
+    agentic_weight_count = 0
     with torch.no_grad():
         for _ in range(repeat_batches):
             population = problem.genRandomPop((batch_size, population_size, dimension))
@@ -169,6 +185,14 @@ def evaluate_problem(
             final_values.append(trail[:, -1].detach().cpu())
             trails.append(trail.detach().cpu())
             evaluation_counts.append(int(evaluations))
+            origin_totals["baseline_evals"] += int(optimizer.origin_stats["baseline_evals"])
+            origin_totals["portfolio_evals"] += int(optimizer.origin_stats["portfolio_evals"])
+            for name in optimizer.op_names:
+                origin_totals["op_evals"][name] += int(optimizer.origin_stats["op_evals"][name])
+            if torch.is_tensor(optimizer.agentic_history) and optimizer.agentic_history.numel() > 0:
+                weights = optimizer.agentic_history.detach().cpu().to(torch.float64)
+                agentic_weight_sums += weights.sum(dim=(0, 1))
+                agentic_weight_count += int(weights.size(0) * weights.size(1))
 
     final = torch.cat(final_values, dim=0)
     return {
@@ -177,6 +201,12 @@ def evaluate_problem(
         "evalnums": max(evaluation_counts),
         "mean": float(final.mean().item()),
         "std": float(final.std(unbiased=False).item()),
+        "origin_stats": origin_totals,
+        "agentic_weights": (
+            (agentic_weight_sums / agentic_weight_count).tolist()
+            if agentic_weight_count > 0
+            else [0.0] * len(optimizer.op_names)
+        ),
     }
 
 
@@ -185,11 +215,13 @@ def result_path(args: argparse.Namespace, benchmark: str, function_ids: List[int
     all_ids = list(range(1, 25 if benchmark == "bbob" else 7))
     if function_ids != all_ids:
         suffix = "_f" + "-".join(str(fid) for fid in function_ids)
-    return args.output_dir / f"roopf_{benchmark}_d{args.dimension}_nfe{args.budget}{suffix}.csv"
+    method = "roopf" if args.agentic_mode == "off" else f"roopf_agentic-{args.agentic_mode}"
+    return args.output_dir / f"{method}_{benchmark}_d{args.dimension}_nfe{args.budget}{suffix}.csv"
 
 
 def make_row(args: argparse.Namespace, benchmark: str, fid: str, result: Dict) -> Dict:
-    return {
+    row = {
+        "method": "ROOPF" if args.agentic_mode == "off" else "ROOPF-Agentic-P4b",
         "target": benchmark,
         "fid": fid,
         "dim": args.dimension,
@@ -201,7 +233,14 @@ def make_row(args: argparse.Namespace, benchmark: str, fid: str, result: Dict) -
         "mean": result["mean"],
         "std": result["std"],
         "evalnums": result["evalnums"],
+        "baseline_evals": result["origin_stats"]["baseline_evals"],
+        "portfolio_evals": result["origin_stats"]["portfolio_evals"],
     }
+    for name, count in result["origin_stats"]["op_evals"].items():
+        row[f"op_evals_{name}"] = count
+    for name, weight in zip(PAPER_CONFIG["operator_names"], result["agentic_weights"]):
+        row[f"agentic_weight_{name}"] = weight
+    return row
 
 
 def run_bbob(args: argparse.Namespace, optimizer: ROOPFOptimizer) -> Path:
@@ -287,7 +326,7 @@ def write_run_metadata(args: argparse.Namespace, outputs: List[Path]) -> None:
         "bbob_offsets": ROOT / "data" / "bbob_offsets_d10.pkl",
     }
     metadata = {
-        "method": "ROOPF",
+        "method": "ROOPF" if args.agentic_mode == "off" else "ROOPF-Agentic-P4b",
         "seed": args.seed,
         "device": str(DEVICE),
         "python": platform.python_version(),
@@ -331,6 +370,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--output-dir", type=Path, default=ROOT / "results")
     parser.add_argument("--save-trails", action="store_true")
+    parser.add_argument(
+        "--agentic-mode",
+        choices=["off", "p4b"],
+        default="off",
+        help="Enable the budget-aware P4b operator-agent controller.",
+    )
     parser.add_argument(
         "--quick",
         action="store_true",
