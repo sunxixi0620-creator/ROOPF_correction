@@ -1,0 +1,15 @@
+{
+  "roopf/model.py": "d17b1d2585f3c1d80a784bd633240dd82e143e566d3765f3b92fc77348e90270",
+  "roopf/fusion_rules.py": "88d9a2ba58ea44025bb9ca9444dbced1072f2631e9084a68d905166df1cd0c88",
+  "roopf/fusion_agent.py": "b19b2d94e2511793f661c83b849321c4be3913ed00fde929442245952d0384a2",
+  "roopf/multistep_fusion_agent.py": "64794eb57943fc2cd6c82db89eba5826bd5a439c67c66d7b6dc5ed202d1a7908",
+  "scripts/experiment_r04.py": "2c71a47524c09e08092544ab63697d3447d5962ba0e52aab3d01b3e0327f70e5",
+  "scripts/experiment_r02.py": "a69ae62536c5778105b03a5ae43f57e27a978574201802a8308f05838433beff",
+  "run_roopf.py": "2165cc7626edbe9aabc4f667593214f95c8252cc6c0a75d43a9aedcb965a7aa6",
+  "experiments/r02_fusion_agent/training_assets/generated36_curated.py": "4f5ed4674925cccf6789e6edf0f0f3e95cf76529c89d21c7b787f4436ddcba68",
+  "checkpoints/anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+  "checkpoints/residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+  "scripts/verify_r04.py": "15c152a4f1d168daab496ea76a2e937a405f548d6e054ebbc14160dd434e609e",
+  "scripts/finalize_r04.py": "b51e94a590898ee5909099ae193c6908460485d23295af7bf747e1d9f717f65d",
+  "scripts/restore_r04.py": "586bc36a04d42a9dcbebb41a9e4aff287133d89e0c3c627cd1b476daac50e4cf"
+}

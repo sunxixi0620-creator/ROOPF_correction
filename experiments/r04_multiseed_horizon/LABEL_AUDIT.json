@@ -1,0 +1,178 @@
+{
+  "status": "all_raw_labels_verified",
+  "baseline_episodes": 288,
+  "baseline_states": 12960,
+  "retained_cases": 628,
+  "conflict_cases": 626,
+  "memory_cases": 475,
+  "calibration_cases": 153,
+  "distinct_counterfactual_branches": 643,
+  "collection_native_fe": 97248,
+  "calibration_and_memory_functions_disjoint": true,
+  "fresh_seed_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "cases_with_truncated_5_round_horizon": 24,
+  "cases_with_truncated_10_round_horizon": 47,
+  "target_comparison": {
+    "release": {
+      "changed_named_actions": 0,
+      "actual_point_changes": 0,
+      "signs": {
+        "1": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        },
+        "5": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        },
+        "10": {
+          "positive": 0,
+          "zero": 0,
+          "negative": 0
+        }
+      },
+      "no_immediate_gain_but_positive_at_5": 0,
+      "immediate_gain_lost_by_5": 0,
+      "positive_at_5_but_negative_at_10": 0,
+      "balanced_mean": {
+        "1": null,
+        "5": null,
+        "10": null
+      }
+    },
+    "proxy": {
+      "changed_named_actions": 266,
+      "actual_point_changes": 266,
+      "signs": {
+        "1": {
+          "positive": 34,
+          "zero": 185,
+          "negative": 47
+        },
+        "5": {
+          "positive": 67,
+          "zero": 120,
+          "negative": 79
+        },
+        "10": {
+          "positive": 84,
+          "zero": 83,
+          "negative": 99
+        }
+      },
+      "no_immediate_gain_but_positive_at_5": 42,
+      "immediate_gain_lost_by_5": 9,
+      "positive_at_5_but_negative_at_10": 11,
+      "balanced_mean": {
+        "1": 0.0007717621964768522,
+        "5": -0.002195073918051346,
+        "10": -0.00016746757871771286
+      }
+    },
+    "residual": {
+      "changed_named_actions": 329,
+      "actual_point_changes": 329,
+      "signs": {
+        "1": {
+          "positive": 97,
+          "zero": 152,
+          "negative": 80
+        },
+        "5": {
+          "positive": 116,
+          "zero": 96,
+          "negative": 117
+        },
+        "10": {
+          "positive": 138,
+          "zero": 60,
+          "negative": 131
+        }
+      },
+      "no_immediate_gain_but_positive_at_5": 45,
+      "immediate_gain_lost_by_5": 26,
+      "positive_at_5_but_negative_at_10": 17,
+      "balanced_mean": {
+        "1": -0.00011539088610060082,
+        "5": -0.0023441438586658354,
+        "10": 0.00517285753963644
+      }
+    },
+    "cautious": {
+      "changed_named_actions": 41,
+      "actual_point_changes": 41,
+      "signs": {
+        "1": {
+          "positive": 0,
+          "zero": 40,
+          "negative": 1
+        },
+        "5": {
+          "positive": 1,
+          "zero": 38,
+          "negative": 2
+        },
+        "10": {
+          "positive": 8,
+          "zero": 31,
+          "negative": 2
+        }
+      },
+      "no_immediate_gain_but_positive_at_5": 1,
+      "immediate_gain_lost_by_5": 0,
+      "positive_at_5_but_negative_at_10": 0,
+      "balanced_mean": {
+        "1": -1.3952402021362481e-06,
+        "5": -1.4080926154827337e-06,
+        "10": 5.783040732631824e-06
+      }
+    },
+    "balanced": {
+      "changed_named_actions": 21,
+      "actual_point_changes": 21,
+      "signs": {
+        "1": {
+          "positive": 3,
+          "zero": 18,
+          "negative": 0
+        },
+        "5": {
+          "positive": 5,
+          "zero": 16,
+          "negative": 0
+        },
+        "10": {
+          "positive": 6,
+          "zero": 10,
+          "negative": 5
+        }
+      },
+      "no_immediate_gain_but_positive_at_5": 2,
+      "immediate_gain_lost_by_5": 0,
+      "positive_at_5_but_negative_at_10": 1,
+      "balanced_mean": {
+        "1": 0.00015680774833069525,
+        "5": 9.676924281989035e-06,
+        "10": -7.477549415592223e-07
+      }
+    }
+  },
+  "coverage_vs_r03": {
+    "r03_baseline_states": 1620,
+    "r03_informative_cases": 84,
+    "r04_baseline_states": 12960,
+    "r04_informative_cases": 628,
+    "qualification": "Different fixed seeds and labels; informative means action-index disagreement, not guaranteed positive utility"
+  }
+}

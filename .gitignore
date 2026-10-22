@@ -6,3 +6,6 @@ results/*
 experiments/r02_fusion_agent/results/api_journal/
 experiments/r02_fusion_agent/results/**/*_decisions.json
 experiments/r02_fusion_agent/OFFLINE_FULL_POOL.jsonl.gz
+experiments/r04_multiseed_horizon/collection/
+experiments/r04_multiseed_horizon/confirmatory/
+experiments/r04_multiseed_horizon/verification/

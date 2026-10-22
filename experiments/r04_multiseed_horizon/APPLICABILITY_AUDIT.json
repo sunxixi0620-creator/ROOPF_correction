@@ -1,0 +1,12 @@
+{
+  "decisions": 630,
+  "candidate_change_opportunities": 54,
+  "states_with_calibrated_candidate_change": 5,
+  "states_with_locally_eligible_action": 1,
+  "scheduled_states_with_locally_eligible_action": 0,
+  "calibrated_action_attempts": 5,
+  "blocked_fewer_than_two_changed_retrieved_cases": 4,
+  "blocked_nonpositive_retrieved_five_round_mean": 0,
+  "blocked_negative_retrieved_ten_round_mean": 0,
+  "local_support_passed": 1
+}

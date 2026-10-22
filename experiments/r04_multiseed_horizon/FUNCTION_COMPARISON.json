@@ -1,0 +1,86 @@
+[
+  {
+    "function": "comp_global",
+    "n": 2,
+    "baseline_mean": 4.938478708267212,
+    "baseline_std": 0.0021970272064208984,
+    "retrieval_mean": 4.938478708267212,
+    "retrieval_std": 0.0021970272064208984,
+    "wins": 0,
+    "ties": 2,
+    "losses": 0,
+    "changed_points": 0
+  },
+  {
+    "function": "comp_rugged",
+    "n": 2,
+    "baseline_mean": 2.9695489406585693,
+    "baseline_std": 0.7036006450653076,
+    "retrieval_mean": 2.9695489406585693,
+    "retrieval_std": 0.7036006450653076,
+    "wins": 0,
+    "ties": 2,
+    "losses": 0,
+    "changed_points": 0
+  },
+  {
+    "function": "dirridge_noisy",
+    "n": 2,
+    "baseline_mean": 0.30296948552131653,
+    "baseline_std": 0.03857824206352234,
+    "retrieval_mean": 0.30296948552131653,
+    "retrieval_std": 0.03857824206352234,
+    "wins": 0,
+    "ties": 2,
+    "losses": 0,
+    "changed_points": 0
+  },
+  {
+    "function": "lowrank_tanh",
+    "n": 2,
+    "baseline_mean": 0.19098175317049026,
+    "baseline_std": 0.09773486107587814,
+    "retrieval_mean": 0.19098175317049026,
+    "retrieval_std": 0.09773486107587814,
+    "wins": 0,
+    "ties": 2,
+    "losses": 0,
+    "changed_points": 0
+  },
+  {
+    "function": "plateau_sharp",
+    "n": 2,
+    "baseline_mean": 0.3376823589205742,
+    "baseline_std": 0.1137177124619484,
+    "retrieval_mean": 0.3376823589205742,
+    "retrieval_std": 0.1137177124619484,
+    "wins": 0,
+    "ties": 2,
+    "losses": 0,
+    "changed_points": 0
+  },
+  {
+    "function": "ring_single",
+    "n": 2,
+    "baseline_mean": 0.08086031675338745,
+    "baseline_std": 0.031511902809143066,
+    "retrieval_mean": 0.08086031675338745,
+    "retrieval_std": 0.031511902809143066,
+    "wins": 0,
+    "ties": 2,
+    "losses": 0,
+    "changed_points": 0
+  },
+  {
+    "function": "wavepacket_local",
+    "n": 2,
+    "baseline_mean": 0.055933655239641666,
+    "baseline_std": 0.029030836187303066,
+    "retrieval_mean": 0.055933655239641666,
+    "retrieval_std": 0.029030836187303066,
+    "wins": 0,
+    "ties": 2,
+    "losses": 0,
+    "changed_points": 0
+  }
+]

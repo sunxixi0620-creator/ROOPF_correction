@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "release_prefix_and_continuation_bitwise_equal": true,
+  "original_max_nfe_unchanged": true,
+  "actual_multistep_labels_recomputed": true,
+  "smoke_native_training_fe": 356,
+  "smoke_retained_cases": 3,
+  "smoke_branches": 3,
+  "smoke_seed_index": 999,
+  "smoke_not_in_memory_or_calibration": true,
+  "single_action_duration": true,
+  "five_round_decision_interval": true,
+  "negative_ten_round_evidence_blocks_action": true,
+  "r03_default_contracts_unchanged": true,
+  "live_api_calls": 0
+}

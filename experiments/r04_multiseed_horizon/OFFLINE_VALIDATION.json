@@ -1,0 +1,335 @@
+{
+  "status": "complete",
+  "baseline_episodes": 288,
+  "baseline_states": 12960,
+  "retained_cases": 628,
+  "memory_cases": 475,
+  "calibration_cases": 153,
+  "conflict_cases": 626,
+  "distinct_branches": 643,
+  "native_fe": 97248,
+  "supported_context_actions": 1,
+  "contexts": {
+    "agree_end": {
+      "release": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "proxy": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "residual": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "cautious": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "balanced": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      }
+    },
+    "agree_late": {
+      "release": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "proxy": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "residual": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "cautious": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "balanced": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      }
+    },
+    "conflict_end": {
+      "release": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "proxy": {
+        "changed_cases": 24,
+        "independent_episodes": 15,
+        "functions": [
+          "comp_global",
+          "comp_rugged",
+          "dirridge_noisy",
+          "lowrank_tanh",
+          "plateau_sharp",
+          "ring_single",
+          "wavepacket_local"
+        ],
+        "seed_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "balanced_horizon_advantages": {
+          "1": 7.056411150306684e-05,
+          "5": 0.004416038015779969,
+          "10": 0.026617347979857424
+        },
+        "supported": true
+      },
+      "residual": {
+        "changed_cases": 22,
+        "independent_episodes": 11,
+        "functions": [
+          "comp_rugged",
+          "dirridge_noisy",
+          "lowrank_tanh",
+          "plateau_sharp",
+          "ring_single",
+          "wavepacket_local"
+        ],
+        "seed_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "balanced_horizon_advantages": {
+          "1": -0.018703259560241037,
+          "5": -0.026677440319569368,
+          "10": -0.0319708862343555
+        },
+        "supported": false
+      },
+      "cautious": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "balanced": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      }
+    },
+    "conflict_late": {
+      "release": {
+        "changed_cases": 0,
+        "independent_episodes": 0,
+        "functions": [],
+        "seed_indices": [],
+        "balanced_horizon_advantages": {
+          "1": null,
+          "5": null,
+          "10": null
+        },
+        "supported": false
+      },
+      "proxy": {
+        "changed_cases": 41,
+        "independent_episodes": 28,
+        "functions": [
+          "comp_global",
+          "comp_rugged",
+          "dirridge_noisy",
+          "lowrank_tanh",
+          "plateau_sharp",
+          "ring_single",
+          "wavepacket_local"
+        ],
+        "seed_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "balanced_horizon_advantages": {
+          "1": -0.0050565818140079506,
+          "5": -0.009278453478318127,
+          "10": -0.01020750129020072
+        },
+        "supported": false
+      },
+      "residual": {
+        "changed_cases": 64,
+        "independent_episodes": 29,
+        "functions": [
+          "comp_global",
+          "comp_rugged",
+          "dirridge_noisy",
+          "lowrank_tanh",
+          "ring_single",
+          "wavepacket_local"
+        ],
+        "seed_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "balanced_horizon_advantages": {
+          "1": -0.002088690531952361,
+          "5": -0.0022475934788384797,
+          "10": 0.00010933661958862849
+        },
+        "supported": false
+      },
+      "cautious": {
+        "changed_cases": 3,
+        "independent_episodes": 1,
+        "functions": [
+          "ring_single"
+        ],
+        "seed_indices": [
+          0
+        ],
+        "balanced_horizon_advantages": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        },
+        "supported": false
+      },
+      "balanced": {
+        "changed_cases": 1,
+        "independent_episodes": 1,
+        "functions": [
+          "ring_single"
+        ],
+        "seed_indices": [
+          0
+        ],
+        "balanced_horizon_advantages": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        },
+        "supported": false
+      }
+    }
+  },
+  "live_api_calls": 0
+}
