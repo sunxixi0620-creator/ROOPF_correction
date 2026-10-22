@@ -1,0 +1,6 @@
+{
+  "status": "six_arm_evaluation_complete",
+  "functions": 35,
+  "training_suite_ablation": "missing_verified_checkpoint",
+  "all_requested_reproduction_complete": false
+}

@@ -1,0 +1,161 @@
+{
+  "status": "approved_six_arm_evaluation_complete",
+  "functions": 35,
+  "arms": 6,
+  "trajectories": 21000,
+  "native_FE": 2901200,
+  "logical_FE": 6300000,
+  "baseline_FE": 0,
+  "training": 0,
+  "approved_native_FE_cap": 4550000,
+  "whole_original_request_complete": false,
+  "missing": "TF1–TF3同架构已验证权重及对应训练集消融",
+  "heavy_workers_at_audit": 0,
+  "manifests": [
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/MANIFEST.json",
+      "sha256": "10c69daf72ec9ddd7a2eb8f6724a1584921b0352108bb8d5be771cc45ea626b6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/MANIFEST.json",
+      "sha256": "b33a3d8aad2af8b409ed3392a948594134b6faa690bd0656273bc5d210a224d6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/MANIFEST.json",
+      "sha256": "5060344f26ab029cdb48dc84fee399e6e32d2ee0653054020b4e8cae35134d7b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/MANIFEST.json",
+      "sha256": "91563cf07dce1c9ef3b27376ac4e8dda39e52352a753fdbf64a2097937809d70"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/MANIFEST.json",
+      "sha256": "832a8d01e19aca19e312e62e8ab5adf636b592dc0a34a639a5e728fbaf2bc9c2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/MANIFEST.json",
+      "sha256": "76bc391904c99af8d42fff5f9eccbe7da87022e77e0de8967e24bfd56c32d808"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/MANIFEST.json",
+      "sha256": "b15139bba6e80dfd0ebe960ab0461420e9c6d60e491ad2425da22b9315ca4c2c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/MANIFEST.json",
+      "sha256": "f95144df3effa01987c08b1484fa5517642f8424cb0d53dbf5c07b6cf2d720da"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/MANIFEST.json",
+      "sha256": "fe94744cf606c49861e3fa4fadd9ded0f20d56ebcdd4716d48d51f4813f2cef6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/MANIFEST.json",
+      "sha256": "ccf755696f14a19f63a6f2ea872f4acfe5408efe985affc6d522b31b9c7c94f1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/MANIFEST.json",
+      "sha256": "88c2002ccef73d92e828ab57df3d29c4534feb789de5f3a1a18bfb23afa5eadf"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/MANIFEST.json",
+      "sha256": "69deec28f85aa616940b57d21c0be14ecf23958c99efb5472cc00140187a2a80"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/MANIFEST.json",
+      "sha256": "0a02f48320f8a7a62bdc014cdd554c936f796f2161e794679dab3d141ccd7e8a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/MANIFEST.json",
+      "sha256": "b4a061542f4c110de286db55a1b97a8dad1b4705a49a1c17b41c80152a1769ab"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/MANIFEST.json",
+      "sha256": "5aa9fc8397f135f3fc65e54139d97fd43c8c64145bc68c887ed69dc653b55955"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/MANIFEST.json",
+      "sha256": "2eff3c40603f2edc33f825e3453674858c797d76c600175a3dbbfb6a39a703f1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/MANIFEST.json",
+      "sha256": "ca8c3d1d61101bd71d5536e7f3a944697e8a3553bb69624d85fa560c6b403230"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/MANIFEST.json",
+      "sha256": "253becd8aaf36d0f1e299dee016366eebe8090c203838a7dcda524f0ea043042"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/MANIFEST.json",
+      "sha256": "08fb514216304521ebd6883d5cc29ad69c33cd93eeb95f353fba34a730801d58"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/MANIFEST.json",
+      "sha256": "41c30d1a2ea0f2c479ab6e8f92b6a8711deae847a238d4e842a073f0db6c1db0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/MANIFEST.json",
+      "sha256": "d197f570164065d712bc7e4ca191e44c06c36aec573fdc453034d46974f1583a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/MANIFEST.json",
+      "sha256": "bd299bf5cb5c7ff16d12be012bf742c4411de12ad29bdc8f6a950e9eb3f646c2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/MANIFEST.json",
+      "sha256": "5100ff657904f5695d230db65a25af94e08349e60808eef9174b0b4060b094c7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/MANIFEST.json",
+      "sha256": "27f534335fed1462f19d6a7415fb0d07b723eec928073b2b5f03e5b4a9ee12d7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/MANIFEST.json",
+      "sha256": "eeb768bf52720eeaad043168747e81b67e428f9c1cc2dd7b5f14c94f9af68538"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/MANIFEST.json",
+      "sha256": "9dd82f78cd516508f34903c3d53d72ac9d6fb5ffdadf7ce8faf7a9cab02d4ea0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/MANIFEST.json",
+      "sha256": "65f2c6f83dc5adc9cb15c06ec6197da80ab6c2acc29a58c4bd3f0fb95fd41280"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/MANIFEST.json",
+      "sha256": "e4ae4a3f5c733023e7f97f9ccf1d00e6c6ea74d2b67764a294e1480e14519526"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/MANIFEST.json",
+      "sha256": "29bb758811a750fb60165aca0efb7f8317d3fa787c839cf692c8ecfe7ed5e672"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/MANIFEST.json",
+      "sha256": "c1fb366178107e619de5a4d662327838c4732701fc3dd99f5c83470b3574c61d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/MANIFEST.json",
+      "sha256": "f60d0ab438898f770fb371b8b3203da4aed158993831c47318579d5264656b23"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/MANIFEST.json",
+      "sha256": "918efbe24281ca456de3458faa860ddc10ef8c61bcf526aa5ea0c91450bdda40"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/MANIFEST.json",
+      "sha256": "08f0cb8a6242fba594e6bed24af71b714ad4423f812f990e2ccdd1129e08e23e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/MANIFEST.json",
+      "sha256": "ad9764fcb92a5d53d97eacef6eb5275e2df963283bc3d4a57875481fe21acfd4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/MANIFEST.json",
+      "sha256": "92eabac1752c02d013c047063b47cb520cfcaee349f8c9038d46b3739e94591d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/MANIFEST.json",
+      "sha256": "c418b29ef97c17d75fe28eabf66268fcc0c8450cee5889e0a3d844e0f9f999a0"
+    }
+  ],
+  "active_batch_elapsed_seconds": 9384.78086066246
+}

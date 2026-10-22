@@ -1,0 +1,2007 @@
+{
+  "source_commit": "52ec388b7812214f98fbfd84624a1dd65a52a0d8",
+  "files": [
+    {
+      "path": "docs/revision/zip_replication820_final/00_summary_WAIT_RESULT.json",
+      "bytes": 1267,
+      "sha256": "ad34d9844a85a62369578c6e94c71833afc987bb00925968e71726ff041e8a9f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/00_summary_verify_WAIT_RESULT.json",
+      "bytes": 1288,
+      "sha256": "df116418af78e299c4c5e2187b798a7f44f7b56c3e6a9c62e78d37357a5dd93d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/AUDIT.json",
+      "bytes": 6853,
+      "sha256": "5dde8a5a2e22e5d381d9a7a60f9bf57c54ed1b2eb456e7fe9dec15d780e55447"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/COMPLETE.json",
+      "bytes": 173,
+      "sha256": "b132fd844df06f373b29235b32986711bf759f33a2ed02ecdb6d29e153b98be8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/MANIFEST.json",
+      "bytes": 1769,
+      "sha256": "f702ab5d5fc8efebe1083a036fa87506b065c90c3b59c077fbe8ebf5f6d43cb5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/PUBLICATION_RECEIPTS.json",
+      "bytes": 49384,
+      "sha256": "f7aed06ce857fc1de6db9f906d4bd1c79993c33bcfb45dad3d799556daa41634"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/README.zh-CN.md",
+      "bytes": 10999,
+      "sha256": "99039bd573f9227560e1bde919a70e6f263ff05e4089be14a5ee24722f1870b9"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/00_full_WAIT_RESULT.json",
+      "bytes": 1962,
+      "sha256": "d034a684e518452a1470eed6acde79e94a3420c990c870d0d635dc71e2cb60f5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/00_full_verify_WAIT_RESULT.json",
+      "bytes": 1972,
+      "sha256": "22b232349b933047612b60beaf3db8b3a6c32834c62dede05e04050d91f92539"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/ABLATIONS.csv",
+      "bytes": 253,
+      "sha256": "348d20d9697ee50a369780c445caf40049316bf1e03598127674cb5a68f51b90"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/COMPARISONS.csv",
+      "bytes": 696,
+      "sha256": "bae18dd7cdb0455327cb53e001265469b8431c09fff36a91c34f06f6a76aa434"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/FEES.json",
+      "bytes": 86,
+      "sha256": "a680f4e9ae0dc4d0210ad6cdab2557a1b168ee66a82e18b6fa5e79918984124b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "2c6966b1aee337812b3b8fdce9e63c77dc0e7e64d455d18ebcdd938722e93c37"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/FUNCTION_RESULTS.csv",
+      "bytes": 438,
+      "sha256": "86dfbecc50d803a408a410261fb2d96076baa9f4f4dbdc846ce64e9ffe19d157"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "10c69daf72ec9ddd7a2eb8f6724a1584921b0352108bb8d5be771cc45ea626b6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/RANKS.csv",
+      "bytes": 172,
+      "sha256": "a1afb8b0cf94ca2b9e42453cc81f8eb1b65f22797586f88883b240b6cb20aad7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "84ed8a57522b8a6622170096ad286a422e78689482c32c07fb822c87851a52b2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f01/VALUES.bin",
+      "bytes": 655636,
+      "sha256": "034f4c4324a9aed9e8fcea2dfeb74d2932e3d5973655ddac6e96605b756c818e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/01_full_WAIT_RESULT.json",
+      "bytes": 1962,
+      "sha256": "249167b765835dd8b0c9074a54bbf0392447f1833c496b3710c2cf48192be6ee"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/01_full_verify_WAIT_RESULT.json",
+      "bytes": 1970,
+      "sha256": "d3d18ec4cd63fe49c850484aba11de5e7e745414c4d4ab6c9e2f79bc4ead7792"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/ABLATIONS.csv",
+      "bytes": 253,
+      "sha256": "fb2f62a0875484f516415faa2355339daa810821d993d2a26d0f9817fe5c92a0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/COMPARISONS.csv",
+      "bytes": 751,
+      "sha256": "b8de744c2a8c95c5bb9fd327d3a08e4d34a367b6924d64ae767a312b26a0876a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/FEES.json",
+      "bytes": 86,
+      "sha256": "311d93d006e0391ec69ab3aa50a6214ddad82653aa78f9a81b185c461020659a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "b086193762fd8f503cc4f8516ab12c95b8fced039011c87012b36ea7c43b0585"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/FUNCTION_RESULTS.csv",
+      "bytes": 432,
+      "sha256": "23cf5b4b5b2f51806e2a6577750c8dfc971161c7cfaa2dc5fb86a49fda87718c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "b33a3d8aad2af8b409ed3392a948594134b6faa690bd0656273bc5d210a224d6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/RANKS.csv",
+      "bytes": 172,
+      "sha256": "8749dc81f2583af9075c898c875a0cbdfa9ebac1aa5ebf37a5dee4fd7d1a5d5c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "7eb95f95d1116f3dc4ff7ded17c85b7d828d69c84e4ca240f410fd5fd3cd0ecf"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f02/VALUES.bin",
+      "bytes": 658454,
+      "sha256": "a26787054974bb186d15e359dfd76cd22974d7df2296f206fbaf7ab031be366f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/02_full_WAIT_RESULT.json",
+      "bytes": 1963,
+      "sha256": "57798866bd8744a32e599625a0fd1d4b99981cc8bd2533c52042594e4cbfa8e5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/02_full_verify_WAIT_RESULT.json",
+      "bytes": 1972,
+      "sha256": "1bf6ae712278a90596ee6afa642c3d1800bd4f7c0e2605a74251d1831db65366"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/ABLATIONS.csv",
+      "bytes": 301,
+      "sha256": "cc0393f7e0e2655a3e90a1e21544455adb66cacf5d96b7ca276de7a167684029"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/COMPARISONS.csv",
+      "bytes": 667,
+      "sha256": "ee84f98b1301f1fc6fa704627371560ea7c673086c3dbc5b4c28c9501d660b8d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/FEES.json",
+      "bytes": 86,
+      "sha256": "de75125dabd5a204b26674a9d247ac23125a407024dae7f86fe8c2c67b0297c7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "ab70bcbddb50f652612b2e73c895bd04a5c8f6a8037347565a3892330b7d39d2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/FUNCTION_RESULTS.csv",
+      "bytes": 402,
+      "sha256": "df31937f786806d88b942e5204c0ee1387d72093c8b1b76ef6be7fcdb5f40626"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "5060344f26ab029cdb48dc84fee399e6e32d2ee0653054020b4e8cae35134d7b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/RANKS.csv",
+      "bytes": 172,
+      "sha256": "0abb803b95cc139fc359ecdd237df29ac16ecd0f0d990a5bb6c56469e931ce8c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "164a11a3ed0ddb1ec2692e510db709c4d9f4b5243196c52e4b450c7e1b5860b7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f03/VALUES.bin",
+      "bytes": 656142,
+      "sha256": "2b802e5357166320e4ac10c1d2f7639cd496d7f8fae321b908d441a783437cb8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/03_full_WAIT_RESULT.json",
+      "bytes": 1961,
+      "sha256": "48ec1a013e645d14108d4d066179f2510904a4219b4647308da767ec16139894"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/03_full_verify_WAIT_RESULT.json",
+      "bytes": 1970,
+      "sha256": "05ac94ceeb20d9236f967d754da1ed6a2aa5c973f35aafb371036c54382a0464"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/ABLATIONS.csv",
+      "bytes": 245,
+      "sha256": "6a118ef2219ff838b30627bbb531e878a858149a724a1074452c417e34cf9330"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/COMPARISONS.csv",
+      "bytes": 631,
+      "sha256": "60eeadddc5a89645c6f9570e4a42d3c43a6f144ad9fb4a858d812708f3f03900"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/FEES.json",
+      "bytes": 86,
+      "sha256": "d290c90797f9bef9c9fc7068ea0099fdf3dd5a59efbafce1aeaafaba9a21e31f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "2bebba00d69dbbd9e61d20b9b4e100761fa64737059cbba7a86e324806dc0eba"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/FUNCTION_RESULTS.csv",
+      "bytes": 390,
+      "sha256": "9445e1e1357ff9c6327e3c0cf5a79643b8c9e140af7f93e2465d40700c424d36"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "91563cf07dce1c9ef3b27376ac4e8dda39e52352a753fdbf64a2097937809d70"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/RANKS.csv",
+      "bytes": 172,
+      "sha256": "fc79ec8c6eb7c1e0e3f93c0c864240e6604a7c9fa70b3cfffbf823682cbf01c1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "e7c18f0fa0b3d2fdf28aa0e43e3727caab2243a62e360485e7df8849218d0e46"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f04/VALUES.bin",
+      "bytes": 648868,
+      "sha256": "5dafdbb7aabd2d7c826e90869b6da98d64a1595c3a647e25590802b9566a7c8c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/04_full_WAIT_RESULT.json",
+      "bytes": 1964,
+      "sha256": "d017ab46f4bb55550b182cee755de6040b205e9e2fd1d626aa81a85d59354af0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/04_full_verify_WAIT_RESULT.json",
+      "bytes": 1973,
+      "sha256": "156caebcc358f6091f83c49d38d4973685f8063f51b17624f8ac618fe77b3b29"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/ABLATIONS.csv",
+      "bytes": 290,
+      "sha256": "4b19868a213dd2b5f72e7ad9f6740a1e169da2e88e8f3a14944bece53c59986c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/COMPARISONS.csv",
+      "bytes": 644,
+      "sha256": "45ddc036b42500a10ecd1f6777b7ae27e53684b51e4c5941e91e525a3ce7d1d5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/FEES.json",
+      "bytes": 86,
+      "sha256": "35f1cc5b45840d0be6a49475197a67c250b3c029a83e5edf54f9c01ad329f588"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "6e8fa50ea7e2123b126ba2d39fb40aed7f3a0b224e22d9d09d942abfb1a40666"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/FUNCTION_RESULTS.csv",
+      "bytes": 390,
+      "sha256": "e585c424858f8bc9ee2d954851ce9c154f7ca8107806275bb72555217825dcae"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "832a8d01e19aca19e312e62e8ab5adf636b592dc0a34a639a5e728fbaf2bc9c2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/RANKS.csv",
+      "bytes": 172,
+      "sha256": "08633d7044c3f66b1e49f6c743c96bb758244369385ff5ab4d4cedf0ce92e5d5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "65daec29191480e13c48ef658b99d9aa009e43e538cab27a1394ad953b5d1e02"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f05/VALUES.bin",
+      "bytes": 519637,
+      "sha256": "684ca3c33ef07400aa3a9bb0ca16035b8040b89e3057512e96cb8be8e363fc0a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/05_full_WAIT_RESULT.json",
+      "bytes": 1963,
+      "sha256": "b8bac4c55f08992bbfd2d573fb9edbcaa7960904ec25c019874cad164766cc19"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/05_full_verify_WAIT_RESULT.json",
+      "bytes": 1973,
+      "sha256": "cc1ff0410cb6a26350c1cff10b78fd5404bf996dd9b6d6f0cc288925e6b9907c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/ABLATIONS.csv",
+      "bytes": 246,
+      "sha256": "0cac5aa434742f0ee5ae669b29c323c9a286a7482ab365a87f6ad0d2f6b1d291"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/COMPARISONS.csv",
+      "bytes": 700,
+      "sha256": "a111ef5dcd236978daeba213b968ca8914b2c585b66585b8002b1b5367f42891"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/FEES.json",
+      "bytes": 86,
+      "sha256": "f16d12688c8672df794268ed2cee0459433a266663a6c3f0ffae3d439df9cf59"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "dc627570d2390fbc3e4c5eb6813fbea0faa40a5480c20ed6ee5cde4a37aa8b8f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/FUNCTION_RESULTS.csv",
+      "bytes": 422,
+      "sha256": "13fe9a0847e12cc165184e56f3e6c960fb7ffabe89ad85e3265c42d904c195da"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "76bc391904c99af8d42fff5f9eccbe7da87022e77e0de8967e24bfd56c32d808"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/RANKS.csv",
+      "bytes": 172,
+      "sha256": "7104b238eacf6285fc9884828fc1ac8f93abe1fd3bbac8b695b0bbe1528f45d8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "e717bc1bfae691f40240f1b8dee6748e1fbad94415a85d7fd841a0ac02f1c2c0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f06/VALUES.bin",
+      "bytes": 655438,
+      "sha256": "91600b412a9292be5211353d9683d0158384a2934d60c02b10000588121ecb59"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/06_full_WAIT_RESULT.json",
+      "bytes": 1964,
+      "sha256": "6ed55de49bff6a9af353cf406980750884cc305e0d1c9d96f9a4e36013d41097"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/06_full_verify_WAIT_RESULT.json",
+      "bytes": 1974,
+      "sha256": "652ddd8d09ff87198827272a6f1826c08c1b9f8753964036fd0bd8e6a0210cbe"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/ABLATIONS.csv",
+      "bytes": 245,
+      "sha256": "d583f545ac6fb8547055f70f4ac8465e6bd1ee63aa8c6e97eafc5e79ec6e4bea"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/COMPARISONS.csv",
+      "bytes": 698,
+      "sha256": "0a0747c3a25c6e5f36e615ce893a0b6940071048d040ed4e32883820e021d333"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/FEES.json",
+      "bytes": 86,
+      "sha256": "fa802b6ab747c714b12d7eae83408537f33632828021e9deda45e1e3c702ed76"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "b293a4fdebadb4970b3d5a152199ffc93b2ee076118295180da5579df5248aac"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/FUNCTION_RESULTS.csv",
+      "bytes": 422,
+      "sha256": "5fda11a435a50fc74f3917f8d74a4c5074b3322185af6bd17e955cfbd7514600"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "b15139bba6e80dfd0ebe960ab0461420e9c6d60e491ad2425da22b9315ca4c2c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/RANKS.csv",
+      "bytes": 172,
+      "sha256": "724dec00cc12d926cecd10a2ccddb73d15e80c4c64ed5dd323021a571b191960"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "77cd71d75dcdc9099aae0ae37687501e40599f157f7f0b3c1871e75ef67213b4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f07/VALUES.bin",
+      "bytes": 637317,
+      "sha256": "ec26b2040f44a631306873043924acb068402b16b70321a70fb7a27fbc49f093"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/07_full_WAIT_RESULT.json",
+      "bytes": 1964,
+      "sha256": "a97559bf37f9b2110ba3265148c0b49b17d0ce197482bd519e39eb2f8f541719"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/07_full_verify_WAIT_RESULT.json",
+      "bytes": 1972,
+      "sha256": "4e2d94b33f8736950a08779cf4db8d25b3fa7526c27ffbb17591f44dbf80405c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/ABLATIONS.csv",
+      "bytes": 245,
+      "sha256": "73cc5dbe63f97f0807652e43ed4c0a527dcf1811007fcb5a9e15069469b0aeec"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/COMPARISONS.csv",
+      "bytes": 702,
+      "sha256": "47297116d6e41823a41d485a794d7c62985dca9ca0285bb1bb3f7413c508fb98"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/FEES.json",
+      "bytes": 86,
+      "sha256": "828804da5da7ccc5c4cc23189587fe7e7d7627b10ba7c7d60fddae47657f07c6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "ba7d78f1e48ee25e93d9e0f181941f0199fab3d8e8c7b5311b6bdc847d018e44"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/FUNCTION_RESULTS.csv",
+      "bytes": 409,
+      "sha256": "7d851290e8f3864d86c18725e6891d7428f80514d242b0e00eaa817a4a198777"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "f95144df3effa01987c08b1484fa5517642f8424cb0d53dbf5c07b6cf2d720da"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/RANKS.csv",
+      "bytes": 172,
+      "sha256": "4aa1705ea059ca48b0b44b22982c4e0c018dcd95e93797855236b728801454c2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "afcac0ad0d08f34357c15ebb85d076d6caaeb1e7c5b7a70422648c9f006d80b3"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f08/VALUES.bin",
+      "bytes": 664531,
+      "sha256": "9829954b2a1944e8532e534986c8d055db558a287469f29e17e9a84c74712958"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/08_full_WAIT_RESULT.json",
+      "bytes": 1962,
+      "sha256": "f8b15f9b0093e60b5367b7a2d125ce28d0f32a6a7bef8a309fbd8787e7339572"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/08_full_verify_WAIT_RESULT.json",
+      "bytes": 1973,
+      "sha256": "46adcb14120cc035582f2466a027eaa2d66bcbf7fc32371e87c50fdafadd7c4a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/ABLATIONS.csv",
+      "bytes": 293,
+      "sha256": "54c07a444c0caa004a36013feac914261acd17cda721731869f6b1cc67bc6d81"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/COMPARISONS.csv",
+      "bytes": 657,
+      "sha256": "53a5619b0ecd28d92db3431da3668c709f85485377a78e7fd7aa2e25c56dc7d4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/FEES.json",
+      "bytes": 86,
+      "sha256": "d9d05a5190f533d8a528abd278c4ff3697a4afaeb30a838e996ad9fd6d23c6ac"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "17b78dad27be0df668ce0ab21b1377daabbdec8bc358a8b27db6b65d6180375d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/FUNCTION_RESULTS.csv",
+      "bytes": 390,
+      "sha256": "390764d5478b0e3d3d1b92cb334136bd4203077cfaab65c44ecf474ad4262069"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "fe94744cf606c49861e3fa4fadd9ded0f20d56ebcdd4716d48d51f4813f2cef6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/RANKS.csv",
+      "bytes": 172,
+      "sha256": "2f4003849a0dac4241c24d80e180c11902b7881fdb880e4297e0f192c7601680"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/README.zh-CN.md",
+      "bytes": 326,
+      "sha256": "51f2e8c641f710d318d983a33c5b33ed79c1c4319382f4d0cc464b6b67eab0af"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f09/VALUES.bin",
+      "bytes": 616851,
+      "sha256": "efa96a87b1edc22227c5fedbef23403d40cc75c556c00548e6147c733b35e8ee"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/09_full_WAIT_RESULT.json",
+      "bytes": 1964,
+      "sha256": "383a49084f491902a5ad1ef91e2792323f2f4640a2e620d1187c0fb6c7febf86"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/09_full_verify_WAIT_RESULT.json",
+      "bytes": 1973,
+      "sha256": "ce5ef60465a81ebdd0b0cb8560f713c8f3cb7e75a950f8586f5b0e96fced581a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/ABLATIONS.csv",
+      "bytes": 247,
+      "sha256": "33d9b1c1e1ad603043a50b470daf7eb8593fcae7e13b7ebe997bc199d38ff026"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/COMPARISONS.csv",
+      "bytes": 714,
+      "sha256": "79fe35a5b9716e6eed506b79cb263b030423ae7f776e03bc44658da512a3b5f2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/FEES.json",
+      "bytes": 86,
+      "sha256": "8080e2880b815d2294a3b23e43a15993b5e827c8cfe6e2b23e0d9294230d8258"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "db6e02eb8721cc52a60a870f693191770364a0fe3098914a905b49fa1ed07780"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/FUNCTION_RESULTS.csv",
+      "bytes": 403,
+      "sha256": "4cad6c6c4736587dcf98a80a25c3bbb7d94a6034a4d9f07bb72aa9ec2f73eac7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "ccf755696f14a19f63a6f2ea872f4acfe5408efe985affc6d522b31b9c7c94f1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/RANKS.csv",
+      "bytes": 172,
+      "sha256": "f2ee1bcb1f278dc34257f868004805fe8392a5a068e1ff31ecd467e201fa81ad"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "195067ad7e5975e72114fa16c3718251718da74899ae3b9791d7bfcc2890847d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f10/VALUES.bin",
+      "bytes": 667216,
+      "sha256": "230a800599178e50f28cde2613805cc45009514f7e794264706b864e48fd242b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/10_full_WAIT_RESULT.json",
+      "bytes": 1975,
+      "sha256": "51f09d0434a6669b9f4a00b83f4f7f76ba4aca009365491d85bdb09eb106c2de"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/10_full_verify_WAIT_RESULT.json",
+      "bytes": 1983,
+      "sha256": "dc45a6c963ce7b42e0af122d3a96bc661017979de059724db9c7c4a8c0498dbe"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/ABLATIONS.csv",
+      "bytes": 290,
+      "sha256": "8a7e1a0dd2457e6d278b14464dfaed1a40f7ef0be1279363d9947b5802621082"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/COMPARISONS.csv",
+      "bytes": 644,
+      "sha256": "fd5c0d50e9eb2334fbe85c6e067a1fb9d2045c68e31472eafc914259c25845b9"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/FEES.json",
+      "bytes": 86,
+      "sha256": "ee0be7cb8c808811bc9fc35494a2a0d5376751dd959f15e414c3caded8a678ba"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "79bff1e3b86e8b288f31ea78c94bd056d7b11a8ba6c3af1caf95587f0802f1af"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/FUNCTION_RESULTS.csv",
+      "bytes": 396,
+      "sha256": "3d8f826ce00738e2ae96234878b61339b6875c9fc9c9be32b72264cb8c46535b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "88c2002ccef73d92e828ab57df3d29c4534feb789de5f3a1a18bfb23afa5eadf"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/RANKS.csv",
+      "bytes": 172,
+      "sha256": "ec356f8c5ed07b5023c6963c456d1e24809741c4b54696b4c4d77151019b919f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "26b0119152c22a06ab89b102b5f06bf02a94e03c0afddcbde1df1a95953424b4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f11/VALUES.bin",
+      "bytes": 670537,
+      "sha256": "cd03b30cb7ad9c36afeef59d994ef5e4b01251d89f685b352349590bb1f44f79"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/11_full_WAIT_RESULT.json",
+      "bytes": 1975,
+      "sha256": "cb63712705e3329a46d1f7703a462eab057e3849c064cb078d4f6150c3f3c9d6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/11_full_verify_WAIT_RESULT.json",
+      "bytes": 1984,
+      "sha256": "cb3bc9091f1807778e3c4e05e4eaaba26879a480fa253ccc52202474e9f29526"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/ABLATIONS.csv",
+      "bytes": 247,
+      "sha256": "a572293a9a4efa19ad5c5313f3289fbf2faa5b45592f882bd1014a4a2e720d86"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/COMPARISONS.csv",
+      "bytes": 767,
+      "sha256": "e824ba252e7dc286b935eb231934612c2d3845cefad131f484f5e3b2ac605ab9"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/FEES.json",
+      "bytes": 86,
+      "sha256": "c9c4f9b481425a6b2daf96a6a949a3d2f7022b22fd02a1ebf9b3641f73884705"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "73347c9f168b51cf74e98b8163ac35ff67aae0a7c49a3e21ec815e69b4d254cb"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/FUNCTION_RESULTS.csv",
+      "bytes": 390,
+      "sha256": "f859a6561cef6358473618fbe6f938fdcf24e80c31eeb3aa02891843c5d5fa33"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "69deec28f85aa616940b57d21c0be14ecf23958c99efb5472cc00140187a2a80"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/RANKS.csv",
+      "bytes": 172,
+      "sha256": "17d15a88d7f46cf532c1af7d6becff559ddf36ff1e5982c5b50d64525c92af01"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "e633f56654a0de12a4ce09d8a7b55a2b4386ce5a263ecbd97024bfbf14300322"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f12/VALUES.bin",
+      "bytes": 667289,
+      "sha256": "d68f78832f2b4f36854dc836a55b8917558adb843d12378c56c7fc5b52655e21"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/12_full_WAIT_RESULT.json",
+      "bytes": 1974,
+      "sha256": "5431a070e3479df8469c69ddfb6f07abb18af92df19d86d3bc3c69a113dd090e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/12_full_verify_WAIT_RESULT.json",
+      "bytes": 1984,
+      "sha256": "2e8411bef3a7867cf6d4f118b3c2f89643d24d6968d61aedf13e643e00703633"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/ABLATIONS.csv",
+      "bytes": 246,
+      "sha256": "747fc6a5309ade4b32a3857b99e1b10b85581b74eaeac24a0d0e5598f3addf2d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/COMPARISONS.csv",
+      "bytes": 647,
+      "sha256": "5f1df9a08de3e28e3419e28a58f80367520c5a93539df5dddae910348222ffb2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/FEES.json",
+      "bytes": 86,
+      "sha256": "f4de5ca670e2558cc67f6dd0effb997aacc7ee9757e3b5975674782960b80eca"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "f3ec52b0236857262d5ec7e25183dcd97f91f52a11fa7f2dafc795928eb572cb"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/FUNCTION_RESULTS.csv",
+      "bytes": 404,
+      "sha256": "db2a1421e6f1a63fdb2a571567eb693c867f75684fa41116773dd078eb110e5a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "0a02f48320f8a7a62bdc014cdd554c936f796f2161e794679dab3d141ccd7e8a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/RANKS.csv",
+      "bytes": 172,
+      "sha256": "ccfebb0770f88e4cd774dfe7b5000d4fd41e60010d60af5a89679f85835756a4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "9342d0df5ba9857e9d05b88e99dac1f4653da5c89af4cba0dcbea77268da1dc0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f13/VALUES.bin",
+      "bytes": 643779,
+      "sha256": "71ae38102fadb31e6f170d5571185198fa8b340570a224cfefc94102f25b5989"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/13_full_WAIT_RESULT.json",
+      "bytes": 1975,
+      "sha256": "083e4ef9d06e2096ebb205e87fa2cde4f0214dea0304f525718b3c0b59921081"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/13_full_verify_WAIT_RESULT.json",
+      "bytes": 1983,
+      "sha256": "ab152bbf40b8b0455aa9aef7275d2cf573f1fccc67cbde9271d6d245a23a1e69"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/ABLATIONS.csv",
+      "bytes": 304,
+      "sha256": "8e11e9480644d57de1721914d44e94e7530d6852f1f3c539ec53495da0bca31c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/COMPARISONS.csv",
+      "bytes": 689,
+      "sha256": "a3a23f67b27428161429d65fbb5c48cee028d9adb1ff2946abfe31f9413e6560"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/FEES.json",
+      "bytes": 86,
+      "sha256": "03fde8c618c64ae962df00b49e515504203d5c0b29ff437dd5cd736bbe13bda2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "0965516f2d4bd25ef68a290cca8afaf8e0527d46191646a184d538b18e91ebc7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/FUNCTION_RESULTS.csv",
+      "bytes": 429,
+      "sha256": "95e022250982271ffe4ac5b5a65179033b6b4a9f422cac490d7a52c0e32d0d58"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "b4a061542f4c110de286db55a1b97a8dad1b4705a49a1c17b41c80152a1769ab"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/RANKS.csv",
+      "bytes": 172,
+      "sha256": "7109f461caf978de5a057a8b56d54da66a1f04e124e4f8bb3723558d3437540c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "d9efc4d036f8cf3c2d211f8becfffc1a16109e5e5b66a69d4db34d51b35c3991"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f14/VALUES.bin",
+      "bytes": 664654,
+      "sha256": "9feee772fb8d3dcbd51782f425fbed097b8a35ccf4d9a0fd63cc5098693eadf2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/14_full_WAIT_RESULT.json",
+      "bytes": 1975,
+      "sha256": "0896f633708965c6c2742fc4370622a40ac2d058f108ecc7aac3d96c172e1cd2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/14_full_verify_WAIT_RESULT.json",
+      "bytes": 1985,
+      "sha256": "707bd0774b92bb83119916c65e70acb674c5c0658a7d52d8158a2e862c099b73"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/ABLATIONS.csv",
+      "bytes": 246,
+      "sha256": "3772f9a3a0eded4de501072881a794e29ebe015fc93d90a848a93e7dec4eb303"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/COMPARISONS.csv",
+      "bytes": 668,
+      "sha256": "c353e3ef3ad7d75a17c4b8ba9f17e0b92b7b3a3220c671a227b9e48589104b49"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/FEES.json",
+      "bytes": 86,
+      "sha256": "740a06fbf9bce86d31b9dfe1cd8861245420c8c5cec8ba20dce0b00f51e1eb31"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "872fda1b818627d8f7292853609e72f1b9dc2cd46da88078aaa5b603e1f1d179"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/FUNCTION_RESULTS.csv",
+      "bytes": 419,
+      "sha256": "fb118cb03be28f731248cf53607dc4760e7a2b24a7a293ab1acbfc59c35d5ed4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "5aa9fc8397f135f3fc65e54139d97fd43c8c64145bc68c887ed69dc653b55955"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/RANKS.csv",
+      "bytes": 172,
+      "sha256": "4c7fd99cd69e79a67c893d2c7461e5b3c83f9971551ebca154bde302a8a11e7b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "c0b10952f12ee1be872241982d342082b2b71d02943d57b6ced8505a2fa4f275"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f15/VALUES.bin",
+      "bytes": 654408,
+      "sha256": "900e253fb4fa37fe6c1c03033d79b9e4fab75560eea8e7ad68e507bb14f288d5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/15_full_WAIT_RESULT.json",
+      "bytes": 1974,
+      "sha256": "e7e1b15b9f2ab085b425a83a983ba36e67a0b36f97e801e92c51f04dfe4eff35"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/15_full_verify_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "b0080007b0830813d3195834273cb201f9636825b0f4c3ebfb0c143db7f89451"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/ABLATIONS.csv",
+      "bytes": 290,
+      "sha256": "f87536f55f77034f16ea337bdb7a14d72200a494e648fd129de7fa0782cb836b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/COMPARISONS.csv",
+      "bytes": 632,
+      "sha256": "e57c6fdbb1e3358db28867470b556eede3ebc77ff04915e86435c52c037e971e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/FEES.json",
+      "bytes": 86,
+      "sha256": "ff795965a7ff0e57b06100901cbfc336c3d43390c3a4871525c6d15c6379068c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "4287ae14b01917924408bd65776d6ef3a9b235fdaebec43e8c57690c2f65fcaf"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/FUNCTION_RESULTS.csv",
+      "bytes": 396,
+      "sha256": "9ffabf4c44dfa3b85f59e357b5f0c309d9530051b9977eb847a4add3c2c5712e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "2eff3c40603f2edc33f825e3453674858c797d76c600175a3dbbfb6a39a703f1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/RANKS.csv",
+      "bytes": 172,
+      "sha256": "99a836fc024bc5b55725968a2ee94d28c899546ea662a29c3aa5a7a3c0d2234b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "85fc29ccf4a4f79357f2b2eaf8e772262e65f9e557f8b9c3a95546810c6adc30"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f16/VALUES.bin",
+      "bytes": 435898,
+      "sha256": "443bd065f1a5a85d485d6158a5f67b2300baf4915d4e6b93a5ee33edbf2f1026"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/16_full_WAIT_RESULT.json",
+      "bytes": 1975,
+      "sha256": "aa1cefa82dab09174e149cefbcfd15965a27d73938fb5866851299af85f14c23"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/16_full_verify_WAIT_RESULT.json",
+      "bytes": 1985,
+      "sha256": "1dc626ffe8bad603fc3c2732662e15add68a78ded3b79f3838d990f855372eba"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/ABLATIONS.csv",
+      "bytes": 300,
+      "sha256": "b0b3bfd606d7200695ccf36aacb6cfe34981dcc38e05e7a6743c42dd9bbd025f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/COMPARISONS.csv",
+      "bytes": 665,
+      "sha256": "a3059ff286f8779eff47ef6c68a6ae6e2d4086daeccd2eab2fd629f76a5a21e3"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/FEES.json",
+      "bytes": 86,
+      "sha256": "8b303754c20a12858501e901ed6401f081e5ffd5c80cea4021b82db3bf987a41"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "6e31ccef5c095b2253cdc3068f074f3c008e8af05805f27e472a70e6d58e7f90"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/FUNCTION_RESULTS.csv",
+      "bytes": 421,
+      "sha256": "7d30d56e257daa2a64dda029173c92551fb2779257216a9b81d209307761255f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "ca8c3d1d61101bd71d5536e7f3a944697e8a3553bb69624d85fa560c6b403230"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/RANKS.csv",
+      "bytes": 172,
+      "sha256": "4f1df8decc0282c20b866a21b4b2cb34aaadfb490255be0f2f043fca91aba121"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "dfc976a8c246aefa413d11e327cc4c487bafacc5825d8f333951f2885d8411c1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/VALUES.bin",
+      "bytes": 660197,
+      "sha256": "07b36919a566e48517aa8177a8940ce9c86d9d1c6ff78312f232d9751a7944fa"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/17_full_WAIT_RESULT.json",
+      "bytes": 1975,
+      "sha256": "90e73c1b47a6b3a0dd2b4506e603838bfb64e1b502fd079fe5803b66c360db3e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/17_full_verify_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "8aa103b9c5024828155c555713049d1839fbdd36bd1a7071dfe940eba2271cb3"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/ABLATIONS.csv",
+      "bytes": 245,
+      "sha256": "adb4b1bb0ed538c4b6b764afb32a7bfe0e43167021e5e28f91394829026ea65e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/COMPARISONS.csv",
+      "bytes": 646,
+      "sha256": "eac1d78425128703492a45587a266e2a37d8000412fde40b85e82cd6823dfd2a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/FEES.json",
+      "bytes": 86,
+      "sha256": "e42c596b9737f25ea0967c88dd1c47496ae2218d095f27e1e8773717ef5e6141"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "0225eea45a9c95b18ca672cbd7331c05d126016a19590157218524fe2623d9b8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/FUNCTION_RESULTS.csv",
+      "bytes": 411,
+      "sha256": "4478d843f1c0b34445f8b04fd582cbfa64084bbfb08eca8e63f222861b92202b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "253becd8aaf36d0f1e299dee016366eebe8090c203838a7dcda524f0ea043042"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/RANKS.csv",
+      "bytes": 172,
+      "sha256": "e70747eadb76f66b903b491fa49a31ffb1f41aea8e3c8038da8b3101d1889580"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "13c23407cd726b8f9a419b146eb63601fc903c0587532d5171874115ca01adcf"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f18/VALUES.bin",
+      "bytes": 657925,
+      "sha256": "e1fb17757fc0514c5566034351e54a2d03c4d651f15d1b22e716ce0f51c04196"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/18_full_WAIT_RESULT.json",
+      "bytes": 1973,
+      "sha256": "73c46ad79e3c5925f6b22b09deacbda4088a73ba6567ffd928103eeedbac75e1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/18_full_verify_WAIT_RESULT.json",
+      "bytes": 1984,
+      "sha256": "68266ab43fd2266fbfeed417d71af78103ee7d44a764052a41949e542c4b9c64"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/ABLATIONS.csv",
+      "bytes": 264,
+      "sha256": "db224c27723a4b302a8838dd1c199b79bbf70ba1d6efb3198397a96f71990dc7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/COMPARISONS.csv",
+      "bytes": 650,
+      "sha256": "7afa64bd602ed424f1aeda4650bfc7fab498677c7ac4384e6dd72844d4e3a65a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/FEES.json",
+      "bytes": 86,
+      "sha256": "673f4a2dd12aaccd916a7687a43ed0a3b2413e9635a7afccd7f5ef5f0e8727e4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "6ed89e2b684fa87a9f860d42c8bd56b62f28ba246725407b227c10d3407e8792"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/FUNCTION_RESULTS.csv",
+      "bytes": 402,
+      "sha256": "f38aff09473cfac451dbed160d7583b341992f867c642a10fa99b8d149dc5f12"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/MANIFEST.json",
+      "bytes": 2734,
+      "sha256": "08fb514216304521ebd6883d5cc29ad69c33cd93eeb95f353fba34a730801d58"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/RANKS.csv",
+      "bytes": 172,
+      "sha256": "639f24bfa0f01b6c36fe0c7e23b5e3522570b72671b306d18ab847b1018bfdea"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "70bdbc8da2eff1e08780c54c8a75fe0fd716afea437f7362a75831d53691ad3e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f19/VALUES.bin",
+      "bytes": 646449,
+      "sha256": "96f4d78da381e27d41476bf76c76adfef9b537b0ce1f5e7df603cc4e061beaee"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/19_full_verify_WAIT_RESULT.json",
+      "bytes": 2001,
+      "sha256": "82b425c81c0bf3240946c491e3d9a5f6ffdd4e7ca0d8a89ccc727454369e489b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/ABLATIONS.csv",
+      "bytes": 294,
+      "sha256": "f3d527bc3cad16712e970b44ffcba85600dd799d1b2591d3f89f07a7f6b93136"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/CODEC_VERIFY_WAIT_RESULT.json",
+      "bytes": 375,
+      "sha256": "85690a2832777344ea6e384b047724408e09ff0ee72fa83a5dee5e3ccc357902"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/COMPARISONS.csv",
+      "bytes": 662,
+      "sha256": "436de2670c8f2b24d872a9e0dd823b7b62c416f1ef55b6c8c283909897b10541"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/FEES.json",
+      "bytes": 87,
+      "sha256": "e1f47d9f32b79c10d53be244e36dd2d3842d2e708525fce896fe8a5d37b83c15"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "352c8f9d0a313f5fea90691d70636d577ca75434d8046bb9c184ee6d9eef8228"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/FUNCTION_RESULTS.csv",
+      "bytes": 404,
+      "sha256": "c856a3b4d179e109218e480efca7705028907c12d8944ef0ac8f84de2311310f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/MANIFEST.json",
+      "bytes": 2816,
+      "sha256": "41c30d1a2ea0f2c479ab6e8f92b6a8711deae847a238d4e842a073f0db6c1db0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/RANKS.csv",
+      "bytes": 172,
+      "sha256": "b560e199551b383c02b305053421908b58a81d8072193b9d5ccb1416f41be5eb"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "780128c097ee35ea4c82419094e27e92203e66482042cf4b56784e9f161b6cc0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f20/VALUES.bin",
+      "bytes": 330527,
+      "sha256": "1307f808b019048ef2751f7b39435afbf435ace8dede5c194d3d0c1faf459cdd"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/20_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "3a37e3925373ccff28bb80bd766d5e60c9b5a2071e8071050f4364882f6f8692"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/20_full_verify_WAIT_RESULT.json",
+      "bytes": 1989,
+      "sha256": "2f78e010aa339379cb702b27d0ff9b434285b66fe272dca8e495a4fc38d3a604"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/ABLATIONS.csv",
+      "bytes": 293,
+      "sha256": "0df010f1891ac03957833f27f9a4255dc0ce799026e6e81fc505bde677c1f1e9"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/COMPARISONS.csv",
+      "bytes": 619,
+      "sha256": "6416f959576dc3e0e2f98c1dc297dfd55952dc2bc9eb4c124bee89e5ed945857"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/FEES.json",
+      "bytes": 86,
+      "sha256": "0032ce52fd89fd94daec6be1c53ba72085b112996c3d7faa2852155eee716120"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "d32b21c043bdab273c44c1e2b0d81979dba52cc0e58bf377fc53c523af76d286"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/FUNCTION_RESULTS.csv",
+      "bytes": 397,
+      "sha256": "b5cf2191eee8990f0bdf1a1f3c4a218c207f9ac358cda70c96e5c4bae67826ca"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/MANIFEST.json",
+      "bytes": 2807,
+      "sha256": "d197f570164065d712bc7e4ca191e44c06c36aec573fdc453034d46974f1583a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/RANKS.csv",
+      "bytes": 172,
+      "sha256": "e2a1772735576a08e1724f35236cefc16eab33a2e8b0da9f794aec9b7f93c3ee"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "619965c923392162f0e06d0e2aa31b5009b65c94d15163685f1199f03e5270c0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f21/VALUES.bin",
+      "bytes": 549610,
+      "sha256": "d49caf8c89adc0554513f9c835874c276bb2150ee7356498e6eedb085312bc72"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/21_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "be5c98b1dc25bf0b7170d42ddd380b1e2728405542520eeb5f24a13a4e20651e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/21_full_verify_WAIT_RESULT.json",
+      "bytes": 1992,
+      "sha256": "926955eb338db5b5231d854324c51f76018cdd0238b1d560dc0811a6c2c0b58a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/ABLATIONS.csv",
+      "bytes": 292,
+      "sha256": "e70290a9394a7d406b03dd460cb62e1d2125c553ed78b9452636419fb915b717"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/COMPARISONS.csv",
+      "bytes": 603,
+      "sha256": "aa9e7bc86c87e5d10911eee34694351154943eca6743ccd18673316ad204e830"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/FEES.json",
+      "bytes": 86,
+      "sha256": "1df4d1336b0b98a9091de5b8b489c37b3c5da65201d15f9a2696884c2d1bcac8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "62a6c0a4aac31a6da44f3b36ff0bf2a88f3119027964847c1bb4e42863bafce2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/FUNCTION_RESULTS.csv",
+      "bytes": 394,
+      "sha256": "163d6a2f2184b24534177d3781662f07e40d9c261f7657e43cc23e692d4b2556"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/MANIFEST.json",
+      "bytes": 2807,
+      "sha256": "bd299bf5cb5c7ff16d12be012bf742c4411de12ad29bdc8f6a950e9eb3f646c2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/RANKS.csv",
+      "bytes": 172,
+      "sha256": "8bdba4153b68fc5eba3ac31145b6f9d6edf2d73e39dddcb6a330e7aad582e251"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "697cbc8e8b0f94723cc814cacd760d640cd9f13f0dc0104665d577cfe3e69a1c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f22/VALUES.bin",
+      "bytes": 545166,
+      "sha256": "4292cd0f38ca08f568a04a07af6439b79b79f48f089a5f6e99d2f6d020a3e701"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/22_full_WAIT_RESULT.json",
+      "bytes": 1981,
+      "sha256": "6be982070695e21c6c5732ad4239e22bafcc93d1cb2d67b24728b98464a23c3c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/22_full_verify_WAIT_RESULT.json",
+      "bytes": 1983,
+      "sha256": "a4d89231730943551b1281c00ca25d181204d5a6170e90b508e1709f55bdbc5c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/ABLATIONS.csv",
+      "bytes": 282,
+      "sha256": "8d143bb9473d38047d14b26c476d9708958f7921139582d5153368cba7730867"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/COMPARISONS.csv",
+      "bytes": 658,
+      "sha256": "75e6e3071b9292f232c94808332c6be269ea837ce064fb141a337d6c306e17ef"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/FEES.json",
+      "bytes": 86,
+      "sha256": "db70eef30c14ce89599953509c042315a5d655ad7a6ed42175c42f226e9ce883"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "7f1f340b4c1e6bb424c29dd49435b6b136a95f76ac061d839c4a829fe9bc6881"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/FUNCTION_RESULTS.csv",
+      "bytes": 407,
+      "sha256": "ffa354205852940201eefa64941143c34bc30e5a81858f120ac8d43badf13058"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/MANIFEST.json",
+      "bytes": 2807,
+      "sha256": "5100ff657904f5695d230db65a25af94e08349e60808eef9174b0b4060b094c7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/RANKS.csv",
+      "bytes": 172,
+      "sha256": "38586fd6f2df5ebd952e3aad0a2efcce2809e1732dc151595944b66320bb1beb"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "faf4cff85c89bf109edca335a7c31dcd7c65264ed14eb022486d522c8dde2ec0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f23/VALUES.bin",
+      "bytes": 643140,
+      "sha256": "43511f0e8a298758c3bc57e715a8f1a33c766725f42c186eb65b8b31c54600c6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/23_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "d79b3703b2bf933d52a366d072bbaaf0bb723ba009d1ccbd4533744a9fd53a42"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/23_full_verify_WAIT_RESULT.json",
+      "bytes": 1988,
+      "sha256": "d2f84bb1825bb3c2ac41e81b592334b016a076c0e8099231fb1266509d8d25be"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/ABLATIONS.csv",
+      "bytes": 285,
+      "sha256": "23f5d74158ab1bbb457bcd9ef53603580a6119a8d1da513ae7a7fc5b4ac4412b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/COMPARISONS.csv",
+      "bytes": 610,
+      "sha256": "a3b438aeb6938e2b45aa4da8f2db9cf69a4e621cf8444947e6388a36576348a8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/FEES.json",
+      "bytes": 86,
+      "sha256": "419f5fa80ebdd7ea9366752597e51ac2cbb1a59f0401fd6d11ab8bc1e9604b29"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "f86cbcf34fe0d8876f0d32bcf2b9eb7cde7a203ab21100fce036a447de804e16"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/FUNCTION_RESULTS.csv",
+      "bytes": 390,
+      "sha256": "66c2ac5641ecc2234dc46c46127c06bdb42b289fe025a288a96ee7058621626f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/MANIFEST.json",
+      "bytes": 2807,
+      "sha256": "27f534335fed1462f19d6a7415fb0d07b723eec928073b2b5f03e5b4a9ee12d7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/RANKS.csv",
+      "bytes": 172,
+      "sha256": "b688da2914e3a45ccb7636dab4c0d8d8cdd9afb92f172e68ca405e684fc3b283"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "7a331cb82ff0a2d546f4cbcd0f9d398752cf93df7b6dd4184da2d0e4f57f1e3b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f24/VALUES.bin",
+      "bytes": 615551,
+      "sha256": "f45cccb42efa4896aec2163d8bbb868181aa72a68ca291c77751460fc71b282a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/24_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "ed34394900c010854c2aa9dea85d4f2e484446306c472c55976a5fd7fcf5cae5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/24_full_verify_WAIT_RESULT.json",
+      "bytes": 1990,
+      "sha256": "2dbaa9222e70fa15c282dbcf3021b2bd2faa03b3aa5e7a5c0ef38f017e5bb4ea"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/ABLATIONS.csv",
+      "bytes": 247,
+      "sha256": "ee9377b83e84d82db9c34fcd8001deaf19ee9ab615d9cf510ebe22d99fcfe47f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/COMPARISONS.csv",
+      "bytes": 723,
+      "sha256": "d35fe09a018ac8d4f9b75ed11888fba43b35a0805377da2736c2a1115e815244"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/FEES.json",
+      "bytes": 86,
+      "sha256": "1a28cb29f0ce65f895d785a19f40dad74b58617c9f2688fb4492421440da2ca8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "2c6966b1aee337812b3b8fdce9e63c77dc0e7e64d455d18ebcdd938722e93c37"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/FUNCTION_RESULTS.csv",
+      "bytes": 459,
+      "sha256": "e2dd6490b9c0aa22d9360346711e240ed7f08f6505219e01235b26892d5a257e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/MANIFEST.json",
+      "bytes": 2877,
+      "sha256": "eeb768bf52720eeaad043168747e81b67e428f9c1cc2dd7b5f14c94f9af68538"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/RANKS.csv",
+      "bytes": 172,
+      "sha256": "5f0bb1488e58078ec66f160f80781c3e1349843a10fbde0cf9cdd37450450c17"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/README.zh-CN.md",
+      "bytes": 331,
+      "sha256": "0c1ef619bd362bbec547c67b7328e1f4d277d38113246a13e4fa2f501be3d0e1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/VALUES.bin",
+      "bytes": 669219,
+      "sha256": "0dee0fa700332afcf90281bb2bfa4b20f1096cbdbffd11d7e8ad9d613d85a559"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/25_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "76a8a96c44cf0281e58222b419482f9eceb7dc3e67d7ac49d4127900fae06d9c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/25_full_verify_WAIT_RESULT.json",
+      "bytes": 1991,
+      "sha256": "d3595f4507e9fbfa3a39ad71cb52b092812c84c2eef90ca7f87c25970acc3cc3"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/ABLATIONS.csv",
+      "bytes": 245,
+      "sha256": "135d702926f356f91ff9204760d4988f4c5218f8f1da273527b77f8b3f9dcd1d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/COMPARISONS.csv",
+      "bytes": 675,
+      "sha256": "07198adff48d00e4bd4ac3a8ccc51024c24e4d9be8a391880596e4a1e97cf546"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/FEES.json",
+      "bytes": 86,
+      "sha256": "1a28cb29f0ce65f895d785a19f40dad74b58617c9f2688fb4492421440da2ca8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "b086193762fd8f503cc4f8516ab12c95b8fced039011c87012b36ea7c43b0585"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/FUNCTION_RESULTS.csv",
+      "bytes": 447,
+      "sha256": "c9f99638b4cc9d0911318abff8989318f94ea054d1eb5800142baf6055c3863a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/MANIFEST.json",
+      "bytes": 2877,
+      "sha256": "9dd82f78cd516508f34903c3d53d72ac9d6fb5ffdadf7ce8faf7a9cab02d4ea0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/RANKS.csv",
+      "bytes": 172,
+      "sha256": "30d144aaf0dcbc312f130f49fd9a899e4718f2b53a6f23a71247fe9c4b2f14c0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/README.zh-CN.md",
+      "bytes": 331,
+      "sha256": "abb902ac5a425b849938a6b013b927264353e4b8a3eeab790633d8d9292c2378"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f02/VALUES.bin",
+      "bytes": 628901,
+      "sha256": "e3130459ec7e7d28f58971f6a4842940e579b4d068d2ddcbc162f230db5514a1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/26_full_WAIT_RESULT.json",
+      "bytes": 1981,
+      "sha256": "bde350305be018000e66c6eea31d17a969f2f5bb55cec708fd57f42828e24f17"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/26_full_verify_WAIT_RESULT.json",
+      "bytes": 1989,
+      "sha256": "06838e6e857a3d6962f20c9da71510eac69403685aef1ac60d44749e7b6fbdd8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/ABLATIONS.csv",
+      "bytes": 243,
+      "sha256": "185c584a173345dce5f7f73ece744774456bee5dfa176511d36ea60b39a0becb"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/COMPARISONS.csv",
+      "bytes": 798,
+      "sha256": "a97618ff21c0513d41d9936c2d2b9b0bef816bfe6ece7188c3d1cfc7b406d900"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/FEES.json",
+      "bytes": 86,
+      "sha256": "1a28cb29f0ce65f895d785a19f40dad74b58617c9f2688fb4492421440da2ca8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "ab70bcbddb50f652612b2e73c895bd04a5c8f6a8037347565a3892330b7d39d2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/FUNCTION_RESULTS.csv",
+      "bytes": 427,
+      "sha256": "a9f20898456a3fca44bf202f5d6556a87b10da0ab1813aa402f097dd59e547ee"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/MANIFEST.json",
+      "bytes": 2877,
+      "sha256": "65f2c6f83dc5adc9cb15c06ec6197da80ab6c2acc29a58c4bd3f0fb95fd41280"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/RANKS.csv",
+      "bytes": 172,
+      "sha256": "70601b710d677b45dd1b7e81e5970c32ea456577d77f7947bba9433c44853c13"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/README.zh-CN.md",
+      "bytes": 331,
+      "sha256": "29eac75316252585385e3e84a14cdda3503ab552c6cc02adf2b328babb18c9fc"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f03/VALUES.bin",
+      "bytes": 621818,
+      "sha256": "96d337d14c7de23734aa038137de14be3cd362d41742d15775b033d71da0ab6b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/27_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "f4f8ff413663fb1512f0b384241b11226930b8c74374f7c030a8b384bade5067"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/27_full_verify_WAIT_RESULT.json",
+      "bytes": 1983,
+      "sha256": "3f412d26f430cb3cd34a24e3498dc5795cd68431232efaff60338e4c63483c74"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/ABLATIONS.csv",
+      "bytes": 247,
+      "sha256": "1cb1bcdfa1916307770d0e28aac508be01a8c19fecd72c0a1c296516cbbe5ac7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/COMPARISONS.csv",
+      "bytes": 668,
+      "sha256": "923b33501bb201defbf3ac08a3fcf9e2467fbd5c71d711c2290c8453ed68a9ef"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/FEES.json",
+      "bytes": 86,
+      "sha256": "1a28cb29f0ce65f895d785a19f40dad74b58617c9f2688fb4492421440da2ca8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "2bebba00d69dbbd9e61d20b9b4e100761fa64737059cbba7a86e324806dc0eba"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/FUNCTION_RESULTS.csv",
+      "bytes": 437,
+      "sha256": "dea6a0e12ed60cc321afcee61166ae00608b98fb0d0fda4e128fd69b1b1380c5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/MANIFEST.json",
+      "bytes": 2877,
+      "sha256": "e4ae4a3f5c733023e7f97f9ccf1d00e6c6ea74d2b67764a294e1480e14519526"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/RANKS.csv",
+      "bytes": 172,
+      "sha256": "3d20411d9587343f3e0bb374468625dd458f63beb6ac51e8d1c52a35707f715a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/README.zh-CN.md",
+      "bytes": 331,
+      "sha256": "427719c80841636a76a09cd4aebc01f37d4036701f8815ec844ea57bb38199b5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f04/VALUES.bin",
+      "bytes": 609425,
+      "sha256": "1d6b80923b945e364da2d9bb07e03b23a21568754d83fe6c5a57d423d5d8c200"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/28_full_WAIT_RESULT.json",
+      "bytes": 1981,
+      "sha256": "f22f7a73a1e9e35d6dc3305d60cf50230674138db60d5078146e0a91927ea6c7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/28_full_verify_WAIT_RESULT.json",
+      "bytes": 1984,
+      "sha256": "0555377276f936be8d2a616851613361bc7bd1ad1463c602177582f33d8eef31"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/ABLATIONS.csv",
+      "bytes": 247,
+      "sha256": "785191ddc51bb27003d0c47e616592f18a39c921f873e085bd20c902868f5634"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/COMPARISONS.csv",
+      "bytes": 673,
+      "sha256": "5d624f4cc2c6a18c049d2968f7d75846bc038ca7990cd19653572aeef31a647e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/FEES.json",
+      "bytes": 86,
+      "sha256": "1a28cb29f0ce65f895d785a19f40dad74b58617c9f2688fb4492421440da2ca8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "6e8fa50ea7e2123b126ba2d39fb40aed7f3a0b224e22d9d09d942abfb1a40666"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/FUNCTION_RESULTS.csv",
+      "bytes": 447,
+      "sha256": "7afde4de150cec926800cbc51f3861bdd10a346454e975ce1fef1d7629fb8efe"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/MANIFEST.json",
+      "bytes": 2877,
+      "sha256": "29bb758811a750fb60165aca0efb7f8317d3fa787c839cf692c8ecfe7ed5e672"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/RANKS.csv",
+      "bytes": 172,
+      "sha256": "7dc5a568085d0170d5db44f94b4328843ba119783c67a86eb4bddca62a977d81"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/README.zh-CN.md",
+      "bytes": 331,
+      "sha256": "361e6a469a56241c68d4421c0a60209e370cb10c5c23f1e6c58d99c07bce868d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f05/VALUES.bin",
+      "bytes": 577552,
+      "sha256": "0078aacb04bfe36ca614e81aaf642d5588aacb7d1eb182d41a7fc959036db268"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/29_full_WAIT_RESULT.json",
+      "bytes": 1980,
+      "sha256": "619a07bab964d9cb66d7ced7e0364e2fbfa2826b003e9931647bdd723be49877"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/29_full_verify_WAIT_RESULT.json",
+      "bytes": 1984,
+      "sha256": "a7eb3886683afd34dd309ddfa4d53f84d5a62a84b8e70ce787ff00e74eb1cc5b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/ABLATIONS.csv",
+      "bytes": 245,
+      "sha256": "b7a94dfe5c2248a785e4c4a9d9658d93a4f1fdc7d30dc691aa131d1842cece44"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/COMPARISONS.csv",
+      "bytes": 668,
+      "sha256": "000408de28d76088d50f8fbdb1b99b3b92c99c69d684ab8308274bcf882ea4aa"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/FEES.json",
+      "bytes": 86,
+      "sha256": "1a28cb29f0ce65f895d785a19f40dad74b58617c9f2688fb4492421440da2ca8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "dc627570d2390fbc3e4c5eb6813fbea0faa40a5480c20ed6ee5cde4a37aa8b8f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/FUNCTION_RESULTS.csv",
+      "bytes": 445,
+      "sha256": "b9fa948f3e004da87db8ff4f1124be58229155639828481e1703f278d4aa8a2a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/MANIFEST.json",
+      "bytes": 2877,
+      "sha256": "c1fb366178107e619de5a4d662327838c4732701fc3dd99f5c83470b3574c61d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/RANKS.csv",
+      "bytes": 172,
+      "sha256": "d085ac1e6dac1206254390bc353d9958a99b65d2d984954d5d73e0acab228415"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/README.zh-CN.md",
+      "bytes": 331,
+      "sha256": "eed8ed621fddb11fc626a026e775420eea443a5dbbbefb91811a0ab4e9042ab9"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f06/VALUES.bin",
+      "bytes": 563801,
+      "sha256": "b2f745aea427dc218879e0476911cd877d044ae4b8991610da6e6d2427c7bed6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/30_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "096978bec64750a16402d1a576fb24f371297ff1c5e43c42fdcd867f174eed7b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/30_full_verify_WAIT_RESULT.json",
+      "bytes": 1983,
+      "sha256": "d353128a2d0b52c30d15745645d565191aee5b111158cc13f13e2aaec826a4c7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/ABLATIONS.csv",
+      "bytes": 295,
+      "sha256": "f7f83fdba75aee6b5df364599b1e71ba7ebd1752b2c04518da5dd360d19b6f78"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/COMPARISONS.csv",
+      "bytes": 441,
+      "sha256": "b814d8ffb41735f48414e27ce0d2e38deb2e00820311ae3b4a38831179a21bd5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/FEES.json",
+      "bytes": 86,
+      "sha256": "88420a800b131c44f5a2e0c418e1ae8a7d70b7212c808f72eeeab81276ee6f35"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "2c6966b1aee337812b3b8fdce9e63c77dc0e7e64d455d18ebcdd938722e93c37"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/FUNCTION_RESULTS.csv",
+      "bytes": 385,
+      "sha256": "bce3015db6ab097fd68a325bf0ccb59bf7f7440a50c357b876353932c73cca9d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/MANIFEST.json",
+      "bytes": 2793,
+      "sha256": "f60d0ab438898f770fb371b8b3203da4aed158993831c47318579d5264656b23"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/RANKS.csv",
+      "bytes": 126,
+      "sha256": "8657cc288895e5a4c7df13159ad4fdc84e6c10692c1060d46e41a4e15c5697b9"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/README.zh-CN.md",
+      "bytes": 325,
+      "sha256": "0802d31ff7f4f286d50a561f5581b43a34fd9e3c542aee4aca47998c6da456f3"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f01/VALUES.bin",
+      "bytes": 627648,
+      "sha256": "89744c05a88e971896ac45e6f20ab14538ced49c2dc8f0ed7ad8d5466f1b3b3e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/31_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "4017f5ec0c24c2a7598a79afff10ec1b64b4c25bba75d8b964e67b5d8458be35"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/31_full_verify_WAIT_RESULT.json",
+      "bytes": 1983,
+      "sha256": "03026f6ad7e5f61883c26781093e480ef0e01e4982359702d465fe8d764636f3"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/ABLATIONS.csv",
+      "bytes": 290,
+      "sha256": "14c8810c366ad592047d95cf7a84d7bb517a8c0b188f44e7a220458d69c3e8a7"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/COMPARISONS.csv",
+      "bytes": 438,
+      "sha256": "f62a9018d059e459cd1d54b5a9d4a50fa40fd31c4c795bd44c1fefd002c62b36"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/FEES.json",
+      "bytes": 86,
+      "sha256": "d22f035c61d09a6b7f0a050a0387a09a41debb35721e26603db26d0981ec4c9d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "b086193762fd8f503cc4f8516ab12c95b8fced039011c87012b36ea7c43b0585"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/FUNCTION_RESULTS.csv",
+      "bytes": 384,
+      "sha256": "91df2bdb56f7e6c052906a9ec8523c3b9f60938c5c131dacd895beeba52a9f94"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/MANIFEST.json",
+      "bytes": 2793,
+      "sha256": "918efbe24281ca456de3458faa860ddc10ef8c61bcf526aa5ea0c91450bdda40"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/RANKS.csv",
+      "bytes": 126,
+      "sha256": "e51e717fdc00c31e01680e782f2e01e059ea9b60b0819c1216a41f2d2a41b631"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/README.zh-CN.md",
+      "bytes": 325,
+      "sha256": "b372e5b06cd72dec4f4a7164a1d2d57b9016e91a9ea199e842155dcd52fa2b36"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f02/VALUES.bin",
+      "bytes": 501311,
+      "sha256": "c744a2655b9863ea909636fcf0a24fed865c1acfd4c05ed4f5732b29a432927a"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/32_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "e80b8217f2a9a5337f8b720ab5bcfdfd9c8ea8216a7becb723e1b23beff80c9c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/32_full_verify_WAIT_RESULT.json",
+      "bytes": 1983,
+      "sha256": "38036d680aa134f3543273f5ad860b9379002f7ca20c33a0214165ec7d88f837"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/ABLATIONS.csv",
+      "bytes": 295,
+      "sha256": "ccad68440a95e7a798fc8d4c8bea321d9b41580e10a79057c45d51f42b2ca056"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/COMPARISONS.csv",
+      "bytes": 437,
+      "sha256": "592e958fa24fe76f434985c66c000ed2a11f7a0f2ad86ac672cd543a6ddb0457"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/FEES.json",
+      "bytes": 86,
+      "sha256": "79be5c2bc5fbca6f1e336eb4503c88361827d2b8689e2eab20c754d11962aa8f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "ab70bcbddb50f652612b2e73c895bd04a5c8f6a8037347565a3892330b7d39d2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/FUNCTION_RESULTS.csv",
+      "bytes": 386,
+      "sha256": "ee13be749092b7f8a99d266114ddc135166cc5b6e77757d2459f85e296343b4d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/MANIFEST.json",
+      "bytes": 2793,
+      "sha256": "08f0cb8a6242fba594e6bed24af71b714ad4423f812f990e2ccdd1129e08e23e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/RANKS.csv",
+      "bytes": 126,
+      "sha256": "61cb40b17cb0eb35a2b96e42361f5ef528c546b2d159022c248490a5f70c0fbb"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/README.zh-CN.md",
+      "bytes": 325,
+      "sha256": "9f8e4f728d9b8b035911111c57982497c35af6d0b30d098794d76b07d1d21f69"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f03/VALUES.bin",
+      "bytes": 626493,
+      "sha256": "e827bb752f735707ff499f21d785edf21f3db05b2b314811e607e40b4eaabd80"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/33_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "75f5f1bb5de43713104d1831f43114094efc169ba9ea34f2820188198a19b586"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/33_full_verify_WAIT_RESULT.json",
+      "bytes": 1992,
+      "sha256": "462b1c0a69de0af6977da4e181a9f090da9685eb12c2ae7705ad6f587c1725b2"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/ABLATIONS.csv",
+      "bytes": 292,
+      "sha256": "b36ef5f8277e8a3f47f073c5b87046be5c85c44ee097d9c9f5cecc33c9f7820d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/COMPARISONS.csv",
+      "bytes": 431,
+      "sha256": "35b9bcd6360027a5f9125af54c57eb13d78ea0a33da0a51db9d83ff3e9fa3b84"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/FEES.json",
+      "bytes": 86,
+      "sha256": "b16776b7865a250e56158fbe4e5d50ead32e7f4a83bb30a56e3bf91ee3cd1e9d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "2bebba00d69dbbd9e61d20b9b4e100761fa64737059cbba7a86e324806dc0eba"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/FUNCTION_RESULTS.csv",
+      "bytes": 385,
+      "sha256": "435d425ca3dd78eca5881d28edb29604ec69b558036319430673cacdc1aa4bf6"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/MANIFEST.json",
+      "bytes": 2793,
+      "sha256": "ad9764fcb92a5d53d97eacef6eb5275e2df963283bc3d4a57875481fe21acfd4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/RANKS.csv",
+      "bytes": 126,
+      "sha256": "9bd87f8ea1fc684bd183062ec54e60cf7944a32dbe5e8bdaf7605c1a13eacf7b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/README.zh-CN.md",
+      "bytes": 325,
+      "sha256": "72b1c8c47155cb4ad065d3c158602b770e74ec79e0f39a56b251f022c98e1ac4"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f04/VALUES.bin",
+      "bytes": 623514,
+      "sha256": "d83ac2ad05c4d36a09b002c73a92c766f49ad005961908bd68da858cdd0e4708"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/34_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "292b4bc177aab1c4fb9965adfe843008d18bf38619c6e448c2f96acb519b1ae8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/34_full_verify_WAIT_RESULT.json",
+      "bytes": 1989,
+      "sha256": "e407dafc1bb7247d3ceb9b9530b6c58dbdc180d762a5d7d06f10b70adf4526b3"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/ABLATIONS.csv",
+      "bytes": 290,
+      "sha256": "a72a23eefd4261a59b29dfaf2dc6f69528ef8a25ae7e5e1e8f804f8e98919a43"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/COMPARISONS.csv",
+      "bytes": 431,
+      "sha256": "6341bf98e56700d8e99efc9e6856e3251824a62d5c131464c05283973c01102c"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/FEES.json",
+      "bytes": 86,
+      "sha256": "24ef878aeaedabc6f49ef54ad901e0d6d03214251bbcc777d87c5a66d0b2a148"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "6e8fa50ea7e2123b126ba2d39fb40aed7f3a0b224e22d9d09d942abfb1a40666"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/FUNCTION_RESULTS.csv",
+      "bytes": 385,
+      "sha256": "307eacccb751adfece02e1aa8d5b3ad0ab1a41805a4fb0e65217591b835ab63f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/MANIFEST.json",
+      "bytes": 2793,
+      "sha256": "92eabac1752c02d013c047063b47cb520cfcaee349f8c9038d46b3739e94591d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/RANKS.csv",
+      "bytes": 126,
+      "sha256": "2c5870de1b5d7bdbf78829eb261b7094f309dc370293739313abd284d8d4bfaa"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/README.zh-CN.md",
+      "bytes": 325,
+      "sha256": "792943bdba88deba2bee9fe5db4c6a65812fb960cd2c24e2c5e6526c489392be"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/UAV_f05/VALUES.bin",
+      "bytes": 620004,
+      "sha256": "137f0df6ec534327c3ec33ac1a27d3afd94ba1e322f93fd22e48930860f80cdd"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/00_summary_WAIT_RESULT.json",
+      "bytes": 1267,
+      "sha256": "ad34d9844a85a62369578c6e94c71833afc987bb00925968e71726ff041e8a9f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/00_summary_verify_WAIT_RESULT.json",
+      "bytes": 1288,
+      "sha256": "df116418af78e299c4c5e2187b798a7f44f7b56c3e6a9c62e78d37357a5dd93d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/ABLATION_WTL.csv",
+      "bytes": 680,
+      "sha256": "ab63d6617402216c2b13446de340a6cca189f97ce42a38d9c0cb20b7946cdefb"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/ALL_FUNCTION_RESULTS.csv",
+      "bytes": 13461,
+      "sha256": "76b516ad5f5201bfd11432640b9267456834976368d57b00192ae76a3a834f7e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/BASELINE_WTL.csv",
+      "bytes": 1304,
+      "sha256": "6688edf127bd06b9bb9a1c1db2e0be4c03dccc509001080db6588405e798d624"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/MANIFEST.json",
+      "bytes": 2031,
+      "sha256": "c418b29ef97c17d75fe28eabf66268fcc0c8450cee5889e0a3d844e0f9f999a0"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/RANKS.csv",
+      "bytes": 2046,
+      "sha256": "4218ab1edd83372d3413790c4f7303cb34aef09efe6f7eb0c5d50a648891840b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/README.zh-CN.md",
+      "bytes": 373,
+      "sha256": "554cbece5764b81d318e61a40f1af3148c4c12fb2fef601935debb6a173eed11"
+    }
+  ],
+  "baseline_preserved": true,
+  "source_payment_archives_unchanged": true
+}

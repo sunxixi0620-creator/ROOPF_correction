@@ -1,0 +1,6 @@
+arm,mean_difference,W,T,L,paired_W,paired_T,paired_L
+no_proxy,-14.169405136108399,1,0,0,92,0,8
+no_residual,-0.681624960899353,1,0,0,42,20,38
+historical_no_safety,10.541463961601258,0,0,1,21,0,79
+anchor_only,-22.321741065979005,1,0,0,100,0,0
+online_only,10.060680437088013,0,0,1,26,0,74

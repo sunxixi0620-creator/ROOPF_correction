@@ -1,0 +1,73 @@
+{
+  "experiment_id": "zip820_BBOB_f17",
+  "status": "complete",
+  "receipts": [
+    "docs/revision/zip_replication820_results/BBOB_f17/16_full_WAIT_RESULT.json",
+    "docs/revision/zip_replication820_results/BBOB_f17/16_full_verify_WAIT_RESULT.json"
+  ],
+  "code": [
+    "scripts/zip_replication_v820.py",
+    "scripts/zip_replication_v821.py",
+    "scripts/resume_zip_replication_v822.py",
+    "scripts/launch_zip_replication_v823.py",
+    "scripts/report_zip_replication_v824.py"
+  ],
+  "evidence": [
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/16_full_WAIT_RESULT.json",
+      "bytes": 1975,
+      "sha256": "aa1cefa82dab09174e149cefbcfd15965a27d73938fb5866851299af85f14c23"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/16_full_verify_WAIT_RESULT.json",
+      "bytes": 1985,
+      "sha256": "1dc626ffe8bad603fc3c2732662e15add68a78ded3b79f3838d990f855372eba"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/ABLATIONS.csv",
+      "bytes": 300,
+      "sha256": "b0b3bfd606d7200695ccf36aacb6cfe34981dcc38e05e7a6743c42dd9bbd025f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/COMPARISONS.csv",
+      "bytes": 665,
+      "sha256": "a3059ff286f8779eff47ef6c68a6ae6e2d4086daeccd2eab2fd629f76a5a21e3"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/FEES.json",
+      "bytes": 86,
+      "sha256": "8b303754c20a12858501e901ed6401f081e5ffd5c80cea4021b82db3bf987a41"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "6e31ccef5c095b2253cdc3068f074f3c008e8af05805f27e472a70e6d58e7f90"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/FUNCTION_RESULTS.csv",
+      "bytes": 421,
+      "sha256": "7d30d56e257daa2a64dda029173c92551fb2779257216a9b81d209307761255f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/PAYMENTS.sqlite.gz",
+      "bytes": 7108575,
+      "sha256": "5844b28ba509dfc3b3f41112b68fcdca4450e42d1231dddcfd158b9efb06bef5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/RANKS.csv",
+      "bytes": 172,
+      "sha256": "4f1df8decc0282c20b866a21b4b2cb34aaadfb490255be0f2f043fca91aba121"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/README.zh-CN.md",
+      "bytes": 327,
+      "sha256": "dfc976a8c246aefa413d11e327cc4c487bafacc5825d8f333951f2885d8411c1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/BBOB_f17/VALUES.bin",
+      "bytes": 660197,
+      "sha256": "07b36919a566e48517aa8177a8940ce9c86d9d1c6ff78312f232d9751a7944fa"
+    }
+  ],
+  "cleanup": []
+}

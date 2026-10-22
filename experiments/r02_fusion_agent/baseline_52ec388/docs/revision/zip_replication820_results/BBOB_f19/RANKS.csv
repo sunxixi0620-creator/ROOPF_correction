@@ -1,0 +1,16 @@
+method,rank
+full,1.0
+DE,5.0
+GA,11.0
+CMA-ES,12.0
+SHADE,13.0
+EGO,7.0
+SACOSO,9.0
+HEBO,3.0
+TuRBO,2.0
+B2Opt,4.0
+LGA,15.0
+LES,14.0
+PSO,10.0
+Surr-RLDE,8.0
+POM,6.0

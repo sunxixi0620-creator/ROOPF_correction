@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "wall_time_seconds": 1.7867719599962584,
+  "stdout": "{\"rows\": 12010, \"native_FE\": 130000, \"source_sha256\": \"b60410ebced899a0f26143e867412239a67ad97e9ee960c377c30d273b528d56\", \"archive_sha256\": \"a862f1843d39fcc40a1dd8b457c69e8d4d15a7ca782394f1421a8ae380056f0e\", \"archive_bytes\": 9600172, \"new_FE\": 0}\n",
+  "stderr": "",
+  "new_FE": 0
+}

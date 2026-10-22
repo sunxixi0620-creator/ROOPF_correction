@@ -1,0 +1,11 @@
+method,rank
+full,5.0
+PSO,2.0
+B2Opt,7.0
+Surr-RLDE,6.0
+POM,1.0
+GA,4.0
+CMA-ES,3.0
+SHADE,8.0
+Random Search,9.0
+DE,10.0

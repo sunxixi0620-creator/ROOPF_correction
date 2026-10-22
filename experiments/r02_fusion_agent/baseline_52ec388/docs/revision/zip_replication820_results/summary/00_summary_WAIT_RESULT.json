@@ -1,0 +1,9 @@
+{
+  "mode": "summary",
+  "task": 0,
+  "exit_code": 0,
+  "wall_time_seconds": 1.556363533003605,
+  "log_path": "results/zip_replication_resume_v828/00_summary.log",
+  "log_sha256": "d06ca8f6272d88ea15d2c78d90a1e88446fa605b245d5ba75cf35921fb76d160",
+  "output_tail": "Running as unit: roopf-zip825-85c7a45a450c.service; invocation ID: f1696516ce374ad0998131ae9b925d34\n{\"time\": \"2026-10-22T11:40:15.589757+08:00\", \"event\": \"worker_started\", \"mode\": \"summary\", \"pid\": 458450, \"cgroup\": \"/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/roopf.slice/roopf-experiments.slice\", \"torch_threads\": 1, \"torch_interop_threads\": 1, \"thread_environment\": {\"OMP_NUM_THREADS\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"NUMEXPR_NUM_THREADS\": \"1\", \"BLIS_NUM_THREADS\": \"1\", \"VECLIB_MAXIMUM_THREADS\": \"1\"}}\n{\"time\": \"2026-10-22T11:40:15.650779+08:00\", \"event\": \"worker_complete\", \"minimum_available_bytes\": 63330574336, \"peak_group_memory_bytes\": 868503552}\n          Finished with result: success\nMain processes terminated with: code=exited, status=0/SUCCESS\n               Service runtime: 1.551s\n             CPU time consumed: 1.476s\n                   Memory peak: 337.3M (swap: 0B)\n"
+}

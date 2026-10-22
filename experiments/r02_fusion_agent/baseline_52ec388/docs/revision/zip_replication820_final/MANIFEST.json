@@ -1,0 +1,50 @@
+{
+  "experiment_id": "zip820_zip_replication820_final",
+  "status": "complete",
+  "receipts": [
+    "docs/revision/zip_replication820_final/00_summary_WAIT_RESULT.json",
+    "docs/revision/zip_replication820_final/00_summary_verify_WAIT_RESULT.json"
+  ],
+  "code": [
+    "scripts/zip_replication_v820.py",
+    "scripts/zip_replication_v821.py",
+    "scripts/payment_rows_v825.py",
+    "scripts/zip_replication_v826.py",
+    "scripts/resume_zip_replication_v827.py",
+    "scripts/launch_zip_replication_v828.py",
+    "scripts/report_zip_replication_v824.py"
+  ],
+  "evidence": [
+    {
+      "path": "docs/revision/zip_replication820_final/00_summary_WAIT_RESULT.json",
+      "bytes": 1267,
+      "sha256": "ad34d9844a85a62369578c6e94c71833afc987bb00925968e71726ff041e8a9f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/00_summary_verify_WAIT_RESULT.json",
+      "bytes": 1288,
+      "sha256": "df116418af78e299c4c5e2187b798a7f44f7b56c3e6a9c62e78d37357a5dd93d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/AUDIT.json",
+      "bytes": 6853,
+      "sha256": "5dde8a5a2e22e5d381d9a7a60f9bf57c54ed1b2eb456e7fe9dec15d780e55447"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/COMPLETE.json",
+      "bytes": 173,
+      "sha256": "b132fd844df06f373b29235b32986711bf759f33a2ed02ecdb6d29e153b98be8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/PUBLICATION_RECEIPTS.json",
+      "bytes": 49384,
+      "sha256": "f7aed06ce857fc1de6db9f906d4bd1c79993c33bcfb45dad3d799556daa41634"
+    },
+    {
+      "path": "docs/revision/zip_replication820_final/README.zh-CN.md",
+      "bytes": 10999,
+      "sha256": "99039bd573f9227560e1bde919a70e6f263ff05e4089be14a5ee24722f1870b9"
+    }
+  ],
+  "cleanup": []
+}

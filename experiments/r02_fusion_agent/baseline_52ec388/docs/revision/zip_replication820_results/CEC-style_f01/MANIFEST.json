@@ -1,0 +1,75 @@
+{
+  "experiment_id": "zip820_CEC-style_f01",
+  "status": "complete",
+  "receipts": [
+    "docs/revision/zip_replication820_results/CEC-style_f01/24_full_WAIT_RESULT.json",
+    "docs/revision/zip_replication820_results/CEC-style_f01/24_full_verify_WAIT_RESULT.json"
+  ],
+  "code": [
+    "scripts/zip_replication_v820.py",
+    "scripts/zip_replication_v821.py",
+    "scripts/payment_rows_v825.py",
+    "scripts/zip_replication_v826.py",
+    "scripts/resume_zip_replication_v827.py",
+    "scripts/launch_zip_replication_v828.py",
+    "scripts/report_zip_replication_v824.py"
+  ],
+  "evidence": [
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/24_full_WAIT_RESULT.json",
+      "bytes": 1982,
+      "sha256": "ed34394900c010854c2aa9dea85d4f2e484446306c472c55976a5fd7fcf5cae5"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/24_full_verify_WAIT_RESULT.json",
+      "bytes": 1990,
+      "sha256": "2dbaa9222e70fa15c282dbcf3021b2bd2faa03b3aa5e7a5c0ef38f017e5bb4ea"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/ABLATIONS.csv",
+      "bytes": 247,
+      "sha256": "ee9377b83e84d82db9c34fcd8001deaf19ee9ab615d9cf510ebe22d99fcfe47f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/COMPARISONS.csv",
+      "bytes": 723,
+      "sha256": "d35fe09a018ac8d4f9b75ed11888fba43b35a0805377da2736c2a1115e815244"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/FEES.json",
+      "bytes": 86,
+      "sha256": "1a28cb29f0ce65f895d785a19f40dad74b58617c9f2688fb4492421440da2ca8"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/FULL_RNG.bin",
+      "bytes": 5056,
+      "sha256": "2c6966b1aee337812b3b8fdce9e63c77dc0e7e64d455d18ebcdd938722e93c37"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/FUNCTION_RESULTS.csv",
+      "bytes": 459,
+      "sha256": "e2dd6490b9c0aa22d9360346711e240ed7f08f6505219e01235b26892d5a257e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/PAYMENTS.rows.xz",
+      "bytes": 2274452,
+      "sha256": "df8ce9a80a4021764f15b51468d000849aeac47ed4911e97fa725a8e39cc74de"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/RANKS.csv",
+      "bytes": 172,
+      "sha256": "5f0bb1488e58078ec66f160f80781c3e1349843a10fbde0cf9cdd37450450c17"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/README.zh-CN.md",
+      "bytes": 331,
+      "sha256": "0c1ef619bd362bbec547c67b7328e1f4d277d38113246a13e4fa2f501be3d0e1"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/CEC-style_f01/VALUES.bin",
+      "bytes": 669219,
+      "sha256": "0dee0fa700332afcf90281bb2bfa4b20f1096cbdbffd11d7e8ad9d613d85a559"
+    }
+  ],
+  "cleanup": []
+}

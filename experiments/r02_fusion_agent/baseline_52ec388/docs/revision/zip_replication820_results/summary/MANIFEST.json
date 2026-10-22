@@ -1,0 +1,55 @@
+{
+  "experiment_id": "zip820_summary",
+  "status": "complete",
+  "receipts": [
+    "docs/revision/zip_replication820_results/summary/00_summary_WAIT_RESULT.json",
+    "docs/revision/zip_replication820_results/summary/00_summary_verify_WAIT_RESULT.json"
+  ],
+  "code": [
+    "scripts/zip_replication_v820.py",
+    "scripts/zip_replication_v821.py",
+    "scripts/payment_rows_v825.py",
+    "scripts/zip_replication_v826.py",
+    "scripts/resume_zip_replication_v827.py",
+    "scripts/launch_zip_replication_v828.py",
+    "scripts/report_zip_replication_v824.py"
+  ],
+  "evidence": [
+    {
+      "path": "docs/revision/zip_replication820_results/summary/00_summary_WAIT_RESULT.json",
+      "bytes": 1267,
+      "sha256": "ad34d9844a85a62369578c6e94c71833afc987bb00925968e71726ff041e8a9f"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/00_summary_verify_WAIT_RESULT.json",
+      "bytes": 1288,
+      "sha256": "df116418af78e299c4c5e2187b798a7f44f7b56c3e6a9c62e78d37357a5dd93d"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/ABLATION_WTL.csv",
+      "bytes": 680,
+      "sha256": "ab63d6617402216c2b13446de340a6cca189f97ce42a38d9c0cb20b7946cdefb"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/ALL_FUNCTION_RESULTS.csv",
+      "bytes": 13461,
+      "sha256": "76b516ad5f5201bfd11432640b9267456834976368d57b00192ae76a3a834f7e"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/BASELINE_WTL.csv",
+      "bytes": 1304,
+      "sha256": "6688edf127bd06b9bb9a1c1db2e0be4c03dccc509001080db6588405e798d624"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/RANKS.csv",
+      "bytes": 2046,
+      "sha256": "4218ab1edd83372d3413790c4f7303cb34aef09efe6f7eb0c5d50a648891840b"
+    },
+    {
+      "path": "docs/revision/zip_replication820_results/summary/README.zh-CN.md",
+      "bytes": 373,
+      "sha256": "554cbece5764b81d318e61a40f1af3148c4c12fb2fef601935debb6a173eed11"
+    }
+  ],
+  "cleanup": []
+}

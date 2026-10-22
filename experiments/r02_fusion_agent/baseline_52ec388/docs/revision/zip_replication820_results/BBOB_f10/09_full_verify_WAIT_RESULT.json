@@ -1,0 +1,9 @@
+{
+  "mode": "full_verify",
+  "task": 9,
+  "exit_code": 0,
+  "wall_time_seconds": 64.50098494200029,
+  "log_path": "results/zip_replication_v821/09_full_verify.log",
+  "log_sha256": "a676d7667fb2553a92788c41ed052617eb4584cc628e05c827e71f73fddf0593",
+  "output_tail": "Running as unit: roopf-zip820-1ea818f8623f.service; invocation ID: 7116a2e59919478d92b5b1bfd1aa4e52\n{\"time\": \"2026-10-21T20:39:19.315193+08:00\", \"event\": \"worker_started\", \"mode\": \"full_verify\", \"pid\": 114606, \"cgroup\": \"/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/roopf.slice/roopf-experiments.slice\", \"torch_threads\": 1, \"torch_interop_threads\": 1, \"thread_environment\": {\"OMP_NUM_THREADS\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"NUMEXPR_NUM_THREADS\": \"1\", \"BLIS_NUM_THREADS\": \"1\", \"VECLIB_MAXIMUM_THREADS\": \"1\"}}\n{\"task\": 9, \"batch\": 0, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 1, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 2, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 3, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 4, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 5, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 6, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 7, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 8, \"verify\": true, \"native_FE\": 87550}\n{\"task\": 9, \"batch\": 9, \"verify\": true, \"native_FE\": 87550}\n{\"time\": \"2026-10-21T20:40:22.344870+08:00\", \"event\": \"worker_complete\", \"minimum_available_bytes\": 62825066496, \"peak_group_memory_bytes\": 1376550912}\n          Finished with result: success\nMain processes terminated with: code=exited, status=0/SUCCESS\n               Service runtime: 1min 4.495s\n             CPU time consumed: 1min 4.411s\n                   Memory peak: 373.8M (swap: 0B)\n"
+}
