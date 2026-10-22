@@ -1,0 +1,10 @@
+{
+  "roopf/model.py": "46c687869a3ee25b2a045677fa0f946418f1499291f0cc542abad89df664c9b9",
+  "roopf/fusion_agent.py": "7628fe4f9e9d1c3b7d3e27b96d6de408a64df10b91cecb1f89ac19e07d69992c",
+  "scripts/experiment_r02.py": "a69ae62536c5778105b03a5ae43f57e27a978574201802a8308f05838433beff",
+  "scripts/worldcodes_request.ps1": "e380de906e717358132f17cf35a08bd732f0f5a95b0174c3c8b30acd6544fc18",
+  "experiments/r02_fusion_agent/PROTOCOL.zh-CN.md": "277be2862bad42076c768a89a66fcca5f1abb2a82ad450bc864c67f5a798c58e",
+  "scripts/verify_r02.py": "dfa7c14eda9e106bafb7ce6af10abf11c8d2c369e47aedd2e5e908109ec003a0",
+  "scripts/restore_r02_journal.py": "d0490af038aea43e51d2fd087bc9dccb407e408b4f4df455e1f96a1b2b49e1b3",
+  "scripts/finalize_r02.py": "6225cd6fa385eee9cf1731abd2baecc8027416a6d9d00eed1199ac540eb0b28b"
+}

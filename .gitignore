@@ -3,4 +3,6 @@ __pycache__/
 .venv/
 results/*
 !results/.gitkeep
-
+experiments/r02_fusion_agent/results/api_journal/
+experiments/r02_fusion_agent/results/**/*_decisions.json
+experiments/r02_fusion_agent/OFFLINE_FULL_POOL.jsonl.gz

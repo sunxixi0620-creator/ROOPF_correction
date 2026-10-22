@@ -367,6 +367,7 @@ class ROOPFOptimizer(nn.Module):
             else None
         )
         self.agentic_history = []
+        self.fusion_agent = None
         self.baseline_model = None
         if "baseline_guard" in self.ablation:
             state = torch.load(baseline_ckpt, map_location="cpu") if baseline_ckpt else None
@@ -1462,6 +1463,8 @@ class ROOPFOptimizer(nn.Module):
         self.pool_candidate_samples = []
         self.agentic_history = []
         self._reset_origin_stats()
+        if self.fusion_agent is not None:
+            self.fusion_agent.reset(x.size(0))
 
         fitness = _ensure_fitness_2d(problem.calfitness(x))
         self.evalnum += x.size(1)
@@ -1814,6 +1817,16 @@ class ROOPFOptimizer(nn.Module):
                                         chosen_port_op = torch.gather(selected_ops, 1, chosen_port_idx)
                                         op_is_penalized = torch.gather(op_penalty > 0.0, 1, chosen_port_op.clamp_min(0))
                                         extra_idx = torch.where(chosen_portfolio & op_is_penalized, base_idx, extra_idx)
+                        if self.fusion_agent is not None and not _is_structured_system_problem(problem):
+                            extra_idx = self.fusion_agent.choose(
+                                original_idx=extra_idx, score=combined_score,
+                                mu=combined_mu, sigma=combined_sigma,
+                                probability=combined_router_prob, state=state_raw,
+                                archive_y=archive_y, fitness=fitness,
+                                candidates=combined, candidate_ops=combined_ops,
+                                remaining=remaining, problem=problem,
+                                residual_weight=self.router_weight,
+                            )
                         extra = torch.gather(combined, 1, extra_idx.unsqueeze(-1).expand(-1, -1, x.size(-1)))
                         cand_parts.append(extra)
                         score_parts.append(torch.gather(combined_score, 1, extra_idx) if combined_score is not None else nan_score)
@@ -1846,6 +1859,11 @@ class ROOPFOptimizer(nn.Module):
             improved_best = cand_fit < (best_prev.view(-1, 1) - 1e-12)
             admitted = cand_fit < (threshold - 1e-12)
             self._record_origin_stats(selected_ops, improved_best, admitted)
+            if self.fusion_agent is not None:
+                self.fusion_agent.observe(
+                    cand_fit, cand_mu, cand_router_prob, best_prev,
+                    selected_ops, archive_y,
+                )
             if self.log_candidates:
                 self._record_candidate_samples(
                     step_idx=len(all_candidates) - 1,

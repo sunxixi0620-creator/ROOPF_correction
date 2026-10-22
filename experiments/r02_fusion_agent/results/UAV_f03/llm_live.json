@@ -1,0 +1,21 @@
+{
+  "group": "UAV",
+  "fid": 3,
+  "mode": "llm_live",
+  "n": 10,
+  "nfe": 300,
+  "native_fe": 0,
+  "mean": 22.210801696777345,
+  "std": 1.5420375185422486,
+  "cached_fe": 3000,
+  "elapsed_seconds": 11.748062452010345,
+  "agent_stats": {
+    "decisions": 450,
+    "changed": 0,
+    "requests": 2,
+    "failures": 0,
+    "nonrelease": 66
+  },
+  "paired_initial_sha256": "38d84c5b0132b47afc6cb30b2c2f73eaac242a3c33df39105804718d4871e8c2",
+  "memory_sha256": "1c7fc56331cdd35eb494845c747880bfc7f2849541cdc5f3b208acf85229725f"
+}

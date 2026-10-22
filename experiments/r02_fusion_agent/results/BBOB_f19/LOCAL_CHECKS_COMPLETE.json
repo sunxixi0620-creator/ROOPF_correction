@@ -1,0 +1,47 @@
+{
+  "status": "api_pending_approval",
+  "baseline_replayed_bitwise": true,
+  "rows": [
+    {
+      "group": "BBOB",
+      "fid": 19,
+      "mode": "off",
+      "n": 10,
+      "nfe": 300,
+      "native_fe": 0,
+      "mean": 0.3920869827270508,
+      "std": 0.10867473822047785,
+      "elapsed_seconds": 1.6613368160033133,
+      "agent_stats": {
+        "decisions": 0,
+        "changed": 0,
+        "requests": 0,
+        "failures": 0,
+        "nonrelease": 0
+      },
+      "paired_initial_sha256": "5690d7e25e6339539e71289f18b5e466e3cf5dbcba791c4594230fcdab66e2d3",
+      "memory_sha256": "1c7fc56331cdd35eb494845c747880bfc7f2849541cdc5f3b208acf85229725f"
+    },
+    {
+      "group": "BBOB",
+      "fid": 19,
+      "mode": "retrieval",
+      "n": 10,
+      "nfe": 300,
+      "native_fe": 3000,
+      "mean": 0.3920869827270508,
+      "std": 0.10867473822047785,
+      "elapsed_seconds": 1.6730590219958685,
+      "agent_stats": {
+        "decisions": 450,
+        "changed": 0,
+        "requests": 0,
+        "failures": 0,
+        "nonrelease": 0
+      },
+      "paired_initial_sha256": "5690d7e25e6339539e71289f18b5e466e3cf5dbcba791c4594230fcdab66e2d3",
+      "memory_sha256": "1c7fc56331cdd35eb494845c747880bfc7f2849541cdc5f3b208acf85229725f"
+    }
+  ],
+  "stochastic_reference": false
+}

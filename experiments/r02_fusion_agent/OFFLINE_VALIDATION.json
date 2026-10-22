@@ -1,0 +1,17 @@
+{
+  "validation": {
+    "release": 0.0,
+    "proxy": -0.00048480239061136096,
+    "residual": -0.0008570029991604979,
+    "cautious": 0.0,
+    "balanced": 0.0
+  },
+  "allowed_configs": [
+    "release",
+    "cautious",
+    "balanced"
+  ],
+  "heldout_cases": 315,
+  "full_pool_rows": 61560,
+  "one_step_only": true
+}

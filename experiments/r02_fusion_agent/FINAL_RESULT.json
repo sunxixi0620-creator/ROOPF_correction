@@ -1,0 +1,93 @@
+{
+  "status": "completed_pilot",
+  "performance_improvement_admitted": false,
+  "n_per_function": 10,
+  "paired_original_n": 10,
+  "preserved_original_n": 100,
+  "groups": {
+    "BBOB": {
+      "retrieval": {
+        "functions": 23,
+        "wins": 0,
+        "ties": 21,
+        "losses": 2,
+        "changed_decisions": 74,
+        "decisions": 10350
+      },
+      "llm_live": {
+        "functions": 23,
+        "wins": 0,
+        "ties": 22,
+        "losses": 1,
+        "changed_decisions": 155,
+        "decisions": 10350
+      }
+    },
+    "CEC-style": {
+      "retrieval": {
+        "functions": 6,
+        "wins": 0,
+        "ties": 6,
+        "losses": 0,
+        "changed_decisions": 0,
+        "decisions": 0
+      },
+      "llm_live": {
+        "functions": 6,
+        "wins": 0,
+        "ties": 6,
+        "losses": 0,
+        "changed_decisions": 0,
+        "decisions": 0
+      }
+    },
+    "UAV": {
+      "retrieval": {
+        "functions": 5,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0,
+        "changed_decisions": 5,
+        "decisions": 2250
+      },
+      "llm_live": {
+        "functions": 5,
+        "wins": 1,
+        "ties": 4,
+        "losses": 0,
+        "changed_decisions": 1,
+        "decisions": 2250
+      }
+    }
+  },
+  "llm_vs_retrieval": {
+    "wins": 3,
+    "ties": 31,
+    "losses": 0
+  },
+  "formal_api": {
+    "requests": 58,
+    "valid": 52,
+    "failed": 6,
+    "valid_rate": 0.896551724137931,
+    "total_tokens": 406060,
+    "elapsed_seconds": 281.81447599206876
+  },
+  "all_api": {
+    "requests": 74,
+    "valid": 57,
+    "failed": 17,
+    "recorded_total_tokens_lower_bound": 475939
+  },
+  "native_test_fe_including_failed_attempts": 117060,
+  "offline_training_function_fe": 77220,
+  "currency_cost": "Provider does not supply verified currency cost; token and timing receipts preserved",
+  "baseline_commit": "52ec388b7812214f98fbfd84624a1dd65a52a0d8",
+  "limitations": [
+    "10-trajectory pilot, not 100-trajectory independent confirmation",
+    "BBOB-f20 excluded from primary comparisons",
+    "CEC structured lock retained",
+    "UAV recovered protocol",
+    "Only gate-threshold alternatives survived offline validation; weight-changing alternatives rejected"
+  ]
+}
