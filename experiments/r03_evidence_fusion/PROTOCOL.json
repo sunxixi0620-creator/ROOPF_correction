@@ -1,0 +1,62 @@
+{
+  "round": "R03 evidence fusion repair",
+  "parent_commit": "01a9e67f8f7065ca557a5df8a28dcd17862c3966",
+  "baseline_source_commit": "52ec388b7812214f98fbfd84624a1dd65a52a0d8",
+  "working_copy_only": true,
+  "original_workspace_modified": false,
+  "purpose_zh": "先修正融合执行与信息接口，再验证是否存在有证据支持的干预，不以强制改变候选制造改善。",
+  "flow": [
+    "Frozen Anchor and original operators generate candidates",
+    "Original online Proxy plus frozen offline Residual score the shortlist",
+    "Program computes protected candidate selection under each predefined fusion configuration",
+    "Retrieve informative same-context training cases from distinct functions",
+    "Check heldout-training context support and positive retrieved local evidence",
+    "Unsupported: original selection, no API request",
+    "Supported request epoch: LLM or matched deterministic retrieval chooses an eligible configuration",
+    "Shared original gate executes the selected configuration; preserve independent Anchor slot",
+    "True evaluation within unchanged NFE; record competing-slot feedback and semantic logs"
+  ],
+  "predefined_configs": ["release", "proxy", "residual", "cautious", "balanced"],
+  "calibration": {
+    "training_functions": 29,
+    "heldout_functions": 7,
+    "seeds_per_function": 1,
+    "contexts": "proxy/residual best-candidate agreement crossed with remaining-budget below 0.15",
+    "support": "At least 3 changed heldout cases from at least 2 functions, positive function-balanced normalized one-step advantage",
+    "runtime_support": "Positive mean advantage among retrieved same-context changed cases",
+    "no_guarantee": "Heuristic, one-step validation; neither statistical certification nor terminal-performance guarantee"
+  },
+  "controls": {
+    "request_cadence": 23,
+    "late_budget_window": 0.30,
+    "shortlist_candidates": 3,
+    "protected_anchor_slot": true,
+    "structured_cec_lock": true,
+    "frozen_network_weights": true,
+    "paired_trajectories": 10,
+    "nfe_including_initial_population": 300,
+    "initial_population": 100,
+    "dimension": 10,
+    "bbob20_primary_excluded": true
+  },
+  "commands": {
+    "contracts": "python scripts/verify_r03.py",
+    "build_memory_once": "python scripts/experiment_r03.py memory",
+    "paired_verification": "python scripts/experiment_r03.py evaluate --modes off,retrieval --limit 35",
+    "final_verification": "python scripts/finalize_r03.py"
+  },
+  "live_api": {
+    "model_requested": "deepseek-v4-flash",
+    "actual_calls_in_this_round": 0,
+    "explicit_positive_api_limit_required": true,
+    "no_automatic_paid_retry": true,
+    "current_result_is_not_a_live_llm_efficacy_test": true
+  },
+  "reproducibility": {
+    "r02_evidence_immutable": true,
+    "r02_scripts_require_r02_commit": true,
+    "historical_audit_source": "R02 pre-repair exact offline replay; parent commit identifies original code",
+    "benchmarks_already_seen_during_development": true,
+    "future_confirmatory_tests_require_fresh_seeds_or_tasks": true
+  }
+}

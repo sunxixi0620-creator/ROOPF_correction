@@ -1,0 +1,37 @@
+{
+  "group": "UAV",
+  "fid": 4,
+  "mode": "off",
+  "mean": 29.437313079833984,
+  "std": 1.5993889516261055,
+  "baseline_mean": 29.437313079833984,
+  "baseline_std": 1.5993889516261055,
+  "trajectory_wins": 0,
+  "trajectory_ties": 10,
+  "trajectory_losses": 0,
+  "n": 10,
+  "nfe": 300,
+  "primary": true,
+  "native_fe": 0,
+  "cached_fe": 3000,
+  "decisions_logged": 0,
+  "agent_stats": {
+    "decisions": 0,
+    "changed": 0,
+    "requests": 0,
+    "failures": 0,
+    "nonrelease": 0,
+    "opportunities": 0,
+    "changed_points": 0,
+    "no_supported_action": 0
+  },
+  "elapsed_seconds": 1.6404247249884065,
+  "paired_initial_sha256": "f7645e065347b1f599cffb9ddb36672e34dbbdc5fafd2a9f934d9ed69499a3c8",
+  "code": {
+    "roopf/model.py": "d17b1d2585f3c1d80a784bd633240dd82e143e566d3765f3b92fc77348e90270",
+    "roopf/fusion_agent.py": "994fbef019136a9a14cbcb291934f6eb53b81f7d536a76ea96c15e8475d8db1f",
+    "roopf/fusion_rules.py": "88d9a2ba58ea44025bb9ca9444dbced1072f2631e9084a68d905166df1cd0c88",
+    "scripts/experiment_r03.py": "4236e5782f2dfbe05434f73bbf92964aaeb09521283f013e0fe34fdfa3855f82"
+  },
+  "memory": "c31319651a0dd6b140a59712d8b4d1bd331d9318842cbf6558a66bedc02e1b53"
+}

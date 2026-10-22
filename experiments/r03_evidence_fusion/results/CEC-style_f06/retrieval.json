@@ -1,0 +1,37 @@
+{
+  "group": "CEC-style",
+  "fid": 6,
+  "mode": "retrieval",
+  "mean": 0.005862236022949219,
+  "std": 0.0019440003801381319,
+  "baseline_mean": 0.005862236022949219,
+  "baseline_std": 0.0019440003801381319,
+  "trajectory_wins": 0,
+  "trajectory_ties": 10,
+  "trajectory_losses": 0,
+  "n": 10,
+  "nfe": 300,
+  "primary": true,
+  "native_fe": 0,
+  "cached_fe": 3000,
+  "decisions_logged": 0,
+  "agent_stats": {
+    "decisions": 0,
+    "changed": 0,
+    "requests": 0,
+    "failures": 0,
+    "nonrelease": 0,
+    "opportunities": 0,
+    "changed_points": 0,
+    "no_supported_action": 0
+  },
+  "elapsed_seconds": 1.514823779987637,
+  "paired_initial_sha256": "80b27fd652e0e7d913eed8abd9b9e20c416b33c6ce308f2f9b7b9a7af888f2e6",
+  "code": {
+    "roopf/model.py": "d17b1d2585f3c1d80a784bd633240dd82e143e566d3765f3b92fc77348e90270",
+    "roopf/fusion_agent.py": "994fbef019136a9a14cbcb291934f6eb53b81f7d536a76ea96c15e8475d8db1f",
+    "roopf/fusion_rules.py": "88d9a2ba58ea44025bb9ca9444dbced1072f2631e9084a68d905166df1cd0c88",
+    "scripts/experiment_r03.py": "4236e5782f2dfbe05434f73bbf92964aaeb09521283f013e0fe34fdfa3855f82"
+  },
+  "memory": "c31319651a0dd6b140a59712d8b4d1bd331d9318842cbf6558a66bedc02e1b53"
+}

@@ -1,0 +1,50 @@
+{
+  "status": "repair_verified_not_an_improvement_claim",
+  "functions": 35,
+  "paired_trajectories_per_arm": 350,
+  "exact_nfe": 300,
+  "primary_excludes_bbob20": true,
+  "original_and_repaired_off_bitwise_equal": true,
+  "guarded_retrieval_bitwise_equal_to_original": true,
+  "primary_trajectory_wins_ties_losses": [
+    0,
+    340,
+    0
+  ],
+  "decision_log_steps": 1305,
+  "trajectory_decisions": 13050,
+  "actual_changed_points": 0,
+  "supported_context_actions": 0,
+  "training_function_evaluations": 15660,
+  "new_benchmark_objective_evaluations": 0,
+  "live_api_calls": 0,
+  "live_llm_efficacy_tested": false,
+  "api_budget_spent": 0,
+  "conclusion": "Shared-rule and evidence plumbing fixed. Current heldout training cases support no alternative action. Do not spend on live benchmark calls or claim optimization gains.",
+  "next_requirement": "Collect independent, more diverse training disagreement cases and assess multi-step utility; freeze protocol before fresh efficacy tests. Do not loosen guards to manufacture intervention.",
+  "fixed_scope": [
+    "OR support semantics and all original veto/lock/penalty guards",
+    "persistent semantic decision logs",
+    "actual residual coefficient bookkeeping",
+    "named state, incumbent-relative predictions, per-config candidate action table",
+    "conflict-based retrieval across different functions with historical evidence retained",
+    "unknown feedback as null; independent proxy/residual counts; competing-slot credit",
+    "training-only context calibration and unsupported-state no-API fallback",
+    "strict JSON IDs, eligible actions, finish reason, bounded output and paid attempts"
+  ],
+  "unchanged_scope": [
+    "frozen anchor/residual weights",
+    "upstream 36-candidate generation",
+    "3-candidate competing shortlist",
+    "late 30 percent intervention window",
+    "one protected Anchor slot",
+    "23-step request cadence",
+    "CEC structured-system lock"
+  ],
+  "limitations": [
+    "Calibration is one-step and heuristic, not a terminal-return guarantee",
+    "No stronger-model comparison or actual live model capability claim",
+    "Only one seed per training function; anchor pretraining includes all36",
+    "Benchmark suite already inspected during development; future paper claims need fresh seeds/tasks"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "randomized_gate_cases": 10000,
+  "residual_or_regression": true,
+  "relaxed_threshold_monotonic": true,
+  "strict_threshold_monotonic": true,
+  "scale_invariance": true,
+  "operation_penalty_preserved": true,
+  "callback_survives_reset": true,
+  "labelled_evidence_and_actions": true,
+  "unknown_errors_are_null": true,
+  "distinct_function_retrieval": true,
+  "competing_slot_credit_recorded": true,
+  "unsupported_api_action_rejected": true,
+  "unsupported_state_skips_api": true,
+  "api_contract_cases": 7,
+  "truncated_output_rejected": true,
+  "reweighting_can_change_portfolio_ranking": true,
+  "real_api_calls": 0,
+  "real_objective_evaluations": 0
+}

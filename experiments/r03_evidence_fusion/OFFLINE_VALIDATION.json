@@ -1,0 +1,148 @@
+{
+  "contexts": {
+    "agree_end": {
+      "release": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "proxy": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "residual": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "cautious": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "balanced": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      }
+    },
+    "agree_late": {
+      "release": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "proxy": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "residual": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "cautious": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "balanced": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      }
+    },
+    "conflict_end": {
+      "release": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "proxy": {
+        "changed_cases": 1,
+        "functions": [
+          "ring_single"
+        ],
+        "function_balanced_mean_advantage": -0.0012092441320419312,
+        "supported": false
+      },
+      "residual": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "cautious": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "balanced": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      }
+    },
+    "conflict_late": {
+      "release": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "proxy": {
+        "changed_cases": 6,
+        "functions": [
+          "dirridge_noisy",
+          "ring_single"
+        ],
+        "function_balanced_mean_advantage": -0.02728126826696098,
+        "supported": false
+      },
+      "residual": {
+        "changed_cases": 10,
+        "functions": [
+          "comp_global",
+          "dirridge_noisy",
+          "ring_single",
+          "wavepacket_local"
+        ],
+        "function_balanced_mean_advantage": -0.05086048585750784,
+        "supported": false
+      },
+      "cautious": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      },
+      "balanced": {
+        "changed_cases": 0,
+        "functions": [],
+        "function_balanced_mean_advantage": null,
+        "supported": false
+      }
+    }
+  },
+  "training_cases": 1305,
+  "heldout_cases": 315,
+  "training_native_fe": 15660,
+  "supported_context_actions": 0,
+  "api_calls": 0,
+  "benchmark_test_fe": 0
+}

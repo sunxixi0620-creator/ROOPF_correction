@@ -7,6 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from roopf.agentic_controller import BudgetAwareAgenticController
+from roopf.fusion_rules import protected_indices
 
 
 EPS = 1e-8
@@ -1392,6 +1393,7 @@ class ROOPFOptimizer(nn.Module):
             local_bonus = torch.where(op == coord_idx, 0.020 * scale.expand_as(local_bonus), local_bonus)
             local_bonus = torch.where(op == pbest_idx, 0.010 * scale.expand_as(local_bonus), local_bonus)
             acquisition = acquisition - local_bonus
+        self.last_residual_weight = 0.0
         if (
             "learned_router" in self.ablation
             and use_learned_router
@@ -1431,6 +1433,7 @@ class ROOPFOptimizer(nn.Module):
                         ):
                             residual_weight = self.router_weight if self.router_weight > 0 else 0.004
                         acquisition = acquisition - residual_weight * scale * residual_signal
+                        self.last_residual_weight = residual_weight
                     else:
                         acquisition = acquisition - self.router_weight * scale * prob
 
@@ -1739,6 +1742,7 @@ class ROOPFOptimizer(nn.Module):
                         combined_mu = self.last_surrogate_mu
                         combined_sigma = self.last_surrogate_sigma
                         combined_router_prob = self.last_router_prob
+                        selection_rule = None
                         if "baseline_safe_selector" in self.ablation:
                             base_count = max(rest - 1, 0)
                             if base_count > 0 and self.last_acquisition is not None:
@@ -1747,77 +1751,21 @@ class ROOPFOptimizer(nn.Module):
                                 if "structured_system_lock" in self.ablation and _is_structured_system_problem(problem):
                                     extra_idx = base_idx
                                 else:
-                                    chosen_acq = torch.gather(acq, 1, extra_idx)
-                                    chosen_is_portfolio = extra_idx >= base_count
-                                    chosen_sigma = (
-                                        torch.gather(self.last_surrogate_sigma, 1, extra_idx)
-                                        if self.last_surrogate_sigma is not None
-                                        else torch.zeros_like(chosen_acq)
-                                    )
-                                    margin = 0.10 * archive_y.std(dim=1, keepdim=True, unbiased=False).clamp_min(EPS)
-                                    safe = chosen_is_portfolio & (chosen_acq < base_acq - margin)
-                                    if "residual_safety_gate" in self.ablation and self.last_router_prob is not None:
-                                        router_prob = self.last_router_prob
-                                        base_prob = router_prob[:, :base_count].max(dim=1, keepdim=True).values
-                                        chosen_prob = torch.gather(router_prob, 1, extra_idx)
-                                        prob_std = router_prob.std(dim=1, keepdim=True, unbiased=False).clamp_min(1e-6)
-                                        prob_mean = router_prob.mean(dim=1, keepdim=True)
-                                        base_signal = (base_prob - prob_mean) / prob_std
-                                        chosen_signal = (chosen_prob - prob_mean) / prob_std
-                                        residual_blocks = chosen_is_portfolio & (
-                                            (chosen_signal + 0.35 < base_signal) & (chosen_signal < -0.25)
+                                    def selection_rule(acquisition, proposed, margin=0.10, soft_margin=0.04):
+                                        return protected_indices(
+                                            acquisition, combined_router_prob,
+                                            archive_y.std(dim=1, keepdim=True, unbiased=False).clamp_min(EPS),
+                                            proposed, base_count, ablation=self.ablation,
+                                            portfolio_seen=portfolio_seen, portfolio_best_count=portfolio_best_count,
+                                            portfolio_admit_count=portfolio_admit_count, portfolio_no_admit=portfolio_no_admit,
+                                            stagnation=stagnation, remaining=remaining,
+                                            local_proxy_friendly=_is_local_proxy_friendly_problem(problem),
+                                            hpo=_is_hpo_problem(problem), embedded=_is_embedded_high_dim_problem(problem),
+                                            selected_ops=selected_ops, op_penalty=op_penalty,
+                                            margin=margin, soft_margin=soft_margin,
                                         )
-                                        enough_portfolio_evidence = portfolio_seen.view(-1, 1) >= 8.0
-                                        no_portfolio_best = portfolio_best_count.view(-1, 1) <= 0.0
-                                        residual_blocks = residual_blocks & enough_portfolio_evidence & no_portfolio_best
-                                        residual_supports = (~chosen_is_portfolio) | (
-                                            (chosen_signal > base_signal + 0.55) | (chosen_signal > 1.00)
-                                        )
-                                        soft_margin = 0.04 * archive_y.std(dim=1, keepdim=True, unbiased=False).clamp_min(EPS)
-                                        residual_rescue = chosen_is_portfolio & residual_supports & (chosen_acq < base_acq - soft_margin)
-                                        safe = (safe & (~residual_blocks)) | residual_rescue
-                                        if "adaptive_proxy_disable" in self.ablation and not _is_local_proxy_friendly_problem(problem):
-                                            proxy_exploded = chosen_is_portfolio & (chosen_acq < -1.0e3)
-                                            safe = safe & (~proxy_exploded)
-                                    if "router_veto" in self.ablation and self.last_router_prob is not None:
-                                        router_prob = self.last_router_prob
-                                        base_prob = router_prob[:, :base_count].max(dim=1, keepdim=True).values
-                                        chosen_prob = torch.gather(router_prob, 1, extra_idx)
-                                        router_allows = (~chosen_is_portfolio) | (chosen_prob > base_prob + 0.03)
-                                        safe = safe & router_allows
-                                    if "weak_router_veto" in self.ablation and self.last_router_prob is not None:
-                                        router_prob = self.last_router_prob
-                                        base_prob = router_prob[:, :base_count].max(dim=1, keepdim=True).values
-                                        chosen_prob = torch.gather(router_prob, 1, extra_idx)
-                                        router_blocks = chosen_is_portfolio & (chosen_prob < 0.35) & (chosen_prob + 0.05 < base_prob)
-                                        safe = safe & (~router_blocks)
-                                    if "admitted_no_best_lock" in self.ablation and not _is_hpo_problem(problem) and not _is_embedded_high_dim_problem(problem):
-                                        no_best = portfolio_best_count.view(-1, 1) <= 0.0
-                                        enough_seen = portfolio_seen.view(-1, 1) >= 12.0
-                                        enough_admitted = portfolio_admit_count.view(-1, 1) >= 3.0
-                                        late = torch.full_like(no_best, float(remaining) < 0.20, dtype=torch.bool)
-                                        lock = chosen_is_portfolio & no_best & enough_seen & enough_admitted & late
-                                        safe = safe & (~lock)
-                                    if "aggressive_takeover" in self.ablation and not _is_hpo_problem(problem) and not _is_embedded_high_dim_problem(problem):
-                                        stag = stagnation.view(-1, 1).to(device=x.device, dtype=x.dtype)
-                                        late = torch.full(stag.shape, float(remaining) < 0.18, device=x.device, dtype=torch.bool)
-                                        stalled = stag > 0.04
-                                        admit_rate = (portfolio_admit_count / portfolio_seen.clamp_min(1.0)).view(-1, 1)
-                                        has_portfolio_signal = (portfolio_seen.view(-1, 1) >= 6.0) & (admit_rate > 0.12)
-                                        relaxed_margin = 0.05 * archive_y.std(dim=1, keepdim=True, unbiased=False).clamp_min(EPS)
-                                        takeover = chosen_is_portfolio & has_portfolio_signal & (late | stalled) & (chosen_acq < base_acq + relaxed_margin)
-                                        safe = safe | takeover
-                                    extra_idx = torch.where(safe, extra_idx, base_idx)
-                                    if "adaptive_portfolio_lock" in self.ablation:
-                                        locked = portfolio_no_admit.view(-1, 1) >= 8.0
-                                        extra_idx = torch.where(locked, base_idx, extra_idx)
-                                    if op_penalty is not None:
-                                        chosen_portfolio = extra_idx >= base_count
-                                        chosen_port_idx = (extra_idx - base_count).clamp_min(0)
-                                        chosen_port_op = torch.gather(selected_ops, 1, chosen_port_idx)
-                                        op_is_penalized = torch.gather(op_penalty > 0.0, 1, chosen_port_op.clamp_min(0))
-                                        extra_idx = torch.where(chosen_portfolio & op_is_penalized, base_idx, extra_idx)
-                        if self.fusion_agent is not None and not _is_structured_system_problem(problem):
+                                    extra_idx = selection_rule(acq, extra_idx)
+                        if self.fusion_agent is not None and selection_rule is not None and not _is_structured_system_problem(problem):
                             extra_idx = self.fusion_agent.choose(
                                 original_idx=extra_idx, score=combined_score,
                                 mu=combined_mu, sigma=combined_sigma,
@@ -1825,7 +1773,8 @@ class ROOPFOptimizer(nn.Module):
                                 archive_y=archive_y, fitness=fitness,
                                 candidates=combined, candidate_ops=combined_ops,
                                 remaining=remaining, problem=problem,
-                                residual_weight=self.router_weight,
+                                residual_weight=self.last_residual_weight,
+                                selection_rule=selection_rule,
                             )
                         extra = torch.gather(combined, 1, extra_idx.unsqueeze(-1).expand(-1, -1, x.size(-1)))
                         cand_parts.append(extra)
