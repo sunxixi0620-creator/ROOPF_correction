@@ -109,12 +109,17 @@ def context_rows(state, score, mu, sigma, probability, scale, original_idx, resi
 
 
 class FusionAgent:
-    def __init__(self, memory_path, journal, mode='llm', budget=None):
+    def __init__(self, memory_path, journal, mode='llm', budget=None, *,
+                 memory_version='r03', request_interval=23, system_prompt=SYSTEM):
         self.memory = json.loads(Path(memory_path).read_text())
         self.memory_hash = hashlib.sha256(Path(memory_path).read_bytes()).hexdigest()
         self.cases = self.memory['cases']
-        if self.memory.get('version') != 'r03':
-            raise ValueError('R03 requires regenerated R03 memory; R02 advantages use different selection semantics')
+        if self.memory.get('version') != memory_version:
+            raise ValueError('Memory version does not match the requested evidence semantics')
+        if request_interval < 1:
+            raise ValueError('Request interval must be positive')
+        self.request_interval = request_interval
+        self.system_prompt = system_prompt
         self.features = np.asarray([case['fusion_features'] for case in self.cases], dtype=float)
         self.feature_scale = np.maximum(self.features.std(0), 0.1)
         self.allowed = self.memory['allowed_configs']
@@ -202,7 +207,7 @@ class FusionAgent:
         data = json.dumps(dict(model='deepseek-v4-flash', temperature=0, max_tokens=4096,
                                response_format={'type': 'json_object'},
                                thinking={'type': 'disabled'},
-                               messages=[dict(role='system', content=SYSTEM), dict(role='user', content=json.dumps(payload))])).encode()
+                               messages=[dict(role='system', content=self.system_prompt), dict(role='user', content=json.dumps(payload))])).encode()
         identity = hashlib.sha256(data).hexdigest()
         target = self.journal / (identity + '.json')
         if target.exists():
@@ -270,7 +275,7 @@ class FusionAgent:
                             fitness=fitness, candidate_ops=candidate_ops, options=options)
         retrieved = [self.retrieve(row) for row in rows]
         eligible = [self.eligible_configs(row, cases) for row, cases in zip(rows, retrieved)]
-        if self.steps % 23 == 0:
+        if self.steps % self.request_interval == 0:
             trajectories = []
             for index, row in enumerate(rows):
                 if len(eligible[index]) > 1:
