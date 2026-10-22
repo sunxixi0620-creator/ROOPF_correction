@@ -67,11 +67,16 @@ def full_calls(group, fid):
     folder = legacy.SOURCE / 'docs/revision/zip_replication820_results' / f'{group}_f{fid:02d}'
     batches = {batch: {} for batch in range(10)}
     wanted = {f'b{batch:02d}:{kind}' for batch in range(10) for kind in ('initial', 'full')}
+    def decode(blob):
+        value = pickle.loads(blob if blob[:1] == b'\x80' else zlib.decompress(blob))
+        if not isinstance(value, dict):
+            raise RuntimeError('Unexpected decoded payment record')
+        return value
     def accept(job, index, request, response):
         if job in wanted:
             if response is None:
                 raise RuntimeError('Original payment response missing')
-            batches[int(job[1:3])][index] = (pickle.loads(zlib.decompress(request)), pickle.loads(zlib.decompress(response)))
+            batches[int(job[1:3])][index] = (decode(request), decode(response))
     source = folder / 'PAYMENTS.sqlite.gz'
     if source.exists():
         with tempfile.TemporaryDirectory(prefix='r04_full_original_readonly_') as temporary:
@@ -104,7 +109,7 @@ class FullLiveAgent(MultiStepFusionAgent):
         JOURNAL.mkdir(parents=True, exist_ok=True)
         with (JOURNAL / 'API.lock').open('a') as lock:
             fcntl.flock(lock, fcntl.LOCK_EX)
-            self.budget['used'] = len(list(JOURNAL.glob('*.json')))
+            self.budget['used'] = len(list(JOURNAL.glob('*.json'))) + len(list((EXP / 'setup_attempt_v1/api_journal').glob('*.json')))
             self.budget['limit'] = settings()['max_new_api_attempts']
             try:
                 return super().call(payload)

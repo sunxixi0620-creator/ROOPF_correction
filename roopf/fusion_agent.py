@@ -204,10 +204,17 @@ class FusionAgent:
         return eligible
 
     def call(self, payload):
+        expected_ids = [item['trajectory_id'] for item in payload['trajectories']]
+        template = {'config_ids': {identity: 'release' for identity in expected_ids}}
+        user_content = (self.system_prompt + '\nOUTPUT FORMAT IS MANDATORY. Return ONLY JSON, no analysis or explanation. '
+            'Use the supplied trajectory_id keys, not renumbered array positions.\nINPUT:\n' + json.dumps(payload) +
+            '\nFINAL OUTPUT CONTRACT: ' + json.dumps(template) +
+            '\nReplace each value only with that trajectory eligible_configs choice. '
+            'Do not add rationale, Markdown, headings, or other fields. Your response must start with { and end with }.')
         data = json.dumps(dict(model='deepseek-v4-flash', temperature=0, max_tokens=4096,
                                response_format={'type': 'json_object'},
                                thinking={'type': 'disabled'},
-                               messages=[dict(role='system', content=self.system_prompt), dict(role='user', content=json.dumps(payload))])).encode()
+                               messages=[dict(role='system', content=self.system_prompt), dict(role='user', content=user_content)])).encode()
         identity = hashlib.sha256(data).hexdigest()
         target = self.journal / (identity + '.json')
         if target.exists():
