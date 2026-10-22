@@ -1,0 +1,6 @@
+{
+  "AGENTS.md": "4889b0fccdaf5a75d689b0c807512549060a30fb1e30c0b7ecf7528932f22fbe",
+  "scripts/finalize_r05_full.py": "fe55337e337f89221ce79c98441dfcd48da747c63214e0b331d5e6a3ebe34a61",
+  "scripts/experiment_r05_full.py": "165a00d46320c366aecbf3217618f13b4f377a2779177614c415e2bbb2a96534",
+  "scripts/verify_r05.py": "379dd0a96f4daec093ca2baf8384a0b1a080cd61a80fdbf0145e48a34dcf2d40"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "matched_trajectory_inputs": 1627,
+  "immutable_pre_action_feedback": true,
+  "candidate_count": 37,
+  "no_current_objective_in_inputs": true
+}

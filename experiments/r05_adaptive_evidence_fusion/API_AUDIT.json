@@ -1,0 +1,40 @@
+{
+  "scopes": {
+    "setup_v1": {
+      "attempts": 22,
+      "valid": 21,
+      "failed": 0,
+      "pending": 1,
+      "prompt_tokens": 232018,
+      "completion_tokens": 4013,
+      "total_tokens": 236031,
+      "usage_missing": 1,
+      "elapsed_seconds": 113.71747459296603,
+      "provider_credit_units": 14.89,
+      "valid_fraction": 0.9545454545454546
+    },
+    "formal": {
+      "attempts": 432,
+      "valid": 402,
+      "failed": 30,
+      "pending": 0,
+      "prompt_tokens": 5372687,
+      "completion_tokens": 205889,
+      "total_tokens": 5578576,
+      "usage_missing": 2,
+      "elapsed_seconds": 2912.0443341227656,
+      "provider_credit_units": 300.69,
+      "valid_fraction": 0.9305555555555556
+    }
+  },
+  "provider_reported_models": [
+    "deepseek-v4-flash"
+  ],
+  "all_attempts": 454,
+  "all_known_total_tokens": 5814607,
+  "all_reported_credit_units": 315.58,
+  "credit_unit_currency_unspecified": true,
+  "actual_cash_charge_not_inferred": true,
+  "preparation_failures_preserved": true,
+  "formal_provider_decisions_matched_to_executed_actions": true
+}

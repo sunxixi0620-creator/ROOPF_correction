@@ -1,0 +1,8 @@
+{
+  "preparation_unresolved_requests": 1,
+  "unresolved_requests_automatically_retried": false,
+  "reported_credit_units": 315.58,
+  "actual_total_cash_charge_known": false,
+  "currency_unspecified": true,
+  "note": "Credits only sum provider-reported fields; unresolved or missing billing fields are not guessed."
+}

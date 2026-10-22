@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "real_api_attempts": 2,
+  "valid_api_results": 2,
+  "model_requested": "deepseek-v4-flash",
+  "provider_reported_models": [
+    "deepseek-v4-flash"
+  ],
+  "unknown_or_failed": 0,
+  "tasks": [
+    [
+      "BBOB",
+      17
+    ]
+  ],
+  "batch": 0,
+  "retained_as_part_of_full100": true
+}
