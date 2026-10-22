@@ -1,0 +1,21 @@
+{
+  "code": {
+    "roopf/model.py": "b379c987daf99e0ae2285fa33cc00f3f99e3617309e51e9c9a37f77d5ab650c5",
+    "roopf/fusion_agent.py": "e8db54d3487d34a78fdff0bf216aabd2c48881b81311d3202dad1e03d37e3960",
+    "roopf/fusion_rules.py": "88d9a2ba58ea44025bb9ca9444dbced1072f2631e9084a68d905166df1cd0c88",
+    "roopf/multistep_fusion_agent.py": "64794eb57943fc2cd6c82db89eba5826bd5a439c67c66d7b6dc5ed202d1a7908",
+    "run_roopf.py": "2165cc7626edbe9aabc4f667593214f95c8252cc6c0a75d43a9aedcb965a7aa6",
+    "scripts/experiment_r02.py": "a69ae62536c5778105b03a5ae43f57e27a978574201802a8308f05838433beff",
+    "scripts/worldcodes_request.ps1": "e380de906e717358132f17cf35a08bd732f0f5a95b0174c3c8b30acd6544fc18",
+    "scripts/experiment_r04_full.py": "3417041cec942b28132521469dc2921476e5e59dc4e99b47ea07cfb7d1704600",
+    "checkpoints/anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "checkpoints/residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+    "experiments/r02_fusion_agent/baseline_52ec388/release_model.py": "5312962f3864557e646a5532d88c76cc822616f49cf242dd04a13b151c648908",
+    "roopf/adaptive_fusion_agent.py": "ae958494085399c1867fc26563c2b9d205190b85d437619dfaa83933bedba9aa",
+    "scripts/experiment_r05_full.py": "165a00d46320c366aecbf3217618f13b4f377a2779177614c415e2bbb2a96534",
+    "scripts/verify_r05.py": "379dd0a96f4daec093ca2baf8384a0b1a080cd61a80fdbf0145e48a34dcf2d40",
+    "scripts/finalize_r05_full.py": "fe55337e337f89221ce79c98441dfcd48da747c63214e0b331d5e6a3ebe34a61"
+  },
+  "memory_sha256": "1b71b2bb99e2867b421fdf2d2cd8377293628bf3cdbb1376aa939b49428b0bf3",
+  "protocol_sha256": "d426f99fa7d9d2b9ca85166965f4780c7cd8d8750aed543d5b3e327ddef96b59"
+}

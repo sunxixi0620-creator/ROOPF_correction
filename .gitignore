@@ -13,3 +13,9 @@ experiments/r04_full_llm_benchmark/results/
 experiments/r04_full_llm_benchmark/api_journal/
 experiments/r04_full_llm_benchmark/setup_attempt_v1/
 experiments/r04_full_llm_benchmark/retrieval_no_api/
+experiments/r05_adaptive_evidence_fusion/results/
+experiments/r05_adaptive_evidence_fusion/api_journal/
+experiments/r05_adaptive_evidence_fusion/setup_attempt_v1/
+experiments/r05_adaptive_evidence_fusion/retrieval_no_api/
+experiments/r05_adaptive_evidence_fusion/contract_no_api/
+experiments/r05_adaptive_evidence_fusion/*.log

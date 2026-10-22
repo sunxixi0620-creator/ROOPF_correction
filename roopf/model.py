@@ -1751,11 +1751,14 @@ class ROOPFOptimizer(nn.Module):
                                 if "structured_system_lock" in self.ablation and _is_structured_system_problem(problem):
                                     extra_idx = base_idx
                                 else:
-                                    def selection_rule(acquisition, proposed, margin=0.10, soft_margin=0.04):
+                                    def selection_rule(acquisition, proposed, margin=0.10, soft_margin=0.04, online_only=False):
+                                        active_ablation = self.ablation
+                                        if online_only:
+                                            active_ablation = set(self.ablation) - {"residual_safety_gate", "router_veto", "weak_router_veto"}
                                         return protected_indices(
                                             acquisition, combined_router_prob,
                                             archive_y.std(dim=1, keepdim=True, unbiased=False).clamp_min(EPS),
-                                            proposed, base_count, ablation=self.ablation,
+                                            proposed, base_count, ablation=active_ablation,
                                             portfolio_seen=portfolio_seen, portfolio_best_count=portfolio_best_count,
                                             portfolio_admit_count=portfolio_admit_count, portfolio_no_admit=portfolio_no_admit,
                                             stagnation=stagnation, remaining=remaining,
@@ -1766,6 +1769,45 @@ class ROOPFOptimizer(nn.Module):
                                         )
                                     extra_idx = selection_rule(acq, extra_idx)
                         if self.fusion_agent is not None and selection_rule is not None and not _is_structured_system_problem(problem):
+                            if getattr(self.fusion_agent, "expand_full_pool", False):
+                                original_extra = extra_idx.clone()
+                                expanded = torch.cat([baseline_cand[:, :rest], pool], dim=1)
+                                expanded_ops = torch.cat([
+                                    torch.full((x.size(0), rest), -2, device=x.device, dtype=torch.long),
+                                    op_ids.view(1, -1).expand(x.size(0), -1),
+                                ], dim=1)
+                                with torch.random.fork_rng(devices=[]):
+                                    self._select_by_acquisition(
+                                        archive_x, archive_y, expanded,
+                                        torch.ones(expanded.shape[:2], device=x.device, dtype=x.dtype),
+                                        problem, remaining, stagnation, 1,
+                                        candidate_ops=expanded_ops, state_raw=state_raw,
+                                        fitness=fitness, used=used, use_learned_router=True,
+                                    )
+                                expanded_prob = self.last_router_prob
+                                expanded_scale = archive_y.std(1, keepdim=True, unbiased=False).clamp_min(EPS)
+                                expanded_signal = torch.zeros_like(self.last_acquisition)
+                                if expanded_prob is not None:
+                                    expanded_signal = ((expanded_prob - expanded_prob.mean(1, keepdim=True)) /
+                                        expanded_prob.std(1, keepdim=True, unbiased=False).clamp_min(1e-6)).clamp(-2.5, 2.5)
+                                expanded_online = self.last_acquisition + self.last_residual_weight * expanded_scale * expanded_signal
+                                score_parts[0] = self.last_acquisition[:, :1]
+                                mu_parts[0] = self.last_surrogate_mu[:, :1]
+                                sigma_parts[0] = self.last_surrogate_sigma[:, :1]
+                                router_parts[0] = expanded_prob[:, :1] if expanded_prob is not None else nan_score
+                                combined = expanded[:, 1:]
+                                combined_ops = expanded_ops[:, 1:]
+                                combined_mu = self.last_surrogate_mu[:, 1:]
+                                combined_sigma = self.last_surrogate_sigma[:, 1:]
+                                combined_router_prob = expanded_prob[:, 1:] if expanded_prob is not None else None
+                                combined_signal = torch.zeros_like(expanded_online[:, 1:])
+                                if combined_router_prob is not None:
+                                    combined_signal = ((combined_router_prob - combined_router_prob.mean(1, keepdim=True)) /
+                                        combined_router_prob.std(1, keepdim=True, unbiased=False).clamp_min(1e-6)).clamp(-2.5, 2.5)
+                                combined_score = expanded_online[:, 1:] - self.last_residual_weight * expanded_scale * combined_signal
+                                extra_idx = torch.where(original_extra < base_count, original_extra,
+                                    torch.gather(selected, 1, (original_extra - base_count).clamp_min(0)) + base_count)
+                                selected_ops = op_ids.view(1, -1).expand(x.size(0), -1)
                             extra_idx = self.fusion_agent.choose(
                                 original_idx=extra_idx, score=combined_score,
                                 mu=combined_mu, sigma=combined_sigma,

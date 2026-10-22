@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "feedback_changes_weight": true,
+  "feedback_changes_margin": true,
+  "configuration_returns_updated": true,
+  "immutable_feedback_snapshot": true,
+  "pure_online_disables_residual_acceptance": true,
+  "online_margin_independent_of_residual": true,
+  "api_calls": 0,
+  "full_integration_and_original_equivalence": "validated by full runner, not this contract check"
+}
