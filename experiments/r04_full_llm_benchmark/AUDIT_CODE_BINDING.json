@@ -1,0 +1,6 @@
+{
+  "AGENTS.md": "4889b0fccdaf5a75d689b0c807512549060a30fb1e30c0b7ecf7528932f22fbe",
+  "scripts/finalize_r04_full.py": "f0f871e0f9289386c8f9574eb4138002a82ab1d6b348c4f28076e39e6491e694",
+  "scripts/restore_r04_full.py": "7598fbded2a2406edb00e4dc747ea5cdb2721dd0da04ce7e5dcaca20f5306b77",
+  "scripts/audit_r04_full_inputs.py": "3ab3ef17b5a1e6abb3a6f2cc8c236ffb7e6223fb59a2dbe0e695c58da186748a"
+}

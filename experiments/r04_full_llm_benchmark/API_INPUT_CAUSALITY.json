@@ -1,0 +1,11 @@
+{
+  "status": "actual_api_predecision_feedback_verified",
+  "actual_api_queries": 36,
+  "trajectory_inputs_verified": 38,
+  "actual_api_inputs_contain_current_unobserved_outcome": false,
+  "raw_log_snapshots_with_one_later_history_append": 38,
+  "raw_log_history_correction": "For the archived raw step logs, remove the final competing_slot_recent entry before treating feedback as pre-decision features; actual API request journals need no correction.",
+  "cause": "Logger retained a history-list reference; observe appends one row after the API request was already serialized.",
+  "numerical_evaluation_results_affected": false,
+  "prospective_training_warning": "Use actual request journals or the corrected history prefix, never raw recent-history snapshots as pre-action training features."
+}

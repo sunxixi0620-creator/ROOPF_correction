@@ -1,0 +1,9 @@
+# Experiment acceptance
+
+- Work in this experiment copy. Do not overwrite the original ROOPF workspace or earlier rounds' frozen evidence.
+- After each algorithmic improvement, execute the complete model with the real configured LLM API and compare against the frozen original baseline. The current full suite is 35 functions, 100 trajectories per function, D10, and 300 evaluations including the initial100, unless the user explicitly changes the protocol.
+- Mock responses, retrieval-only controls, offline replay, health checks, and reduced pilots are not substitutes for full live-LLM validation. Exact objective-response caching is permitted with full request identity and stochastic RNG checks; distinguish cached objective evaluations from actual LLM calls.
+- Preserve paired initial populations and solver RNG. Report every function's mean and population standard deviation, paired wins/ties/losses, actual changed points, API attempts/valid/failures, token usage, any provider-reported credit units, fallbacks, and native/cached evaluation counts. Never infer a currency absent billing evidence.
+- Report BBOB20 separately from primary efficacy because of its original batch-coupled stochastic semantics. Disclose CEC structured-system locks and other no-intervention conditions. Do not change gates or test settings after observing results to manufacture improvement.
+- Each round requires its own experiment directory and independently named remote baseline branch/tag. Preserve negative results and setup failures. Push the code and important scientific records as authorized by the user, verify the remote content, and never commit API keys or credential files.
+- Claim full completion only after all required functions and trajectories finish and actual valid API responses are matched to executed decisions. Report blocked or partial execution honestly. A completed API experiment does not establish an optimization improvement.

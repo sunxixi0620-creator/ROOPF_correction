@@ -1,0 +1,223 @@
+{
+  "status": "full_live_model_executed_and_verified",
+  "functions": 35,
+  "trajectories_per_function": 100,
+  "trajectories_per_arm": 3500,
+  "nfe_per_trajectory": 300,
+  "dimension": 10,
+  "arms": [
+    "off",
+    "retrieval",
+    "llm_live"
+  ],
+  "original_all100_bitwise_equivalent_for_all35": true,
+  "primary_excludes_bbob20": true,
+  "primary": {
+    "retrieval": {
+      "functions": 34,
+      "function_wins": 2,
+      "function_ties": 28,
+      "function_losses": 4,
+      "trajectory_wins": 5,
+      "trajectory_ties": 3387,
+      "trajectory_losses": 8
+    },
+    "llm_live": {
+      "functions": 34,
+      "function_wins": 0,
+      "function_ties": 32,
+      "function_losses": 2,
+      "trajectory_wins": 0,
+      "trajectory_ties": 3397,
+      "trajectory_losses": 3
+    }
+  },
+  "by_group": {
+    "BBOB": {
+      "retrieval": {
+        "functions": 23,
+        "function_wins": 1,
+        "function_ties": 20,
+        "function_losses": 2,
+        "trajectory_wins": 3,
+        "trajectory_ties": 2294,
+        "trajectory_losses": 3
+      },
+      "llm_live": {
+        "functions": 23,
+        "function_wins": 0,
+        "function_ties": 22,
+        "function_losses": 1,
+        "trajectory_wins": 0,
+        "trajectory_ties": 2299,
+        "trajectory_losses": 1
+      }
+    },
+    "CEC-style": {
+      "retrieval": {
+        "functions": 6,
+        "function_wins": 0,
+        "function_ties": 6,
+        "function_losses": 0,
+        "trajectory_wins": 0,
+        "trajectory_ties": 600,
+        "trajectory_losses": 0
+      },
+      "llm_live": {
+        "functions": 6,
+        "function_wins": 0,
+        "function_ties": 6,
+        "function_losses": 0,
+        "trajectory_wins": 0,
+        "trajectory_ties": 600,
+        "trajectory_losses": 0
+      }
+    },
+    "UAV": {
+      "retrieval": {
+        "functions": 5,
+        "function_wins": 1,
+        "function_ties": 2,
+        "function_losses": 2,
+        "trajectory_wins": 2,
+        "trajectory_ties": 493,
+        "trajectory_losses": 5
+      },
+      "llm_live": {
+        "functions": 5,
+        "function_wins": 0,
+        "function_ties": 4,
+        "function_losses": 1,
+        "trajectory_wins": 0,
+        "trajectory_ties": 498,
+        "trajectory_losses": 2
+      }
+    }
+  },
+  "all35": {
+    "retrieval": {
+      "functions": 35,
+      "function_wins": 2,
+      "function_ties": 28,
+      "function_losses": 5,
+      "trajectory_wins": 5,
+      "trajectory_ties": 3477,
+      "trajectory_losses": 18
+    },
+    "llm_live": {
+      "functions": 35,
+      "function_wins": 0,
+      "function_ties": 33,
+      "function_losses": 2,
+      "trajectory_wins": 0,
+      "trajectory_ties": 3497,
+      "trajectory_losses": 3
+    }
+  },
+  "behavior_and_evaluation_totals": {
+    "off": {
+      "native_fe": 0,
+      "cached_fe": 1050000,
+      "changed_points": 0,
+      "changed_indices": 0,
+      "opportunities": 0,
+      "requests": 0,
+      "failures": 0,
+      "nonrelease": 0,
+      "decisions": 0,
+      "decision_log_steps": 0
+    },
+    "retrieval": {
+      "native_fe": 6800,
+      "cached_fe": 1043200,
+      "changed_points": 40,
+      "changed_indices": 40,
+      "opportunities": 27419,
+      "requests": 0,
+      "failures": 0,
+      "nonrelease": 40,
+      "decisions": 130500,
+      "decision_log_steps": 13050
+    },
+    "llm_live": {
+      "native_fe": 0,
+      "cached_fe": 1050000,
+      "changed_points": 9,
+      "changed_indices": 9,
+      "opportunities": 27419,
+      "requests": 36,
+      "failures": 0,
+      "nonrelease": 9,
+      "decisions": 130500,
+      "decision_log_steps": 13050
+    }
+  },
+  "api": {
+    "scopes": {
+      "setup_v1": {
+        "attempts": 2,
+        "valid": 0,
+        "failed": 2,
+        "pending": 0,
+        "prompt_tokens": 18941,
+        "completion_tokens": 999,
+        "total_tokens": 19940,
+        "usage_missing": 0,
+        "elapsed_seconds": 12.163818911998533,
+        "provider_credit_units": 1.88,
+        "valid_fraction": 0.0
+      },
+      "formal": {
+        "attempts": 36,
+        "valid": 36,
+        "failed": 0,
+        "pending": 0,
+        "prompt_tokens": 254768,
+        "completion_tokens": 10082,
+        "total_tokens": 264850,
+        "usage_missing": 0,
+        "elapsed_seconds": 219.04865853098454,
+        "provider_credit_units": 17.27,
+        "valid_fraction": 1.0
+      }
+    },
+    "provider_reported_models": [
+      "deepseek-v4-flash"
+    ],
+    "all_attempts": 38,
+    "all_known_total_tokens": 284790,
+    "all_reported_credit_units": 19.15,
+    "credit_unit_currency_unspecified": true,
+    "actual_cash_charge_not_inferred": true,
+    "preparation_failures_preserved": true,
+    "formal_provider_decisions_matched_to_executed_actions": true
+  },
+  "actual_api_input_causality": {
+    "status": "actual_api_predecision_feedback_verified",
+    "actual_api_queries": 36,
+    "trajectory_inputs_verified": 38,
+    "actual_api_inputs_contain_current_unobserved_outcome": false,
+    "raw_log_snapshots_with_one_later_history_append": 38,
+    "raw_log_history_correction": "For the archived raw step logs, remove the final competing_slot_recent entry before treating feedback as pre-decision features; actual API request journals need no correction.",
+    "cause": "Logger retained a history-list reference; observe appends one row after the API request was already serialized.",
+    "numerical_evaluation_results_affected": false,
+    "prospective_training_warning": "Use actual request journals or the corrected history prefix, never raw recent-history snapshots as pre-action training features."
+  },
+  "primary_llm_vs_retrieval": {
+    "function_wins": 4,
+    "function_ties": 28,
+    "function_losses": 2,
+    "trajectory_wins": 5,
+    "trajectory_ties": 3390,
+    "trajectory_losses": 5
+  },
+  "frozen_memory_prior_round_training_evaluations": 101804,
+  "setup_native_evaluations": 170,
+  "total_new_native_evaluations": 6970,
+  "virtual_evaluations_per_arm": 1050000,
+  "formal_api_validity_90pct_gate": true,
+  "fees_include_preparation_failures": true,
+  "weights_and_memory_frozen": true,
+  "definitive_general_improvement_claim": false,
+  "benchmark_previously_inspected_during_development": true
+}

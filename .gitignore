@@ -9,3 +9,7 @@ experiments/r02_fusion_agent/OFFLINE_FULL_POOL.jsonl.gz
 experiments/r04_multiseed_horizon/collection/
 experiments/r04_multiseed_horizon/confirmatory/
 experiments/r04_multiseed_horizon/verification/
+experiments/r04_full_llm_benchmark/results/
+experiments/r04_full_llm_benchmark/api_journal/
+experiments/r04_full_llm_benchmark/setup_attempt_v1/
+experiments/r04_full_llm_benchmark/retrieval_no_api/
