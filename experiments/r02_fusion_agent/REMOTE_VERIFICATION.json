@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "method": "independent HTTPS shallow clone; all manifest files and lossless journal contents verified",
+  "repository": "sunxixi0620-creator/ROOPF_correction",
+  "experiment_commit": "f51480b4fd8b7e8328ff31b12943fc5a9b9def36",
+  "original_result_baseline": "650e81848bf1ddc902863590af7b1a185f601445",
+  "verified_files": 810,
+  "verified_journal_members": 327,
+  "manifest_sha256": "73dbc028c4acd7831a6403f38b05c5d4011f362c437eee3406be63928cbc71cb",
+  "original_data_preserved": true,
+  "secret_not_in_delivery": true,
+  "final_scientific_status": "not_admitted_as_performance_improvement"
+}
