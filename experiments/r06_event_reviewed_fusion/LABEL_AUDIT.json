@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "labels_recalculated": 3483,
+  "branches": 387,
+  "native_fe": 50328,
+  "training_functions": 29,
+  "heldout_functions": 7,
+  "real_objective_local_reviews_verified": 387,
+  "full37_policy_verified": true,
+  "exact_prefix_verified": true,
+  "no_split_contamination": true,
+  "code_binding_verified": true,
+  "no_test_benchmark_labels": true
+}

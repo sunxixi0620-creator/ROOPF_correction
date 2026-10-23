@@ -1,0 +1,8 @@
+{
+  "version": "r06",
+  "policy_id": "r06_full37_incumbent_one_action_v1",
+  "candidate_count": 37,
+  "cases": [],
+  "allowed_configs": ["release", "adaptive_fusion", "online_only"],
+  "purpose": "empty evidence store used only for local collection and contract checks; never formal live evaluation"
+}

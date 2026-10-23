@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "mocked_unit_test_only": true,
+  "real_api_calls": 0,
+  "event_epochs": [
+    5,
+    10
+  ],
+  "observed_action_feedback_reused": true,
+  "incumbent_aligned_reward": true,
+  "recent_rank_window": 16,
+  "immutable_pre_action_feedback": true,
+  "online_only_independence": true,
+  "current37_policy_id_enforced": true,
+  "compact_single_trajectory_bytes": 3526
+}

@@ -19,3 +19,11 @@ experiments/r05_adaptive_evidence_fusion/setup_attempt_v1/
 experiments/r05_adaptive_evidence_fusion/retrieval_no_api/
 experiments/r05_adaptive_evidence_fusion/contract_no_api/
 experiments/r05_adaptive_evidence_fusion/*.log
+experiments/r06_event_reviewed_fusion/collection/
+experiments/r06_event_reviewed_fusion/results/
+experiments/r06_event_reviewed_fusion/api_journal/
+experiments/r06_event_reviewed_fusion/setup_attempt_v1/
+experiments/r06_event_reviewed_fusion/retrieval_no_api/
+experiments/r06_event_reviewed_fusion/offline_no_api/
+experiments/r06_event_reviewed_fusion/contract_no_api/
+experiments/r06_event_reviewed_fusion/*.log

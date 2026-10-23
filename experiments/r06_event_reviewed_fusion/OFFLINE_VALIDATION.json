@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "episodes": 144,
+  "train_cases": 306,
+  "validation_cases": 81,
+  "generated_training_functions": 36,
+  "seeds_per_function": 4,
+  "candidate_count": 37,
+  "native_training_fe": 50328,
+  "paired_prefix_and_policy_identity_verified": true,
+  "no_test_function_labels": true,
+  "heldout_functions": [
+    "comp_global",
+    "comp_rugged",
+    "dirridge_noisy",
+    "lowrank_tanh",
+    "plateau_sharp",
+    "ring_single",
+    "wavepacket_local"
+  ],
+  "validation_advantage_mean": {
+    "release": 0.0,
+    "adaptive_fusion": 0.000704533958211385,
+    "online_only": 0.0016978240341401325
+  }
+}
