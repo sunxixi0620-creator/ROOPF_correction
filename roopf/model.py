@@ -861,7 +861,11 @@ class ROOPFOptimizer(nn.Module):
         if "local_op_boost" in self.ablation and _is_local_proxy_friendly_problem(problem):
             expand = 0.55 + 0.55 * rem + 0.55 * stag
         base = x[:, :1].expand(b, self.pool_per_op, d)
-        return base + torch.randn_like(base) * expand * (sigma * (0.2 + rem) * elite_std + 0.0015 * rng)
+        displacement = torch.randn_like(base) * expand * (sigma * (0.2 + rem) * elite_std + 0.0015 * rng)
+        controller = getattr(self, '_generation_control', None)
+        if controller is not None:
+            displacement = controller.scale_displacement(displacement, 'trust_region')
+        return base + displacement
 
     def _coordinate_pattern(self, x: torch.Tensor, problem, state_raw: torch.Tensor) -> torch.Tensor:
         b, n, d = x.shape
@@ -880,7 +884,11 @@ class ROOPFOptimizer(nn.Module):
         mask.scatter_(2, forced, True)
         sign = torch.where(torch.rand_like(base) < 0.5, -torch.ones_like(base), torch.ones_like(base))
         rem = state_raw[:, 6].view(b, 1, 1).clamp(0.0, 1.0)
-        return base + sign * mask.to(x.dtype) * step * (0.25 + rem) * rng
+        displacement = sign * mask.to(x.dtype) * step * (0.25 + rem) * rng
+        controller = getattr(self, '_generation_control', None)
+        if controller is not None:
+            displacement = controller.scale_displacement(displacement, 'coordinate_pattern')
+        return base + displacement
 
     def _opposition_restart(self, x: torch.Tensor, problem, state_raw: torch.Tensor) -> torch.Tensor:
         b, n, d = x.shape
@@ -1453,10 +1461,15 @@ class ROOPFOptimizer(nn.Module):
             cand = self.baseline_model.generator(x, problem, fitness)
         finally:
             self.baseline_model.train(was_training)
-        return _repair(problem, cand[:, :rest, :].to(device=x.device, dtype=x.dtype))
+        repaired = _repair(problem, cand[:, :rest, :].to(device=x.device, dtype=x.dtype))
+        controller = getattr(self, '_generation_control', None)
+        if controller is not None and rest > 1:
+            controller.make_extra(self, x, fitness, problem, repaired)
+        return repaired
 
     def forward(self, x: torch.Tensor, problem):
         self.evalnum = 0
+        self._generation_control = None
         self.trail = None
         self.all_k_candidates = []
         self.gate_history = []
@@ -1498,6 +1511,11 @@ class ROOPFOptimizer(nn.Module):
             stagnation = (no_improve / max_steps).clamp(0.0, 1.0)
 
             state, state_raw = self.state_encoder(x, fitness, problem, remaining, used, stagnation)
+            if self.fusion_agent is not None and hasattr(self.fusion_agent, 'prepare_generation'):
+                active = remaining <= 0.30 and rest > 1 and not _is_structured_system_problem(problem)
+                self._generation_control = self.fusion_agent if active else None
+                if active:
+                    self.fusion_agent.prepare_generation(self, x, fitness, archive_y, state_raw, problem, remaining)
             pool, op_ids, op_prior = self._candidate_pool(x, fitness, problem, state, state_raw, success_logits)
             if self.agentic_controller is not None:
                 op_prior, agentic_diagnostics = self.agentic_controller(
@@ -1776,6 +1794,9 @@ class ROOPFOptimizer(nn.Module):
                                     torch.full((x.size(0), rest), -2, device=x.device, dtype=torch.long),
                                     op_ids.view(1, -1).expand(x.size(0), -1),
                                 ], dim=1)
+                                controller = getattr(self, '_generation_control', None)
+                                if controller is not None:
+                                    expanded, expanded_ops = controller.extend_candidates(expanded, expanded_ops)
                                 with torch.random.fork_rng(devices=[]):
                                     self._select_by_acquisition(
                                         archive_x, archive_y, expanded,
@@ -1785,6 +1806,8 @@ class ROOPFOptimizer(nn.Module):
                                         fitness=fitness, used=used, use_learned_router=True,
                                     )
                                 expanded_prob = self.last_router_prob
+                                if controller is not None:
+                                    controller.protected_mu = self.last_surrogate_mu[:, :1].detach().clone()
                                 expanded_scale = archive_y.std(1, keepdim=True, unbiased=False).clamp_min(EPS)
                                 expanded_signal = torch.zeros_like(self.last_acquisition)
                                 if expanded_prob is not None:
@@ -1807,7 +1830,7 @@ class ROOPFOptimizer(nn.Module):
                                 combined_score = expanded_online[:, 1:] - self.last_residual_weight * expanded_scale * combined_signal
                                 extra_idx = torch.where(original_extra < base_count, original_extra,
                                     torch.gather(selected, 1, (original_extra - base_count).clamp_min(0)) + base_count)
-                                selected_ops = op_ids.view(1, -1).expand(x.size(0), -1)
+                                selected_ops = combined_ops[:, base_count:]
                             extra_idx = self.fusion_agent.choose(
                                 original_idx=extra_idx, score=combined_score,
                                 mu=combined_mu, sigma=combined_sigma,

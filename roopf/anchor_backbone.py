@@ -62,6 +62,26 @@ class AnchorEliteGenerator(BaseModel):
             nn.Linear(hidden_dim // 2, k_nums),
         )
 
+    def competing_proposal(self, x, problem, xfit, temperature):
+        if self.training:
+            raise RuntimeError('Competing proposal requires frozen evaluation mode')
+        fatherfit = xfit.squeeze(-1) if xfit.dim() == 3 else xfit
+        fitx = fatherfit.softmax(dim=-1).unsqueeze(-1)
+        crosspop = self.pce_attn(x, fitx)
+        offpop = self.pce_ffn(crosspop)
+        encoded = self.beta1 * x + self.beta2 * crosspop + self.beta3 * offpop
+        combined = torch.cat([x, fitx, encoded], dim=-1)
+        logits = self.esd_decoder(combined)[:, :, 1:2]
+        temperature = torch.as_tensor(temperature, device=x.device, dtype=x.dtype).reshape(-1, 1, 1)
+        if not torch.isfinite(temperature).all() or (temperature <= 0).any():
+            raise ValueError('Invalid Anchor temperature')
+        weights = (logits / temperature).softmax(dim=1)
+        raw = (encoded.transpose(1, 2) @ weights).transpose(1, 2)
+        repaired = problem.repaire(raw.clone())
+        diagnostics = dict(entropy=-(weights * weights.clamp_min(1e-12).log()).sum(1).squeeze(-1),
+            repaired=(repaired != raw).any(-1).squeeze(-1))
+        return repaired, diagnostics
+
     def forward(self, x, problem, xfit=None):
         b, n, _ = x.shape
         fatherfit = xfit if xfit is not None else problem.calfitness(x)

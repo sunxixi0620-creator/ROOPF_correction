@@ -27,3 +27,9 @@ experiments/r06_event_reviewed_fusion/retrieval_no_api/
 experiments/r06_event_reviewed_fusion/offline_no_api/
 experiments/r06_event_reviewed_fusion/contract_no_api/
 experiments/r06_event_reviewed_fusion/*.log
+experiments/r07_joint_generation/collection/
+experiments/r07_joint_generation/results/
+experiments/r07_joint_generation/api_journal/
+experiments/r07_joint_generation/no_api/
+experiments/r07_joint_generation/collection_no_api/
+experiments/r07_joint_generation/*.log
