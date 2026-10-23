@@ -298,7 +298,8 @@ def audit_feedback_causality():
                         if actual['n'] != estimate['n'] or not np.isclose(actual['mean'], mean, rtol=1e-10, atol=1e-12):
                             raise RuntimeError('Incumbent utility not computed from past actual objectives')
                     prefix = current['nfe_before']
-                    gain = max(0.0, float(values[index, :prefix].min()) - float(values[index, prefix + 1])) / current['scale']
+                    difference = float(np.float32(values[index, :prefix].min() - values[index, prefix + 1]))
+                    gain = max(0.0, difference) / current['scale']
                     config = decision['configs'][index]
                     estimates[index][config]['n'] += 1
                     estimates[index][config]['total'] += min(20.0, gain) - .001
