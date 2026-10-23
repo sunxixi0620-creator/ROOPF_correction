@@ -1,0 +1,17 @@
+{
+  "finish_reasons": {
+    "stop": 319,
+    "length": 21,
+    "no_response": 1
+  },
+  "valid_trajectory_choices": {
+    "adaptive_fusion": 69,
+    "release": 821,
+    "online_only": 25
+  },
+  "old_mean_prompt_tokens": 12436.775462962964,
+  "new_mean_prompt_tokens": 5579.724340175953,
+  "formal_valid_fraction": 0.9354838709677419,
+  "incomplete_outputs_executed": false,
+  "failed_requests_automatically_retried": false
+}

@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "full35x100": true,
+  "actual_valid_live_api_calls": 319,
+  "public_artifacts": 104,
+  "archived_members": 5767,
+  "manifest_sha256": "fd2440fa2c3011897d5f130aad2275956502da735b998f0a39c5a26f16fcb3f8",
+  "mechanism_audit_passed": true,
+  "publication_safety_passed": true
+}

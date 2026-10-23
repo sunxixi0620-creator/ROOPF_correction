@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "matched_trajectory_inputs": 1021,
+  "immutable_pre_action_feedback": true,
+  "candidate_count": 37,
+  "no_current_objective_in_inputs": true,
+  "incumbent_utility_checks": 130500,
+  "nonrelease_actions": 94,
+  "local_reviews_completed": 94,
+  "review_trajectory_inputs": 90,
+  "valid_review_trajectory_inputs": 89
+}
