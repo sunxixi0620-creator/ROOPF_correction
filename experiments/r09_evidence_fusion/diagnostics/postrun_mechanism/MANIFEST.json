@@ -7,7 +7,7 @@
   "diagnostic_files_sha256": {
     "ACTUATOR_DIAGNOSIS.json": "31754fe011b2a7d4a31ec1d91666c9186c9c15c759cf4bafd8d4a0f65ebc685f",
     "EVIDENCE_DIAGNOSIS.json": "70f22fe9720133df89ce1867c1714f610f3cbc4e56c55e3ca23c3bfbde70cd80",
-    "FAILURE_DIAGNOSIS.zh-CN.txt": "aa700c86c0e48c565d3b23063caf11cda73c64da438229eacf5436de1d186208",
+    "FAILURE_DIAGNOSIS.zh-CN.txt": "0d10a0a31b0b5a493801efc2aef6e8fe6b30f113805c6e19131601e0ca64ad78",
     "reproduce_actuators.py": "f09d89e1f7bcb5ef73e28c5fda8175fd0273a9f27268f344801e8ceed3d52c0e",
     "reproduce_evidence.py": "54dfc4cead593e85fb12fe86b899855cbd3eeb683615f262974bfb97cb895e1f"
   },
