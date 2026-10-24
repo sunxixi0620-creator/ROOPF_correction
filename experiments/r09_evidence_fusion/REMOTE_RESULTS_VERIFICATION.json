@@ -1,0 +1,28 @@
+{
+  "status": "complete_results_remote_verified",
+  "results_commit": "4418f56173c3e50735c6b5d818974979ef3ef512",
+  "baseline_commit": "bdcf80cb9c54b29a82ee2d52b72a99948305954c",
+  "verified_at": "2026-10-24T23:32:27.652597+08:00",
+  "independent_readback": "Fresh bare repository without shared/local objects; SSH blob-filtered fetch",
+  "complete_repository_tree_equal": true,
+  "remote_bytes_sha256": {
+    "CODE_BINDING.json": "ef260de74a46e9bfd880820833ce69d36f8f5769b49934934fe528bacac22267",
+    "PROTOCOL.json": "236d76db60ba5025f7ecf4fc48a7aedcba89971ad99c39f8d9a2db9065fbd8a1",
+    "FINAL_RESULT.json": "9b0433c6801a06da5eb87d3c1493710ec76ed47861e9b7febd7d7cdc8e6bb8bf",
+    "FUNCTION_COMPARISON.csv": "2e98dc953650c46a8726c697a4748b72a32d49cb02d066815d9327fd5429204f",
+    "INDEPENDENT_VERIFICATION_BUNDLED.json": "62f9f7e024a481a65e415f28d3ba34b0e1e36c0ff1b4c905648157f19d22e8b5",
+    "POSTRUN_ANALYSIS.json": "7851bf29e3d6b5b6a8b4b3dd8856ec4db3366b0a9a06f480ff9707d697b1aba6",
+    "REVIEW.zh-CN.txt": "fef0be147a5108c639228cf278a9e9904ce4da20dd27cb61a84ba10ecfad42fe",
+    "publication/MANIFEST.json": "17828c2dbe8d00e5b4331407c3927502f417dd96c0628a8065019fbbbb52dee5"
+  },
+  "publication_blobs": {
+    "experiments/r09_evidence_fusion/publication/API_EXECUTED_DECISIONS.jsonl.gz": "e0d8777269102103d70f6081e92e457b533ef6bb",
+    "experiments/r09_evidence_fusion/publication/API_JOURNAL.tar.xz": "2317c5894411ff8e9fb6cdc015f3355540cbc4a6",
+    "experiments/r09_evidence_fusion/publication/EVALUATION_EVIDENCE.tar.xz": "369daac573695d522084716997aa4162f1a06210",
+    "experiments/r09_evidence_fusion/publication/MANIFEST.json": "e744131327084cd76d6532007ec9dd8e423dbd78"
+  },
+  "full_live_execution_complete": true,
+  "all_valid_api_responses_matched_to_execution": true,
+  "optimization_improvement_established": false,
+  "temporary_verification_repository": "/tmp/r09-results-readback-w8r3c7mn"
+}
