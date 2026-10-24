@@ -1,0 +1,759 @@
+{
+  "status": "complete_records_independently_verified",
+  "counts": {
+    "trajectory_records": 21000,
+    "evaluation_records": 6300000,
+    "paired_batches": 350,
+    "functions": 35
+  },
+  "per_arm_totals": {
+    "off": {
+      "native_fe": 0,
+      "cached_fe": 1050000,
+      "changed_points": 0,
+      "fusion_changed_points": 0,
+      "nondefault_fusion_rounds": 0,
+      "failures": 0
+    },
+    "matched38": {
+      "native_fe": 214840,
+      "cached_fe": 835160,
+      "changed_points": 10405,
+      "fusion_changed_points": 0,
+      "nondefault_fusion_rounds": 0,
+      "failures": 0
+    },
+    "anchor": {
+      "native_fe": 51610,
+      "cached_fe": 998390,
+      "changed_points": 10153,
+      "fusion_changed_points": 0,
+      "nondefault_fusion_rounds": 0,
+      "failures": 0
+    },
+    "local": {
+      "native_fe": 100100,
+      "cached_fe": 949900,
+      "changed_points": 10415,
+      "fusion_changed_points": 0,
+      "nondefault_fusion_rounds": 0,
+      "failures": 0
+    },
+    "retrieval": {
+      "native_fe": 184640,
+      "cached_fe": 865360,
+      "changed_points": 11496,
+      "fusion_changed_points": 2320,
+      "nondefault_fusion_rounds": 22765,
+      "failures": 0
+    },
+    "llm_live": {
+      "native_fe": 185040,
+      "cached_fe": 864960,
+      "changed_points": 9060,
+      "fusion_changed_points": 57,
+      "nondefault_fusion_rounds": 495,
+      "failures": 177
+    }
+  },
+  "exact_original_functions": 35,
+  "exact_frozen_matched38_functions": 35,
+  "archives_verified": 35,
+  "all_api_requests_full_identity_checked": true,
+  "api": {
+    "status": "passed",
+    "attempts": 580,
+    "valid": 403,
+    "failures": 177,
+    "consumed_valid_responses": 403,
+    "matched_executed_batches": 403,
+    "fallback_request_batches": 177,
+    "fallback_trajectory_decisions": 1770,
+    "unused_valid_responses": [],
+    "provider_credit_sum": "101.94",
+    "responses_with_credit": 437,
+    "api_coverage_by_function": [
+      {
+        "group": "BBOB",
+        "fid": 1,
+        "primary": true,
+        "requests": 20,
+        "valid": 14,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 2,
+        "primary": true,
+        "requests": 20,
+        "valid": 11,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 3,
+        "primary": true,
+        "requests": 20,
+        "valid": 14,
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 4,
+        "primary": true,
+        "requests": 20,
+        "valid": 13,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 5,
+        "primary": true,
+        "requests": 20,
+        "valid": 13,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 6,
+        "primary": true,
+        "requests": 20,
+        "valid": 14,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 7,
+        "primary": true,
+        "requests": 20,
+        "valid": 12,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 8,
+        "primary": true,
+        "requests": 20,
+        "valid": 18,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 9,
+        "primary": true,
+        "requests": 20,
+        "valid": 16,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 10,
+        "primary": true,
+        "requests": 20,
+        "valid": 12,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 11,
+        "primary": true,
+        "requests": 20,
+        "valid": 15,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 12,
+        "primary": true,
+        "requests": 20,
+        "valid": 15,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 13,
+        "primary": true,
+        "requests": 20,
+        "valid": 11,
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 14,
+        "primary": true,
+        "requests": 20,
+        "valid": 10,
+        "trajectories_with_valid_api": 70,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 15,
+        "primary": true,
+        "requests": 20,
+        "valid": 15,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 16,
+        "primary": true,
+        "requests": 20,
+        "valid": 12,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 17,
+        "primary": true,
+        "requests": 20,
+        "valid": 15,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 18,
+        "primary": true,
+        "requests": 20,
+        "valid": 16,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 19,
+        "primary": true,
+        "requests": 20,
+        "valid": 14,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 20,
+        "primary": false,
+        "requests": 20,
+        "valid": 14,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 21,
+        "primary": true,
+        "requests": 20,
+        "valid": 15,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 22,
+        "primary": true,
+        "requests": 20,
+        "valid": 18,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 23,
+        "primary": true,
+        "requests": 20,
+        "valid": 13,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 24,
+        "primary": true,
+        "requests": 20,
+        "valid": 15,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "CEC-style",
+        "fid": 1,
+        "primary": true,
+        "requests": 0,
+        "valid": 0,
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 2,
+        "primary": true,
+        "requests": 0,
+        "valid": 0,
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 3,
+        "primary": true,
+        "requests": 0,
+        "valid": 0,
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 4,
+        "primary": true,
+        "requests": 0,
+        "valid": 0,
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 5,
+        "primary": true,
+        "requests": 0,
+        "valid": 0,
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 6,
+        "primary": true,
+        "requests": 0,
+        "valid": 0,
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "UAV",
+        "fid": 1,
+        "primary": true,
+        "requests": 20,
+        "valid": 16,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 2,
+        "primary": true,
+        "requests": 20,
+        "valid": 13,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 3,
+        "primary": true,
+        "requests": 20,
+        "valid": 11,
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 4,
+        "primary": true,
+        "requests": 20,
+        "valid": 14,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 5,
+        "primary": true,
+        "requests": 20,
+        "valid": 14,
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      }
+    ],
+    "currency": "not inferred",
+    "baseline_device": "cpu",
+    "failure_fallback": "matched38",
+    "cec_structured_lock_retained": true,
+    "primary_excludes_bbob20": true
+  },
+  "api_coverage_by_function": [
+    {
+      "group": "BBOB",
+      "fid": 1,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 14,
+      "fallback_epochs": 6,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 2,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 11,
+      "fallback_epochs": 9,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 3,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 14,
+      "fallback_epochs": 6,
+      "trajectories_with_at_least_one_valid_api": 80,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 4,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 13,
+      "fallback_epochs": 7,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 5,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 13,
+      "fallback_epochs": 7,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 6,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 14,
+      "fallback_epochs": 6,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 7,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 12,
+      "fallback_epochs": 8,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 8,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 18,
+      "fallback_epochs": 2,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 9,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 16,
+      "fallback_epochs": 4,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 10,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 12,
+      "fallback_epochs": 8,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 11,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 15,
+      "fallback_epochs": 5,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 12,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 15,
+      "fallback_epochs": 5,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 13,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 11,
+      "fallback_epochs": 9,
+      "trajectories_with_at_least_one_valid_api": 80,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 14,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 10,
+      "fallback_epochs": 10,
+      "trajectories_with_at_least_one_valid_api": 70,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 15,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 15,
+      "fallback_epochs": 5,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 16,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 12,
+      "fallback_epochs": 8,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 17,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 15,
+      "fallback_epochs": 5,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 18,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 16,
+      "fallback_epochs": 4,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 19,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 14,
+      "fallback_epochs": 6,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 20,
+      "primary": false,
+      "request_epochs": 20,
+      "valid_epochs": 14,
+      "fallback_epochs": 6,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 21,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 15,
+      "fallback_epochs": 5,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 22,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 18,
+      "fallback_epochs": 2,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 23,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 13,
+      "fallback_epochs": 7,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "BBOB",
+      "fid": 24,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 15,
+      "fallback_epochs": 5,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "CEC-style",
+      "fid": 1,
+      "primary": true,
+      "request_epochs": 0,
+      "valid_epochs": 0,
+      "fallback_epochs": 0,
+      "trajectories_with_at_least_one_valid_api": 0,
+      "structured_no_intervention": true
+    },
+    {
+      "group": "CEC-style",
+      "fid": 2,
+      "primary": true,
+      "request_epochs": 0,
+      "valid_epochs": 0,
+      "fallback_epochs": 0,
+      "trajectories_with_at_least_one_valid_api": 0,
+      "structured_no_intervention": true
+    },
+    {
+      "group": "CEC-style",
+      "fid": 3,
+      "primary": true,
+      "request_epochs": 0,
+      "valid_epochs": 0,
+      "fallback_epochs": 0,
+      "trajectories_with_at_least_one_valid_api": 0,
+      "structured_no_intervention": true
+    },
+    {
+      "group": "CEC-style",
+      "fid": 4,
+      "primary": true,
+      "request_epochs": 0,
+      "valid_epochs": 0,
+      "fallback_epochs": 0,
+      "trajectories_with_at_least_one_valid_api": 0,
+      "structured_no_intervention": true
+    },
+    {
+      "group": "CEC-style",
+      "fid": 5,
+      "primary": true,
+      "request_epochs": 0,
+      "valid_epochs": 0,
+      "fallback_epochs": 0,
+      "trajectories_with_at_least_one_valid_api": 0,
+      "structured_no_intervention": true
+    },
+    {
+      "group": "CEC-style",
+      "fid": 6,
+      "primary": true,
+      "request_epochs": 0,
+      "valid_epochs": 0,
+      "fallback_epochs": 0,
+      "trajectories_with_at_least_one_valid_api": 0,
+      "structured_no_intervention": true
+    },
+    {
+      "group": "UAV",
+      "fid": 1,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 16,
+      "fallback_epochs": 4,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "UAV",
+      "fid": 2,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 13,
+      "fallback_epochs": 7,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "UAV",
+      "fid": 3,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 11,
+      "fallback_epochs": 9,
+      "trajectories_with_at_least_one_valid_api": 90,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "UAV",
+      "fid": 4,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 14,
+      "fallback_epochs": 6,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    },
+    {
+      "group": "UAV",
+      "fid": 5,
+      "primary": true,
+      "request_epochs": 20,
+      "valid_epochs": 14,
+      "fallback_epochs": 6,
+      "trajectories_with_at_least_one_valid_api": 100,
+      "structured_no_intervention": false
+    }
+  ],
+  "trajectories_with_valid_api": 2670,
+  "intervention_eligible_trajectories": 2900,
+  "primary_trajectories_with_valid_api": 2570,
+  "primary_intervention_eligible_trajectories": 2800,
+  "provider_credit_sum": "101.94",
+  "responses_with_credit": 437,
+  "currency": "not inferred",
+  "previous_scientific_records_unchanged": true,
+  "audit_script_sha256": "ebf233f35030da9d8a822ff6d892f3e13935b909c33c4e66f460dbf91b4f8c04"
+}
