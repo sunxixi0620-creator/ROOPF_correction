@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-24T23:56:46.809667+08:00",
+  "type": "posthoc_read_only_mechanism_diagnosis",
+  "algorithm_changed": false,
+  "new_api_calls": 0,
+  "new_objective_evaluations": 0,
+  "diagnostic_files_sha256": {
+    "ACTUATOR_DIAGNOSIS.json": "31754fe011b2a7d4a31ec1d91666c9186c9c15c759cf4bafd8d4a0f65ebc685f",
+    "EVIDENCE_DIAGNOSIS.json": "70f22fe9720133df89ce1867c1714f610f3cbc4e56c55e3ca23c3bfbde70cd80",
+    "FAILURE_DIAGNOSIS.zh-CN.txt": "aa700c86c0e48c565d3b23063caf11cda73c64da438229eacf5436de1d186208",
+    "reproduce_actuators.py": "f09d89e1f7bcb5ef73e28c5fda8175fd0273a9f27268f344801e8ceed3d52c0e",
+    "reproduce_evidence.py": "54dfc4cead593e85fb12fe86b899855cbd3eeb683615f262974bfb97cb895e1f"
+  },
+  "source_records": [
+    "experiments/r09_evidence_fusion/publication/API_EXECUTED_DECISIONS.jsonl.gz",
+    "experiments/r09_evidence_fusion/api_journal",
+    "experiments/r09_evidence_fusion/results",
+    "experiments/r09_evidence_fusion/collection",
+    "experiments/r09_evidence_fusion/offline_memory.json"
+  ],
+  "limitations": [
+    "descriptive analysis, not causal attribution of final losses",
+    "posthoc distance diagnostic is not a calibrated OOD test",
+    "request contexts and actions are correlated, not independent trajectories",
+    "no retrospective changes to R09 action acceptance or gates"
+  ]
+}

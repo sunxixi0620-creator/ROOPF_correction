@@ -1,0 +1,269 @@
+{
+  "source": "read-only R09 posthoc descriptive diagnosis; no new API/objective evaluations",
+  "training": {
+    "cases": 232,
+    "all22_action_labels_equal5": 114,
+    "all22_action_labels_equal10": 92,
+    "anchor_sharp_soft_identical5": 232,
+    "anchor_sharp_soft_identical10": 232,
+    "feature_std": [
+      0.03333333333333329,
+      0.2629370123296643,
+      0.062054363725369065,
+      0.054103468970374005,
+      0.3823790023136499,
+      0.0,
+      0.020947047533072267,
+      0.24850816802745535
+    ],
+    "lofo_nearest_distance_quantiles": [
+      0.0010230503419943675,
+      0.020329970487717314,
+      0.1147427701242443,
+      0.21347212391555434,
+      0.644596108014084
+    ]
+  },
+  "counts": {
+    "all_trajectory_requests": 5800,
+    "nearest_beyond_train_lofo_p95": 4852,
+    "cross_epoch_nearest": 2169,
+    "all_22_rounded_estimates_tie": 604,
+    "valid_trajectory_choices": 4030
+  },
+  "api_request_events": {
+    "ok": 403,
+    "failed": 177
+  },
+  "selected_action_offline_evidence": {
+    "matched38": {
+      "n": 2439,
+      "offline_gain5_positive": 46,
+      "offline_gain5_zero": 2385,
+      "offline_gain5_negative": 8,
+      "shown": 2394,
+      "strictly_worse_than_best_offline5": 1972,
+      "all_estimates_rounded_tie": 264
+    },
+    "release": {
+      "n": 787,
+      "offline_gain5_positive": 47,
+      "offline_gain5_zero": 689,
+      "offline_gain5_negative": 51,
+      "shown": 99,
+      "strictly_worse_than_best_offline5": 710,
+      "all_estimates_rounded_tie": 61
+    },
+    "anchor_soft": {
+      "n": 98,
+      "offline_gain5_positive": 2,
+      "offline_gain5_zero": 90,
+      "offline_gain5_negative": 6,
+      "shown": 4,
+      "strictly_worse_than_best_offline5": 81,
+      "all_estimates_rounded_tie": 15
+    },
+    "joint_sharp_wide": {
+      "n": 90,
+      "offline_gain5_positive": 39,
+      "offline_gain5_zero": 9,
+      "offline_gain5_negative": 42,
+      "shown": 36,
+      "strictly_worse_than_best_offline5": 78,
+      "all_estimates_rounded_tie": 7
+    },
+    "local_fine": {
+      "n": 162,
+      "offline_gain5_positive": 17,
+      "offline_gain5_zero": 11,
+      "offline_gain5_negative": 134,
+      "shown": 119,
+      "strictly_worse_than_best_offline5": 151,
+      "all_estimates_rounded_tie": 8
+    },
+    "joint_soft_fine": {
+      "n": 46,
+      "offline_gain5_positive": 0,
+      "offline_gain5_zero": 14,
+      "offline_gain5_negative": 32,
+      "shown": 29,
+      "strictly_worse_than_best_offline5": 32,
+      "all_estimates_rounded_tie": 14
+    },
+    "anchor_sharp": {
+      "n": 355,
+      "offline_gain5_positive": 5,
+      "offline_gain5_zero": 333,
+      "offline_gain5_negative": 17,
+      "shown": 75,
+      "strictly_worse_than_best_offline5": 285,
+      "all_estimates_rounded_tie": 46
+    },
+    "local_wide": {
+      "n": 53,
+      "offline_gain5_positive": 21,
+      "offline_gain5_zero": 9,
+      "offline_gain5_negative": 23,
+      "shown": 24,
+      "strictly_worse_than_best_offline5": 43,
+      "all_estimates_rounded_tie": 6
+    }
+  },
+  "visibility": {
+    "chosen_shown": 2780,
+    "chosen_not_shown": 1250
+  },
+  "fusion_evidence": {
+    "valid_nonrelease_choices": 3243,
+    "same_generation_lambda_estimates_rounded_tie": 567,
+    "default_lambda_choices": 3144,
+    "default_lambda_when_other_lambda_better_offline5": 2319,
+    "both_alternative_lambdas_visible": 5
+  },
+  "sampled_generation_outcomes": {
+    "sampled_variant_rounds": 1178,
+    "variant_selected": 0,
+    "variant_raw_acquisition_argmin": 0
+  },
+  "invalid_factor_rows": {
+    "[16, 1]": 81,
+    "[8, 1]": 122,
+    "[1, 2]": 2,
+    "[1, 0]": 29,
+    "[8, 0]": 1,
+    "[16, 0]": 1,
+    "[17, 1]": 5,
+    "[15, 1]": 2
+  },
+  "runtime_nearest_distance_quantiles": [
+    0.0014641518771515438,
+    0.7929602578209607,
+    1.1745736816470531,
+    1.538650334746351,
+    534.5645514863909
+  ],
+  "runtime_feature_min": [
+    0.2,
+    0.0,
+    8.924770372686908e-05,
+    0.0002049331524176523,
+    0.0036788047291338444,
+    0.0,
+    0.0,
+    8.190856437332452e-08
+  ],
+  "runtime_feature_max": [
+    0.26666666666666666,
+    0.699999988079071,
+    0.3096291422843933,
+    0.30107754468917847,
+    2.221250534057617,
+    0.004306023075042866,
+    3.2909388898389396,
+    5.380064843424739
+  ],
+  "training_feature_min": [
+    0.2,
+    0.0,
+    0.019065534695982933,
+    0.009625894948840141,
+    0.7460071444511414,
+    0.0,
+    0.0,
+    0.00010735835873787267
+  ],
+  "training_feature_max": [
+    0.26666666666666666,
+    0.699999988079071,
+    0.2810600697994232,
+    0.28836172819137573,
+    2.1874587535858154,
+    0.0,
+    0.1559715395001268,
+    1.448513140871271
+  ],
+  "runtime_feature_outside_training_range": [
+    0,
+    0,
+    4566,
+    4361,
+    3629,
+    48,
+    88,
+    332
+  ],
+  "release_examples": [
+    {
+      "group": "BBOB",
+      "fid": 1,
+      "batch": 2,
+      "step": 15,
+      "trajectory": 0,
+      "chosen_gain5": 0.0,
+      "best_gain5": 0.005118836773833691,
+      "shown": [
+        0,
+        4,
+        7,
+        8,
+        10,
+        12,
+        15
+      ]
+    },
+    {
+      "group": "BBOB",
+      "fid": 1,
+      "batch": 2,
+      "step": 15,
+      "trajectory": 1,
+      "chosen_gain5": 0.0,
+      "best_gain5": 0.005129216603104615,
+      "shown": [
+        0,
+        4,
+        7,
+        8,
+        10,
+        12,
+        15
+      ]
+    },
+    {
+      "group": "BBOB",
+      "fid": 1,
+      "batch": 2,
+      "step": 15,
+      "trajectory": 2,
+      "chosen_gain5": 0.0,
+      "best_gain5": 0.005145434949783276,
+      "shown": [
+        0,
+        4,
+        7,
+        8,
+        10,
+        12,
+        15
+      ]
+    },
+    {
+      "group": "BBOB",
+      "fid": 1,
+      "batch": 2,
+      "step": 15,
+      "trajectory": 3,
+      "chosen_gain5": 0.0,
+      "best_gain5": 0.005140060044855615,
+      "shown": [
+        0,
+        4,
+        7,
+        8,
+        10,
+        12,
+        15
+      ]
+    }
+  ]
+}
