@@ -1,0 +1,510 @@
+{
+  "status": "passed",
+  "attempts": 580,
+  "valid": 324,
+  "failures": 256,
+  "consumed_valid_responses": 324,
+  "matched_executed_batches": 324,
+  "fallback_request_batches": 256,
+  "fallback_trajectory_decisions": 2560,
+  "unused_valid_responses": [],
+  "provider_reported_billing_fields": [
+    {
+      "field": "33b719abe67bf0ff6418d3d0ee27f630fa1b550b3be30ca266676387aeef4f23.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "f4cd00f311c887d2d78e47f40341b29f2c2fe6a64ccf921b598fef2c727fb127.usage.credit",
+      "value": 0.82
+    },
+    {
+      "field": "62d5616ea9e303f72c6a63e045fc9c94be1824a0f64611fb40aeaf32ca5f6599.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "e6c05150f3b421d48295039328957a93c766d23c6f686ba548e1db8b167a38e5.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "b509c708ada97fd7f2ebc14fa75f290cb04beba5e44a58a08544be53942eb886.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "d64dd0d5f0b7505b8b708cf316bb73ed4959ee33ea847d57ec63a27d8ddf9e16.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "b5ea6355abbd195fd468cf8a3ec27af00595c8e4156db682465073b7084fbe50.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "5071fd0e169b8a28ea866e2b83c4f9d2bbf8d43bc36bab824fe9fe2961f9bfdf.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "d18d230ac16b9611ba9def1b39177b5339ae59f5a006283af744a376b77d9653.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "20beb322521fa3c9a45cec657ce11aa73cac823909d66caaa9ebb753e12e1a1c.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "96baa1c3e1d2eefdd05e168ce6df427f7960b59ab3982292ee17e965d0cd521a.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "698e0c951534d3f024b970c0c665f1b459d47b0c07c94b2128f1e6e68e6c2ab3.usage.credit",
+      "value": 0.83
+    },
+    {
+      "field": "5ba52b2feb6ad14888bb89dd867e7b9c0f2e80a43e905e70ec80a2aa9ffabf32.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "7a5ebee88071b661e622e8bcbfbfe5dc85197b953e470d371077c24253c05666.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "078e6f68dfcea34416b73fb394cff2abf4cfda77ece31fa157ed8470c9aa2e0a.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "cebfd61c8090656b8acad3743d9b7f498c96e1dafbcaf3025b890b83f9ce0ca5.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "424f12040210c558983e46e30d6aed0a290cbc9bf05f16ce5331bb4000527400.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "ae91ac38fe0d35b708aa696810edc9fb258780b0f1034041fd64f6466cbacb14.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "92c0ca1646e217215f43090d486d278c423a12049217c0668f5aac9a69b806c7.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "e2e7af0e6f708932977fa22f2ece80dde8001dd41f9d85d97df3b924b41758e3.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "bc2dc3f62f21ab70a0e101b542d58be20770814715b1cc47def7fc02c9e1741e.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "994450542d50c05e6aabc978a464bdd1722b01ff513934367d1c21004627bc15.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "9ee4771206348092bfd4a3db1ec07087812792e2fa64e5fa938b55cb48750f0b.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "29e5772ff17c123880146c6abc9713366faa369c1cb62ed53171a0ac2fc5bdb2.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "b9f7610d60f2c56433f7805507460b7660b4c47347f40f46593c9232226bc32c.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "df370a4b45137aecc8314f96c63ee20b6af64890a439f9c920142579ac88e193.usage.credit",
+      "value": 0.82
+    },
+    {
+      "field": "503db54a4769658778ae7b62b8facdbd04b9c36fe3b3f359fd414e3ab4c3b9ab.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "8886a1d7913a22548e5a4fe949df03221cd986934294e2bdfd6df0d453fe8649.usage.credit",
+      "value": 0.81
+    },
+    {
+      "field": "7d3c562f4823eb9da396594f6be6367b5ba4ed3fd012fa6738b339550df1d3fe.usage.credit",
+      "value": 0.82
+    },
+    {
+      "field": "61a5e66fb387acd02183b94b2ce63433ed3ce6064cf47de5a250b2bc8f50ea02.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "9d4b3a83f21a7a44a7891b8e2c728de8867be2e91ecbf196d9df7e2cc15261dd.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "92176090fa137c7a8eba89104fde88656138f603cd47d796e898031829ef36ac.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "581715711b2f9934a012814cc381c572fc8e0a12d63383a022b73b39af3738ad.usage.credit",
+      "value": 0.83
+    },
+    {
+      "field": "0154fa33b5cbf942ae2d45c78b8984038f3236e644701122a56d24826b92de2a.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "71afb481082e886ba57fcf137719a88c9a42a28cb5c883af76b195d124fb1ed6.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "9efc86ea9fc61018d5cd3bc0220e97e95105d344af10a85742f54f7c309ea35f.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "e5718e3e5204299397db83472d40d2180c810ba6c5b359e4c2e64bd3833a6460.usage.credit",
+      "value": 0.76
+    },
+    {
+      "field": "08c30148480f84de78a4be341b254845fdb3542ace2be30ddc0bcb175487f64b.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "26b420948e03c7d28022d4e13efb12af9739c5b30a2fd503c7202e325be9244e.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "7b650c6c31255adde0016bbd20098317646569e41cd645aed8856ba61dfe08ca.usage.credit",
+      "value": 0.81
+    },
+    {
+      "field": "73751e1d9f13ae41cb9e88338740a3a25c70b697bceb68fc047048bcd5a3dd40.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "7b41ae9c80c4ed78140064c7dcfab412701252c1bd52360c4ba0f7321ab0eec0.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "2c0bcc0f5834d93a51efbfb7ec9d759070adbe27b7d2275fe21ae2501fc8332b.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "6fbca8db3a41c30de800ac816ff6625595d555862217cce503ac82ca56b35811.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "5c7ae09bfa313982ef8b08f5afedb766bfa4593e2b2061fa626a8a73c4bbbfd9.usage.credit",
+      "value": 0.76
+    },
+    {
+      "field": "b8e428c59b96af75da8bce5a8a815605b079884c0ba8826c4b294948d93b62c4.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "8cd5ccef3a243d5138f85a796d9bfbfd151e53b8ba208ed9d761876162d8938c.usage.credit",
+      "value": 0.68
+    },
+    {
+      "field": "b4b82c9b899dbe56bc570f0623f101c30a9e0baaf337e197c69c2f150c2a0c76.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "970212d1bc9d3918b0e05098e1a1583923b00d1237e8ee4ddc8c7396d69f44e6.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "a62fd4ffb33840281f989ce48584fc71150bb033390806374cb493e3f988ffb1.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "341551890c5e642302ded83fb303135a7057de3c2a63d620a6d6bc324173ddcd.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "a413cc105f3cf4aa29c578ab7a28a1e136fd2ed2633aac819919310a6fa30b01.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "d6c5143589d39ac3c38878fe678a93984014acedc9ed260f19ddbb5257d1eb4e.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "f22598360cb062adf879d0539c80fcc8134ded5db5d3fb70136c5c8582aa559d.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "3115c96ed0d2f4f608b053501e28c0bac7c42c82ff87c934da51dcec8cf19cc9.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "7e8a0d945cad8dfc3c867aa22da59ed58d984fce2d5cc53fc270c8a8341cb6b4.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "0a43648a08411b5d332a105a27c62dd1cd4c7bd72c5ba485e35858cd17cef093.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "c29242956c3aa89284837a5323a86381f944726c376b286042cd9f237928ce48.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "2b26b4bc2c491e941fede98cb10e519fc15cd9c1249120d4e317d4e8c6c6506a.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "072bde827c7a3ed9610456a40c83d4c30db8edaa5aa67ec10b792048890782e7.usage.credit",
+      "value": 0.81
+    },
+    {
+      "field": "4ee8028f6a357ae57388ea837e9450f3e86d7f2d44c60fb5f6a70c332352b5d3.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "a136c9b894ce1f1b15d535473d6e0878c8569a65f9b652e40ad191c4022f5012.usage.credit",
+      "value": 0.76
+    },
+    {
+      "field": "ab41605dfa1f20146592816e982afe91a78aeb6126d3b3d3eb1f558434de62ae.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "968fadd024e36d2ac5b617bac91ba8b0aff294d1690112f14c901e1c5b189b32.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "3afc1170faf3976dcf1e1a90b5585faea180a65868c2b59a3b2d66cc58119607.usage.credit",
+      "value": 0.76
+    },
+    {
+      "field": "c7bc5aaf39aeff62fa9f2b763269f6b7b81bc70a3fbc199cce39091b01eb7d90.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "b6592271d0f4cbf07e9033f497116193bbd518a69aa2b2e83845bc68ae431034.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "84ce43aa4b7b34d84de983d7bea98ee71c35616ddfef05c5a2ae6831f99f97b7.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "8b3bde0953fcdfcd3e856e1b2d4dfff584e92473e32ac71e255541f173311ffa.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "79261ac26e164135173f9fb3c5dc520ad3855a30fc4cc7b772f00d066f812a95.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "61d735a22fc5b6e085264567c0566ad3633ac135c8dd4239f60b991c96df7dfb.usage.credit",
+      "value": 0.81
+    },
+    {
+      "field": "7236be76709c736d1f24033a735dc64de67dc0c8db52ecc70c3a96c8a68d71e6.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "f9b0b35f18406d073dd71aa44afce97991ba67bc0bf4e82498924a9ce81f7f28.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "0567b40f77959494d9fa6a19ca328d693bf558240b5069f31b1485d3dcdb0044.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "44334307fd61c0205b3c697ee66ee8c3de3305d07f1a870db60518f67212b203.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "e013de426374cd1791b1c606c6222874f81363353de38d69f4b0bb815248f2e5.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "7cfa0e6344fbfab50f8c49791d3eecc46fd04b0d232b30a7742bbc8f57c58aec.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "91755b0303ef8405caa70f2eaac58f6d0d57cf3d1b1b8a775ee83799e9d8c87c.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "2e641959d614a1fa2aa6951b65f71e267e8fb6572fc0c280d61f9298ab41ee1d.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "cf31ebba0e16eb91ff207c32c6c7d36e2c616e4c1da84009b7c3296a41e189c3.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "ea5172c674e31c47f04c32eb22e1c8730ec67b46de1b12c447e306be925ed573.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "46bfa07d2501130a96508b22f4a4db826b3e7a112d3def66bab8dae72dbec0b9.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "0140934c2cf3ace409bb696f13ac07f9b159056cf87c216e695e673a63ff0b1d.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "9df0cb4010a5e396bd8b0f238a59f6a7b153e7ac7614bd69b69fe598c6499750.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "d7ba76371a699977ce289b205ba23b042ec07c7e8ed7de6b3af1ae2e1e77cdcb.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "e11ed807522f32380736084f8ab09aa2b39b915c7d8a599925c946c5a35e512c.usage.credit",
+      "value": 0.82
+    },
+    {
+      "field": "48304e2dc0b2589ee7eef46930124df76adfec2ab8d098fc3e7287a19cfa1b9d.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "648b034cb232a54628150b7e9b82b950df765f99e21ed7299b60d0b0f24d5411.usage.credit",
+      "value": 0.84
+    },
+    {
+      "field": "67fcfe23232eb93c1b7d339f790f422574cb4b3061fdef6a64f8a1f4b6f940a3.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "9601d0698f2163df7bd1cccba0939fb846194d95c074bfa95ad5594aef9b4af8.usage.credit",
+      "value": 0.81
+    },
+    {
+      "field": "21da563820a21ea234780588d48ae6efbf38e5bd61572fc043ce7ffd325faedb.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "c598d1b88c4e3fb498b185b4e78ee1a00888c951430af8f1a0b697883a3aa2c6.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "55b73baab142b927b5689717962caab67b13f9185aa6e307ab512ccd0ed28293.usage.credit",
+      "value": 0.87
+    },
+    {
+      "field": "2b8f39beb9ceacfa1c7f2900d4e7bf1129e8035c57c13749c1acdd6a3dac0d92.usage.credit",
+      "value": 0.82
+    },
+    {
+      "field": "187d0dcd8da23c538e5d45a0416ac410a4c6833c7058c822f4a68ee4acc1decd.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "2196e2271f9d4ce7d76eeff5013b8331e401ed6783f33ee09f347545eb393569.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "3d232dba8ca42d8f1bdbb98ca82bf4d898e3bf9282ed4baeba455406090d6ac7.usage.credit",
+      "value": 0.82
+    },
+    {
+      "field": "ec0b7e89e28f01d043edd73d33b2f129d7dafc6200dd002adcd256e3418ec473.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "268a794f60c7652012bc11a15ddffacfef470923c8ebe3bb9846c45938b0e488.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "8af3c96a9f9af1361c79e47a100c4867c0d56be83145512a862cd087c677c12e.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "d16a4c8c37cb51fa301a4e582edb79c3315a27a54f94c00f06632575abfa4a33.usage.credit",
+      "value": 0.68
+    },
+    {
+      "field": "ba532f31c683917c6ff2c4b1cc587f8c3876a86648766e180e79338ab84b9a14.usage.credit",
+      "value": 0.82
+    },
+    {
+      "field": "d8b7b7d8f53c545b35a09a6ae40c6e5f3298bcd846074efbdda199a10100cf6e.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "c0526b651576371161ee1809ae43ef0f7c286b42604f5ff3834b54e85a318aab.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "893eb0d2264a5bba6918e1019f593e97418cf419c3cec17f0308d334ceb74976.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "95ff8e4b94824bbff1d2913a421791f171e3a285c63a8d08c1ccc0303710b400.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "71a6440a3c6b23639249bd27e7c3970b1be6e86959ea4a5f6c0f6ab92789f64a.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "bf2b84c5d923551d0b720fc6b4cab21b2e7904ab0d96709effc922766f1db7d9.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "e9d6a983a49c30a7ce1d13491e3478df97b06b6cc94187d6c43f31360e2261f3.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "da7e5cf802a2f1d91107de09aa603235f3cb0002a93da34d5238f01293788f57.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "06c9f3be7000e4abdaef7c3b2296bd73b1aa972102eb94a0e91f797fa23f43c0.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "db39886a107a7360cd1dde0810c690822fa9bf5cc7f789069cdbd9a87925aecb.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "028527cb02147976b177d50fe5e57af36139bc30f6e4bbdfada33fccbd874bcd.usage.credit",
+      "value": 0.76
+    },
+    {
+      "field": "d2d95a6bd2ed71b5f42442bd73e94e71cc38c3335a2ee4dc6a91b90c77aed12a.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "86f7917c0610acc79a34da764816d442ecad05c138f3e4ff387e416254e10a1b.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "055b460d8b7238a2f93e7b9e03d671ded38cb1c41d1d66d7c46f6b4dd1c87b6a.usage.credit",
+      "value": 0.81
+    },
+    {
+      "field": "bc3ff45a1c17b36bd637bbd107e39215829a460d4bd66962c3206117fbeb34b0.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "ab044b5824d96a442fce1bb90996ac770b1ba4ebe2bbdf58be38061c25024aa3.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "b52694485f530b353eedc6b014ff504e360e1c701f8f33bc57d05b8b3ffc0dff.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "739316abbb2d07c6e8de6c298d90ca275c28763c035153903c84a2c6c3cd092f.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "ce8946764bd95eb5d95a22c280c3e4a4684f2ac450b12dc5cefea35f02be84d7.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "81bc9192ab3a3741231cdaf07a3d33d12cd1c4722fddf93f4025d07db92695b7.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "4f0c2d5334ba8e487428490ae87f364d540dde6407ab443a1ac9215197f81eb0.usage.credit",
+      "value": 0.73
+    }
+  ],
+  "currency": "not inferred",
+  "baseline_device": "cpu",
+  "failure_fallback": "matched38",
+  "cec_structured_lock_retained": true,
+  "primary_excludes_bbob20": true
+}

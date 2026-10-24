@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "API_EXECUTED_DECISIONS.jsonl.gz": "f758057d49b2097ec0c81387da99f55f893a104dbb30af1725e43efa89a18cdb",
+    "EVALUATION_EVIDENCE.tar.xz": "47a3bbad512904155da625ce14fb25bf0a575fb7e08207ad8fb46925292cec3a",
+    "API_JOURNAL.tar.xz": "135152c55de1f6022261d6dd19cfea3aa191840950833d3e4565d312121e520f"
+  },
+  "excluded_full_raw_archive_note": "Full 35-function raw archives remain local; hashes in ARCHIVE_MANIFEST.json",
+  "api_credentials_included": false
+}

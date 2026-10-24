@@ -73,35 +73,66 @@ def main():
                 receipts.append(part)
             assert len({r['paired_initial_sha256'] for r in receipts}) == 1
             assert len({r['paired_solver_rng_sha256'] for r in receipts}) == 1
+            old_receipt = ROOT / 'experiments/r07_hardware_accelerated_v1/results' / f'{group}_f{fid:02d}/b{batch:02d}/matched38.json'
+            old_pair = json.loads(old_receipt.read_text())
+            for key in ('paired_initial_sha256', 'paired_solver_rng_sha256'):
+                assert receipts[0][key] == old_pair[key], 'Historical initial population/RNG changed'
             counts['paired_batches'] += 1
         counts['functions'] += 1
+    print('Verified 35 functions, all six arms, paired starts and both frozen baselines.', file=sys.stderr, flush=True)
     saved_writer = hardware.write_json
     hardware.write_json = lambda *_: None
     try:
         api_audit = hardware.audit_execution(run)
     finally:
         hardware.write_json = saved_writer
+    print('Verified actual live API responses against executed decisions.', file=sys.stderr, flush=True)
     credits, credit_records = Decimal(0), 0
+    statuses = {}
     for path in (p / 'api_journal').glob('*.json'):
         record = json.loads(path.read_text())
         assert hashlib.sha256(json.dumps(record['request']).encode()).hexdigest() == path.stem
         payload = json.JSONDecoder().raw_decode(record['request']['messages'][-1]['content'].split('INPUT:\n', 1)[1])[0]
         assert payload['policy_id'] == 'r08_matched38_default_full_joint_agent_v1'
         assert payload['failure_fallback'] == 'matched38'
+        statuses[json.dumps(payload['trajectories'], sort_keys=True)] = record['status']
         credit = record.get('response', {}).get('usage', {}).get('credit')
         if isinstance(credit, (int, float)):
             credits += Decimal(str(credit))
             credit_records += 1
+    coverage = []
+    for group, fid in run.legacy.TASKS:
+        epochs, valid_epochs, live_batches = 0, 0, 0
+        for batch in range(10):
+            path = p / 'results' / f'{group}_f{fid:02d}/b{batch:02d}/llm_live_DECISIONS.json.gz'
+            with gzip.open(path, 'rt') as stream:
+                requests = [r for r in json.load(stream) if r['request_event']]
+            assert len(requests) == (0 if group == 'CEC-style' else 2)
+            valid = sum(statuses[json.dumps(r['api_trajectories'], sort_keys=True)] == 'ok' for r in requests)
+            epochs += len(requests)
+            valid_epochs += valid
+            live_batches += int(valid > 0)
+        coverage.append(dict(group=group, fid=fid, primary=not (group == 'BBOB' and fid == 20),
+                             request_epochs=epochs, valid_epochs=valid_epochs,
+                             fallback_epochs=epochs - valid_epochs,
+                             trajectories_with_at_least_one_valid_api=10 * live_batches,
+                             structured_no_intervention=group == 'CEC-style'))
     manifest = json.loads((p / 'ARCHIVE_MANIFEST.json').read_text())
     assert len(manifest) == 35
     for name, sha in manifest.items():
         assert digest(p / name) == sha, name
     previous = json.loads((p / 'PRE_MIGRATION.json').read_text())
     assert all(digest(ROOT / name) == sha for name, sha in previous['previous_scientific_records_sha256'].items())
+    print('Verified all 35 raw archives and unchanged previous scientific records.', file=sys.stderr, flush=True)
     summary = dict(status='complete_records_independently_verified', counts=dict(counts),
                    per_arm_totals=totals, exact_original_functions=35, exact_frozen_matched38_functions=35,
                    archives_verified=35, all_api_requests_full_identity_checked=True,
                    api={k: v for k, v in api_audit.items() if k != 'provider_reported_billing_fields'},
+                   api_coverage_by_function=coverage,
+                   trajectories_with_valid_api=sum(r['trajectories_with_at_least_one_valid_api'] for r in coverage),
+                   intervention_eligible_trajectories=2900,
+                   primary_trajectories_with_valid_api=sum(r['trajectories_with_at_least_one_valid_api'] for r in coverage if r['primary']),
+                   primary_intervention_eligible_trajectories=2800,
                    provider_credit_sum=str(credits), responses_with_credit=credit_records, currency='not inferred',
                    previous_scientific_records_unchanged=True, audit_script_sha256=digest(Path(__file__)))
     if args.bundle:
@@ -115,6 +146,7 @@ def main():
         with tarfile.open(publication / 'API_JOURNAL.tar.xz', 'w:xz') as archive:
             for path in journal:
                 archive.add(path, arcname=str(path.relative_to(p)))
+        print('Packaged full request/response journal without API credentials.', file=sys.stderr, flush=True)
         with tarfile.open(publication / 'EVALUATION_EVIDENCE.tar.xz', 'w:xz') as archive:
             for group, fid in run.legacy.TASKS:
                 folder = p / 'results' / f'{group}_f{fid:02d}'
@@ -122,6 +154,12 @@ def main():
                          *folder.glob('b??/*.json'), *folder.glob('b??/PAIRED_START.pkl.gz')]
                 for path in sorted(paths):
                     archive.add(path, arcname=str(path.relative_to(p)))
+                frozen = ROOT / 'experiments/r07_hardware_accelerated_v1/results' / f'{group}_f{fid:02d}/matched38_FULL100.npz'
+                archive.add(frozen, arcname=f'frozen_reference/r07/{group}_f{fid:02d}/matched38_FULL100.npz')
+            previous_root = ROOT / 'experiments/r07_hardware_accelerated_v1'
+            for name in ('CODE_BINDING.json', 'PROTOCOL.json', 'FUNCTION_COMPARISON.csv', 'ARCHIVE_MANIFEST.json'):
+                archive.add(previous_root / name, arcname='frozen_reference/r07/' + name)
+        print('Packaged evaluation arrays, pairing receipts and frozen matched38 reference.', file=sys.stderr, flush=True)
         with gzip.open(publication / 'API_EXECUTED_DECISIONS.jsonl.gz', 'wt') as stream:
             for group, fid in run.legacy.TASKS:
                 for batch in range(10):
