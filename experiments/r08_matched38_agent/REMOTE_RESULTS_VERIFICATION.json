@@ -1,0 +1,25 @@
+{
+  "status": "remote_content_verified",
+  "verified_at": "2026-10-24T16:49:09.700392+08:00",
+  "results_commit": "3cdcf6cc9c701f28894f960188286262a73dbf4a",
+  "baseline_commit": "bdcf80cb9c54b29a82ee2d52b72a99948305954c",
+  "independent_readback": "Fresh bare repository; SSH fetch with blob filtering, no shared/local objects",
+  "complete_repository_tree_equal": true,
+  "readback_sha256": {
+    "roopf/matched38_agent.py": "570c4a3e64aae1cdf5ddb8973ef38a4b7f4c60ac7bb52f2dfd4893d3371c65ad",
+    "scripts/audit_r08_records.py": "39128bb8e0df2d364b5ee76714a5cf81fd69fb12a271f7f0dc7c65fa1a49f832",
+    "experiments/r08_matched38_agent/FINAL_RESULT.json": "3d1b3ebf4f1848131a288af0c1e12f6b161a565cefb6dc6bcf1a33d909ec5a02",
+    "experiments/r08_matched38_agent/FUNCTION_COMPARISON.csv": "a26e95a0d020f822d9fe36e60ada99cbbc4f65c8a70bc31487a9beabbd17bc9f",
+    "experiments/r08_matched38_agent/INDEPENDENT_VERIFICATION.json": "e7ec3823287a45c32b01749accee46a2b8a986d0b341dc09d0c221c9a24b7768",
+    "experiments/r08_matched38_agent/REVIEW.zh-CN.txt": "2094a4dfdf3e4b4582e21e02351f081fa7774e3fc64e735a84e5018adb611107",
+    "experiments/r08_matched38_agent/publication/MANIFEST.json": "14fa84d03a992f512c5f1567288912ff424b9440d63523c22edb67095142523a"
+  },
+  "publication_blobs": {
+    "experiments/r08_matched38_agent/publication/API_EXECUTED_DECISIONS.jsonl.gz": "579971dc425f0eac6ef4ecb9db5a2cc2c513de84",
+    "experiments/r08_matched38_agent/publication/API_JOURNAL.tar.xz": "99ced7e6fb8928c5789606fde953856ac78adfc9",
+    "experiments/r08_matched38_agent/publication/EVALUATION_EVIDENCE.tar.xz": "a452411287c58fcd928e7f33285a54a37f31af6e",
+    "experiments/r08_matched38_agent/publication/MANIFEST.json": "55f40a92bdc8e5de78206e98fe4f40a2635c6476"
+  },
+  "connector_readback_failure": "GitHub connector HTTP 403; public API rate limit 403; SSH readback succeeded",
+  "temporary_verification_repository": "/tmp/r08-remote-verification-pgh0o6e1"
+}
