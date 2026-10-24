@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "code_commit": "679659846c41e02c9db6d9f08f71a9e20057084e",
+  "remote_branch": "experiment/r09-evidence-fusion",
+  "remote_baseline_ref": "baseline/r09-fusion-20261024",
+  "remote_baseline_commit": "bdcf80cb9c54b29a82ee2d52b72a99948305954c",
+  "readback": "Fresh bare repository without shared/local objects; SSH fetch with blob filtering",
+  "complete_repository_tree_equal": true,
+  "remote_file_sha256": {
+    "roopf/evidence_fusion_agent.py": "63735568c02eb5a126121789eadfcd7ef904313d41439821593a7b067c8ff093",
+    "roopf/policy_api.py": "3728056972bd4c52fb18f7eab69b994c7dd4fbd2ca5b4725f9c504df9eac6998",
+    "scripts/run_r09_hardware.py": "bdd4ea4da1a59dce7e86d928a7c906ca6dc804516f3d587aac0e62b5967e4382",
+    "scripts/audit_r09_records.py": "ebf233f35030da9d8a822ff6d892f3e13935b909c33c4e66f460dbf91b4f8c04",
+    "experiments/r09_evidence_fusion/PROTOCOL.json": "691c27afc9a4d88e073a3b7ce0e55aec60423382746bf639b685639845b6f742",
+    "experiments/r09_evidence_fusion/engineering_checks/CHECKS.json": "48faccefe33f738b7ce6c96164d802c56aaa903e7639c50901aa02efd431af24"
+  },
+  "verified_at": "2026-10-24T17:25:42.428508+08:00",
+  "full_live_validation": false,
+  "full_run_started": false,
+  "user_will_launch": true,
+  "temporary_verification_repository": "/tmp/r09-remote-verification-1gcprva5"
+}
