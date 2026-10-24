@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "repository": "sunxixi0620-creator/ROOPF_correction",
+  "baseline_ref": "baseline/r08-matched38-20261024",
+  "baseline_commit": "bdcf80cb9c54b29a82ee2d52b72a99948305954c",
+  "experiment_ref": "experiment/r08-matched38-agent",
+  "implementation_commit": "03f0dc4b5e129ce673ada5bdff423d43768c9e48",
+  "push_was_atomic": true,
+  "force_used": false,
+  "api_credentials_published": false,
+  "historical_raw_archives_preserved_locally": true,
+  "verification_transport": "independent GitHub API readback after SSH atomic push",
+  "baseline_ref_verified": true,
+  "experiment_ref_verified": true,
+  "implementation_blob_checks": [
+    "roopf/matched38_agent.py",
+    "scripts/run_r08_hardware.py",
+    "experiments/r08_matched38_agent/PROTOCOL.json"
+  ]
+}

@@ -2,7 +2,7 @@
   "round": "R08 full joint LLM agent on matched38 default",
   "policy_id": "r08_matched38_default_full_joint_agent_v1",
   "parent_commit": "bdcf80c",
-  "implementation_status": "implemented_engineering_checks_passed_pending_full_live_run",
+  "implementation_status": "hardware_backend_requires_full_validation",
   "baseline_source_commit": "52ec388b7812214f98fbfd84624a1dd65a52a0d8",
   "functions": {
     "BBOB": 24,
@@ -64,7 +64,7 @@
   "primary_excludes_bbob20": true,
   "cec_reason": "original structured-system lock retained",
   "automatic_execution": true,
-  "api_and_full_runs_status": "not started",
+  "api_and_full_runs_status": "not yet complete",
   "limitations": [
     "Anchor temperature is not a guaranteed geometric search radius",
     "Original competing candidate retained but original trajectory is not guaranteed after intervention",
@@ -81,5 +81,26 @@
   "previous_frozen_results": "experiments/r07_hardware_accelerated_v1",
   "remote_baseline_ref": "baseline/r08-matched38-20261024",
   "remote_baseline_commit": "bdcf80cb9c54b29a82ee2d52b72a99948305954c",
-  "remote_baseline_status_at_freeze": "creation_pending_access_recovery"
+  "remote_baseline_status_at_freeze": "creation_pending_access_recovery",
+  "hardware_runtime": {
+    "device": "cuda",
+    "workers": 24,
+    "visible_devices": "0",
+    "batching": "fixed per-request trajectories and ensemble members; no cross-request merging",
+    "gpu_min_batch": 2,
+    "gpu_concurrency": 2,
+    "solver_device": "cpu",
+    "baseline_device": "cpu",
+    "cpu_threads_per_worker": 1,
+    "proxy_dtype": "float32",
+    "tf32": false,
+    "cuda_numerics_may_change_decisions": true,
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "python_executable": "/home/skq/.conda/envs/ooneurgo/bin/python",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.2.6",
+      "sympy": "1.14.0"
+    }
+  }
 }

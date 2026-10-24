@@ -1,0 +1,18 @@
+{
+  "status": "protocol_and_sources_frozen",
+  "time": "2026-10-24T13:54:03.938077+08:00",
+  "actual_api_attempts_at_check": 1,
+  "offline_policy_id": "r08_matched38_default_full_joint_agent_v1",
+  "remote_baseline_verified": true,
+  "records_sha256": {
+    "PROTOCOL.json": "490cc1dbc3f1c97f7a4fef768895646905ae9fca4c81b0cd94cbeb7f45ffbae1",
+    "COLLECTION_BINDING.json": "7f925654a851fc0fca3599e11adee0df43bb3db403e015dd3d2a06a196de1814",
+    "COLLECTION_SUMMARY.json": "9f435b2520188fb485e37dda6f379545e8eb0dff9d9b89ec58c88bf8f5a0bc25",
+    "CODE_BINDING.json": "e27cceb2e6a669ec8a766f75e4eac3aa22af32cb21d36a7821eaa8744691a962",
+    "offline_memory.json": "ed0ad5ab2b4b9e67031d5e32e1b383fb34e44e56c9ce853b21e78fc51c2a25f2",
+    "HELDOUT_CASES.json.gz": "6ebd3b79bd363734d9983aa68cc673c7e777d7dd7f721efc3e4051ccd0711016",
+    "HARDWARE_RUNTIME.json": "b4ceac8d76bdd0d70c88656088271ebc5fb297b3935f2e851ff104756485ccce",
+    "REMOTE_BASELINE.json": "90825d7c66f0b529c48f3c70e1c2123fb92422d7e9a24b677d32cbc2f91fa9cb",
+    "HARDWARE_20261024_134831_2175849.json": "a327a7d0a9fa09b49edbabb61fd9c7036214c7a34b42fd0e1969822931d90245"
+  }
+}
