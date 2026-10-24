@@ -1,0 +1,61 @@
+{
+  "status": "engineering_checks_passed",
+  "full_live_validation": false,
+  "actual_api_calls": 0,
+  "mocked_contract_checks": {
+    "all22_actions_decoded": true,
+    "strict_final_output": true,
+    "no_automatic_retry": true,
+    "max_concurrent_requests": 2,
+    "global_api_cap": true,
+    "exact_request_reuse": true,
+    "numerical_fusion_changes_selected_point": true,
+    "changed_distribution_residual_mask": true,
+    "request_size_contract": {
+      "contexts": 580,
+      "old_median_bytes": 48736.5,
+      "new_median_bytes": 10626.5,
+      "new_max_bytes": 12382,
+      "synthetic_extra_action_advantages_for_size_only": true
+    },
+    "actual_api_calls": 0
+  },
+  "exact_frozen_matched38_batches": [
+    "BBOB_f09_b00",
+    "BBOB_f20_b00"
+  ],
+  "offline_actions_verified": [
+    "matched38",
+    "release",
+    "anchor_sharp",
+    "anchor_soft",
+    "local_fine",
+    "local_wide",
+    "joint_sharp_wide",
+    "joint_soft_fine",
+    "matched38@online",
+    "matched38@residual_boost",
+    "anchor_sharp@online",
+    "anchor_sharp@residual_boost",
+    "anchor_soft@online",
+    "anchor_soft@residual_boost",
+    "local_fine@online",
+    "local_fine@residual_boost",
+    "local_wide@online",
+    "local_wide@residual_boost",
+    "joint_sharp_wide@online",
+    "joint_sharp_wide@residual_boost",
+    "joint_soft_fine@online",
+    "joint_soft_fine@residual_boost"
+  ],
+  "previous_round_records_and_sources_unchanged": true,
+  "source_sha256": {
+    "roopf/evidence_fusion_agent.py": "b9565fba6702ab8a3d16d7ca1be51124c450aa30ef5ac429563ad11c0962a786",
+    "roopf/policy_api.py": "a57c79e01adebf413f1831156005290068218556439ba1765d258fbac0a6916d",
+    "scripts/collect_r09.py": "07f4904cedf3660e63112abaecb0f20bd3549157b246bb00dabe21ff6fd4d739",
+    "scripts/experiment_r09_full.py": "cf75c25f5c3d3c775326ac3957c2b855a40bc5ca1d7834e3ba1780d993d781d8",
+    "scripts/run_r09_hardware.py": "dcd9bb1fb3333cad9ba186a784c827ff2f4188b3f48d8b5247cc4be03b32f212",
+    "scripts/report_r09.py": "6cf48c05e34ba68d555e958db3881c68627b69f0ce96578cdff80110e7572341",
+    "scripts/verify_r09.py": "2f4babf210b47088c86a800ef28f6cebe31e068ffcb4d53d6ad0df7ba2ffb85d"
+  }
+}

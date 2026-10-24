@@ -1,0 +1,104 @@
+{
+  "source_round": "r08_matched38_agent",
+  "attempts": 580,
+  "status_counts": {
+    "failed:length": 225,
+    "failed:None": 31,
+    "ok:stop": 324
+  },
+  "requests_already_sent_thinking_disabled": 580,
+  "identical_nonempty_content_and_reasoning_counts": {
+    "failed:length": 220,
+    "failed:None": 0,
+    "ok:stop": 0
+  },
+  "metrics": {
+    "failed:length": {
+      "request_bytes": {
+        "min": 45273,
+        "median": 48566,
+        "max": 58398
+      },
+      "elapsed": {
+        "min": 20.561165244987933,
+        "median": 25.27511903498089,
+        "max": 34.101396732003195
+      },
+      "prompt_tokens": {
+        "min": 16006,
+        "median": 16926,
+        "max": 20573
+      },
+      "completion_tokens": {
+        "min": 4096,
+        "median": 4096,
+        "max": 4096
+      },
+      "content_chars": {
+        "min": 17,
+        "median": 14887,
+        "max": 18128
+      },
+      "reasoning_chars": {
+        "min": 12122,
+        "median": 14909,
+        "max": 18128
+      }
+    },
+    "failed:None": {
+      "request_bytes": {
+        "min": 47198,
+        "median": 48342,
+        "max": 57315
+      },
+      "elapsed": {
+        "min": 1.7454754880163819,
+        "median": 7.003620596980909,
+        "max": 21.42113622301258
+      },
+      "content_chars": {
+        "min": 0,
+        "median": 0,
+        "max": 0
+      },
+      "reasoning_chars": {
+        "min": 0,
+        "median": 0,
+        "max": 0
+      }
+    },
+    "ok:stop": {
+      "request_bytes": {
+        "min": 44112,
+        "median": 49109.5,
+        "max": 59069
+      },
+      "elapsed": {
+        "min": 2.978601166018052,
+        "median": 9.52663112099981,
+        "max": 28.219647960999282
+      },
+      "prompt_tokens": {
+        "min": 15616,
+        "median": 17256.0,
+        "max": 20843
+      },
+      "completion_tokens": {
+        "min": 45,
+        "median": 746.5,
+        "max": 4055
+      },
+      "content_chars": {
+        "min": 156,
+        "median": 176.0,
+        "max": 246
+      },
+      "reasoning_chars": {
+        "min": 0,
+        "median": 3167.0,
+        "max": 16483
+      }
+    }
+  },
+  "interpretation": "Provider returned substantial reasoning despite disabled request. Truncated reasoning is not a valid policy. New transport/compact prompts are unvalidated with live provider until user full run."
+}

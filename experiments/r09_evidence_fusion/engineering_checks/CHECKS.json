@@ -1,0 +1,75 @@
+{
+  "status": "engineering_checks_passed",
+  "full_live_validation": false,
+  "actual_api_calls": 0,
+  "mocked_contract_checks": {
+    "all22_actions_decoded": true,
+    "strict_final_output": true,
+    "no_automatic_retry": true,
+    "request_identity_includes_paired_rng": true,
+    "unknown_outcomes_block_completion": true,
+    "max_concurrent_requests": 2,
+    "global_api_cap": true,
+    "exact_request_reuse": true,
+    "numerical_fusion_changes_selected_point": true,
+    "changed_distribution_residual_mask": true,
+    "request_size_contract": {
+      "contexts": 580,
+      "old_median_bytes": 48736.5,
+      "new_median_bytes": 10724.5,
+      "new_max_bytes": 12480,
+      "synthetic_extra_action_advantages_for_size_only": true
+    },
+    "actual_api_calls": 0
+  },
+  "exact_frozen_matched38_batches": [
+    "BBOB_f09_b00",
+    "BBOB_f20_b00"
+  ],
+  "offline_actions_verified": [
+    "matched38",
+    "release",
+    "anchor_sharp",
+    "anchor_soft",
+    "local_fine",
+    "local_wide",
+    "joint_sharp_wide",
+    "joint_soft_fine",
+    "matched38@online",
+    "matched38@residual_boost",
+    "anchor_sharp@online",
+    "anchor_sharp@residual_boost",
+    "anchor_soft@online",
+    "anchor_soft@residual_boost",
+    "local_fine@online",
+    "local_fine@residual_boost",
+    "local_wide@online",
+    "local_wide@residual_boost",
+    "joint_sharp_wide@online",
+    "joint_sharp_wide@residual_boost",
+    "joint_soft_fine@online",
+    "joint_soft_fine@residual_boost"
+  ],
+  "previous_round_records_and_sources_unchanged": true,
+  "source_sha256": {
+    "roopf/evidence_fusion_agent.py": "63735568c02eb5a126121789eadfcd7ef904313d41439821593a7b067c8ff093",
+    "roopf/policy_api.py": "3728056972bd4c52fb18f7eab69b994c7dd4fbd2ca5b4725f9c504df9eac6998",
+    "scripts/collect_r09.py": "07f4904cedf3660e63112abaecb0f20bd3549157b246bb00dabe21ff6fd4d739",
+    "scripts/experiment_r09_full.py": "9db69cb51745a6ef85f48ed8406c3fdad7797a4853efe529f596095545330159",
+    "scripts/run_r09_hardware.py": "bdd4ea4da1a59dce7e86d928a7c906ca6dc804516f3d587aac0e62b5967e4382",
+    "scripts/report_r09.py": "d5c64747e2eedba3b94a2a4d51336f09d4b47a4008840e493310b97cb9b3b71e",
+    "scripts/verify_r09.py": "966d090ceb2ff6ff357f45ab2b2a4423073c586a1a2705406e46a4c0a2792226",
+    "scripts/audit_r09_records.py": "ebf233f35030da9d8a822ff6d892f3e13935b909c33c4e66f460dbf91b4f8c04",
+    "scripts/worldcodes_request_r09.ps1": "34dc988c1c15dfc98afabe5713e532a4231f23b72d6e6ce66cd85b0a60e32735",
+    "scripts/run_r09_hardware.sh": "060f353c448b4086b238ddf069498a2e01a603fe1d6f29c7eddcc401ee5cb4bc"
+  },
+  "formatting_only_changes_after_checks": [
+    {
+      "path": "roopf/evidence_fusion_agent.py",
+      "before_sha256": "efa3c5d2f75a7c85cff17a47753e9488a7396a665b4cf69975f70fe5287f137a",
+      "after_sha256": "63735568c02eb5a126121789eadfcd7ef904313d41439821593a7b067c8ff093",
+      "identical_ast_sha256": "bbad4015367f84ed8e3d1d09bb82b21734c62b6caf86c9edb483fe7c1d827fa7",
+      "change": "Removed trailing empty line only; executed semantics unchanged"
+    }
+  ]
+}

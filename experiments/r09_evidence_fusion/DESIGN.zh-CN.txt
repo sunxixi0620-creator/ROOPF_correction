@@ -1,0 +1,157 @@
+R09：生成策略与离线／在线评分的联合融合控制
+
+状态：代码已实现，工程检查与全量实测分开记录。按用户要求，本轮完整真实LLM实验由用户在终端启动。
+engineering_checks/CHECKS.json明确记录actual_api_calls=0、full_live_validation=false。
+这些检查不能证明调用成功率提升或优化性能提升。最终效果以本轮全量结果为准。
+
+1. R08调用失败的证据
+
+580次请求中324次有效、256次失败。
+225次失败finish_reason=length，completion_tokens全部恰好4096；这不是合法的最终策略。
+其推理内容长度中位数14909字符。220次失败的content与reasoning_content逐字相同。
+580次请求全部已经发送thinking.type=disabled；这条转发链路没有稳定落实关闭思考的请求。
+仅从这些日志无法进一步确定问题位于供应商路由、适配层还是实际模型，不能宣称已经定位其内部实现。
+31次没有正常模型输出：26次服务不可用（503），5次连接失败。
+旧输入prompt_tokens中位数约1.7万；大量重复历史、上下文和冗余小数可能加剧输出负担，但日志不建立这种因果关系。
+详见R08_FAILURE_ANALYSIS.json；原始R08请求与结果没有改写。
+
+2. R08 Agent实际做了什么，为什么增益有限
+
+旧Agent在现有晚期阶段的第5、15个活动轮次各选择一次联合profile，每次持续5轮。
+profile调整竞争Anchor温度、最后几项局部候选的位移尺度，或显式选择原版release。
+LLM不训练Anchor/Residual的参数，也不直接预测当前候选真实目标。
+在线代理预测、离线Residual评分、来源误差惩罚和保护选择仍由数值程序执行。
+这些profile没有改变真正的Residual融合系数，因此旧Agent主要是生成策略控制器。
+
+有效响应的3240个轨迹动作中，2821个选择matched38，419个选择其他动作。
+完整Agent只选中81个经过生成调整的候选。主评估只有51/3400条轨迹最终最优值不同于matched38，胜21、负30。
+这说明干预覆盖及实际落点改变有限，并未建立LLM对matched38的额外收益。
+所有动作都继续保留；没有因为观察这些结果而删除负收益动作或修改测试集。
+
+3. R09的职责分工
+
+已评价档案及历史反馈 -> 在线代理、固定离线Residual、来源可靠性统计
+                              |
+训练函数的配对案例 -> 邻近案例摘要 -> LLM慢速策略控制
+                              |
+                生成策略G + 融合强度lambda，持续5轮
+                              |
+            数值候选生成 -> 数值融合评分 -> 原有保护选择
+                              |
+              真实目标评价 -> 历史统计／五轮回顾
+
+LLM控制有界策略；数值模型负责预测和计算；真实目标反馈只在点被实际评价后产生。
+当前候选还没有生成时，LLM看到的是截至上一轮的冲突和可靠性，不把它称为当前候选的真实表现。
+当前轮具体候选的mu、sigma、Residual评分由程序在生成之后计算。
+
+4. 输入
+
+每次请求包含一个固定10轨迹批次，各轨迹包括：
+  state：剩余预算、停滞、精英分散度、种群分散度、两者比值、近期Anchor收益、竞争槽边际收益、代理误差。
+  last_generation：上一轮重复候选比例、竞争Anchor熵／距离／修复情况、局部尺度。
+  last_fusion：上一轮代理与Residual排序是否冲突、Residual分散度、归一化预测不确定性、选中点的代理劣势、融合强度。
+  sources：已选点按来源统计的样本数、留存数、平均边际收益、代理误差及样本数、平滑排序正确率及有效样本数。
+  reviews：最多两个已完成的五轮回顾；实际进展不是动作的因果优势。
+  offline：三个不同生成函数的邻近案例形成的距离加权5／10轮收益摘要，含正收益邻居数和样本量。
+           固定展示默认动作及加权五轮收益最高3项、最低3项；其余动作仍可选，并非筛除动作。
+  neighbors：用于追溯的案例ID及距离。
+  allowed：本轨迹合法动作编码。
+
+数值摘要保留5位小数。保留完整未舍入上下文摘要哈希，防止不同完整状态因相同短摘要而碰撞。
+请求还绑定memory哈希及执行身份哈希。执行身份含函数、批次、初始种群哈希及求解器RNG哈希；
+这些函数标签只存在于本地审计记录，发给LLM的是不透明哈希。
+不传入测试候选的真实值、生成时的全池诊断真值或保留函数的离线标签。
+完整案例仍在本轮离线库和决策记录中，prompt只是有界摘要。
+
+5. 输出及其执行含义
+
+严格JSON示例：
+{"actions":[["0",0,1],["1",4,0]]}
+
+每行是[trajectory_id字符串, generation_id整数, fusion_id整数]。
+必须恰好覆盖输入全部轨迹，不能重复、缺失、越界或添加其他顶层字段。
+
+generation_id顺序：
+  0 matched38        温度1.0，局部尺度1.0，协同选择
+  1 release          显式原选择，仅允许fusion_id=1
+  2 anchor_sharp     温度0.8，局部尺度1.0
+  3 anchor_soft      温度1.25，局部尺度1.0
+  4 local_fine       温度1.0，局部尺度0.5
+  5 local_wide       温度1.0，局部尺度1.5
+  6 joint_sharp_wide 温度0.8，局部尺度1.5
+  7 joint_soft_fine  温度1.25，局部尺度0.5
+
+fusion_id顺序：
+  0 online          lambda=0：仅使用在线代理采集项及原有误差／重复惩罚
+  1 calibrated      lambda=1：原matched38的来源可靠性校准Residual融合
+  2 residual_boost  lambda=2：加倍上述支持分布内的Residual评分项
+
+共有8*3-2=22个合法组合。默认及失败回退均为[0,1]，即matched38。
+Residual增强不等于离线模型独立决策；在线代理项始终保留。
+Anchor温度改变特征权重集中度，不是保证的几何搜索半径。
+
+6. 数值融合细节
+
+设s_y为已评价档案目标值的总体标准差，w为原Residual权重，p为固定Residual输出。
+先撤销传入score中原来的Residual项，恢复online在线采集项。
+只在未改变生成分布的候选上归一化Residual，得到z_eligible(p)。
+q_source为来源历史中的平滑排序正确率，保持原matched38的统计方法。
+
+R = w * s_y * z_eligible(p) * (2*q_source)
+A_lambda = online - lambda*R + 0.02*s_y*redundancy + 0.02*s_y*source_error
+margin = 0.06 + 0.02*min(2, recent_mean_prediction_error)
+
+再调用原保护选择规则。保护Anchor、CEC结构锁、预算、38个竞争候选及单独的保护Anchor、时窗和门槛均保持原设置。
+被改变分布的Anchor变体及调整过尺度的候选不使用原分布Residual评分。
+release显式恢复原选择；其余动作使用上述有界融合。
+lambda=1和原始生成配置的路径必须逐评价复现冻结matched38。
+
+保留changed_points，同时增加：
+  nondefault_fusion_rounds：确实执行lambda!=1的轨迹轮次数。
+  fusion_changed_points：同一实际生成候选池中，lambda!=1相对lambda=1确实改变坐标的次数。
+第二项只描述同池评分改变，不宣称是相对完整matched38轨迹的因果收益。
+
+7. 调用可靠性改动
+
+默认仍请求deepseek-v4-flash，json_object，温度0，thinking.disabled。
+系统指令仅一份；输出只要求短整数策略，不要求解释或推理。
+输出预算由4096提高到8192，网络超时由旧35秒提高到90秒。
+这只是为未能稳定关闭的推理留出预算，不能保证供应商真正关闭思考或保证不再截断。
+长度截断一律不作为有效决策，不从reasoning_content提取或伪造动作。
+
+默认通过本机HTTP CONNECT代理127.0.0.1:7890直接发出请求，减少WSL到PowerShell桥接依赖。
+可在首次启动前明确选择--api-transport windows；它使用R09独立的90秒PowerShell桥。
+不会因网络错误自动切换传输、重试或追加付费请求。503／连接失败仍记失败并回退。
+全局锁只保留请求身份及额度登记，HTTP阶段用跨进程2槽并发限制，不再全局串行等待网络。
+600次上限、完整请求字节SHA256、一次逻辑请求一次记录、有效响应精确复用仍保留。
+存在未知pending响应时不重发；全量执行和最终审计拒绝把未知结果视为完整成功。
+API key从现有配置读取，仅放在认证头，不记录、不提交到仓库。
+
+8. 离线案例与完整实验
+
+新策略有22种动作，必须重新采集，R08案例不能直接改名作为新策略标签。
+仍是36个生成函数*4种子，每个状态对22动作做相同前缀的5／10轮配对比较，参考matched38。
+原7个保留函数继续隔离；不按验证效果筛除动作。
+离线真实目标评价上限预设3000000，单独统计，不计入正式测试每轨迹300次预算。
+
+正式实验保持35函数*100轨迹、D10、300次评价含初始100和原始配对种群／RNG。
+默认六臂off、matched38、anchor、local、retrieval、llm_live。
+anchor/local只是生成单侧控制，不是Full仅去掉离线／在线的两种消融；本轮不冒称已做该消融。
+主评估单列排除BBOB20；CEC结构锁保留。
+报告同时比较冻结原版和matched38，逐函数给出均值、总体标准差和配对胜平负。
+真实API、失败回退、token、供应商credit、native/cached评价以及实际改点均按原始记录统计。
+只有35函数全部结束、有效API与实际决策匹配、两套冻结对照及独立审计通过后，才能认定完整实验完成。
+
+9. 在用户终端运行
+
+conda activate ooneurgo
+cd /home/skq/repos/roopf_agent/ROOPF
+bash scripts/run_r09_hardware.sh all --workers 24 --api-concurrency 2 --progress-seconds 5
+
+该命令依次执行collect、memory、run、report、verify，包含全量新案例、真实LLM和最终独立核验。
+采集阶段不调用LLM；进入run阶段后开始真实API请求。不是缩减试跑。
+默认CUDA代理计算、2个GPU流、24个CPU进程，每5秒显示函数和算法批次进度、有效／失败／等待API、CPU／GPU资源及时间估算。
+启动时打印日志文件路径；stdout实时显示并通过tee保存到results/hardware_logs/。
+结果目录为experiments/r09_evidence_fusion/；R08及原工作区不覆盖。
+本机7890代理需按当前配置运行。若决定使用Windows系统代理，应在首次启动时加入--api-transport windows。
+同一实验开始后不改变参数；改配置使用新的--experiment-dir，保留旧目录。

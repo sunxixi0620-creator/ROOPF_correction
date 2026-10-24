@@ -1,0 +1,63 @@
+{
+  "status": "engineering_checks_passed",
+  "full_live_validation": false,
+  "actual_api_calls": 0,
+  "mocked_contract_checks": {
+    "all22_actions_decoded": true,
+    "strict_final_output": true,
+    "no_automatic_retry": true,
+    "request_identity_includes_paired_rng": true,
+    "unknown_outcomes_block_completion": true,
+    "max_concurrent_requests": 2,
+    "global_api_cap": true,
+    "exact_request_reuse": true,
+    "numerical_fusion_changes_selected_point": true,
+    "changed_distribution_residual_mask": true,
+    "request_size_contract": {
+      "contexts": 580,
+      "old_median_bytes": 48736.5,
+      "new_median_bytes": 10724.5,
+      "new_max_bytes": 12480,
+      "synthetic_extra_action_advantages_for_size_only": true
+    },
+    "actual_api_calls": 0
+  },
+  "exact_frozen_matched38_batches": [
+    "BBOB_f09_b00",
+    "BBOB_f20_b00"
+  ],
+  "offline_actions_verified": [
+    "matched38",
+    "release",
+    "anchor_sharp",
+    "anchor_soft",
+    "local_fine",
+    "local_wide",
+    "joint_sharp_wide",
+    "joint_soft_fine",
+    "matched38@online",
+    "matched38@residual_boost",
+    "anchor_sharp@online",
+    "anchor_sharp@residual_boost",
+    "anchor_soft@online",
+    "anchor_soft@residual_boost",
+    "local_fine@online",
+    "local_fine@residual_boost",
+    "local_wide@online",
+    "local_wide@residual_boost",
+    "joint_sharp_wide@online",
+    "joint_sharp_wide@residual_boost",
+    "joint_soft_fine@online",
+    "joint_soft_fine@residual_boost"
+  ],
+  "previous_round_records_and_sources_unchanged": true,
+  "source_sha256": {
+    "roopf/evidence_fusion_agent.py": "efa3c5d2f75a7c85cff17a47753e9488a7396a665b4cf69975f70fe5287f137a",
+    "roopf/policy_api.py": "3728056972bd4c52fb18f7eab69b994c7dd4fbd2ca5b4725f9c504df9eac6998",
+    "scripts/collect_r09.py": "07f4904cedf3660e63112abaecb0f20bd3549157b246bb00dabe21ff6fd4d739",
+    "scripts/experiment_r09_full.py": "6b30952cee3e9add6958227c7c2e1d2c8b98b2a9faa12ab8d09097818c872a67",
+    "scripts/run_r09_hardware.py": "0dacdc59708c860c8efa934e1a51941b7a6935413e0f78ac145850caf3ab120e",
+    "scripts/report_r09.py": "d5c64747e2eedba3b94a2a4d51336f09d4b47a4008840e493310b97cb9b3b71e",
+    "scripts/verify_r09.py": "119b11af9ab68f47e84800c02fb9748ba61e1ad0e08d425886a9c59ea4c621b2"
+  }
+}

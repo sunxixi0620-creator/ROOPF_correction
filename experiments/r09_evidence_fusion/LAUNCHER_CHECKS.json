@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-24T17:21:43.498834+08:00",
+  "actual_api_calls": 0,
+  "bash_syntax": true,
+  "python_compile": true,
+  "cli_help": true,
+  "powershell_parser": true,
+  "full_run_started": false,
+  "full_live_validation": false,
+  "source_sha256": {
+    "scripts/run_r09_hardware.sh": "060f353c448b4086b238ddf069498a2e01a603fe1d6f29c7eddcc401ee5cb4bc",
+    "scripts/run_r09_hardware.py": "bdd4ea4da1a59dce7e86d928a7c906ca6dc804516f3d587aac0e62b5967e4382",
+    "scripts/worldcodes_request_r09.ps1": "34dc988c1c15dfc98afabe5713e532a4231f23b72d6e6ce66cd85b0a60e32735",
+    "scripts/audit_r09_records.py": "ebf233f35030da9d8a822ff6d892f3e13935b909c33c4e66f460dbf91b4f8c04"
+  }
+}

@@ -51,3 +51,12 @@ experiments/r08_matched38_agent/archives/
 experiments/r08_matched38_agent/.run.lock
 experiments/r08_matched38_agent/*.log
 experiments/r08_matched38_agent/engineering_checks/raw/
+experiments/r09_evidence_fusion/collection/
+experiments/r09_evidence_fusion/results/
+experiments/r09_evidence_fusion/api_journal/
+experiments/r09_evidence_fusion/no_api/
+experiments/r09_evidence_fusion/collection_no_api/
+experiments/r09_evidence_fusion/archives/
+experiments/r09_evidence_fusion/.run.lock
+experiments/r09_evidence_fusion/*.log
+experiments/r09_evidence_fusion/engineering_checks/raw/
