@@ -1,0 +1,23 @@
+{
+  "status": "pending",
+  "attempts": [
+    {
+      "transport": "default SSH port22",
+      "result": "connection closed"
+    },
+    {
+      "transport": "SSH port443 without explicit identity",
+      "result": "permission denied publickey"
+    },
+    {
+      "transport": "SSH port443 project identity",
+      "result": "20 second timeout"
+    },
+    {
+      "transport": "GitHub connected plugin create_branch",
+      "result": "HTTP403 resource not accessible by integration"
+    }
+  ],
+  "desired_ref": "baseline/r08-matched38-20261024",
+  "baseline_sha": "bdcf80cb9c54b29a82ee2d52b72a99948305954c"
+}

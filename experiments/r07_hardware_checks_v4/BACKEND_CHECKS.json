@@ -1,0 +1,78 @@
+{
+  "status": "engineering_checks_passed",
+  "hardware": {
+    "status": "ready",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "gpu_memory_bytes": 17102864384,
+    "tf32": false,
+    "dtype": "float32",
+    "backend": "batched_cuda_ridge_v2",
+    "cuda_stream_workers": 2
+  },
+  "comparisons": [
+    {
+      "batch": 1,
+      "archive": 100,
+      "distance_scale": 0.15,
+      "constant_objective": false,
+      "normalized_errors": [
+        2.3747217710479163e-05,
+        1.636923298065085e-05
+      ]
+    },
+    {
+      "batch": 10,
+      "archive": 299,
+      "distance_scale": 0.15,
+      "constant_objective": false,
+      "normalized_errors": [
+        1.8743447071756236e-05,
+        1.2198116564832162e-05
+      ]
+    },
+    {
+      "batch": 10,
+      "archive": 100,
+      "distance_scale": 0,
+      "constant_objective": false,
+      "normalized_errors": [
+        6.318108353298157e-05,
+        5.8028395869769156e-05
+      ]
+    },
+    {
+      "batch": 1,
+      "archive": 200,
+      "distance_scale": 0.15,
+      "constant_objective": true,
+      "normalized_errors": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "concurrent_requests": 16,
+  "queue_grouping_bitwise_invariant": true,
+  "cpu_rng_unchanged": true,
+  "timings": [
+    {
+      "batch": 1,
+      "repetitions": 20,
+      "cpu_seconds_per_request": 0.0007547352492110804,
+      "gpu_ipc_seconds_per_request": 0.0020324738492490725,
+      "proxy_speedup": 0.3713382336948288
+    },
+    {
+      "batch": 10,
+      "repetitions": 20,
+      "cpu_seconds_per_request": 0.006895854600588791,
+      "gpu_ipc_seconds_per_request": 0.002690756150695961,
+      "proxy_speedup": 2.5627943278342733
+    }
+  ],
+  "actual_api_calls": 0,
+  "full_live_validation": false,
+  "optimization_improvement_claim": false
+}

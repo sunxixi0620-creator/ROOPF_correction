@@ -1,0 +1,4 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/verify_hardware_backend.py\", line 85, in main\n    assert all(pool.map(concurrent, range(16))), 'Queue-dependent CUDA predictions'\nAssertionError: Queue-dependent CUDA predictions\n"
+}

@@ -1,0 +1,18 @@
+{
+  "requests": 319000,
+  "gpu_batches": 319000,
+  "trajectories": 3190000,
+  "pinv_systems": 0,
+  "failures": 0,
+  "gpu_compute_seconds": 1350.322306466609,
+  "max_merged_requests": 1,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "gpu_memory_bytes": 17102864384,
+  "tf32": false,
+  "dtype": "float32",
+  "backend": "batched_cuda_ridge_v2",
+  "cuda_stream_workers": 2,
+  "status": "stopped"
+}

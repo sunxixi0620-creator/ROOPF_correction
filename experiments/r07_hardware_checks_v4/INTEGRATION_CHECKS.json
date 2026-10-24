@@ -1,0 +1,8 @@
+{
+  "status": "engineering_integration_passed",
+  "baseline_trajectories": 10,
+  "nfe": 300,
+  "paired_gpu_offline_branches": 2,
+  "actual_api_calls": 0,
+  "full_live_validation": false
+}

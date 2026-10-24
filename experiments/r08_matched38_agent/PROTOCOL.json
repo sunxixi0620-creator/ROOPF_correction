@@ -1,0 +1,85 @@
+{
+  "round": "R08 full joint LLM agent on matched38 default",
+  "policy_id": "r08_matched38_default_full_joint_agent_v1",
+  "parent_commit": "bdcf80c",
+  "implementation_status": "implemented_engineering_checks_passed_pending_full_live_run",
+  "baseline_source_commit": "52ec388b7812214f98fbfd84624a1dd65a52a0d8",
+  "functions": {
+    "BBOB": 24,
+    "CEC-style": 6,
+    "UAV": 5
+  },
+  "trajectories_per_function": 100,
+  "dimension": 10,
+  "nfe_including_initial_population": 300,
+  "initial_population": 100,
+  "arms": [
+    "off",
+    "matched38",
+    "anchor",
+    "local",
+    "retrieval",
+    "llm_live"
+  ],
+  "active_stage": "existing remaining<=0.30 stage, two slots, no structured-system lock",
+  "decision_steps": [
+    5,
+    15
+  ],
+  "action_duration_rounds": 5,
+  "competing_candidates": 38,
+  "extra_candidate": "original competing Anchor plus36 original-family candidates plus Anchor variant or independent native local proposal",
+  "protected_anchor": "unchanged generator call and protected head; only future population may change",
+  "anchor_temperatures": [
+    0.8,
+    1.0,
+    1.25
+  ],
+  "local_scales": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "local_slots": "last3 of6 trust-region and coordinate-pattern proposals; original centers, pre-repair displacements",
+  "profile_selection": "one Agent chooses a joint profile; all configured profiles available without validation filtering as requested",
+  "selection": "original structural protection plus source-specific empirical prediction error, redundancy relative to protected point, residual scoring only on unchanged-distribution candidates; no residual veto for adapted selector",
+  "candidate_risk_coefficient": 0.02,
+  "redundancy_coefficient": 0.02,
+  "normalized_near_distance": 0.01,
+  "acceptance_margin": "0.06+0.02*min(2,mean recent normalized selected prediction error)",
+  "statistical_claim": "heuristic scores; not calibrated confidence bounds or expected marginal improvement",
+  "offline_functions": 36,
+  "offline_seeds": 4,
+  "offline_contexts": "step5 on matched38-default trajectory; step15 after a seed-assigned prior intervention with matched38 as reference action",
+  "offline_horizons": [
+    5,
+    10
+  ],
+  "offline_split": "existing heldout7 generated functions excluded from retrieval, no performance screening",
+  "offline_native_fe_cap": 1000000,
+  "model_requested": "deepseek-v4-flash",
+  "provider": "https://worldcodes.online/v1/chat/completions",
+  "max_new_api_attempts": 600,
+  "workers": 4,
+  "primary_excludes_bbob20": true,
+  "cec_reason": "original structured-system lock retained",
+  "automatic_execution": true,
+  "api_and_full_runs_status": "not started",
+  "limitations": [
+    "Anchor temperature is not a guaranteed geometric search radius",
+    "Original competing candidate retained but original trajectory is not guaranteed after intervention",
+    "Generated-case diagnostics are separately charged and never supplied as current objectives to live Agent",
+    "Online outcome feedback is selection-biased and not causal",
+    "Third-party upstream model identity and billing currency are not independently established"
+  ],
+  "default_profile": "matched38",
+  "failure_fallback": "matched38",
+  "release_semantics": "explicit original-selection action; original release schedule outside decision windows",
+  "action_space": "all eight R07 profiles retained; no removed Anchor/local controls",
+  "offline_advantage_reference": "matched38",
+  "policy_selection_disclosure": "matched38 base chosen after inspecting R07 results; this is development validation, not a blind test",
+  "previous_frozen_results": "experiments/r07_hardware_accelerated_v1",
+  "remote_baseline_ref": "baseline/r08-matched38-20261024",
+  "remote_baseline_commit": "bdcf80cb9c54b29a82ee2d52b72a99948305954c",
+  "remote_baseline_status_at_freeze": "creation_pending_access_recovery"
+}

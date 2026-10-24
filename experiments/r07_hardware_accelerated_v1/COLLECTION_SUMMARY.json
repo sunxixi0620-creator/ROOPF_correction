@@ -1,0 +1,18 @@
+{
+  "status": "collected_not_performance_validated",
+  "episodes": 144,
+  "training_cases": 232,
+  "heldout_cases": 56,
+  "native_fe": 295140,
+  "policy_screening": false,
+  "retained_profiles": [
+    "release",
+    "matched38",
+    "anchor_sharp",
+    "anchor_soft",
+    "local_fine",
+    "local_wide",
+    "joint_sharp_wide",
+    "joint_soft_fine"
+  ]
+}

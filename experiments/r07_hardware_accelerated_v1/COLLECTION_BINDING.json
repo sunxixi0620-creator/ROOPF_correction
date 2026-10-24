@@ -1,0 +1,27 @@
+{
+  "code": {
+    "roopf/model.py": "a14ce778b3235f1c29093f55269e7ca12e7a233764b2a8f61bcb2bf5c092ffe3",
+    "roopf/fusion_agent.py": "e8db54d3487d34a78fdff0bf216aabd2c48881b81311d3202dad1e03d37e3960",
+    "roopf/fusion_rules.py": "88d9a2ba58ea44025bb9ca9444dbced1072f2631e9084a68d905166df1cd0c88",
+    "roopf/multistep_fusion_agent.py": "64794eb57943fc2cd6c82db89eba5826bd5a439c67c66d7b6dc5ed202d1a7908",
+    "run_roopf.py": "2165cc7626edbe9aabc4f667593214f95c8252cc6c0a75d43a9aedcb965a7aa6",
+    "scripts/experiment_r02.py": "a69ae62536c5778105b03a5ae43f57e27a978574201802a8308f05838433beff",
+    "scripts/worldcodes_request.ps1": "e380de906e717358132f17cf35a08bd732f0f5a95b0174c3c8b30acd6544fc18",
+    "scripts/experiment_r04_full.py": "3417041cec942b28132521469dc2921476e5e59dc4e99b47ea07cfb7d1704600",
+    "checkpoints/anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
+    "checkpoints/residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
+    "experiments/r02_fusion_agent/baseline_52ec388/release_model.py": "5312962f3864557e646a5532d88c76cc822616f49cf242dd04a13b151c648908",
+    "roopf/anchor_backbone.py": "bd78371712b09e4ee627cd57213a3a576808af7c156dd5f05036769f88b89e4b",
+    "roopf/joint_generation_agent.py": "a58bfc8000d2e2d7fa992ce071fa620990086aaa08ea4a48511e2a58c1201be2",
+    "scripts/experiment_r07_full.py": "a2033c1f645c599d84aaae6a60b6606e506e4494456334bbb867b735a7898df9",
+    "scripts/collect_r07.py": "80645aa6e0e939e0ff5573b1e0580b1d7c4b89dd9f8a0fd126d3c8fc5079b277",
+    "scripts/report_r07.py": "62cc320b01c8f9cf088fe2d4aa3b18314616c066b8510d90670c2d4c22a79f1f",
+    "scripts/experiment_r04.py": "2c71a47524c09e08092544ab63697d3447d5962ba0e52aab3d01b3e0327f70e5",
+    "experiments/r02_fusion_agent/training_assets/generated36_curated.py": "4f5ed4674925cccf6789e6edf0f0f3e95cf76529c89d21c7b787f4436ddcba68",
+    "scripts/hardware_backend.py": "ae1a0ad4bc363b92de6cf5f795b728a5c085bb5e84b71b01547aa412d226b1c1",
+    "scripts/run_r07_hardware.py": "7f392a86f6cf057a44699b017d36cd15d9cd637c572a6e56f4eba037054c257b",
+    "scripts/run_r07_hardware.sh": "908621256709c4b0b0a72a511f83fce6b414687b9df1ff9cda73dd761c139ee0"
+  },
+  "protocol_sha256": "62ab21f5f65bad95be4ac419f0cbb74c581057f8c02e6887eca7f106db0229f4",
+  "hardware_runtime_sha256": "75c11e1caa4f403664ec5d387188de75385a6d1d1017732b7813e98f82893b19"
+}

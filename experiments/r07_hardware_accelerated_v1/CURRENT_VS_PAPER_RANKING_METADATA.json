@@ -1,0 +1,94 @@
+{
+  "current_arm": "llm_live",
+  "historical_roopf_versions_in_ranking": false,
+  "other_algorithms_rerun": false,
+  "paired_comparison_with_paper_algorithms": false,
+  "criterion": "mean of per-function ranks of objective means; lower better; ties averaged",
+  "primary_bbob_excludes_f20": true,
+  "cec_original_offset_identity_confirmed": false,
+  "limitations": [
+    "Paper values have displayed precision; these are descriptive ranks, not significance tests.",
+    "BBOB20 retains original batch-coupled stochastic semantics and is reference only.",
+    "Algorithm sets differ between groups; no pooled ranking is calculated."
+  ],
+  "source_sha256": {
+    "experiments/r07_hardware_accelerated_v1/FUNCTION_COMPARISON.csv": "b82a85163aceb2ad2e57f3c709b73a0a1ab909b4d5d412d33ed48d569c44dc0f",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f01/COMPARISONS.csv": "bae18dd7cdb0455327cb53e001265469b8431c09fff36a91c34f06f6a76aa434",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f02/COMPARISONS.csv": "b8de744c2a8c95c5bb9fd327d3a08e4d34a367b6924d64ae767a312b26a0876a",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f03/COMPARISONS.csv": "ee84f98b1301f1fc6fa704627371560ea7c673086c3dbc5b4c28c9501d660b8d",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f04/COMPARISONS.csv": "60eeadddc5a89645c6f9570e4a42d3c43a6f144ad9fb4a858d812708f3f03900",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f05/COMPARISONS.csv": "45ddc036b42500a10ecd1f6777b7ae27e53684b51e4c5941e91e525a3ce7d1d5",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f06/COMPARISONS.csv": "a111ef5dcd236978daeba213b968ca8914b2c585b66585b8002b1b5367f42891",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f07/COMPARISONS.csv": "0a0747c3a25c6e5f36e615ce893a0b6940071048d040ed4e32883820e021d333",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f08/COMPARISONS.csv": "47297116d6e41823a41d485a794d7c62985dca9ca0285bb1bb3f7413c508fb98",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f09/COMPARISONS.csv": "53a5619b0ecd28d92db3431da3668c709f85485377a78e7fd7aa2e25c56dc7d4",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f10/COMPARISONS.csv": "79fe35a5b9716e6eed506b79cb263b030423ae7f776e03bc44658da512a3b5f2",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f11/COMPARISONS.csv": "fd5c0d50e9eb2334fbe85c6e067a1fb9d2045c68e31472eafc914259c25845b9",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f12/COMPARISONS.csv": "e824ba252e7dc286b935eb231934612c2d3845cefad131f484f5e3b2ac605ab9",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f13/COMPARISONS.csv": "5f1df9a08de3e28e3419e28a58f80367520c5a93539df5dddae910348222ffb2",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f14/COMPARISONS.csv": "a3a23f67b27428161429d65fbb5c48cee028d9adb1ff2946abfe31f9413e6560",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f15/COMPARISONS.csv": "c353e3ef3ad7d75a17c4b8ba9f17e0b92b7b3a3220c671a227b9e48589104b49",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f16/COMPARISONS.csv": "e57c6fdbb1e3358db28867470b556eede3ebc77ff04915e86435c52c037e971e",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f17/COMPARISONS.csv": "a3059ff286f8779eff47ef6c68a6ae6e2d4086daeccd2eab2fd629f76a5a21e3",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f18/COMPARISONS.csv": "eac1d78425128703492a45587a266e2a37d8000412fde40b85e82cd6823dfd2a",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f19/COMPARISONS.csv": "7afa64bd602ed424f1aeda4650bfc7fab498677c7ac4384e6dd72844d4e3a65a",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f20/COMPARISONS.csv": "436de2670c8f2b24d872a9e0dd823b7b62c416f1ef55b6c8c283909897b10541",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f21/COMPARISONS.csv": "6416f959576dc3e0e2f98c1dc297dfd55952dc2bc9eb4c124bee89e5ed945857",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f22/COMPARISONS.csv": "aa9e7bc86c87e5d10911eee34694351154943eca6743ccd18673316ad204e830",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f23/COMPARISONS.csv": "75e6e3071b9292f232c94808332c6be269ea837ce064fb141a337d6c306e17ef",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/BBOB_f24/COMPARISONS.csv": "a3b438aeb6938e2b45aa4da8f2db9cf69a4e621cf8444947e6388a36576348a8",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/CEC-style_f01/COMPARISONS.csv": "d35fe09a018ac8d4f9b75ed11888fba43b35a0805377da2736c2a1115e815244",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/CEC-style_f02/COMPARISONS.csv": "07198adff48d00e4bd4ac3a8ccc51024c24e4d9be8a391880596e4a1e97cf546",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/CEC-style_f03/COMPARISONS.csv": "a97618ff21c0513d41d9936c2d2b9b0bef816bfe6ece7188c3d1cfc7b406d900",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/CEC-style_f04/COMPARISONS.csv": "923b33501bb201defbf3ac08a3fcf9e2467fbd5c71d711c2290c8453ed68a9ef",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/CEC-style_f05/COMPARISONS.csv": "5d624f4cc2c6a18c049d2968f7d75846bc038ca7990cd19653572aeef31a647e",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/CEC-style_f06/COMPARISONS.csv": "000408de28d76088d50f8fbdb1b99b3b92c99c69d684ab8308274bcf882ea4aa",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/UAV_f01/COMPARISONS.csv": "b814d8ffb41735f48414e27ce0d2e38deb2e00820311ae3b4a38831179a21bd5",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/UAV_f02/COMPARISONS.csv": "f62a9018d059e459cd1d54b5a9d4a50fa40fd31c4c795bd44c1fefd002c62b36",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/UAV_f03/COMPARISONS.csv": "592e958fa24fe76f434985c66c000ed2a11f7a0f2ad86ac672cd543a6ddb0457",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/UAV_f04/COMPARISONS.csv": "35b9bcd6360027a5f9125af54c57eb13d78ea0a33da0a51db9d83ff3e9fa3b84",
+    "experiments/r02_fusion_agent/baseline_52ec388/docs/revision/zip_replication820_results/UAV_f05/COMPARISONS.csv": "6341bf98e56700d8e99efc9e6856e3251824a62d5c131464c05283973c01102c"
+  },
+  "current_summaries": [
+    {
+      "scope": "BBOB23_primary",
+      "method": "Current Full",
+      "functions": 23,
+      "methods": 15,
+      "average_rank": 2.739130434782609,
+      "overall_rank": 2.0
+    },
+    {
+      "scope": "BBOB24_paper_reference",
+      "method": "Current Full",
+      "functions": 24,
+      "methods": 15,
+      "average_rank": 2.7083333333333335,
+      "overall_rank": 1.5
+    },
+    {
+      "scope": "UAV5",
+      "method": "Current Full",
+      "functions": 5,
+      "methods": 10,
+      "average_rank": 5.8,
+      "overall_rank": 6.0
+    },
+    {
+      "scope": "CEC6_instance_unconfirmed_reference",
+      "method": "Current Full",
+      "functions": 6,
+      "methods": 15,
+      "average_rank": 1.0,
+      "overall_rank": 1.0
+    },
+    {
+      "scope": "BBOB20_stochastic_reference",
+      "method": "Current Full",
+      "functions": 1,
+      "methods": 15,
+      "average_rank": 2.0,
+      "overall_rank": 2.0
+    }
+  ]
+}

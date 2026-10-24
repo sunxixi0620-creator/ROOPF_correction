@@ -1,0 +1,71 @@
+scope,method,functions,methods,average_rank,overall_rank
+BBOB23_primary,HEBO,23,15,2.652173913043478,1.0
+BBOB23_primary,Current Full,23,15,2.739130434782609,2.0
+BBOB23_primary,TuRBO,23,15,3.5217391304347827,3.0
+BBOB23_primary,DE,23,15,5.608695652173913,4.0
+BBOB23_primary,EGO,23,15,5.804347826086956,5.0
+BBOB23_primary,POM,23,15,6.0,6.0
+BBOB23_primary,B2Opt,23,15,7.3478260869565215,7.0
+BBOB23_primary,SACOSO,23,15,8.282608695652174,8.0
+BBOB23_primary,PSO,23,15,8.391304347826088,9.0
+BBOB23_primary,Surr-RLDE,23,15,8.434782608695652,10.0
+BBOB23_primary,GA,23,15,10.847826086956522,11.0
+BBOB23_primary,SHADE,23,15,11.58695652173913,12.0
+BBOB23_primary,LGA,23,15,12.847826086956522,13.0
+BBOB23_primary,LES,23,15,12.934782608695652,14.0
+BBOB23_primary,CMA-ES,23,15,13.0,15.0
+BBOB24_paper_reference,Current Full,24,15,2.7083333333333335,1.5
+BBOB24_paper_reference,HEBO,24,15,2.7083333333333335,1.5
+BBOB24_paper_reference,TuRBO,24,15,3.5,3.0
+BBOB24_paper_reference,DE,24,15,5.666666666666667,4.0
+BBOB24_paper_reference,POM,24,15,5.791666666666667,5.0
+BBOB24_paper_reference,EGO,24,15,5.8125,6.0
+BBOB24_paper_reference,B2Opt,24,15,7.25,7.0
+BBOB24_paper_reference,SACOSO,24,15,8.354166666666666,8.0
+BBOB24_paper_reference,PSO,24,15,8.375,9.0
+BBOB24_paper_reference,Surr-RLDE,24,15,8.458333333333334,10.0
+BBOB24_paper_reference,GA,24,15,10.854166666666666,11.0
+BBOB24_paper_reference,SHADE,24,15,11.604166666666666,12.0
+BBOB24_paper_reference,LGA,24,15,12.854166666666666,13.0
+BBOB24_paper_reference,LES,24,15,12.979166666666666,14.0
+BBOB24_paper_reference,CMA-ES,24,15,13.083333333333334,15.0
+UAV5,PSO,5,10,1.8,1.0
+UAV5,GA,5,10,2.2,2.0
+UAV5,CMA-ES,5,10,2.8,3.0
+UAV5,POM,5,10,3.8,4.0
+UAV5,Surr-RLDE,5,10,4.6,5.0
+UAV5,Current Full,5,10,5.8,6.0
+UAV5,B2Opt,5,10,7.4,7.0
+UAV5,SHADE,5,10,8.0,8.0
+UAV5,Random Search,5,10,8.8,9.0
+UAV5,DE,5,10,9.8,10.0
+CEC6_instance_unconfirmed_reference,Current Full,6,15,1.0,1.0
+CEC6_instance_unconfirmed_reference,HEBO,6,15,2.3333333333333335,2.0
+CEC6_instance_unconfirmed_reference,POM,6,15,3.6666666666666665,3.0
+CEC6_instance_unconfirmed_reference,B2Opt,6,15,4.666666666666667,4.5
+CEC6_instance_unconfirmed_reference,EGO,6,15,4.666666666666667,4.5
+CEC6_instance_unconfirmed_reference,TuRBO,6,15,5.333333333333333,6.0
+CEC6_instance_unconfirmed_reference,PSO,6,15,6.833333333333333,7.0
+CEC6_instance_unconfirmed_reference,Surr-RLDE,6,15,8.166666666666666,8.0
+CEC6_instance_unconfirmed_reference,SACOSO,6,15,8.333333333333334,9.0
+CEC6_instance_unconfirmed_reference,LGA,6,15,10.666666666666666,10.0
+CEC6_instance_unconfirmed_reference,GA,6,15,11.0,11.0
+CEC6_instance_unconfirmed_reference,SHADE,6,15,11.833333333333334,12.0
+CEC6_instance_unconfirmed_reference,DE,6,15,13.166666666666666,13.0
+CEC6_instance_unconfirmed_reference,LES,6,15,14.0,14.0
+CEC6_instance_unconfirmed_reference,CMA-ES,6,15,14.333333333333334,15.0
+BBOB20_stochastic_reference,POM,1,15,1.0,1.0
+BBOB20_stochastic_reference,Current Full,1,15,2.0,2.0
+BBOB20_stochastic_reference,TuRBO,1,15,3.0,3.0
+BBOB20_stochastic_reference,HEBO,1,15,4.0,4.0
+BBOB20_stochastic_reference,B2Opt,1,15,5.0,5.0
+BBOB20_stochastic_reference,EGO,1,15,6.0,6.0
+BBOB20_stochastic_reference,DE,1,15,7.0,7.0
+BBOB20_stochastic_reference,PSO,1,15,8.0,8.0
+BBOB20_stochastic_reference,Surr-RLDE,1,15,9.0,9.0
+BBOB20_stochastic_reference,SACOSO,1,15,10.0,10.0
+BBOB20_stochastic_reference,GA,1,15,11.0,11.0
+BBOB20_stochastic_reference,SHADE,1,15,12.0,12.0
+BBOB20_stochastic_reference,LGA,1,15,13.0,13.0
+BBOB20_stochastic_reference,LES,1,15,14.0,14.0
+BBOB20_stochastic_reference,CMA-ES,1,15,15.0,15.0

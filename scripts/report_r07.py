@@ -1,4 +1,5 @@
 import csv
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import gzip
 import json
 from pathlib import Path
@@ -12,7 +13,27 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 import experiment_r07_full as run
 
 
-def main():
+def archive_results(source_directory, archives, workers=1, progress=None):
+    archives.mkdir(exist_ok=True)
+    sources = sorted(path for path in source_directory.iterdir() if path.is_dir())
+
+    def pack(source):
+        target = archives / (source.name + '.tar.xz')
+        with tarfile.open(target, 'w:xz') as archive:
+            archive.add(source, arcname='results/' + source.name)
+        return target
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = [pool.submit(pack, source) for source in sources]
+        for completed, future in enumerate(as_completed(futures), 1):
+            target = future.result()
+            if progress:
+                progress(completed, len(sources), target.name)
+    return {str(path.relative_to(archives.parent)): run.legacy.digest(path.read_bytes())
+            for path in sorted(archives.glob('*.tar.xz'))}
+
+
+def main(archive_workers=1, archive_progress=None):
     identity = run.binding()
     arms = run.settings()['arms']
     rows, traces, totals = [], [], {arm: dict(native_fe=0, cached_fe=0, changed_points=0,
@@ -93,13 +114,7 @@ def main():
         '所有配置均保留，未按验证性能筛选；无LLM、Anchor单侧、局部单侧与等候选数对照分别列出。']
     (run.EXP / 'REPORT.zh-CN.txt').write_text('\n'.join(lines) + '\n')
     archives = run.EXP / 'archives'
-    archives.mkdir(exist_ok=True)
-    for source in sorted((run.EXP / 'results').iterdir()):
-        if source.is_dir():
-            with tarfile.open(archives / (source.name + '.tar.xz'), 'w:xz') as archive:
-                archive.add(source, arcname='results/' + source.name)
-    manifest = {str(path.relative_to(run.EXP)): run.legacy.digest(path.read_bytes())
-        for path in sorted(archives.glob('*.tar.xz'))}
+    manifest = archive_results(run.EXP / 'results', archives, archive_workers, archive_progress)
     run.legacy.write_json(run.EXP / 'ARCHIVE_MANIFEST.json', manifest)
     print(json.dumps(dict(status=summary['status'], comparisons=summary['comparisons']), ensure_ascii=False))
 

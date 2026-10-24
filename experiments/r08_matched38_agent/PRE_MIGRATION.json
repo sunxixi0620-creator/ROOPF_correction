@@ -1,0 +1,40 @@
+{
+  "parent_head": "bdcf80c",
+  "source_sha256": {
+    ".gitignore": "dabf98be82f617cd5ca6e752a0927da6b62cb97532cfd5ba62a6f488e23d9bbf",
+    "scripts/report_r07.py": "62cc320b01c8f9cf088fe2d4aa3b18314616c066b8510d90670c2d4c22a79f1f",
+    "docs/HARDWARE_RUN.zh-CN.md": "92d1ce9427e8341d22e024a567b90ac9d995edd9ba6a0c77e4e7b440eb89fd15",
+    "scripts/hardware_backend.py": "ae1a0ad4bc363b92de6cf5f795b728a5c085bb5e84b71b01547aa412d226b1c1",
+    "scripts/run_r07_hardware.py": "7f392a86f6cf057a44699b017d36cd15d9cd637c572a6e56f4eba037054c257b",
+    "scripts/run_r07_hardware.sh": "908621256709c4b0b0a72a511f83fce6b414687b9df1ff9cda73dd761c139ee0",
+    "scripts/verify_hardware_backend.py": "cdf47fbd6c2bb0eeceb526ffc3610541d9169649b2ff8156fd888372214bfd9a",
+    "roopf/model.py": "a14ce778b3235f1c29093f55269e7ca12e7a233764b2a8f61bcb2bf5c092ffe3",
+    "roopf/joint_generation_agent.py": "a58bfc8000d2e2d7fa992ce071fa620990086aaa08ea4a48511e2a58c1201be2",
+    "scripts/collect_r07.py": "80645aa6e0e939e0ff5573b1e0580b1d7c4b89dd9f8a0fd126d3c8fc5079b277",
+    "scripts/experiment_r07_full.py": "a2033c1f645c599d84aaae6a60b6606e506e4494456334bbb867b735a7898df9"
+  },
+  "previous_scientific_records_sha256": {
+    "experiments/r07_hardware_accelerated_v1/ARCHIVE_MANIFEST.json": "49615c65bb8672ebe351a3e867738901f6d4d152c16215074aa89e92f74d1842",
+    "experiments/r07_hardware_accelerated_v1/HARDWARE_API_EXECUTION_AUDIT.json": "7ddaf3f3c293d225f15cea495156159ca36f91a14148a13917fe2b5a6d28ae23",
+    "experiments/r07_hardware_accelerated_v1/HARDWARE_20261023_170758_1305458.json": "a327a7d0a9fa09b49edbabb61fd9c7036214c7a34b42fd0e1969822931d90245",
+    "experiments/r07_hardware_accelerated_v1/COLLECTION_BINDING.json": "ca3a8387d9e1fbd2d24367451580e454833471485db5323b59d95c004de96000",
+    "experiments/r07_hardware_accelerated_v1/CODE_BINDING.json": "6c21baed6e513c1f8525867d009a9727d89cc131229864d8ae6cc4a16891681b",
+    "experiments/r07_hardware_accelerated_v1/REPORT.zh-CN.txt": "5811da2ec3874e3cbd03008dc27266ab2e4408bd590e16ec96d8113c16aae1de",
+    "experiments/r07_hardware_accelerated_v1/GPU_STATS_20261023_170758_1305458.json": "cb89eff4a51359568f59ba103a274d46a1f0e73108305e323f3cd770afee878e",
+    "experiments/r07_hardware_accelerated_v1/offline_memory.json": "d12b4b70e4be3d511ff31e289f678b781508ced49dad80806523444ed50f83c3",
+    "experiments/r07_hardware_accelerated_v1/HARDWARE_RUNTIME.json": "b4ceac8d76bdd0d70c88656088271ebc5fb297b3935f2e851ff104756485ccce",
+    "experiments/r07_hardware_accelerated_v1/TRAJECTORY_COMPARISON.csv": "ec1c73eb37aece3fcb3310ba8e793fa757c2102d14eb26051ba131b30d0d537e",
+    "experiments/r07_hardware_accelerated_v1/.run.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/r07_hardware_accelerated_v1/PROTOCOL.json": "62ab21f5f65bad95be4ac419f0cbb74c581057f8c02e6887eca7f106db0229f4",
+    "experiments/r07_hardware_accelerated_v1/HELDOUT_CASES.json.gz": "47e7be89a47ca68f2db21ab84f45a16b4958ed8c4ef65abb458e5cbac3e54bcf",
+    "experiments/r07_hardware_accelerated_v1/CURRENT_VS_PAPER_RANKS.csv": "82e3dd90d9529c78e90b166618f58eacd4b564f587e8b3b23eb114f9a9aae19c",
+    "experiments/r07_hardware_accelerated_v1/CURRENT_VS_PAPER_RANKING_METADATA.json": "3dde56361c8bbbc34cf4eed85d4d7af1fb8826e1ddf3ba5b6f41f6bfc6d312a8",
+    "experiments/r07_hardware_accelerated_v1/FUNCTION_COMPARISON.csv": "b82a85163aceb2ad2e57f3c709b73a0a1ab909b4d5d412d33ed48d569c44dc0f",
+    "experiments/r07_hardware_accelerated_v1/COLLECTION_SUMMARY.json": "e12d55a01dcac9d7cafa4c212846bd629692359049b240bf861619305f6e9ece",
+    "experiments/r07_hardware_accelerated_v1/CURRENT_VS_PAPER_FUNCTIONS.csv": "6a8dc465d4a69d2421e7973cee835727741b6c978b3006251890b504e6561dd7",
+    "experiments/r07_hardware_accelerated_v1/PROGRESS.jsonl": "410ebe82039b78702e17e6a0c59a6dda3e73987359343155a9066df6712dfb2a",
+    "experiments/r07_hardware_accelerated_v1/FINAL_RESULT.json": "87793805e8784d11c5723c2270d02cae209f3858c6924ec923e68d039129f7ab"
+  },
+  "previous_raw_evidence_preserved": true,
+  "policy": "matched38 default and failure fallback, retain full LLM controls"
+}

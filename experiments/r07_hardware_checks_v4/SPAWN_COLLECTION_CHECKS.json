@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "completed_tasks": 2,
+  "workers": 2,
+  "complete_counterfactual_branches": true,
+  "cpu_small_task_dispatch": true,
+  "real_api_calls": 0,
+  "full_live_validation": false
+}

@@ -1,0 +1,1697 @@
+{
+  "status": "passed",
+  "attempts": 580,
+  "valid": 475,
+  "failures": 105,
+  "consumed_valid_responses": 475,
+  "matched_executed_batches": 475,
+  "fallback_request_batches": 105,
+  "fallback_trajectory_decisions": 1050,
+  "unused_valid_responses": [],
+  "provider_reported_billing_fields": [
+    {
+      "field": "fc5f6cc74905c78c1cd3fd4536342ad4510977f8402ad6b5ae2b87c348736fec.usage.credit",
+      "value": 1.59
+    },
+    {
+      "field": "5d23543a09c7d9795faf84293712cfddf63e3876959b75afd650cab9e1de83aa.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "0668fd16c92d05b70491bc8918f44e5d91b9fdfa36cea23b2118c40540f7b905.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "36daf81c32d2e27a8c3aaf49b938a69f3407dedbc9d87dcd1b40ef0ad1875afb.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "55a6694abf7aac87a97db2a1b694bc7f3513555b136aabd22d75871f2607464c.usage.credit",
+      "value": 1.53
+    },
+    {
+      "field": "07dd72303d1ba166fac9d878556e2c1f62dacf269004c9c968ce5fef5cfe00d9.usage.credit",
+      "value": 0.76
+    },
+    {
+      "field": "cf5c6bbc22a2c74a0266031f9ede792f0dd03db2015442274a22078033572e46.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "aad61456bcfb5703d9785786873cf373355984c6c1f635bc02d6cc1397c4a5e7.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "b3d9d522b62ef6501c9ae886ffe64d9fb010c25836de7f98514db2f7c82c961b.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "13e876eee4953170e36670ccd7ba64f2dadecf8aec812278a215d0d3e3ad06e5.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "284aa4e6b5a3a901de8bdc7b405d052e9cff6d426b890a13e817f344c3cc45b4.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "5e2b42d32913fa57cdda277e7f7674f6520ca59d9750733937085b6a0d6e3059.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "60c30c5320c8d13299861b6379b19631632c4fa1f8a3e5342209db9eb3ed88b8.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "393fbfd4e42210d3ab9f75eae222a78ba17552bb669ec026584df65bc634f7bc.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "3d01302447dfe3c50fd829561c45f9774e8966a6eea48d18c0484673582835f0.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "faac41754bd5f161de469464c5d209d92f09f6652baeda6ead657895dc3f36c1.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "952e6c5c136637d42488dfd6e5eb4c3022c3fc1d79b13b0e0f8696bd9178eb8a.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "33b07dcf37f4bb90f77633aa55641eda8d23c8f5d53b2d1b5491449d06b4d322.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "79c062f15d3df4032b2d8179931d31e56b93e087bc34f9dede9d786e2749d423.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "6327b3d2d7f22c1a6ac2c1012188fa8ec71ffe594b048927e897a6ff52859275.usage.credit",
+      "value": 0.68
+    },
+    {
+      "field": "c577ac00b573fcac6e15939143a0a5bb42a9d7c234e698c174869045c1baf2a3.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "242602f75e2a53c86fc088ec7c3363bb13f8e8410fcfd590c623f4941e8eb5c1.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "44e163fab8cc0c6b34d7ec79be7f2fc65c837df787d20673546ecaad544eab88.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "7b979c3da17b684db5b3958d29ebae7af99aca6ac56b0c3e2e3b84ca06230bfc.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "5b178adf13052eaca3e20ee797b794ee1ffd01482bd1e2120896f2379602d6a9.usage.credit",
+      "value": 1.56
+    },
+    {
+      "field": "3b8a4c63af9630e1f4262666e7b76023df4f2fc9ad5c75e5fa21a74999cf20ef.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "db2ae197176db79d34c15eb4f194587f58e8f9f45d72175c50c37f2dfdca4fe3.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "19ec18168db0ab85b55508ec5abaa276a529b7ce330a228b3fa6a45344dbd752.usage.credit",
+      "value": 1.4
+    },
+    {
+      "field": "badc42eaf65d932be6923e4268a735a79f2374b14e33f0cbdf2d70510ec19876.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "7f5c941fd375fb0ff6a5319a5cd1bc98e7c6a30f83cae8f61c2f504cc0ec820a.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "638e312c2130e8dcfaa10ec95d9a554dbaf2e6cd0b2b21523e0a5d3ca7536e52.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "e60bfe1bfcfa0b8292cf550f709ea4bc78ef10110d91af392acd70e7e8f4123b.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "c938a27208d13784ac61e21a0e9b56ff47b25157b9cd8092bf49653784c18b4b.usage.credit",
+      "value": 0.84
+    },
+    {
+      "field": "6a64cae465dca62c8420189672645dfe5bef00dadc00edd7a0c29268e63e19b9.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "d406fc8b9f2876ec6343064b998395d6348314d5c21abb75c30896ed369913ff.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "cc10cc140ceb4e66bce830c9c03c50e4a1609bc71379349841f81faca7a0e7dd.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "360af80f7cc3e5e7218a84d6cb38e96a9f6f0b0d594908212d304a15e456a41f.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "18f6ee86738bc03625412fb463b186b317fc367a5592adec9100e091ff6ca64c.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "733f1c4f27dd976051fb540e4eb29106844ca0a0b00ff5d0b548e1f02a49cdaa.usage.credit",
+      "value": 1.53
+    },
+    {
+      "field": "2d03860b4874bdc28d6846d3bb39ca0460c5e865b5dbdfa0ac594b343bcaee00.usage.credit",
+      "value": 1.54
+    },
+    {
+      "field": "e42bd5feef8bb66b442bac30ad07ad3d6c55d5d4357bf92e16abd2ade36c2024.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "3bf04e448e3c010fa5471417f5cceead8a54f6e3025d09bacdce7a07b586b5c4.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "bb2ab3ffbf30e98045e4cf547e4bc980793e6b77d49d1a99f36a62a2a5d96e8f.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "1ecb7195e3a5ba7c1d01459286dfdcf20e8674f9ddfc088e1c1237c46754d4af.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "c3042a2cb7e136027338e7b70954da6aa9679f5d74a60d1389e997fff93df349.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "b8dafb7d3115c1fe04d37b6ffb47f50b929acae34178932f24c67e9ac34be1ff.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "5f575a547fa908f1cb0708ddb52f3d8d34826677be11e0092d29976b87c504de.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "d949fff7e468518c47bc49f6ff25c5fa1c2132b0b102b953ad0958cdd6e43c2e.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "73554bab711780856ae7e36aba49a730ffa90891d7beb1fb14a6bd5461918cb2.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "736fd50bbeda08ff56ad0344d24249cff880eca86464260578308b699cf4e5b9.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "0e8c624dd11452226e68f44ca0663a0136e5c12cace4ffc0e7b16bbea95c94cc.usage.credit",
+      "value": 1.5
+    },
+    {
+      "field": "150023d7a55d5281cbe3298799344805135d274f7c7d40db00276c795574df1a.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "7f9334f17edc26f0dd93bc4d4967dc815f3855ca3a12bb6b6a6fb53abb0e80bf.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "c223d16e0c363804febf6b13db35b325cb4069cfce490dcc10e3102403e82ad3.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "dfccb4266a759b79abeb0bb40f2a066ccb7715febbcea3e0595cd8e3d3cf4452.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "ff1ef4e66f66c8005500d82887ab9e73c143a0ecf04f16cd6cd3fd0b2a4662cc.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "df133df1712bd60394c9051fc6ef3f64f9ef06a881e0fbba60395bb1527bbd09.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "a55a3b9955571cf03276ead0ed201831fc876ae9164d7d323d7432f0689020d8.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "7d8d82eb0eb56d716c24f903e96b9b2664f2b2336735144ca87044124a306948.usage.credit",
+      "value": 1.51
+    },
+    {
+      "field": "d98ce1094da0f40d36f3278d57cce7819871d079d4533d81b108f22531398ad6.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "b5f06074c07f4ab12cc4b7f3324286b435c85581db4147bf9655e672b86ed0c0.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "b2ec98e22bd5fcc3bdb9994c462d17ea138a34e724e96152ddefff4874787711.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "1f507d84a3a2c1a095ea59aef044e8606e2bb304b864d5862dc0c7766f5d4c04.usage.credit",
+      "value": 0.76
+    },
+    {
+      "field": "9a46436fe4fcd1cc21d7ba50a1ec0bcc3b9ec365920fc33425a1930268f22721.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "7347109db8364b33e9af52348b32f3038e2110e0c7cfe6f66f1438d773d0824b.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "c966cdbca7651b06676e31a70b0595af8a318e38ee20f13a7a8f55e1373535be.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "db2f8787bf1ef69fae757493b99936cc0de323ad9a03ad048a8ad290c832897f.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "8b7fe417d0e6612f8602365aa4806a8b539662ffbea909a359670c24e29d3b16.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "4660fc58a4225372e62b41b1baf4089d040a336aad3ad4d60df968e3cf8cf797.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "b0a7dd629202a6f7b76b8d5337721f4a450bc5355267683ac8b3d682a6b68241.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "7875013057f45ebe8209e9945259e1bd8ced633f6f0f0e479ab3b2806e0df6ab.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "1d7bda238bd13196285a1dbea0af978d511b9203de17e3b41fdc6eb1fccbb8ae.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "56d400888bcea2abcb57a94ace806a96f20c3f0812832fb9557de7144f76143e.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "ba337f1633fed5fbb9ba1c1f46cd90fd829532747e80a6f3374a959ae4b40e37.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "691e5d4ae861d56faa66f0801966a3f9bbdf448bb23effd7b5541ac79af9d011.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "e2fd009804569267aea51848b059033f6dea610636b7c68b5948bd54b9cde4f0.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "6d9dbb88b139fb7ce37c57980692b244f38bb249e0ecafa778a471799d36466b.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "7843b29d08e05a3f119dfd2d6d9f727149ca9784f6abef56a1c9a46fcc812466.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "72069d470a4da57f94e8abe667a80d981b921369f1c8f12de0ee81c7846d9df0.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "4a3a679a3611dc08659ea78e14534edc03bfc114107e430d90c18421af6d38c0.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "e61257b084594597df5ee11636d61a86db88690b38b4c9d276d4309ce4404c8d.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "47244eef35bc0c0372c669a84068cbc4973e47bdfb3572dc0da2eb600a686698.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "4798284e5932dce6614d5f1cb426d44ded02ca5370019c53e98f09529b308fa9.usage.credit",
+      "value": 0.85
+    },
+    {
+      "field": "244382c9656b10a4161e11914ef4f91ec6e028ef4a2509d07eca68b899c74f38.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "2b14ccfc326d33b2a6b8938405af7201653fb1c983ea70a7ffd1935e762859b6.usage.credit",
+      "value": 1.37
+    },
+    {
+      "field": "dba977331db03c5a09e7f19d121e18519a6b788f2a91a2f5e25351f97d8dc418.usage.credit",
+      "value": 1.36
+    },
+    {
+      "field": "abdb4fe6562964ab3af2a9d095c93388a2c755c3504d4b535d7842279e24bf03.usage.credit",
+      "value": 1.51
+    },
+    {
+      "field": "d569708b3a6ea8f9006f6a25a1d8720203264d9164003571dc8e20c3586bddcc.usage.credit",
+      "value": 1.54
+    },
+    {
+      "field": "0bb5c6533187e260a1795cf14629258798ecd9098d37392b1c131ab1002f8043.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "6c87fec1f814a048d8defd2f57febab9aae5a53f043fca407fd4677ae77f0e92.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "a53de0ffafe7e37e87b2dc644d31d9516f47e03e6d10b0fb53aa7a98f85c6581.usage.credit",
+      "value": 1.54
+    },
+    {
+      "field": "45c6576e0fbbfde0cba2a268cd204318138d9a11f79b8f6ee1d53f370b74bb86.usage.credit",
+      "value": 1.5
+    },
+    {
+      "field": "6f7bd35bfebeda0b4c2e8fde718e21fc635e1db88da1dd5ed2bd3f751a84d9c0.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "5bc5149061b47d04e36d95a627a5ce34a723eab1d801f894a5b7ef6c3d9bca8c.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "e27027db1e8149852f5e4d41914b160fa956ffd797339eab7eba6c76165b8a87.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "63943d275b7470084f5ddc9fdc9069052d05d7bffb60db39fefadca9e5fd6f61.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "a82dba02e5d72f264b6c341ffb5c275317a1f240fcd9acfa15601cb9c35ceda6.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "c68aa2dcc60b09554cfa8df28d145a5b560afa0844d371096449ba54a03ca9f5.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "a95b06b5c70383ff19029d210712e36261e44cd01a9af10f388a891fbbda25f4.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "580289cd6133bac215bbd787357dbb9d98a0cadcd22183eb429075a6b339a9e8.usage.credit",
+      "value": 1.49
+    },
+    {
+      "field": "6a18262b304102c49c5b8b9c8908ecaff8569f7144abf6a3328d3a89a69ed2f3.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "1f8aa833b2bff16354f6876751ccaac7c73c903c85dfc9a92b17ce3025737fed.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "44e0f8832c13f87470b3957da7c6c589ba6039e5755ba92cb7f6d44eaa9e0325.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "14d83499bd14f3790278494a212a09b85cea53f5a85397f84dfe49a5fd290d31.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "1a4fe3adce9c656daa4179da68bc35f570299f6e2a193953cb1c895a9409a5f0.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "12f341e53506af3524500dbe91cfcb9a4283084fff1e59b92dfac24cb60500cb.usage.credit",
+      "value": 1.49
+    },
+    {
+      "field": "98b5d805f99bcf826113491b7fdf8350ea316836adbe61a4b4c90ba517fdd17b.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "af3bb086a4e6d864880a4f677f955293085c6768a0bf2f1c1b96f9072e72d04e.usage.credit",
+      "value": 1.65
+    },
+    {
+      "field": "edbc538c1cb18134866f9a969fb5673090661e25de33744a9616767dd871e52c.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "063ad6c1fa4a4874fb010e09e1df6591a2af0ec74c40654a80537d9873d667fe.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "450a9ffb38c4e20bf2e02cfa73863214b453ff25dd552e49cb5252a10176bd25.usage.credit",
+      "value": 0.68
+    },
+    {
+      "field": "7d8c7a5ad659ef05bb63f4f9b793f1c9966990d88308b27bb58b8e0253b51eef.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "c760ad7a4ce653d5b7eb95a633540c64058392ccedbac3e7668258dcdb0a7122.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "29ea8486c0d2e54b6e050b36bcda0fe6b3cfbed77ed5357b3fbf0aa49a941b82.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "1318aa0b9e630646b4556c83b7a3feb1d17f22605aa59a96be9bbce076ee0ed2.usage.credit",
+      "value": 1.51
+    },
+    {
+      "field": "a60c2bdb2130a43f3ced2c062aa7e95072b9e623fb4a04e10f0b7da6c4747ffa.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "5c380e194ab926087ab0077628a8b1d032746c4be2132e9744edf5704a440583.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "6fdcb0df8f534602471fffb71ff7ad02f0aa6a2f32a460f2f2d7d6da9179153d.usage.credit",
+      "value": 1.49
+    },
+    {
+      "field": "c77ca461ef8febfc461d4bb5091e9b4a243d2d42e91bf0c425d7d2cb36cf7c7d.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "d58d24dc7ec6d1950daf4de8e665b464478c76ef68ac6cdc00c9342a29f7ae74.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "1b0c3f8f15d1d81990bbaafc0b6ada7333dc4da153472ac5aaa22e7d584821fd.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "c5c38f1a4dd22d17a672fefddeeb6e384f24036e6fa865fae800283085e4938a.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "3f9ed24cdf0f3766894a59a6d5f9075d1ee2b49b30b540748964dd7c5bd44b4d.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "f83df7ea50e380c41fcba90189652452dba78ef64a09e9af113fca9a8408f093.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "65e539df8663640edd41ec14c0eb33d727e07e569e62bab46e0119015a2aa301.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "9b0df6888a175f6d5347cc1395b039fb97e6c21dc77351d09ce9da18c527b9ab.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "8c2987b10ca795a66b4a5ef7dc8c04886fda09d478135b37008b8e3b6bfc6ffc.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "186b3fc062a97810e9afecad582fe81abcf2da907bd764ff34244b633d564c61.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "2b7f571e65bfd447bcdbd69bbc6131428e1d762bd37725c4761bbb1901d8dd44.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "dc84017a6a23a3aa918bcd2d57c6ae5277be67290582dd5c926958f2bebd62f8.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "33780957855e2bf4f3f94c2ef31cc04c106804b1418fcb7669281d08ce08183f.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "62e30c52bcce86f779b7e8de23f620d0bdeebb2f2a4408aa8e978925d77b5be9.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "295dada41758edada5e61e0c9372c2c8e88dabc57107fea0161ab807b4626f04.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "9b1d83c5d71349b3c7cd102e19ce0e9a7f7aba41a30af36c04ed5ffeaf43e4fe.usage.credit",
+      "value": 1.4
+    },
+    {
+      "field": "5d2644b27dc1179939c3b13314a7bfa19f947aa2a0b4a32b97b02c03aedf356a.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "5af4ea61aab196dec396de4a2ee4684a841302619a5a661aba2fbe2ef54f9da5.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "a085c4bffd9a8d055f885b28fe7f415b8d624f433eea90538d94174a12a17317.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "3ae80af364ed99fd47f670d78dffe92606901ecc407eb72c0b382a42331113dd.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "68eccf08807cc0fa7fb56bf9ff5889e86803dcde3f344e232d50f04e86ac1558.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "a3e30d78445e3ee7785e7f0f5841d4d3950c0f8e07a0f2569f455b2d3044c38d.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "46768e4ad9735e354e718eea335e19adfa708c5c5dc4744b99291435e262f859.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "d06b588d9bf2c8b8df62b213e5fc4a2c72a4e435e68d2d49948a4188841942a6.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "247c75414e2391ed81606fe5b8cdbfe44d1193b15183e1fbf60c093752851297.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "53bf849c92895a3d80ccf86bcebcca13a491f84ef643a0d412be83e0baa82b2d.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "87436b2d27196b67b3f3574547bf7051e6bb40ca19d7e786ee06ce5ca8b3ae0a.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "3e011d90affc57736bb83b095f8de27b935a50abd49b37730a14bb6ccbb6e3b7.usage.credit",
+      "value": 1.63
+    },
+    {
+      "field": "e3ef034875620b2489cccdc01013872cce9f6c9bf06ff64f7fb3be05dac20632.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "d2c8e893217a6ef4b7bd10e92afb9c333f169e8094d85648e9d92be76ff98c78.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "0335e642f23974d403196e06249243643d5b8a88f2ecc55bc94392cc71a5c4da.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "62f94015b34322af2de0e4b2a7f0f717d90cee996d71b563e48d2c984c9964ef.usage.credit",
+      "value": 1.53
+    },
+    {
+      "field": "4f7175b73ed9a80ee4a0f3239e69a37d87c85d6a90817e6753a7b4f90e55a43b.usage.credit",
+      "value": 1.67
+    },
+    {
+      "field": "d0739566a8b40d31ae6c2668c477f13a4926ad1aafbda2f6f602246214fe0b36.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "c95793309319fb556b80cb44a87099ab6c1f13be6a086c0760d6894c4ba00f99.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "121a25bfd2eadddd62bef0f08374060cc521f6daef3b369aae64f6428b850663.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "21e8e71c1a2f2125ddfc29fcce222748576f1ceac8a5fd7117820860d5901138.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "d5dd8b29c39785f3b87ac06a96bfd1a875e253f923cdbdf93adc8d58025ab0f5.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "b68e21efb684fafa1f4abe29bd476352f8c96b179d5eb5ccee022808dce2e8e4.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "e031f90a704238991c6289014e3b35a4584685639a980af247bd81fe17b49338.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "6c05c6b9a07df9430581f818c38d73cddf20384772bcd050d9c77f19a12c332e.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "afe463b77baebe6958b2e3726c4fd99ae963510a96dce661c02208492db8dad9.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "b317199dc040049fb33c0a877d6623e07e49ee11ccd3492904e9ee60d7680516.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "b7bca41a657db6d17fbe067ce804e61b0a1532f750733a59285d367e52529cda.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "906c7fe87fa4193edc0d9b0dc4b0742f5dbca39e1fb417a189acf8c721386640.usage.credit",
+      "value": 1.5
+    },
+    {
+      "field": "bfd6f8168fa749f41d3fa9cfa17f2b48420a1e7d5ee2a287935f6f709a768d1f.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "86e209d1288ffbcd20604461df370a7c616b5cd42d18cf3e50543e5d3810a0fe.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "86b9df2cab09348da272fd33cac78508ccb736a2bccfd9b8fc460fbc86ce5856.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "13e23cbac575447ecb962fd4cd38ba39040d6512e242be6972602011a7172ff4.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "52a43016b6e26cd77030144cb5658e50fef60679e9bae25c15f81a06860054c2.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "7b68e6a1b1c3cdad36b4f098d3a4fce42d9a43fbd4f38319cfed3bba56c05b76.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "067b190154fcba372837ae6aa7df632258d55d4dade55ff535d247941d25da6b.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "4c6cd99b879f2ea4558823c78b40c084d95d9af184f02d8a934b626303ce486a.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "ad87660f4d909eae6bcc8f64ff3591c614fbae67e8f62b6e86e73643204c82fd.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "2d0acdea2e610c6fa8986d0864a6ad7c00b4639b7f5db93702e0235c0e770a13.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "fc720a3ac29203686ec45b4eb288eb20994dc36f69a10489bb3a6f00ae1c8fa6.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "e3faaf86d66edfa79ab7d920acf8f676ec5fdf7e9565df47fd180892d6e3cf0c.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "99474cf1a3bcaf2848684acff74932d3b63f18e4a70eb95e54e234e488b9efd6.usage.credit",
+      "value": 1.54
+    },
+    {
+      "field": "0a1f47b8cf99bd37cce2010aae27fdc9525ccaa7ff62779cbe787f80e16fd74a.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "704e4941c8d5a08a0e67413bcbbb8291c1f8558279d8483d7c4b67a69ca721e8.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "0a3602a2bb516e080efcce444b5a3665581699a86e3d1e80643aa6aa746c745a.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "ceaa6ea8c46f2f7c2268483ce6e66ad2427c8189bc06970591a9009840c7fdd6.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "9f0d2752fd95a62efdbe666c6ee26c2cb30eeb34e7850d5915292bdae12e0c41.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "af89856810adab7a185ccb98e47d343a344d2b902776daf251d95623fe54b886.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "a6ce4efb8578b71ffd8bd5a7ab06a463f736dc26912a547e419f138c85301207.usage.credit",
+      "value": 1.33
+    },
+    {
+      "field": "9c490ab383bf21b96fd2f08b597df0be7b97c0728f14ea2af1abbee2810ea98b.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "978204b7a8803fa3182af710490aeff52f81f663c52ef9b2f8b1ea6e2e999965.usage.credit",
+      "value": 1.4
+    },
+    {
+      "field": "2a1e3925a061185af68457c678d2a3a6a33ca7e5e370a9a0330b9ebba86cf7c5.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "e126bef27b87d775b92cfab39aa39ef56a48b74a547608308c43a8251707ceef.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "6575d3ad82958bf1695b330f0a9b1443f18a17615a129534abaceecb23193ce0.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "ed6675949f98aa727f144e9b8c62bb99a29bc2ed545ca574258a7828e6055aa6.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "4ef3abaf4ace4db5a4d80c07443e60c55db624dbbaa6f7d3e83b13e25fd40315.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "19b2484fc49726ec9293d6bafb168379345213105dbdb1e5dfd9735d90c59010.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "a9cf94e5be504dfc41df791026cd6d582803f0125d3208e005375d50bc155f75.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "746037c595c2857841ad0980050c00aa96c531ac7165d30b6b5a2fd29be15ea4.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "b0534a08d2fc3946a2c1697bbdb2d30b8d26b4e32f4fcd4f659dcfee9089033e.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "a129d202e9e28b416e18d74b491d502def6cdf6e8113f59e4b5ce6de1c8658a3.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "03697c7dbe83abd518cf5378e922a93ef27a34dfd4e3d32656fbd321d770f872.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "f9199a957bd9df334c10f373042cae848618b96583bcf1350d9daf79ffa107ed.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "de3c06770ba2dbf196808e12fbbd70f29fd4c8e9186011de5f50675d249ba6f8.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "3a59cee4298f2613296bfe1facab66bc2f8d68b248c8175f4136adeb162104e9.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "4dcaa9fb270b05710a0220568cfcf294395c6e6a92919a504d13ee5b1a150e7f.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "7f2dd6c356312f88e64377b2fe7f408e764c508b83e63a9d6511248f369bb951.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "b52d57f4f23f5cc420bbd8ae0a555c6ed95d176730bb12893b6b055fc658ea03.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "0dc4aafdd328645296806398b3a1f929efe52b75341b17e866bcb5a0a04ecf8e.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "020519eda091675e80288969e2c068df8c8af7c2926bf46eb827ae790394db22.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "470fdff1dd8ccd1bbced00173dc1a1f375cd471d8237bf9e7acded278a3a0a23.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "a8522128a5fe4700830e3a3d4205d3fd8ffe40883a71d75359c88178bac2a992.usage.credit",
+      "value": 1.32
+    },
+    {
+      "field": "59c644c52beef3d61b40cc584dec0fa411bc105415e58c8897289fccf8cf57a2.usage.credit",
+      "value": 0.76
+    },
+    {
+      "field": "a7ef98711ac5ee84b03770e004ba7306771c9bb9b1668c379fda34e86cf3a321.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "4a28d8fb72bcbcea77656de0643e32913755ccc3d3a9f9cedba75c63dd70dd58.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "063784bee6116dda19d32c746820573be3b539e5181ab8cc160d69b5c7b0fbe5.usage.credit",
+      "value": 1.55
+    },
+    {
+      "field": "047c61d48149b817d28e71d510c005ba715f121c792323dd7aa2651849b98bb0.usage.credit",
+      "value": 1.52
+    },
+    {
+      "field": "64d1c91360216a4b74cd1c213f308386b4b0a7023275503cb320576c5dc2b8ea.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "d79fb62de765d8033784a049a3f729be7f1dd310158584810e3305be967d3c8f.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "e266ee227c55c32cf25f3d4d775e1165290ef495a9486e0dbce9fe9c3f01a4cb.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "2d070a1a5a9d3f881ef5198429ec2a11f69dd967f37ed86bcbd5856ead12f118.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "2c596f28bd85a6d0bc419cbcccc78ae9de3b2a08a480854b979b9c2756bae75b.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "6b24dc014a5a67b62d3d5579914c08709901ad7f6b0688aa9d14535ac5c31727.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "f5eaea31c5a97eaa9a3ce5a7767492c21778ebd6c8bf8c31ba238ae5e438ac4f.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "df26724b3d897414e66a860a121d2c52ffc801bb0e2ea24091f7d072127c81e7.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "54e81a7395317f4be8bfcc4ef098d7b66e1cf296b59a81182bc5a3276c911447.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "a3d1c69b088a789032b29577c5384413facfc716556ae0e79088afd1ab7e8e2d.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "77dc4fb6bb066fbfedac425036b2e57c259ff53c61bcae25e6a60360c6e22d10.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "ea1e0fc86a3ab0ed3b44111fc39baec061ee2623fc08dbdf1361df7be64c493c.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "781944434e6e023d7dfb909aaf9f694687ac4808ba542e6da52b83eaade2d6e6.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "d8de1ec740a127fafa85ffeff8607804cd32e559230ae4c748a4d4e12f67d972.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "63db59c473ec4b1e5b6c3c2f693cfaa3660ec00ec6cb7f8995e36c1488976096.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "5306e13994dd24eea70c99c3a9d345d4ca0d4e656663ba916d57ea86c51e9e9c.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "6949780fba90a20dd50991de715f75c9fefa03dbc4e1b2374e4dbb718d6a2636.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "f06300d922b905a0a3782775cb660b007cc331172f09c20140a9b576aeb4c662.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "506a93b158e7e9c1f6ae984833d9c8b5cb8c50ca796375b6376077a9a91f4d05.usage.credit",
+      "value": 1.49
+    },
+    {
+      "field": "736a45ad71a2db35dd5481668f2330ff8735167c775bd7a3f07301b72ada3fc2.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "892025552e51692d8bc05156328319df9ce11af4fbc8097745561e9f44613ea0.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "c292b04e644bea19325511313b15683b2e9c0417fc939ebf34046d99328bee23.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "963f6c1fcd04e135a3b1c662e0030d0848d9ef47cc9287127ce34c85a5db7012.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "4199ff06727b16dc82406fc08fa3c9a37f8bd6164158828290aff8be5be3fa7b.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "e8a5039f62cfba7c062d124d5eab9ce924f67857ffd1d5d721250cc9cd386c92.usage.credit",
+      "value": 1.49
+    },
+    {
+      "field": "04897d2957349e3b138134b8d2c1989b799024340b6353a1714d4757673e8699.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "acb9ffa353d17bd83732f01417d973216c23bc863f1364cb1dd6238e8a4c0bf5.usage.credit",
+      "value": 1.37
+    },
+    {
+      "field": "20e5e9a8c8a3d7514e4d3085b6fc01e7fe5f2398a19244632d61e2aa8432d9cd.usage.credit",
+      "value": 1.4
+    },
+    {
+      "field": "323acfb1b3a17eae70393d0966c78b10a20959d7b7aa8e9407893e572ec9a6e7.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "15b6cd6bb008311f608ccb9f032e9b6324f26672cad852aec0553cdc55bc561d.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "c76ca02bda088ebdff352c174a7f74ba147a61bdc516300767772c97fea555e5.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "75e06abd57908eb3dca85daa6c9fd44d8737ee4637be3bf100a249829a7b8175.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "ad507457c85cfcc6b42062d0d684a72e8d0f16bfd069b964819b59c21e61bb97.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "7bf2fd0af78a7bb2cbab4bd8a77293ae070ac44829bded5f177ae104d79932fb.usage.credit",
+      "value": 1.37
+    },
+    {
+      "field": "3a20adf6fb5d9ae0eed444cf76e08251bd18b1aca1f1f732058538f3aacdbb88.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "2864092286be4f9b415f8d639acc5eec5db27bb7c2f1cde8711ca8140316db5e.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "f775ab01c0b2731bb008f587c6b01ba7fdeed614ea71c53e7cc5533f599e78ee.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "955900f2123849569da6cd364ba28cb04022d845cb3f894d5336214d0dd3208f.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "dc9f669915f2abe90a1fb5a2b87c7708fa16813445255c123403f8bf443f47d6.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "f6549ac02c7b806c14a06637a9171c7a5669ebc6fdbd98691c636f66328147eb.usage.credit",
+      "value": 1.49
+    },
+    {
+      "field": "25e240fc186a18cd5163c39d60ed903cd3d7a35a922dfc216b28eae0247a564a.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "db81a73c37dedf952a2f30cb5a5a761fc207e41e574b79eefd7a71c31f8668a8.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "c4bffc341c8ab06dba21e3c7694af1b3ac8c117e93d43dff8cbac35310d277f2.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "e47fb84fb3768e17e87af46a82b6ba902e016a78377511fd7875fd2d3b58d5c6.usage.credit",
+      "value": 1.37
+    },
+    {
+      "field": "8457383571c544b840c79c716ef81e2482c8741af56b7ae31049abd2c66f9821.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "a3d106a02e7e90550148ddee5eb15d23ca776d10d01a90bdaa249bbf0b971bc6.usage.credit",
+      "value": 0.77
+    },
+    {
+      "field": "80d14297df34907cea6ed7e8ed6e05cc69d60291272128121c9caf13678ae321.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "dfe2a4b04d29dc36e51b22c5fc5ff36ff2b48c4d5c52b4f9b6f8167acd18465a.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "fd8c1ef54b0855d2efa78debf5160e6f2a3c475fe6d58625697c603ac8c9f089.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "61ef176911e9de37751a7299c64b9d319f43d48ea78fba722bd29f1a23cd0e1e.usage.credit",
+      "value": 0.82
+    },
+    {
+      "field": "24bea336c3e7c2cee2517eb518f0953d82a5a554cc3d314a39c7732904ee4ea8.usage.credit",
+      "value": 0.68
+    },
+    {
+      "field": "d1f1fc6995ea98a46c187585a7a7532576fef42b5a026b4a3747f1eadf1a2108.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "311a82640fcbb90d00e6b30fc5cb67cbd2510b540fd3ed0f463f842767a6b63d.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "8faf1e43b5456d8da8137357dc5b76f1f0df7313d716aa4ae0ce2fca472d9c44.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "399bb045ab493ef90166e4777f0039376cd71e07a0edfa86d15c9d82cf339e0b.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "5d9002e4c56492e554b0420734915338dfe687c6abfb15a0ad32f355a55a0798.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "c53aba983a6f9b4844c93da34104dd9fe7b79f8fc33a4e266a33dcebf9635581.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "13f815432176f12a4334d550783fd239066dd7f54a853495380c468ee70d53b6.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "40e35379717eec3d33059ebabc4ce5faf6b90d37e6b1b86cd466c4e71c46a7a1.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "16379840a58a580a53820edaa0ea95ec003ca3330102ed4d1a3bdbb0e088cb57.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "6d537077e89e18623d1310b5341f26901bce17aaedd233b9ce8c55727b595abd.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "9ff76a93996fb57139e68e97a9d89468b5b1668fa5684ce7ab331eee05d87d60.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "6a837ae3ae9c39e35d1f968e51f28b33199c4e349827fd8c9dc85bc6ae9e38d8.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "7c9d8896bc66863dbe632d451af955342673b80209d5661a13a8bc41eeb55364.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "e8107c290e837240076f42eec48e70448af0b04207f7389137507bfd732879a6.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "36cc5b2055d5d1747a70bddb2bb9d4ff4e637ed084a41927260e775427868968.usage.credit",
+      "value": 1.5
+    },
+    {
+      "field": "59b0346cc40083393ff58668ae8f4b451445588e651fc5f13fcebeb5a282d4aa.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "596a1d195b5014dfa70c1362b47a82bc095f9797ad7df915ccd776bcf6efef9f.usage.credit",
+      "value": 1.4
+    },
+    {
+      "field": "d68221376b8e1773066181eb87960c865ab8fd11dd14b5228810a1360e8e368e.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "608ae3907507c777583b8d9039393995edd27d1cad7c67ff1c5303710088e643.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "4af3a4e7becd0fdef7b881d558ec80f8c39319a61a2b1ff09e27932201c5ea2f.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "eac54f4e5065e3a562548e3e7e76d9610d8bd72527ee7af702a5c9d880bc70cd.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "63150a7ad0f583589600feb4a7ba98027ef7b1ed44fb000ee573f56d91426e6e.usage.credit",
+      "value": 1.49
+    },
+    {
+      "field": "b9c3403ebe0c58dca0c70dfacb5f754412f34eec58c8795ff9a61af24dbf5e1e.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "67e698a88f60064dc84c970057083fc93eabd753426970a892373b48c3864084.usage.credit",
+      "value": 0.67
+    },
+    {
+      "field": "31910c6b836735b863cf4506c0f031fa7bead0588705550dfa667e077104ed25.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "8a0c72894874f432824f16219012492b060737e04ffa71b812448b16749239e5.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "d1737c6efbb017da4b25a19a310f0219d9aab0a81e9f311cc55b5cd7cae0ce76.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "2a2b64b97996334191f7958800e2d2f25093589ba21fed223b604f4227169244.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "3ae5302b7973ae6a2727ac63a4f3a925179a2651fae139bbbe822eb288c3132b.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "d09654e9f014cfe24582e7e96c4171432cf2936188f500a9f01bd321382338c0.usage.credit",
+      "value": 1.52
+    },
+    {
+      "field": "d3cdc67418726a31abf7667f6081541cd550758285168d94463843790a994781.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "e7cb4d71e4cfc703a18734bf58964c370de8f1e0c1b1b4a13c9a262911e56c2a.usage.credit",
+      "value": 0.68
+    },
+    {
+      "field": "1db61f2af357edafa59255fc4c5d5b23cd9817c2b12489172514fdc72bc31bad.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "6efa010362bc0333c5707d650a1bd4834da3687642bfe479d6df280cf3e68e19.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "c7431e8647f3e4b7c8f0e019c3cf00bd7aca865c1874a51303336ba87f605b35.usage.credit",
+      "value": 0.85
+    },
+    {
+      "field": "9b7540de9f5da5a3bafb1a90cc46fb2d7a308fecf2368227b8b08547760ba15a.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "4af87ef5e912b0e29c3c0ac3c8089767fe68880733120f3ece40067514fc0738.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "9fd7cf789caa0bf28e5d6588b78a0391158ba79073134af5cadbce0ca369bff2.usage.credit",
+      "value": 1.5
+    },
+    {
+      "field": "eaf26c659a4a39d62f366db3f0c432d4c9d20ece5d58ae527f48185f9a1e2312.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "f98cd34f75b3c07114c20213dda8d0cce86befe44507ef2dde69491540a297b1.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "ad67823b33f44aefc34291950f7742a120c2677375edcc0473dce009e7262fa8.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "37bd5729241e8a29fb79ddb832438676b41c94152285c7baf59873168605d61c.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "fdc7282322872e04e2f448d1915e488ad11c27bca93f6e3f5252a59b1e95436e.usage.credit",
+      "value": 0.67
+    },
+    {
+      "field": "ec19fd10b15ada53edfd58be186b9f41fbd543cff14c7adc84037df4e8fbc98e.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "a3107ccecf24715e659942459847d566c9eda8aea74eea65c195994b18cefbf6.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "03335e2ccd76f99d49940ac4c7f24a8f288fc1449eefeddece668c8b5331ad31.usage.credit",
+      "value": 1.53
+    },
+    {
+      "field": "9afdc51cd5a2511475ab225649c462830f502dd66f8df8dfe9d474c0d377c5a6.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "08b3c86061ba4d89ea4138ce1a4c3ca39b3e0c26b8b5f394b9b9ff93e2260ca8.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "80feb3f631f2b9f230362383d50d9cf223abbb3613576208cadca49ab4c683b8.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "7343ffde4932082aea23d1ff0ecfe7d033ba8041a212ba30e851e50e55f71a62.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "50da0677a436980d0624c87b94043d26979d23fa98cfa3c1506bacbccd65b1bd.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "2ca7b06f2fbc87a8e90f323dfafdf8f6129bac98a2b63728f1d1a746abb5bc54.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "ffb8efd604a9d928453d18d007228e3a8720c41c02710fe24132344a5d571723.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "a867eabc5afb62ca8453f01ed499824e4e1635fc82d7ffd3d206c2a5da4770d1.usage.credit",
+      "value": 0.8
+    },
+    {
+      "field": "b822774b62b2148f2aeb7663e963f509e50184a1cab99aa857cb92a5d55970d0.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "cda670b4d01935ae70c9ef27c0d7cdaa7d31c990f24454b6efcddc0b648fe9f9.usage.credit",
+      "value": 1.37
+    },
+    {
+      "field": "82acd4b12d8258e17f74a6e229bb4891f684f8faf5e9db550f6ce1aff3e81d21.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "66b87b5f743fffad386dfd7bf15120f5dfee13e3da29c90db8621d33aa93794b.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "1893b8eeacfb15de3fe713797f9f37c64f61512c02f647172c861ac65b016879.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "46f356fa2369e3d6445f4556df904a254ee0f87e2c47877b69f955a62bc74464.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "b9ca48143f1200da69d8640fb522279ceb1b6e141f8201b95b0cf5fbffe62f3f.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "83caaaa3ffb4aae306f46a9824761d6bcb2d1932b9ad78de1eb4fb32bc52bfe7.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "cd2f4cbce3fb9021fce6a15f0c335df3db50ecaeb6845136d04ebc8e29e9d8a8.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "aa6393a9b39b6e8a467d0a0b8e1732a1ebc2e1aea246104fab31bdc7850809fd.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "9711a9b16f5885c60c1274e15a0404aa1ed8479293ae65115f590226d6b45190.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "ac1573d0854114c3ae4c1ca370840cc88a65425f6063f8960564b488e1cbc8ed.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "298a84bb3088ac88c9dc25e307f9153295bcad7c433d37bdbe16d868d11904a7.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "3f526c6db9f30b3d236e62226ac56f4011be16ed7852b8fb5373b862044fc2b2.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "2bc4195a1860be337ea66829c8289179ad02cb9548ffe39bcbe81291343d0fba.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "eedb12a82eb6c8d35d96b7be21832be7e035da6ece609e7fcd8bb846490b9d18.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "1dc1f7cc7f2c9d1cbead509f5b8497991deca643bc580745b163d06efc535da1.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "4a80c5fc5468e58d10a1800b1de0fb4e73fb0988b0cea57ef1a93a958e40187c.usage.credit",
+      "value": 0.67
+    },
+    {
+      "field": "c1fa9dd8a9ac4f8ca3cabb2bebb5b034f39d981d4131a682710985b4d0dde3db.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "2367a853916c917a4d1952ab2e101dd6a1d98a756832f634527ae7d4fa7a6a32.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "2e4d4844477bd492058e1a2b1e8bf9b660da58118ccfb3a7efcba77829e56c96.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "3aa145c27bafcd5c1317daa4bf7a2e0b20044897af8b6b56646a94962d7bc19b.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "0349e8c0a00d3f45590ce1359f4973560765f5641c31f83b4802ef3801c7b1db.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "860d370c165da7c430fc5e31275795dbda578b4eac4eeca3a46b0241a47a5ba0.usage.credit",
+      "value": 0.78
+    },
+    {
+      "field": "a2df09a448e2b06dcdfd84692fe6b7a8296a6412451b05b2d184a1d9d7c15492.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "512e2ed04314b25d58f3bbbdce3c0bcf55b68c16dcab22398f6c4b23a8bc6087.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "e21d62f3b1cd9ca4d2995b2c3b3e2eba8967fb051606acf26d6b580108238ea5.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "8812b8dc01a5cc5091e43c383f9181caca3feb1ff2c11de994fa596c0a8de3f0.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "df2305ad6e959c2c6e22d601b9c3e04e97914807c6aa884ce3937a37b7445c70.usage.credit",
+      "value": 1.54
+    },
+    {
+      "field": "417083e00fccb65ae53c19b311c5f414d1883cc5eacef5429c3221c41d29637c.usage.credit",
+      "value": 1.37
+    },
+    {
+      "field": "7a511114ff26e445a17c10c5d9efade88f298370d0494492dd37441b371c4619.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "62f63225058d1c5400381e2ad4690c9c7df9f75f13a12a1951c32e0adef9f050.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "6af0ebf4ac3805420ba8b63c4875337571a80f467e2b3e4e69d87274a70ab4bc.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "f3ba7c6029da3a15d4c331ba38c4b9992e8deb501f7d20d65bdac183c835ff43.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "3d20726386e3b718fd6644724ed4481923c68164878adf92bd554c1cb13e48ab.usage.credit",
+      "value": 1.51
+    },
+    {
+      "field": "7eb54cde621e699c13eeecc411134a0c10a09b07689d28f0b890695f2788cc63.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "5a8b4246383763e22dabb3b144635d2361641fc03f300eddcb3ceec5abf19ca4.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "a0a44dc62d14022c72fb2f57d80b4e58e1b284fc3a127476fc5aecb71a23a505.usage.credit",
+      "value": 1.67
+    },
+    {
+      "field": "43b414b3d51e519c35591e453b73e89f99294889b71e8ee1a0ba71d006fa8b47.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "71b99cad2836df49ff9ae61fe0d7b6b62701e0986d48315d9eebc25d6ddb1966.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "917072b3281acee2f214ff5ba1a8aea5a255cfe7e898f2c45cd9489cedfa44b8.usage.credit",
+      "value": 0.79
+    },
+    {
+      "field": "28e41147e540bd09888b89ff797b710bbbb792cebb089e2743df75a730aa4ae6.usage.credit",
+      "value": 1.59
+    },
+    {
+      "field": "a774023e1cbc669afc67190bef47d12f4d3475fb23e232a49f7bce8c71186c67.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "da21133d6040da780c0f94e347e89c7b25782992a47ee65bcb7619446daefbb9.usage.credit",
+      "value": 1.46
+    },
+    {
+      "field": "43a1bde336d6050613e89dfa9333f3e4a98c015f5a4b56e6ce67d5cfd3a74975.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "057ce39d48049f86dd8944307348dbb0625d9920e23ffd5535de85a0101462f0.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "6c4eb5f3073ae4e2a1f4614e1b3691401b83568431bd94b05399d44936b60470.usage.credit",
+      "value": 1.57
+    },
+    {
+      "field": "e3562e2d94bf1ec7060e9728d14b5b2826e2d93e4072419ba6acc4088f5b1bfa.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "8d6da4ef4bb17c5fa68fde6e790fa94097fc1cd4e89a1d39ba65ef24cf310e5a.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "5fc0752e404f9fc75d3629332488dbdeabb64fb3fb4ba11375ab32b9d5a88a2a.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "9011b31fae4896db698f6f1246bb0b2e57729484e79d67606ae47d94e107e0f4.usage.credit",
+      "value": 1.5
+    },
+    {
+      "field": "570c84d76b707f655db94e01fbf1167f5dfdc9bad8fd5d84ba9a4d2d111c1c24.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "2216f7d1c2abc9d2599a03f8ff91580907937c088bf6914c7dcb42183c01033a.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "0274dbc983d31c9732fa0bc866e21d32e5a09f0ec431ccdd9f20a8423a591b14.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "6d135a5bf35bc51097d0473ba1e579fa330f26ba04c539cf429c30abc6b38c2b.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "8810d23e30d7eaaa4cb04f6b4d06ec4965ba1b084930f1fb98fb3922130be11c.usage.credit",
+      "value": 1.52
+    },
+    {
+      "field": "3a2b3ae284395cbed36cf8dc5cd9e9ca91532b4a9c1455e28703157249a03893.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "daf7bdb38557b371109d4752da03def3d12b4f22aa2ee6af184f2b610a01d8b1.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "235f9eaf5f21e703cd61351f73354676f1609d405789129bdb97ba2998337d3c.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "49aeceee467dc3f2847d6e61e92c1369563c914a8ae513970e02a720fbc70b75.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "ba6b815e53953fcdb7e064ef825ef95f1b158b82909653766060be3609ae542d.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "bab1b1da0eed02e0530ea7cfa02828fc28eb3087c250e0c09cba4889781892e7.usage.credit",
+      "value": 1.45
+    },
+    {
+      "field": "d29a2ec8ef395e1125f15f27f8505265834cc1428253b2108f8cf095e6e0544a.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "3732d2eba3edf7b4433bb9a50670cbfac882eeee8db53fa93e973320a798ac5d.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "3aae29332e6b0d07587237fa36051fdd3e3bd0dc2c4e955dafc6d420a16c0bb7.usage.credit",
+      "value": 0.68
+    },
+    {
+      "field": "00102a92393415da941eb045f14ac34abf8b7ebaec92884fd9c20f75a2466de1.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "7c3b1934c8bdb805073dd363086c9c351d4de71eea75883d323f519795494aa3.usage.credit",
+      "value": 1.39
+    },
+    {
+      "field": "b97d011d93c88b84b784aaa54186d2eb8ece44149767604d927645ef9d7b73f8.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "1a9be6bea4877a906a910c197f0e107629664543e6b8988491f7cda9c3f31331.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "77c33a5ece202d437f87616725682280a323383e684f656ccefb85edcd843faa.usage.credit",
+      "value": 1.38
+    },
+    {
+      "field": "d99d189b1541907f3f1ade4da73ec78000d0762039cc6fdf9fe74676d67ba003.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "6835984b630f7043e9ebfcdc7757ce9e17b4b600d775646a96478b30d40575c9.usage.credit",
+      "value": 0.86
+    },
+    {
+      "field": "21d8d3d3ba8ceaaff17d10f32d0ea48c63d968541e96a884bab5ebe54258d726.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "5bdd296e200f4b25e630925194f9c3ac49c1e5acf060b7c93de2ada1d1fab305.usage.credit",
+      "value": 0.68
+    },
+    {
+      "field": "52b39e4ea5d8d8bb2459d48448f8f9e06317895cce3233750b9fdb4b2101ee30.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "37daaf434fbfeed775587932b21a373cd6c27561c6c7e4b1b0c539bbe41ac52b.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "19c133e2e974eaa72268622261a9f260d342f9b09d0b0e29bd6e053453a449d0.usage.credit",
+      "value": 1.49
+    },
+    {
+      "field": "992e1eb7f7f97c8885bc8b6048b8a11125e84807705c8e84438f94e7f8127c1e.usage.credit",
+      "value": 1.41
+    },
+    {
+      "field": "db7548fc222938f6c6efadc100e379e1fa9207709efe19db1d2388d6667cfe39.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "1030275149c0430e6d558272b2ddc5bae4db282a3c345da393ebe767c10c80ec.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "7307c4519a00cb4ac419a0dbe0f1252a5299d847416e77c8720aaea43ad826a9.usage.credit",
+      "value": 1.44
+    },
+    {
+      "field": "e7c33f0fec31acd7a8baa65cfb5a9af8ae6d1f814106b5087995ab2cf5011173.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "3ad07aa1995312b3042d063ed0f538a609f931936fa5c2255141cfcf2e93f864.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "16dbb11bdb54f119cf2e5c3c13fab92cc19026e886bf229535de3f0c548f8550.usage.credit",
+      "value": 1.36
+    },
+    {
+      "field": "cc05e845a2d2d0e8f82961460712f53d5e5af6686952e6afeea20f48499c47d0.usage.credit",
+      "value": 1.48
+    },
+    {
+      "field": "5da281d0c323b7a1ac40c12c677b128fce04e79c607b5db1fada05c249695244.usage.credit",
+      "value": 0.72
+    },
+    {
+      "field": "3409e91bc437e733319283eab642e9dae652f1a5fdaf8870cd8615f32dc35a1c.usage.credit",
+      "value": 0.73
+    },
+    {
+      "field": "d67d3bf2d3cff1391d0ec70cbe9882e509f221b5766b77f25d33dcf317d27ea5.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "08061262822fed9995c0748c7d4ded12e6f334275eb3a3d7b426b83ed8201cea.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "c145d75793709120e962449a116b4f641915b2d4c9433e049266663e228f3d4c.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "3174b0eb6f0d58167867eaaae1af2b0b95c69a9a4cf93314effd045f093be33f.usage.credit",
+      "value": 0.74
+    },
+    {
+      "field": "d1522a020bfda49e32ca65c9f9e43963b4ea00e89d02b2d41f6e489c5253d4a4.usage.credit",
+      "value": 1.4
+    },
+    {
+      "field": "d263f6f20da269a95214ef2339c8aedc885345f7eac619863fc00ed8aeccd8ba.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "7a67f3f0ff410c5a717c8a4fd3d74d87ae7b10387c3321afb2d652d9816f6e66.usage.credit",
+      "value": 1.43
+    },
+    {
+      "field": "66777ffef8d87c586dc48bb0be7e70e49c4ca1e7e6493143c072fcab14583c09.usage.credit",
+      "value": 1.42
+    },
+    {
+      "field": "eb0a165a599f9230352ff6448a631303a7f030053bc773c49f72e7aee784f882.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "d7d9b0a0014f84bce98ca51fbbd70e8cb7eb1351634d904bab2711165817af08.usage.credit",
+      "value": 0.75
+    },
+    {
+      "field": "3ee72dcaab0d9ba7c414294378f6fc235945b054d54876bc4a04ff384d8c42ec.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "6599ea8e82720d87def772375cb430e816763e6ecafe9bbef5af986724baa15a.usage.credit",
+      "value": 0.69
+    },
+    {
+      "field": "891430b19bf60dff4a07c58367c32c385db1a561f7c7976b8c033962c38c6749.usage.credit",
+      "value": 0.71
+    },
+    {
+      "field": "46317e45ced2a1c75abe0c1000055ff202117feac560f2869d60dd1be1b776f3.usage.credit",
+      "value": 1.47
+    },
+    {
+      "field": "b9792bc0a0db9b21d70f3696181a9a3af10fc6fd93cbb32460ad84d0801dc6b6.usage.credit",
+      "value": 0.7
+    },
+    {
+      "field": "773d8c0cbcc8d348f9aee34d0696f16c01184a16672ceccdf69e3cec04a5e86d.usage.credit",
+      "value": 1.64
+    },
+    {
+      "field": "19358c70e9f0dc655f0b2cc6d18067d63244d75c95917d41d504a246e73e94c4.usage.credit",
+      "value": 1.43
+    }
+  ],
+  "currency": "not inferred",
+  "baseline_device": "cpu",
+  "cec_structured_lock_retained": true,
+  "primary_excludes_bbob20": true
+}

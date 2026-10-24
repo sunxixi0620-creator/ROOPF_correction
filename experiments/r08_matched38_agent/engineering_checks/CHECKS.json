@@ -1,0 +1,33 @@
+{
+  "status": "engineering_checks_passed",
+  "full_live_validation": false,
+  "actual_api_calls": 0,
+  "mocked_contract_checks": {
+    "fallback_matched38": true,
+    "explicit_release_retained": true,
+    "all_eight_actions_retained": true,
+    "policy_identity_rewritten": true
+  },
+  "exact_frozen_matched38_batches": [
+    "BBOB_f09_b00",
+    "BBOB_f20_b00"
+  ],
+  "offline_actions_verified": [
+    "release",
+    "matched38",
+    "anchor_sharp",
+    "anchor_soft",
+    "local_fine",
+    "local_wide",
+    "joint_sharp_wide",
+    "joint_soft_fine"
+  ],
+  "source_sha256": {
+    "roopf/matched38_agent.py": "570c4a3e64aae1cdf5ddb8973ef38a4b7f4c60ac7bb52f2dfd4893d3371c65ad",
+    "scripts/collect_r08.py": "da7243e834c85a36e4c76171adedeaa799c227a58327a28a0e90788ee6d6302c",
+    "scripts/experiment_r08_full.py": "b0c2e8f4e7702ff72d7ca370f8b42bc1b6892a89cea3a2fcc778732ab0fc4594",
+    "scripts/run_r08_hardware.py": "058bd73ae26f66e906d27dcabbfcba7640d7ca98103ed96122762e78092929c5",
+    "scripts/report_r08.py": "c20ec97223d022d39173c0f6a188b3372e274e3c281a1e951b3535aca4ea37f2",
+    "scripts/verify_r08.py": "324d9ece84f3526321dbe67af1b37283616ea61e8546c65ab1ccb45eead422cd"
+  }
+}
