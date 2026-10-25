@@ -88,6 +88,17 @@ def main():
         source_script_sha256=sha(Path(__file__)),api_credentials_included=False)
     (publication/'MANIFEST.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
     summary=json.loads((p/'FINAL_RESULT.json').read_text());audit=verification['api']
+    stochastic_folder=p/'results/BBOB_f20'
+    stochastic_values={a:np.load(stochastic_folder/f'{a}_FULL100.npz')['values'].min(1).astype(float) for a in run.settings()['arms']}
+    bbob20=[]
+    for arm,value in stochastic_values.items():
+        row=dict(arm=arm,mean=float(value.mean()),std=float(value.std(ddof=0)),primary=False)
+        for reference,prefix in [('off','original_'),('matched38','matched38_')]:
+            ref=stochastic_values[reference]
+            row.update({prefix+'wins':int((value<ref).sum()),prefix+'ties':int((value==ref).sum()),prefix+'losses':int((value>ref).sum())})
+        bbob20.append(row)
+    with (p/'BBOB20_SEPARATE.csv').open('w',newline='') as stream:
+        writer=csv.DictWriter(stream,fieldnames=list(bbob20[0]));writer.writeheader();writer.writerows(bbob20)
     paired_rows=[];direct={}
     for alternative in ('llm_no_offline','llm_no_online'):
         totals=collections.Counter()
@@ -110,6 +121,10 @@ def main():
     api_detail={a:dict(counts=collections.Counter(),credit=Decimal(0),credit_responses=0) for a in ('llm_live','llm_no_offline','llm_no_online')}
     for path in journals:
         record=json.loads(path.read_text());detail=api_detail[record['execution_context']['arm']];counts=detail['counts']
+        payload=json.loads(record['request']['messages'][-1]['content'].split('INPUT:\n',1)[1])
+        counts['only_matched38_allowed_rows']+=sum(t['allowed']==['matched38'] for t in payload['trajectories'])
+        counts['multiple_allowed_action_rows']+=sum(len(t['allowed'])>1 for t in payload['trajectories'])
+        counts['offline_out_of_coverage_rows']+=sum(t['offline'] is not None and not t['offline']['supported'] for t in payload['trajectories'])
         response=record.get('response',{});usage=response.get('usage',{});choice=response.get('choices',[{}])[0]
         counts[record['status']]+=1;counts['prompt_tokens']+=usage.get('prompt_tokens',0);counts['completion_tokens']+=usage.get('completion_tokens',0)
         counts['reasoning_responses']+=int(bool(choice.get('message',{}).get('reasoning_content')))
@@ -145,7 +160,7 @@ def main():
     compatibility=json.loads((p/'compatibility/RESULT.json').read_text())
     analysis=dict(status='full_live_r10_completed_no_automatic_improvement_claim',reviewed_at=datetime.now(ZoneInfo('Asia/Shanghai')).isoformat(),
         completion_event=finish[-1],comparisons_to_matched38=summary['comparisons_to_matched38'],comparisons_to_original=summary['comparisons'],
-        api=audit,api_detail_by_arm=api_detail,direct_full_vs_ablations=direct,compatibility_api_separate=compatibility,actual_changes=actual_changes,
+        api=audit,api_detail_by_arm=api_detail,direct_full_vs_ablations=direct,bbob20_separate=bbob20,compatibility_api_separate=compatibility,actual_changes=actual_changes,
         caveats=['Development after R09, not blind confirmatory evidence','Ablations remove Agent input layers, not frozen Residual or current online proxy','No post-result changes to gates or test settings','BBOB20 excluded from primary efficacy','CEC six functions retain original no-intervention locks','Partial scalar-GPU setup objective cost is not reconstructed; raw partial records retained'])
     (p/'POSTRUN_ANALYSIS.json').write_text(json.dumps(analysis,ensure_ascii=False,indent=2)+'\n')
     text=['R10全量实测复核（胜/平/负；函数按均值，轨迹按配对最终值；不代表显著性检验）',
@@ -156,6 +171,7 @@ def main():
         '兼容性检查另计1次真实API，不作为正式实验；单轨迹GPU低吞吐启动及部分采集记录完整保留。',
         '去离线：不提供案例、不使用案例支持门；去在线：不提供已选择点的历史反馈，检索移除对应特征。在线代理与数值核心保持，不能称为删除代理网络的消融。',
         'Full直接对照两项消融：'+json.dumps(direct,ensure_ascii=False),
+        'BBOB20单列（原有批耦合随机语义，不进入主功效）：'+json.dumps(bbob20,ensure_ascii=False),
         'changed_points相对于当前候选池原选择器；fusion_changed_points相对于同一池默认融合；终值差异相对于冻结matched38。三种口径不可混用。',
         '实际作用统计：'+json.dumps(actual_changes,ensure_ascii=False),
         '每臂评价/改点：'+json.dumps(summary['totals'],ensure_ascii=False),
