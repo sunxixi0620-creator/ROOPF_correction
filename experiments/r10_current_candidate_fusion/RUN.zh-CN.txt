@@ -1,0 +1,23 @@
+R10运行与复核（使用ooneurgo环境）
+
+本次全量协议：35函数x100轨迹，D10，每轨迹300次评价含初始100。六臂全部运行，三个LLM臂均实际调用API。这里的全量运行是完整优化实验与配对案例采集，不是LLM权重微调；Anchor和Residual冻结权重保留。
+
+启动本次实验或在中断后按冻结记录续跑：
+conda activate ooneurgo
+cd /home/skq/repos/roopf_agent/ROOPF
+bash scripts/run_r10_hardware.sh all --device cuda --workers 24 --gpu-concurrency 2 --api-concurrency 2 --progress-seconds 5
+
+脚本使用ooneurgo的Python，日志实时输出并保存到results/hardware_logs/。单轨迹离线采集由24个CPU进程运行，正式批量代理预测使用共享GPU服务。原版与Agent-off保持原CPU回放路径以维持冻结随机流。
+同一目录已在运行时会拒绝重复启动。已有匹配冻结身份的完成记录会复用；不会通过续跑重新支付已经收到结果的API请求。未知pending结果会阻止完成，不能通过删除日志强行继续。
+
+查看正在运行的进度：
+tail -f experiments/r10_current_candidate_fusion/PROGRESS.jsonl
+
+只复核已完成记录：
+bash scripts/run_r10_hardware.sh verify --device cuda --workers 24 --gpu-concurrency 2 --api-concurrency 2 --progress-seconds 5
+
+PROTOCOL、COLLECTION_BINDING、CODE_BINDING及记忆文件禁止在本次运行中修改。若改变算法、参数、动作时序或评估协议，应建立新目录与独立远端基线，保留本轮记录。当前入口的自定义目录须事先具备对应PROTOCOL和PRE_MIGRATION，不会隐式创建新科学协议。
+
+Full/去离线/去在线的含义：去离线同时移除案例输入与案例支持门；去在线移除Agent的已选择点历史反馈输入以及检索中的对应特征。在线代理网络、冻结Residual及matched38数值核心保持，所以不是删除在线代理网络的消融。
+
+接受标准：全部35函数与每函数100轨迹完成，实际有效API响应匹配执行，冻结原版和matched38逐评价及配对随机流核验通过。BBOB20单列，CEC六函数结构锁披露。实验完成不自动说明性能提升。

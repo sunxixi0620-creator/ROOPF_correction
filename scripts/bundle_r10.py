@@ -26,11 +26,11 @@ def sha(path):
 def main():
     import numpy as np
     from run_r10_hardware import configure
-    import report_r10
     p=ROOT/'experiments/r10_current_candidate_fusion'
     run,_=configure(str(p),json.loads((p/'HARDWARE_RUNTIME.json').read_text()))
-    verification=report_r10.verify(run)
+    verification=json.loads((p/'INDEPENDENT_VERIFICATION.json').read_text())
     assert verification['status']=='full_records_verified'
+    assert run.binding()==json.loads((p/'CODE_BINDING.json').read_text()),'Source differs from completed verification'
     publication=p/'publication';publication.mkdir(exist_ok=False)
     key=(Path.home()/'.config/roopf_agent/worldcodes.env').read_text().strip().split('=',1)[1].encode()
     journals=sorted((p/'api_journal').glob('*.json'))
@@ -48,12 +48,19 @@ def main():
     def shard(task):
         group,fid,arm=task
         path=publication/f'DECISIONS_{group}_f{fid:02d}_{arm}.jsonl.gz'
-        rows=0
+        rows=0;effects=collections.Counter();actions=collections.Counter()
         with gzip.open(path,'wt') as stream:
             for batch in range(10):
                 source=p/'results'/f'{group}_f{fid:02d}/b{batch:02d}/{arm}_DECISIONS.json.gz'
+                receipt=json.loads(source.with_name(arm+'.json').read_text())
+                for field in ('unsupported_queries','selected_adjusted_candidates'):
+                    effects[field]+=receipt['agent_stats'].get(field,0)
                 with gzip.open(source,'rt') as reader:records=json.load(reader)
                 for r in records:
+                    if r['request_event']:actions.update(r['configs'])
+                    for current in r['current']:
+                        if current['extra_origin']=='anchor_variant':
+                            effects['anchor_variant_rounds']+=1;effects['anchor_variant_selected']+=int(current['selected_index']==37)
                     if r['request_event']:
                         selected=r
                     elif r['step'] in (*range(6,10),*range(16,20)):
@@ -66,7 +73,7 @@ def main():
                     else:continue
                     stream.write(json.dumps(dict(group=group,fid=fid,batch=batch,arm=arm,decision=selected),separators=(',',':'),allow_nan=False)+'\n');rows+=1
         assert key not in path.read_bytes()
-        return dict(path=path.name,rows=rows,sha256=sha(path))
+        return dict(path=path.name,arm=arm,rows=rows,sha256=sha(path),effects=dict(effects),executed_plan_counts=dict(actions))
     tasks=[(g,f,a) for g,f in run.legacy.TASKS if g!='CEC-style' for a in run.settings()['arms'] if a.startswith('llm_')]
     shards=[]
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -117,20 +124,12 @@ def main():
         comparisons.append(f"{arm}: vs matched38 函数{a['function_wins']}/{a['function_ties']}/{a['function_losses']}；轨迹{a['trajectory_wins']}/{a['trajectory_ties']}/{a['trajectory_losses']}；vs原版函数{b['function_wins']}/{b['function_ties']}/{b['function_losses']}，轨迹{b['trajectory_wins']}/{b['trajectory_ties']}/{b['trajectory_losses']}")
     actual_changes={}
     for arm in ('llm_live','llm_no_offline','llm_no_online'):
-        action_counts={};support=0;selected_adjusted=0;variant_rounds=0;variant_selected=0
-        for group,fid in run.legacy.TASKS:
-            for batch in range(10):
-                folder=p/'results'/f'{group}_f{fid:02d}/b{batch:02d}'
-                receipt=json.loads((folder/f'{arm}.json').read_text())
-                support+=receipt['agent_stats'].get('unsupported_queries',0)
-                selected_adjusted+=receipt['agent_stats'].get('selected_adjusted_candidates',0)
-                with gzip.open(folder/f'{arm}_DECISIONS.json.gz','rt') as stream:records=json.load(stream)
-                for r in records:
-                    if r['request_event']:
-                        for name in r['configs']:action_counts[name]=action_counts.get(name,0)+1
-                    for current in r['current']:
-                        if current['extra_origin']=='anchor_variant':
-                            variant_rounds+=1;variant_selected+=int(current['selected_index']==37)
+        action_counts=collections.Counter();effects=collections.Counter()
+        for shard_result in shards:
+            if shard_result['arm']==arm:
+                action_counts.update(shard_result['executed_plan_counts']);effects.update(shard_result['effects'])
+        support=effects['unsupported_queries'];selected_adjusted=effects['selected_adjusted_candidates']
+        variant_rounds=effects['anchor_variant_rounds'];variant_selected=effects['anchor_variant_selected']
         different=0
         for group,fid in run.legacy.TASKS:
             if group=='BBOB' and fid==20:continue

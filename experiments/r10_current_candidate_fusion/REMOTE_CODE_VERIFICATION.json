@@ -1,0 +1,19 @@
+{
+  "status": "remote_code_and_protocol_bytes_verified",
+  "commit": "3d3904165df340c56bde6d360a4460bb5d73b0a9",
+  "files": [
+    "roopf/current_evidence_agent.py",
+    "roopf/policy_api_r10.py",
+    "scripts/collect_r10.py",
+    "scripts/experiment_r10_full.py",
+    "scripts/run_r10_hardware.py",
+    "scripts/report_r10.py",
+    "scripts/verify_r10.py",
+    "experiments/r10_current_candidate_fusion/PROTOCOL.json",
+    "experiments/r10_current_candidate_fusion/COLLECTION_BINDING.json"
+  ],
+  "fresh_readback": "/tmp/r10-code-readback-2uxko_ik",
+  "baseline_ref": "refs/heads/baseline/r10-current-fusion-20261025",
+  "baseline_commit": "bdcf80cb9c54b29a82ee2d52b72a99948305954c",
+  "full_validation_complete": false
+}

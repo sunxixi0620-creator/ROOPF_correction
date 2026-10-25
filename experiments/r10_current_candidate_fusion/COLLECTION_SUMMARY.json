@@ -1,0 +1,32 @@
+{
+  "status": "collected_not_performance_validated",
+  "episodes": 288,
+  "training_cases": 464,
+  "heldout_cases": 112,
+  "native_fe": 1665135,
+  "policy_screening": false,
+  "retained_profiles": [
+    "matched38",
+    "release",
+    "anchor_sharp",
+    "anchor_soft",
+    "local_fine",
+    "local_wide",
+    "joint_sharp_wide",
+    "joint_soft_fine",
+    "matched38@online",
+    "matched38@residual_boost",
+    "anchor_sharp@online",
+    "anchor_sharp@residual_boost",
+    "anchor_soft@online",
+    "anchor_soft@residual_boost",
+    "local_fine@online",
+    "local_fine@residual_boost",
+    "local_wide@online",
+    "local_wide@residual_boost",
+    "joint_sharp_wide@online",
+    "joint_sharp_wide@residual_boost",
+    "joint_soft_fine@online",
+    "joint_soft_fine@residual_boost"
+  ]
+}
