@@ -89,3 +89,9 @@ experiments/r12_strict_component_ablations/no_api/
 experiments/r12_strict_component_ablations/.run.lock
 experiments/r12_strict_component_ablations/*.log
 experiments/r12_strict_component_ablations/engineering_checks/raw/
+
+experiments/r13_cec_uniform/results/
+experiments/r13_cec_uniform/api_journal/
+experiments/r13_cec_uniform/engineering_checks/no_api/
+experiments/r13_cec_uniform/.run.lock
+experiments/r13_cec_uniform/*.log

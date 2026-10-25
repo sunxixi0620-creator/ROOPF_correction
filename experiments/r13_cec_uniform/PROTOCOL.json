@@ -1,0 +1,108 @@
+{
+  "round": "R13 CEC uniform execution, six-function complete remeasurement",
+  "policy_id": "r10_current_pool_fusion_delayed_generation_v1",
+  "execution_policy_id": "r13_cec_same_execution_path_as_bbob_v1",
+  "parent_commit": "ad8c95885cd04f23445127ce7036ceb519500a9a",
+  "functions": {
+    "CEC-style": 6
+  },
+  "trajectories_per_function": 100,
+  "dimension": 10,
+  "nfe_including_initial_population": 300,
+  "initial_population": 100,
+  "arms": [
+    "frozen_baseline",
+    "no_agent",
+    "llm_full",
+    "llm_no_anchor",
+    "llm_no_online_generators"
+  ],
+  "decision_steps": [
+    5,
+    15
+  ],
+  "decision_FE_before": [
+    220,
+    240
+  ],
+  "active_FE_before": 210,
+  "action_duration_rounds": 5,
+  "generation_delay_rounds": 1,
+  "generation_effective_rounds": 4,
+  "current_candidate_count": {
+    "llm_full": 38,
+    "llm_no_anchor": 38,
+    "llm_no_online_generators": "1 or2 actual Anchor proposals, no padding",
+    "no_agent": "3 after native shortlist"
+  },
+  "default_profile": "matched38",
+  "failure_fallback": "matched38",
+  "automatic_retry": false,
+  "expected_api_requests": 360,
+  "expected_requests_per_live_arm": 120,
+  "max_new_api_attempts": 360,
+  "workers": 24,
+  "api": {
+    "model": "deepseek-v4-flash",
+    "endpoint": "https://worldcodes.online/v1/chat/completions",
+    "transport": "proxy_http",
+    "proxy": "http://127.0.0.1:7890",
+    "concurrency": 2,
+    "timeout_seconds": 90,
+    "max_tokens": 1024,
+    "max_request_bytes": 96000
+  },
+  "hardware_runtime": {
+    "device": "cuda",
+    "workers": 24,
+    "visible_devices": "0",
+    "batching": "fixed per-request trajectories and ensemble members; no cross-request merging",
+    "gpu_min_batch": 2,
+    "gpu_concurrency": 2,
+    "solver_device": "cpu",
+    "baseline_device": "cpu",
+    "cpu_threads_per_worker": 1,
+    "proxy_dtype": "float32",
+    "tf32": false,
+    "cuda_numerics_may_change_decisions": true,
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "python_executable": "/home/skq/.conda/envs/ooneurgo/bin/python",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.2.6",
+      "sympy": "1.14.0"
+    },
+    "api": {
+      "model": "deepseek-v4-flash",
+      "endpoint": "https://worldcodes.online/v1/chat/completions",
+      "transport": "proxy_http",
+      "proxy": "http://127.0.0.1:7890",
+      "concurrency": 2,
+      "timeout_seconds": 90,
+      "max_tokens": 1024,
+      "max_request_bytes": 96000
+    },
+    "no_agent_proxy_backend": "same CUDA proxy as Full; archived frozen baseline remains CPU"
+  },
+  "cec_execution": "Remove CEC-only structured predicate from current model and strict-ablation worker modules. Use the BBOB path for generation, Residual, guarded proxy, full-pool Agent and protection. Preserve cecf names, objective formulas, bounds, original initial populations and original solver RNG.",
+  "baseline": "Archived frozen CPU code and all values independently replayed with shape, coordinate and RNG identity. Baseline structural predicate is not patched.",
+  "scope_authorization": "User explicitly requested CEC remeasurement only and selected Full + frozen baseline + all three strict module ablations. Earlier BBOB24/UAV5 evidence is not overwritten.",
+  "ablations": {
+    "llm_no_anchor": "Remove pretrained Anchor; fill two reference positions with native trust-region in RNG fork. Temperature action aliases inactive; disclosed to LLM.",
+    "llm_no_online_generators": "Physically remove six runtime generators and extra native proposal. Preserve Anchor, surrogate, Residual and Agent. Frozen Full case memory; local scale aliases inactive and disclosed.",
+    "no_agent": "No LLM, retrieval, Agent support gate/history, extra proposal or Agent reranking; retain Anchor, six native operators, surrogate and Residual under uniform CEC execution."
+  },
+  "offline_memory": "Byte-identical frozen R10 memory. Generated training functions already take the non-CEC route, so case policy is unchanged; no new target labels or case relabeling.",
+  "action_gates": "Unchanged frozen coverage and gain support rules. No forced valid nondefault actions; singleton allowed remains possible. No threshold changes after observing target outcomes.",
+  "objective_cache_identity": "full shape + exact float32 coordinates + objective RNG before; restore RNG-after exactly; report native and cached FE separately",
+  "rng_pairing": "Identical archived initial populations and solver RNG. Assert all201 objective-boundary RNG cursors and final RNG against frozen original. No-generators skips draws using this cursor schedule without running removed operators.",
+  "remote_baseline_ref": "baseline/r13-cec-uniform-20261025",
+  "remote_baseline_commit": "ad8c95885cd04f23445127ce7036ceb519500a9a",
+  "remote_experiment_ref": "experiment/r13-cec-uniform-20261025",
+  "reporting": "All6 means, population std and variance; paired W/T/L, coordinates vs frozen baseline and Full, API status/valid rows/failures/fallbacks, token use, reported credit fields, native/cached FE. No currency inference.",
+  "limitations": [
+    "Six local CEC-style functions; not the full official CEC suite.",
+    "Full memory fixed for physical ablations; transfer is not guaranteed.",
+    "Source change is revealed before observing outcomes; no efficacy claim before full live verification."
+  ]
+}
