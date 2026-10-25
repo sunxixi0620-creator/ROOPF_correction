@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-25",
+  "status": "passed",
+  "frozen_algorithm_files_verified": 36,
+  "protocol_and_memory_hashes_verified": true,
+  "final_excel_and_packaged_copy_identical": true,
+  "all_report_artifact_hashes_verified": true,
+  "new_files_inspected": 24,
+  "payloads_including_compressed_entries_inspected": 228,
+  "archives_opened": 6,
+  "credential_findings": 0,
+  "final_document_source_syntax": "passed",
+  "bbob24_ablations_verified": {
+    "llm_no_anchor": {
+      "function_wtl": [
+        21,
+        0,
+        3
+      ],
+      "paired_trajectory_wtl": [
+        2008,
+        0,
+        392
+      ]
+    },
+    "llm_no_online_generators": {
+      "function_wtl": [
+        11,
+        11,
+        2
+      ],
+      "paired_trajectory_wtl": [
+        631,
+        1767,
+        2
+      ]
+    },
+    "no_agent": {
+      "function_wtl": [
+        8,
+        12,
+        4
+      ],
+      "paired_trajectory_wtl": [
+        264,
+        1922,
+        214
+      ]
+    }
+  },
+  "new_training_or_api_calls": false,
+  "algorithm_changed": false
+}
