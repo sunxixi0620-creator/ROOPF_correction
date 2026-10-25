@@ -1,0 +1,17 @@
+{
+  "status": "code_and_independent_baseline_verified_before_live_calls",
+  "code_commit": "f055fcfa43502882988ea7530350a904c56ffae6",
+  "baseline_commit": "e053e3e47765eb7fcc082997f24a510011d7559e",
+  "actual_byte_verified_files": [
+    "roopf/strict_component_ablations.py",
+    "scripts/experiment_r12_strict_ablations.py",
+    "scripts/report_r12_strict_ablations.py",
+    "scripts/run_r12_strict_ablations.sh",
+    "scripts/generate_r12_sources.py",
+    "scripts/r12_model_header.txt",
+    "scripts/check_r12_strict_ablations.py",
+    "experiments/r12_strict_component_ablations/PROTOCOL.json",
+    "experiments/r12_strict_component_ablations/offline_memory.json",
+    "experiments/r12_strict_component_ablations/FROZEN_PARENT.json"
+  ]
+}

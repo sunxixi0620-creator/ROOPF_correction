@@ -1,0 +1,11 @@
+arm,scope,function_wins,function_ties,function_losses,trajectory_wins,trajectory_ties,trajectory_losses
+no_agent,primary34,12,18,4,437,2643,320
+no_agent,BBOB23,7,12,4,216,1907,177
+no_agent,CEC6,0,6,0,0,600,0
+no_agent,UAV5,5,0,0,221,136,143
+no_agent,BBOB20_secondary,1,0,0,48,15,37
+llm_no_online_generators,primary34,15,17,2,942,2430,28
+llm_no_online_generators,BBOB23,10,11,2,547,1751,2
+llm_no_online_generators,CEC6,0,6,0,0,600,0
+llm_no_online_generators,UAV5,5,0,0,395,79,26
+llm_no_online_generators,BBOB20_secondary,1,0,0,84,16,0

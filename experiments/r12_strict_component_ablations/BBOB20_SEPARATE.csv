@@ -1,0 +1,3 @@
+group,fid,arm,primary,full_mean,full_std,alternative_mean,alternative_std,wins,ties,losses,original_mean,original_std,alternative_vs_original_wins,alternative_vs_original_ties,alternative_vs_original_losses,matched38_mean,matched38_std,alternative_vs_matched38_wins,alternative_vs_matched38_ties,alternative_vs_matched38_losses
+BBOB,20,no_agent,False,1.9026207160949706,0.954752420146326,2.0577146911621096,0.9222892207249683,48,15,37,2.0577146911621096,0.9222892207249683,0,100,0,1.9704696869850158,1.0390746701072202,28,15,57
+BBOB,20,llm_no_online_generators,False,1.9026207160949706,0.954752420146326,3.289653127193451,1.347786584540089,84,16,0,2.0577146911621096,0.9222892207249683,0,15,85,1.9704696869850158,1.0390746701072202,0,16,84

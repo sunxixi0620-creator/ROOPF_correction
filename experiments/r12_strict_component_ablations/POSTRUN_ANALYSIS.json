@@ -1,0 +1,23 @@
+{
+  "no_generator_case_support": {
+    "contexts": 5800,
+    "coverage_supported": 55,
+    "multiple_allowed": 0
+  },
+  "allowed_action_count_histogram": {
+    "1": 5800
+  },
+  "executed_request_plans_including_fallbacks": {
+    "matched38": 5800
+  },
+  "failure_reasons": {
+    "invalid_action_schema": 103,
+    "Expecting value: line 1 column 1 (char 0)": 49,
+    "output_truncated_or_incomplete": 12,
+    "unknown_trajectory": 1,
+    "connection_or_timeout: timed out": 1
+  },
+  "interpretation": "All5800 no-generator contexts allow only the default action; 5745 are outside Full-case coverage. Agent is retained physically but makes zero changed-point decisions in this ablation; no independent LLM benefit can be inferred.",
+  "no_agent_definition": "Controller objects absent; not retrieval substitution or matched38 control. CUDA proxy backend held the same as Full.",
+  "frozen_memory_limitation": "Full memory is held fixed for module ablation, not regenerated after seeing target results."
+}

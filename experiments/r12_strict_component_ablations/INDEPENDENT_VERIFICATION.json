@@ -1,0 +1,647 @@
+{
+  "status": "full_strict_component_ablations_verified",
+  "functions": 35,
+  "arms": [
+    "no_agent",
+    "llm_no_online_generators"
+  ],
+  "trajectories": 7000,
+  "comparisons": [
+    {
+      "arm": "no_agent",
+      "scope": "primary34",
+      "function_wins": 12,
+      "function_ties": 18,
+      "function_losses": 4,
+      "trajectory_wins": 437,
+      "trajectory_ties": 2643,
+      "trajectory_losses": 320
+    },
+    {
+      "arm": "no_agent",
+      "scope": "BBOB23",
+      "function_wins": 7,
+      "function_ties": 12,
+      "function_losses": 4,
+      "trajectory_wins": 216,
+      "trajectory_ties": 1907,
+      "trajectory_losses": 177
+    },
+    {
+      "arm": "no_agent",
+      "scope": "CEC6",
+      "function_wins": 0,
+      "function_ties": 6,
+      "function_losses": 0,
+      "trajectory_wins": 0,
+      "trajectory_ties": 600,
+      "trajectory_losses": 0
+    },
+    {
+      "arm": "no_agent",
+      "scope": "UAV5",
+      "function_wins": 5,
+      "function_ties": 0,
+      "function_losses": 0,
+      "trajectory_wins": 221,
+      "trajectory_ties": 136,
+      "trajectory_losses": 143
+    },
+    {
+      "arm": "no_agent",
+      "scope": "BBOB20_secondary",
+      "function_wins": 1,
+      "function_ties": 0,
+      "function_losses": 0,
+      "trajectory_wins": 48,
+      "trajectory_ties": 15,
+      "trajectory_losses": 37
+    },
+    {
+      "arm": "llm_no_online_generators",
+      "scope": "primary34",
+      "function_wins": 15,
+      "function_ties": 17,
+      "function_losses": 2,
+      "trajectory_wins": 942,
+      "trajectory_ties": 2430,
+      "trajectory_losses": 28
+    },
+    {
+      "arm": "llm_no_online_generators",
+      "scope": "BBOB23",
+      "function_wins": 10,
+      "function_ties": 11,
+      "function_losses": 2,
+      "trajectory_wins": 547,
+      "trajectory_ties": 1751,
+      "trajectory_losses": 2
+    },
+    {
+      "arm": "llm_no_online_generators",
+      "scope": "CEC6",
+      "function_wins": 0,
+      "function_ties": 6,
+      "function_losses": 0,
+      "trajectory_wins": 0,
+      "trajectory_ties": 600,
+      "trajectory_losses": 0
+    },
+    {
+      "arm": "llm_no_online_generators",
+      "scope": "UAV5",
+      "function_wins": 5,
+      "function_ties": 0,
+      "function_losses": 0,
+      "trajectory_wins": 395,
+      "trajectory_ties": 79,
+      "trajectory_losses": 26
+    },
+    {
+      "arm": "llm_no_online_generators",
+      "scope": "BBOB20_secondary",
+      "function_wins": 1,
+      "function_ties": 0,
+      "function_losses": 0,
+      "trajectory_wins": 84,
+      "trajectory_ties": 16,
+      "trajectory_losses": 0
+    }
+  ],
+  "api": {
+    "status": "all_actual_requests_mapped_to_executed_decisions",
+    "attempts": 580,
+    "valid": 414,
+    "fully_valid": 414,
+    "partial": 0,
+    "failures": 166,
+    "valid_rows": 4140,
+    "fallback_rows": 1660,
+    "prompt_tokens": 7830967,
+    "completion_tokens": 117536,
+    "provider_credit_sum": "242.08",
+    "responses_with_credit": 415,
+    "currency": "not inferred",
+    "per_arm": {
+      "llm_no_online_generators": {
+        "attempts": 580,
+        "ok": 414,
+        "valid_rows": 4140,
+        "fallback_rows": 1660,
+        "failed": 166
+      }
+    },
+    "coverage": [
+      {
+        "group": "BBOB",
+        "fid": 1,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 6,
+          "valid_rows": 140,
+          "ok": 14
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 2,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 5,
+          "valid_rows": 150,
+          "ok": 15
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 3,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 16,
+          "valid_rows": 160,
+          "failed": 4
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 4,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 7,
+          "valid_rows": 130,
+          "ok": 13
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 5,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "failed": 5
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 6,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 7,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "failed": 7
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 8,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 8,
+          "valid_rows": 120,
+          "ok": 12
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 9,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 7,
+          "valid_rows": 130,
+          "ok": 13
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 10,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "failed": 7
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 11,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 12,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "failed": 5
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 13,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 16,
+          "valid_rows": 160,
+          "failed": 4
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 14,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 16,
+          "valid_rows": 160,
+          "failed": 4
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 15,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 16,
+          "valid_rows": 160,
+          "failed": 4
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 16,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 3,
+          "valid_rows": 170,
+          "ok": 17
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 17,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 7,
+          "valid_rows": 130,
+          "ok": 13
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 18,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "failed": 7
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 19,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "failed": 5
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 20,
+        "arm": "llm_no_online_generators",
+        "primary": false,
+        "counts": {
+          "attempts": 20,
+          "failed": 8,
+          "valid_rows": 120,
+          "ok": 12
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 21,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 22,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 23,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 24,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "CEC-style",
+        "fid": 1,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 2,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 3,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 4,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 5,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 6,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "UAV",
+        "fid": 1,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "failed": 5
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 2,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "failed": 7
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 3,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "failed": 7
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 4,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 16,
+          "valid_rows": 160,
+          "failed": 4
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 5,
+        "arm": "llm_no_online_generators",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 16,
+          "valid_rows": 160,
+          "failed": 4
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      }
+    ],
+    "matched_request_identities": 580,
+    "generation_delay_verified": true
+  },
+  "totals": {
+    "no_agent": {
+      "native_fe": 14050,
+      "cached_fe": 1035950
+    },
+    "llm_no_online_generators": {
+      "native_fe": 247430,
+      "cached_fe": 802570,
+      "changed_points": 0,
+      "fusion_changed_points": 0,
+      "selected_adjusted_candidates": 0
+    }
+  },
+  "active_window_coordinate_comparison": {
+    "no_agent": {
+      "compared": 261000,
+      "different": 163543
+    },
+    "llm_no_online_generators": {
+      "compared": 261000,
+      "different": 243846
+    }
+  },
+  "no_agent": {
+    "controller_present": false,
+    "llm_calls": 0,
+    "retrieval_calls": 0,
+    "agent_decision_records": 0,
+    "online_generators_retained": true
+  },
+  "no_online_generators": {
+    "generator_calls": 0,
+    "native_extra_calls": 0,
+    "competing_candidates": "1 original Anchor, optionally 1 actual Anchor variant; no padding",
+    "agent_retained": true,
+    "online_proxy_retained": true
+  },
+  "paired_initial_and_final_rng_batches": 700,
+  "paired_objective_rng_boundaries": 140700,
+  "parent_full": "frozen completed real-LLM R10 results",
+  "limitations": [
+    "Full offline cases held fixed; not relabeled for changed generator availability.",
+    "Local-step profiles are inactive aliases in no-online-generators arm and explicitly disclosed to LLM.",
+    "Removed generator RNG draws are skipped using the recorded reference objective-boundary cursor; no removed generator is run.",
+    "CEC structural lock retained; no Agent calls in CEC.",
+    "BBOB20 secondary only; function counts are not significance tests.",
+    "No-Agent is the original ROOPF core on the same CUDA proxy backend as Full; CPU frozen original is separately reported."
+  ]
+}
