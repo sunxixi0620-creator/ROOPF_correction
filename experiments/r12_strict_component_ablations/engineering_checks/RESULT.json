@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "not_full_live_validation": true,
+  "checks": [
+    {
+      "group": "BBOB",
+      "fid": 9,
+      "trajectories": 10,
+      "nfe": 300,
+      "no_agent_all_values_equal_frozen_original": true,
+      "no_online_generator_calls": 0,
+      "paired_objective_rng_boundaries": 201,
+      "api_calls": 0,
+      "engineering_only": true
+    },
+    {
+      "group": "CEC-style",
+      "fid": 1,
+      "trajectories": 10,
+      "nfe": 300,
+      "no_agent_all_values_equal_frozen_original": true,
+      "no_online_generator_calls": 0,
+      "paired_objective_rng_boundaries": 201,
+      "api_calls": 0,
+      "engineering_only": true
+    },
+    {
+      "group": "BBOB",
+      "fid": 20,
+      "trajectories": 10,
+      "nfe": 300,
+      "no_agent_all_values_equal_frozen_original": true,
+      "no_online_generator_calls": 0,
+      "paired_objective_rng_boundaries": 201,
+      "api_calls": 0,
+      "engineering_only": true
+    }
+  ]
+}

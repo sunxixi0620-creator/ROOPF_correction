@@ -1,0 +1,21 @@
+R12：严格整模块消融，补齐无在线生成算子与无Agent
+
+conda activate ooneurgo
+cd /home/skq/repos/roopf_agent/ROOPF
+bash scripts/run_r12_strict_ablations.sh all --workers 24 --progress-seconds 5
+
+实时日志：tail -f experiments/r12_strict_component_ablations/PROGRESS.jsonl
+仅复核现有记录：bash scripts/run_r12_strict_ablations.sh verify
+
+35函数×每函数100轨迹，D10，每轨迹300FE含初始100，两臂共7000轨迹。
+Full采用冻结R10已完成的真实LLM记录，不重新调用Full API。
+
+no_agent：fusion_agent与agentic_controller均为空，无LLM、案例检索、案例门、Agent策略历史、Agent额外提议、Agent参数调整与Agent重排序。原版Anchor、六算子生成库、在线代理与Residual保留。使用与Full相同的CUDA代理后端，不将关闭Agent与改变CPU/GPU后端混在一起；另外对照冻结原版CPU基线。
+
+llm_no_online_generators：六算子全部禁用，原生neural_generator模块移除，额外原生信赖域提议移除；任何调用移除算子都会立即报错。只剩原版Anchor候选及可能的Anchor温度变体，实际竞争候选1或2个，不补重复点凑38。在线代理、Residual、LLM、Full离线案例与原案例门保留；局部步长动作是无效别名，已告知LLM。Full案例不重新标注，不能当作该消融专属收益预测。
+
+无Agent臂应当零API；无生成算子臂预计580次新真实API请求，无自动重试。CEC六函数结构锁保留、不调用LLM，BBOB20保留批耦合随机语义并单列。
+每批从冻结Full恢复相同初始种群与求解器RNG；无Agent臂记录201个真实目标评价边界的RNG状态，并逐一对照冻结原版的请求哈希。无生成算子臂在每轮恢复同一评价边界游标，跳过已移除算子的随机数消耗，不执行移除算子或生成虚拟候选；201个评价边界及最终RNG均需一致。
+
+工程检查覆盖BBOB9、CEC1与随机BBOB20各10轨迹，只用于物理删除、预算、候选形状与RNG路径检查，零API，不替代完整实时LLM验证。初次工程导入错误已在ATTEMPT01记录保留，正式运行前修复。
+此前llm_no_online是“去在线历史输入”，retrieval是“检索规则替代LLM”，均不能标成这两项严格消融。

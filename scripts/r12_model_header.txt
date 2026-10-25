@@ -1,0 +1,107 @@
+"""Strict R10 component ablations. Generated once; frozen before live runs.
+
+No-online-generators removes all six runtime generators and the extra native
+proposal. Only original Anchor candidates and an actual Anchor temperature
+variant can exist; there is no padding to the Full candidate count.
+The frozen objective-boundary RNG schedule preserves common random numbers
+without calling the removed generators, including BBOB20 stochastic semantics.
+"""
+import copy
+import math
+import torch
+import numpy as np
+
+from roopf.model import (ROOPFOptimizer,EPS,_ensure_fitness_2d,_sort_pop,_repair,
+    _is_structured_system_problem,_is_embedded_high_dim_problem,
+    _is_local_proxy_friendly_problem,_is_hpo_problem)
+from roopf.fusion_rules import protected_indices
+from roopf.current_evidence_agent import CurrentEvidenceAgent,SYSTEM,average_ranks,POLICY_ID
+from roopf.evidence_fusion_agent import PROFILES,ACTION_NAMES,digest,request_context_digest
+from roopf.policy_api_r10 import request_policy
+
+
+class NoOnlineGeneratorsOptimizer(ROOPFOptimizer):
+    def _anchor_round(self,x,fitness,problem,rest,archive_x,archive_y,state_raw,
+                      remaining,stagnation,used,seen,best_count,admit_count,no_admit):
+        baseline=self._baseline_candidates(x,fitness,problem,rest)
+        assert baseline is not None and baseline.shape[1]==rest
+        operations=torch.full((x.size(0),rest),-2,dtype=torch.long)
+        control=self._generation_control
+        if control is None:
+            return baseline,operations,None,None,None,None
+        assert rest==2 and not _is_structured_system_problem(problem)
+        points=baseline
+        if bool((control.temperature!=1).any()):
+            points=torch.cat([baseline,control.extra],1)
+        candidate_ops=torch.full(points.shape[:2],-2,dtype=torch.long)
+        with torch.random.fork_rng(devices=[]):
+            self._select_by_acquisition(archive_x,archive_y,points,
+                torch.ones(points.shape[:2]),problem,remaining,stagnation,1,
+                candidate_ops=candidate_ops,state_raw=state_raw,fitness=fitness,used=used,
+                use_learned_router=True)
+        control.protected_mu=self.last_surrogate_mu[:,:1].clone()
+        probability=self.last_router_prob
+        scale=archive_y.std(1,keepdim=True,unbiased=False).clamp_min(EPS)
+        signal=torch.zeros_like(self.last_acquisition)
+        if probability is not None:
+            signal=((probability-probability.mean(1,keepdim=True))/probability.std(1,keepdim=True,unbiased=False).clamp_min(1e-6)).clamp(-2.5,2.5)
+        online=self.last_acquisition+self.last_residual_weight*scale*signal
+        competing=points[:,1:];ops=candidate_ops[:,1:]
+        p=None if probability is None else probability[:,1:]
+        combined_signal=torch.zeros_like(online[:,1:])
+        if p is not None:
+            combined_signal=((p-p.mean(1,keepdim=True))/p.std(1,keepdim=True,unbiased=False).clamp_min(1e-6)).clamp(-2.5,2.5)
+        score=online[:,1:]-self.last_residual_weight*scale*combined_signal
+        def selection_rule(acquisition,proposed,margin=.10,soft_margin=.04,online_only=False):
+            ablation=set(self.ablation)-({'residual_safety_gate','router_veto','weak_router_veto'} if online_only else set())
+            return protected_indices(acquisition,p,scale,proposed,1,ablation=ablation,
+                portfolio_seen=seen,portfolio_best_count=best_count,portfolio_admit_count=admit_count,
+                portfolio_no_admit=no_admit,stagnation=stagnation,remaining=remaining,
+                local_proxy_friendly=_is_local_proxy_friendly_problem(problem),hpo=_is_hpo_problem(problem),
+                embedded=_is_embedded_high_dim_problem(problem),selected_ops=ops[:,1:],op_penalty=None,
+                margin=margin,soft_margin=soft_margin)
+        original=torch.zeros((x.size(0),1),dtype=torch.long)
+        selected=control.choose(original_idx=original,score=score,mu=self.last_surrogate_mu[:,1:],
+            sigma=self.last_surrogate_sigma[:,1:],probability=p,state=state_raw,archive_y=archive_y,
+            fitness=fitness,candidates=competing,candidate_ops=ops,remaining=remaining,problem=problem,
+            residual_weight=self.last_residual_weight,selection_rule=selection_rule)
+        chosen=competing.gather(1,selected.unsqueeze(-1).expand(-1,-1,x.size(-1)))
+        def selected_value(value):
+            return torch.cat([value[:,:1],value[:,1:].gather(1,selected)],1)
+        control.previous_generation=[dict(online_generators_enabled=False,competing_candidates=competing.size(1),
+            extra_origin=control.extra_origin[i],anchor=control.anchor_diagnostics[i],local_scale_effective=False)
+            for i in range(x.size(0))]
+        return torch.cat([baseline[:,:1],chosen],1),operations,selected_value(self.last_acquisition),selected_value(self.last_surrogate_mu),selected_value(self.last_surrogate_sigma),None if probability is None else selected_value(probability)
+
+# AGENT_CLASS_START
+class NoOnlineGeneratorsAgent(CurrentEvidenceAgent):
+    def __init__(self,*args,**kwargs):
+        super().__init__(*args,**kwargs)
+        self.system_prompt=SYSTEM.replace('All22 actions have offline evidence rows when offline input is enabled.',
+            'ALL online generating operators are REMOVED, including the extra native proposal. Only original Anchor and its temperature variant can be evaluated. Local-step changes are inactive aliases. Offline cases are frozen Full cases, not relabeled for this ablation. All22 actions have offline evidence rows when offline input is enabled.')
+
+    def prepare_generation(self,*args,**kwargs):
+        super().prepare_generation(*args,**kwargs)
+        self.stats['local_scaled_rounds']=0
+
+    def origin(self,index,slot,operation):
+        return 'anchor_variant' if slot==1 and self.extra_origin[index]=='anchor_variant' else 'original_anchor'
+
+    def make_extra(self,model,population,fitness,problem,baseline):
+        self.protected_point=baseline[:,:1].detach().clone()
+        self.original_anchor=baseline[:,1:2].detach().clone()
+        with torch.random.fork_rng(devices=[]):
+            variant,details=model.baseline_model.generator.competing_proposal(population,problem,fitness,self.temperature)
+        changed=self.temperature!=1
+        self.extra=torch.where(changed[:,None,None],variant,baseline[:,1:2])
+        self.extra_ops=torch.full((population.size(0),1),-2,dtype=torch.long)
+        self.extra_origin=['anchor_variant' if flag else 'anchor_alias' for flag in changed.tolist()]
+        self.anchor_diagnostics=[dict(temperature=float(self.temperature[i]),entropy=float(details['entropy'][i]),
+            repaired=bool(details['repaired'][i]),normalized_distance=float(torch.norm((variant[i]-baseline[i,1:2])/self.width)/math.sqrt(population.size(-1)))) for i in range(population.size(0))]
+
+    def compact_payload(self,payload):
+        result=super().compact_payload(payload)
+        result['ablation']=dict(online_generators_present=False,extra_native_proposal_present=False,
+            local_scale_effective=False,actual_competing_candidates=[t['current_options']['candidate_count'] for t in payload['trajectories']],
+            offline_memory='frozen Full cases; not relabeled')
+        return result

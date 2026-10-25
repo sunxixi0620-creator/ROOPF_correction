@@ -82,3 +82,10 @@ experiments/r11_anchor_ablation/no_api/
 experiments/r11_anchor_ablation/.run.lock
 experiments/r11_anchor_ablation/*.log
 experiments/r11_anchor_ablation/engineering_checks/raw/
+
+experiments/r12_strict_component_ablations/results/
+experiments/r12_strict_component_ablations/api_journal/
+experiments/r12_strict_component_ablations/no_api/
+experiments/r12_strict_component_ablations/.run.lock
+experiments/r12_strict_component_ablations/*.log
+experiments/r12_strict_component_ablations/engineering_checks/raw/

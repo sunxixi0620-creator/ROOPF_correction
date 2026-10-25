@@ -1,0 +1,6 @@
+{
+  "status": "engineering_failure_preserved",
+  "error": "Generated module did not import inherited POLICY_ID; import corrected before live experiment.",
+  "api_calls": 0,
+  "formal_trajectories_started": 0
+}

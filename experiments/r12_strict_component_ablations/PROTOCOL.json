@@ -1,0 +1,131 @@
+{
+  "round": "R12 strict whole-component ablations",
+  "policy_id": "r10_current_pool_fusion_delayed_generation_v1",
+  "parent_commit": "e053e3e47765eb7fcc082997f24a510011d7559e",
+  "baseline_source_commit": "52ec388b7812214f98fbfd84624a1dd65a52a0d8",
+  "functions": {
+    "BBOB": 24,
+    "CEC-style": 6,
+    "UAV": 5
+  },
+  "trajectories_per_function": 100,
+  "dimension": 10,
+  "nfe_including_initial_population": 300,
+  "initial_population": 100,
+  "arms": [
+    "no_agent",
+    "llm_no_online_generators"
+  ],
+  "decision_steps": [
+    5,
+    15
+  ],
+  "action_duration_rounds": 5,
+  "generation_delay_rounds": 1,
+  "generation_effective_rounds": 4,
+  "current_candidate_count": {
+    "no_agent": "3 after original core shortlist",
+    "llm_no_online_generators": "1 or2 genuine Anchor proposals; no padding"
+  },
+  "default_profile": "matched38",
+  "failure_fallback": "historical action id matched38 in no-generators means original Anchor only; no removed generator may execute",
+  "active_stage": "unchanged remaining<=.30; two points; CEC original structural lock",
+  "candidate_generation": "no-agent retains unmodified original six-generator bank; no-generators removes all six and extra native proposal, retaining original Anchor and optional delayed Anchor temperature variant",
+  "fusion": "current candidates predicted before API; lambda0/1/2 applied now and next4 rounds; original numerical coefficients and gates retained",
+  "release_semantics": "original selector on current pool, not a reset to original trajectory",
+  "output_semantics": "one canonical action string per trajectory; complete final JSON only; per-row validation; duplicate JSON keys/unknown ids/truncation reject request",
+  "case_features": "original8 plus current conflict, fusion choices, uncertainty, residual spread, online gap, rank correlation and selected rank reliability/sample fraction",
+  "offline_functions": 36,
+  "offline_seeds": 8,
+  "offline_initial_radius": [
+    1.0,
+    1.0,
+    0.3,
+    0.3,
+    0.1,
+    0.1,
+    0.03,
+    0.03
+  ],
+  "offline_horizons": [
+    5,
+    10
+  ],
+  "offline_split": "same7 generated heldout functions excluded from retrieval; heldout feature distances only calibrate coverage",
+  "offline_native_fe_cap": 3000000,
+  "coverage_rule": "nearest3 distinct functions at same decision step; third distance <= heldout95th percentile; feature metric fit only on training cases",
+  "action_support_rule": "matched38 always; other actions require coverage, at least2 positive-function neighbors, mean_gain5>max(0,.25*dispersion5), mean_gain10>=0; heuristic support, not confidence bound",
+  "offline_summary": "all22 action rows; relative gains retained with7 significant digits; no top/bottom truncation",
+  "ablation_definitions": {
+    "no_agent": "No fusion_agent or agentic_controller; no LLM, retrieval, case gate, Agent history, Agent extra proposal or Agent re-ranking; retain original Anchor, native bank, online proxy and Residual.",
+    "llm_no_online_generators": "Remove all six runtime generators, the neural-elite generator module and native extra proposal; only original Anchor and optional Anchor temperature variant; retain online proxy, Residual, LLM, fixed Full case evidence and case support gate."
+  },
+  "max_new_api_attempts": 600,
+  "expected_api_requests": 580,
+  "expected_requests_per_live_arm": 580,
+  "primary_excludes_bbob20": true,
+  "cec_reason": "six original structured-system locks; no intervention/API",
+  "automatic_retry": false,
+  "automatic_execution": true,
+  "implementation_status": "engineering_checks_passed_full_validation_pending",
+  "api_and_full_runs_status": "not_started",
+  "remote_baseline_ref": "baseline/r12-strict-components-20261025",
+  "remote_baseline_commit": "e053e3e47765eb7fcc082997f24a510011d7559e",
+  "statistical_claim": "development experiment informed by R09; not blind confirmation; no calibrated success probabilities; function/trajectory counts are not significance tests",
+  "limitations": [
+    "generation temperature variants may remain unselected; not forced to pass protected gates",
+    "online selected feedback is selection biased, not causal advantage",
+    "third-party model routing and billing identity not independently established",
+    "case support thresholds frozen before target suite; no target truth in memory"
+  ],
+  "workers": 24,
+  "hardware_runtime": {
+    "device": "cuda",
+    "workers": 24,
+    "visible_devices": "0",
+    "batching": "fixed per-request trajectories and ensemble members; no cross-request merging",
+    "gpu_min_batch": 2,
+    "gpu_concurrency": 2,
+    "solver_device": "cpu",
+    "baseline_device": "cpu",
+    "cpu_threads_per_worker": 1,
+    "proxy_dtype": "float32",
+    "tf32": false,
+    "cuda_numerics_may_change_decisions": true,
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "python_executable": "/home/skq/.conda/envs/ooneurgo/bin/python",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.2.6",
+      "sympy": "1.14.0"
+    },
+    "api": {
+      "model": "deepseek-v4-flash",
+      "endpoint": "https://worldcodes.online/v1/chat/completions",
+      "transport": "proxy_http",
+      "proxy": "http://127.0.0.1:7890",
+      "concurrency": 2,
+      "timeout_seconds": 90,
+      "max_tokens": 1024,
+      "max_request_bytes": 96000
+    }
+  },
+  "api": {
+    "model": "deepseek-v4-flash",
+    "endpoint": "https://worldcodes.online/v1/chat/completions",
+    "transport": "proxy_http",
+    "proxy": "http://127.0.0.1:7890",
+    "concurrency": 2,
+    "timeout_seconds": 90,
+    "max_tokens": 1024,
+    "max_request_bytes": 96000
+  },
+  "remote_experiment_ref": "experiment/r12-strict-component-ablations",
+  "actual_candidate_count": "No-Agent: original 36-point bank, core retains two native candidates plus competing Anchor; no-generators: 1 competing Anchor plus optional 1 Anchor temperature variant. No padding.",
+  "objective_rng_protocol": "Reference no-Agent execution records all201 objective-boundary states; no-generators skips removed draws by restoring each recorded round boundary. All201 evaluation RNG boundaries asserted equal; both final states equal frozen original.",
+  "no_agent_proxy_backend": "CUDA same as Full, independently of Agent presence; frozen original CPU comparator separately retained",
+  "offline_memory": "Frozen Full cases, not re-trained or relabeled for module ablation; disclosed to LLM",
+  "local_step_action": "Inactive alias only in no-generators arm",
+  "objective_cache_identity": "shape + exact coordinates + objective RNG before, all functions",
+  "ablation_old_labels": "llm_no_online from R10 is history-input ablation; retrieval is rule substitution. Neither is a strict module removal."
+}
