@@ -1,0 +1,23 @@
+{
+  "status": "engineering_checks_passed",
+  "actual_api_calls": 0,
+  "full_live_validation": false,
+  "contract_partial_rows_verified": true,
+  "duplicate_keys_rejected": true,
+  "small_gain_precision_preserved": true,
+  "frozen_matched38_batches": [
+    "BBOB9_b00",
+    "BBOB20_b00"
+  ],
+  "all22_temporal_prefix_checks": true,
+  "previous_sources_and_records_unchanged": true,
+  "source_sha256": {
+    "roopf/current_evidence_agent.py": "1b2add23b7adf7a2c3d02e84f94e6ce2f16ed4b6273114e0defefb55d9694c7c",
+    "roopf/policy_api_r10.py": "bc4bc9e22a81bd70d7e6e186d75320c583c77c941655913e063554cfdff3f0b1",
+    "scripts/collect_r10.py": "b09b32db1eb6990be4dc2057a5e3c6be3ea464aacd0492d39c334ba49a1f3ee9",
+    "scripts/experiment_r10_full.py": "fc5c44fdb2a23bd159794ef0153c21d22ab6830954e15ece485ea0509be503fb",
+    "scripts/run_r10_hardware.py": "ea9549fe94c6496e6df7484d2d909dd3d1e7f2f32caa9d918a9a15f4dcc7ac73",
+    "scripts/report_r10.py": "966d646f4f561eb306364a2d887351d938c0b96c7c262dea6f51b9fdcb5608d2",
+    "scripts/verify_r10.py": "7994abbbfcea222ead73dc20eb195694cf5003cbd388d2d5bf192d228ed981ac"
+  }
+}

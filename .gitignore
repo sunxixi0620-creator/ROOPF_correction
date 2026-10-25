@@ -60,3 +60,14 @@ experiments/r09_evidence_fusion/archives/
 experiments/r09_evidence_fusion/.run.lock
 experiments/r09_evidence_fusion/*.log
 experiments/r09_evidence_fusion/engineering_checks/raw/
+
+experiments/r10_current_candidate_fusion/collection/
+experiments/r10_current_candidate_fusion/results/
+experiments/r10_current_candidate_fusion/api_journal/
+experiments/r10_current_candidate_fusion/no_api/
+experiments/r10_current_candidate_fusion/collection_no_api/
+experiments/r10_current_candidate_fusion/archives/
+experiments/r10_current_candidate_fusion/.run.lock
+experiments/r10_current_candidate_fusion/*.log
+experiments/r10_current_candidate_fusion/engineering_checks/raw/
+experiments/r10_current_candidate_fusion/compatibility/raw/
