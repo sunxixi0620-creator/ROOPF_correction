@@ -1,3 +1,27 @@
+# ROOPF：最终 Agent 方法（CEC 统一在线流程）
+
+最终版本为 **`final-v1.1.0-cec-unlocked-20261025`**，正式分支为 **`release/final-20261025`**。CEC 采用与 BBOB 相同的在线生成、Residual、Agent 和保护选择流程，已完成六个函数、五个条件、每条件每函数一百条轨迹的真实 API 重测。
+
+- [最终版本说明、运行入口与结果口径](FINAL_VERSION.zh-CN.md)
+- [最终代码与科学资产清单](release/FINAL_MANIFEST.json)
+- [最终 Excel](exports/当前Full_论文对照与消融_BBOB24_CEC统一流程重测_R13.xlsx)
+- [CEC 结果报告 PDF](exports/CEC统一流程重测_R13_完整结果报告.pdf)
+- [结果材料包](exports/CEC统一流程重测_R13_结果材料.zip)
+- [逐函数、配对轨迹与真实 API 证据](experiments/r13_cec_uniform/)
+
+在 `ooneurgo` 环境中使用 CEC 最终入口（实时进度及日志）：
+
+```bash
+conda activate ooneurgo
+bash scripts/run_r13_cec_uniform.sh all --workers 24 --progress-seconds 10
+```
+
+该入口显式安装 CEC 统一执行策略，保持已测代码、权重、案例及门限不变。Full 对冻结基线为 1 个函数胜、5 平，配对轨迹为 1 胜、599 平；唯一改善轨迹均执行默认动作，本轮尚未证明明显的 Agent 额外收益。BBOB/UAV 使用冻结测量记录，最终 Excel 的八个相关结果页保持不变。
+
+下面保留论文复现包的通用安装与说明；最终 Agent 方法的入口、CEC 执行策略和最新结果见上方链接。
+
+---
+
 # ROOPF Reproducibility Package
 
 This anonymous artifact contains the implementation and frozen artifacts used

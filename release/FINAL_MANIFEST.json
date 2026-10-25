@@ -1,24 +1,34 @@
 {
-  "release_id": "final-v1.0.0-20261025",
+  "release_id": "final-v1.1.0-cec-unlocked-20261025",
   "date": "2026-10-25",
   "final_branch": "release/final-20261025",
-  "tag": "final-v1.0.0-20261025",
-  "prepublication_baseline_branch": "baseline/final-before-publish-20261025",
-  "prepublication_code_commit": "c098216011ae2a0d9ea2a9c9dce6da2a1b5d8e84",
-  "policy_id": "r10_current_pool_fusion_delayed_generation_v1",
-  "experiment_configuration": "Full",
+  "tag": "final-v1.1.0-cec-unlocked-20261025",
+  "measured_code_and_results_commit": "b311a0ebffd4238d92b124f560892ffdc2d338ef",
+  "frozen_cec_baseline_branch": "baseline/r13-cec-uniform-20261025",
+  "frozen_cec_baseline_commit": "ad8c95885cd04f23445127ce7036ceb519500a9a",
+  "policy_id": "r13_cec_same_execution_path_as_bbob_v1",
+  "agent_policy_id": "r10_current_pool_fusion_delayed_generation_v1",
+  "canonical_cec_entrypoint": "scripts/run_r13_cec_uniform.sh",
+  "cec_policy_installation": "scripts/experiment_r13_cec_uniform.py worker setup explicitly installs roopf.cec_uniform.install_execution_policy",
   "no_algorithm_change_in_publication": true,
-  "no_new_training_or_api_experiments": true,
+  "new_training_or_api_requests_in_publication": false,
   "reporting_scope": {
     "BBOB": 24,
     "CEC-style": 6,
     "UAV": 5,
     "dimension": 10,
-    "trajectories_per_function": 100,
+    "trajectories_per_function_per_condition": 100,
     "evaluation_budget_including_initial": 300,
     "initial_population": 100
   },
-  "frozen_full_binding": {
+  "measurement_sources": {
+    "CEC-style": "experiments/r13_cec_uniform",
+    "BBOB_and_UAV_full": "experiments/r10_current_candidate_fusion",
+    "BBOB_and_UAV_no_anchor": "experiments/r11_anchor_ablation",
+    "BBOB_and_UAV_no_online_generators_and_no_agent": "experiments/r12_strict_component_ablations",
+    "fresh_combined_35_function_rerun": false
+  },
+  "frozen_cec_binding": {
     "code": {
       "roopf/model.py": "a14ce778b3235f1c29093f55269e7ca12e7a233764b2a8f61bcb2bf5c092ffe3",
       "roopf/fusion_agent.py": "e8db54d3487d34a78fdff0bf216aabd2c48881b81311d3202dad1e03d37e3960",
@@ -55,16 +65,23 @@
       "scripts/run_r10_hardware.sh": "3a42d1b4f5583865d51f84d0525886b5fe4757be489e15ec96bd2ee36579f0f3",
       "scripts/report_r10.py": "966d646f4f561eb306364a2d887351d938c0b96c7c262dea6f51b9fdcb5608d2",
       "scripts/verify_r10.py": "9ac2231fef52f535b03edab51eba91f1b5d5838b341d47b99e6b9e1f89146154",
-      "scripts/hardware_backend.py": "ae1a0ad4bc363b92de6cf5f795b728a5c085bb5e84b71b01547aa412d226b1c1"
+      "scripts/hardware_backend.py": "ae1a0ad4bc363b92de6cf5f795b728a5c085bb5e84b71b01547aa412d226b1c1",
+      "roopf/cec_uniform.py": "cdfc087a3c4eb197da437e1d22525149389a8e63a94d392ee0b703ee026f92c7",
+      "roopf/no_anchor_ablation.py": "8627918ea31b86bca5df8d214795e30e3827694ae1643879d210eb352f5ac753",
+      "roopf/strict_component_ablations.py": "47b24d60d9e8249cba072b2c1336b81890324377455df7e28fc822dadf7d53f4",
+      "roopf/benchmarks/cecfunctions.py": "be4e94fd74e7f3a1589fc27d7218f339624cdf3008cd06022ed3258ed6758dbd",
+      "roopf/benchmarks/utils.py": "06fbf84f7fa749940d9763e664aabaa52430311111d0895a8f66c6f213250c9d",
+      "scripts/experiment_r13_cec_uniform.py": "8b4e5ee93db98d67387fd7bcd33e4ff4ef9f1a862700da37dc2a78d754a7b9fb",
+      "scripts/check_r13_cec_uniform.py": "a2a0b4b6930061d8d4a902f0ddbec02921cd0f9cf79d48606db8bb14591480e6",
+      "scripts/run_r13_cec_uniform.sh": "d044ddb63074159361d338ea053cebbdbb6dd04516c900b04670e92b3ddb52e4"
     },
-    "protocol_sha256": "d3b71e29c7bbec212bd50c3dd772cd5f7e61d89b7784b791ce58ae8ef27a5829",
+    "protocol_sha256": "50ba5ba27a2de9648883b7a9b5fbcc4dd8745897b24dd2d18efbec52650ef18a",
     "memory_sha256": "43824649b85072e4b9e124f247862bd664075876ad8c37df7a9963a1e53606bf",
-    "hardware_runtime_sha256": "6b0cda715c6bcaa433c34b37136815bd0d3384d22277478f62cfd9c96315d84a"
+    "hardware_runtime_sha256": "2dbcd092e7db8844b200e8f3f2ed19a4e65ed94f85801ea6bf3b14d175ef8065"
   },
-  "model_and_case_sha256": {
-    "checkpoints/anchor_policy_d10.pt": "a265d448ad4a2d191eed23dafa36e03e9475a7b95e824bb04d9a88715031a06d",
-    "checkpoints/residual_selector_generated36_d10.pt": "42bac7c6792b6980ad149eff08ce4b2d93ce3ffba51d3d869dc0d1625b3a9d01",
-    "experiments/r10_current_candidate_fusion/offline_memory.json": "43824649b85072e4b9e124f247862bd664075876ad8c37df7a9963a1e53606bf"
+  "analysis_code_sha256": {
+    "scripts/report_r13_cec_uniform.py": "01f371ac0d7b8a9e74981d68c55cfd9380ed5cb84f06e7ade082371376a80d34",
+    "scripts/export_r13_cec_excel.py": "1f0d95e2a6fd719c7297306449d041b0a3c0a99e953a6313baeab9d94647a313"
   },
   "scientific_record_sha256": {
     "experiments/r10_current_candidate_fusion/PROTOCOL.json": "d3b71e29c7bbec212bd50c3dd772cd5f7e61d89b7784b791ce58ae8ef27a5829",
@@ -101,46 +118,567 @@
     "experiments/r12_strict_component_ablations/REMOTE_RESULTS_VERIFICATION.json": "41d5c2d3ee2d6d25102d528a5190feaf6db5b92e331b58eaf6c114febe0cddf8",
     "experiments/r12_strict_component_ablations/WHOLE_MODULE_FUNCTION_COMPARISONS.csv": "1f007c096905703a31af5be528c12567e1c59ead626059589408eb43cb19cc86",
     "experiments/r12_strict_component_ablations/WHOLE_MODULE_ABLATION_SUMMARY.csv": "5a60d6f928a4539bf1d9e6ab3fad895ad2609d23bfc828328ef173e6c4417df5",
-    "experiments/r12_strict_component_ablations/publication/MANIFEST.json": "dedba0523a96299faaa4443d53bd748e8e8b49c17ef359f1e5b0da1a0a682e35"
+    "experiments/r12_strict_component_ablations/publication/MANIFEST.json": "dedba0523a96299faaa4443d53bd748e8e8b49c17ef359f1e5b0da1a0a682e35",
+    "experiments/r13_cec_uniform/SUMMARY.csv": "441ff8502202841723418d2826487ba0738f062097bd6031b47cc3088069532b",
+    "experiments/r13_cec_uniform/GPU_STATS_20261025_161934.json": "decc13126f4503f7f4d55eec9309e487e3d16b1bf039cfcc1df3f5e5d4cfbd9d",
+    "experiments/r13_cec_uniform/CODE_BINDING.json": "577355cc2b250cbdc30370a7c6a7eff66c4ff10785acaea6c240545ec898a6b4",
+    "experiments/r13_cec_uniform/REMOTE_BASELINE_VERIFICATION.json": "2cbfee7c0007295a0b3d7a13e417295417b74471c293722e9fd41de33e8f9a06",
+    "experiments/r13_cec_uniform/offline_memory.json": "43824649b85072e4b9e124f247862bd664075876ad8c37df7a9963a1e53606bf",
+    "experiments/r13_cec_uniform/README.zh-CN.md": "1108d59d3dc9a0077cf18a3b70cb7bd52700ebbd4741e5e57a258c59da289071",
+    "experiments/r13_cec_uniform/FUNCTION_COMPARISONS.csv": "0709539535eb5700ccefd3eb3d73f9fbb5a9da228fbf090e4937e9c03aed7f7f",
+    "experiments/r13_cec_uniform/REPORT_LAYOUT_CHECK.json": "58196260562e9208ea400ca61a991d6c0ef9f4ed5f913c8a48b86bbf416a805e",
+    "experiments/r13_cec_uniform/HARDWARE_RUNTIME.json": "a3109d8cab2b658323e20782b4869ae22852f490e3426da8985f246525bda699",
+    "experiments/r13_cec_uniform/INDEPENDENT_VERIFICATION.json": "12cdfa6848f4a0f5c99d8d1dc809aa5a58d35935b51a514ffcf14ef117de948c",
+    "experiments/r13_cec_uniform/HARDWARE_20261025_161934.json": "4dc5a2d59737cef63f0e40c793c3cf1c7d50488babcd176380d9520146a9107c",
+    "experiments/r13_cec_uniform/PAIRED_TRAJECTORIES.csv": "dc569d1285c27a91496be193ab392e74c128d8740377c700f988e00c88abc7af",
+    "experiments/r13_cec_uniform/FROZEN_PARENT.json": "d045c49aaab315ce2bde9329d31fe429b3f0103d38949cfd7cfaf2bab19d2684",
+    "experiments/r13_cec_uniform/PROTOCOL.json": "50ba5ba27a2de9648883b7a9b5fbcc4dd8745897b24dd2d18efbec52650ef18a",
+    "experiments/r13_cec_uniform/API_REQUESTS.csv": "a0c1e81682640eaa4c23ec4794b5b5c8b5f60651c2d4723a1eda4dc55eb048d9",
+    "experiments/r13_cec_uniform/REMOTE_RESULT_VERIFICATION.json": "0dfb94877c481de06527e1446302ed2b6b76724f620512fde7da5ad87095bb19",
+    "experiments/r13_cec_uniform/FUNCTION_STATISTICS.csv": "359a968b31f573439c85518131e7e93aac671a2e440f858984e42cf46c80a75f",
+    "experiments/r13_cec_uniform/PUBLICATION_VERIFICATION.json": "24bed10f031d9e348a55469b7161076fba938e36a1f5784987eb6eff29e272c5",
+    "experiments/r13_cec_uniform/API_EXECUTION_AUDIT.json": "4bc692674dabc47f9bbef0548ea8bd3b9a007289b669b464653e8f55669dc100",
+    "experiments/r13_cec_uniform/PROGRESS.jsonl": "035358ac39f6e29c59331e595b652a41882678daadfd5e944f85a8f2e62075a0",
+    "experiments/r13_cec_uniform/EXCEL_EXPORT.json": "e39fac70fe98f399111f7497bdb64338e5d23f7d8f8453af68a64c08854d8ae7",
+    "experiments/r13_cec_uniform/ANALYSIS_BINDING.json": "2372a3740b02dc7fc5611a02ef5e654e1dc4849fa45a424873030265a495368d",
+    "experiments/r13_cec_uniform/FINAL_RESULT.json": "12cdfa6848f4a0f5c99d8d1dc809aa5a58d35935b51a514ffcf14ef117de948c",
+    "experiments/r13_cec_uniform/POSTRUN_ANALYSIS.json": "f207760833116beb0c26950b50fd9bcca087a81bd2e3a6762b59f8572c13d1c9",
+    "experiments/r13_cec_uniform/publication/MANIFEST.json": "41c3fe85a5b0aea0f8cd5f7e732cdb5e3e81fec628e76c056b91967cd5526eb3",
+    "experiments/r13_cec_uniform/engineering_checks/RESULT.json": "bde1d714430dc86ff6308ad8a043e8693e884eb5a2d7e6395a1e8b88744ab6aa"
   },
-  "scientific_tree_git_ids": {
-    "r10_current_candidate_fusion": "583df39cb04749372d595434430623c3dc01cfc3",
-    "r11_anchor_ablation": "a050508630594e0c45c73e823df9594531d3e394",
-    "r12_strict_component_ablations": "ec39e2024529839cdf32b97c27bae6fcd1fb4a03"
+  "cec_publication_archives_sha256": {
+    "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f02.tar.xz": "8f61ad4a809d10b330a4317c45193c7262567dcc4aa5b8c3c7cdb34aa84caf73",
+    "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f06.tar.xz": "cefaf57cb0022e32b01c91ae8e0cf78e88078fb40c447ed2e86f228a7c9e47fb",
+    "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f05.tar.xz": "b662e7459eb7b3f7219a99d65ace0b4d92848477c5b9c5bf918357136ad53922",
+    "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f03.tar.xz": "72bbc2404db27284ed6c46988028e89e430918777275539050dbcc69deceb017",
+    "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f01.tar.xz": "55817987d8191b4a6909e5bfce96d3131430f38d315aacc6c49e8426e9de9803",
+    "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f04.tar.xz": "b676b5191150fc8be3a7a728a6a51a7cba4139eb35e531bfc597bac8cb5087d5",
+    "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f05.jsonl.gz": "be96a6dacb30f1bc0fc427a3568def6bfb5b19e7345753d21a50a98d60ec1156",
+    "experiments/r13_cec_uniform/publication/ACTUAL_API_JOURNAL.tar.xz": "5a2b7807ee24ecb17496c4300dd55ecaa8b061d7263951ef33da2b03f6f2162b",
+    "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f02.jsonl.gz": "bb630f03cc4992c8b10172f47542f6f10152cfe7bd40794e6e20b6893b4bc604",
+    "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f03.jsonl.gz": "c155e57b34fc0fcbdec0def7e2b5afe8657ea94b7bf9a20cc2abc54831020d8e",
+    "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f06.jsonl.gz": "63523036ecdbc0bed5d8e8755b42b91985d4faedbbf0ff87e62e6bc19f8b5c10",
+    "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f04.jsonl.gz": "2af701b341a961a139ca562065196570c3dadacabacd97d4df7abf3a0cdac986",
+    "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f01.jsonl.gz": "a88b691dd8f62d2513cf5329cc4f33bdf69fa8e1a1a67af047573878daeff174"
   },
   "publication_files_sha256": {
-    "exports/当前Full_论文对照与消融_BBOB24_按算法分类_说明置顶.xlsx": "f6841509e51126f3ab693313a4184fb2f876d33e4feb2c4d663967ea4c8b1ff5",
-    "exports/最终版本_端到端流程与中文说明_完整材料.zip": "6fb6b6b652d592084afbe3337a70d8f24d052a5f1bd6203df2b65b9ab260f2fe",
-    "exports/最终版本_端到端流程_20261025/图3_单轮迭代闭环.svg": "d1fcdf75a252f54ca520dc0ba082a1a72dfd9764a3b4004ef8f088f901d3746b",
-    "exports/最终版本_端到端流程_20261025/图4_Agent输入输出与时序.pdf": "f229072c60c418ac9bcf7be6522560434382c9e59a8d577872cc0144e10bf0f7",
-    "exports/最终版本_端到端流程_20261025/图1_端到端总流程.png": "49fa933a4701b30b04a70d3fc3a6b7d0fdb00e34925f594ef1c19928387912a2",
-    "exports/最终版本_端到端流程_20261025/最终版本_端到端流程详细说明.docx": "d1874bf4a5f0694e1807d4b0ad08b7825353c33b59c24d731ad4b954adb07629",
-    "exports/最终版本_端到端流程_20261025/生成流程材料.py": "d48d72b05daee580314e6594b7f810d5a044b107487846142904e25a3cccb5cc",
-    "exports/最终版本_端到端流程_20261025/图3_单轮迭代闭环.pdf": "8f0e5c285725e55b78d7e3dacef638776cbe8d8dcdaf985cff0a0255cdee759d",
-    "exports/最终版本_端到端流程_20261025/阅读说明.txt": "6ca18f58e028c26e2f7471cdd848263e58332f243ee943f40d661a908bdd53a3",
-    "exports/最终版本_端到端流程_20261025/图4_Agent输入输出与时序.svg": "7fcf9590016f8c55d3aea3cd01b3492b06cfba78eaacdc94b0715639b7fe27d9",
-    "exports/最终版本_端到端流程_20261025/当前Full_论文对照与消融_BBOB24_按算法分类_说明置顶.xlsx": "f6841509e51126f3ab693313a4184fb2f876d33e4feb2c4d663967ea4c8b1ff5",
-    "exports/最终版本_端到端流程_20261025/图2_数据构建与训练.png": "5f5b3e2425a2d5035eb9fb9b162d386f7d60af694645dfbb4641de1e18bfbb49",
-    "exports/最终版本_端到端流程_20261025/图1_端到端总流程.pdf": "17e2cf61f3d34d9ce3b46c6990c6695df77bb7e4527d84cf4a80a617e06a894b",
-    "exports/最终版本_端到端流程_20261025/图2_数据构建与训练.svg": "73e931656fecf3c3cc554641c2cd38e35b10e8926227e5ba8912e2ee038de40e",
-    "exports/最终版本_端到端流程_20261025/最终版本确认.json": "665882f3c04b23a424b6365edf12e26e203ab09cff874d37a9d9f0e2dcf55fd8",
-    "exports/最终版本_端到端流程_20261025/图4_Agent输入输出与时序.png": "89ed7b7ffd73d65d3d9b47284c3093a9e781d0566d130c1f701d5c74b3a8595a",
-    "exports/最终版本_端到端流程_20261025/最终版本_端到端流程详细说明.pdf": "4bb51051262b7352944835f34212fbc971aa1b092b27824408825bff082a9b4a",
-    "exports/最终版本_端到端流程_20261025/图1_端到端总流程.svg": "1650beb57dd0b11d6410248acfe2d3c2e0b472e841724609b2de47eac55a702d",
-    "exports/最终版本_端到端流程_20261025/图2_数据构建与训练.pdf": "ff575b670518a43572230e05e13a07488abb7ed02f39ebc2e3e4ab1e35c3ed6c",
-    "exports/最终版本_端到端流程_20261025/最终版本_流程图合集.pdf": "a0fab4922e764828c8de18cf6fd5b5ef19a1b2b999feb9edbcabf64efc4d3826",
-    "exports/最终版本_端到端流程_20261025/图3_单轮迭代闭环.png": "9315704dd86603985c4a933ae62bdced4bf8ec12bbc2691b0aa15f89f30839cb",
-    "exports/最终版本_端到端流程_20261025/核验记录.json": "e2187f2647f94ce004a3fcebbcb5963b2c0023f9a72922c7c621bbad0ac0f897",
-    "exports/最终版本_端到端流程_20261025/最终版本_流程说明.html": "68bf61b996fc115d484d49e0fa903a1a5511b85c66faf35dced25e82e5b05f45",
-    "FINAL_VERSION.zh-CN.md": "83bdf478a5f5a790bb5064f5835adab5c5c9145327fd9ac419e018681c607400",
-    "release/FINAL_PREFLIGHT.json": "fde31e75d66aa46ce89e78d903881d80e4f78f1d8f3e2e1e11350309f5cb1bb6"
+    "exports/当前Full_论文对照与消融_BBOB24_CEC统一流程重测_R13.xlsx": "66997ace39a1b279933ac5d7c334858515039213183b96cb8b540c5f7f3c0300",
+    "exports/CEC统一流程重测_R13_完整结果报告.pdf": "f384d46032faea39c81a68ce84e8850afac6d179fefb44d6a3b05fb4ccd8c910",
+    "exports/CEC统一流程重测_R13_结果材料.zip": "ef25f3dbc5ac1272431fda3ac9ba45ba08c43efa30d17a930f43509fe430672e",
+    "README.md": "0b6e543da597da2e9efa999eb6aa0401321be1749e80870e61149c00bcd475b7",
+    "FINAL_VERSION.zh-CN.md": "5425363e8d9b49ddf804d65d55bc3f878556884bd7a8a78a2f0ed15f4e5bc4cc"
+  },
+  "previous_release_metadata_sha256": {
+    "release/final-v1.0.0-20261025/FINAL_MANIFEST.json": "467f0b83f21e46a0087c07baa6004febb0d4b50ce44535f7948d316e740c6869",
+    "release/final-v1.0.0-20261025/FINAL_PREFLIGHT.json": "fde31e75d66aa46ce89e78d903881d80e4f78f1d8f3e2e1e11350309f5cb1bb6",
+    "release/final-v1.0.0-20261025/FINAL_VERSION.zh-CN.md": "83bdf478a5f5a790bb5064f5835adab5c5c9145327fd9ac419e018681c607400"
+  },
+  "cec_result_summary": {
+    "status": "complete_live_cec_uniform_measurement_verified",
+    "scope": "CEC-style6 only; explicit user protocol change",
+    "functions": 6,
+    "arms": [
+      "frozen_baseline",
+      "no_agent",
+      "llm_full",
+      "llm_no_anchor",
+      "llm_no_online_generators"
+    ],
+    "trajectories_per_arm": 600,
+    "total_trajectories": 3000,
+    "nfe_including_initial": 300,
+    "comparisons": [
+      {
+        "comparison": "Full vs 冻结基线",
+        "reference": "frozen_baseline",
+        "function_wins": 1,
+        "function_ties": 5,
+        "function_losses": 0,
+        "trajectory_wins": 1,
+        "trajectory_ties": 599,
+        "trajectory_losses": 0
+      },
+      {
+        "comparison": "Full vs 移除Agent",
+        "reference": "no_agent",
+        "function_wins": 1,
+        "function_ties": 5,
+        "function_losses": 0,
+        "trajectory_wins": 1,
+        "trajectory_ties": 599,
+        "trajectory_losses": 0
+      },
+      {
+        "comparison": "Full vs 移除Anchor",
+        "reference": "llm_no_anchor",
+        "function_wins": 6,
+        "function_ties": 0,
+        "function_losses": 0,
+        "trajectory_wins": 600,
+        "trajectory_ties": 0,
+        "trajectory_losses": 0
+      },
+      {
+        "comparison": "Full vs 移除在线生成算子",
+        "reference": "llm_no_online_generators",
+        "function_wins": 1,
+        "function_ties": 5,
+        "function_losses": 0,
+        "trajectory_wins": 1,
+        "trajectory_ties": 599,
+        "trajectory_losses": 0
+      }
+    ],
+    "api": {
+      "status": "all_360_actual_requests_mapped_to_executed_decisions",
+      "attempts": 360,
+      "valid_responses": 253,
+      "fully_valid": 251,
+      "partial": 2,
+      "failures": 107,
+      "valid_rows": 2526,
+      "fallback_rows": 1074,
+      "prompt_tokens": 5192189,
+      "completion_tokens": 99090,
+      "provider_credit_sum": "158.28",
+      "responses_with_credit": 253,
+      "currency": "not inferred",
+      "per_arm": {
+        "llm_full": {
+          "attempts": 120,
+          "ok": 87,
+          "valid_rows": 886,
+          "fallback_rows": 314,
+          "prompt_tokens": 1723627,
+          "completion_tokens": 36463,
+          "failed": 31,
+          "partial": 2,
+          "provider_credit_sum": "55.38",
+          "responses_with_credit": 89
+        },
+        "llm_no_anchor": {
+          "attempts": 120,
+          "ok": 83,
+          "valid_rows": 830,
+          "fallback_rows": 370,
+          "prompt_tokens": 1804525,
+          "completion_tokens": 37436,
+          "failed": 37,
+          "provider_credit_sum": "54.43",
+          "responses_with_credit": 83
+        },
+        "llm_no_online_generators": {
+          "attempts": 120,
+          "ok": 81,
+          "valid_rows": 810,
+          "fallback_rows": 390,
+          "prompt_tokens": 1664037,
+          "completion_tokens": 25191,
+          "failed": 39,
+          "provider_credit_sum": "48.47",
+          "responses_with_credit": 81
+        }
+      },
+      "function_arm_coverage": [
+        {
+          "fid": 1,
+          "arm": "llm_full",
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "fallback_rows": 50,
+          "singleton_allowed": 79,
+          "nondefault_actions": 88,
+          "failed": 5,
+          "trajectories_with_valid_api": 90,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 1,
+          "arm": "llm_no_anchor",
+          "attempts": 20,
+          "failed": 8,
+          "valid_rows": 120,
+          "fallback_rows": 80,
+          "singleton_allowed": 180,
+          "nondefault_actions": 10,
+          "ok": 12,
+          "trajectories_with_valid_api": 90,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 1,
+          "arm": "llm_no_online_generators",
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "fallback_rows": 70,
+          "singleton_allowed": 200,
+          "nondefault_actions": 0,
+          "failed": 7,
+          "trajectories_with_valid_api": 90,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 2,
+          "arm": "llm_full",
+          "attempts": 20,
+          "failed": 7,
+          "valid_rows": 128,
+          "fallback_rows": 72,
+          "singleton_allowed": 113,
+          "nondefault_actions": 55,
+          "ok": 12,
+          "partial": 1,
+          "trajectories_with_valid_api": 80,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 2,
+          "arm": "llm_no_anchor",
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "fallback_rows": 70,
+          "singleton_allowed": 123,
+          "nondefault_actions": 47,
+          "failed": 7,
+          "trajectories_with_valid_api": 90,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 2,
+          "arm": "llm_no_online_generators",
+          "attempts": 20,
+          "ok": 12,
+          "valid_rows": 120,
+          "fallback_rows": 80,
+          "singleton_allowed": 200,
+          "nondefault_actions": 0,
+          "failed": 8,
+          "trajectories_with_valid_api": 90,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 3,
+          "arm": "llm_full",
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "fallback_rows": 70,
+          "singleton_allowed": 173,
+          "nondefault_actions": 22,
+          "failed": 7,
+          "trajectories_with_valid_api": 100,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 3,
+          "arm": "llm_no_anchor",
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "fallback_rows": 60,
+          "singleton_allowed": 114,
+          "nondefault_actions": 65,
+          "failed": 6,
+          "trajectories_with_valid_api": 100,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 3,
+          "arm": "llm_no_online_generators",
+          "attempts": 20,
+          "failed": 10,
+          "valid_rows": 100,
+          "fallback_rows": 100,
+          "singleton_allowed": 200,
+          "nondefault_actions": 0,
+          "ok": 10,
+          "trajectories_with_valid_api": 60,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 4,
+          "arm": "llm_full",
+          "attempts": 20,
+          "failed": 3,
+          "valid_rows": 170,
+          "fallback_rows": 30,
+          "singleton_allowed": 120,
+          "nondefault_actions": 51,
+          "ok": 17,
+          "trajectories_with_valid_api": 100,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 4,
+          "arm": "llm_no_anchor",
+          "attempts": 20,
+          "failed": 3,
+          "valid_rows": 170,
+          "fallback_rows": 30,
+          "singleton_allowed": 150,
+          "nondefault_actions": 36,
+          "ok": 17,
+          "trajectories_with_valid_api": 100,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 4,
+          "arm": "llm_no_online_generators",
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "fallback_rows": 50,
+          "singleton_allowed": 200,
+          "nondefault_actions": 0,
+          "failed": 5,
+          "trajectories_with_valid_api": 90,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 5,
+          "arm": "llm_full",
+          "attempts": 20,
+          "failed": 5,
+          "valid_rows": 150,
+          "fallback_rows": 50,
+          "singleton_allowed": 118,
+          "nondefault_actions": 71,
+          "ok": 15,
+          "trajectories_with_valid_api": 100,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 5,
+          "arm": "llm_no_anchor",
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "fallback_rows": 60,
+          "singleton_allowed": 123,
+          "nondefault_actions": 59,
+          "failed": 6,
+          "trajectories_with_valid_api": 100,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 5,
+          "arm": "llm_no_online_generators",
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "fallback_rows": 70,
+          "singleton_allowed": 200,
+          "nondefault_actions": 0,
+          "failed": 7,
+          "trajectories_with_valid_api": 90,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 6,
+          "arm": "llm_full",
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 158,
+          "fallback_rows": 42,
+          "singleton_allowed": 110,
+          "nondefault_actions": 71,
+          "failed": 4,
+          "partial": 1,
+          "trajectories_with_valid_api": 88,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 6,
+          "arm": "llm_no_anchor",
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "fallback_rows": 70,
+          "singleton_allowed": 124,
+          "nondefault_actions": 62,
+          "failed": 7,
+          "trajectories_with_valid_api": 100,
+          "cec_structural_exclusion": false
+        },
+        {
+          "fid": 6,
+          "arm": "llm_no_online_generators",
+          "attempts": 20,
+          "ok": 18,
+          "valid_rows": 180,
+          "fallback_rows": 20,
+          "singleton_allowed": 200,
+          "nondefault_actions": 0,
+          "failed": 2,
+          "trajectories_with_valid_api": 100,
+          "cec_structural_exclusion": false
+        }
+      ],
+      "every_function_arm_has_valid_api": true,
+      "generation_delay_and_actual_coordinates_verified": true
+    },
+    "evaluation_counts": {
+      "frozen_baseline": {
+        "native_fe": 0,
+        "cached_fe": 180000
+      },
+      "no_agent": {
+        "native_fe": 39040,
+        "cached_fe": 140960
+      },
+      "llm_full": {
+        "changed_points": 2602,
+        "fusion_changed_points": 64,
+        "selected_adjusted_candidates": 49,
+        "unsupported_queries": 378,
+        "valid_rows": 886,
+        "invalid_rows": 314,
+        "api_reused": 0,
+        "native_fe": 31990,
+        "cached_fe": 148010
+      },
+      "llm_no_anchor": {
+        "changed_points": 700,
+        "fusion_changed_points": 11,
+        "selected_adjusted_candidates": 11,
+        "unsupported_queries": 319,
+        "valid_rows": 830,
+        "invalid_rows": 370,
+        "api_reused": 0,
+        "native_fe": 120000,
+        "cached_fe": 60000
+      },
+      "llm_no_online_generators": {
+        "changed_points": 0,
+        "fusion_changed_points": 0,
+        "selected_adjusted_candidates": 0,
+        "unsupported_queries": 1200,
+        "valid_rows": 810,
+        "invalid_rows": 390,
+        "api_reused": 0,
+        "native_fe": 0,
+        "cached_fe": 180000
+      }
+    },
+    "route_counts": {
+      "frozen_baseline": {
+        "residual_forward": 0,
+        "anchor_forward": 6000,
+        "anchor_temperature_proposal": 0,
+        "prepare_generation": 0,
+        "generator:neural_generator": 6000,
+        "generator:_current_to_pbest": 6000,
+        "generator:_covariance_elite": 6000,
+        "generator:_trust_region": 6000,
+        "generator:_coordinate_pattern": 6000,
+        "generator:_opposition_restart": 6000
+      },
+      "no_agent": {
+        "residual_forward": 8700,
+        "anchor_forward": 6000,
+        "anchor_temperature_proposal": 0,
+        "prepare_generation": 0,
+        "generator:neural_generator": 6000,
+        "generator:_current_to_pbest": 6000,
+        "generator:_covariance_elite": 6000,
+        "generator:_trust_region": 6000,
+        "generator:_coordinate_pattern": 6000,
+        "generator:_opposition_restart": 6000
+      },
+      "llm_full": {
+        "residual_forward": 11400,
+        "anchor_forward": 6000,
+        "anchor_temperature_proposal": 2700,
+        "prepare_generation": 2700,
+        "generator:neural_generator": 6000,
+        "generator:_current_to_pbest": 6000,
+        "generator:_covariance_elite": 6000,
+        "generator:_trust_region": 8700,
+        "generator:_coordinate_pattern": 6000,
+        "generator:_opposition_restart": 6000
+      },
+      "llm_no_anchor": {
+        "residual_forward": 11400,
+        "anchor_forward": 0,
+        "anchor_temperature_proposal": 0,
+        "prepare_generation": 2700,
+        "generator:neural_generator": 6000,
+        "generator:_current_to_pbest": 6000,
+        "generator:_covariance_elite": 6000,
+        "generator:_trust_region": 14700,
+        "generator:_coordinate_pattern": 6000,
+        "generator:_opposition_restart": 6000
+      },
+      "llm_no_online_generators": {
+        "residual_forward": 2700,
+        "anchor_forward": 6000,
+        "anchor_temperature_proposal": 2700,
+        "prepare_generation": 2700,
+        "generator:neural_generator": 0,
+        "generator:_current_to_pbest": 0,
+        "generator:_covariance_elite": 0,
+        "generator:_trust_region": 0,
+        "generator:_coordinate_pattern": 0,
+        "generator:_opposition_restart": 0
+      }
+    },
+    "actual_coordinate_changes": {
+      "frozen_baseline": {
+        "coordinates_changed_vs_baseline": 0,
+        "protected_changed_vs_baseline": 0,
+        "competitor_changed_vs_baseline": 0,
+        "coordinates_changed_vs_full": 39782
+      },
+      "no_agent": {
+        "coordinates_changed_vs_baseline": 29128,
+        "protected_changed_vs_baseline": 14264,
+        "competitor_changed_vs_baseline": 14864,
+        "coordinates_changed_vs_full": 30821
+      },
+      "llm_full": {
+        "coordinates_changed_vs_baseline": 39782,
+        "protected_changed_vs_baseline": 19591,
+        "competitor_changed_vs_baseline": 20191,
+        "coordinates_changed_vs_full": 0
+      },
+      "llm_no_anchor": {
+        "coordinates_changed_vs_baseline": 120000,
+        "protected_changed_vs_baseline": 60000,
+        "competitor_changed_vs_baseline": 60000,
+        "coordinates_changed_vs_full": 120000
+      },
+      "llm_no_online_generators": {
+        "coordinates_changed_vs_baseline": 0,
+        "protected_changed_vs_baseline": 0,
+        "competitor_changed_vs_baseline": 0,
+        "coordinates_changed_vs_full": 39782
+      }
+    },
+    "paired_arm_batches": 300,
+    "paired_objective_rng_boundaries": 60300,
+    "baseline_all_values_equal_frozen": true,
+    "previous_sources_and_results_unchanged": true,
+    "analysis_script_sha256": "01f371ac0d7b8a9e74981d68c55cfd9380ed5cb84f06e7ade082371376a80d34",
+    "code_binding_sha256": "577355cc2b250cbdc30370a7c6a7eff66c4ff10785acaea6c240545ec898a6b4",
+    "limitations": [
+      "The local six CEC-style functions are not a complete official CEC suite.",
+      "Frozen original baseline is CPU; other conditions share the CUDA proxy. CUDA numerical differences are included in the comparison.",
+      "Full offline memory and thresholds held fixed for all strict component removals; no ablation-specific relabeling.",
+      "Default-only allowed sets and valid default responses are possible; no forced intervention.",
+      "Function and paired trajectory win counts are descriptive, not significance tests.",
+      "No amount or currency is inferred from token usage; credit is reported only when supplied."
+    ]
   },
   "limitations": [
-    "BBOB20 included in user-requested BBOB24 display; stochastic batch-coupled semantics remain disclosed and frozen secondary evidence preserved.",
-    "CEC structured-system lock retained; no Agent intervention.",
-    "No-online-generator arm allowed only the default action in all 5800 contexts; actual Agent point changes zero.",
-    "Paper comparator ranks use archived means, not new paired reruns.",
-    "Provider credit fields have incomplete coverage and no inferred currency.",
-    "Full API completion alone does not establish optimization improvement."
+    "CEC unlocked and Agent actually executed; one tiny paired terminal improvement does not establish a meaningful LLM optimization gain.",
+    "CEC no-online-generator arm allowed only default actions in all 1200 contexts despite actual live API requests.",
+    "Frozen baseline keeps its predefined implementation; test names, objective implementations and bounds preserved.",
+    "BBOB20 included in BBOB24 at user request; batch-coupled stochastic semantics and separate frozen auxiliary evidence remain disclosed.",
+    "Paper algorithm ranks use archived means rather than new paired reruns; CEC-style shift comparability remains unconfirmed.",
+    "Provider credit coverage incomplete; currency not inferred.",
+    "Complete unused-candidate diagnostics retained locally; published executed measurements and API evidence can be independently verified."
   ]
 }

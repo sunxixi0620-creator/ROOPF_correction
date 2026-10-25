@@ -1,53 +1,27 @@
 {
+  "release_id": "final-v1.1.0-cec-unlocked-20261025",
   "date": "2026-10-25",
   "status": "passed",
-  "frozen_algorithm_files_verified": 36,
-  "protocol_and_memory_hashes_verified": true,
-  "final_excel_and_packaged_copy_identical": true,
-  "all_report_artifact_hashes_verified": true,
-  "new_files_inspected": 24,
-  "payloads_including_compressed_entries_inspected": 228,
-  "archives_opened": 6,
-  "credential_findings": 0,
-  "final_document_source_syntax": "passed",
-  "bbob24_ablations_verified": {
-    "llm_no_anchor": {
-      "function_wtl": [
-        21,
-        0,
-        3
-      ],
-      "paired_trajectory_wtl": [
-        2008,
-        0,
-        392
-      ]
-    },
-    "llm_no_online_generators": {
-      "function_wtl": [
-        11,
-        11,
-        2
-      ],
-      "paired_trajectory_wtl": [
-        631,
-        1767,
-        2
-      ]
-    },
-    "no_agent": {
-      "function_wtl": [
-        8,
-        12,
-        4
-      ],
-      "paired_trajectory_wtl": [
-        264,
-        1922,
-        214
-      ]
-    }
-  },
+  "frozen_algorithm_and_asset_files_verified": 44,
+  "frozen_parent_files_verified": 228,
+  "prior_scientific_records_verified": 35,
+  "cec_evidence_archives_hash_verified": 13,
+  "cec_code_matches_measured_commit": true,
+  "cec_3000_trajectories_and_360_actual_requests_verified": "experiments/r13_cec_uniform/INDEPENDENT_VERIFICATION.json",
+  "publication_content_verification": "experiments/r13_cec_uniform/PUBLICATION_VERIFICATION.json",
+  "prior_remote_byte_verification": "experiments/r13_cec_uniform/REMOTE_RESULT_VERIFICATION.json",
+  "algorithm_changed_in_publication": false,
   "new_training_or_api_calls": false,
-  "algorithm_changed": false
+  "previous_release_metadata_preserved": true,
+  "publication_files_sha256": {
+    "exports/当前Full_论文对照与消融_BBOB24_CEC统一流程重测_R13.xlsx": "66997ace39a1b279933ac5d7c334858515039213183b96cb8b540c5f7f3c0300",
+    "exports/CEC统一流程重测_R13_完整结果报告.pdf": "f384d46032faea39c81a68ce84e8850afac6d179fefb44d6a3b05fb4ccd8c910",
+    "exports/CEC统一流程重测_R13_结果材料.zip": "ef25f3dbc5ac1272431fda3ac9ba45ba08c43efa30d17a930f43509fe430672e",
+    "README.md": "0b6e543da597da2e9efa999eb6aa0401321be1749e80870e61149c00bcd475b7",
+    "FINAL_VERSION.zh-CN.md": "5425363e8d9b49ddf804d65d55bc3f878556884bd7a8a78a2f0ed15f4e5bc4cc"
+  },
+  "staged_publication_files_scanned": 7,
+  "credential_findings": 0,
+  "current_document_relative_links": "passed",
+  "frozen_runtime_code_unchanged": true
 }
