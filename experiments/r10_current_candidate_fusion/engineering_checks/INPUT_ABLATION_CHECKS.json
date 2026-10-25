@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "actual_api_calls": 0,
+  "new_objective_evaluations": 0,
+  "full_live_validation": false,
+  "actual_completed_training_cases_used": 112,
+  "fixture_radius_not_used_by_formal_experiment": true,
+  "no_online_retrieval_invariant_to_hidden_feedback": true,
+  "no_online_prompt_has_no_selected_feedback": true,
+  "no_offline_prompt_has_no_case_gains": true,
+  "all22_evidence_rows_displayed": true,
+  "source_sha256": {
+    "roopf/current_evidence_agent.py": "1b2add23b7adf7a2c3d02e84f94e6ce2f16ed4b6273114e0defefb55d9694c7c",
+    "roopf/policy_api_r10.py": "bc4bc9e22a81bd70d7e6e186d75320c583c77c941655913e063554cfdff3f0b1"
+  }
+}
