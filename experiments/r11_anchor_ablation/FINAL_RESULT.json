@@ -1,0 +1,575 @@
+{
+  "status": "full_live_no_anchor_records_verified",
+  "functions": 35,
+  "trajectories": 3500,
+  "nfe": 300,
+  "paired_batches_verified": 350,
+  "anchor_network_present": false,
+  "reference_rounds_verified": 35000,
+  "parent_full": "Frozen R10 actual live results reused as reference; no new Full calls",
+  "comparisons": [
+    {
+      "scope": "primary34",
+      "function_wins": 31,
+      "function_ties": 0,
+      "function_losses": 3,
+      "trajectory_wins": 2905,
+      "trajectory_ties": 0,
+      "trajectory_losses": 495
+    },
+    {
+      "scope": "BBOB23",
+      "function_wins": 20,
+      "function_ties": 0,
+      "function_losses": 3,
+      "trajectory_wins": 1982,
+      "trajectory_ties": 0,
+      "trajectory_losses": 318
+    },
+    {
+      "scope": "CEC6",
+      "function_wins": 6,
+      "function_ties": 0,
+      "function_losses": 0,
+      "trajectory_wins": 600,
+      "trajectory_ties": 0,
+      "trajectory_losses": 0
+    },
+    {
+      "scope": "UAV5",
+      "function_wins": 5,
+      "function_ties": 0,
+      "function_losses": 0,
+      "trajectory_wins": 323,
+      "trajectory_ties": 0,
+      "trajectory_losses": 177
+    },
+    {
+      "scope": "BBOB20_secondary",
+      "function_wins": 1,
+      "function_ties": 0,
+      "function_losses": 0,
+      "trajectory_wins": 26,
+      "trajectory_ties": 0,
+      "trajectory_losses": 74
+    }
+  ],
+  "api": {
+    "status": "all_actual_requests_mapped_to_executed_decisions",
+    "attempts": 580,
+    "valid": 393,
+    "fully_valid": 383,
+    "partial": 10,
+    "failures": 187,
+    "valid_rows": 3916,
+    "fallback_rows": 1884,
+    "prompt_tokens": 8738961,
+    "completion_tokens": 206964,
+    "provider_credit_sum": "255.83",
+    "responses_with_credit": 393,
+    "currency": "not inferred",
+    "per_arm": {
+      "llm_no_anchor": {
+        "attempts": 580,
+        "ok": 383,
+        "valid_rows": 3916,
+        "fallback_rows": 1884,
+        "partial": 10,
+        "failed": 187
+      }
+    },
+    "coverage": [
+      {
+        "group": "BBOB",
+        "fid": 1,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 159,
+          "failed": 4,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 2,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "failed": 5
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 3,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 6,
+          "valid_rows": 140,
+          "ok": 14
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 4,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 5,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 137,
+          "failed": 6,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 87,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 6,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 12,
+          "valid_rows": 120,
+          "failed": 8
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 7,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 9,
+          "valid_rows": 109,
+          "ok": 10,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 8,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 9,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 12,
+          "valid_rows": 120,
+          "failed": 8
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 10,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 149,
+          "failed": 5,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 11,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 140,
+          "failed": 6
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 12,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 7,
+          "valid_rows": 130,
+          "ok": 13
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 13,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 6,
+          "valid_rows": 140,
+          "ok": 14
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 14,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 139,
+          "failed": 6,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 15,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 11,
+          "valid_rows": 110,
+          "failed": 9
+        },
+        "trajectories_with_valid_api": 70,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 16,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 8,
+          "valid_rows": 119,
+          "ok": 11,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 17,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "partial": 1,
+          "valid_rows": 168,
+          "ok": 16,
+          "failed": 3
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 18,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "failed": 5
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 19,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 8,
+          "valid_rows": 120,
+          "ok": 12
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 20,
+        "arm": "llm_no_anchor",
+        "primary": false,
+        "counts": {
+          "attempts": 20,
+          "ok": 13,
+          "valid_rows": 130,
+          "failed": 7
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 21,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 4,
+          "valid_rows": 160,
+          "ok": 16
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 22,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 9,
+          "valid_rows": 90,
+          "failed": 11
+        },
+        "trajectories_with_valid_api": 70,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 23,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 16,
+          "valid_rows": 160,
+          "failed": 4
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "BBOB",
+        "fid": 24,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 14,
+          "valid_rows": 149,
+          "failed": 5,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "CEC-style",
+        "fid": 1,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 2,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 3,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 4,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 5,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "CEC-style",
+        "fid": 6,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {},
+        "trajectories_with_valid_api": 0,
+        "structured_no_intervention": true
+      },
+      {
+        "group": "UAV",
+        "fid": 1,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 7,
+          "valid_rows": 130,
+          "ok": 13
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 2,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 12,
+          "valid_rows": 129,
+          "failed": 7,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 90,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 3,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 11,
+          "valid_rows": 110,
+          "failed": 9
+        },
+        "trajectories_with_valid_api": 80,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 4,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "failed": 7,
+          "valid_rows": 128,
+          "ok": 12,
+          "partial": 1
+        },
+        "trajectories_with_valid_api": 88,
+        "structured_no_intervention": false
+      },
+      {
+        "group": "UAV",
+        "fid": 5,
+        "arm": "llm_no_anchor",
+        "primary": true,
+        "counts": {
+          "attempts": 20,
+          "ok": 15,
+          "valid_rows": 150,
+          "failed": 5
+        },
+        "trajectories_with_valid_api": 100,
+        "structured_no_intervention": false
+      }
+    ],
+    "matched_request_identities": 580,
+    "generation_delay_verified": true
+  },
+  "totals": {
+    "new_native_fe": 700000,
+    "new_cached_fe": 350000,
+    "r10_active_window_points_compared": 261000,
+    "r10_active_window_points_different": 261000,
+    "changed_points": 6181,
+    "fusion_changed_points": 154,
+    "selected_adjusted_candidates": 258,
+    "nondefault_fusion_rounds": 4270
+  },
+  "changed_points_definition": "same-pool original selector; active_window_points_different is coordinate comparison to frozen Full, 90 points per non-CEC trajectory only",
+  "limitations": [
+    "Native trust-region substitutes keep 38 competing slots; this is Anchor-to-native replacement, not a retrained no-Anchor optimum.",
+    "Original R10 offline memory is held fixed; Full-case returns may not transfer to this ablation.",
+    "Anchor-temperature profiles are execution aliases with no temperature effect; LLM is explicitly informed.",
+    "CEC structured lock retained on native references; no LLM intervention in CEC.",
+    "BBOB20 secondary only; original batch-coupled stochastic semantics.",
+    "Function and paired trajectory counts are not significance tests."
+  ]
+}

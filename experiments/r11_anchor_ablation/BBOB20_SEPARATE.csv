@@ -1,0 +1,2 @@
+group,fid,primary,full_mean,full_std,no_anchor_mean,no_anchor_std,wins,ties,losses,original_mean,original_std,no_anchor_vs_original_wins,no_anchor_vs_original_ties,no_anchor_vs_original_losses,matched38_mean,matched38_std,no_anchor_vs_matched38_wins,no_anchor_vs_matched38_ties,no_anchor_vs_matched38_losses
+BBOB,20,False,1.9026207160949706,0.954752420146326,174.09334183961153,922.7055216219485,26,0,74,2.0577146911621096,0.9222892207249683,80,0,20,1.9704696869850158,1.0390746701072202,75,0,25

@@ -1,0 +1,9 @@
+{
+  "status": "complete_and_twice_verified",
+  "started": "2026-10-25T11:02:46+0800",
+  "run_completed": "2026-10-25T11:24:44+0800",
+  "all_phases_completed": "2026-10-25T11:28:08+0800",
+  "formal_run_seconds": 1317.9,
+  "all_pipeline_seconds": 1524.5,
+  "setup_and_engineering_excluded": true
+}

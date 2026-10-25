@@ -1,0 +1,15 @@
+{
+  "status": "remote_code_and_independent_baseline_verified_before_live_calls",
+  "code_commit": "6e2f3fe7d0520785aea6743feb61ec67dac184ac",
+  "baseline_commit": "9f6ac404817d8ab37166bbf8906c1ac40acaf920",
+  "readback_git_dir": "/tmp/r10-results-readback-3q12s3w7",
+  "files": [
+    "roopf/no_anchor_ablation.py",
+    "scripts/experiment_r11_anchor_ablation.py",
+    "scripts/report_r11_anchor_ablation.py",
+    "scripts/run_r11_anchor_ablation.sh",
+    "experiments/r11_anchor_ablation/PROTOCOL.json",
+    "experiments/r11_anchor_ablation/offline_memory.json",
+    "experiments/r11_anchor_ablation/FROZEN_PARENT.json"
+  ]
+}

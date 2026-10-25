@@ -1,0 +1,31 @@
+{
+  "device": "cuda",
+  "workers": 24,
+  "visible_devices": "0",
+  "batching": "fixed per-request trajectories and ensemble members; no cross-request merging",
+  "gpu_min_batch": 2,
+  "gpu_concurrency": 2,
+  "solver_device": "cpu",
+  "baseline_device": "cpu",
+  "cpu_threads_per_worker": 1,
+  "proxy_dtype": "float32",
+  "tf32": false,
+  "cuda_numerics_may_change_decisions": true,
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "python_executable": "/home/skq/.conda/envs/ooneurgo/bin/python",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.2.6",
+    "sympy": "1.14.0"
+  },
+  "api": {
+    "model": "deepseek-v4-flash",
+    "endpoint": "https://worldcodes.online/v1/chat/completions",
+    "transport": "proxy_http",
+    "proxy": "http://127.0.0.1:7890",
+    "concurrency": 2,
+    "timeout_seconds": 90,
+    "max_tokens": 1024,
+    "max_request_bytes": 96000
+  }
+}

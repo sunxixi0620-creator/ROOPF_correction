@@ -1,0 +1,5 @@
+{
+  "status": "resolved_before_first_API",
+  "issue": "Partial-clone lazy blob fetch lacked SSH proxy configuration; preflight process stopped and proxy configured.",
+  "live_API_calls": 0
+}

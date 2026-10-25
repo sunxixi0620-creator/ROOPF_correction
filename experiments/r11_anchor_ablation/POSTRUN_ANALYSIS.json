@@ -1,0 +1,32 @@
+{
+  "failure_reasons": {
+    "output_truncated_or_incomplete": 163,
+    "invalid_action_schema": 15,
+    "Expecting value: line 1 column 1 (char 0)": 9
+  },
+  "executed_request_plans_including_fallbacks": {
+    "matched38": 4354,
+    "local_wide@online": 571,
+    "matched38@online": 45,
+    "local_wide@residual_boost": 137,
+    "local_wide": 568,
+    "joint_sharp_wide@online": 33,
+    "local_fine@online": 52,
+    "joint_sharp_wide@residual_boost": 7,
+    "release": 7,
+    "joint_sharp_wide": 13,
+    "local_fine": 3,
+    "joint_soft_fine@online": 6,
+    "joint_soft_fine": 1,
+    "local_fine@residual_boost": 2,
+    "matched38@residual_boost": 1
+  },
+  "primary_functions_where_full_loses": [
+    "BBOB16",
+    "BBOB21",
+    "BBOB22"
+  ],
+  "coordinate_comparison_scope": "All 261000 coordinates for both evaluated points in the 45 active rounds of the 2900 non-CEC trajectories; all differ from frozen Full. This is not a comparison of all 200 post-initial points.",
+  "reference_round_units": "35000 batch rounds = 350000 trajectory rounds; two reference points per round.",
+  "numerical_budget": "Each arm remains 300 FE per trajectory; native/cache split reflects exact cache reuse, not an algorithmic FE reduction."
+}
