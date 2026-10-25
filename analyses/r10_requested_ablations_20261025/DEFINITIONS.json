@@ -1,0 +1,12 @@
+{
+  "source": "experiments/r10_current_candidate_fusion/FUNCTION_COMPARISON.csv",
+  "source_sha256": "f3272cce9a2758fae49d2ebc647d4199a49810d6a6827cc5c52137c98baa47cf",
+  "definitions": {
+    "no_anchor": "Not present in frozen current R10 protocol; no results claimed.",
+    "llm_no_offline": "Remove offline case evidence and its support gate; retain pretrained Anchor, residual selector, online proxy and LLM.",
+    "retrieval": "Replace LLM action choice with maximum retrieved weighted 5-round gain among the same allowed actions; retain offline case evidence, history and action execution.",
+    "matched38": "Disable adaptive LLM action control and fix default matched38 generation/fusion; broader than replacing only the decision maker."
+  },
+  "no_online_is_not_no_anchor": true,
+  "significance_claim": false
+}

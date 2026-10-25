@@ -1,0 +1,20 @@
+R11：当前 R10 Full 的完整 Anchor 消融
+
+运行环境与命令：
+conda activate ooneurgo
+cd /home/skq/repos/roopf_agent/ROOPF
+bash scripts/run_r11_anchor_ablation.sh all --workers 24 --progress-seconds 5
+
+实时进度：tail -f experiments/r11_anchor_ablation/PROGRESS.jsonl
+已完成后只核验：bash scripts/run_r11_anchor_ablation.sh verify
+
+35函数×100轨迹，D10，FE300含初始100。每个非CEC函数100轨迹共20次请求；共580次新的真实LLM请求，无自动重试。
+R10 Full、原版和matched38均采用已完成的冻结记录作为参考，不新发Full请求。350组初始化和求解器RNG与R10 Full配对。
+
+消融移除预训练Anchor整个网络：保护候选和竞争候选均由现有原生trust_region算子第1、2号提议补位；第0号提议仍用于既有extra槽。保持38个竞争槽、2次/轮评价和原始300FE。
+生成补位时使用RNG fork；原Anchor为无随机数的eval前向，因此补位不额外消耗环境求解器随机流。原始初始化与求解器起点完全一致，路径随候选改变而自然分叉。
+Residual、原生算子、在线代理、LLM选择、原门限与冻结Full案例保留。Anchor温度动作不生效，原动作名作为别名保留，并明确通知LLM；该部分不能再计为实际Anchor变体执行。
+原离线案例仍是Full的分支收益，未针对无Anchor重新标注；这是冻结模型的模块替换消融，不是重新训练后最优无Anchor算法。
+CEC结构锁保留，但参考候选换为原生候选，六函数不调用Agent。BBOB20保留原批耦合随机语义并单列。
+
+工程检查只用于验证无Anchor网络调用、预算、形状、门限路径和RNG，不替代完整实时LLM验证。完整完成必须通过35函数/3500轨迹、580请求映射、有效动作执行、初始化RNG配对和冻结父记录哈希核验。

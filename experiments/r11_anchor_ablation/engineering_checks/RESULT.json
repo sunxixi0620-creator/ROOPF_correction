@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "not_full_validation": true,
+  "checks": [
+    {
+      "group": "BBOB",
+      "fid": 9,
+      "engineering_only": true,
+      "nfe": 300,
+      "anchor_calls": 0,
+      "api_calls": 0,
+      "reference_rounds": 100,
+      "active_records": 45
+    },
+    {
+      "group": "CEC-style",
+      "fid": 1,
+      "engineering_only": true,
+      "nfe": 300,
+      "anchor_calls": 0,
+      "api_calls": 0,
+      "reference_rounds": 100,
+      "active_records": 0
+    }
+  ]
+}

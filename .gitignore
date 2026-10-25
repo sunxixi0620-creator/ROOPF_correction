@@ -75,3 +75,10 @@ experiments/r10_current_candidate_fusion/compatibility/raw/
 experiments/r10_current_candidate_fusion/setup_attempt_*/collection/
 experiments/r10_current_candidate_fusion/setup_attempt_*/collection_no_api/
 experiments/r10_current_candidate_fusion/setup_attempt_*/.run.lock
+
+experiments/r11_anchor_ablation/results/
+experiments/r11_anchor_ablation/api_journal/
+experiments/r11_anchor_ablation/no_api/
+experiments/r11_anchor_ablation/.run.lock
+experiments/r11_anchor_ablation/*.log
+experiments/r11_anchor_ablation/engineering_checks/raw/
