@@ -1,0 +1,499 @@
+{
+  "status": "complete_live_cec_uniform_measurement_verified",
+  "scope": "CEC-style6 only; explicit user protocol change",
+  "functions": 6,
+  "arms": [
+    "frozen_baseline",
+    "no_agent",
+    "llm_full",
+    "llm_no_anchor",
+    "llm_no_online_generators"
+  ],
+  "trajectories_per_arm": 600,
+  "total_trajectories": 3000,
+  "nfe_including_initial": 300,
+  "comparisons": [
+    {
+      "comparison": "Full vs 冻结基线",
+      "reference": "frozen_baseline",
+      "function_wins": 1,
+      "function_ties": 5,
+      "function_losses": 0,
+      "trajectory_wins": 1,
+      "trajectory_ties": 599,
+      "trajectory_losses": 0
+    },
+    {
+      "comparison": "Full vs 移除Agent",
+      "reference": "no_agent",
+      "function_wins": 1,
+      "function_ties": 5,
+      "function_losses": 0,
+      "trajectory_wins": 1,
+      "trajectory_ties": 599,
+      "trajectory_losses": 0
+    },
+    {
+      "comparison": "Full vs 移除Anchor",
+      "reference": "llm_no_anchor",
+      "function_wins": 6,
+      "function_ties": 0,
+      "function_losses": 0,
+      "trajectory_wins": 600,
+      "trajectory_ties": 0,
+      "trajectory_losses": 0
+    },
+    {
+      "comparison": "Full vs 移除在线生成算子",
+      "reference": "llm_no_online_generators",
+      "function_wins": 1,
+      "function_ties": 5,
+      "function_losses": 0,
+      "trajectory_wins": 1,
+      "trajectory_ties": 599,
+      "trajectory_losses": 0
+    }
+  ],
+  "api": {
+    "status": "all_360_actual_requests_mapped_to_executed_decisions",
+    "attempts": 360,
+    "valid_responses": 253,
+    "fully_valid": 251,
+    "partial": 2,
+    "failures": 107,
+    "valid_rows": 2526,
+    "fallback_rows": 1074,
+    "prompt_tokens": 5192189,
+    "completion_tokens": 99090,
+    "provider_credit_sum": "158.28",
+    "responses_with_credit": 253,
+    "currency": "not inferred",
+    "per_arm": {
+      "llm_full": {
+        "attempts": 120,
+        "ok": 87,
+        "valid_rows": 886,
+        "fallback_rows": 314,
+        "prompt_tokens": 1723627,
+        "completion_tokens": 36463,
+        "failed": 31,
+        "partial": 2,
+        "provider_credit_sum": "55.38",
+        "responses_with_credit": 89
+      },
+      "llm_no_anchor": {
+        "attempts": 120,
+        "ok": 83,
+        "valid_rows": 830,
+        "fallback_rows": 370,
+        "prompt_tokens": 1804525,
+        "completion_tokens": 37436,
+        "failed": 37,
+        "provider_credit_sum": "54.43",
+        "responses_with_credit": 83
+      },
+      "llm_no_online_generators": {
+        "attempts": 120,
+        "ok": 81,
+        "valid_rows": 810,
+        "fallback_rows": 390,
+        "prompt_tokens": 1664037,
+        "completion_tokens": 25191,
+        "failed": 39,
+        "provider_credit_sum": "48.47",
+        "responses_with_credit": 81
+      }
+    },
+    "function_arm_coverage": [
+      {
+        "fid": 1,
+        "arm": "llm_full",
+        "attempts": 20,
+        "ok": 15,
+        "valid_rows": 150,
+        "fallback_rows": 50,
+        "singleton_allowed": 79,
+        "nondefault_actions": 88,
+        "failed": 5,
+        "trajectories_with_valid_api": 90,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 1,
+        "arm": "llm_no_anchor",
+        "attempts": 20,
+        "failed": 8,
+        "valid_rows": 120,
+        "fallback_rows": 80,
+        "singleton_allowed": 180,
+        "nondefault_actions": 10,
+        "ok": 12,
+        "trajectories_with_valid_api": 90,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 1,
+        "arm": "llm_no_online_generators",
+        "attempts": 20,
+        "ok": 13,
+        "valid_rows": 130,
+        "fallback_rows": 70,
+        "singleton_allowed": 200,
+        "nondefault_actions": 0,
+        "failed": 7,
+        "trajectories_with_valid_api": 90,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 2,
+        "arm": "llm_full",
+        "attempts": 20,
+        "failed": 7,
+        "valid_rows": 128,
+        "fallback_rows": 72,
+        "singleton_allowed": 113,
+        "nondefault_actions": 55,
+        "ok": 12,
+        "partial": 1,
+        "trajectories_with_valid_api": 80,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 2,
+        "arm": "llm_no_anchor",
+        "attempts": 20,
+        "ok": 13,
+        "valid_rows": 130,
+        "fallback_rows": 70,
+        "singleton_allowed": 123,
+        "nondefault_actions": 47,
+        "failed": 7,
+        "trajectories_with_valid_api": 90,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 2,
+        "arm": "llm_no_online_generators",
+        "attempts": 20,
+        "ok": 12,
+        "valid_rows": 120,
+        "fallback_rows": 80,
+        "singleton_allowed": 200,
+        "nondefault_actions": 0,
+        "failed": 8,
+        "trajectories_with_valid_api": 90,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 3,
+        "arm": "llm_full",
+        "attempts": 20,
+        "ok": 13,
+        "valid_rows": 130,
+        "fallback_rows": 70,
+        "singleton_allowed": 173,
+        "nondefault_actions": 22,
+        "failed": 7,
+        "trajectories_with_valid_api": 100,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 3,
+        "arm": "llm_no_anchor",
+        "attempts": 20,
+        "ok": 14,
+        "valid_rows": 140,
+        "fallback_rows": 60,
+        "singleton_allowed": 114,
+        "nondefault_actions": 65,
+        "failed": 6,
+        "trajectories_with_valid_api": 100,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 3,
+        "arm": "llm_no_online_generators",
+        "attempts": 20,
+        "failed": 10,
+        "valid_rows": 100,
+        "fallback_rows": 100,
+        "singleton_allowed": 200,
+        "nondefault_actions": 0,
+        "ok": 10,
+        "trajectories_with_valid_api": 60,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 4,
+        "arm": "llm_full",
+        "attempts": 20,
+        "failed": 3,
+        "valid_rows": 170,
+        "fallback_rows": 30,
+        "singleton_allowed": 120,
+        "nondefault_actions": 51,
+        "ok": 17,
+        "trajectories_with_valid_api": 100,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 4,
+        "arm": "llm_no_anchor",
+        "attempts": 20,
+        "failed": 3,
+        "valid_rows": 170,
+        "fallback_rows": 30,
+        "singleton_allowed": 150,
+        "nondefault_actions": 36,
+        "ok": 17,
+        "trajectories_with_valid_api": 100,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 4,
+        "arm": "llm_no_online_generators",
+        "attempts": 20,
+        "ok": 15,
+        "valid_rows": 150,
+        "fallback_rows": 50,
+        "singleton_allowed": 200,
+        "nondefault_actions": 0,
+        "failed": 5,
+        "trajectories_with_valid_api": 90,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 5,
+        "arm": "llm_full",
+        "attempts": 20,
+        "failed": 5,
+        "valid_rows": 150,
+        "fallback_rows": 50,
+        "singleton_allowed": 118,
+        "nondefault_actions": 71,
+        "ok": 15,
+        "trajectories_with_valid_api": 100,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 5,
+        "arm": "llm_no_anchor",
+        "attempts": 20,
+        "ok": 14,
+        "valid_rows": 140,
+        "fallback_rows": 60,
+        "singleton_allowed": 123,
+        "nondefault_actions": 59,
+        "failed": 6,
+        "trajectories_with_valid_api": 100,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 5,
+        "arm": "llm_no_online_generators",
+        "attempts": 20,
+        "ok": 13,
+        "valid_rows": 130,
+        "fallback_rows": 70,
+        "singleton_allowed": 200,
+        "nondefault_actions": 0,
+        "failed": 7,
+        "trajectories_with_valid_api": 90,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 6,
+        "arm": "llm_full",
+        "attempts": 20,
+        "ok": 15,
+        "valid_rows": 158,
+        "fallback_rows": 42,
+        "singleton_allowed": 110,
+        "nondefault_actions": 71,
+        "failed": 4,
+        "partial": 1,
+        "trajectories_with_valid_api": 88,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 6,
+        "arm": "llm_no_anchor",
+        "attempts": 20,
+        "ok": 13,
+        "valid_rows": 130,
+        "fallback_rows": 70,
+        "singleton_allowed": 124,
+        "nondefault_actions": 62,
+        "failed": 7,
+        "trajectories_with_valid_api": 100,
+        "cec_structural_exclusion": false
+      },
+      {
+        "fid": 6,
+        "arm": "llm_no_online_generators",
+        "attempts": 20,
+        "ok": 18,
+        "valid_rows": 180,
+        "fallback_rows": 20,
+        "singleton_allowed": 200,
+        "nondefault_actions": 0,
+        "failed": 2,
+        "trajectories_with_valid_api": 100,
+        "cec_structural_exclusion": false
+      }
+    ],
+    "every_function_arm_has_valid_api": true,
+    "generation_delay_and_actual_coordinates_verified": true
+  },
+  "evaluation_counts": {
+    "frozen_baseline": {
+      "native_fe": 0,
+      "cached_fe": 180000
+    },
+    "no_agent": {
+      "native_fe": 39040,
+      "cached_fe": 140960
+    },
+    "llm_full": {
+      "changed_points": 2602,
+      "fusion_changed_points": 64,
+      "selected_adjusted_candidates": 49,
+      "unsupported_queries": 378,
+      "valid_rows": 886,
+      "invalid_rows": 314,
+      "api_reused": 0,
+      "native_fe": 31990,
+      "cached_fe": 148010
+    },
+    "llm_no_anchor": {
+      "changed_points": 700,
+      "fusion_changed_points": 11,
+      "selected_adjusted_candidates": 11,
+      "unsupported_queries": 319,
+      "valid_rows": 830,
+      "invalid_rows": 370,
+      "api_reused": 0,
+      "native_fe": 120000,
+      "cached_fe": 60000
+    },
+    "llm_no_online_generators": {
+      "changed_points": 0,
+      "fusion_changed_points": 0,
+      "selected_adjusted_candidates": 0,
+      "unsupported_queries": 1200,
+      "valid_rows": 810,
+      "invalid_rows": 390,
+      "api_reused": 0,
+      "native_fe": 0,
+      "cached_fe": 180000
+    }
+  },
+  "route_counts": {
+    "frozen_baseline": {
+      "residual_forward": 0,
+      "anchor_forward": 6000,
+      "anchor_temperature_proposal": 0,
+      "prepare_generation": 0,
+      "generator:neural_generator": 6000,
+      "generator:_current_to_pbest": 6000,
+      "generator:_covariance_elite": 6000,
+      "generator:_trust_region": 6000,
+      "generator:_coordinate_pattern": 6000,
+      "generator:_opposition_restart": 6000
+    },
+    "no_agent": {
+      "residual_forward": 8700,
+      "anchor_forward": 6000,
+      "anchor_temperature_proposal": 0,
+      "prepare_generation": 0,
+      "generator:neural_generator": 6000,
+      "generator:_current_to_pbest": 6000,
+      "generator:_covariance_elite": 6000,
+      "generator:_trust_region": 6000,
+      "generator:_coordinate_pattern": 6000,
+      "generator:_opposition_restart": 6000
+    },
+    "llm_full": {
+      "residual_forward": 11400,
+      "anchor_forward": 6000,
+      "anchor_temperature_proposal": 2700,
+      "prepare_generation": 2700,
+      "generator:neural_generator": 6000,
+      "generator:_current_to_pbest": 6000,
+      "generator:_covariance_elite": 6000,
+      "generator:_trust_region": 8700,
+      "generator:_coordinate_pattern": 6000,
+      "generator:_opposition_restart": 6000
+    },
+    "llm_no_anchor": {
+      "residual_forward": 11400,
+      "anchor_forward": 0,
+      "anchor_temperature_proposal": 0,
+      "prepare_generation": 2700,
+      "generator:neural_generator": 6000,
+      "generator:_current_to_pbest": 6000,
+      "generator:_covariance_elite": 6000,
+      "generator:_trust_region": 14700,
+      "generator:_coordinate_pattern": 6000,
+      "generator:_opposition_restart": 6000
+    },
+    "llm_no_online_generators": {
+      "residual_forward": 2700,
+      "anchor_forward": 6000,
+      "anchor_temperature_proposal": 2700,
+      "prepare_generation": 2700,
+      "generator:neural_generator": 0,
+      "generator:_current_to_pbest": 0,
+      "generator:_covariance_elite": 0,
+      "generator:_trust_region": 0,
+      "generator:_coordinate_pattern": 0,
+      "generator:_opposition_restart": 0
+    }
+  },
+  "actual_coordinate_changes": {
+    "frozen_baseline": {
+      "coordinates_changed_vs_baseline": 0,
+      "protected_changed_vs_baseline": 0,
+      "competitor_changed_vs_baseline": 0,
+      "coordinates_changed_vs_full": 39782
+    },
+    "no_agent": {
+      "coordinates_changed_vs_baseline": 29128,
+      "protected_changed_vs_baseline": 14264,
+      "competitor_changed_vs_baseline": 14864,
+      "coordinates_changed_vs_full": 30821
+    },
+    "llm_full": {
+      "coordinates_changed_vs_baseline": 39782,
+      "protected_changed_vs_baseline": 19591,
+      "competitor_changed_vs_baseline": 20191,
+      "coordinates_changed_vs_full": 0
+    },
+    "llm_no_anchor": {
+      "coordinates_changed_vs_baseline": 120000,
+      "protected_changed_vs_baseline": 60000,
+      "competitor_changed_vs_baseline": 60000,
+      "coordinates_changed_vs_full": 120000
+    },
+    "llm_no_online_generators": {
+      "coordinates_changed_vs_baseline": 0,
+      "protected_changed_vs_baseline": 0,
+      "competitor_changed_vs_baseline": 0,
+      "coordinates_changed_vs_full": 39782
+    }
+  },
+  "paired_arm_batches": 300,
+  "paired_objective_rng_boundaries": 60300,
+  "baseline_all_values_equal_frozen": true,
+  "previous_sources_and_results_unchanged": true,
+  "analysis_script_sha256": "01f371ac0d7b8a9e74981d68c55cfd9380ed5cb84f06e7ade082371376a80d34",
+  "code_binding_sha256": "577355cc2b250cbdc30370a7c6a7eff66c4ff10785acaea6c240545ec898a6b4",
+  "limitations": [
+    "The local six CEC-style functions are not a complete official CEC suite.",
+    "Frozen original baseline is CPU; other conditions share the CUDA proxy. CUDA numerical differences are included in the comparison.",
+    "Full offline memory and thresholds held fixed for all strict component removals; no ablation-specific relabeling.",
+    "Default-only allowed sets and valid default responses are possible; no forced intervention.",
+    "Function and paired trajectory win counts are descriptive, not significance tests.",
+    "No amount or currency is inferred from token usage; credit is reported only when supplied."
+  ]
+}

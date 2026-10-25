@@ -1,0 +1,14 @@
+{
+  "status": "published_measurements_and_actual_api_verified",
+  "archives_verified": 13,
+  "functions": 6,
+  "conditions": 5,
+  "trajectory_records": 3000,
+  "arm_batch_receipts": 300,
+  "active_batch_decision_records": 8100,
+  "active_executed_points_checked": 162000,
+  "actual_api_requests_matched": 360,
+  "new_api_calls": 0,
+  "unused_pool_predictions_not_required": true,
+  "script_sha256": "e244a075ded16cc3eb9eb431a0ec12e5c2fd39e379ad860e518bdf76868bf321"
+}

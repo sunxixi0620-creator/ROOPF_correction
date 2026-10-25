@@ -1,0 +1,5 @@
+﻿comparison,reference,function_wins,function_ties,function_losses,trajectory_wins,trajectory_ties,trajectory_losses
+Full vs 冻结基线,frozen_baseline,1,5,0,1,599,0
+Full vs 移除Agent,no_agent,1,5,0,1,599,0
+Full vs 移除Anchor,llm_no_anchor,6,0,0,600,0,0
+Full vs 移除在线生成算子,llm_no_online_generators,1,5,0,1,599,0

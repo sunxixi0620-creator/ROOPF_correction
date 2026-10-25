@@ -1,0 +1,42 @@
+{
+  "file": "exports/当前Full_论文对照与消融_BBOB24_CEC统一流程重测_R13.xlsx",
+  "sha256": "66997ace39a1b279933ac5d7c334858515039213183b96cb8b540c5f7f3c0300",
+  "frozen_workbook_sha256": "f6841509e51126f3ab693313a4184fb2f876d33e4feb2c4d663967ea4c8b1ff5",
+  "untouched_BBOB_UAV_sheets": [
+    "对照_BBOB",
+    "对照_UAV",
+    "消融_BBOB",
+    "消融_UAV",
+    "均值方差_论文对照_BBOB",
+    "均值方差_论文对照_UAV",
+    "均值方差_消融_BBOB",
+    "均值方差_消融_UAV"
+  ],
+  "cec_function_ranks": {
+    "当前 Full": 1.4166666666666667,
+    "ROOPF 原版": 1.5833333333333333,
+    "B2Opt": 5.666666666666667,
+    "CMA-ES": 15.333333333333334,
+    "DE": 14.166666666666666,
+    "EGO": 5.666666666666667,
+    "GA": 12.0,
+    "HEBO": 3.3333333333333335,
+    "LES": 15.0,
+    "LGA": 11.666666666666666,
+    "POM": 4.666666666666667,
+    "PSO": 7.833333333333333,
+    "SACOSO": 9.333333333333334,
+    "SHADE": 12.833333333333334,
+    "Surr-RLDE": 9.166666666666666,
+    "TuRBO": 6.333333333333333
+  },
+  "cec_final_means_variances_updated": true,
+  "cec_ablation_counts_updated": true,
+  "no_cross_category_total": true,
+  "measurement_columns": [
+    "算法/版本",
+    "函数",
+    "均值",
+    "方差"
+  ]
+}

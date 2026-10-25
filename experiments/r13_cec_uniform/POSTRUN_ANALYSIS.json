@@ -1,0 +1,74 @@
+{
+  "timing": [
+    {
+      "fid": 1,
+      "full_final_reached_by_FE210": 100,
+      "baseline_final_reached_by_FE210": 100,
+      "full_new_best_after_FE210": 0,
+      "win_trajectory_ids": []
+    },
+    {
+      "fid": 2,
+      "full_final_reached_by_FE210": 100,
+      "baseline_final_reached_by_FE210": 100,
+      "full_new_best_after_FE210": 0,
+      "win_trajectory_ids": []
+    },
+    {
+      "fid": 3,
+      "full_final_reached_by_FE210": 97,
+      "baseline_final_reached_by_FE210": 98,
+      "full_new_best_after_FE210": 3,
+      "win_trajectory_ids": [
+        99
+      ],
+      "winning_trace": {
+        "trajectory": 99,
+        "baseline": 8.984431266784668,
+        "full": 8.984339714050293,
+        "actions": [
+          {
+            "step": 5,
+            "action": "matched38",
+            "valid_api_row": true
+          },
+          {
+            "step": 15,
+            "action": "matched38",
+            "valid_api_row": false
+          }
+        ]
+      }
+    },
+    {
+      "fid": 4,
+      "full_final_reached_by_FE210": 100,
+      "baseline_final_reached_by_FE210": 100,
+      "full_new_best_after_FE210": 0,
+      "win_trajectory_ids": []
+    },
+    {
+      "fid": 5,
+      "full_final_reached_by_FE210": 96,
+      "baseline_final_reached_by_FE210": 96,
+      "full_new_best_after_FE210": 4,
+      "win_trajectory_ids": []
+    },
+    {
+      "fid": 6,
+      "full_final_reached_by_FE210": 100,
+      "baseline_final_reached_by_FE210": 100,
+      "full_new_best_after_FE210": 0,
+      "win_trajectory_ids": []
+    }
+  ],
+  "api_failure_reasons": {
+    "Expecting value: line 1 column 1 (char 0)": 9,
+    "output_truncated_or_incomplete": 59,
+    "invalid_action_schema": 38,
+    "connection_or_timeout: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)": 1
+  },
+  "full_singleton_allowed": 713,
+  "full_nondefault_actions": 358,
+  "interpretation": "Descriptive post-run analysis; no thresholds, cases, or settings changed. Tiny terminal differences do not establish a meaningful or significant LLM optimization gain."
+}

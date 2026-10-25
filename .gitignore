@@ -95,3 +95,4 @@ experiments/r13_cec_uniform/api_journal/
 experiments/r13_cec_uniform/engineering_checks/no_api/
 experiments/r13_cec_uniform/.run.lock
 experiments/r13_cec_uniform/*.log
+experiments/r13_cec_uniform/raw_full_archives/
