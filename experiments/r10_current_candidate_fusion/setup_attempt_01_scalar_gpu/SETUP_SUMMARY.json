@@ -1,0 +1,10 @@
+{
+  "status": "preserved_setup_attempt_interrupted_for_scalar_gpu_throughput",
+  "source_commit": "7564b32",
+  "algorithm_results_observed": false,
+  "formal_api_attempts": 0,
+  "reason": "single-trajectory IPC/GPU path ~20% GPU and4-6 CPU cores; restore scalar CPU and keep batched GPU",
+  "next_runtime": "gpu_min_batch2,24 CPU workers,2 GPU streams",
+  "scientific_gates_changed": false,
+  "partial_collection_native_fe": "not reconstructed; raw partial records retained"
+}

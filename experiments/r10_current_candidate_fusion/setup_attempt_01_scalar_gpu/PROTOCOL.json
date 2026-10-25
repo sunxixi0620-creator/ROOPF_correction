@@ -1,0 +1,125 @@
+{
+  "round": "R10 current-candidate fusion and delayed generation",
+  "policy_id": "r10_current_pool_fusion_delayed_generation_v1",
+  "parent_commit": "6ba2607933ad8dfc3b18d25ea934f1214747680d",
+  "baseline_source_commit": "52ec388b7812214f98fbfd84624a1dd65a52a0d8",
+  "functions": {
+    "BBOB": 24,
+    "CEC-style": 6,
+    "UAV": 5
+  },
+  "trajectories_per_function": 100,
+  "dimension": 10,
+  "nfe_including_initial_population": 300,
+  "initial_population": 100,
+  "arms": [
+    "off",
+    "matched38",
+    "retrieval",
+    "llm_live",
+    "llm_no_offline",
+    "llm_no_online"
+  ],
+  "decision_steps": [
+    5,
+    15
+  ],
+  "action_duration_rounds": 5,
+  "generation_delay_rounds": 1,
+  "generation_effective_rounds": 4,
+  "current_candidate_count": 38,
+  "default_profile": "matched38",
+  "failure_fallback": "matched38",
+  "active_stage": "unchanged remaining<=.30; two points; CEC original structural lock",
+  "candidate_generation": "all original8 generation profiles retained; same temperatures .8/1/1.25 and local scales .5/1/1.5; selected profile affects next4 rounds only",
+  "fusion": "current candidates predicted before API; lambda0/1/2 applied now and next4 rounds; original numerical coefficients and gates retained",
+  "release_semantics": "original selector on current pool, not a reset to original trajectory",
+  "output_semantics": "one canonical action string per trajectory; complete final JSON only; per-row validation; duplicate JSON keys/unknown ids/truncation reject request",
+  "case_features": "original8 plus current conflict, fusion choices, uncertainty, residual spread, online gap, rank correlation and selected rank reliability/sample fraction",
+  "offline_functions": 36,
+  "offline_seeds": 8,
+  "offline_initial_radius": [
+    1.0,
+    1.0,
+    0.3,
+    0.3,
+    0.1,
+    0.1,
+    0.03,
+    0.03
+  ],
+  "offline_horizons": [
+    5,
+    10
+  ],
+  "offline_split": "same7 generated heldout functions excluded from retrieval; heldout feature distances only calibrate coverage",
+  "offline_native_fe_cap": 3000000,
+  "coverage_rule": "nearest3 distinct functions at same decision step; third distance <= heldout95th percentile; feature metric fit only on training cases",
+  "action_support_rule": "matched38 always; other actions require coverage, at least2 positive-function neighbors, mean_gain5>max(0,.25*dispersion5), mean_gain10>=0; heuristic support, not confidence bound",
+  "offline_summary": "all22 action rows; relative gains retained with7 significant digits; no top/bottom truncation",
+  "ablation_definitions": {
+    "llm_live": "full case evidence + selected factual feedback + current model comparisons",
+    "llm_no_offline": "remove case evidence and evidence support gate; keep current predictions and factual history",
+    "llm_no_online": "remove selected factual feedback from LLM and feedback features from retrieval distance; keep current predictions and fixed numerical-core calibration"
+  },
+  "max_new_api_attempts": 1800,
+  "expected_api_requests": 1740,
+  "expected_requests_per_live_arm": 580,
+  "primary_excludes_bbob20": true,
+  "cec_reason": "six original structured-system locks; no intervention/API",
+  "automatic_retry": false,
+  "automatic_execution": true,
+  "implementation_status": "hardware_backend_requires_full_validation",
+  "api_and_full_runs_status": "not yet complete",
+  "remote_baseline_ref": "baseline/r10-current-fusion-20261025",
+  "remote_baseline_commit": "bdcf80cb9c54b29a82ee2d52b72a99948305954c",
+  "statistical_claim": "development experiment informed by R09; not blind confirmation; no calibrated success probabilities; function/trajectory counts are not significance tests",
+  "limitations": [
+    "generation temperature variants may remain unselected; not forced to pass protected gates",
+    "online selected feedback is selection biased, not causal advantage",
+    "third-party model routing and billing identity not independently established",
+    "case support thresholds frozen before target suite; no target truth in memory"
+  ],
+  "workers": 24,
+  "hardware_runtime": {
+    "device": "cuda",
+    "workers": 24,
+    "visible_devices": "0",
+    "batching": "fixed per-request trajectories and ensemble members; no cross-request merging",
+    "gpu_min_batch": 1,
+    "gpu_concurrency": 2,
+    "solver_device": "cpu",
+    "baseline_device": "cpu",
+    "cpu_threads_per_worker": 1,
+    "proxy_dtype": "float32",
+    "tf32": false,
+    "cuda_numerics_may_change_decisions": true,
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "python_executable": "/home/skq/.conda/envs/ooneurgo/bin/python",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.2.6",
+      "sympy": "1.14.0"
+    },
+    "api": {
+      "model": "deepseek-v4-flash",
+      "endpoint": "https://worldcodes.online/v1/chat/completions",
+      "transport": "proxy_http",
+      "proxy": "http://127.0.0.1:7890",
+      "concurrency": 2,
+      "timeout_seconds": 90,
+      "max_tokens": 1024,
+      "max_request_bytes": 96000
+    }
+  },
+  "api": {
+    "model": "deepseek-v4-flash",
+    "endpoint": "https://worldcodes.online/v1/chat/completions",
+    "transport": "proxy_http",
+    "proxy": "http://127.0.0.1:7890",
+    "concurrency": 2,
+    "timeout_seconds": 90,
+    "max_tokens": 1024,
+    "max_request_bytes": 96000
+  }
+}

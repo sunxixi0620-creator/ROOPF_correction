@@ -252,7 +252,7 @@ def main():
             parser.error('Another launch is already using this experiment directory')
         runtime = dict(device=args.device, workers=args.workers, visible_devices=args.visible_devices,
                        batching='fixed per-request trajectories and ensemble members; no cross-request merging',
-                       gpu_min_batch=1, gpu_concurrency=args.gpu_concurrency,
+                       gpu_min_batch=2, gpu_concurrency=args.gpu_concurrency,
                        solver_device='cpu', baseline_device='cpu', cpu_threads_per_worker=1,
                        proxy_dtype='float32', tf32=False, cuda_numerics_may_change_decisions=True,
                        python=sys.version, python_executable=sys.executable,

@@ -2,7 +2,7 @@
   "policy_id": "r10_current_pool_fusion_delayed_generation_v1",
   "default_profile": "matched38",
   "failure_fallback": "matched38",
-  "decision_context_sha256": "94355be5cf10162aa432fbc295fbaa8310672df1dd104859a748602173b632e4",
+  "decision_context_sha256": "0139e58cf21eab56e98d49443c485c6a431632661b3e9d42e90345d41c7a1745",
   "execution_context_sha256": "e30e839be4f5ceae65134de55331b41cd2a3560330fba179459625317ad54ba6",
   "memory_sha256": "38f93dfbfffe6646825989363dbfaf51bd80fa8ea0c8cde8dd8cc38ea1297ef7",
   "action_names": [
@@ -113,12 +113,12 @@
         2.043919,
         0.0,
         0.0398186,
-        0.06781007,
+        0.06781254,
         1.0,
         0.0,
-        0.00928329,
+        0.009284729,
         0.2013962,
-        0.0004510561,
+        0.0004545862,
         0.5412564,
         0.0,
         0.3125
@@ -130,27 +130,27 @@
             0,
             18,
             18,
-            0.6465437,
-            0.0189186,
-            -2.431975,
+            0.6465355,
+            0.01892819,
+            -2.431986,
             false
           ],
           [
             1,
             18,
             18,
-            0.6465437,
-            0.0189186,
-            -2.430119,
+            0.6465355,
+            0.01892819,
+            -2.43013,
             false
           ],
           [
             2,
             18,
             18,
-            0.6465437,
-            0.0189186,
-            -2.428262,
+            0.6465355,
+            0.01892819,
+            -2.428274,
             false
           ]
         ],
@@ -163,7 +163,7 @@
             "n": 3,
             "retained": 3,
             "marginal_gain": 0.199093,
-            "proxy_error_sum": 0.2442684,
+            "proxy_error_sum": 0.2442822,
             "proxy_error_n": 3,
             "residual_success": 2.0,
             "residual_total": 7
@@ -172,7 +172,7 @@
             "n": 2,
             "retained": 2,
             "marginal_gain": 0.0,
-            "proxy_error_sum": 0.09478191,
+            "proxy_error_sum": 0.09478049,
             "proxy_error_n": 2,
             "residual_success": 2.0,
             "residual_total": 6
@@ -188,7 +188,7 @@
             "marginal_gain": 0.0,
             "target_minus_previous_best": 0.2672989,
             "retained": true,
-            "proxy_error": 0.01240958,
+            "proxy_error": 0.0124073,
             "residual_rank_correct": 0.0,
             "selection_biased": true,
             "causal_advantage": false
@@ -201,7 +201,7 @@
             "marginal_gain": 0.0,
             "target_minus_previous_best": 0.2466146,
             "retained": true,
-            "proxy_error": 0.08237234,
+            "proxy_error": 0.08237319,
             "residual_rank_correct": 0.0,
             "selection_biased": true,
             "causal_advantage": false
@@ -214,7 +214,7 @@
             "marginal_gain": 0.199093,
             "target_minus_previous_best": -0.199093,
             "retained": true,
-            "proxy_error": 0.07544412,
+            "proxy_error": 0.0754358,
             "residual_rank_correct": 0.0,
             "selection_biased": true,
             "causal_advantage": false

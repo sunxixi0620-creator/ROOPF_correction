@@ -49,7 +49,7 @@ def main():
             import torch
             from roopf.current_evidence_agent import CurrentEvidenceAgent,PROFILES,POLICY_ID
             from run_r10_hardware import configure
-            run,collection=configure(str(p.parent),dict(device='cuda',gpu_min_batch=1),address,key)
+            run,collection=configure(str(p.parent),dict(device='cuda',gpu_min_batch=2),address,key)
             for fid in (9,20):
                 run.legacy.build(original=True)
                 torch.set_rng_state(torch.from_numpy(np.frombuffer((run.legacy.SNAP/f'BBOB_f{fid-1:02d}/FULL_RNG.bin').read_bytes(),dtype=np.uint8).copy()))

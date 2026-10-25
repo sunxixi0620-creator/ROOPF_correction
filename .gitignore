@@ -71,3 +71,7 @@ experiments/r10_current_candidate_fusion/.run.lock
 experiments/r10_current_candidate_fusion/*.log
 experiments/r10_current_candidate_fusion/engineering_checks/raw/
 experiments/r10_current_candidate_fusion/compatibility/raw/
+
+experiments/r10_current_candidate_fusion/setup_attempt_*/collection/
+experiments/r10_current_candidate_fusion/setup_attempt_*/collection_no_api/
+experiments/r10_current_candidate_fusion/setup_attempt_*/.run.lock
