@@ -1,0 +1,7 @@
+{
+  "source_sha256": {
+    "scripts/report_r13_cec_uniform.py": "01f371ac0d7b8a9e74981d68c55cfd9380ed5cb84f06e7ade082371376a80d34",
+    "scripts/export_r13_cec_excel.py": "1f0d95e2a6fd719c7297306449d041b0a3c0a99e953a6313baeab9d94647a313"
+  },
+  "methods": "terminal minimum; mean, population standard deviation/variance; exact paired WTL and coordinate comparison; descriptive ranks without significance claims; no optimization settings changed"
+}

@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-25T16:27:09.621409+08:00",
+  "remote": "origin",
+  "verified_advertised_refs": {
+    "refs/heads/baseline/r13-cec-uniform-20261025": "ad8c95885cd04f23445127ce7036ceb519500a9a",
+    "refs/heads/experiment/r13-cec-uniform-20261025": "3670a14918626c73a39555ebee41fd9ded402012"
+  },
+  "verification": "git ls-remote returned exact commit identities; final scientific publication will be read back after completion"
+}
