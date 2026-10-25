@@ -1,0 +1,240 @@
+{
+  "status": "remote_commit_and_all_result_files_read_back_verified",
+  "verified_at_utc": "2026-10-25T08:52:52.825564+00:00",
+  "remote_commit": "8b41271c6b3545d026e7c78b8ebeb8880b5475e0",
+  "remote_branch": "refs/heads/experiment/r13-cec-uniform-20261025",
+  "remote_url": "git@github.com:sunxixi0620-creator/ROOPF_correction.git",
+  "independent_bare_repository": "/tmp/roopf-r13-remote-readback-ehtmife2",
+  "files_read_back": 37,
+  "bytes_read_back": 128093281,
+  "remote_refs": [
+    "ad8c95885cd04f23445127ce7036ceb519500a9a\trefs/heads/baseline/r13-cec-uniform-20261025",
+    "8b41271c6b3545d026e7c78b8ebeb8880b5475e0\trefs/heads/experiment/r13-cec-uniform-20261025",
+    "84beaea20f7734aa0c949ab21c54a60c487c8e59\trefs/tags/final-v1.0.0-20261025"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob": "c6cc7838e0565d06cb797612ce3df52107d7b50f",
+      "sha256": "c03ee38e3cacc06b8c002776ba1a0674769d97ccba2595dde59e657e4a38b31f",
+      "bytes": 4409
+    },
+    {
+      "path": "experiments/r13_cec_uniform/API_EXECUTION_AUDIT.json",
+      "git_blob": "3deb5313e885f3a2664d193f7f80c3d2b63ee7d7",
+      "sha256": "4bc692674dabc47f9bbef0548ea8bd3b9a007289b669b464653e8f55669dc100",
+      "bytes": 7110
+    },
+    {
+      "path": "experiments/r13_cec_uniform/API_REQUESTS.csv",
+      "git_blob": "58abf1f2f51489cdba7412cbca3d9462b508cf47",
+      "sha256": "a0c1e81682640eaa4c23ec4794b5b5c8b5f60651c2d4723a1eda4dc55eb048d9",
+      "bytes": 57292
+    },
+    {
+      "path": "experiments/r13_cec_uniform/EXCEL_EXPORT.json",
+      "git_blob": "0ee979cf2d9d91f0ffd22ba3008645817c802055",
+      "sha256": "e39fac70fe98f399111f7497bdb64338e5d23f7d8f8453af68a64c08854d8ae7",
+      "bytes": 1258
+    },
+    {
+      "path": "experiments/r13_cec_uniform/FINAL_RESULT.json",
+      "git_blob": "47450fe87c168c0667b435a09d237c1f102391c6",
+      "sha256": "12cdfa6848f4a0f5c99d8d1dc809aa5a58d35935b51a514ffcf14ef117de948c",
+      "bytes": 14425
+    },
+    {
+      "path": "experiments/r13_cec_uniform/FUNCTION_COMPARISONS.csv",
+      "git_blob": "fd0a13d7cfe747925ee488e0911ea9d2770faffe",
+      "sha256": "0709539535eb5700ccefd3eb3d73f9fbb5a9da228fbf090e4937e9c03aed7f7f",
+      "bytes": 2074
+    },
+    {
+      "path": "experiments/r13_cec_uniform/FUNCTION_STATISTICS.csv",
+      "git_blob": "15c01e4d50fa8ea686e0b108bb6869ac580318b5",
+      "sha256": "359a968b31f573439c85518131e7e93aac671a2e440f858984e42cf46c80a75f",
+      "bytes": 4217
+    },
+    {
+      "path": "experiments/r13_cec_uniform/GPU_STATS_20261025_161934.json",
+      "git_blob": "673b743887e9817c603e290a84a7ed5949246aad",
+      "sha256": "decc13126f4503f7f4d55eec9309e487e3d16b1bf039cfcc1df3f5e5d4cfbd9d",
+      "bytes": 432
+    },
+    {
+      "path": "experiments/r13_cec_uniform/HARDWARE_20261025_161934.json",
+      "git_blob": "7bd6c2591e427c58f466f27adc65494c2afe499f",
+      "sha256": "4dc5a2d59737cef63f0e40c793c3cf1c7d50488babcd176380d9520146a9107c",
+      "bytes": 248
+    },
+    {
+      "path": "experiments/r13_cec_uniform/INDEPENDENT_VERIFICATION.json",
+      "git_blob": "47450fe87c168c0667b435a09d237c1f102391c6",
+      "sha256": "12cdfa6848f4a0f5c99d8d1dc809aa5a58d35935b51a514ffcf14ef117de948c",
+      "bytes": 14425
+    },
+    {
+      "path": "experiments/r13_cec_uniform/PAIRED_TRAJECTORIES.csv",
+      "git_blob": "8775cde5899bd72dbabab6d169c3ad4297b86ec5",
+      "sha256": "dc569d1285c27a91496be193ab392e74c128d8740377c700f988e00c88abc7af",
+      "bytes": 160796
+    },
+    {
+      "path": "experiments/r13_cec_uniform/POSTRUN_ANALYSIS.json",
+      "git_blob": "efcca6d7089cb7f8ea6a0588894e6e1da37017c1",
+      "sha256": "f207760833116beb0c26950b50fd9bcca087a81bd2e3a6762b59f8572c13d1c9",
+      "bytes": 2088
+    },
+    {
+      "path": "experiments/r13_cec_uniform/PROGRESS.jsonl",
+      "git_blob": "4e82ddc2f0119df9165b2f7c90067dea86b9dd3a",
+      "sha256": "035358ac39f6e29c59331e595b652a41882678daadfd5e944f85a8f2e62075a0",
+      "bytes": 55965
+    },
+    {
+      "path": "experiments/r13_cec_uniform/PUBLICATION_VERIFICATION.json",
+      "git_blob": "0abf04cc84b6bdaa363618516eff60b7992079cf",
+      "sha256": "24bed10f031d9e348a55469b7161076fba938e36a1f5784987eb6eff29e272c5",
+      "bytes": 468
+    },
+    {
+      "path": "experiments/r13_cec_uniform/README.zh-CN.md",
+      "git_blob": "f5a048bd9d82129bb7a5439388d1dee7eb46437b",
+      "sha256": "1108d59d3dc9a0077cf18a3b70cb7bd52700ebbd4741e5e57a258c59da289071",
+      "bytes": 2195
+    },
+    {
+      "path": "experiments/r13_cec_uniform/REPORT_LAYOUT_CHECK.json",
+      "git_blob": "9218c7cc94aea180bc086361132c4e468cd8e97e",
+      "sha256": "58196260562e9208ea400ca61a991d6c0ef9f4ed5f913c8a48b86bbf416a805e",
+      "bytes": 67
+    },
+    {
+      "path": "experiments/r13_cec_uniform/SUMMARY.csv",
+      "git_blob": "abe2e0f99ae6ec3a152777b9d4cfec3ea1daddc7",
+      "sha256": "441ff8502202841723418d2826487ba0738f062097bd6031b47cc3088069532b",
+      "bytes": 338
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/ACTUAL_API_JOURNAL.tar.xz",
+      "git_blob": "ddc0164f79687f9ff74ea0d9ad250852d225f3a9",
+      "sha256": "5a2b7807ee24ecb17496c4300dd55ecaa8b061d7263951ef33da2b03f6f2162b",
+      "bytes": 1378360
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f01.tar.xz",
+      "git_blob": "d42803a3105e2abaf0d6ee7f937839d95b9273b0",
+      "sha256": "55817987d8191b4a6909e5bfce96d3131430f38d315aacc6c49e8426e9de9803",
+      "bytes": 13416704
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f02.tar.xz",
+      "git_blob": "9a047672e9efb90b2d2697763b4d4d2b20f32a2e",
+      "sha256": "8f61ad4a809d10b330a4317c45193c7262567dcc4aa5b8c3c7cdb34aa84caf73",
+      "bytes": 16704072
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f03.tar.xz",
+      "git_blob": "441558e79017d2140e9905ced819cc6203fed7ba",
+      "sha256": "72bbc2404db27284ed6c46988028e89e430918777275539050dbcc69deceb017",
+      "bytes": 17131272
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f04.tar.xz",
+      "git_blob": "0ab5c7ff86eba3bd5e98d75cd0196c18020733ef",
+      "sha256": "b676b5191150fc8be3a7a728a6a51a7cba4139eb35e531bfc597bac8cb5087d5",
+      "bytes": 16950124
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f05.tar.xz",
+      "git_blob": "09aba3a1cc59b7bc1cc7d8281e3390df6e962c66",
+      "sha256": "b662e7459eb7b3f7219a99d65ace0b4d92848477c5b9c5bf918357136ad53922",
+      "bytes": 13071928
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EVIDENCE_CEC-style_f06.tar.xz",
+      "git_blob": "743494604b3fb1ef6e973528fbbd83041172a60f",
+      "sha256": "cefaf57cb0022e32b01c91ae8e0cf78e88078fb40c447ed2e86f228a7c9e47fb",
+      "bytes": 16858076
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f01.jsonl.gz",
+      "git_blob": "04bac16042afbd0b1d6b68f5de5a1a202327aab4",
+      "sha256": "a88b691dd8f62d2513cf5329cc4f33bdf69fa8e1a1a67af047573878daeff174",
+      "bytes": 5364194
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f02.jsonl.gz",
+      "git_blob": "e435a24fff95e96b67b533ec3853c43f6dc92d8c",
+      "sha256": "bb630f03cc4992c8b10172f47542f6f10152cfe7bd40794e6e20b6893b4bc604",
+      "bytes": 5241526
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f03.jsonl.gz",
+      "git_blob": "b08c6cec297308692a3a096a3b5d68ec051ef76e",
+      "sha256": "c155e57b34fc0fcbdec0def7e2b5afe8657ea94b7bf9a20cc2abc54831020d8e",
+      "bytes": 5306521
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f04.jsonl.gz",
+      "git_blob": "47749b5b5d520efbd9c07a421c2286fb34c81b39",
+      "sha256": "2af701b341a961a139ca562065196570c3dadacabacd97d4df7abf3a0cdac986",
+      "bytes": 5259925
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f05.jsonl.gz",
+      "git_blob": "a86d11f25c9a249626fa1aac9079a1acb8197d4d",
+      "sha256": "be96a6dacb30f1bc0fc427a3568def6bfb5b19e7345753d21a50a98d60ec1156",
+      "bytes": 5367485
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/EXECUTED_DECISIONS_CEC-style_f06.jsonl.gz",
+      "git_blob": "e340f28c1f444db50c89d615735afaf4357b7d61",
+      "sha256": "63523036ecdbc0bed5d8e8755b42b91985d4faedbbf0ff87e62e6bc19f8b5c10",
+      "bytes": 5187299
+    },
+    {
+      "path": "experiments/r13_cec_uniform/publication/MANIFEST.json",
+      "git_blob": "e83436e88358f9d6da0375c9507f6d8b0155a660",
+      "sha256": "41c3fe85a5b0aea0f8cd5f7e732cdb5e3e81fec628e76c056b91967cd5526eb3",
+      "bytes": 160932
+    },
+    {
+      "path": "exports/CEC统一流程重测_R13_完整结果报告.pdf",
+      "git_blob": "a3a70d17438dc2fa43678252c5681bd10eb5df63",
+      "sha256": "f384d46032faea39c81a68ce84e8850afac6d179fefb44d6a3b05fb4ccd8c910",
+      "bytes": 68064
+    },
+    {
+      "path": "exports/CEC统一流程重测_R13_结果材料.zip",
+      "git_blob": "8148a7d3d2b8b6dc9afdc6331e6255d0b159bc2b",
+      "sha256": "ef25f3dbc5ac1272431fda3ac9ba45ba08c43efa30d17a930f43509fe430672e",
+      "bytes": 224031
+    },
+    {
+      "path": "exports/当前Full_论文对照与消融_BBOB24_CEC统一流程重测_R13.xlsx",
+      "git_blob": "feee4af9eba0dd7458936d7493174b6fbaeac007",
+      "sha256": "66997ace39a1b279933ac5d7c334858515039213183b96cb8b540c5f7f3c0300",
+      "bytes": 55627
+    },
+    {
+      "path": "scripts/bundle_r13_cec_uniform.py",
+      "git_blob": "452fbbabc576e920c3acfc95a3567a2bb33113b6",
+      "sha256": "f0fc3a3863ed956b86e66c23d2d4350712323dbf30279954c7914468dccc562c",
+      "bytes": 4581
+    },
+    {
+      "path": "scripts/verify_r13_publication.py",
+      "git_blob": "e82bd0c0bca3140333354d3e0b6963172806aa3e",
+      "sha256": "e244a075ded16cc3eb9eb431a0ec12e5c2fd39e379ad860e518bdf76868bf321",
+      "bytes": 5584
+    },
+    {
+      "path": "scripts/write_r13_report.py",
+      "git_blob": "eb8fff14b6a33b122e606baf32caecc2bde4d63b",
+      "sha256": "137e890026a5ef056a94919cf057b6a39b94cd15802ad8b901ecdb314d08aa16",
+      "bytes": 9169
+    }
+  ],
+  "verification_transport_note": "Initial explicit object fetch used blob:none and failed its connectivity check; a new independent bare repository fetched the requested result blobs without that filter and verified all bytes. No experiment or API requests were repeated."
+}
