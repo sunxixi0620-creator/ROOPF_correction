@@ -1,0 +1,21 @@
+{
+  "sha256": {
+    "roopf/benchmarks/bbobfunctions.py": "8ad2379438ff9ec3981659be701e8aa4f64261d4b1d3ca367faf0838323a19eb",
+    "roopf/benchmarks/cecfunctions.py": "be4e94fd74e7f3a1589fc27d7218f339624cdf3008cd06022ed3258ed6758dbd",
+    "roopf/benchmarks/utils.py": "06fbf84f7fa749940d9763e664aabaa52430311111d0895a8f66c6f213250c9d",
+    "experiments/r02_fusion_agent/training_assets/generated36_curated.py": "4f5ed4674925cccf6789e6edf0f0f3e95cf76529c89d21c7b787f4436ddcba68",
+    "experiments/r02_fusion_agent/training_assets/uav_benchmark.py": "065ebce09790822791a8f30ba55c3d79bae70a5a5496d0f46d803f15d4f3e863",
+    "data/bbob_offsets_d10.pkl": "4b74f33887e141073a679c3ed71c8a9b92a4411f674fc31c664b176cd1ea5136"
+  },
+  "cache_partition": [
+    "group",
+    "function_id",
+    "frozen_implementation_binding"
+  ],
+  "per_partition_key": [
+    "shape",
+    "float32_coordinate_bytes",
+    "objective_rng_before_sha256"
+  ],
+  "response_restores_objective_rng_after": true
+}
