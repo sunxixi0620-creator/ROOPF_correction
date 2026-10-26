@@ -1,0 +1,8 @@
+collection/
+cases/
+results/
+api_journal/
+engineering_checks/raw/
+*.log
+.run.lock
+__pycache__/

@@ -1,0 +1,12 @@
+{
+  "status": "prespecified_plan",
+  "sha256": {
+    ".gitignore": "6cd70017612ac32aab345acb1c72004fe153ca4396d7437f4ad42e753367eaa7",
+    "BASELINE_SNAPSHOT.json": "41b5c4afc0443ab5299187025cb104466e1eb0170c1207d33695f56fbaa1864c",
+    "CONFIGURATIONS.csv": "c70b38fdd5367fe00132e892ce59d713033fb0ec37640bf02ea3cbab2f8ce939",
+    "LLM_Agent_匹配时序参数实验方案.txt": "45351a7df34a0e454dbae9180cd157b79bfac002183844d9591da1d9774398f5",
+    "PLAN_VALIDATION.json": "3ea756aaca5877b9ce8ed5a6635eaaadf9185e0c9bc3b9dd0c367d558708eb12",
+    "PROTOCOL.json": "88dff48f4dfadc3239afb30eb068507f155174c398a44b119078fae759291fb1"
+  },
+  "new_api_requests": 0
+}
