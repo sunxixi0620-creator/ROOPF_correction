@@ -1,0 +1,20 @@
+{
+  "status": "important_results_and_actual_api_archived",
+  "api_journal_records": 4900,
+  "credential_findings": 0,
+  "files": {
+    "ACTUAL_API_JOURNAL.tar.xz": {
+      "bytes": 21695704,
+      "sha256": "48ecade5bfded776b67be8abe66a84ea8ebaa03faf1ce2c0ca5eec521f6f69e7"
+    },
+    "RAW_EVIDENCE_SHA256.csv": {
+      "bytes": 1174764,
+      "sha256": "6f9faa2a56603bcf316dd7d8c519122984f3903751f89bbe8ee6c477e94fcc3a"
+    }
+  },
+  "local_raw_evidence_files": 10400,
+  "local_raw_evidence_bytes": 7483916063,
+  "full_local_raw_preserved": true,
+  "unused_candidate_predictions_not_uploaded": true,
+  "seconds": 9.46
+}

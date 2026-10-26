@@ -1,0 +1,1 @@
+{"stage":"postrun CSV export","error":"inconsistent optional partial-status CSV fields","fixed":"union CSV columns; raw measurements and runtime source unchanged"}

@@ -1,0 +1,10 @@
+{
+  "status": "remote_baseline_and_experiment_verified",
+  "remote": "https://github.com/sunxixi0620-creator/ROOPF_correction",
+  "baseline_ref": "baseline/r14-online-entry-timing-20261026",
+  "baseline_sha": "bc92a9d1c130b64c98be6133ea3c275e47a8b344",
+  "experiment_ref": "experiment/r14-online-entry-timing-20261026",
+  "experiment_sha": "d3e2f08b9984c5644e40f23061856b438fe86cdc",
+  "final_release_head_unchanged": true,
+  "transport": "SSH443 through existing HTTP proxy; hostkey checked against official GitHub docs"
+}

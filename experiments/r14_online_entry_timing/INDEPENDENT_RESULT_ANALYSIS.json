@@ -1,0 +1,127 @@
+{
+  "status": "all245_raw_function_distributions_and_primary_ranks_independently_recomputed",
+  "trajectory_count": 24500,
+  "condition_batches": 2450,
+  "functions_per_condition": 35,
+  "actual_api_requests": 4900,
+  "minimum_valid_action_rows_per_function_and_condition": 60,
+  "frozen_parent_files": 1389,
+  "source_bindings_unchanged": true,
+  "execution_metrics": {
+    "fe_210": {
+      "native_fe": 256880,
+      "cached_fe": 793120,
+      "coordinate_changes_vs_frozen_final": 20538,
+      "coordinate_changes_vs_original": 202798,
+      "actual_online_evaluated_points": 121822
+    },
+    "fe_100": {
+      "native_fe": 696280,
+      "cached_fe": 353720,
+      "coordinate_changes_vs_frozen_final": 690203,
+      "coordinate_changes_vs_original": 690802,
+      "actual_online_evaluated_points": 242747
+    },
+    "fe_130": {
+      "native_fe": 548520,
+      "cached_fe": 501480,
+      "coordinate_changes_vs_frozen_final": 514256,
+      "coordinate_changes_vs_original": 530520,
+      "actual_online_evaluated_points": 201916
+    },
+    "fe_150": {
+      "native_fe": 475560,
+      "cached_fe": 574440,
+      "coordinate_changes_vs_frozen_final": 449465,
+      "coordinate_changes_vs_original": 467875,
+      "actual_online_evaluated_points": 179641
+    },
+    "fe_180": {
+      "native_fe": 379260,
+      "cached_fe": 670740,
+      "coordinate_changes_vs_frozen_final": 344664,
+      "coordinate_changes_vs_original": 371667,
+      "actual_online_evaluated_points": 146512
+    },
+    "fe_230": {
+      "native_fe": 270470,
+      "cached_fe": 779530,
+      "coordinate_changes_vs_frozen_final": 263194,
+      "coordinate_changes_vs_original": 255930,
+      "actual_online_evaluated_points": 100243
+    },
+    "fe_260": {
+      "native_fe": 216870,
+      "cached_fe": 833130,
+      "coordinate_changes_vs_frozen_final": 282279,
+      "coordinate_changes_vs_original": 252149,
+      "actual_online_evaluated_points": 69657
+    }
+  },
+  "api_totals": {
+    "attempts": 4900,
+    "ok": 3072,
+    "partial": 32,
+    "failed": 1796,
+    "valid_rows": 30992,
+    "fallback_rows": 18008,
+    "prompt_tokens": 69648745,
+    "completion_tokens": 1646424
+  },
+  "provider_credit_units": "2051.91",
+  "responses_with_credit": 3100,
+  "currency_inferred": false,
+  "api_failure_causes": {
+    "output_truncated_or_incomplete": 1046,
+    "invalid_action_schema": 550,
+    "Expecting value: line 1 column 1 (char 0)": 178,
+    "Remote end closed connection without response": 6,
+    "http_503": 4,
+    "connection_or_timeout: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)": 12
+  },
+  "uav_fe100_improvement": [
+    {
+      "fid": 1,
+      "final_mean": 24.20203960418701,
+      "fe100_mean": 21.04026155471802,
+      "relative_mean_reduction_percent": 13.064097494171513
+    },
+    {
+      "fid": 2,
+      "final_mean": 27.60603635787964,
+      "fe100_mean": 25.40789626121521,
+      "relative_mean_reduction_percent": 7.962534237686785
+    },
+    {
+      "fid": 3,
+      "final_mean": 22.083409442901612,
+      "fe100_mean": 18.853458404541016,
+      "relative_mean_reduction_percent": 14.626142972677693
+    },
+    {
+      "fid": 4,
+      "final_mean": 27.213886108398437,
+      "fe100_mean": 24.289781799316405,
+      "relative_mean_reduction_percent": 10.744898017999821
+    },
+    {
+      "fid": 5,
+      "final_mean": 27.836131153106688,
+      "fe100_mean": 23.439739990234376,
+      "relative_mean_reduction_percent": 15.793829748433438
+    }
+  ],
+  "recommended_uniform_threshold": 210,
+  "best_exploratory_by_class": {
+    "BBOB_primary23": 210,
+    "CEC-style": 150,
+    "UAV": 100,
+    "BBOB20_separate": 130
+  },
+  "limitations": [
+    "Descriptive average ranks and paired W/T/L, not significance tests",
+    "LLM calls fixed atFE220/240; control windows unchanged",
+    "36.65% fully failed API responses; fallback and live-return mix preserved",
+    "Threshold selection on existing suite is exploratory; no final code changed"
+  ]
+}
