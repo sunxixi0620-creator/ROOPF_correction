@@ -1,0 +1,110 @@
+{
+  "experiment": "R14 online admission onset single-parameter sweep",
+  "created_date": "2026-10-26",
+  "parent_commit": "bc92a9d1c130b64c98be6133ea3c275e47a8b344",
+  "thresholds": [
+    100,
+    130,
+    150,
+    180,
+    230,
+    260
+  ],
+  "contemporary_control_threshold": 210,
+  "frozen_final_actual_threshold": 210,
+  "not_200": true,
+  "functions": {
+    "BBOB": 24,
+    "CEC-style": 6,
+    "UAV": 5
+  },
+  "trajectories_per_function": 100,
+  "dimension": 10,
+  "nfe_including_initial": 300,
+  "initial_population": 100,
+  "arms": [
+    "fe_210",
+    "fe_100",
+    "fe_130",
+    "fe_150",
+    "fe_180",
+    "fe_230",
+    "fe_260"
+  ],
+  "only_parameter": "FE before the round at which online candidates may displace the competing Anchor",
+  "agent_generation_and_history_activation_FE": 210,
+  "llm_decision_FE": [
+    220,
+    240
+  ],
+  "action_duration_rounds": 5,
+  "generation_effective_rounds": 4,
+  "generation_delay_rounds": 1,
+  "default_profile": "matched38",
+  "failure_fallback": "matched38",
+  "candidate_generation": "unchanged six operators throughout; extra proposal and full-pool Agent activate at210",
+  "before210_if_admission_open": "unchanged native shortlist and original numerical protection; no Agent decision, no extra proposal, no early case/history updates",
+  "after210_if_admission_closed": "Agent still predicts and calls at220/240; the admission gate restricts numerical options to the competing Anchor; only actually evaluated feedback is recorded",
+  "pool_width": "native pre-Agent shortlist before210; frozen38 competitor candidates at and after210 for all thresholds",
+  "frozen_cases_and_gates": true,
+  "new_offline_training": false,
+  "expected_requests_per_arm": 700,
+  "expected_api_requests": 4900,
+  "max_new_api_attempts": 4900,
+  "workers": 24,
+  "api": {
+    "model": "deepseek-v4-flash",
+    "endpoint": "https://worldcodes.online/v1/chat/completions",
+    "transport": "proxy_http",
+    "proxy": "http://127.0.0.1:7890",
+    "concurrency": 2,
+    "timeout_seconds": 90,
+    "max_tokens": 1024,
+    "max_request_bytes": 96000
+  },
+  "hardware_runtime": {
+    "device": "cuda",
+    "workers": 24,
+    "visible_devices": "0",
+    "batching": "fixed per-request trajectories and ensemble members; no cross-request merging",
+    "gpu_min_batch": 2,
+    "gpu_concurrency": 2,
+    "solver_device": "cpu",
+    "baseline_device": "cpu",
+    "cpu_threads_per_worker": 1,
+    "proxy_dtype": "float32",
+    "tf32": false,
+    "cuda_numerics_may_change_decisions": true,
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "python_executable": "/home/skq/.conda/envs/ooneurgo/bin/python",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.2.6",
+      "sympy": "1.14.0"
+    },
+    "api": {
+      "model": "deepseek-v4-flash",
+      "endpoint": "https://worldcodes.online/v1/chat/completions",
+      "transport": "proxy_http",
+      "proxy": "http://127.0.0.1:7890",
+      "concurrency": 2,
+      "timeout_seconds": 90,
+      "max_tokens": 1024,
+      "max_request_bytes": 96000
+    },
+    "no_agent_proxy_backend": "same CUDA proxy as Full; archived frozen baseline remains CPU"
+  },
+  "automatic_retry": false,
+  "paired_initials": "all350 archived R10 initial populations and solver RNG, including CEC; assert201 objective RNG boundaries and final cursor",
+  "frozen_final_sources": {
+    "BBOB_and_UAV": "r10 llm_live",
+    "CEC-style": "r13 llm_full"
+  },
+  "frozen_original_baseline": "R02 archived independent CPU model + R10 off results",
+  "primary_excludes_bbob20": true,
+  "cec_unlocked": true,
+  "cash_currency_inferred": false,
+  "numerical_comparison": "fresh210 control plus published frozen final and original baseline; exact values, descriptive paired counts, not significance",
+  "selection_bias": "threshold selected on this existing test suite is exploratory and requires separate confirmation",
+  "remote_baseline_ref": "baseline/r14-online-entry-timing-20261026"
+}

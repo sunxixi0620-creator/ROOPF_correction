@@ -1,0 +1,10 @@
+{
+  "transport": "git SSH",
+  "command": "git ls-remote origin baseline/r14-online-entry-timing-20261026",
+  "error": "Connection closed by 28.0.0.53 port22",
+  "fallback": "connected GitHub API",
+  "github_connector_error": "403 Resource not accessible by integration when creating branch",
+  "ssh443_direct": "hostkey fingerprint verified against official GitHub docs; reset by peer after authentication",
+  "ssh443_http_proxy_attempt": true,
+  "fallback_result": "SSH443 through existing HTTP proxy succeeded; remote release matches frozen parent"
+}

@@ -1,0 +1,29 @@
+--- frozen/roopf/model.py
++++ r14/variant_model.py
+@@ -1712,7 +1712,7 @@
+                     cand_mu = None
+                     cand_sigma = None
+                     cand_router_prob = None
+-                elif "baseline_backbone" in self.ablation and remaining > 0.30:
++                elif "baseline_backbone" in self.ablation and self.evalnum < min(self.online_entry_fe, 210):
+                     cand = baseline_cand[:, :rest]
+                     selected_ops = torch.full((x.size(0), rest), -2, device=x.device, dtype=torch.long)
+                     cand_score = None
+@@ -1770,6 +1770,8 @@
+                                     extra_idx = base_idx
+                                 else:
+                                     def selection_rule(acquisition, proposed, margin=0.10, soft_margin=0.04, online_only=False):
++                                        if self.evalnum < self.online_entry_fe:
++                                            return acquisition[:, :base_count].argmin(dim=1, keepdim=True)
+                                         active_ablation = self.ablation
+                                         if online_only:
+                                             active_ablation = set(self.ablation) - {"residual_safety_gate", "router_veto", "weak_router_veto"}
+@@ -1786,7 +1788,7 @@
+                                             margin=margin, soft_margin=soft_margin,
+                                         )
+                                     extra_idx = selection_rule(acq, extra_idx)
+-                        if self.fusion_agent is not None and selection_rule is not None and not _is_structured_system_problem(problem):
++                        if self.fusion_agent is not None and selection_rule is not None and not _is_structured_system_problem(problem) and self._generation_control is not None:
+                             if getattr(self.fusion_agent, "expand_full_pool", False):
+                                 original_extra = extra_idx.clone()
+                                 expanded = torch.cat([baseline_cand[:, :rest], pool], dim=1)

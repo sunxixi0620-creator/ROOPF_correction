@@ -1,0 +1,10 @@
+{
+  "sha256": {
+    "scripts/experiment_r14_timing.py": "5417011f57882d12ec761685e2e748793d866c3956768112fef47b3cf05a66c3",
+    "scripts/report_r14_timing.py": "4da82876ef25c869627cdcb4a6a8fe8dd7e487cd4dc30bd8f2029cf08e30ef7e",
+    "scripts/check_r14_timing.py": "221f4829afc1ca2d9c11759d4e7e6d91275ae5518ba414314d971d03fa7418f5",
+    "scripts/run_r14_timing.sh": "df660702b78cd8bb741e17001767748b231d02486363db212c15e09438b1ebdb",
+    "experiments/r14_online_entry_timing/variant_model.py": "431ccb17ce96ab0265052c353aa13276df99fc5e8637c2ede51059e1645b38c7"
+  },
+  "frozen_core_modified": false
+}

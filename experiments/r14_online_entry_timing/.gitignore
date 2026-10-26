@@ -1,0 +1,10 @@
+results/
+api_journal/
+engineering_checks/no_api/
+*.log
+.run.lock
+__pycache__/
+PROGRESS.json
+GPU_PROGRESS.json
+HARDWARE_*.json
+PARTIAL_RESULT.json
