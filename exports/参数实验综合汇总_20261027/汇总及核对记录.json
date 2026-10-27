@@ -1,0 +1,817 @@
+{
+  "status": "both_completed_experiments_reconciled",
+  "protocol": {
+    "functions": 35,
+    "trajectories_per_function": 100,
+    "dimension": 10,
+    "population": 100,
+    "budget_FE": 300,
+    "initial_FE": 100,
+    "cec_unlocked": true,
+    "primary_functions": 34,
+    "bbob20_separate": true,
+    "all35_supplement": true
+  },
+  "R14": {
+    "conditions": 7,
+    "trajectories": 24500,
+    "API_requests": 4900,
+    "variable": "online candidate admission FE",
+    "fixed_LLM_call_FE": [
+      220,
+      240
+    ],
+    "fixed_fusion_rounds": 5,
+    "fixed_generation_rounds": 4,
+    "fixed_case_library": true,
+    "best_by_cohort": {
+      "primary34": [
+        {
+          "experiment": "R14",
+          "cohort": "primary34",
+          "parameter": "fe_210",
+          "functions": 34,
+          "average_rank": 3.3823529411764706,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 15
+        }
+      ],
+      "all35": [
+        {
+          "experiment": "R14",
+          "cohort": "all35",
+          "parameter": "fe_210",
+          "functions": 35,
+          "average_rank": 3.4285714285714284,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 15
+        }
+      ],
+      "BBOB24": [
+        {
+          "experiment": "R14",
+          "cohort": "BBOB24",
+          "parameter": "fe_210",
+          "functions": 24,
+          "average_rank": 3.0416666666666665,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 13
+        }
+      ],
+      "BBOB23": [
+        {
+          "experiment": "R14",
+          "cohort": "BBOB23",
+          "parameter": "fe_210",
+          "functions": 23,
+          "average_rank": 2.9565217391304346,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 13
+        }
+      ],
+      "CEC6": [
+        {
+          "experiment": "R14",
+          "cohort": "CEC6",
+          "parameter": "fe_150",
+          "functions": 6,
+          "average_rank": 3.0,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 3
+        }
+      ],
+      "UAV5": [
+        {
+          "experiment": "R14",
+          "cohort": "UAV5",
+          "parameter": "fe_100",
+          "functions": 5,
+          "average_rank": 1.0,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 5
+        }
+      ],
+      "BBOB20": [
+        {
+          "experiment": "R14",
+          "cohort": "BBOB20",
+          "parameter": "fe_130",
+          "functions": 1,
+          "average_rank": 1.0,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 1
+        }
+      ]
+    }
+  },
+  "R15": {
+    "conditions": 24,
+    "trajectories": 84000,
+    "API_requests": 16800,
+    "variable": "LLM call FE and action duration",
+    "fixed_online_admission_FE": 210,
+    "independent_matched_memories": 24,
+    "best_by_cohort": {
+      "primary34": [
+        {
+          "experiment": "R15",
+          "cohort": "primary34",
+          "parameter": "S01_L08",
+          "functions": 34,
+          "average_rank": 10.176470588235293,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 20
+        }
+      ],
+      "all35": [
+        {
+          "experiment": "R15",
+          "cohort": "all35",
+          "parameter": "S02_L05",
+          "functions": 35,
+          "average_rank": 10.057142857142857,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 16
+        }
+      ],
+      "BBOB24": [
+        {
+          "experiment": "R15",
+          "cohort": "BBOB24",
+          "parameter": "S02_L05",
+          "functions": 24,
+          "average_rank": 10.4375,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 11
+        }
+      ],
+      "BBOB23": [
+        {
+          "experiment": "R15",
+          "cohort": "BBOB23",
+          "parameter": "S02_L05",
+          "functions": 23,
+          "average_rank": 10.804347826086957,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 11
+        }
+      ],
+      "CEC6": [
+        {
+          "experiment": "R15",
+          "cohort": "CEC6",
+          "parameter": "S01_L08",
+          "functions": 6,
+          "average_rank": 10.583333333333334,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 6
+        }
+      ],
+      "UAV5": [
+        {
+          "experiment": "R15",
+          "cohort": "UAV5",
+          "parameter": "S01_L10",
+          "functions": 5,
+          "average_rank": 1.4,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 3
+        }
+      ],
+      "BBOB20": [
+        {
+          "experiment": "R15",
+          "cohort": "BBOB20",
+          "parameter": "S06_L05",
+          "functions": 1,
+          "average_rank": 1.0,
+          "ordinal_rank": 1,
+          "tied_ordinal": false,
+          "best_or_tied_best_functions": 1
+        }
+      ]
+    }
+  },
+  "common_reference_batches_compared": 350,
+  "common_references_identical": true,
+  "no_joint_class_specific_combinations_tested": [
+    "online100+LLM210/230_L10 for UAV",
+    "online150+LLM210/230_L08 for CEC"
+  ],
+  "R15_all_equal_mean_functions": [
+    "BBOB01",
+    "BBOB02",
+    "BBOB06",
+    "BBOB07",
+    "BBOB08",
+    "BBOB10",
+    "BBOB12",
+    "BBOB13",
+    "BBOB15",
+    "BBOB18",
+    "CEC01",
+    "CEC02",
+    "CEC04",
+    "CEC05",
+    "CEC06"
+  ],
+  "fixed_factor_views": [
+    {
+      "view": "固定融合5轮",
+      "cohort": "primary34",
+      "parameter": "S01_L05",
+      "functions": 34,
+      "average_rank": 3.3529411764705883,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "primary34",
+      "parameter": "S02_L05",
+      "functions": 34,
+      "average_rank": 2.8970588235294117,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "primary34",
+      "parameter": "S03_L05",
+      "functions": 34,
+      "average_rank": 3.6176470588235294,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "primary34",
+      "parameter": "S04_L05",
+      "functions": 34,
+      "average_rank": 3.7205882352941178,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "primary34",
+      "parameter": "S05_L05",
+      "functions": 34,
+      "average_rank": 3.5441176470588234,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "primary34",
+      "parameter": "S06_L05",
+      "functions": 34,
+      "average_rank": 3.8676470588235294,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "all35",
+      "parameter": "S01_L05",
+      "functions": 35,
+      "average_rank": 3.3714285714285714,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "all35",
+      "parameter": "S02_L05",
+      "functions": 35,
+      "average_rank": 2.8714285714285714,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "all35",
+      "parameter": "S03_L05",
+      "functions": 35,
+      "average_rank": 3.6857142857142855,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "all35",
+      "parameter": "S04_L05",
+      "functions": 35,
+      "average_rank": 3.757142857142857,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "all35",
+      "parameter": "S05_L05",
+      "functions": 35,
+      "average_rank": 3.5285714285714285,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "all35",
+      "parameter": "S06_L05",
+      "functions": 35,
+      "average_rank": 3.7857142857142856,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB24",
+      "parameter": "S01_L05",
+      "functions": 24,
+      "average_rank": 3.3958333333333335,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB24",
+      "parameter": "S02_L05",
+      "functions": 24,
+      "average_rank": 2.9583333333333335,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB24",
+      "parameter": "S03_L05",
+      "functions": 24,
+      "average_rank": 3.7916666666666665,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB24",
+      "parameter": "S04_L05",
+      "functions": 24,
+      "average_rank": 3.8958333333333335,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB24",
+      "parameter": "S05_L05",
+      "functions": 24,
+      "average_rank": 3.3958333333333335,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB24",
+      "parameter": "S06_L05",
+      "functions": 24,
+      "average_rank": 3.5625,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB23",
+      "parameter": "S01_L05",
+      "functions": 23,
+      "average_rank": 3.369565217391304,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB23",
+      "parameter": "S02_L05",
+      "functions": 23,
+      "average_rank": 3.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB23",
+      "parameter": "S03_L05",
+      "functions": 23,
+      "average_rank": 3.6956521739130435,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB23",
+      "parameter": "S04_L05",
+      "functions": 23,
+      "average_rank": 3.847826086956522,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB23",
+      "parameter": "S05_L05",
+      "functions": 23,
+      "average_rank": 3.4130434782608696,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB23",
+      "parameter": "S06_L05",
+      "functions": 23,
+      "average_rank": 3.6739130434782608,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "CEC6",
+      "parameter": "S01_L05",
+      "functions": 6,
+      "average_rank": 3.0833333333333335,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "CEC6",
+      "parameter": "S02_L05",
+      "functions": 6,
+      "average_rank": 3.25,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "CEC6",
+      "parameter": "S03_L05",
+      "functions": 6,
+      "average_rank": 3.6666666666666665,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "CEC6",
+      "parameter": "S04_L05",
+      "functions": 6,
+      "average_rank": 3.6666666666666665,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "CEC6",
+      "parameter": "S05_L05",
+      "functions": 6,
+      "average_rank": 3.6666666666666665,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "CEC6",
+      "parameter": "S06_L05",
+      "functions": 6,
+      "average_rank": 3.6666666666666665,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "UAV5",
+      "parameter": "S01_L05",
+      "functions": 5,
+      "average_rank": 3.6,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "UAV5",
+      "parameter": "S02_L05",
+      "functions": 5,
+      "average_rank": 2.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "UAV5",
+      "parameter": "S03_L05",
+      "functions": 5,
+      "average_rank": 3.2,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "UAV5",
+      "parameter": "S04_L05",
+      "functions": 5,
+      "average_rank": 3.2,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "UAV5",
+      "parameter": "S05_L05",
+      "functions": 5,
+      "average_rank": 4.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "UAV5",
+      "parameter": "S06_L05",
+      "functions": 5,
+      "average_rank": 5.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB20",
+      "parameter": "S01_L05",
+      "functions": 1,
+      "average_rank": 4.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB20",
+      "parameter": "S02_L05",
+      "functions": 1,
+      "average_rank": 2.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB20",
+      "parameter": "S03_L05",
+      "functions": 1,
+      "average_rank": 6.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB20",
+      "parameter": "S04_L05",
+      "functions": 1,
+      "average_rank": 5.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB20",
+      "parameter": "S05_L05",
+      "functions": 1,
+      "average_rank": 3.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定融合5轮",
+      "cohort": "BBOB20",
+      "parameter": "S06_L05",
+      "functions": 1,
+      "average_rank": 1.0,
+      "comparison_parameters": 6
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "primary34",
+      "parameter": "S02_L03",
+      "functions": 34,
+      "average_rank": 2.735294117647059,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "primary34",
+      "parameter": "S02_L05",
+      "functions": 34,
+      "average_rank": 2.2941176470588234,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "primary34",
+      "parameter": "S02_L08",
+      "functions": 34,
+      "average_rank": 2.4558823529411766,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "primary34",
+      "parameter": "S02_L10",
+      "functions": 34,
+      "average_rank": 2.514705882352941,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "all35",
+      "parameter": "S02_L03",
+      "functions": 35,
+      "average_rank": 2.742857142857143,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "all35",
+      "parameter": "S02_L05",
+      "functions": 35,
+      "average_rank": 2.257142857142857,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "all35",
+      "parameter": "S02_L08",
+      "functions": 35,
+      "average_rank": 2.442857142857143,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "all35",
+      "parameter": "S02_L10",
+      "functions": 35,
+      "average_rank": 2.557142857142857,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB24",
+      "parameter": "S02_L03",
+      "functions": 24,
+      "average_rank": 2.6041666666666665,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB24",
+      "parameter": "S02_L05",
+      "functions": 24,
+      "average_rank": 2.2291666666666665,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB24",
+      "parameter": "S02_L08",
+      "functions": 24,
+      "average_rank": 2.4166666666666665,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB24",
+      "parameter": "S02_L10",
+      "functions": 24,
+      "average_rank": 2.75,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB23",
+      "parameter": "S02_L03",
+      "functions": 23,
+      "average_rank": 2.5869565217391304,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB23",
+      "parameter": "S02_L05",
+      "functions": 23,
+      "average_rank": 2.282608695652174,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB23",
+      "parameter": "S02_L08",
+      "functions": 23,
+      "average_rank": 2.4347826086956523,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB23",
+      "parameter": "S02_L10",
+      "functions": 23,
+      "average_rank": 2.6956521739130435,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "CEC6",
+      "parameter": "S02_L03",
+      "functions": 6,
+      "average_rank": 2.25,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "CEC6",
+      "parameter": "S02_L05",
+      "functions": 6,
+      "average_rank": 2.5833333333333335,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "CEC6",
+      "parameter": "S02_L08",
+      "functions": 6,
+      "average_rank": 2.5833333333333335,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "CEC6",
+      "parameter": "S02_L10",
+      "functions": 6,
+      "average_rank": 2.5833333333333335,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "UAV5",
+      "parameter": "S02_L03",
+      "functions": 5,
+      "average_rank": 4.0,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "UAV5",
+      "parameter": "S02_L05",
+      "functions": 5,
+      "average_rank": 2.0,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "UAV5",
+      "parameter": "S02_L08",
+      "functions": 5,
+      "average_rank": 2.4,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "UAV5",
+      "parameter": "S02_L10",
+      "functions": 5,
+      "average_rank": 1.6,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB20",
+      "parameter": "S02_L03",
+      "functions": 1,
+      "average_rank": 3.0,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB20",
+      "parameter": "S02_L05",
+      "functions": 1,
+      "average_rank": 1.0,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB20",
+      "parameter": "S02_L08",
+      "functions": 1,
+      "average_rank": 2.0,
+      "comparison_parameters": 4
+    },
+    {
+      "view": "固定调用220_240",
+      "cohort": "BBOB20",
+      "parameter": "S02_L10",
+      "functions": 1,
+      "average_rank": 4.0,
+      "comparison_parameters": 4
+    }
+  ],
+  "source_sha256": {
+    "experiments/r14_online_entry_timing/PROTOCOL.json": "62bbcfe1cf7e970b4ec81d6d08d87d996bc25a0851382ffb36d98f7302595aae",
+    "experiments/r14_online_entry_timing/FINAL_RESULT.json": "917740bafe24d792f80f79c687f9182c778b032340a4ced0a42458bce0ac3c72",
+    "experiments/r14_online_entry_timing/INDEPENDENT_RESULT_ANALYSIS.json": "0e69ce23c8df4768358fccf13d747090245640975593d10c618168a7e3366b6f",
+    "experiments/r14_online_entry_timing/FUNCTION_STATISTICS_AND_COMPARISONS.csv": "c12c089cdd599d7d9799e45dd2dae5db03efbdb47ef1bc164d37ae667e71ff30",
+    "experiments/r14_online_entry_timing/PARAMETER_RANKINGS.csv": "30d71d6a16b6e1683fc83d3c8e00e388c56b55675f02b4bd6e888a4b80403930",
+    "experiments/r15_llm_schedule_matched/PROTOCOL.json": "88dff48f4dfadc3239afb30eb068507f155174c398a44b119078fae759291fb1",
+    "experiments/r15_llm_schedule_matched/FINAL_RESULT.json": "ada3a64bb48ca811c3abc125e10ccff89ab896687134c45d380fb42c7a4cf99a",
+    "experiments/r15_llm_schedule_matched/INDEPENDENT_FINAL_AUDIT.json": "bccf6fcc07913817c725b169e10ecc835d03b057880ccd3f2213cc45db4e4df4",
+    "experiments/r15_llm_schedule_matched/INDEPENDENT_FUNCTION_STATISTICS.csv": "839adf9bb30c1406f463042f04c565f54f8937c2bfa44d39226e5c906898a795",
+    "experiments/r15_llm_schedule_matched/INDEPENDENT_PARAMETER_RANKINGS.csv": "10878c4304acfde8140709c95faa104d5b6faf1655284aa4cad9a379f8b630a1",
+    "experiments/r15_llm_schedule_matched/INDEPENDENT_COMPARISONS.csv": "8916f530eded843cc6c951b6e485588e77e59ba72b0e97918190f200283f8bef",
+    "experiments/r15_llm_schedule_matched/FACTORIAL_AND_ONE_FACTOR_VIEWS.csv": "3b1a880a8b7ed4577049e78881df377b9184856379ab37ce3dbc2d015f8b5418"
+  },
+  "exporter_sha256": "05ad96e61065789e56497ae014a22eab0d3b87e5f90836c625c28acf4ec3d467",
+  "workbook_validation": {
+    "sheets": 15,
+    "R14_function_rows": 35,
+    "R15_function_rows": 35,
+    "R14_mean_variance_rows": 315,
+    "R15_mean_variance_rows": 910,
+    "rankings_match_original_reports": true,
+    "common_frozen_references_identical": true
+  }
+}
