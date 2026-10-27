@@ -1,0 +1,5 @@
+{
+  "status": "partial_or_failed",
+  "completed_tasks": 350,
+  "traceback": "Traceback (most recent call last):\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/experiment_r15_schedule.py\", line 257, in main\n    result=report(EXP,verify=args.phase in ('all','verify'));print(json.dumps(result),flush=True)\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/report_r15_schedule.py\", line 42, in report\n    csvwrite(exp/'API_BY_CONFIGURATION_AND_FUNCTION.csv',[dict(config_id=a,group=g,fid=f,**dict(v)) for (a,g,f),v in function_api.items()])\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/report_r15_schedule.py\", line 16, in csvwrite\n    w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)\n  File \"/home/skq/.conda/envs/ooneurgo/lib/python3.10/csv.py\", line 157, in writerows\n    return self.writer.writerows(map(self._dict_to_list, rowdicts))\n  File \"/home/skq/.conda/envs/ooneurgo/lib/python3.10/csv.py\", line 149, in _dict_to_list\n    raise ValueError(\"dict contains fields not in fieldnames: \"\nValueError: dict contains fields not in fieldnames: 'partial'\n"
+}

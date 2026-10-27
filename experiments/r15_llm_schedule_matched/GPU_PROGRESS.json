@@ -1,10 +1,10 @@
 {
-  "requests": 1587369,
-  "gpu_batches": 1587369,
-  "trajectories": 15873690,
+  "requests": 1596000,
+  "gpu_batches": 1596000,
+  "trajectories": 15960000,
   "pinv_systems": 0,
   "failures": 0,
-  "gpu_compute_seconds": 4956.704647980165,
+  "gpu_compute_seconds": 4982.795392672531,
   "max_merged_requests": 1,
   "torch": "2.11.0+cu128",
   "cuda": "12.8",
@@ -14,5 +14,5 @@
   "dtype": "float32",
   "backend": "batched_cuda_ridge_v2",
   "cuda_stream_workers": 2,
-  "status": "running"
+  "status": "stopped"
 }

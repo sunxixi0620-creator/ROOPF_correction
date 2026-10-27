@@ -1,0 +1,7 @@
+{
+  "python_executable": "/home/skq/.conda/envs/ooneurgo/bin/python",
+  "openpyxl": "3.1.5",
+  "et_xmlfile": "2.0.0",
+  "scientific_runtime_unchanged": true,
+  "scope": "Excel export only"
+}

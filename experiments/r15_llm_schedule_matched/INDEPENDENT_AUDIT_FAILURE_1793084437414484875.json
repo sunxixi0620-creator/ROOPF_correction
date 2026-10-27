@@ -1,0 +1,4 @@
+{
+  "status": "audit_failed",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/audit_r15_parallel.py\", line 228, in <module>\n    try:main()\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/audit_r15_parallel.py\", line 224, in main\n    result=summarize(rows,started);common.validate_frozen()\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/audit_r15_parallel.py\", line 159, in summarize\n    export_excel(result,stats+measurements)\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/audit_r15_parallel.py\", line 164, in export_excel\n    from openpyxl import Workbook\nModuleNotFoundError: No module named 'openpyxl'\n"
+}

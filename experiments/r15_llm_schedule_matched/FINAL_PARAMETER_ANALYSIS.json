@@ -1,0 +1,59 @@
+{
+  "status": "complete_independently_verified",
+  "criterion": "average within-function ranks across24 configurations,34 primary functions excludingBBOB20",
+  "winner": {
+    "config_id": "S01_L08",
+    "call_fe": [
+      210,
+      230
+    ],
+    "fusion_rounds": 8,
+    "generation_rounds": 7,
+    "average_rank": 10.176470588235293
+  },
+  "matched_default": {
+    "config_id": "S02_L05",
+    "call_fe": [
+      220,
+      240
+    ],
+    "fusion_rounds": 5,
+    "generation_rounds": 4,
+    "average_rank": 10.294117647058824
+  },
+  "winner_vs_frozen_full_function_WTL": [
+    7,
+    17,
+    10
+  ],
+  "winner_vs_frozen_full_paired_WTL": [
+    443,
+    2510,
+    447
+  ],
+  "winner_vs_matched_default_function_WTL": [
+    8,
+    17,
+    9
+  ],
+  "winner_vs_matched_default_paired_WTL": [
+    451,
+    2514,
+    435
+  ],
+  "winner_vs_frozen_baseline_function_WTL": [
+    14,
+    15,
+    5
+  ],
+  "claim": "Lowest prespecified average rank; does not establish consistent dominance over frozen Full or matched default. Descriptive tuning, not confirmatory significance.",
+  "final_release_automatically_changed": false,
+  "primary_functions": 34,
+  "bbob24_supplementary_included": true,
+  "sources": [
+    "INDEPENDENT_FINAL_AUDIT.json",
+    "INDEPENDENT_FUNCTION_STATISTICS.csv",
+    "INDEPENDENT_COMPARISONS.csv",
+    "INDEPENDENT_PARAMETER_RANKINGS.csv"
+  ]
+}

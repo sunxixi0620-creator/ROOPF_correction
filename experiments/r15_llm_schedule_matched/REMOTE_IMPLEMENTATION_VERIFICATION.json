@@ -1,6 +1,6 @@
 {
   "status": "remote_ref_verified",
-  "commit": "fe23d0099ca328a2a41c66dc8b5383f16eb211a2",
+  "commit": "737fbf06ae9f0d2058ebf62ce601d129b03649a4",
   "branch": "experiment/r15-llm-matched-schedule-20261026",
   "paths": [
     "roopf/scheduled_evidence_agent.py",
@@ -20,8 +20,12 @@
     "experiments/r15_llm_schedule_matched/PLAN_COMMIT.json",
     "experiments/r15_llm_schedule_matched/PROTOCOL.json",
     "experiments/r15_llm_schedule_matched/REMOTE_IMPLEMENTATION_VERIFICATION.json",
+    "experiments/r15_llm_schedule_matched/PARALLEL_AUDIT_BINDING.json",
     "experiments/r15_llm_schedule_matched/LLM_Agent_匹配时序参数实验方案.txt",
-    "experiments/r15_llm_schedule_matched/PLAN_VALIDATION.json"
+    "experiments/r15_llm_schedule_matched/HARDWARE_1793025171303754848.json",
+    "experiments/r15_llm_schedule_matched/PLAN_VALIDATION.json",
+    "experiments/r15_llm_schedule_matched/GPU_PROGRESS.json",
+    "experiments/r15_llm_schedule_matched/MATCHED_CASE_AUDIT.json"
   ],
   "final": false,
   "final_release_unchanged": true
