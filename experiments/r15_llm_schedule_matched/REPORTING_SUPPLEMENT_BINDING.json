@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "source": "scripts/finish_r15_schedule.py",
+  "sha256": "589174c4b865212d551d7fefffa6f01ae09f2cefcff8844f2513f67457c963ad",
+  "execution_binding": {
+    "plan_sha256": "3f1fce30533cae3c6d39d707a2daf6d2c37938fe641721902ecbf1d335ba23fc",
+    "frozen_snapshot_sha256": "41b5c4afc0443ab5299187025cb104466e1eb0170c1207d33695f56fbaa1864c",
+    "code_sha256": {
+      "roopf/scheduled_evidence_agent.py": "91a27b90c3f2650926ce96c12cf93370ccad61802f79bc9981eaa7e02910fbc5",
+      "scripts/r15_common.py": "218e3d5c42bcf063c546fc09054b1562099eaf39f0f9d2c15c94e8d0631945e8",
+      "scripts/collect_r15.py": "cce1732b91b36b633675b295fb0e115e8e330df568f053f82a0b3f6f4322bfd3",
+      "scripts/experiment_r15_schedule.py": "945cd8bd71e84f500fedc723d81524e19b4865b51b11330b0bfd0e3c7e1146f2",
+      "scripts/check_r15_schedule.py": "3aada95320475a485c40b42663a982581ebffc63f100a89be4c4f2aa917a5566",
+      "scripts/report_r15_schedule.py": "abcd084ece1214c37599fac5ef28fa39d0335de6364ef0a7a0eee776d6cbaee3",
+      "scripts/run_r15_schedule.sh": "d5ddff10eff91e51edcbf1f74d1264458092f169892ae5dd56dd12a6f66d3a82",
+      "scripts/publish_r15_records.py": "1a8e50c73374bc1868b505011d67e725cee109312c876e1ddc5213e2bc643784"
+    },
+    "hardware_sha256": "a6c82fc5b0d311e715d67231338443fd3fc2110ce7fed924f2ae666399701b09"
+  },
+  "changes": "Rectangular CSV schema uses every observed status column; add per-function provider credit accounting. No changes to observations, solver, support rules, API requests, or numerical analysis.",
+  "execution_failures_preserved": true
+}
