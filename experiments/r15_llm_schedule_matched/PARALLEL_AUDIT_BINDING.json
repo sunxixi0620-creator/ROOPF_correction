@@ -1,0 +1,8 @@
+{
+  "source": "scripts/audit_r15_parallel.py",
+  "sha256": "9b87de0d1d20ee689d1160a38281cda6aae718e240950a0d1643280f76b75970",
+  "purpose": "Independent parallel verification and descriptive summaries of all executed evidence",
+  "model_or_parameter_changes": false,
+  "additional_API_requests": 0,
+  "workers": 24
+}
