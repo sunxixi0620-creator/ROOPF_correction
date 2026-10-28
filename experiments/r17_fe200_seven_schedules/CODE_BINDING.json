@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "199619634a9227531b3e84ff4ebb481bb2bb564264d2fe1c815a08863b2d3b40",
+  "frozen_snapshot_sha256": "41b5c4afc0443ab5299187025cb104466e1eb0170c1207d33695f56fbaa1864c",
+  "code_sha256": {
+    "roopf/scheduled_evidence_agent.py": "91a27b90c3f2650926ce96c12cf93370ccad61802f79bc9981eaa7e02910fbc5",
+    "scripts/r17_common.py": "74b4dda5b5e1c73f1043624d9e6738e30d9b0aaf101cf98e6378b2b240b3e18c",
+    "scripts/collect_r17.py": "4318dac12a1b86d1806e61e543a3246ad658ddecdd05689e41a7e2b599778ae6",
+    "scripts/experiment_r17_schedule.py": "1060cd2d00ebf0f10aa3fb539a0983f7e7ce8631486fd4fd0f32956e5f4e6225",
+    "scripts/check_r17_schedule.py": "8075f2e5f957a73c4d38f08b68d298449f8ab361669658ab8b96fb01d50c2e24",
+    "scripts/report_r17_schedule.py": "c4ce0f946bf00c2d52be3197ebb6fdc8dbaa6ebaf9f74d2204861e94e43cd9f4",
+    "experiments/r17_fe200_seven_schedules/variant_model.py": "4ebcb6ddf5af9eb4076481f68ec48153e596c895625cbefdc176e755ddaf62f3",
+    "scripts/publish_r17_records.py": "15b79cfe3c6634e9e03a987a2882f0bfd5c636e27ca633ba281a5a894f9fc367",
+    "scripts/audit_r17_parallel.py": "7d31698c240fc05349c98bd9d913be431f076870b41e8998a264a869f4457a9f",
+    "scripts/summarize_r17_crossround.py": "4ae2552b64e6d0508ead3b41c5c38b074e9a582a5613340e455c85c4b85421b0",
+    "scripts/run_r17_pipeline.py": "3f16ceb5fb543da770bbb525dc585d9daeac15279ed7cbd498308cdc14848e21"
+  },
+  "hardware_sha256": "a6c82fc5b0d311e715d67231338443fd3fc2110ce7fed924f2ae666399701b09"
+}

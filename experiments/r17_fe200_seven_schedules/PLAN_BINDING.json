@@ -1,0 +1,9 @@
+{
+  "status": "prespecified_plan",
+  "sha256": {
+    "PROTOCOL.json": "f89d25b62e2087143ff14b5e80aff3156dba8b0d74ff56e59d07e1240462eb53",
+    "CONFIGURATIONS.csv": "ee33a6662baa10c2ee40c0d801f81caddac093a5bce4b92356dc864e2e64481c",
+    "BASELINE_SNAPSHOT.json": "41b5c4afc0443ab5299187025cb104466e1eb0170c1207d33695f56fbaa1864c",
+    ".gitignore": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+  }
+}

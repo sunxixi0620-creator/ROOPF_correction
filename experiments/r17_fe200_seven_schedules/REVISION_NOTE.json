@@ -1,0 +1,9 @@
+{
+  "reason": "User requested additional FE200/220 timing group",
+  "previous_experiment": "r16_fe200_llm_schedule",
+  "previous_live_api_requests": 0,
+  "previous_offline_records_preserved": true,
+  "all28_controller_activation_fe": 200,
+  "prior_R15_R16_controller_activation_fe": 210,
+  "comparison_caveat": "Cross-round differences include the earlier shared controller activation/candidate expansion and regenerated matched memories; within R17 only timing and duration vary."
+}
