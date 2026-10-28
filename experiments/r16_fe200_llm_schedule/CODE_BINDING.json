@@ -1,0 +1,15 @@
+{
+  "plan_sha256": "7a84016ded32571965608a41320a5d7ab6e94ebe92aecc5e82c7cc11e6b757c1",
+  "frozen_snapshot_sha256": "41b5c4afc0443ab5299187025cb104466e1eb0170c1207d33695f56fbaa1864c",
+  "code_sha256": {
+    "roopf/scheduled_evidence_agent.py": "91a27b90c3f2650926ce96c12cf93370ccad61802f79bc9981eaa7e02910fbc5",
+    "scripts/r16_common.py": "d49ab2f038493ca1935af5464c2bae55419ee589c27523a5d958235fd25fe319",
+    "scripts/collect_r16.py": "00e4a6be89bc2e711a61073b66708e7aa08bdc4f5bb316234cf0cb5d008e6eb1",
+    "scripts/experiment_r16_schedule.py": "c85b2010bd8228d1b86e899090e1d3b201e9e92ba40f88038cd605f17e657558",
+    "scripts/check_r16_schedule.py": "c14f6121b004172137d565fa8eaa8a017b69c92106081c96e902ef40405c633b",
+    "scripts/report_r16_schedule.py": "d6ce0c8e4144240c94b459be537ec6a0f0e586137cf78bbc942ae108b7b6fabf",
+    "experiments/r14_online_entry_timing/variant_model.py": "431ccb17ce96ab0265052c353aa13276df99fc5e8637c2ede51059e1645b38c7",
+    "scripts/publish_r16_records.py": "77f260d4d0bdd50355af6985e963fed5a84cfee828b0880756e8e00004150182"
+  },
+  "hardware_sha256": "a6c82fc5b0d311e715d67231338443fd3fc2110ce7fed924f2ae666399701b09"
+}
