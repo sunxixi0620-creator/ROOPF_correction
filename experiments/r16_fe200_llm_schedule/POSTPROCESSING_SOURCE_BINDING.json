@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "scripts/setup_r16_schedule.py": "aa24bb8d7bea30a5d9ddb87ccab57a27654be8da6d342e15bbac09359cdf4f90",
+    "scripts/run_r16_pipeline.py": "c4c7eb611fb7e66ec77858b9aa5390169c2c89d4bce6a59dd49977f351a83d08",
+    "scripts/audit_r16_parallel.py": "79d0be8c9022693d23e973b01c329e295c0bbe8d87c04f0232529c72694ae544",
+    "scripts/summarize_r16_crossround.py": "3de40da0dcaece10a481553dfa84f2e1f5648769b1a20ecfbd456aa7e1118a08"
+  },
+  "purpose": "Durable execution and independently checked cross-round reporting; no solver changes"
+}
