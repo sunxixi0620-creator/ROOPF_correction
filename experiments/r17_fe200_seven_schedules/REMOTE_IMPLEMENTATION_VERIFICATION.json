@@ -1,0 +1,26 @@
+{
+  "status": "remote_ref_verified",
+  "commit": "d2b4019c201a3ae3020f00fff63c7b4783b59e81",
+  "branch": "experiment/r17-fe200-seven-schedules-20261028",
+  "paths": [
+    "roopf/scheduled_evidence_agent.py",
+    "scripts/r17_common.py",
+    "scripts/collect_r17.py",
+    "scripts/experiment_r17_schedule.py",
+    "scripts/check_r17_schedule.py",
+    "scripts/report_r17_schedule.py",
+    "experiments/r17_fe200_seven_schedules/variant_model.py",
+    "scripts/publish_r17_records.py",
+    "scripts/audit_r17_parallel.py",
+    "scripts/summarize_r17_crossround.py",
+    "scripts/run_r17_pipeline.py",
+    "experiments/r17_fe200_seven_schedules/PLAN_BINDING.json",
+    "experiments/r17_fe200_seven_schedules/CODE_BINDING.json",
+    "experiments/r17_fe200_seven_schedules/BASELINE_SNAPSHOT.json",
+    "experiments/r17_fe200_seven_schedules/CONFIGURATIONS.csv",
+    "experiments/r17_fe200_seven_schedules/PROTOCOL.json",
+    "experiments/r17_fe200_seven_schedules/REVISION_NOTE.json"
+  ],
+  "final": false,
+  "final_release_unchanged": true
+}
