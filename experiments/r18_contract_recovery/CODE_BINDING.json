@@ -1,0 +1,19 @@
+{
+  "plan_sha256": "2cd37850491690ceeee829c186a59c8e3b84ed27015adc5aa90200def01b534a",
+  "frozen_snapshot_sha256": "41b5c4afc0443ab5299187025cb104466e1eb0170c1207d33695f56fbaa1864c",
+  "code_sha256": {
+    "roopf/scheduled_evidence_agent_r18.py": "77bbafad3066c871ac6a1c0204b6e9353de656f927805922c176f5eb904e1db2",
+    "roopf/policy_api_r18.py": "6ac6bc5b45b3c61c7710a0461d20733e4589893a0ad883bcd7b815b9bce847b4",
+    "scripts/r18_common.py": "75d50349d8f07d67ffb58518a614d46bcfae1bc09fd6bde8087a00646d542c17",
+    "scripts/collect_r18.py": "cfb8adf7715df09afa778152339e92d8061e22a313cf4292cd7a0f848f2d6df8",
+    "scripts/experiment_r18_schedule.py": "9c876f7980a26932a3bbb6e536cfa1a499cbc68435ddb881d5efb1c67834ee57",
+    "scripts/check_r18_schedule.py": "6737e29d518ccbe5a969f2e3809c5297994b23203af8e5b4945cdd3d08ee03e6",
+    "scripts/report_r18_schedule.py": "9d015f7872ead739999c75b3ed08cec6ab91d470f0e4a63de1b5641bf797822e",
+    "experiments/r18_contract_recovery/variant_model.py": "4ebcb6ddf5af9eb4076481f68ec48153e596c895625cbefdc176e755ddaf62f3",
+    "scripts/publish_r18_records.py": "54c49c5f6dc4645b19ff2e4b2536031940bf1f2069090c6c6ef5222355b75fe1",
+    "scripts/audit_r18_parallel.py": "81fb910264d5c119a743942b362fe29ca29cfbe813773c1becb3a975d056057a",
+    "scripts/summarize_r18_crossround.py": "c612453ac7a115c16e2501be236b664036080133d9918d80fee6c7b7071febc0",
+    "scripts/run_r18_pipeline.py": "0b45bbaabbfa0f722feba442941652af756a9e3234573f4746855bf32cb13e33"
+  },
+  "hardware_sha256": "a6c82fc5b0d311e715d67231338443fd3fc2110ce7fed924f2ae666399701b09"
+}
