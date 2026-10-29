@@ -1,0 +1,27 @@
+{
+  "status": "remote_ref_verified",
+  "commit": "52e2e851a9c4dcd316044d5ceff5466f0f893f40",
+  "branch": "experiment/r18-contract-recovery-20261029",
+  "paths": [
+    "roopf/scheduled_evidence_agent_r18.py",
+    "roopf/policy_api_r18.py",
+    "scripts/r18_common.py",
+    "scripts/collect_r18.py",
+    "scripts/experiment_r18_schedule.py",
+    "scripts/check_r18_schedule.py",
+    "scripts/report_r18_schedule.py",
+    "experiments/r18_contract_recovery/variant_model.py",
+    "scripts/publish_r18_records.py",
+    "scripts/audit_r18_parallel.py",
+    "scripts/summarize_r18_crossround.py",
+    "scripts/run_r18_pipeline.py",
+    "experiments/r18_contract_recovery/PLAN_BINDING.json",
+    "experiments/r18_contract_recovery/CODE_BINDING.json",
+    "experiments/r18_contract_recovery/BASELINE_SNAPSHOT.json",
+    "experiments/r18_contract_recovery/CONFIGURATIONS.csv",
+    "experiments/r18_contract_recovery/PROTOCOL.json",
+    "experiments/r18_contract_recovery/MATCHED_CASE_AUDIT.json"
+  ],
+  "final": false,
+  "final_release_unchanged": true
+}

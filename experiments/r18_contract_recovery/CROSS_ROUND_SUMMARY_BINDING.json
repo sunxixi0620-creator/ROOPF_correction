@@ -1,0 +1,13 @@
+{
+  "status": "completed_paired_comparison",
+  "source_sha256": "c612453ac7a115c16e2501be236b664036080133d9918d80fee6c7b7071febc0",
+  "inputs": {
+    "experiments/r14_online_entry_timing/FUNCTION_STATISTICS_AND_COMPARISONS.csv": "c12c089cdd599d7d9799e45dd2dae5db03efbdb47ef1bc164d37ae667e71ff30",
+    "experiments/r15_llm_schedule_matched/FUNCTION_STATISTICS_AND_COMPARISONS.csv": "c9a4729da86700a4aaa3456e78f6feb6c399885c7492e166d350fb78c234a08f",
+    "experiments/r18_contract_recovery/FUNCTION_STATISTICS_AND_COMPARISONS.csv": "2e922bf828c0044d5bf784aeeed76aad30c82185e362085c2dcdaff123fd0935"
+  },
+  "reference_batches_checked": 350,
+  "comparison_is_cross_run": true,
+  "matched_cases_rebuilt": true,
+  "api_nondeterminism_preserved": true
+}
