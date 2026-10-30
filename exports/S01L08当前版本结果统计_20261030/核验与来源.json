@@ -1,0 +1,314 @@
+{
+  "status": "verified",
+  "source_workbook_sha256": "66997ace39a1b279933ac5d7c334858515039213183b96cb8b540c5f7f3c0300",
+  "r19_independent_audit_sha256": "df7e4d46c8b9596cfd7e151ce7bf6dc93719f5719e3466c1a6e2c68014b12391",
+  "r19_function_statistics_sha256": "30bad22700782bf6b8b958dbf17175487e808ea5a4b2d0a24f5a0addffb14982",
+  "output_sha256": "373a08f8dfc7c9f7bd9aa7579dd1d571e44029a1b8d6cdbfad4407182478607b",
+  "details": {
+    "BBOB": {
+      "functions": 24,
+      "algorithms": 16,
+      "rankings": [
+        {
+          "algorithm": "当前 Full",
+          "average_rank": 3.1666666666666665
+        },
+        {
+          "algorithm": "ROOPF 原版",
+          "average_rank": 3.25
+        },
+        {
+          "algorithm": "HEBO",
+          "average_rank": 3.4583333333333335
+        },
+        {
+          "algorithm": "TuRBO",
+          "average_rank": 4.291666666666667
+        },
+        {
+          "algorithm": "DE",
+          "average_rank": 6.5
+        },
+        {
+          "algorithm": "EGO",
+          "average_rank": 6.604166666666667
+        },
+        {
+          "algorithm": "POM",
+          "average_rank": 6.625
+        },
+        {
+          "algorithm": "B2Opt",
+          "average_rank": 8.208333333333334
+        },
+        {
+          "algorithm": "SACOSO",
+          "average_rank": 9.229166666666666
+        },
+        {
+          "algorithm": "PSO",
+          "average_rank": 9.25
+        },
+        {
+          "algorithm": "Surr-RLDE",
+          "average_rank": 9.333333333333334
+        },
+        {
+          "algorithm": "GA",
+          "average_rank": 11.729166666666666
+        },
+        {
+          "algorithm": "SHADE",
+          "average_rank": 12.5625
+        },
+        {
+          "algorithm": "LGA",
+          "average_rank": 13.770833333333334
+        },
+        {
+          "algorithm": "LES",
+          "average_rank": 13.9375
+        },
+        {
+          "algorithm": "CMA-ES",
+          "average_rank": 14.083333333333334
+        }
+      ],
+      "ablation": [
+        {
+          "group": "BBOB24",
+          "comparison": "llm_no_anchor",
+          "functions": "24",
+          "function_wins": "21",
+          "function_ties": "0",
+          "function_losses": "3",
+          "trajectory_wins": "1988",
+          "trajectory_ties": "0",
+          "trajectory_losses": "412",
+          "changed_points_vs_full": "480000"
+        },
+        {
+          "group": "BBOB24",
+          "comparison": "llm_no_online_generators",
+          "functions": "24",
+          "function_wins": "12",
+          "function_ties": "10",
+          "function_losses": "2",
+          "trajectory_wins": "632",
+          "trajectory_ties": "1765",
+          "trajectory_losses": "3",
+          "changed_points_vs_full": "207997"
+        },
+        {
+          "group": "BBOB24",
+          "comparison": "no_agent",
+          "functions": "24",
+          "function_wins": "8",
+          "function_ties": "10",
+          "function_losses": "6",
+          "trajectory_wins": "290",
+          "trajectory_ties": "1841",
+          "trajectory_losses": "269",
+          "changed_points_vs_full": "160283"
+        }
+      ]
+    },
+    "CEC-style": {
+      "functions": 6,
+      "algorithms": 16,
+      "rankings": [
+        {
+          "algorithm": "当前 Full",
+          "average_rank": 1.4166666666666667
+        },
+        {
+          "algorithm": "ROOPF 原版",
+          "average_rank": 1.5833333333333333
+        },
+        {
+          "algorithm": "HEBO",
+          "average_rank": 3.3333333333333335
+        },
+        {
+          "algorithm": "POM",
+          "average_rank": 4.666666666666667
+        },
+        {
+          "algorithm": "B2Opt",
+          "average_rank": 5.666666666666667
+        },
+        {
+          "algorithm": "EGO",
+          "average_rank": 5.666666666666667
+        },
+        {
+          "algorithm": "TuRBO",
+          "average_rank": 6.333333333333333
+        },
+        {
+          "algorithm": "PSO",
+          "average_rank": 7.833333333333333
+        },
+        {
+          "algorithm": "Surr-RLDE",
+          "average_rank": 9.166666666666666
+        },
+        {
+          "algorithm": "SACOSO",
+          "average_rank": 9.333333333333334
+        },
+        {
+          "algorithm": "LGA",
+          "average_rank": 11.666666666666666
+        },
+        {
+          "algorithm": "GA",
+          "average_rank": 12.0
+        },
+        {
+          "algorithm": "SHADE",
+          "average_rank": 12.833333333333334
+        },
+        {
+          "algorithm": "DE",
+          "average_rank": 14.166666666666666
+        },
+        {
+          "algorithm": "LES",
+          "average_rank": 15.0
+        },
+        {
+          "algorithm": "CMA-ES",
+          "average_rank": 15.333333333333334
+        }
+      ],
+      "ablation": [
+        {
+          "group": "CEC-style",
+          "comparison": "llm_no_anchor",
+          "functions": "6",
+          "function_wins": "6",
+          "function_ties": "0",
+          "function_losses": "0",
+          "trajectory_wins": "600",
+          "trajectory_ties": "0",
+          "trajectory_losses": "0",
+          "changed_points_vs_full": "120000"
+        },
+        {
+          "group": "CEC-style",
+          "comparison": "llm_no_online_generators",
+          "functions": "6",
+          "function_wins": "1",
+          "function_ties": "5",
+          "function_losses": "0",
+          "trajectory_wins": "2",
+          "trajectory_ties": "597",
+          "trajectory_losses": "1",
+          "changed_points_vs_full": "43320"
+        },
+        {
+          "group": "CEC-style",
+          "comparison": "no_agent",
+          "functions": "6",
+          "function_wins": "1",
+          "function_ties": "5",
+          "function_losses": "0",
+          "trajectory_wins": "2",
+          "trajectory_ties": "597",
+          "trajectory_losses": "1",
+          "changed_points_vs_full": "34790"
+        }
+      ]
+    },
+    "UAV": {
+      "functions": 5,
+      "algorithms": 11,
+      "rankings": [
+        {
+          "algorithm": "PSO",
+          "average_rank": 1.8
+        },
+        {
+          "algorithm": "GA",
+          "average_rank": 2.4
+        },
+        {
+          "algorithm": "CMA-ES",
+          "average_rank": 3.0
+        },
+        {
+          "algorithm": "POM",
+          "average_rank": 3.8
+        },
+        {
+          "algorithm": "Surr-RLDE",
+          "average_rank": 4.8
+        },
+        {
+          "algorithm": "当前 Full",
+          "average_rank": 5.6
+        },
+        {
+          "algorithm": "ROOPF 原版",
+          "average_rank": 6.6
+        },
+        {
+          "algorithm": "B2Opt",
+          "average_rank": 8.4
+        },
+        {
+          "algorithm": "SHADE",
+          "average_rank": 9.0
+        },
+        {
+          "algorithm": "Random Search",
+          "average_rank": 9.8
+        },
+        {
+          "algorithm": "DE",
+          "average_rank": 10.8
+        }
+      ],
+      "ablation": [
+        {
+          "group": "UAV",
+          "comparison": "llm_no_anchor",
+          "functions": "5",
+          "function_wins": "5",
+          "function_ties": "0",
+          "function_losses": "0",
+          "trajectory_wins": "324",
+          "trajectory_ties": "0",
+          "trajectory_losses": "176",
+          "changed_points_vs_full": "100000"
+        },
+        {
+          "group": "UAV",
+          "comparison": "llm_no_online_generators",
+          "functions": "5",
+          "function_wins": "5",
+          "function_ties": "0",
+          "function_losses": "0",
+          "trajectory_wins": "404",
+          "trajectory_ties": "67",
+          "trajectory_losses": "29",
+          "changed_points_vs_full": "44480"
+        },
+        {
+          "group": "UAV",
+          "comparison": "no_agent",
+          "functions": "5",
+          "function_wins": "4",
+          "function_ties": "0",
+          "function_losses": "1",
+          "trajectory_wins": "255",
+          "trajectory_ties": "85",
+          "trajectory_losses": "160",
+          "changed_points_vs_full": "39072"
+        }
+      ]
+    }
+  },
+  "note": "BBOB20 included in BBOB24 rankings and ablations; separate stochastic caveat retained. Paper baseline archived and CEC offsets unverified."
+}

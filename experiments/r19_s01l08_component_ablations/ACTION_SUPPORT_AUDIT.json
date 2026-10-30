@@ -1,0 +1,21 @@
+{
+  "source": "actual decision records; 7000 contexts per live arm; nondefault counts include all executed non-matched38 actions",
+  "llm_full": {
+    "rows": 7000,
+    "default_only": 5735,
+    "covered": 3227,
+    "nondefault": 772
+  },
+  "llm_no_anchor": {
+    "rows": 7000,
+    "default_only": 5390,
+    "covered": 4576,
+    "nondefault": 1017
+  },
+  "llm_no_online_generators": {
+    "rows": 7000,
+    "default_only": 6876,
+    "covered": 124,
+    "nondefault": 87
+  }
+}
