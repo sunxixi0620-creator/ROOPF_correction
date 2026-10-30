@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'scrip
 import r15_common as common
 from hardware_backend import serve,write_json
 E=ROOT/'experiments/r19_s01l08_component_ablations';ARMS=('llm_full','llm_no_anchor','llm_no_online_generators','no_agent')
-SOURCES=['scripts/experiment_r19_ablation.py','scripts/report_r19_ablation.py','scripts/check_r19_ablation.py','roopf/scheduled_ablation_r19.py','roopf/scheduled_evidence_agent_r18.py','roopf/policy_api_r18.py','roopf/no_anchor_ablation.py','roopf/strict_component_ablations.py']
+SOURCES=['scripts/experiment_r19_ablation.py','scripts/report_r19_ablation.py','scripts/check_r19_ablation.py','roopf/scheduled_ablation_r19.py','roopf/scheduled_evidence_agent_r18.py','roopf/policy_api_r18.py','roopf/no_anchor_ablation.py','roopf/strict_component_ablations.py','scripts/audit_r19_independent.py','scripts/publish_r19.py','scripts/run_r19_pipeline.py','scripts/watch_r19_contract.py']
 MEM=ROOT/'experiments/r15_llm_schedule_matched/cases/S01_L08/offline_memory.json'
 RUN=None
 
