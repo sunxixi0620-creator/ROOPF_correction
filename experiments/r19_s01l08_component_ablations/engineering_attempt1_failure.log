@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/check_r19_ablation.py", line 48, in <module>
+    if __name__=='__main__':main()
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/check_r19_ablation.py", line 18, in main
+    model=factory.build(arm,mode='collect')
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/experiment_r13_cec_uniform.py", line 70, in build
+    if arm in LIVE_ARMS:model.fusion_agent=agent_for(arm,mode)
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/experiment_r13_cec_uniform.py", line 58, in agent_for
+    return cls(RUN.MEMORY,EXP/('api_journal' if mode=='llm' else 'engineering_checks/no_api'),
+  File "/home/skq/repos/roopf_agent/ROOPF/roopf/current_evidence_agent.py", line 56, in __init__
+    self.memory = json.loads(Path(memory_path).read_text()) if memory_path else dict(policy_id=POLICY_ID, cases=[], coverage_radii={})
+  File "/home/skq/.conda/envs/ooneurgo/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/home/skq/.conda/envs/ooneurgo/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/skq/repos/roopf_agent/ROOPF/experiments/r19_s01l08_component_ablations/offline_memory.json'

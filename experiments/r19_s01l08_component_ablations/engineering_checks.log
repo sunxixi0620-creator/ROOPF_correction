@@ -1,0 +1,13 @@
+{"group": "BBOB", "arm": "llm_full", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "BBOB", "arm": "llm_no_anchor", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "BBOB", "arm": "llm_no_online_generators", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "BBOB", "arm": "no_agent", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "CEC-style", "arm": "llm_full", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "CEC-style", "arm": "llm_no_anchor", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "CEC-style", "arm": "llm_no_online_generators", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "CEC-style", "arm": "no_agent", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "UAV", "arm": "llm_full", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "UAV", "arm": "llm_no_anchor", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "UAV", "arm": "llm_no_online_generators", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "UAV", "arm": "no_agent", "status": "passed", "fe": 300, "api_calls": 0}
+{"status": "engineering_passed", "groups": 3, "arms": 4, "real_api_calls": 0}

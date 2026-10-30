@@ -1,0 +1,20 @@
+{"group": "BBOB", "arm": "llm_full", "status": "passed", "fe": 300, "api_calls": 0}
+{"group": "BBOB", "arm": "llm_no_anchor", "status": "passed", "fe": 300, "api_calls": 0}
+Traceback (most recent call last):
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/check_r19_ablation.py", line 45, in <module>
+    if __name__=='__main__':main()
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/check_r19_ablation.py", line 30, in main
+    with torch.no_grad():_,trail,nfe,executed=model(pop.clone(),measured)
+  File "/home/skq/.conda/envs/ooneurgo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/skq/.conda/envs/ooneurgo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/skq/repos/roopf_agent/ROOPF/roopf/strict_component_ablations.py", line 131, in forward
+    cand,selected_ops,cand_score,cand_mu,cand_sigma,cand_router_prob = self._anchor_round(
+  File "/home/skq/repos/roopf_agent/ROOPF/roopf/strict_component_ablations.py", line 64, in _anchor_round
+    selected=control.choose(original_idx=original,score=score,mu=self.last_surrogate_mu[:,1:],
+  File "/home/skq/repos/roopf_agent/ROOPF/roopf/scheduled_evidence_agent_r18.py", line 333, in choose
+    selected = super().choose(**kwargs)
+  File "/home/skq/repos/roopf_agent/ROOPF/roopf/evidence_fusion_agent.py", line 250, in choose
+    raise RuntimeError('Joint controller requires38 competing candidates')
+RuntimeError: Joint controller requires38 competing candidates
