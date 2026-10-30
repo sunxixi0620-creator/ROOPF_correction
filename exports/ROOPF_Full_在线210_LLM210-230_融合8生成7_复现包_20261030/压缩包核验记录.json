@@ -1,0 +1,34 @@
+{
+  "status": "archive_extracted_and_hash_verified",
+  "release": "final-s01l08-online210-20261030",
+  "zip_path": "/home/skq/repos/roopf_agent/ROOPF/exports/ROOPF_Full_CEC解锁_在线210FE_LLM210-230FE_融合8轮_生成7轮_复现包.zip",
+  "zip_sha256": "2e79220eca0f1d80232fe4e94ce872a21303a51be0229eec033d2ebc8cb85ba6",
+  "size_bytes": 15732148,
+  "paired_input_batches": 350,
+  "models": [
+    "Anchor",
+    "Residual"
+  ],
+  "retrieval_cases": 464,
+  "cec_unlocked": true,
+  "functions_checked": 35,
+  "controlled_action_replay_exact_batches": [
+    "BBOB1_b00",
+    "BBOB20_b00",
+    "CEC-style1_b00",
+    "UAV1_b00"
+  ],
+  "controlled_action_replay_new_api_calls": 0,
+  "live_smoke": {
+    "total_requests": 6,
+    "ok_requests": 1,
+    "failed_requests": 5,
+    "latest_context_aligned_requests": 2,
+    "latest_context_aligned_ok": 1,
+    "latest_context_aligned_failed": 1,
+    "latest_request_identities_match_historical_full": true,
+    "note": "Small live probes do not replace the full 35-function R19 validation; provider output truncation was observed. First smoke used temporary records."
+  },
+  "results_or_credentials_in_archive": false,
+  "limits": "No old objective results or API responses; live outputs may differ."
+}
