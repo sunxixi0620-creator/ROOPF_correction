@@ -1,0 +1,1 @@
+{"status": "complete_live_ablation_verified", "trajectories": 14000, "api": {"ok": 1848, "attempts": 2100, "valid_rows": 18561, "fallback_rows": 2439, "prompt_tokens": 26788140, "completion_tokens": 449244, "failed": 243, "partial": 9}}

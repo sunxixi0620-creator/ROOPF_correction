@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/publish_r19.py", line 48, in <module>
+    if __name__=='__main__':publish('--final' in sys.argv)
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/publish_r19.py", line 35, in publish
+    assert p.is_file() and p.stat().st_size<95*1024**2,p
+AssertionError: /home/skq/repos/roopf_agent/ROOPF/experiments/r19_s01l08_component_ablations/scientific_records/BBOB_llm_full.tar.gz

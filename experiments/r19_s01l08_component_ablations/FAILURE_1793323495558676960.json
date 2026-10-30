@@ -1,0 +1,4 @@
+{
+  "status": "partial_or_failed",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/experiment_r19_ablation.py\", line 120, in main\n    report()\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/report_r19_ablation.py\", line 40, in report\n    receipt=json.loads((folder/(arm+'.json')).read_text());assert receipt['binding']==identity and receipt['objective_rng_boundaries_matched']==201\nAssertionError\n"
+}

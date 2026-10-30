@@ -1,0 +1,4 @@
+{
+  "status": "partial_or_failed",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/skq/repos/roopf_agent/ROOPF/scripts/run_r19_pipeline.py\", line 7, in <module>\n    print('START',script,flush=True);subprocess.run([sys.executable,'-u','scripts/'+script,*args],check=True)\n  File \"/home/skq/.conda/envs/ooneurgo/lib/python3.10/subprocess.py\", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/home/skq/.conda/envs/ooneurgo/bin/python', '-u', 'scripts/experiment_r19_ablation.py']' returned non-zero exit status 1.\n"
+}

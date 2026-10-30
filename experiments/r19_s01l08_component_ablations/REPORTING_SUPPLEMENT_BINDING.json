@@ -1,0 +1,27 @@
+{
+  "status": "report_verified",
+  "supplement_sha256": "d61534abb61a487b8716154753e91ecc479fc52024de53cad1c22ad65b5f0a1e",
+  "original_report_sha256": "c62fd7761746b6a4d1e8a8f8239f73408729786ce3c5b513bf135f7dd838500b",
+  "binding": {
+    "protocol_sha256": "588985d214541b0dc529cd289bc902ecd55b22db86d64e919f03ec7191c7b571",
+    "source_sha256": {
+      "scripts/experiment_r19_ablation.py": "3bea6604c5f5c8f92763d0869364d575d7b49c0cfd214c94f16c2fb4765c4ad9",
+      "scripts/report_r19_ablation.py": "c62fd7761746b6a4d1e8a8f8239f73408729786ce3c5b513bf135f7dd838500b",
+      "scripts/check_r19_ablation.py": "028eab62c403c55248dd17813a972cd933c4dce2c5e70dad520d5481eb004bf6",
+      "roopf/scheduled_ablation_r19.py": "1f262f7a86d5b79b2443f76dce7fda097a76e5fd0d3be98843b426a3789d4612",
+      "roopf/scheduled_evidence_agent_r18.py": "77bbafad3066c871ac6a1c0204b6e9353de656f927805922c176f5eb904e1db2",
+      "roopf/policy_api_r18.py": "6ac6bc5b45b3c61c7710a0461d20733e4589893a0ad883bcd7b815b9bce847b4",
+      "roopf/no_anchor_ablation.py": "8627918ea31b86bca5df8d214795e30e3827694ae1643879d210eb352f5ac753",
+      "roopf/strict_component_ablations.py": "47b24d60d9e8249cba072b2c1336b81890324377455df7e28fc822dadf7d53f4",
+      "scripts/audit_r19_independent.py": "f795e3110de17fde865955b48f16406f94a16e19eea7e987b44bc2fd1212a14b",
+      "scripts/publish_r19.py": "b2a2f22b34f008bf730ee106d7e9f596d5d9bd60abec11d8313a15ef0c50463b",
+      "scripts/run_r19_pipeline.py": "a013fb2db3760ddacb93f82ab5bcdfa48157c49c32d973139d1990425644fef4",
+      "scripts/watch_r19_contract.py": "fb159d27aad01291015191db14d6d46255c218e879424b8beffb09bc49d84d3d"
+    },
+    "memory_sha256": "e817ae55213eb9c9fd51e71821e16f2d8aa645e3c8788a25625439bdc39fb2ca",
+    "parent_r15_binding_sha256": "c34ce6535ed15f55b9eaeeb6837503e0105d5603f5e0f81b01a77f77004370ea",
+    "runtime_sha256": "a6c82fc5b0d311e715d67231338443fd3fc2110ce7fed924f2ae666399701b09"
+  },
+  "change": "Separate code binding variable from request identity; no solver, API or observation changes.",
+  "original_failure_preserved": true
+}

@@ -1,0 +1,1593 @@
+START experiment_r19_ablation.py
+{"event": "progress", "completed_arm_batches": 0, "total_arm_batches": 1400, "finished_functions_batches": 0, "elapsed_seconds": 1, "api": {"ok": 0, "partial": 0, "failed": 0, "pending": 0}}
+{"event": "progress", "completed_arm_batches": 0, "total_arm_batches": 1400, "finished_functions_batches": 0, "elapsed_seconds": 21, "api": {"ok": 2, "partial": 1, "failed": 0, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 4, "total_arm_batches": 1400, "finished_functions_batches": 0, "elapsed_seconds": 41, "api": {"ok": 16, "partial": 1, "failed": 1, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 0, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 0, "arm": "llm_full", "valid_rows": 19}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 9, "total_arm_batches": 1400, "finished_functions_batches": 0, "elapsed_seconds": 61, "api": {"ok": 24, "partial": 1, "failed": 3, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 0, "arm": "llm_full", "valid_rows": 19}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 13, "total_arm_batches": 1400, "finished_functions_batches": 0, "elapsed_seconds": 81, "api": {"ok": 33, "partial": 2, "failed": 6, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 0, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 22, "total_arm_batches": 1400, "finished_functions_batches": 0, "elapsed_seconds": 101, "api": {"ok": 44, "partial": 2, "failed": 8, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 31, "total_arm_batches": 1400, "finished_functions_batches": 3, "elapsed_seconds": 121, "api": {"ok": 56, "partial": 2, "failed": 9, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 0, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 43, "total_arm_batches": 1400, "finished_functions_batches": 7, "elapsed_seconds": 142, "api": {"ok": 71, "partial": 2, "failed": 10, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 49, "total_arm_batches": 1400, "finished_functions_batches": 8, "elapsed_seconds": 162, "api": {"ok": 81, "partial": 2, "failed": 11, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 0, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 58, "total_arm_batches": 1400, "finished_functions_batches": 9, "elapsed_seconds": 183, "api": {"ok": 91, "partial": 2, "failed": 13, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 66, "total_arm_batches": 1400, "finished_functions_batches": 12, "elapsed_seconds": 204, "api": {"ok": 104, "partial": 2, "failed": 14, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 73, "total_arm_batches": 1400, "finished_functions_batches": 14, "elapsed_seconds": 225, "api": {"ok": 112, "partial": 2, "failed": 17, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 0, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 80, "total_arm_batches": 1400, "finished_functions_batches": 16, "elapsed_seconds": 245, "api": {"ok": 123, "partial": 2, "failed": 19, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 89, "total_arm_batches": 1400, "finished_functions_batches": 19, "elapsed_seconds": 265, "api": {"ok": 136, "partial": 2, "failed": 20, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 0, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 92, "total_arm_batches": 1400, "finished_functions_batches": 19, "elapsed_seconds": 285, "api": {"ok": 141, "partial": 2, "failed": 22, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 0, "arm": "llm_full", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 96, "total_arm_batches": 1400, "finished_functions_batches": 19, "elapsed_seconds": 305, "api": {"ok": 146, "partial": 2, "failed": 26, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 0, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 107, "total_arm_batches": 1400, "finished_functions_batches": 20, "elapsed_seconds": 326, "api": {"ok": 160, "partial": 2, "failed": 27, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 116, "total_arm_batches": 1400, "finished_functions_batches": 22, "elapsed_seconds": 347, "api": {"ok": 173, "partial": 2, "failed": 27, "pending": 21}}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 122, "total_arm_batches": 1400, "finished_functions_batches": 23, "elapsed_seconds": 367, "api": {"ok": 180, "partial": 2, "failed": 29, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 0, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 131, "total_arm_batches": 1400, "finished_functions_batches": 24, "elapsed_seconds": 388, "api": {"ok": 192, "partial": 2, "failed": 30, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 143, "total_arm_batches": 1400, "finished_functions_batches": 29, "elapsed_seconds": 408, "api": {"ok": 205, "partial": 2, "failed": 31, "pending": 21}}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 151, "total_arm_batches": 1400, "finished_functions_batches": 31, "elapsed_seconds": 429, "api": {"ok": 215, "partial": 2, "failed": 33, "pending": 24}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 0, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 162, "total_arm_batches": 1400, "finished_functions_batches": 35, "elapsed_seconds": 450, "api": {"ok": 231, "partial": 2, "failed": 33, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 168, "total_arm_batches": 1400, "finished_functions_batches": 37, "elapsed_seconds": 471, "api": {"ok": 238, "partial": 2, "failed": 36, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 182, "total_arm_batches": 1400, "finished_functions_batches": 41, "elapsed_seconds": 491, "api": {"ok": 254, "partial": 2, "failed": 36, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 0, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 0, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 192, "total_arm_batches": 1400, "finished_functions_batches": 44, "elapsed_seconds": 512, "api": {"ok": 267, "partial": 2, "failed": 37, "pending": 24}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 196, "total_arm_batches": 1400, "finished_functions_batches": 45, "elapsed_seconds": 532, "api": {"ok": 276, "partial": 2, "failed": 39, "pending": 22}}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 202, "total_arm_batches": 1400, "finished_functions_batches": 45, "elapsed_seconds": 552, "api": {"ok": 285, "partial": 2, "failed": 39, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 205, "total_arm_batches": 1400, "finished_functions_batches": 45, "elapsed_seconds": 572, "api": {"ok": 289, "partial": 2, "failed": 43, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 214, "total_arm_batches": 1400, "finished_functions_batches": 48, "elapsed_seconds": 593, "api": {"ok": 303, "partial": 2, "failed": 44, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 221, "total_arm_batches": 1400, "finished_functions_batches": 49, "elapsed_seconds": 614, "api": {"ok": 309, "partial": 2, "failed": 47, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 1, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 228, "total_arm_batches": 1400, "finished_functions_batches": 50, "elapsed_seconds": 634, "api": {"ok": 321, "partial": 2, "failed": 48, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 244, "total_arm_batches": 1400, "finished_functions_batches": 57, "elapsed_seconds": 654, "api": {"ok": 335, "partial": 2, "failed": 49, "pending": 22}}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 254, "total_arm_batches": 1400, "finished_functions_batches": 60, "elapsed_seconds": 675, "api": {"ok": 348, "partial": 2, "failed": 50, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 1, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 263, "total_arm_batches": 1400, "finished_functions_batches": 61, "elapsed_seconds": 695, "api": {"ok": 361, "partial": 2, "failed": 51, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 270, "total_arm_batches": 1400, "finished_functions_batches": 62, "elapsed_seconds": 716, "api": {"ok": 369, "partial": 2, "failed": 54, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 277, "total_arm_batches": 1400, "finished_functions_batches": 64, "elapsed_seconds": 736, "api": {"ok": 379, "partial": 2, "failed": 56, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 288, "total_arm_batches": 1400, "finished_functions_batches": 66, "elapsed_seconds": 756, "api": {"ok": 392, "partial": 2, "failed": 57, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 1, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 294, "total_arm_batches": 1400, "finished_functions_batches": 67, "elapsed_seconds": 777, "api": {"ok": 403, "partial": 2, "failed": 59, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 297, "total_arm_batches": 1400, "finished_functions_batches": 67, "elapsed_seconds": 797, "api": {"ok": 407, "partial": 2, "failed": 63, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 310, "total_arm_batches": 1400, "finished_functions_batches": 71, "elapsed_seconds": 818, "api": {"ok": 419, "partial": 2, "failed": 64, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 318, "total_arm_batches": 1400, "finished_functions_batches": 74, "elapsed_seconds": 839, "api": {"ok": 433, "partial": 2, "failed": 65, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 326, "total_arm_batches": 1400, "finished_functions_batches": 75, "elapsed_seconds": 860, "api": {"ok": 445, "partial": 2, "failed": 66, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 2, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 333, "total_arm_batches": 1400, "finished_functions_batches": 76, "elapsed_seconds": 881, "api": {"ok": 457, "partial": 2, "failed": 68, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 341, "total_arm_batches": 1400, "finished_functions_batches": 78, "elapsed_seconds": 901, "api": {"ok": 470, "partial": 2, "failed": 69, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 1, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 1, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 352, "total_arm_batches": 1400, "finished_functions_batches": 80, "elapsed_seconds": 922, "api": {"ok": 483, "partial": 2, "failed": 69, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 364, "total_arm_batches": 1400, "finished_functions_batches": 84, "elapsed_seconds": 943, "api": {"ok": 498, "partial": 2, "failed": 70, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 371, "total_arm_batches": 1400, "finished_functions_batches": 86, "elapsed_seconds": 963, "api": {"ok": 506, "partial": 2, "failed": 71, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 3, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 377, "total_arm_batches": 1400, "finished_functions_batches": 88, "elapsed_seconds": 983, "api": {"ok": 514, "partial": 2, "failed": 74, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 386, "total_arm_batches": 1400, "finished_functions_batches": 91, "elapsed_seconds": 1004, "api": {"ok": 525, "partial": 2, "failed": 75, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 396, "total_arm_batches": 1400, "finished_functions_batches": 94, "elapsed_seconds": 1024, "api": {"ok": 538, "partial": 2, "failed": 75, "pending": 21}}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 399, "total_arm_batches": 1400, "finished_functions_batches": 94, "elapsed_seconds": 1044, "api": {"ok": 545, "partial": 2, "failed": 78, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 408, "total_arm_batches": 1400, "finished_functions_batches": 96, "elapsed_seconds": 1065, "api": {"ok": 555, "partial": 3, "failed": 78, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 19}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 415, "total_arm_batches": 1400, "finished_functions_batches": 98, "elapsed_seconds": 1085, "api": {"ok": 568, "partial": 3, "failed": 79, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 2, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 429, "total_arm_batches": 1400, "finished_functions_batches": 102, "elapsed_seconds": 1106, "api": {"ok": 579, "partial": 3, "failed": 80, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 437, "total_arm_batches": 1400, "finished_functions_batches": 104, "elapsed_seconds": 1126, "api": {"ok": 591, "partial": 3, "failed": 81, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 444, "total_arm_batches": 1400, "finished_functions_batches": 106, "elapsed_seconds": 1147, "api": {"ok": 601, "partial": 3, "failed": 83, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 446, "total_arm_batches": 1400, "finished_functions_batches": 106, "elapsed_seconds": 1167, "api": {"ok": 607, "partial": 3, "failed": 87, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 454, "total_arm_batches": 1400, "finished_functions_batches": 107, "elapsed_seconds": 1187, "api": {"ok": 615, "partial": 3, "failed": 89, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 461, "total_arm_batches": 1400, "finished_functions_batches": 108, "elapsed_seconds": 1208, "api": {"ok": 624, "partial": 3, "failed": 91, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 472, "total_arm_batches": 1400, "finished_functions_batches": 110, "elapsed_seconds": 1229, "api": {"ok": 639, "partial": 3, "failed": 91, "pending": 21}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 483, "total_arm_batches": 1400, "finished_functions_batches": 113, "elapsed_seconds": 1249, "api": {"ok": 653, "partial": 3, "failed": 91, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 493, "total_arm_batches": 1400, "finished_functions_batches": 118, "elapsed_seconds": 1269, "api": {"ok": 664, "partial": 3, "failed": 92, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 498, "total_arm_batches": 1400, "finished_functions_batches": 120, "elapsed_seconds": 1290, "api": {"ok": 673, "partial": 3, "failed": 95, "pending": 24}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 509, "total_arm_batches": 1400, "finished_functions_batches": 123, "elapsed_seconds": 1310, "api": {"ok": 685, "partial": 3, "failed": 95, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 518, "total_arm_batches": 1400, "finished_functions_batches": 125, "elapsed_seconds": 1331, "api": {"ok": 696, "partial": 3, "failed": 96, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 3, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 526, "total_arm_batches": 1400, "finished_functions_batches": 127, "elapsed_seconds": 1351, "api": {"ok": 705, "partial": 3, "failed": 98, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 2, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 3, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 2, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 2, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 531, "total_arm_batches": 1400, "finished_functions_batches": 128, "elapsed_seconds": 1372, "api": {"ok": 714, "partial": 3, "failed": 101, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 4, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 3, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 538, "total_arm_batches": 1400, "finished_functions_batches": 129, "elapsed_seconds": 1393, "api": {"ok": 722, "partial": 3, "failed": 103, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 548, "total_arm_batches": 1400, "finished_functions_batches": 131, "elapsed_seconds": 1413, "api": {"ok": 735, "partial": 3, "failed": 104, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 553, "total_arm_batches": 1400, "finished_functions_batches": 132, "elapsed_seconds": 1433, "api": {"ok": 747, "partial": 3, "failed": 105, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 562, "total_arm_batches": 1400, "finished_functions_batches": 134, "elapsed_seconds": 1455, "api": {"ok": 758, "partial": 3, "failed": 107, "pending": 22}}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 572, "total_arm_batches": 1400, "finished_functions_batches": 138, "elapsed_seconds": 1475, "api": {"ok": 770, "partial": 3, "failed": 107, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 578, "total_arm_batches": 1400, "finished_functions_batches": 138, "elapsed_seconds": 1495, "api": {"ok": 781, "partial": 3, "failed": 110, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 586, "total_arm_batches": 1400, "finished_functions_batches": 140, "elapsed_seconds": 1516, "api": {"ok": 791, "partial": 3, "failed": 110, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 593, "total_arm_batches": 1400, "finished_functions_batches": 142, "elapsed_seconds": 1536, "api": {"ok": 800, "partial": 3, "failed": 113, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 599, "total_arm_batches": 1400, "finished_functions_batches": 143, "elapsed_seconds": 1557, "api": {"ok": 810, "partial": 3, "failed": 114, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 606, "total_arm_batches": 1400, "finished_functions_batches": 145, "elapsed_seconds": 1577, "api": {"ok": 817, "partial": 3, "failed": 117, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 3, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 615, "total_arm_batches": 1400, "finished_functions_batches": 148, "elapsed_seconds": 1598, "api": {"ok": 830, "partial": 3, "failed": 117, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 622, "total_arm_batches": 1400, "finished_functions_batches": 149, "elapsed_seconds": 1618, "api": {"ok": 838, "partial": 3, "failed": 119, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 629, "total_arm_batches": 1400, "finished_functions_batches": 151, "elapsed_seconds": 1639, "api": {"ok": 846, "partial": 3, "failed": 121, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 635, "total_arm_batches": 1400, "finished_functions_batches": 152, "elapsed_seconds": 1660, "api": {"ok": 855, "partial": 3, "failed": 122, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 641, "total_arm_batches": 1400, "finished_functions_batches": 153, "elapsed_seconds": 1680, "api": {"ok": 866, "partial": 3, "failed": 124, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 4, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 5, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 653, "total_arm_batches": 1400, "finished_functions_batches": 157, "elapsed_seconds": 1700, "api": {"ok": 873, "partial": 3, "failed": 126, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 5, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 660, "total_arm_batches": 1400, "finished_functions_batches": 159, "elapsed_seconds": 1721, "api": {"ok": 884, "partial": 3, "failed": 128, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 667, "total_arm_batches": 1400, "finished_functions_batches": 161, "elapsed_seconds": 1742, "api": {"ok": 895, "partial": 3, "failed": 130, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 4, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 19}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 680, "total_arm_batches": 1400, "finished_functions_batches": 164, "elapsed_seconds": 1763, "api": {"ok": 907, "partial": 4, "failed": 130, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 688, "total_arm_batches": 1400, "finished_functions_batches": 167, "elapsed_seconds": 1783, "api": {"ok": 917, "partial": 4, "failed": 132, "pending": 22}}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 694, "total_arm_batches": 1400, "finished_functions_batches": 168, "elapsed_seconds": 1804, "api": {"ok": 928, "partial": 4, "failed": 134, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 4, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 701, "total_arm_batches": 1400, "finished_functions_batches": 169, "elapsed_seconds": 1824, "api": {"ok": 936, "partial": 5, "failed": 136, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 5, "arm": "llm_full", "valid_rows": 19}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 712, "total_arm_batches": 1400, "finished_functions_batches": 173, "elapsed_seconds": 1845, "api": {"ok": 951, "partial": 5, "failed": 136, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 5, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 716, "total_arm_batches": 1400, "finished_functions_batches": 173, "elapsed_seconds": 1865, "api": {"ok": 960, "partial": 5, "failed": 138, "pending": 21}}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 4, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 728, "total_arm_batches": 1400, "finished_functions_batches": 176, "elapsed_seconds": 1885, "api": {"ok": 972, "partial": 5, "failed": 139, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 5, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 5, "arm": "llm_full", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 731, "total_arm_batches": 1400, "finished_functions_batches": 176, "elapsed_seconds": 1905, "api": {"ok": 976, "partial": 5, "failed": 142, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 5, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 740, "total_arm_batches": 1400, "finished_functions_batches": 178, "elapsed_seconds": 1925, "api": {"ok": 988, "partial": 5, "failed": 144, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 3, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 3, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 754, "total_arm_batches": 1400, "finished_functions_batches": 183, "elapsed_seconds": 1946, "api": {"ok": 1001, "partial": 5, "failed": 144, "pending": 22}}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 760, "total_arm_batches": 1400, "finished_functions_batches": 186, "elapsed_seconds": 1966, "api": {"ok": 1012, "partial": 5, "failed": 145, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 5, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 5, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 766, "total_arm_batches": 1400, "finished_functions_batches": 186, "elapsed_seconds": 1986, "api": {"ok": 1021, "partial": 5, "failed": 148, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 4, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 4, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 779, "total_arm_batches": 1400, "finished_functions_batches": 190, "elapsed_seconds": 2007, "api": {"ok": 1032, "partial": 5, "failed": 149, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 783, "total_arm_batches": 1400, "finished_functions_batches": 191, "elapsed_seconds": 2028, "api": {"ok": 1038, "partial": 5, "failed": 152, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 792, "total_arm_batches": 1400, "finished_functions_batches": 193, "elapsed_seconds": 2048, "api": {"ok": 1051, "partial": 5, "failed": 153, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 5, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 798, "total_arm_batches": 1400, "finished_functions_batches": 193, "elapsed_seconds": 2068, "api": {"ok": 1056, "partial": 5, "failed": 157, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 5, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 803, "total_arm_batches": 1400, "finished_functions_batches": 193, "elapsed_seconds": 2088, "api": {"ok": 1066, "partial": 5, "failed": 158, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 810, "total_arm_batches": 1400, "finished_functions_batches": 195, "elapsed_seconds": 2109, "api": {"ok": 1073, "partial": 5, "failed": 161, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 824, "total_arm_batches": 1400, "finished_functions_batches": 201, "elapsed_seconds": 2129, "api": {"ok": 1085, "partial": 5, "failed": 162, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 830, "total_arm_batches": 1400, "finished_functions_batches": 202, "elapsed_seconds": 2150, "api": {"ok": 1093, "partial": 5, "failed": 165, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 5, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 838, "total_arm_batches": 1400, "finished_functions_batches": 204, "elapsed_seconds": 2171, "api": {"ok": 1103, "partial": 5, "failed": 166, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 5, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 842, "total_arm_batches": 1400, "finished_functions_batches": 205, "elapsed_seconds": 2191, "api": {"ok": 1113, "partial": 5, "failed": 167, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 848, "total_arm_batches": 1400, "finished_functions_batches": 205, "elapsed_seconds": 2211, "api": {"ok": 1124, "partial": 5, "failed": 168, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 855, "total_arm_batches": 1400, "finished_functions_batches": 206, "elapsed_seconds": 2232, "api": {"ok": 1136, "partial": 5, "failed": 169, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 864, "total_arm_batches": 1400, "finished_functions_batches": 209, "elapsed_seconds": 2253, "api": {"ok": 1148, "partial": 5, "failed": 170, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 873, "total_arm_batches": 1400, "finished_functions_batches": 212, "elapsed_seconds": 2273, "api": {"ok": 1159, "partial": 5, "failed": 171, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 5, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 884, "total_arm_batches": 1400, "finished_functions_batches": 215, "elapsed_seconds": 2294, "api": {"ok": 1172, "partial": 5, "failed": 171, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 891, "total_arm_batches": 1400, "finished_functions_batches": 216, "elapsed_seconds": 2314, "api": {"ok": 1183, "partial": 5, "failed": 172, "pending": 21}}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 899, "total_arm_batches": 1400, "finished_functions_batches": 217, "elapsed_seconds": 2335, "api": {"ok": 1194, "partial": 5, "failed": 172, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 909, "total_arm_batches": 1400, "finished_functions_batches": 221, "elapsed_seconds": 2355, "api": {"ok": 1207, "partial": 5, "failed": 172, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 913, "total_arm_batches": 1400, "finished_functions_batches": 221, "elapsed_seconds": 2376, "api": {"ok": 1214, "partial": 5, "failed": 175, "pending": 24}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 917, "total_arm_batches": 1400, "finished_functions_batches": 223, "elapsed_seconds": 2396, "api": {"ok": 1221, "partial": 5, "failed": 177, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 929, "total_arm_batches": 1400, "finished_functions_batches": 227, "elapsed_seconds": 2416, "api": {"ok": 1235, "partial": 5, "failed": 177, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 5, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 5, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 941, "total_arm_batches": 1400, "finished_functions_batches": 232, "elapsed_seconds": 2437, "api": {"ok": 1248, "partial": 5, "failed": 178, "pending": 21}}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 947, "total_arm_batches": 1400, "finished_functions_batches": 233, "elapsed_seconds": 2457, "api": {"ok": 1256, "partial": 5, "failed": 180, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 7, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 6, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 959, "total_arm_batches": 1400, "finished_functions_batches": 235, "elapsed_seconds": 2478, "api": {"ok": 1271, "partial": 5, "failed": 180, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 965, "total_arm_batches": 1400, "finished_functions_batches": 236, "elapsed_seconds": 2499, "api": {"ok": 1280, "partial": 5, "failed": 182, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 971, "total_arm_batches": 1400, "finished_functions_batches": 238, "elapsed_seconds": 2519, "api": {"ok": 1291, "partial": 5, "failed": 182, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 980, "total_arm_batches": 1400, "finished_functions_batches": 241, "elapsed_seconds": 2539, "api": {"ok": 1303, "partial": 5, "failed": 183, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 7, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 987, "total_arm_batches": 1400, "finished_functions_batches": 242, "elapsed_seconds": 2560, "api": {"ok": 1314, "partial": 5, "failed": 184, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 996, "total_arm_batches": 1400, "finished_functions_batches": 244, "elapsed_seconds": 2581, "api": {"ok": 1323, "partial": 5, "failed": 186, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1001, "total_arm_batches": 1400, "finished_functions_batches": 244, "elapsed_seconds": 2601, "api": {"ok": 1332, "partial": 5, "failed": 187, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 1005, "total_arm_batches": 1400, "finished_functions_batches": 245, "elapsed_seconds": 2622, "api": {"ok": 1340, "partial": 5, "failed": 188, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1013, "total_arm_batches": 1400, "finished_functions_batches": 246, "elapsed_seconds": 2643, "api": {"ok": 1353, "partial": 5, "failed": 188, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 7, "arm": "llm_full", "valid_rows": 19}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 6, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1025, "total_arm_batches": 1400, "finished_functions_batches": 249, "elapsed_seconds": 2663, "api": {"ok": 1366, "partial": 6, "failed": 188, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1028, "total_arm_batches": 1400, "finished_functions_batches": 249, "elapsed_seconds": 2684, "api": {"ok": 1371, "partial": 6, "failed": 191, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1036, "total_arm_batches": 1400, "finished_functions_batches": 252, "elapsed_seconds": 2704, "api": {"ok": 1384, "partial": 6, "failed": 191, "pending": 21}}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 7, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 6, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1043, "total_arm_batches": 1400, "finished_functions_batches": 254, "elapsed_seconds": 2725, "api": {"ok": 1395, "partial": 6, "failed": 192, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1048, "total_arm_batches": 1400, "finished_functions_batches": 255, "elapsed_seconds": 2746, "api": {"ok": 1405, "partial": 7, "failed": 193, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 7, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 19}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1059, "total_arm_batches": 1400, "finished_functions_batches": 258, "elapsed_seconds": 2767, "api": {"ok": 1412, "partial": 7, "failed": 196, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1068, "total_arm_batches": 1400, "finished_functions_batches": 261, "elapsed_seconds": 2788, "api": {"ok": 1425, "partial": 7, "failed": 196, "pending": 24}}
+{"event": "progress", "completed_arm_batches": 1068, "total_arm_batches": 1400, "finished_functions_batches": 261, "elapsed_seconds": 2808, "api": {"ok": 1425, "partial": 7, "failed": 196, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 8, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1071, "total_arm_batches": 1400, "finished_functions_batches": 261, "elapsed_seconds": 2828, "api": {"ok": 1429, "partial": 7, "failed": 198, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 7, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 7, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1080, "total_arm_batches": 1400, "finished_functions_batches": 263, "elapsed_seconds": 2849, "api": {"ok": 1442, "partial": 7, "failed": 199, "pending": 24}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 8, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1089, "total_arm_batches": 1400, "finished_functions_batches": 266, "elapsed_seconds": 2869, "api": {"ok": 1455, "partial": 7, "failed": 200, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 8, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1097, "total_arm_batches": 1400, "finished_functions_batches": 267, "elapsed_seconds": 2890, "api": {"ok": 1467, "partial": 7, "failed": 201, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1109, "total_arm_batches": 1400, "finished_functions_batches": 272, "elapsed_seconds": 2911, "api": {"ok": 1479, "partial": 7, "failed": 202, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 7, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1117, "total_arm_batches": 1400, "finished_functions_batches": 273, "elapsed_seconds": 2931, "api": {"ok": 1494, "partial": 7, "failed": 202, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1130, "total_arm_batches": 1400, "finished_functions_batches": 277, "elapsed_seconds": 2952, "api": {"ok": 1509, "partial": 7, "failed": 202, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1138, "total_arm_batches": 1400, "finished_functions_batches": 279, "elapsed_seconds": 2973, "api": {"ok": 1518, "partial": 8, "failed": 203, "pending": 24}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1141, "total_arm_batches": 1400, "finished_functions_batches": 279, "elapsed_seconds": 2993, "api": {"ok": 1527, "partial": 8, "failed": 204, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 19}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 6, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 6, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 7, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1155, "total_arm_batches": 1400, "finished_functions_batches": 284, "elapsed_seconds": 3014, "api": {"ok": 1540, "partial": 8, "failed": 204, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 8, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 1160, "total_arm_batches": 1400, "finished_functions_batches": 285, "elapsed_seconds": 3035, "api": {"ok": 1551, "partial": 8, "failed": 205, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1166, "total_arm_batches": 1400, "finished_functions_batches": 286, "elapsed_seconds": 3055, "api": {"ok": 1559, "partial": 8, "failed": 207, "pending": 24}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1171, "total_arm_batches": 1400, "finished_functions_batches": 287, "elapsed_seconds": 3076, "api": {"ok": 1573, "partial": 8, "failed": 207, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1185, "total_arm_batches": 1400, "finished_functions_batches": 292, "elapsed_seconds": 3097, "api": {"ok": 1584, "partial": 9, "failed": 207, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 9}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 8, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1193, "total_arm_batches": 1400, "finished_functions_batches": 293, "elapsed_seconds": 3118, "api": {"ok": 1593, "partial": 9, "failed": 209, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 8, "arm": "llm_full", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 8, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1200, "total_arm_batches": 1400, "finished_functions_batches": 293, "elapsed_seconds": 3138, "api": {"ok": 1602, "partial": 9, "failed": 211, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1205, "total_arm_batches": 1400, "finished_functions_batches": 294, "elapsed_seconds": 3159, "api": {"ok": 1610, "partial": 9, "failed": 213, "pending": 22}}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 7, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 7, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1214, "total_arm_batches": 1400, "finished_functions_batches": 296, "elapsed_seconds": 3179, "api": {"ok": 1620, "partial": 9, "failed": 214, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1218, "total_arm_batches": 1400, "finished_functions_batches": 297, "elapsed_seconds": 3200, "api": {"ok": 1631, "partial": 9, "failed": 214, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 2, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1225, "total_arm_batches": 1400, "finished_functions_batches": 299, "elapsed_seconds": 3221, "api": {"ok": 1638, "partial": 9, "failed": 217, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 8, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1232, "total_arm_batches": 1400, "finished_functions_batches": 301, "elapsed_seconds": 3242, "api": {"ok": 1648, "partial": 9, "failed": 218, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1241, "total_arm_batches": 1400, "finished_functions_batches": 304, "elapsed_seconds": 3262, "api": {"ok": 1658, "partial": 9, "failed": 219, "pending": 24}}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 8, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1247, "total_arm_batches": 1400, "finished_functions_batches": 305, "elapsed_seconds": 3283, "api": {"ok": 1667, "partial": 9, "failed": 221, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 1, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1259, "total_arm_batches": 1400, "finished_functions_batches": 308, "elapsed_seconds": 3304, "api": {"ok": 1680, "partial": 9, "failed": 221, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 8, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 3, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1266, "total_arm_batches": 1400, "finished_functions_batches": 312, "elapsed_seconds": 3324, "api": {"ok": 1687, "partial": 9, "failed": 223, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1271, "total_arm_batches": 1400, "finished_functions_batches": 313, "elapsed_seconds": 3345, "api": {"ok": 1697, "partial": 9, "failed": 225, "pending": 21}}
+{"event": "arm_complete", "group": "BBOB", "fid": 7, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 1277, "total_arm_batches": 1400, "finished_functions_batches": 314, "elapsed_seconds": 3365, "api": {"ok": 1706, "partial": 9, "failed": 226, "pending": 24}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 1280, "total_arm_batches": 1400, "finished_functions_batches": 314, "elapsed_seconds": 3385, "api": {"ok": 1712, "partial": 9, "failed": 228, "pending": 22}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 6, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1289, "total_arm_batches": 1400, "finished_functions_batches": 315, "elapsed_seconds": 3406, "api": {"ok": 1723, "partial": 9, "failed": 229, "pending": 22}}
+{"event": "arm_complete", "group": "BBOB", "fid": 13, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 8, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1297, "total_arm_batches": 1400, "finished_functions_batches": 317, "elapsed_seconds": 3426, "api": {"ok": 1733, "partial": 9, "failed": 230, "pending": 23}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 4, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1305, "total_arm_batches": 1400, "finished_functions_batches": 320, "elapsed_seconds": 3447, "api": {"ok": 1743, "partial": 9, "failed": 232, "pending": 23}}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 10, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1313, "total_arm_batches": 1400, "finished_functions_batches": 322, "elapsed_seconds": 3468, "api": {"ok": 1753, "partial": 9, "failed": 234, "pending": 23}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 17, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 20, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 12, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 18, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1325, "total_arm_batches": 1400, "finished_functions_batches": 326, "elapsed_seconds": 3489, "api": {"ok": 1766, "partial": 9, "failed": 234, "pending": 21}}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 5, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "progress", "completed_arm_batches": 1333, "total_arm_batches": 1400, "finished_functions_batches": 328, "elapsed_seconds": 3510, "api": {"ok": 1774, "partial": 9, "failed": 237, "pending": 21}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 3, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 9, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1341, "total_arm_batches": 1400, "finished_functions_batches": 330, "elapsed_seconds": 3531, "api": {"ok": 1783, "partial": 9, "failed": 239, "pending": 18}}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 15, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 24, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1347, "total_arm_batches": 1400, "finished_functions_batches": 332, "elapsed_seconds": 3551, "api": {"ok": 1791, "partial": 9, "failed": 241, "pending": 17}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 16, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 9, "arm": "llm_full", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1357, "total_arm_batches": 1400, "finished_functions_batches": 333, "elapsed_seconds": 3571, "api": {"ok": 1803, "partial": 9, "failed": 242, "pending": 16}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 2, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 8, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 8, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 9, "arm": "llm_full", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 5, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 21, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1370, "total_arm_batches": 1400, "finished_functions_batches": 337, "elapsed_seconds": 3592, "api": {"ok": 1818, "partial": 9, "failed": 242, "pending": 12}}
+{"event": "arm_complete", "group": "UAV", "fid": 2, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 19, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 4, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "progress", "completed_arm_batches": 1377, "total_arm_batches": 1400, "finished_functions_batches": 340, "elapsed_seconds": 3612, "api": {"ok": 1829, "partial": 9, "failed": 243, "pending": 9}}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 14, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 6, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 5, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 1, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 23, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 11, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 10}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 1, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "progress", "completed_arm_batches": 1393, "total_arm_batches": 1400, "finished_functions_batches": 347, "elapsed_seconds": 3633, "api": {"ok": 1843, "partial": 9, "failed": 243, "pending": 2}}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 9, "arm": "llm_no_anchor", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "CEC-style", "fid": 4, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "BBOB", "fid": 22, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 9, "arm": "llm_no_online_generators", "valid_rows": 20}
+{"event": "arm_complete", "group": "UAV", "fid": 3, "batch": 9, "arm": "no_agent", "valid_rows": 0}
+Traceback (most recent call last):
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/experiment_r19_ablation.py", line 125, in <module>
+    if __name__=='__main__':main()
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/experiment_r19_ablation.py", line 120, in main
+    report()
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/report_r19_ablation.py", line 40, in report
+    receipt=json.loads((folder/(arm+'.json')).read_text());assert receipt['binding']==identity and receipt['objective_rng_boundaries_matched']==201
+AssertionError
+Traceback (most recent call last):
+  File "/home/skq/repos/roopf_agent/ROOPF/scripts/run_r19_pipeline.py", line 7, in <module>
+    print('START',script,flush=True);subprocess.run([sys.executable,'-u','scripts/'+script,*args],check=True)
+  File "/home/skq/.conda/envs/ooneurgo/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/skq/.conda/envs/ooneurgo/bin/python', '-u', 'scripts/experiment_r19_ablation.py']' returned non-zero exit status 1.
